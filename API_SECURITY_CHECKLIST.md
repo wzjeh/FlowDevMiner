@@ -64,8 +64,8 @@ git grep -i "sk-e950\|AIzaSyCt"
 
 **在终端中设置**：
 ```bash
-export QWEN_API_KEY='sk-e950e56cc74d4d89bd21f3866fa7ff51'
-export GOOGLE_API_KEY='AIzaSyCt-ViWsRfCAUm3z6iLPu-b-Yb7H8OHg8o'
+export QWEN_API_KEY='YOUR_QWEN_API_KEY_HERE'
+export GOOGLE_API_KEY='YOUR_GOOGLE_API_KEY_HERE'
 ```
 
 **在Notebook Cell 0**：
@@ -80,8 +80,8 @@ print(f"✅ API密钥已从环境变量加载")
 
 **创建 `.env` 文件**（已在.gitignore中）：
 ```bash
-QWEN_API_KEY=sk-e950e56cc74d4d89bd21f3866fa7ff51
-GOOGLE_API_KEY=AIzaSyCt-ViWsRfCAUm3z6iLPu-b-Yb7H8OHg8o
+QWEN_API_KEY=YOUR_QWEN_API_KEY_HERE
+GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY_HERE
 ```
 
 **在Notebook Cell 0**：
@@ -95,7 +95,7 @@ print("✅ API密钥已从.env加载")
 
 **创建 `.api_key` 文件**（已在.gitignore中）：
 ```
-sk-e950e56cc74d4d89bd21f3866fa7ff51
+YOUR_QWEN_API_KEY_HERE
 ```
 
 **在Notebook Cell 0**：
