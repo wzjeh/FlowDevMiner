@@ -18,7 +18,7 @@ FlowDevMiner is a powerful tool designed to extract chemical reaction parameters
 ## 📂 Project Structure
 
 - **`main.py`**: The main Command Line Interface (CLI) entry point. Use this to run the extraction pipeline on folders of PDFs.
-- **`OSSExtractor_Debug.ipynb`**: An interactive Jupyter Notebook for development, debugging, and testing new features. It allows step-by-step execution and visualization of intermediate results.
+- **`FlowDevMiner_Debug.ipynb`**: An interactive Jupyter Notebook for development, debugging, and testing new features. It allows step-by-step execution and visualization of intermediate results.
 - **`config.yaml`**: Configuration file for model paths, API keys (env vars), and pipeline settings.
 - **`core/`**: Contains the core logic:
   - `local_pipeline.py`: Implements the 5-step local extraction logic (Filter -> Abstract -> Summarize -> Overall -> Impact).
@@ -70,11 +70,11 @@ python main.py --input_dir data/papers --output_dir data/results --engine qwen
 python main.py --input_dir data/papers --output_dir data/results --engine gemini
 ```
 
-### 2. Using Jupyter Notebook (`OSSExtractor_Debug.ipynb`)
+### 2. Using Jupyter Notebook (`Flow.ipynb`)
 
 Start Jupyter Lab or Notebook:
 ```bash
-jupyter lab OSSExtractor_Debug.ipynb
+jupyter lab FlowDevMiner_Debug.ipynb
 ```
 This notebook is ideal for experimenting with different extraction parameters (`FCPD_TOP_N`, `FCPD_SUM_PACK`, etc.) and visualizing the output of each pipeline stage.
 
