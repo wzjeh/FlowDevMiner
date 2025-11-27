@@ -70,7 +70,7 @@ python main.py --input_dir data/papers --output_dir data/results --engine qwen
 python main.py --input_dir data/papers --output_dir data/results --engine gemini
 ```
 
-### 2. Using Jupyter Notebook (`Flow.ipynb`)
+### 2. Using Jupyter Notebook (`FlowDevMiner.ipynb`)
 
 Start Jupyter Lab or Notebook:
 ```bash
