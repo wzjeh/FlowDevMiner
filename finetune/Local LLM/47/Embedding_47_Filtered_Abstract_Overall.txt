@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "nanocrystal formation", "reactants": ["apigenin", "deionized water"], "products": [], "conditions": [{"type": "flow_rate", "value": 1}, {"type": "time", "value": 0.16}], "reactor": {"type": "microreactor"}, "metrics": {"conversion": null, "yield": 95.2}}}

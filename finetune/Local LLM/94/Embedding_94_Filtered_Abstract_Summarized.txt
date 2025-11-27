@@ -1,0 +1,54 @@
+{"name": name, "yield_optimal": None, "unit": "%"}
+
+{ "reaction_summary": {  "reaction_type":"...",  "reactants":[{"name":"...","role":"..."}, {"name":"...","role":"..."}, {"name":"...","role":"solvent"}],  "products":[    {"name":"...","yield_optimal":95,"unit":"%"},    {"name":"...","yield_optimal":null,"unit":"%"},    {"name":"...","yield_optimal":null,"unit":"%"} ],  "conditions":[    {"type":"temperature","value":"25 °C"},    {"type":"residence_time","value":null}
+
+{
+        "conversion": None,
+        "yield": None,
+        "selectivity": None,
+        "unit": "%"
+    }
+
+{ "reaction_summary": { 
+    "reaction_type":"asymmetric catalytic hydrogenation", 
+    "reactants":[{"name":"chiral metallocene catalyst","role":"catalyst"},{"name":"chiral ligand","role":"key reactant"}], 
+    "products":[{"name":"enantiomerically pure compound","yield_optimal":95,"unit":"%"}
+
+{"reaction_summary": {"reaction_type": "hydroformylation", "reactants": [{"name": "aldehyde", "role": "reactant"}], "products": [{"name": "alcohol", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "10 min"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}, {"type": "pressure", "value": "100 bar"}], "reactor": {"type": "microreactor", "inner_diameter": "2 mm"}, "metrics": {}}}
+
+{"reaction_summary": {"reactants": [{"name": "N,N-dimethylformamide", "role": "solvent"}], "products": [], "conditions": [{"type": "residence_time", "value": "2.4 min"}], "reactor": {"type": "microreactors", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null}}}
+
+{"name": match}
+
+- Assume that if a field is not explicitly stated in the input text, it should be included with default values.
+
+Step 1: Preprocess the input string to extract relevant information
+
+
+
+
+    # Extract temperature and flow rate from the input string using regular expressions
+    temp_match = re.search(r'T=(\d+) \D*(°C)', input_str)
+    if temp_match:
+        temp_value = temp_match.group(1) + ' °C'
+    
+    flow_rate_match = re.search(r'(\d+(?:\.\d+)?)\ D*mL/min', input_str)
+    if flow_rate_match:
+        flow_rate_value = flow_rate_match.group(0)
+
+    # Extract reactor type and inner diameter from the input string
+    reactor_type_match = re.search(r'in a (\D*)', input_str)
+    if reactor_type_match:
+        reactor_type = reactor_type_match.group(1).strip()
+    
+    inner_diameter_match = re.search(r'(\d+(?:\.\d+)?) mm', input_str)
+    if inner_diameter_match:
+        inner_diameter_value = inner_diameter_match.group(0)
+
+    # Extract yield from the input string
+    yield_match = re
+
+{ "reaction_summary": {  "reaction_type":"asymmetric catalytic hydrogenation",  "reactants":[{"name":"enantiomerically pure substrates","role":"reactant"}, {"name":"chiral catalyst","role":"catalyst"}],  "products":[{"name":"enantiopure intermediates","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":120}
+
+{ "reaction_summary": {  "reaction_type":"diazotization",  "reactants":[{"name":"nitrobenzene","role":"solvent"}],  "products":[{"name":"azobenzene","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":"10 min"},    {"type":"flow_rate_reactant_A","value":"0.1 mL/min"},    {"type":"pressure","value":"atmospheric pressure"}
+

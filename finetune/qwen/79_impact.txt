@@ -1,0 +1,6 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| inlet nitrobenzene concentration | durability | decrease |
+| flow_rate | durability | decrease |

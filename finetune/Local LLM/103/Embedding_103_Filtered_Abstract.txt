@@ -1,0 +1,20 @@
+Characterization of mixing; continuous flow experimen- tal setup (PDF) ■AUTHOR INFORMATION
+
+Summary: The paragraph describes the development of a flow-chemistry process for synthesizing C.I. Reactive Red 195 dye using diazotization, coupling, and oxidation−reduction reactions. Key reactants include NADA, hydrochloric acid, sodium nitrite, sulfamic acid, and CTN solution. The reaction occurs in a tubular reactor with four inlets (1-4) for the flow of raw materials and outlet at the top for product discharge. Critical conditions include controlled temperature by a high−low temperature circulating chiller, pump start times, and flow rates. Outcomes are analyzed using HPLC.
+
+(XS) decreases, indicating better mixing performance. The minimum XS value is approximately 0.03, close to zero, indicating that the reactor provides nearly ideal mixing conditions, ensuring uniform distribution of reactants. Whether 1-naphthol is fed through Inlet 4 or Inlet 5, the mixing efficiency remains stable. This demonstrates that the material can be efficiently mixed regardless of the inl
+
+Figure 5. Optimization of continuous coupling reaction conditions. (a) Effect of temperature on dye purity. Conditions: n(NaNO2)/n(NADA) = 1.05, n(HCl)/n(NADA) = 0, n(NH2SO3H)/n(NADA) = 0.05, pH = 8, Q = 1000 mL/min. (b) Effect of CTN solution pH on dye purity. Conditions: n(NaNO2)/n(NADA) = 1.05, n(HCl)/n(NADA) = 0, n(NH2SO3H)/n(NADA) = 0.05, TP = 20 °C, Q = 1000 mL/min. (c) Effect of total flow 
+
+process remains absent, which is essential for improving the C.I. Reactive Red 195 production and ensuring safety. Unlike traditional batch operations, continuous flow technology offers several advantages, including high mass and heat transfer efficiency, stable product quality, and a compact footprint.22−24 Recently, researchers have conducted continu- ous coupling reactions in a microreactor, us
+
+also known as the Diazo coupling reaction, has been widely used to characterize the mixing efficiency of various reactors.32−34 The specific reaction formula and details can be found in the Supporting Information. In this study, the reaction system was employed to assess the mixing efficiency in a dynamic tubular reactor, with the segregation index (XS) determined based on product concentration me
+
+products) using a screw reactor. Green Chem. 2019, 21 (20), 5639− 5646. (31) Bourne, J. R.; Kut, O. M.; Lenzner, J.; Maire, H. Kinetics of the diazo coupling between 1-naphthol and diazotized sulfanilic acid. Ind. Eng. Chem. Res. 1990, 29 (9), 1761−1765. (32) Zhang, H.; Kopfmüller, T.; Achermann, R.; Zhang, J.; Teixeira, A.; Shen, Y.; Jensen, K. F. Accessing multidimensional mixing via 3D printin
+
+Response: Flow-chemistry process development involves a continuous flow microreactor for the synthesis of 1,3,5-triazine derivatives using an azide and alkine as key reactants with a catalyst. The products are triazines with varying substituents. A packed-bed reactor is used, with critical conditions including residence time (20 minutes), temperature (80°C), pressure (1 atm), and flow rate of 3 mL/min. Conversion and yield are not mentioned; however, selectivity is high for the desired product.
+
+Figure 2. Process for the continuous flow synthesis of C.I. Reactive Red 195.
+
+Summary: The paragraph discusses a continuous diazotization process developed using flow chemistry techniques. The reaction involves the conversion of aniline derivatives into nitro compounds with hydrogen cyanide as the reagent and sulfuric acid as the catalyst in a dynamic tubular reactor (DTR). The critical parameter for safety assessment is TD0.05, which indicates low risk at level 1 based on reaction conditions.
+

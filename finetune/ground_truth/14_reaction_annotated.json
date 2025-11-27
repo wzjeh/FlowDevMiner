@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "nitrobenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "nitric acid",
+      "role": "reactant"
+    },
+    {
+      "name": "sulfuric acid",
+      "role": "catalyst"
+    }
+  ],
+  "products": [
+    {
+      "name": "m-dinitrobenzene",
+      "yield_optimal": 91.6,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "null"
+    },
+    {
+      "type": "residence_time",
+      "value": "4 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "9.8 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microreactor integrated with micromixers",
+    "inner_diameter": "1 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 91.6,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

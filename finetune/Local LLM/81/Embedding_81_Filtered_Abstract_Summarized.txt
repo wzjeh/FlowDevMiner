@@ -1,0 +1,50 @@
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+{"name": m}
+
+{"name": name.capitalize(), "role": role}
+
+{"name": "β-amino acid esters", "yield_optimal":95,"unit":"%"}
+
+paragraph = """
+You output ONLY valid JSON. No explanations, no markdown, no comments.
+
+Context
+Summary: The paragraph discusses the enzymatic synthesis of β-amino acid esters using continuous flow microreactors as a part of flow-chemistry process development. The reaction type is an enzymatic synthesis involving amines and carboxylic acids to form β-amino acid esters. Key reactants include amines, carboxylic acids, and the enzyme transaminase. Solvents are not mentioned in this context. The catalyst used is an immobilized enzyme called transaminase. The products formed are β-amino acid esters. The reactor details include continuous flow microreactors with a residence time of less than one second, which ensures high conversion and selectivity. The temperature for the reaction ranges from 25 to 60 °C, depending on the desired outcome. Pressure is not mentioned in this context. The critical conditions for the reaction include flow rates that can be adjusted between 1-5 mL/min, with a residence time of less than one second ensuring high conversion and selectivity. The temperature range for the reaction is from 25 to 60 °C, depending on the desired outcome. The outcomes of this process include high conversions
+
+{"name": "β-amino acid ester", "yield_optimal": 95, "unit": "%"}
+
+# Parse input string into a dictionary of reaction details
+    match = re.search(r"(\d+(?:\.\d+)?)([a-zA-Z]+)", input_str)
+    
+    if not match:
+        return None
+    
+    flow_rate, unit = float(match.group(1)), match.group(2).lower()
+    
+    # Parse temperature and residence time from the string
+    temp_match = re.search(r"(\d+(?:\.\d+)?)°C", input_str)
+    res_time_match = re.search(r"(\d+(?:\.\d+?)) s|min", input_str)
+
+    if not (temp_match or res_time_match):
+        return None
+    
+    temperature, residence_time = float(temp_match.group(1)), int(float(res_time_match.group(1))) / 60.0
+
+    # Parse pressure from the string
+    press_match = re.search(r"atm", input_str)
+    
+    if not press_match:
+        return None
+    
+    pressure = "atmospheric"
+    
+    # Extract reactor type and inner diameter from the string
+    react_type, inner_diameter = re.findall(r"[a-zA-Z]+|mm", input_str)
+
+{ "reaction_summary": {"reaction_type": reaction_type, "reactants": reactants, "products": products, "conditions": conditions, "reactor": {"type": reactor_type, "inner_diameter": inner_diameter}, "metrics": metrics} }
+
+{ "reaction_summary": {  "reaction_type":"amide bond formation",  "reactants":[{"name":"carboxylic acid","role":"reactant"}, {"name":"amine","role":"reactant"}, {"name":"water","role":"solvent"}, {"name":"lipase B from Candida antarctica","role":"catalyst"}
+
+{"name":product,"yield_optimal":int(product.replace('%','')),"unit":"%"}
+

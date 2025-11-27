@@ -1,0 +1,40 @@
+{1,2}
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp_residence = re.search(r"(\d+) (min|°C)", input_str)
+    if match_temp_residence:
+        value, unit = match_temp_residence.groups()
+        if unit == "min":
+            res_time = float(value)  # residence time in min
+        elif unit == "°C":
+            temp = int(value)
+
+    # Parse flow rate and inner diameter
+    flow_rate_reactant_A = None
+    flow_rate_reactant_B = None
+    match_flow_diameter = re.search(r"(\d+(?:\.\d+)?) (mL/min|mm)", input_str)
+    if match_flow_diameter:
+        value, unit = match_flow_diameter.groups()
+        if "min" in unit:  # flow rate in mL/min
+            flow_rate_reactant_A = float(value)  # assume A is the first reactant
+        elif "mm" in unit:  # inner diameter in mm
+            reactor_type = None
+            match_reactor_type = re.search(r"a (.*?) coil", input_str)
+            if match
+
+{"conversion":None, "yield":None, "selectivity":None, "unit":"%"}
+
+{"conversion": null, "yield": null, "selectivity": None, "unit": "%"}
+
+{ "reaction_summary": {  "reaction_type":"washing",  "reactants":[{"name":"hexane","role":"solvent"}],  "products":[],"conditions":[    {"type":"temperature","value":null},    {"type":"residence_time","value":null},    {"type":"flow_rate_reactant_A","value":null},    {"type":"flow_rate_reactant_B","value":null},    {"type":"pressure","value":null}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{'name': None, 'yield_optimal': value, 'unit': unit}
+
+{ "reaction_summary": {  "reaction_type":"hydrogenation",  "reactants":[{"name":"epoxide","role":"starting material"}, {"name":"hydrogen gas","role":"reducing agent"}],  "products":[],  "conditions":[    {"type":"temperature","value":"80 °C"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [{"name": "alkenes", "role": "reactant"}, {"name": "alkynes", "role": "reactant"}], "products": [], "conditions": [], "reactor": {}, "metrics": {}}}
+

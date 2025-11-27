@@ -1,0 +1,42 @@
+{"name": name, "role": role}
+
+{"name": "4-CP", "yield_optimal": 95, "unit": "%"}
+
+{
+  "reaction_summary": {
+    "reaction_type":"decomposition photochemistry",
+    "reactants":[{
+      "name":"broth containing E. coli","role":"solvent"
+    }],
+    "products":[{
+      "name":"null","yield_optimal":null,"unit":"%"}],
+    "conditions":[
+      {"type":"temperature","value":null},
+      {"type":"residence_time","value":null},
+      {"type":"flow_rate_reactant_A","value":null},
+      {"type":"pressure","value":null}
+
+{ "reaction_summary": { 
+    "reaction_type":"photocatalytic",
+    "reactants":[{"name":"TiO2","role":"catalyst"}
+
+{"reaction_summary": {"reaction_type": "photocatalytic", "reactants": [{"name": "4-chlorophenol", "role": "reactant"}], "products": [], "conditions": [{"type": "temperature", "value": "null"}, {"type": "residence_time", "value": "null"}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "pressure", "value": "null"}], "reactor": {"type": "microchannel", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{
+        "conversion": None,
+        "yield": None,
+        "selectivity": None,
+        "unit": "%"
+    }
+
+{
+        "conversion": None,
+        "yield": None,
+        "selectivity": None,
+        "unit": "%"
+    }
+
+{"name": sentence.split(', ')[0], "role": ' '.join(sentence.split(', ')[1:])}
+
+{"name": name, "role": role}
+

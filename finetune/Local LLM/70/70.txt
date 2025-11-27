@@ -1,0 +1,421 @@
+Experimental investigation of mononitrotoluene preparation in a continuous‑flow microreactor
+
+Anming Yang1 · Jincai Yue1 · Shiqing Zheng1 · Xia Yang1 · Lingqi Kong1 · Dongjian Zhou2 · Litao Qin1 · Hua Zhong2
+
+Received: 4 April 2022 / Accepted: 7 August 2022 / Published online: 18 August 2022 © The Author(s), under exclusive licence to Springer Nature B.V. 2022
+
+Abstract Mononitrotoluene is an important dye intermediate, which is prepared by nitration of toluene and mixed acid. The nitration of toluene with mixed acid is a fast and highly exothermic process. Due to the poor mass and heat transfer performance of batch or continuous kettle reactors, there are safety risks in the nitration of tolu- ene. In this work, the nitration process of toluene with mixed acid was studied in a continuous-flow microreactor. The conversion of toluene and yield of MNT were investigated by varying reaction temperature, residence time, molar ratio of ­HNO3 to toluene, and mass fraction of ­H2SO4 in mixed acid. Variance analysis and sig- nificance tests were conducted on the models of toluene conversion and MNT yield. The results showed that the mass fraction of ­H2SO4 in mixed acid had the great- est influence on toluene conversion and MNT yield, followed by the molar ratio of ­HNO3 to toluene, reaction temperature and residence time. The experimental values of toluene conversion and MNT yield were in good agreement with the predicted values of the regression equation model. The research results were of great signifi- cance for further understanding the nitration characteristics of toluene in a continu- ous-flow microreactor. This study provides a safe and efficient method for the syn- thesis of dye intermediates.
+
+* Jincai Yue yjc@putech.com.cn
+
+* Shiqing Zheng zsq@putech.com.cn
+
+College of Chemical Engineering, Qingdao University of Science and Technology, Qingdao 266042, Shandong, China
+
+Qingdao Yinke Hengyuan Chemical Process Information Technology Co., Ltd, Qingdao 266042, Shandong, China
+
+Graphical abstract
+
+Keywords Microreactor · Nitration · Toluene · Significance test · Response surface method
+
+Symbols CT Conversion of toluene (%)
+
+CT Average conversion of toluene (%) mT Total actual feed mass of toluene (G) mT0 Unreacted toluene mass (G) mMNT Mass of the sample of mononitrotoluene (G) MT Relative molecular mass of toluene MMNT Relative molecular mass of mononitrotoluene MRn Molar ratio of ­HNO3 to toluene n Amount of substance (Mol) Q Total volume flow rate of feed (Ml/min) R2 Correlation coefficient R2 adj. Adjusted correlation coefficient T Reaction temperature (°C) t Sampling time (Min) Y The predicted response (%) YMNT Yield of mononitrotoluene (%) YMNT Average yield of mononitrotoluene (%)
+
+Greek letters 휏 Residence time (s) ω Mass fraction of ­H2SO4 in mixed acid (%) 훽0 Constant
+
+Experimental investigation of mononitrotoluene preparation…
+
+훽i Linear coefficient 훽ii Quadratic coefficient 훽ij Interaction coefficient
+
+Abbreviations DNT Dinitrotoluene MNT Mononitrotoluene MR Microreactor RSM Response surface method
+
+Introduction
+
+Mononitrotoluene (MNT) as an important chemical intermediate has been widely used in the fields of dyestuff, fiber, medicine, pesticide, and military explosive [1–3]. The nitration of toluene in mixed acid is a heterogeneous reaction and the solubility of toluene in mixed acid is very low [4]. The reaction mainly occurs in the mixed acid phase, nitric acid generates ­NO2 + under the catalytic action of sulfuric acid, and ­NO2 + attacks toluene in the mixed acid phase, resulting in lateral substitution reaction. There are three kinds of MNT products, which are o-MNT, m-MNT, and p-MNT. After the nitration of toluene is complete, the MNT is redissolved in the oil phase, while the water resulting from the reaction remains in the mixed acid phase [5–8]. Aromatics nitration reaction is a mass transfer-controlled reaction in essence, and the probability of ­NO2 + contact with toluene has a great influence on the reac- tion rate [9, 10]. Since the 1970s, many scholars have studied the nitration process of toluene. Chen et al. [11] studied the effects of stirring speed, reaction tempera- ture, and nitric acid dosage on toluene nitration by using batch method, and found that stirring speed had a great impact on toluene nitration. The higher the rotational speed, the faster the reaction and the more intense the heat release, indicating that the mass transfer effect had an important impact on the heterogeneous nitration of toluene in the batch process. Cox et al. [12] studied the kinetics of toluene nitra- tion by using mixed acids with sulfuric acid concentration of 62–78%, and the reac- tion rate accelerated with the increase in sulfuric acid concentration. In industry, the mass fraction of sulfuric acid in waste acid after toluene nitration is generally 68–72% [13]. Although increasing the concentration of sulfuric acid is beneficial to accelerate the reaction speed, it also increases the probability of side reaction and the difficulty of concentration of waste acid. Toluene nitration has a high heat release [14], if the heat is not removed in time, there is a risk of explosion [15–17]. The method of drip addition is generally adopted in production to reduce the reac- tion intensity [18], but it also leads to a long reaction residence time and large mate- rial stock, bringing great hidden dangers to safety [19, 20]. Compared with conventional reaction vessels, microreactors have the advantages of good mixing effect and high heat transfer efficiency [21]. The application of microreac- tors has become a research hotspot in the field of chemistry and chemical engineering. It has been widely used in organic synthesis [22], catalysis [23], extraction [24] and other fields. In the microreactors, the reactants can be fully mixed and the heat can be
+
+quickly removed, which are particularly suitable for rapid, highly exothermic reactions. Therefore, some researchers have carried out studies on toluene nitration in microreac- tors. In the absence of sulfuric acid as catalyst, Halder et al. [25] conducted toluene nitration experiment in a microreactor with nitric acid as nitration reagent and found that compared with the traditional reactor, microreactors could obtain a higher order of magnitude of the reaction rate, and effectively prevent the temperature out of control by the superior heat transfer performance, but the conversion of toluene was low, only about 40%. Wu [26] carried out toluene nitration in a single-channel glass microreactor, and the conversion rate could reach over 90%, but the amount of nitric acid was large, which was 2–3 times that of the conventional process. Although there are still some problems in using microreactors for toluene nitration, toluene nitration in microreac- tors can enhance mass transfer, improve heat transfer efficiency and effectively improve production safety. RSM is a statistical method to solve multivariable problems by using reasonable experimental design method and obtaining certain data through experiments [27], using multiple quadratic regression equations to fit the functional relationship between factors and response values, and by analyzing the regression equation to find the opti- mal process parameters [28–30]. As mentioned above, researchers have investigated nitration in microreactor with mixed acid, but the research on nitration of toluene in microreactor is not comprehen- sive, and mainly to analyze the influence of factors on the reaction effect, without in- depth study of the strong and weak relationship of factors. In addition, the relationship between the conversion rate of toluene and influencing factors, as well as the relation- ship between the yield of MNT and influencing factors, have not been established. In order to improve the safety of toluene nitration and to study the characteristics of con- tinuous nitration of toluene in the microreactor, MNT was continuously synthesized in microreactor using toluene as raw material, nitric acid as nitration agent, and sulfuric acid as catalyst. The effects of reaction temperature, residence time, mass fraction of ­H2SO4 in mixed acid, and molar ratio of ­HNO3 to toluene on the nitration of toluene were investigated by response surface methodology. Variance analysis and significance tests were conducted for toluene conversion model and MNT yield model.
+
+Experimental and methods
+
+Materials
+
+Toluene (AR, ≥ 99.5%); Nitric acid (AR, 65–68%); sulfuric acid (AR, ≥ 95%); Metha- nol (AR, ≥ 99.5%). The above raw materials are purchased from Sinopharm Chemical Reagent Beijing Co., LTD. The deionized water was made in the laboratory.
+
+Experimental investigation of mononitrotoluene preparation…
+
+2H2SO4 HNO3 + NO2 + + H3O+ + 2HSO4 +
+
+CH3 CH3
+
+CH3 CH3
+
+NO2 + + H+
+
++ +
+
+NO2
+
+O2N
+
+NO2
+
+o-MNT m-MNT p-MNT
+
+Toluene
+
+H+ + 2HSO4 + + H3O+ H2O + 2H2SO4
+
+Scheme 1 Synthetic scheme of MNT
+
+Fig. 1 Diagram of experimental device for preparation of MNT
+
+Synthesis process of MNT
+
+MNT is synthesized from toluene and nitric acid under the catalytic action of sulfu- ric acid in a heterogeneous reaction. The synthesis mechanism of MNT is shown in Scheme 1.
+
+Experimental step
+
+The experiments were carried out in a continuous-flow apparatus equipped with microreactor (Himile Chemical Technology (Shandong) Co. LTD.), syringe pumps (Shanghai Sanwei Scientific Instrument Co., Ltd., 0.10–50.00 mL ­min–1, PTFE), and temperature control system (Huber Unistat P634w, temperature range –60 to 200 °C, temperature stability ± 0.01 °C). The diagram of experimental device for prepara- tion of MNT is shown in Fig. 1. The raw materials were continuously transported by
+
+Fig. 2 Structure of microchannel reaction plate
+
+Fig. 3 Internal structure of reaction layer
+
+pumps and continuously reacted in the microreactor. After the chemical reaction of the raw materials in the microreactor, the reaction liquid was directly received. The microreactor adopted in this work was made of silicon carbide. It consists of ten reaction plates in series, each reaction plate with a liquid holding capacity of 1.00 mL and a total liquid holding capacity of 10.00 mL. The reaction plate was composed of the heat transfer layers and the reaction layer. The heat trans- fer layers are at the top and bottom, and the reaction layer is in the middle. The structure of reaction plate is shown in Fig. 2. The reaction layer consists of forty- seven complex structural cells in series. Each cell has internal obstacles, a cylin- drical column, and a V shaped structure. The internal structure of reaction layer is shown in Fig. 3. Before starting the flow process, the microreactor must be cleaned with metha- nol to ensure that it contains no impurities. Subsequently, deionized water was used to clean the whole device. The reaction temperature was set to the predeter- mined value and began to rise. During the preheating process, the experimental device was flushed with deionized water. When the temperature stabilized, tolu- ene and ­HNO3/H2SO4 mixed acid were introduced to the microreactor by pumps,
+
+Experimental investigation of mononitrotoluene preparation…
+
+at a set reaction temperature, a total flow rate of 3.00 mL/min, and a residence time of 60 s (three reaction plates are used). The reaction was quenched with ice water. The upper organic phase was neutralized with saturated sodium bicarbo- nate aqueous solution and then washed with deionized water until it was neutral. The upper oil phase samples were analyzed by HPLC. The residence time was changed by varying the number of reaction plates. The residence time is calculated by Eq. (1):
+
+(1) 휏= VMR
+
+Q
+
+The conversion of toluene is calculated by Eq. (2):
+
+mT0
+
+)
+
+(
+
+∗100
+
+1 −
+
+(2) CT(%) =
+
+mT
+
+The yield of MNT is calculated by Eq. (3):
+
+(3) YMNT(%) = mMNT mT MT ∗MMNT ∗100
+
+where 휏 is the residence time (s), VMR is the total liquid holdup of microreactor(mL), Q is the total volume flow rate of feed (mL/min), CT is the conversion of toluene, mT0 is the mass of toluene that did not participate in the reaction which quantita- tively analyzed by HPLC,mT is actual feed mass of toluene which was measured by a balance during feeding(g), YMNT is the yield of MNT, mMNT is the mass of the sample of MNT(g), MT is the average molecular weight of toluene, t is the sampling time(min), and MMNT is the average molecular weight of MNT.
+
+Analysis methods
+
+HPLC analysis (Thermo fisher U3000): the chromatographic column was Syncronis C18 (250 × 4.6 mm, 5 µm). The mobile phase was a mixture of 0.5% phosphoric acid aqueous solution and methanol, and the volume ratio of 0.5% phosphoric acid aqueous solution to methanol was 40:60. The flow rate was set as 1.0 mL/min. The column temperature was set to 25 °C. The detection wavelength was 254 nm, and the injection volume was set to 20μL.
+
+Experimental design and data
+
+Compared with single-factor design and orthogonal design, the RSM has the advan- tages of shorter design time, shorter period, and higher accuracy of a regression equation [31]. For RSM, there are many design schemes in experimental design, among which the Box − Behnken design is the most common design models. In this study, the Box-Behnken experimental design was used to find the optimal conditions in the continuous nitration reaction.
+
+For RSM, the experimental data were fitted with a common second-order polyno- mial equation [32]:
+
+N ∑
+
+N ∑
+
+N ∑
+
+i=1 𝛽iiX2 ii +
+
+(4) Y = 𝛽0 +
+
+𝛽ijXij + e
+
+i=1 𝛽iXi +
+
+i<j
+
+where Y is the predicted response value, β0 is the constant term, βi is the linear coef- ficient, βii and βij are the coefficient of the quadratic term, Xi and Xj are the coding values of independent variables, N is the factor number, and e is the random error [33]. The nitration process of toluene has been optimized using RSM. Toluene and mixed acid were used as raw materials to carry out response surface experiments under the conditions of reaction temperature (T), residence time (τ), acid concentra- tion ­(H2SO4 mass fraction, ω), and molar ratio (n ­(HNO3): n (toluene), ­MRn). By designing the RSM test for four factors in three levels, 29 experiments were pro- posed by Design Expert, among which five experiments were repeated at the central point to determine the error source. The variables and levels design are shown in Table 1, and the experimental data of RSM analysis are shown in Table 2.
+
+Results and discussion
+
+Significance analysis of toluene conversion
+
+Based on response surface analysis, multiple regression equations between toluene conversion rate ( CT ) and reaction temperature (Τ), residence time (τ), ­H2SO4 mass fraction (ω), and material ratio ­(MRn) can be obtained:
+
+CT = 48.93 + 5.62T + 4.31휏+ 18.95휔+ 7.31MRn + 0.90T휏+ 0.86T휔+ 0.70TMRn + 0.68휏휔
+
+(5)
+
++ 0.53휏MRn + 3.91휔MRn −0.83T2 −0.08휏2
+
++ 1.76휔2 −0.1062MR2
+
+n
+
+Variance analysis and significance test were conducted for the toluene conversion model, and the results are shown in Table 3. The significance of the influence of each variable in the regression equation on the index is determined by F-value and
+
+Table 1 Operational parameters for production of MNT and levels
+
+Variables Levels
+
+Factors Units − 1 + 1
+
+T °C 30.00 40.00 50.00
+
+τ s 60.00 120.00 180.00
+
+ω % 40.00 50.00 60.00
+
+MRn – 0.90 1.10 1.30
+
+Experimental investigation of mononitrotoluene preparation…
+
+Table 2 Response surface analysis experimental data sheet Entry T (°C) τ (s) ω (%) MRn CT (%) YMNT (%)
+
+40.00 120.00 50.00 1.10 53.63 50.81
+
+40.00 60.00 50.00 1.30 48.78 46.43
+
+50.00 120.00 60.00 1.10 76.79 68.29
+
+50.00 60.00 50.00 1.10 48.07 45.93
+
+30.00 120.00 60.00 1.10 62.96 55.15
+
+40.00 120.00 60.00 1.30 85.10 75.08
+
+40.00 60.00 60.00 1.10 61.56 54.40
+
+30.00 120.00 40.00 1.10 25.07 24.76
+
+30.00 120.00 50.00 1.30 50.11 47.29
+
+40.00 120.00 40.00 1.30 36.18 35.62
+
+40.00 120.00 50.00 1.10 53.63 50.81
+
+40.00 120.00 50.00 1.10 44.41 42.29
+
+40.00 120.00 50.00 1.10 47.39 45.21
+
+50.00 120.00 50.00 0.90 43.11 41.49
+
+50.00 180.00 50.00 1.10 60.54 57.95
+
+40.00 60.00 50.00 0.90 42.20 40.66
+
+40.00 120.00 50.00 1.10 45.61 43.33
+
+50.00 120.00 50.00 1.30 61.63 58.44
+
+30.00 180.00 50.00 1.10 47.17 45.04
+
+40.00 180.00 50.00 1.30 56.73 54.09
+
+30.00 60.00 50.00 1.10 38.30 36.90
+
+40.00 60.00 40.00 1.10 29.98 29.59
+
+40.00 180.00 40.00 1.10 36.94 36.63
+
+40.00 180.00 50.00 0.90 48.02 46.15
+
+40.00 180.00 60.00 1.10 71.24 63.76
+
+50.00 120.00 40.00 1.10 35.36 34.78
+
+40.00 120.00 40.00 0.90 24.89 24.60
+
+40.00 120.00 60.00 0.90 58.18 52.38
+
+30.00 120.00 50.00 0.90 34.39 32.65
+
+p-value test. The larger the F-value is, and the smaller the p-value is, the higher the significance degree of the corresponding variable is. Variance analysis of toluene conversion regression model is helpful to determine the fitting degree of the model. The F-value of the model is 27.41, and the p-value of the model is less than 0.0001, indicating that the model is extremely significant. p-values less than 0.05 indicate that the model terms are significant. The lack-of-fit F-value of 0.6581 indicates that the model is relatively reliable. Based on the values of F and p in Table 3, it can be concluded that the influence factors, Τ and τ are significant, ω and ­MRn are high sig- nificant, and the second interaction terms are not significant. The higher the mass fraction of sulfuric acid in the mixed acid is, the more likely it is to produce ­NO2 + and the more conducive to the nitration reaction [34, 35], which may be the reason why the mass fraction of sulfuric acid has the
+
+Table 3 Variance analysis and significance analysis of toluene conversion model
+
+Source SSa DFb MSc F-value p-value DSd
+
+Model 5656.34 404.02 27.41 < 0.0001 High significant
+
+Τ 379.69 379.69 25.76 0.0002 Significant
+
+τ 223.17 223.17 15.14 0.0016 Significant
+
+ω 4309.61 4309.61 292.40 < 0.0001 High significant
+
+MRn 641.53 641.53 43.53 < 0.0001 High significant
+
+Ττ 3.24 3.24 0.2198 0.6464 Not significant
+
+Τω 3.13 3.13 0.2126 0.6518 Not significant
+
+ΤMRn 1.96 1.96 0.1330 0.7208 Not significant
+
+τω 1.85 1.85 0.1255 0.7284 Not significant
+
+τMRn 1.13 1.13 0.0770 0.7855 Not significant
+
+ωMRn 61.07 61.07 4.14 0.0612 Not significant
+
+Τ2 4.51 4.51 0.3059 0.5890 Not significant
+
+τ2 0.0414 0.0414 0.0028 0.9585 Not significant
+
+ω2 20.09 20.09 1.36 0.2625 Not significant
+
+MRn 0.0731 0.0731 0.0050 0.9448 Not significant
+
+Residual 206.34 14.74
+
+Lack of fit 128.34 12.83 0.6581 0.7310 Not significant
+
+Pure error 78.00 19.50
+
+Cor total 5862.68
+
+a Sum of squares
+
+b Degrees of freedom
+
+c Mean squared errors
+
+d Degree of significance
+
+great influence on the experimental results in the significance analysis of tolu- ene nitration. Another factor that has a great impact on the nitration of toluene is the molar ratio of nitric acid to toluene. Under the same conditions, the large amount of nitric acid also promotes the generation of ­NO2 +, which is condu- cive to the nitration reaction. Of course, reaction temperature should have an important effect on toluene nitrification. In this work, the reaction temperature is 30–50 °C, while the reaction temperature for preparation of MNT is usually 30–55 °C [36], so in the selected experimental range, the effect of reaction tem- perature on MNT preparation is also significant, but not high significant. How- ever, the mass transfer effect of microreactor is excellent, so the influence of τ on toluene nitration is not high significant. The determination coefficient R2 of the regression equation is another impor- tant parameter to evaluate the degree of fitting between the model and experi- mental data. The closer R2 is to 1, the better the agreement between the pre- dicted value and the experimental value is [37]. Figure 4 is the linear fitting diagram of actual conversion and predicted conversion of toluene by regression equation. It can be seen from the figure that the actual conversion and predicted
+
+Experimental investigation of mononitrotoluene preparation…
+
+Fig. 4 Linear fitting diagram of toluene conversion rate predicted by regression equation
+
+conversion of toluene are evenly distributed in a linear relationship. The value of R2 is 0.9648, which is basically consistent with the value of R2 adj. (0.9296), indicating that the experimental values of toluene conversion have a good cor- relation with the predicted values of the model. The closer the values of R2 and R2 adj. are, the better the agreement between the experimental values and the pre- dicted values.
+
+Significance analysis of MNT yield
+
+Based on response surface analysis, multiple regression equations for the corre- lation between the yield of MNT ( YMNT ) and reaction temperature (Τ), residence time (τ), ­H2SO4 mass fraction (ω), and material ratio ­(MRn) can be obtained:
+
+YMNT = 46.49 + 5.42T + 4.14휏+ 15.26휔+ 6.58MRn + 0.97T휏+ 0.78T휔+ 0.58TMRn + 0.58휏휔+ 0.54휏MRn + 2.92휔MRn −0.83T2 + 0.28휏2 −0.03휔2 −0.05MR2
+
+(6)
+
+n
+
+Variance analysis and significance test were conducted for the yield model of MNT, and the results are shown in Table 4. Based on the values of F and p in Table 4, it can be concluded that Τ, τ, ω, ­MRn are all significant. ω and ­MRn have high significant effect on the yield of MNT, and the secondary interaction terms are not significant. The p-value of the MNT yield model is less than 0.0001, which indicates that the model is extremely significant, and the Lack-of-Fit F-value of 0.6349 implies that the model is relatively reliable. Figure 5 is the linear fitting diagram of actual yield and predicted yield of MNT by regression equations. It can be
+
+Table 4 Variance analysis and significance analysis of MNT yield model
+
+Source SSa DFb MSc F-value p-Value DSd
+
+Model 3922.45 280.17 22.77 < 0.0001 High significant
+
+Τ 353.06 353.06 28.69 0.0001 Significant
+
+τ 205.92 205.92 16.73 0.0011 Significant
+
+ω 2793.19 2793.19 226.98 < 0.0001 High significant
+
+MRn 520.35 520.35 42.28 < 0.0001 High significant
+
+Ττ 3.76 3.76 0.3058 0.5890 Not significant
+
+Τω 2.43 2.43 0.1978 0.6633 Not significant
+
+ΤMRn 1.33 1.33 0.1084 0.7468 Not significant
+
+τω 1.35 1.35 0.1093 0.7458 Not significant
+
+τMRn 1.18 1.18 0.0957 0.7617 Not significant
+
+ωMRn 34.11 34.11 2.77 0.1182 Not significant
+
+Τ2 4.47 4.47 0.3635 0.5562 Not significant
+
+τ2 0.4980 0.4980 0.0405 0.8435 Not significant
+
+ω2 0.0076 0.0076 0.0006 0.9806 Not significant
+
+MRn 0.0190 0.0190 0.0015 0.9692 Not significant
+
+Residual 172.28 12.31
+
+Lack of fit 105.69 10.57 0.6349 0.7451 Not significant
+
+Pure error 66.59 16.65
+
+Cor total 4094.73
+
+a Sum of squares
+
+b Degrees of freedom
+
+c Mean squared errors
+
+d Degree of significance
+
+Fig. 5 Linear fitting diagram of actual yield of MNT and yield predicted by regression equation
+
+Experimental investigation of mononitrotoluene preparation…
+
+seen from Fig. 5 that the actual and predicted yields of MNT are evenly distrib- uted in a linear relationship. The value of R2 was 0.9579, which was consist- ent with the value of R2 adj. (0.9159), indicating a good correlation between the experimental value and the predicted value of MNT yield.
+
+Experimental factor analysis
+
+Since the influence of operating conditions on toluene conversion is consistent with the influence of operating conditions on MNT yield, and this work focuses on the influence of operating conditions on MNT yield, the 3D response surface is not used to discuss the influence of operating conditions on toluene conversion repeatedly. According to the regression equation of MNT yield, 3D maps of the response surface are drawn. Figure 6 shows the 3D response surface diagram of influencing factors on the yield of MNT. Response surface is a three-dimensional surface diagram composed of response values and design experimental factors, which can directly reflect the influence of each experimental factor on response values. The effects of reaction temperature, residence time, sulfuric acid mass fraction, and molar ratio on the yield of MNT are discussed in detail according to the response surface three-dimensional diagram.
+
+Effect of reaction temperature
+
+The reaction temperature has an important influence on the reaction rate. Increas- ing the reaction temperature can promote the nitrification reaction, but too high temperature will also lead to the decomposition of nitric acid and the occur- rence of oxidation side reaction. Kazakov [38] and Somma [39] have studied the decomposition characteristics of nitric acid in mixed acid, and found that when the ratio of mixed acid was constant, the higher the temperature, the lower the acid concentration, mainly because of the decomposition of nitric acid. As can be seen from Fig. 6a–c, MNT yield increases with the increase in temperature. Although nitrification releases a large amount of heat, side reactions caused by local overheating are avoided. This is due to the large specific surface area of the microreactor, which is conducive to mass and heat transfer. Increasing the tem- perature is conducive to improving the yield of MNT.
+
+Effect of residence time
+
+Residence time is another important parameter affecting reagent conversion and product selectivity. If the residence time is too short, the reagent conversion rate will be low, while if the residence time is too long, some intermediates will be converted into side products, reducing the selectivity of the main product. Under the condition of the same mixed strength, properly extending the residence time is conducive to the full reaction of toluene nitration, but too long residence time
+
+Fig. 6 3D response surface plots of MNT yield, effect of different variables: a reaction temperature (°C) and residence time (s); b reaction temperature (°C) and sulfuric acid mass fraction (%); c reaction tem- perature (°C) and molar ratio; d residence time (s) and sulfuric acid mass fraction (%); e residence time (s) and molar ratio; f sulfuric acid mass fraction (%) and molar ratio
+
+Experimental investigation of mononitrotoluene preparation…
+
+will also lead to the generation of dinitrotoluene (DNT), thus reducing the yield of MNT. As can be seen from Fig. 6e, when the molar ratio of nitric acid to tolu- ene was constant, the prolonged residence time promoted the increase in MNT yield.
+
+Effect of sulfuric acid mass fraction
+
+As can be seen from Fig. 6b, the yield of MNT increased significantly with the increase in sulfuric acid mass fraction. Figure 6d, f also show the same trend. From the perspective of reaction mechanism, sulfuric acid, as a catalyst in the reaction process, is conducive to the generation of ­NO2 + ions, and can also absorb the water generated by nitrification reaction. Therefore, increasing the concentration of sulfu- ric acid is beneficial to the reaction. The steepness of the response surface reflects the influence of the independent variable on the dependent variable. The higher the slope, the greater the influence of factors. It can be seen from Fig. 6b, d, and f that the mass fraction of ­H2SO4 has a great impact on the yield of MNT, followed by the molar ratio of ­HNO3 to toluene, reaction temperature, and residence time. This result is consistent with the previous results of significance analysis of influencing factors. Figure 6f shows the 3D response surface diagram of the influence of mass frac- tion of ­H2SO4 and molar ratio of ­HNO3 to toluene on MNT yield. The slope of mass fraction of ­H2SO4 is greater than that of molar ratio of ­HNO3 to toluene, indicating that mass fraction of ­H2SO4 has a greater impact on MNT yield than molar ratio of ­HNO3 to toluene, and indicating that the mass fraction of ­H2SO4 has a greater impact on MNT yield than the concentration of nitric acid. Although increasing the concentration of sulfuric acid is beneficial to the prepa- ration of MNT, excessive amount of sulfuric acid will increase the amount of waste acid [40]. Waste acid cannot be discharged directly, but needs to be concentrated and recycled, which increases energy consumption and production cost [41].
+
+Effect of molar ratio
+
+For chemical reactions, an appropriate mole ratio can promote the conversion rate of the reaction, improve the selectivity of the target product, simplify the post-treat- ment process, and reduce the waste [42]. As can be seen from Fig. 6c, e, and f, the yield of MNT increases with the increase in mole ratio. In addition, it can be seen from Fig. 6c, e that the slope of molar ratio is significantly greater than that of tem- perature and residence time, indicating that the molar ratio has a greater impact on the reaction effect than that of reaction temperature and residence time.
+
+Verification of optimum conditions for toluene nitration in microreactor
+
+According to response surface analysis, the optimal experimental conditions for the conversion of toluene in the microreactor were as follows: reaction temperature
+
+Table 5 The conversion of toluene and the yield of MNT under optimized conditions
+
+Entry T (°C) τ (s) ω (%) MRn CT (%) CT (%) YMNT (%) YMNT (%)
+
+48.80 164.84 58.14 1.29 85.78 84.99 78.53 77.58
+
+48.80 164.84 58.14 1.29 83.30 75.90
+
+48.80 164.84 58.14 1.29 85.89 78.31
+
+of 44.61 °C, residence time of 175.81 s, mass fraction of sulfuric acid of 59.57%, molar ratio of toluene to ­HNO3 of 1:1.27, and the optimal experimental conditions for the yield of MNT in the microreactor were as follows: reaction temperature of 48.80 °C, residence time of 164.84 s, mass fraction of sulfuric acid of 58.14%, molar ratio of toluene to ­HNO3 of 1:1.29. Since the optimized operating conditions for toluene conversion and MNT yield were not different from each other, and this work focused on the influence of operating conditions on MNT yield, three repeated experiments were conducted under the optimized operating conditions for MNT yield. The experimental data are shown in Table 5. The predicted toluene conversion was 86.23% and MNT yield was 77.85% under the optimized operating conditions. It can be seen from Table 5 that under the optimized conditions, the average con- version of toluene is 84.99%, and the average yield of MNT is 77.58%. The devia- tion between the actual conversion of toluene and the predicted conversion of tolu- ene is 1.44%, and the deviation between the actual yield of MNT and the predicted yield of MNT is 0.35%. It is further indicated that the predicted values of toluene conversion and MNT yield have a good correlation with the experimental values. Each experimental value within the experimental range can be predicted by mod- eling and analysis, and the appropriate process can be optimized. The production rate of MNT was 56.75 g/h using the optimized process in the laboratory.
+
+Conclusion
+
+In this study, the nitration of toluene was carried out in a continuous-flow microreac- tor, and the influencing factors were analyzed by RSM. The results showed that the mass fraction of ­H2SO4 in mixed acid had the greatest influence on toluene nitration, followed by the molar ratio of ­HNO3 to toluene, reaction temperature, and residence time, while the interaction terms had no significant influence on toluene nitration. The significance analysis of the toluene conversion model and the MNT yield model in the microreactor showed that the predicted values of toluene conversion and the MNT yield model had a good correlation with the experimental values. In the experimental range, the toluene conversion model and the MNT yield model could effectively predict the reaction effect. Under the optimal conditions, three repeated experiments of toluene nitration were carried out with a microreactor. The deviation between the actual conversion of toluene and the predicted conversion of toluene was 1.44%, and the deviation
+
+Experimental investigation of mononitrotoluene preparation…
+
+between the actual yield of MNT and the predicted yield of MNT was 0.35%, which further indicated that the correlation between the model predicted value and the experimental value of toluene conversion and MNT yield were good.
+
+Acknowledgements We gratefully acknowledge the financial support provided by Shandong Provincial Key Research and Development Program (2019JMRH00305).
+
+Declarations
+
+Conflict of interest All the authors declare that they have no conflict of interest.

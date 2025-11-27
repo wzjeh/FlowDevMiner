@@ -1,0 +1,56 @@
+{
+  "reaction_type": "氧化",
+  "reactants": [
+    {
+      "name": "Safranin O",
+      "role": "reactant"
+    },
+    {
+      "name": "钾过硫酸盐 (KPS)",
+      "role": "reactant"
+    },
+    {
+      "name": "Fe2+",
+      "role": "catalyst"
+    },
+    {
+      "name": "水",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "降解产物及矿化产物（CO2, H2O等）",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "70 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "约5.4 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "600 µL/min（Qdye=565 µL/s, QKPS=40–120 µL/s，取中值估算）"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "tubular",
+    "inner_diameter": "1 mm"
+  },
+  "metrics": {
+    "conversion": 89.0,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

@@ -1,0 +1,6 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| regex = r"(\w+)\s+is\s+(an?\s*\w+) (increase | decrease | unchanged |
+| print(f"{match[0]} | {match[1].lower()} | - |

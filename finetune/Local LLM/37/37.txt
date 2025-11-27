@@ -1,0 +1,349 @@
+Contents lists available at ScienceDirect
+
+Chemical Engineering and Processing - Process Intensification
+
+journal homepage: www.elsevier.com/locate/cep
+
+Intensification and kinetic study of trifluoromethylbenzen nitration with mixed acid in the microreactor
+
+Shuai Guo, Jian-yang Cao, Mei-qi Liu, Le-wu Zhan *, Bin-dong Li *
+
+College of Chemical Engineering, Nanjing University of Science and Technology, Nanjing 210094, China
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords: Microreactor Intensification Kinetic Nitration Mass transfer
+
+Microreactors are becoming an important tool for rapid exothermic chemical reaction process intensification and continuous flow chemistry. This work focuses on the process intensification and kinetics of the tri­ fluoromethylbenzen nitration in microreactors. The reaction of trifluoromethylbenzene with mixed acid is a typical liquid-liquid heterogeneous reaction, so the mass transfer is the rate-determining step. Two strategies of microreaction systems were established to enhance mass transfer, respectively. Firstly, a scheme for intensifying the nitration reaction process in a capillary microreactor was proposed. The results showed that the conversion was low and could not achieve the expected results. Finally, a Heart-type micromixer with barriers was used to improve the mixing and mass transfer performance. The effects of molar ratio, temperature, sulfuric acid con­ centration, flow rate, and residence time on the conversion were investigated. The results showed that the residence time was significantly reduced from 4 hours in the batch reactor to 30 s in the Heart-type micromixer. The volume mass transfer coefficient and space-time yield were up to 0.031 s−1 and 16053.55 g⋅cm−3⋅h−1, respectively. Meanwhile, to better understand and control the nitration reaction process, the kinetics of the nitration of trifluoromethylbenzene was reported for the first time in a capillary microreactor, and all kinetic data were obtained.
+
+1. Introduction
+
+3-trifluoromethylnitrobenzene (3-TFNB) is an intermediate of the herbicides fluometuron, fluorochloridone, and pyroflufenamide. It is obtained by the mixed acid (H2SO4/HNO3) nitration with tri­ fluoromethylbenzene (TFB) at 50-55 ◦C for 3 h under stirring in the batch reactor (Scheme 1) [8]. However, the disadvantages of poor mixing and insufficient heat transfer in batch reactors necessitate some compromises to prevent temperature runaway due to reaction heat release [9]. Lowering the initial temperature and intermittent dropwise addition of reactants is often used to maintain uniform temperature and concentration fields. Still, it reduces the nitration reaction rate simul­ taneously, thus extending the reaction time to several hours, and the product varies from batch to batch [10]. Considering the importance of nitration reactions and the challenges faced by industrial nitration in terms of the sustainability of individual processes, microreactor technology opens new paths for nitration re­ actions in industry and academia [11]. Several significant advantages demonstrate the feasibility of the continuous flow nitration reaction, such as fast mass and heat transfer, the safety of the reaction process, and accurate control of operating parameters [12,13]. The application of
+
+Nitroaromatics serve as crucial building blocks and versatile in­ termediates in the dye, explosives, and pesticide production industries [1]. In general, nitration is a highly exothermic and fast reaction process [2]. Thermal runaway can occur when the heat generation rate of the exothermic reaction system exceeds the heat removal rate [3]. Even though the importance of the nitration of aromatics and the value of nitroaromatic compounds, safe and practical industrial synthesis tech­ niques are still a challenge for synthetic chemists [4]. In addition, most nitration reactions are heterogeneous liquid-liquid two-phase reaction systems. The reactions mainly occur in the aqueous phase or at the interface between the two phases [5]. The mixing and the effective mass transfer between the two-phase interface are essential factors affecting the reaction [6]. The combination of these factors and their interactions further lead to the instability of the nitration reaction system [7]. Therefore, achieving efficient mixing, reasonable temperature control, and process safety has become an urgent task of traditional batch reactors.
+
+* Corresponding authors. E-mail addresses: zhanlewu@sina.com (L.-w. Zhan), libindong@njust.edu.cn (B.-d. Li).
+
+https://doi.org/10.1016/j.cep.2022.109239 Received 3 October 2022; Received in revised form 29 November 2022; Accepted 1 December 2022
+
+Available online 5 December 2022 0255-2701/© 2022 Elsevier B.V. All rights reserved.
+
+Fig. 1. Schematic illustration of the continuous flow system for nitration of TFB with mixed acid
+
+microreactors for intensifying the nitration reaction has become a hot technology in recent years. Kulkarni et al. proposed the synthesis of 5-nitrosalicylic acid in an SS316 tubular microreactor using HNO3/A­ cOH as a nitration agent react with salicylic acid at 50 ◦C, 7 min, 2 h to obtain a consistent exit composition [14]. Wen et al. developed a continuous flow system combining a microreactor with a distributed packed tubular reactor for the trifluoromethoxybenzene (TFMB) nitra­ tion. A yield of 0.99 kg/h and the highest conversion (99.6 %) were achieved [15]. Russo et al. constructed a reaction network consisting of equilibrium and irreversible reactions and developed a mathematical model for the homogeneous nitration reaction of benzaldehyde. It was confirmed that the formation of 2-nitrobenzaldehyde is a coordination process between the aldehyde group of benzaldehyde and a nitrogen ion. In contrast, 3-nitrobenzaldehyde can be directly nitrated from benzaldehyde to form a coordinated form [16]. K¨ockinger et al. reported the development and scale-up of a continuous flow protocol for the preparation of N-(4-fluoro-2-methoxy-5-nitrophenyl)acetamide by a two-step telescoped acetylation/nitration. A modular microreactor nitration reaction platform with online temperature measurement was established. The results showed that the nitration reaction exotherm was controlled within a flat plate at both the laboratory scale and pilot scale. Separation yields of 82 % and 83 % corresponding to fluxes of 25 mmol/h and 2 mol/h were obtained, respectively [17]. Fu et al. devel­ oped a mesoscale microreactor for toluene nitration and determined the mass transfer coefficient of the microreactor. The productivity of the mesoscale flow reactor reached 2572 kg/a, but the reaction process showed an over-temperature of 21.3 ◦C [18]. Song et al. reported a pilot scale o-xylene continuous flow nitration process. Under the conditions of the optimal process, the product yield reached 94.1 % with a yield of 800 g/h. At the same time, the phenolic impurity content decreased from 2 % to 0.1 % with the batch reactor. The method was also applied to the nitration of p-xylene, toluene, and chlorobenzene [19]. The above results demonstrate that the nitration reaction process in the micro­ reactor still has good results after scaling up. Many studies have shown that the effect of mass transfer resistance cannot be eliminated for het­ erogeneous reactions, especially when the concentration of reactants is low. Therefore, improving mass transfer is the key to intensifying the liquid-liquid heterogeneous reaction [20]. Due to the excellent mass transfer properties of the microreactor, the aromatic nitration process can be considered a rate-determining step when the mass transfer rate is much greater than the reaction rate (Ha < 0.3) [21]. The main ways to enhance the mass transfer of the microreactor include active type, pas­ sive type, and inert gas stirring type. Microreactors are usually sub­ divided into active and passive microreactors according to the difference in energy utilization methods [22]. The mixing and mass transfer pro­ cesses in active microreactors require the addition of an external energy source to drive them [23]. Although such microreactors can achieve excellent mass transfer performance, they are challenging to fabricate
+
+and usually require high energy consumption for operation. In contrast to active microreactors, passive microreactors have neither complex dynamic components nor external energy introduction. It mainly relies on optimizing the geometry of microchannels to enhance the mass transfer between liquid-liquid phases at the microscale [24]. Plouffe investigated the mass transfer effect of five different structures of passive microreactors and examined the impact of other two-phase systems and operating conditions on the total volume mass transfer coefficient [25]. The results show that contraction-expansion and obstacle-based micro-mixers are better suited for fast liquid-liquid reactions. Due to the improved transport properties of the microreactor, it is possible to accurately control the reaction process parameters and obtain experi­ mental data on the intrinsic reaction kinetics more efficiently [26]. Song et al. studied the kinetics of 4-MNT nitration using a homogeneous re­ action in the continuous-flow microreactor. The results show that the reaction rate highly depends on the H2SO4 strength and temperature and established a complete kinetic model [27]. Yan et al. provided a comprehensive summary of recent research advances in reaction ki­ netics determined by microreactors [28]. For nitration reactions, rapid heat transfer and precise control of reaction times within seconds facilitate kinetic measurements of fast, highly exothermic reactions. In summary, microreactor technology not only improves the safety and selectivity of chemical synthesis compared to the traditional batch reactors but also significantly increases the process efficiency or product (space-time) yield due to a large number of (internal and external) mass transfer enhancements. However, the synthesis and accurate kinetic data of the nitration reaction of TFB in microreactor systems have not been reported. This work investigated the nitration reaction of TFB in mixed acid. Two microreactor systems and a kinetic model were developed to describe this reaction. The effects of reaction temperature, molar ratio, residence time, sulfuric acid concentration, and volumetric mass trans­ fer coefficient on the conversion were investigated separately. Compared with the batch reactor, a high reaction rate, high conversion rate, and short reaction time were achieved in a Heart-type micromixer.
+
+2. Experimental
+
+2.1. Reagents
+
+All reagents (trifluoromethylbenzen ≥99%; Sulfuric acid ≥98%; Fuming Nitric acid ≥98%; dichloromethane ≥99%) were obtained from Shanghai Aladdin Bio-Chem Technology Co., Ltd. All chemicals were used without further purification.
+
+Fig. 2. Schematic overview of the Heart-type micromixer system.
+
+2.2. Experimental setup
+
+where τ (min) is the reaction residence time, and VR (mL) is the total volume of the reaction zone. Qor and Qw (mL/min) are the volume flow rate of the TFB solution and mixed acid solution, respectively. The initial concentration of species A can be calculated with Eq. (2):
+
+2.2.1. Nitration of TFB in the T-micromixer The experimental setup of the continuous flow system used in this work was shown in Fig. 1. Solution 1 (TFB) and solution 2 (HNO3/ H2SO4) were fed separately using two high-precision piston pumps (Sanotac-MPF0502C, Shanghai, China; flow rate, 0-100.00 mL/min; pressure range, 0-4 MPa). In order to ensure that the temperature of solutions 1 and 2 was the same as the reaction temperature, it is necessary to reach a preset temperature in a coiled capillary tube 1 m long, respectively. These two streams were mixed in the T-mixer (SST 316L) with a diameter of 3.3 mm. After thorough mixing, the nitration reaction occurred in the subsequent capillary tube (PTFE) with a diameter of 1 mm. The residence time was obtained by changing the flow rate or extending the capillary length. The final mixture was quenched by an aqueous solution via a high-precision piston pump C at the outlet of the microreactor. All capillaries were immersed in a water bath to ensure the same temperature.
+
+CA.0 = nA Qor + Qw
+
+(2)
+
+where nA is the amount of substance; Qor and Qw are the flow rate of the organic phase and mixed acid, respectively. Space-time yield (η, g⋅cm−3⋅h−1) is another important parameter to evaluate the reactor performance. It is calculated by Eq. (3).
+
+× F0 TFBX VR
+
+η = 60 × MTFNB
+
+(3)
+
+MTFB
+
+where F0 TFB is the initial mass flow rate of TFB, g/min; X is the conversion of TFB, VR is the reactor volume, cm3; MTFNB and MTFB are molecular weights of TFNB and TFB, whose values are 191.107 g/mol and 146.11 g/mol, respectively.
+
+2.2.2. Nitration of TFB in the Heart-type micromixer The nitration of TFB in the Heart-type micromixer system is shown in Fig. 2 (a). The system consists of a Heart-type micromixer and three high-precision piston pumps. The material of the internal microchannel structure is Hartz alloy. As seen in Fig. 2 (b), a Heart-type micromixer is like a sandwich structure consisting of a heat transfer layer at the top and bottom and a reaction layer in the middle. Unlike capillary micro­ mixers, Heart-type micromixers achieve enhanced mass transfer by adding barriers and U-shaped cylinders inside the microchannels. The internal volume of each microchannel plate is 3 mL. Residence time extension by increasing the number of reaction plates. The temperature control of the reaction system was controlled by the refrigerated/heated circulation unit (GDSZ-50L/-30 ◦C, Zhengzhou Ruihan Instrument Co., Ltd., China) and detected by the temperature sensing probe embedded in the microchannel. The detailed experimental conditions were presented in Supporting Information Figs. S1. S2.
+
+2.4. Batch system
+
+In the batch system, HNO3 (15.2 g, 157.4 mmol, 65 %) and 48 g H2SO4 (48 g, 479 mmol, 98 %) were mixed in the 50 mL three-necked round-bottomed flask. TFB (10 g, 68.44 mmol) was injected for 70 min with vigorous stirring and external cooling to 20 ◦C. The mixture was stirred for 4 hours and then quenched with ice water. The organic phase was extracted by adding dichloromethane solution and dried with anhydrous sodium sulfate. The upper oil phase was collected and analyzed.
+
+2.5. Volumetric mass transfer coefficient
+
+The volumetric mass transfer coefficient characterized the mass transfer performance in microreactors [29]. Nitration is a rapid reaction controlled by mass transfer. The mass balance is expressed as follows:
+
+2.3. Analysis
+
+) = KLα⋅VR⋅ΔCm (4)
+
+Qor⋅ ( Cor,out −Cor,in
+
+High-performance gas chromatography (Bruker 450-GC; column: AESE-54; 30 m × 0.32 mm × 0.5 µm) was used to analyze the product selectivity. The column temperature was maintained at 70 ◦C for 2 min, then increased to 280 ◦C by 15 ◦C/min, and held for 5 min. The injector and FID detector temperatures were both set to 300 ◦C. The nitrogen flow rate as the carrier gas was 1.0 mL/min with a split ratio of 30:1. Calculated product concentration using the area normalization method. The theoretical reaction residence time is calculated by Eq. (1):
+
+ΔCm is expressed as follows.
+
+( C∗ or,in + Cor,in
+
+) − ( C∗ or,out + Cor,out
+
+)
+
+) (5)
+
+ln ( C∗ or,in−Cor,in C∗ or,out−Cor,out
+
+ΔCm =
+
+Nitration is a rapid reaction, so C∗ or,in = C∗ or,out = 0. From Eqs. (4) and (5), the volumetric mass transfer coefficient KLα is expressed as follows [30].
+
+) (6)
+
+ln ( Cor,in
+
+τ = VR Qor + Qw
+
+(1)
+
+KLα = Qor
+
+VR
+
+Cor,out
+
+2.6. dimensionless number
+
+Table 1 Fluid Properties of TFB and mixed acid at 20◦C
+
+The dimensionless number used to describe the flow behavior and mass transfer behavior of the two-phase liquid in the microchannel are expressed as follows Eqs. (10) and (11) [31].
+
+Serial no. parameter value
+
+Density of TFB 1190 kg/m3
+
+Density of mixed acid 1700 kg/m3
+
+Dynamic viscosity of TFB 0.647 × 10−3 pa/s Dynamic viscosity of mixed acid 15.61 × 10−3 pa/s dH (Heart-type micromixer) 1.1379 × 10−3 m Inlet diameter (T-micromixer) 1 × 10−3 m Flow rate (Heart-type micromixer) 10-60 mL/min Flow rate (T-micromixer) 2-20 mL/min Interfacial tension 0.0511 kg/s2
+
+Re = u⋅dH⋅ρ μ (10)
+
+Ca = μ⋅u
+
+σ (11)
+
+where Re for the Heart-type micromixer was estimated based on di­ mensions and velocity at the inlet of the heart shape, dH is equivalent diameter of the microchannel inlet. TFB and mixed acid were used in our experiments as the immiscible liquid−liquid system with the properties shown in Table 1. In this work, the Re of T-microreactor and Heart-type micromixer based on superficial velocities ranged from 8.57 to 85.77 and from 24.66 to 148, respec­ tively. The results show that the flow state in both reactors is laminar. The range of Ca for the conditions studied here varies from 0.006 to 0.067 in the T-microreactor and varies from 0.019 to 0.12 in the Heart type microreactor, which reflects a larger contribution of surface tension to the droplet formation.
+
+φ = Qor Qor + Qw
+
+(7)
+
+φ is the volume fraction of the oil phase. Integrating Eqs. (6) and (7), the relationship between TFB concentration and residence time can be deduced in Eq. (8).
+
+) (8)
+
+τ ln ( Cor,in
+
+KLα = φ
+
+Cor,out
+
+Replacing the concentration with the conversion can obtain Eq. (9).
+
+KLατ = φln ( 1 −x
+
+) (9)
+
+Fig. 3. Effect of the residence time, temperature and concentration of H2SO4 on conversion. molar ratio of HNO3 to TFB = 1.2, N/S is molar of HNO3 to H2SO4, total flow rate = 20 mL/min. (a) 86 % H2SO4 (b) 89 % H2SO4 (c) 91 % H2SO4
+
+microchannel was shown in Supplementary materials Fig. S4. Fig. 3 shows the effect of the residence time, temperature, and concentration of H2SO4 on conversion under the total flow rate is 20 mL/min. The results showed that the conversion of TFB increased with the increase in reaction temperature and sulfuric acid concentration under the same reaction conditions. The TFB conversion was positively correlated with the residence time within 0 - 30 s. The increasing temperature acceler­ ated the effective collision between the reactants in the reaction system. It is well known that the attack of NO2 + on the aromatic compounds is the rate-determining step in the nitration reaction [19]. NO2 + concentration is related to the concentration of H2SO4 [33]. Under the same experi­ mental parameters, the conversion increased with the increase in sul­ furic acid concentration. According to Scheme 1, with the extension of the residence time, the water generated by the nitration reaction grad­ ually increases. Water dilutes the sulfuric acid concentration and re­ duces the nitration capacity, so the conversion rate should increase slowly. However, a slow trend of increasing conversion is not seen in Fig. 3, which may be because the capillary microreactor is not long enough.
+
+Fig. 4. Effect of molar ratio on conversion.
+
+3.1.2. Effect of molar ratio on conversion The effects of molar ratio on conversion were investigated at the temperature of 20 ◦C, the flow rate of 20 mL/min, and the residence time of 28 s. It can be seen in Fig. 4 that the conversion of TFB increases with an increasing molar ratio. This is reasonable because a higher molar ratio means an increased proportion of sulfuric acid and nitric acid at the same total flow rate, both of which favor the production of NO2 + and promote the reaction rate.
+
+3. Results and discussion
+
+3.1. Nitration of TFB in the T-micromixer
+
+3.1.1. Effect of the residence time, temperature, and H2SO4 concentration on conversion The establishment of the nitration in the T-micromixer system has been described in previous work [32]. The photographs of flow in the
+
+Fig. 5. Determination of the observed reaction rate constant kobs at different temperatures and H2SO4 concentrations.
+
+determined from the slope. The results are shown in Fig. 5. The results prove that there is an excellent linear relationship between f(XTFB) and τ. This finding suggests that the nitration of TFB follows a second-order reaction trend. The effect of sulfuric acid concentration on the nitration reaction must be considered to obtain accurate kinetic data. Therefore, an intrinsic reaction kinetic study must be performed. The Brφnsted-Bjer­ rum rate law or the activity coefficient of the transition-state theory was usually used to describe the NO2 + concentration [35]. Marziano et al. have reported the activity coefficient can be calculated by the Mc function as follows Eq. (16) [36].
+
+r = k∗CTFBCNO+ 2 10nMc (16)
+
+where k∗is the temperature-dependent intrinsic reaction rate constant. n is a thermodynamic parameter of aromatic compounds. k∗can be expressed by combining Eqs. (12) and 16 as follows:
+
+k∗= kobs
+
+CHNO3
+
+(17)
+
+10nMc
+
+CNO+
+
+Fig. 6. Results of polynomial fitting of Mc function in the H2SO4 concentration range of 9.5 to 12.5 mol/L
+
+Next, for both sides of Eq. (17) to take the logarithm, we can obtain Eq. (18).
+
+3.2. Reaction kinetics of nitration of TFB
+
+/ CHNO3
+
+) = lgk∗+ nMc (18)
+
+lgkobs −lg ( CNO+
+
+According to the reaction mechanism and experimental results, H2SO4 and HNO3 concentrations are related to the reaction rate. H2SO4 is a solvent and source of the active electrophilic NO2 + species [34]. Therefore, the overall rate equations of the TFB nitration reaction in this microreaction system can be calculated in Eq. (12).
+
+lgkobs −lg(CNO+ 2 /CHNO3) versus Mc is linearly related in Eq. (18),
+
+where the slope is n, and the intercept is lgk∗. In our previous work, the values of lgkobs −lg(CNO+ 2 /CHNO3) and Mc have been calculated depend­
+
+ing on the literature of Marziano [37]. Fig. 6 shows the results of the polynomial fit of the Mc function at 298 K versus H2SO4 concentration based on the data of Marziano. In the H2SO4 concentration range be­ tween 9.5 - 12.5 mol/L, the polynomial is given as follows:
+
+r = kobsCTFBCHNO3 (12)
+
+where kobs is the observed reaction rate constant, CTFB and CHNO3 are the concentrations of TFB and HNO3, respectively. CHNO3 can be replaced by the conversion rate of TFB as Eq. (13).
+
+−Mc = −3.6951 × 10−6C5 H2SO4 + 7.03938 × 10−6C4 H2SO4 + 0.00133C3 H2SO4 + 0.01428C2 H2SO4 + 0.3696CH2SO4
+
+) (13)
+
+dτ = kobsC0 TFB(1 −XTFB) ( C0 HNO3 −C0 TFBXTFB
+
+(19)
+
+r = −dCTFB
+
+The value of Mc at other temperatures can be obtained as follow [38].
+
+r = −dCTFB
+
+dτ = kobsC0 TFB(1 −XTFB)(M −XTFB) (14)
+
+Mc(T) = Mc(298K) [200 T + 0.3292 ] (20)
+
+where M = C0 HNO3/C0 TFB is the ratio of the initial concentrations of HNO3 to TFB. Eq. (14) can be written Eq. (15) by integrating.
+
+Previous work has demonstrated the link between lg(CNO+ 2 /CHNO3)
+
+f(XTFB) = C0 TFB(M −1) ln [ M −XTFB
+
+] = kobsτ (M ∕= 1) (15)
+
+and the temperature and H2SO4 concentration. As shown in Fig. 7 has an excellent linear relationship with both temperature and H2SO4 concentration.
+
+M(1 −XTFB)
+
+Therefore, a plot of f(XTFB) versus τ is a straight line, and kobs can be
+
+Fig. 7. Variation of lg(CNO+ 2 /CHNO3) versus H2SO4 concentration and temperatures and fitted lines. (a) at different temperatures (b) at H2SO4 concentration.
+
+nitration. R is the molar gas constant.
+
+3.3. Intensification of TFB nitration in the Heart-type micromixer
+
+Based on the analysis of the above experimental results, it is clear that the sulfuric acid concentration significantly affects the conversion according to the intrinsic kinetics of nitration. The mass transfer rate increases as sulfuric acid strength increases in the liquid-liquid hetero­ geneous reaction system. However, the conversion of TFB in micro­ reactors is related to the mass transfer performance and residence time [39]. As shown in Fig. 3, the conversion of TFB in the T-micromixer is low at 86 % ~ 91 % sulfuric acid concentrations. Therefore, considering the high throughput and energy consumption of production in practical applications, the use of enhanced mass transfer is the most economical way to increase the TFB conversion rate. A passive microreactor was chosen in this work, as shown in Fig. 2. The barrier in the microchannel structure can break the stable laminar flow, form secondary flow, and enhance the internal circulation of liquid to increase the specific surface area and surface renewal rate to improve mass transfer [40,41].
+
+Fig. 8. Determination of n and k* at different temperatures
+
+Table 2 Values of log k* and n at different temperatures
+
+3.3.1. Effect of flow rate on the conversion It is well known that the Re is proportional to the flow rate. Increasing the Re is the primary method to enhance the mass transfer performance of the reactor. Therefore, it is necessary to examine the effect of the flow rate on the reaction conversion rate. As shown in Fig. 10 (a), the effect of flow rate on conversion was examined under the same residence time conditions. The conversion rate showed a trend of increasing and then stabilizing with the increase in flow rate, which may be because the nitration reaction of TFB is a liquid-liquid heterogeneous reaction system. The reaction mainly occurs at the interface of two phases, and the mass transfer between the two phases primarily relies on molecular diffusion at the flow rate range of 10 mL/min to 30 mL/min. With the increase in flow rate, the secondary flow was generated, and a dispersed flow pattern was formed, which increased the specific boundary area, enhanced the mass transfer, and improved the conver­ sion rate [42]. When the flow rate reached 50 mL/min, simply increasing the flow rate did not further improve the conversion rate. In enhanced mixing and mass transfer processes, higher mixing and mass transfer efficiency is usually accompanied by an increase in energy consumption or pressure drop [43]. As can be seen in Fig. 10 (b), the pressure drop (Δp) increases with the flow rate, from 0.5 MPa to 1.8 MPa in the flow rate of 10 ~ 60 mL/min, but the upper-pressure drop limit of the pump is 2 MPa. Therefore, the pressure drop cannot be ignored when optimizing the effect of flow rate on conversion. Fig. 10 (c) shows the flow rate's effect on the KLa at the same residence time. As the flow rate increases, the KLa increases. This is due to the increase in flow rate, which intensifies the mixing effect and increases the surface renewal rate of the mixing system, leading to an increase in KLa. In our previous work, we simulated the mixing state of liquid-liquid heterogeneous two-phase flow at different flow rates by CFD [44]. The CFD calculations of two-phase flow photographs was shown in Supplementary materials Fig. S5.
+
+Temperature (◦C) n log k*
+
+0.64398 4.71931 0.65378 4.93143 0.66751 5.24739
+
+Fig. 9. Arrhenius plot of lnk* versus 1/T
+
+Next, by plotting lgkobs −lg(CNO+ 2 /CHNO3) versus Mc at different
+
+temperatures, the results are given in Fig. 8. It can be seen that all data are fitted well by straight lines. The value of log k* and n at different temperatures are shown in Table 2. The value of k* increases with increasing temperature, while the value of n does not change signifi­ cantly with temperature. The Arrhenius equation is used to calculate the activation energy of NO2 + attacking TFB molecules at different values of k∗at different tem­ peratures, as shown in Eq. (18). As shown in Fig. 9, the curve of lnk* versus 1/T is fitted as a straight line, and the activation energy and the preexponential factor can be calculated as the slope and intercept of the straight line, respectively. The activation energy of TFB nitration is 86.33 kJ/mol.
+
+3.3.2. Effect of molar ratio on the conversion
+
+Fig. 11 shows the effect molar ratio of nitric acid to TFB and nitric acid to sulfuric acid on the conversion at 30 ◦C. The molar ratio of nitric acid to sulfuric acid was adjusted at the same water content in mixed acid. All three curves in the graph show an increasing trend with the molar ratio. At the same molar ratio of nitric acid to TFB, the smaller the N/S value, the higher the conversion. When the molar ratio of nitric acid to TFB reached 1.5, the conversion reached 99.5 %, with N/S values of 0.71. A smaller N/S means a higher proportion of sulfuric acid in the mixed acid, thus speeding up the reaction rate and increasing the con­ version rate. As the molar ratio increases, the product has no poly-nitro impurities despite the high nitric acid molar ratio. This may be due to
+
+k∗= Aexp ( −Ea
+
+) (21)
+
+RT
+
+where Ea and A is the activation energy and preexponential factor of TFB
+
+Fig. 10. Effect of flow rate on conversion. (a) temperature = 50 ◦C, molar ratio of HNO3 to TFB = 1.2, N/S = 0.78, 86 % H2SO4 (b) Pressure drop at different flow rates (c) Volume Mass Transfer Coefficient at different flow rates
+
+Fig. 12. Effect of temperature on conversion. The molar ratio of HNO3 to TFB = 1.5, and the total flow rate = 60 mL/min.
+
+Fig. 11. Effect of molar ratio on conversion. Temperature = 30 ◦C, the total flow rate = 60 mL/min.
+
+mass transfer.
+
+the excellent mixing of the two phases in the microreactor, the high mass transfer rate, and the fact that TFNB is more difficult to nitrify the re­ action further. Compared to Fig. 3, the conversion rate significantly increased from 22 % to 52.8 % at the N/S value is 0.78. This result in­ dicates that the passive microreactor achieves the objective of enhanced
+
+3.3.3. Effect of temperature on the conversion The reaction intrinsic rate constant usually increases with the in­ crease of reaction temperature, so the reaction temperature is an important factor affecting the reaction conversion rate. Fig. 12
+
+micromixer and Heart-type micromixer on the different H2SO4 con­ centrations. It is well known that the nitration reaction of TFB is a liquid liquid heterogeneous phase. With the increase of sulfuric acid concen­ tration, the mass transfer resistance increases, and the mass transfer coefficient should decrease. However, the volumetric mass transfer system in the figure shows an increasing trend with the increase of sulfuric acid concentration. However, the volumetric mass transfer system in the figure shows a rising trend with the increase of sulfuric acid concentration. This is due to the microreactor's smaller diameter and reactor volume and the placement of barriers within the micro­ channels to achieve enhanced mass transfer. The results showed that the total volume mass transfer coefficient of the Heart-type micromixer improved by a factor of 15. Nieves-Remacha et al. reported hydrody­ namics of liquid-liquid dispersion in an Advanced-Flow Reactor. The results show that at higher flow rates, the high shear rate of the continuous phase results in a narrower particle size and smaller droplet size, and the smaller droplet size provides a higher effective boundary area for mass transfer. The AFR can provide specific interfacial areas (1000-10000 m−1) [40]. Effective Interfacial Area can be expressed in Eq. (22).
+
+Fig. 13. Effect of residence time on conversion. The molar ratio of HNO3 to TFB = 1.3, and the total flow rate = 60 mL/min, temperature = 30 ◦C, N/S = 0.71, H2SO4 concentration = 92.8 %.
+
+a = 6ε
+
+(22)
+
+dp
+
+showcases the effect of temperature on the conversion of TFB. The conversion rate gradually increased with the temperature increase, reaching 99.5 % at 30◦C when the N/S value was 0.71. The increase in reaction temperature accelerates the mass transfer rate and reaction rate of TFB. Meanwhile, sulfuric acid catalyzes the generation of NO2 + from nitric acid. NO2 + concentration increases with an increase in temperature and sulfuric acid concentration, so the conversion rate increases with the reaction temperature [45]. Although the nitration process is highly exothermic, the microreactor with its large heat exchange area and small channel size allows for precise temperature control and ensures the safety of the TFB nitration process.
+
+where a is effective interfacial area (m2/m3), ε is phase hold-up, dp is the number-average drop size over the entire plate (m). Under the condition of constant phase content, the interfacial area increases with the decrease in droplet size. Therefore, due to the slow nitration reaction rate of TFB, a longer residence time is required to achieve a higher conversion rate in the T microreactor. However, due to the high mass transfer rate of the microreactor, only a short residence time is required to achieve a high conversion rate, while commercial-scale production can be achieved by increasing the reaction temperature and connecting the reactors in se­ ries while keeping the overall mass transfer coefficient constant.
+
+3.3.4. Effect of residence time on the conversion
+
+Fig. 13 shows the effect of residence time on the conversion. With the increase in residence time, the TFB curve showed a decreasing trend, and the 2-TFNB, 3-TFNB, and 4-TFNB curves showed an increasing trend. Among them, the 3-TFNB curve, which was the main product, increased most significantly. After the residence time reached 20 s, the rise of the 3-TFNB curve decreased because the reaction rate decreased as the nitration reaction proceeded. The water generation in the reaction reduces the nitration capacity of the nitration agent. As the residence time increased, no by-products were generated, which again proved the excellent mass and heat transfer performance of the microreactor.
+
+3.4. Comparison of the batch reactor, T-micromixer, and Heart-type micromixer
+
+Table 3 lists the experimental results of TFB nitration in three re­ actors. At 100 % TFB conversion, the Heart-type micromixer's residence time was significantly shorter than the batch reactor, only 0.5 min. At the same time, the molar ratio was substantially lower. The sulfuric acid consumption in the microreactor is greatly reduced by 3.5 times. The space-time yield in the microreactor is two orders of magnitude higher than in batch reactors.
+
+Fig. 14. Volumetric mass transfer coefficient for different H2SO4 concentrations.
+
+Fig. 14 shows the volumetric mass transfer coefficient of the T
+
+Table 3 Comparison of experimental results
+
+Reactor type Volume (cm3) Molar ratio Residence time (min) Conversion (%) STC; η (g⋅cm−3⋅h−1)
+
+Heart-type micromixer 1:1.5:2.1 0.5 16053.55 T-micromixer 1:1.2:1.54 0.47 3482.7 Batch reactor 1:2.29:6.99 24.83
+
+Scheme 1. Nitration of trifluoromethylbenzene with mixed acid. (1) trifluoromethylbenzene (TFB); (2) 2-trifluoromethynitrobenzene (2-TFNB); (3) 3-trifluorome­ thynitrobenzene (3-TFNB); (4) 4-trifluoromethynitrobenzene (4-TFNB)
+
+4. Conclusion
+
+[4] C.Y. Zhang, J.S. Zhang, G.S. Luo, Kinetic study and intensification of acetyl guaiacol nitration with nitric acid-acetic acid system in a microreactor, J. Flow. Chem. 6 (4) (2016) 309–314. [5] D. Russo, I. Di Somma, R. Marotta, G. Tomaiuolo, R. Andreozzi, S. Guido, A. A. Lapkin, Intensification of nitrobenzaldehydes synthesis from benzyl alcohol in a microreactor, Org. Process Res. Dev. 21 (3) (2017) 357–364. [6] Y.H. Su, Y.C. Zhao, G.W. Chen, Q. Yuan, Liquid-liquid two-phase flow and mass transfer characteristics in packed microchannels, Chem. Eng. Sci. 65 (2010) 3947–3956. [7] Y. Sharma, R.A. Joshi, A.A. Kulkarni, Continuous-flow nitration of o-xylene: effect of nitrating agent and feasibility of tubular reactors for scale-up, Org. Process Res. Dev. 19 (9) (2015) 1138–1147. [8] M. Ghaffarzadeh, S. Rahbar, A novel method for synthesis of flutamide on the bench-scale, J. Chem. Res. 38 (4) (2014) 200–201. [9] R. Halder, A. Lawal, R. Damavarapu, Nitration of toluene in a microreactor, Catal. Today. 125 (1-2) (2007) 74–80. [10] Z.F. Yan, Y.B. Wang, C.C. Du, J. Deng, G.S. Luo, Highly efficient two-stage ring opening of epichlorohydrin with carboxylic acid in a microreaction system, AIChE J. (2022) e17791. [11] A.A. Kulkarni, Continuous flow nitration in miniaturized devices, Beilstein J. Org. Chem. 10 (2014) 405–424. [12] V. Hessel, B. Cortese, M. De Croon, Novel process windows-concept, proposition and evaluation methodology, and intensified superheated processing, Chem. Eng. Sci. 66 (7) (2011) 1426–1448. [13] Y.X. Wu, Z. Chen, F.J. Wang, J.H. Xu, Y.D. Wang, Efficient organocatalytic synthesis of styrene oxide from styrene and its kinetic study in a continuous-flow microreaction system, Chem. Eng. Sci. 247 (2022), 117045. [14] A.A. Kulkarni, N.T. Nivangune, V.S. Kalyani, R.A. Joshi, R.R. Joshi, Continuous flow nitration of salicylic acid, Org. Process Res. Dev. 12 (5) (2008) 995–1000. [15] Z.H. Wen, F.J. Jiao, M. Yang, S.N. Zhao, F. Zhou, G.W. Chen, Process development and scale-up of the continuous flow nitration of trifluoromethoxybenzene, Org. Process Res. Dev. 21 (11) (2017) 1843–1850. [16] D. Russo, L. Onotri, R. Marotta, R. Andreozzi, I. Di Somma, Benzaldehyde nitration by mixed acid under homogeneous condition: a kinetic modeling, Chem. Eng. J. 307 (2017) 1076–1083. [17] M. K¨ockinger, B. Wyler, C. Aellig, D.M. Roberge, C.A. Hone, C.O. Kappe, Optimization and scale-up of the continuous flow acetylation and nitration of 4‑fluoro-2-methoxyaniline to prepare a key building block of osimertinib, Org. Process Res. Dev. 24 (10) (2020) 2217–2227. [18] G. Fu, L. Ni, D. Wei, J.C. Jiang, Z.Q. Chen, Y. Pan, Scale-up and safety of toluene nitration in a meso-scale flow reactor, Process. Saf. Environ. 160 (2022) 385–396. [19] Q. Song, X.G. Lei, S. Yang, S. Wang, J.H. Wang, J.J. Chen, Y. Xiang, Q.W. Huang, Z. Y. Wang, Continuous-flow synthesis of nitro-o-xylenes: process optimization, impurity study and extension to analogues, Molecules 27 (2022) 5139. [20] X. Wang, T. Zhang, L. Lv, W.X. Tang, R.K. Gupta, S.W. Tang, Reaction performance and flow behavior of isobutane/1-butene and H2SO4 in the microreactor configured with the micro-mixer, Ind. Eng. Chem. Res. 61 (2022) 9122–9135. [21] J. Song, Y.J. Cui, G.S. Luo, J. Deng, Y.J. Wang, Kinetic study of o-nitrotoluene nitration in a homogeneously continuous microflow, React. Chem. Eng. 7 (2022) 111–122. [22] V. Hessel, H. L¨owe, F. Sch¨onfeld, Micromixers-a review on passive and active mixing principles, Chem. Eng. Sci. 60 (8-9) (2005) 2479–2501. [23] K.F. Jensen, Flow chemistry-microreaction technology comes of age, AIChE J. 63 (3) (2017) 858–869. [24] X.G. Li, S.E. Liu, Y.H. Su, Research development on process intensification of liquid-liquid mass transfer and reaction at microscale, CIESC J. 72 (1) (2021) 452–467. [25] P. Plouffe, D.M. Roberge, A. Macchi, Liquid-liquid flow regimes and mass transfer in various micro-reactors, Chem. Eng. J. 300 (2016) 9–19. [26] X. Xue, R.K. Jiang, C.M. Xie, G.Z. Qian, M.J. Shang, W.P. Zhu, Y.H. Su, Mechanism and kinetic study for the intensification of two-step synthesis of a dolutegravir intermediate in microreactor, AIChE J. (2022) e17820. [27] J. Song, Y.J. Cui, L. Sheng, Y.J. Wang, C.C. Du, J. Deng, G.S. Luo, Determination of nitration kinetics of p-Nitrotoluene with a homogeneously continuous microflow, Chem. Eng. Sci. 247 (2022), 117041.
+
+In summary, we used a passive microreactor for the nitration reac­ tion of TFB and successfully improved the mixing, mass transfer, and reaction performance of the mixed acid nitration system. First, the volumetric mass transfer coefficient in the Heart-type micromixer was over 15 times that in a T-micromixer. Second, sulfuric acid consumption is significantly reduced by 3.5 times that in a batch reactor. The space time yield in the Heart-type micromixer is two orders of magnitude higher than in the batch reactor. Third, under optimal conditions, the TFB conversion can reach 100 % in the residence time is only 30 s. The experimental results showed better mixing performance and mass transfer of the Heart-type micromixer. Subsequently, an intrinsic mechanics model was developed in the capillary T-microreactor to describe the reaction. The kinetics of TFB nitration data was first reported. The activation energy of TFB nitration is 86.33 kJ/mol. This work demonstrated that microreactor technology could provide a promising TFB nitration platform and a reference value for large-scale industrial production.
+
+Declaration of Competing Interest
+
+The authors declared that there is no conflict of interest.
+
+Data Availability
+
+No data was used for the research described in the article.
+
+Acknowledgments
+
+The authors would like to acknowledge the National Natural Science Foundation of China (No. 21875109) for providing funds for conducting experiments.
+
+Supplementary materials
+
+Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.cep.2022.109239.

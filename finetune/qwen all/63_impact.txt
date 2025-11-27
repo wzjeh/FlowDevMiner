@@ -1,0 +1,10 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of CO2 | increase |
+| temperature | selectivity of methanol | decrease |
+| pressure | conversion of CO2 | increase |
+| space_velocity (WHSV) | conversion of CO2 | decrease |
+| residence_time | conversion of CO2 | increase |
+| catalyst_loading (copper content) | methanol yield | increase |

@@ -1,0 +1,78 @@
+{"type":"temperature","value":match.group(1)+" °C"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "barrier-based flow distributor", "reactants": [], "products": [], "conditions": [{"type": "pressure_drop_ratio", "value": 4}], "reactor": {"type": "number-up"}, "metrics": {}}}
+
+{"reactants": [], "products": [{"name": None}], "conditions": []}
+
+# Extract key information using regular expressions
+    yield_optimal = float(re.search(r"yield (\d+)%", text).group(1))
+    
+    temperature = None
+    residence_time = None
+    flow_rate_A = None
+    flow_rate_B = None
+    pressure = None
+    
+    reactor_type = "coil"
+    inner_diameter = 0.5
+
+    # Extract conditions and metrics from the input string
+    for line in text.split(";"):
+        if re.search(r"Flow rate (\d+) mL/min", line):
+            flow_rate_A = float(re.search(r"(\d+)", line).group(1))
+        
+        elif re.search(r"T=(\d+) °C", line):
+            temperature = int(re.search(r"(\d+)", line).group(0))
+
+        elif re.search(r"in a (\d+) mm coil", line):
+            inner_diameter = float(re.search(r"(\d+)", line).group(1))
+        
+        elif "yield" in line:
+            yield_optimal = float(re.search(r"(\d+)%", line).group(0))
+
+    # Determine the optimal condition set
+    conditions = []
+    
+    if temperature
+
+# Extract temperature and residence time
+    temp = None
+    res_time = None
+    match_temp = re.search(r"(\d+) °C", paragraph)
+    if match_temp:
+        temp = int(match_temp.group(1))
+    
+    match_res_time = re.search(r"in (\d+ min)", paragraph)
+    if match_res_time:
+        res_time = float(match_res_time.group(1))
+
+    # Extract flow rate
+    flow_rate = None
+    match_flow_rate = re.search(r"(\d+) mL/min", paragraph)
+    if match_flow_rate:
+        flow_rate = int(match_flow_rate.group(1))
+    
+    # Extract inner diameter of the reactor
+    inner_diameter = None
+    match_inner_diameter = re.search(r"a (\d+ mm) coil;", paragraph)
+    if match_inner_diameter:
+        inner_diameter = float(match_inner_diameter.group(1))
+
+    # Extract yield and reaction type (if any)
+    yield_optimal = None
+    reaction_type = null
+    products = []
+    for word in re.findall(r"\b\w+\b", paragraph):
+        if word.lower() == "yield":
+            match_yield = re.search
+
+{value}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mm"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mm"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+

@@ -1,0 +1,86 @@
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "nitrobenzene", "role": "..."}], "products": [], "conditions": [{"type": "flow_rate_reactant_A", "value": "10 μL/min"}, {"type": "flow_rate_total", "value": "80 μL/min"}], "reactor": {"type": null, "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+{
+        "type": "tube-in-tube hollow fiber catalytic membrane microreactor",
+        "inner_diameter": null   # Inner diameter of the tube is not provided; use original units when present.
+    }
+
+{"reaction_summary": {"reaction_type": "catalyzed", "reactants": [{"name": "nitrobenzene", "role": "reactant"}], "products": [], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "10 mL/min"}, {"type": "flow_rate_reactant_B", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "hollow fiber catalytic membrane microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively. 
+- inner_diameter is in mm.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else:  # No explicit reaction type, use null.
+        reaction_type = None
+
+    # Parse reactants
+    matches = re.findall(r"([A-Z][a-z]+)", input_str)  
+    reactant_names = [match for match in matches if 'solvent' not in match.lower()]
+    
+    # Parse products (yield)
+    product_match = re.search(r"(\d+)%", input_str)
+    yield_optimal = int(product_match.group(1))  # Optimal yield
+    unit = "%"  # Unit is always percentage
+
+    # Parse conditions
+    temperature_match = re.search(r"T=(\d+) \°C", input_str)  
+    residence_time_match = re.search(r"residence time (\d+)", input_str)
+    
+    if temperature_match:
+        temp_value = temperature_match.group(1)
+
+{"name": "aniline", "yield_optimal": 95, "unit": "%"}
+
+- Assume that if a field is not explicitly stated, it should be null.
+
+
+
+
+
+    # Parse reaction type and reactants/products
+    match = re.search(r"(\w+) in (\w+)", text)
+    if match:
+        reaction_type = match.group(1).lower()
+        catalyst_role = "catalyst"
+        solvent_role = "solvent"
+
+        reactant_A, reactant_B = None, None
+
+        # Parse products
+        product_match = re.search(r"yield (\d+)%", text)
+        if product_match:
+            yield_optimal = int(product_match.group(1))
+    else:
+        reaction_type = null
+        catalyst_role = null
+        solvent_role = null
+        reactant_A, reactant_B = None, None
+
+    # Parse conditions (temperature and flow rate)
+    match = re.search(r"(\d+) °C", text)
+    if match:
+        temperature_value = int(match.group(1))
+    else:
+        temperature_value = null
+
+    match = re.search(r"in a (\d+ mm) coil|Flow rate (\d+) mL/min", text)
+    if match:
+        inner_diameter, flow_rate_total = None,
+
+{'name': None, 'yield_optimal': value, 'unit': '%'}
+
+{ "reaction_summary": {  "reaction_type":"...",  "reactants":[{"name":"...","role":"reactant|catalyst|solvent"}],  "products":[{"name":"...","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"..."},    {"type":"residence_time","value":"..."},    {"type":"flow_rate_reactant_A","value":"0.01 sccm"},    {"type":"flow_rate_reactant_B","value":null},    {"type":"pressure","value":null}  ],  "reactor":{"type":"coil", "inner_diameter":null}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "nitrobenzene", "role": "reactant"}], "products": [], "conditions": [{"type": "temperature", "value": "25 °C"}, {"type": "residence_time", "value": "60 min"}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "pressure", "value": "1 atm"}], "reactor": {"type": "coil", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"name":"Nitrobenzene","role":("catalyst" if "catalyst" in s else "reactant|solvent")}
+

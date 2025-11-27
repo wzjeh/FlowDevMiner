@@ -1,0 +1,13 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| Reaction time | Time | decrease |
+| residence_time | - | - |
+| reaction_time | - | increase |
+| temperature | - | increase |
+| space-time_yield | - | increase |
+| throughput | mass_flow_rate | increase |
+| residence_time | time | decrease |
+| for line in lines if re.match(r'\w+\ | \w+', line)] | - |
+| reaction_time | Time | decrease |

@@ -1,0 +1,11 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of BNOH | increase |
+| temperature | selectivity of benzaldehyde | increase |
+| catalyst_loading | conversion of BNOH | increase |
+| residence_time | conversion of BNOH | increase |
+| reactant_concentration | conversion of BNOH | unchanged |
+| pressure | conversion of BNOH | unchanged |
+| flow_rate | residence_time | decrease |

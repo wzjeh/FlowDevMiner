@@ -1,0 +1,75 @@
+{"name": name, "role": role}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str, flags=re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    # Parse reactants and products
+    words = input_str.split()
+    i = 0
+    while i < len(words):
+        word = words[i]
+        if re.match(r'\d+(?:\.\d+)?', word): 
+            yield_optimal = float(word)
+            unit = None
+            # Check for percentage sign to determine the unit of measurement.
+            if '%' in words:
+                unit = '%'
+                i += 1
+                while i < len(words) and not re.match(r'\w+', words[i]):
+                    i += 1
+            else: 
+                match = re.search(r'(\d+(?:\.\d+)?) (mL/min|min)', word)
+                if match:
+                    value, unit = match.groups()
+                    yield_optimal = float(value) / 60 # Normalize to min.
+        elif re.match(r'\
+
+{"name": "p-nitrotoluene","yield_optimal":95,"unit":"%"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+- Assume that if a field is not explicitly stated in the input text, it should be included with default values. 
+
+Here's an example of how to use this code:
+
+
+
+
+    # Parse reaction type and reactants/products
+    match = re.search(r"(\w+) nitration", input_text)
+    if match: 
+        reaction_type = match.group(1) + " nitration"
+    
+    # Parse conditions (temperature, residence time, flow rate, pressure)
+    temperature_match = re.search(r"T=(\d+ \D)", input_text)
+    if temperature_match:
+        temp_value = temperature_match.group(1).strip()
+        
+    residence_time_match = re.search(r"residence time (\d+) min", input_text)
+    if residence_time_match: 
+        res_time_value = int(residence_time_match.group(1))
+    
+    flow_rate_reactant_A_match = re.search(r"(reactant|A) at a rate of (\d+\.\d+ mL/min)", input_text, flags=re.IGNORECASE)
+    if flow_rate_reactant_A_match:
+        flow_rate_total_value = float(flow_rate_reactant_A_match.group(2))
+        
+    pressure_match = re.search
+
+{"name": "p-nitrotoluene", "yield_optimal": 95}
+
+{"type": "residence_time", "value": f"{float(conditions[0]):.1f} min"}
+
+{"name": None, "yield_optimal": int(match.group(1)), "unit": "%"}
+
+{"name": "nitrotoluene", "yield_optimal": null, "unit": "%"}
+
+{ "reaction_summary": {  "reaction_type":"nitration",  "reactants":[{"name":"toluene","role":"reactant"}],  "products":[{"name":"mononitrotoluene (MNT)","yield_optimal":null,"unit":"%"}, {"name":"dinitrotoluene (DNT)"}],  "conditions":[    {"type":"temperature","value":"..."}  ],  "reactor":{"type":"stirred tank reactor", "inner_diameter":null}
+

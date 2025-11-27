@@ -1,0 +1,9 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| microreactor flow rate ratio | PA conversion | decrease |
+| microreactor flow rate ratio | gem-DBE yield | decrease |
+| residence_time | PA conversion | increase |
+| interfacial contact | product quality | increase |
+| residence_time | PA conversion | increase |

@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "hydrogenation", "reactants": ["dye molecules", "H2"], "products": ["hydrogenated dyes"], "conditions": [{"type": "flow_rate", "value": null}, {"type": "residence_time", "value": 1}], "reactor": {"type": "monolithic", "inner_diameter": 500}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}

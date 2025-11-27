@@ -1,0 +1,56 @@
+{
+  "reaction_type": "diazotization",
+  "reactants": [
+    {
+      "name": "red base KD hydrochloride",
+      "role": "reactant"
+    },
+    {
+      "name": "sodium nitrite",
+      "role": "reactant"
+    },
+    {
+      "name": "sodium 6-hydroxynaphthalene-2-sulfonate",
+      "role": "reactant"
+    },
+    {
+      "name": "hydrochloric acid",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "azo dyes",
+      "yield_optimal": 99.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "25 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": "21.2 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "20 mL min−1"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "membrane dispersion microreactor with delay loop",
+    "inner_diameter": "2.0 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 99.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

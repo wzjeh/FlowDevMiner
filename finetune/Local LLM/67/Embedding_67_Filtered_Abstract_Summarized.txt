@@ -1,0 +1,59 @@
+{ "reaction_summary": {  "reaction_type":"microdispersion",  "reactants":[{"name":"EAQ","role":"solvent"}],  "products":[    {"name":"N2","yield_optimal":null,"unit":"%"},    {"selectivity_optimal":95.0,"product_name":"H2"}  ],  "conditions":[    {"type":"flow_rate_reactant_A","value":"1 mL/min"},    {"type":"pressure","value":"101325 Pa"},    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":null},    {"type":"flow_rate_total","value":"10 mL/min"}  ],  "reactor":{"type":"coil", "inner_diameter":"0.5 mm"}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r'\b\w+\b(?![a-z])', input_str)
+    reactant_names = [match for match in matches]
+    
+    # Parse products (if present)
+    product_match = re.search(r'yield (\d+)%', input_str)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+        
+    else: 
+        yield_optimal = None
+    
+    # Parse conditions
+    temperature_match = re.search(r'T=([0-9]+) °C', input_str)
+    
+    residence_time_match = re.search(r'residence time ([0-9.]+)', input_str)
+    
+    flow_rate_matches = re.findall(r'flow rate (\d+(?:\.\d+)?) mL/min', input_str)
+    
+    pressure_match = None
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "reactant|catalyst|solvent"}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}, {"type": "residence_time", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": 90, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": {  "reaction_type":"null",  "reactants":[{"name":"stainless steel","role":"catalyst"}],  "products":[],"conditions":[ {"type":"temperature","value":"25 °C"}, {"type":"residence_time","value":"null"}, {"type":"flow_rate_reactant_A","value":null}, {"type":"pressure","value":null} ],  "reactor":{"type":"membrane dispersion module", "inner_diameter":"0.3 mm"}
+
+{ "reaction_summary": {  "reaction_type":"catalytic hydrogenation",  "reactants":[{"name":"ethylanthraquinone","role":"solvent"}],  "products":[{"name":"null","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"null"},    {"type":"residence_time","value":"null"},    {"type":"flow_rate_reactant_A","value":"null"},    {"type":"flow_rate_reactant_B","value":"null"},    {"type":"pressure","value":"null"}  ],  "reactor":{"type":"microdispersion device", "inner_diameter":null}
+
+{ "reaction_summary": {  "reaction_type":"flow-chemistry",  "reactants":[{"name":"ethyl acetate quinone","role":"reactant"}],  "products":[{"name":"anhydride","yield_optimal":null,"unit":null}],  "conditions":[    {"type":"temperature","value":null},    {"type":"residence_time","value":null},    {"type":"flow_rate_reactant_A","value":null}
+
+{ "reaction_summary": { 
+    "reaction_type":"catalytic hydrogenation", 
+    "reactants":[{"name":"ethylanthraquinone","role":"reactant"}], 
+    "products":[{"name":"H2O2","yield_optimal":null,"unit":"%"}], 
+    "conditions":[
+        {"type":"temperature","value":"..."}, 
+        {"type":"residence_time","value":"..."},
+        {"type":"flow_rate_reactant_A","value":"..."}, 
+        {"type":"pressure","value":"..."}
+
+{"reaction_summary": {"reactants": [], "products": [{"name": "...", "yield_optimal": null, "unit": "%"}], "conditions": [{"type": "pressure", "value": "1 MPa"}], "reactor": {"type": "phase_separator", "inner_diameter": null}, "metrics": {"conversion": null, "selectivity": null, "yield": null}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mm"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+

@@ -1,0 +1,52 @@
+{
+  "reaction_type": "diazotization",
+  "reactants": [
+    {
+      "name": "red base KD hydrochloride",
+      "role": "reactant"
+    },
+    {
+      "name": "sodium nitrite",
+      "role": "reactant"
+    },
+    {
+      "name": "hydrochloric acid",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "aryl diazonium salt",
+      "yield_optimal": 99.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "25 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "21.2 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "40 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "membrane dispersion microreactor",
+    "inner_diameter": "2.0 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 99.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

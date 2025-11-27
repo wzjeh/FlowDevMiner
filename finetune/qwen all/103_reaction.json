@@ -1,0 +1,68 @@
+{
+  "reaction_type": "diazotization and coupling",
+  "reactants": [
+    {
+      "name": "2-naphthylamine-1,5-disulfonic acid",
+      "role": "reactant"
+    },
+    {
+      "name": "sodium nitrite",
+      "role": "reactant"
+    },
+    {
+      "name": "hydrochloric acid",
+      "role": "reactant"
+    },
+    {
+      "name": "4-[[4-chloro-6-[[4-[[2-(sulfooxy)ethyl]sulfonyl]phenyl]amino]-1,3,5-triazin-2-yl]amino]-5-hydroxy-2,7-naphthalenedisulfonic acid",
+      "role": "reactant"
+    },
+    {
+      "name": "sulfamic acid",
+      "role": "reactant"
+    },
+    {
+      "name": "NADA-DS",
+      "role": "catalyst"
+    },
+    {
+      "name": "water",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "C.I. Reactive Red 195",
+      "yield_optimal": 736.0,
+      "unit": "kg/day"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "20 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "144 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "2000 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "dynamic tubular",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 95.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

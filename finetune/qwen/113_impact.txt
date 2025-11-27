@@ -1,0 +1,8 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | yield | increase |
+| molar_ratio | yield | increase |
+| total_flow_rate | yield | decrease |
+| sulfuric_acid_mass_fraction | yield | increase |

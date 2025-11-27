@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "salicylic acid",
+      "role": "reactant"
+    },
+    {
+      "name": "HNO3",
+      "role": "reactant"
+    },
+    {
+      "name": "Acetic Acid",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "5-nitrosalicylic acid",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "70 C"
+    },
+    {
+      "type": "residence_time",
+      "value": "7 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "tubular",
+    "inner_diameter": "1.38 mm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

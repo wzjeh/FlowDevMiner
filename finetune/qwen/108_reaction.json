@@ -1,0 +1,56 @@
+{
+  "reaction_type": "氧化",
+  "reactants": [
+    {
+      "name": "Basic Yellow 28",
+      "role": "reactant"
+    },
+    {
+      "name": "periodate",
+      "role": "catalyst"
+    },
+    {
+      "name": "H2O2",
+      "role": "reactant"
+    },
+    {
+      "name": "水",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "降解产物及矿化产物",
+      "yield_optimal": 100.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "室温"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "80–120 µL/s"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "tubular",
+    "inner_diameter": "1 mm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

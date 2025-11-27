@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "p-nitrotoluene",
+      "role": "reactant"
+    },
+    {
+      "name": "nitric acid",
+      "role": "reactant"
+    },
+    {
+      "name": "sulfuric acid",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "2,4-dinitrotoluene",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "293 K"
+    },
+    {
+      "type": "residence_time",
+      "value": "7.07 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "1.0 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "capillary",
+    "inner_diameter": "0.5 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

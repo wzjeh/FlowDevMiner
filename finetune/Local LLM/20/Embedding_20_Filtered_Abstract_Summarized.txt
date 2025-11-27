@@ -1,0 +1,54 @@
+{"name": "BA monomer", "yield_optimal": 95, "unit": "%"}
+
+{ "reaction_summary": { 
+    "reactants":[{"name":"AIBN","role":"catalyst"}], 
+    "products":[
+        {"name":"product's conversion", "yield_optimal":95,"unit":"%"}, 
+        {"name":"Mn", "yield_optimal":null, "unit":"..."},
+        {"name":"PDI", "yield_optimal":null, "unit":"..."}
+    ], 
+    "conditions":[
+        {"type":"temperature","value":"100 °C"}, 
+        {"type":"residence_time","value":null}
+
+{match}
+
+{"name": name, "yield_optimal": None, "unit": "%"}
+
+{match.group(1)}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"name": None, "role": role}
+
+{'name': None, 'yield_optimal': value, 'unit': unit}
+
+{"name": "1,2,3-triazole derivatives", "yield_optimal": 73, "unit": "%"}
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp_residence = re.search(r"(\d+) °C|in a (\d+)-min", input_str)
+    if match_temp_residence:
+        groups = match_temp_residence.groups()
+        if len(groups) == 2: # in a ...-min
+            res_time = int(groups[1])
+        else: # temperature ...
+            temp = float(groups[0])
+
+    # Parse flow rate and inner diameter
+    flow_rate_reactant_A = None
+    flow_rate_reactant_B = None
+    inner_diameter = None
+    match_flow_inner_diam = re.search(r"(\d+) mL/min, (\d+ mm)", input_str)
+    if match_flow_inner_diam:
+        groups = match_flow_inner_diam.groups()
+        flow_rate_reactant_A = float(groups[0])
+        inner_diameter = int(groups[1])
+
+    # Parse products
+    product_yield_optimal = None
+    match_product_yield = re.search(r"yield (\d+)%", input_str)
+    if match_product_yield:
+        product_yield_optimal = int(match
+

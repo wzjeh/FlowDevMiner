@@ -1,0 +1,8 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rate | conversion | decrease |
+| residence_time | conversion | increase |
+| hydrogen_flow_rate | conversion | increase |
+| catalyst_loading | conversion | increase |

@@ -1,0 +1,56 @@
+{
+  "reaction_type": "dehydrochlorination",
+  "reactants": [
+    {
+      "name": "2,3-dichloro-1-propanol",
+      "role": "reactant"
+    },
+    {
+      "name": "sodium hydroxide",
+      "role": "reactant"
+    },
+    {
+      "name": "null",
+      "role": "catalyst"
+    },
+    {
+      "name": "null",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "epichlorohydrin",
+      "yield_optimal": 95.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "80 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "20 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "23.1 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "tubular",
+    "inner_diameter": "1.4 mm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": 95.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "trifluoromethoxybenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "mixed acid",
+      "role": "reactant"
+    },
+    {
+      "name": "sulfuric acid",
+      "role": "catalyst"
+    }
+  ],
+  "products": [
+    {
+      "name": "p-NB",
+      "selectivity_optimal": 90.97,
+      "unit": "%",
+      "yield_optimal": null
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "-2 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": "2.4 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "34.2 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microchannel reactor with packed tubular",
+    "inner_diameter": "0.6 mm/6mm"
+  },
+  "metrics": {
+    "conversion": 99.6,
+    "yield": null,
+    "selectivity": 90.97,
+    "unit": "%"
+  }
+}

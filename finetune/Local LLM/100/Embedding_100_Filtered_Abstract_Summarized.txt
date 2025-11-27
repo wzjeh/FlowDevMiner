@@ -1,0 +1,79 @@
+# Parse input string into a dictionary of reaction parameters
+    match = re.search(r"Flow rate (\d+(?:\.\d+)?) mL/min", input_str)
+    if match:
+        flow_rate_reactant_A = float(match.group(1))
+    
+    match = re.search(r"T=(\d+°C)", input_str)
+    if match:
+        temperature = int(match.group(1))
+
+    # Parse reactor type and inner diameter
+    match = re.search(r"in a (\w+) with an ID of \d+(?:mm)?", input_str)
+    if match:
+        reactor_type, _ = match.groups()
+    
+    match = re.search(r"inner diameter: ?(\d+(?:\.\d+?)?) mm", input_str)
+    if match:
+        inner_diameter = float(match.group(1))
+
+    # Parse products
+    match = re.search(r"(?P<yield>\d+)%", input_str)
+    yield_optimal = int(match.group('yield'))
+
+    return {
+        "reaction_summary": {
+            "reactants": [],
+            "products": [{"name": None, "role": None, "yield_optimal": yield_optimal, "unit
+
+{"name": f"Sulfuric acid ({m1.group('reactant_B')})",
+                                "role":"catalyst"}
+
+{"name": name, "role": role}
+
+{"name": name, "yield_optimal": None, "unit": "%"}
+
+{ "reaction_summary": { 
+    "reaction_type":"micropacked-bed",
+    "reactants":[{"name":"none","role":"solvent"}],
+    "products":[{
+        "name":"none", 
+        "yield_optimal":90, 
+        "unit":"%"},{
+        "name":"none", 
+        "yield_optimal":95,
+        "unit":"%"}, {
+        "name":"none",
+        "yield_optimal":null,
+        "unit":"%"
+    }],
+    "conditions":[{
+        "type":"residence_time","value":"1 min"}
+
+{"name": f"organic feed ({match.group(1)} + {match.group(2)})", "role":"reactant"}
+
+{'name': f'{yield_optimal}{unit}', 'role':'product', 'yield_optimal': int(yield_optimal), 'unit': unit}
+
+{"reaction_summary": {"reaction_type": "nitration", "reactants": [{"name": "2-ethylhexanol", "role": "solvent"}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "2 mm"}, "metrics": {"conversion": 90, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [{"name": "organic", "role": "solvent"}], "products": [], "conditions": [{"type": "temperature", "value": "null"}, {"type": "residence_time", "value": "null"}, {"type": "flow_rate_reactant_A", "value": "null"}, {"type": "flow_rate_reactant_B", "value": "null"}, {"type": "pressure", "value": "null"}], "reactor": {"type": "micropacked-bed", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+# Extract key parameters and values using regular expressions
+    flow_rate = float(re.search(r"(\d+(?:\.\d+)?) mL/min", text).group(1))
+    temperature = int(re.search(r"T=(\d+)", text).group(1))  # °C
+    residence_time = None  # Not present in the example input
+    inner_diameter = float(re.search(r"(\d+(?:\.\d+)?) mm", text).group(1))
+    
+    # Extract reaction type and reactants/products information (if any)
+    reaction_type = re.search(r"(synthesis|reaction)", text, flags=re.IGNORECASE)  # Not present in the example input
+    products_info = re.findall(r"(\w+): (\d+(?:\.\d+)?)%", text)
+    
+    # Extract optimal conditions and metrics (if any)
+    yield_optimal = None  # Not present in the example input
+    conversion = None  # Not present in the example input
+    
+    # Construct output JSON object
+    json_output = {
+        "reaction_summary": {
+            "reaction_type": reaction_type.group(0) if reaction_type else null,
+            "react
+

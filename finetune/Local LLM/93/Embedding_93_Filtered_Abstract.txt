@@ -1,0 +1,27 @@
+part of the microreactor. A symmetric concentration profile is evident along reactor height because the reaction is taking place on the catalyst on both sides of the microchannel. In the precatalytic region (-L′ e z e 0), a slow decrease in reactant concentration is already observed, resulting from the previously discussed back- mixing in the reactor. The use of Pd/Fe catalyst in the microreactor 
+
+Figure 4. Schematic presentation of the microreactor system, in modeling separated into two parts to consider back-mixing in front of the catalytic zone (-L′ e z e 0). Microreactor dimensions: L ) 70 mm, W ) 27 mm, and B ) 0.1 mm.
+
+Reaction type: Hydrogen production from ammonia
+Key reactants: Ammonia (NH3) as a hydrogen source
+Solvent: Not mentioned
+Catalyst: Not mentioned
+Products: Hydrogen (H2), water (H2O), and unreacted ammonia
+Reactor details: Microstructured reactor, not specified further
+Critical conditions: Pe values between 17.5 and 223.5 for the whole set of experiments; average axial velocity vav, reactor half-height B, and molecular diffusivity DAB are used to calculate Peclet number (Pe)
+Outcomes: Conversion, yield, and selectivity not mentioned
+
+Dechlorination of p-chlorophenol was investigated in a single-pass, continuous-flow microreactor system made of two parallel palladized iron plates. The plates formed a microscale channel 27 mm wide, 70 mm long, and 0.2 mm high. The bimetallic catalyst was prepared by electroless deposition of Pd on the reactor plate surfaces. Experiments were performed under steady-state conditions at different t
+
+amples, reviewed by Ja¨hnisch et al.,14 indicate a 10% to severalfold increase of reaction yield when compared to conventional reactor processes. Recently, the first study of an enzymatic reaction in two-phase flow in a microfluidic device was reported by Maruyama et al.,22 where degradation of p-chlorophenol was realized by solubilized laccase. In our study, the use of a microreactor for the degr
+
+For the numerical solution of the model equations, a finite-difference method was used. Regarding a wide range of theoretical operating conditions, varying nodal densities of meshes were applied. To achieve stability of the system at high Peclet number, Pe, the micro- reactor was divided into several parts along the reactor length, where each outlet profile served as the input for the next section
+
+For dechlorination in a microreactor with laminar fluid flow, a two-dimensional (2D) model is developed. Both longitudinal and transverse diffusion and convec- tion in the longitudinal direction are considered, with an irreversible, pseudo-first-order reaction at the cata- lyst surfaces on both sides of the flow channel. For an accurate description of the effects of back-mixing at the inlet of the
+
+M. Enzymatic degradation of p-chlorophenol in a two-phase flow microchannel system. Lab-on-a-Chip 2003, 3, 308. (23) Wilke, C. R.; Chang, P. C. Correlation of Diffusion Coef- ficients in Dilute Solutions. AIChE J. 1955, 1, 164. (24) Levenspiel, O. Chemical Reaction Engineering, 3rd ed.; John Wiley & Sons: New York, 1999. (25) Deshmukh, S. R.; Mhadeshwar, A. B.; Vlachos, D. G. Microreactor modeling
+
+Figure 6. Dimensionless concentration profile at the beginning of the microreactor, including the precatalytic region (-L′ e z e 0) and the first part of catalytic zone (0 e z e L1), which accounts for 1/140 of the length of the catalyst.
+
+calculation of overall reaction rate constants. Compari- son of the model simulations with ideal reactor predic- tions effectively shows PFR behavior at the operating conditions applied in the experiments. The experimental results indicate moderate efficiency of the catalytic reaction in a microreactor system at room temperature. Increased temperatures resulted in higher conversions and overall re
+

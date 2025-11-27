@@ -1,0 +1,18 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of TFMB | increase |
+| temperature | influence on reaction rate | decrease |
+| residence_time | influence on reaction rate | decrease |
+| flow_rate | conversion of TFMB | increase |
+| flow_rate | product selectivity | - |
+| mass_transfer | actual conversions | decrease |
+| residence_time | yield of desired compound | increase |
+| residence_time | formation of by-products | decrease |
+| microreactor characteristics (mixing and mass transfer) | reaction kinetics | increase |
+| temperature | product selectivity | unchanged |
+| flow_rate | product selectivity | decrease |
+| residence_time | conversion of TFMB | increase |
+| temperature | influence on reaction rate | decrease |
+| residence_time | influence on reaction rate | - |

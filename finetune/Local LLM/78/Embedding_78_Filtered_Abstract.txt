@@ -1,0 +1,20 @@
+A high long term stability is required for industrial appli- cations of the microreactor. The catalyst stability was studied at 335 K using an MBY solution flow rate of 42.5 μL min−1
+
+Summary: The paragraph discusses the development of a flow-chemistry process for semihydrogenation of methylbenzyl ylamine (MBY) using a capillary microreactor with Pd–Bi/TiO2 catalyst under varying temperature conditions. Key reactants include MBY in hexane, and the product is N-methylbenzene. The reactor type is a capillary microreactor (not specified), and the ID is not mentioned. Critical conditions are 10 mL min−1 H2 flow rate, 310 K or 335 K temperature, and no pressure information is provided. Outcomes include conversion, yield, and selectivity towards MBE, but specific values are not given in this summary.
+
+Summary: Flow-chemistry process development involves microreactors for heterogeneous catalytic reactions with packed-bed reactors as a convenient laboratory practice. The reaction type is not mentioned. Key reactants, solvent, and catalyst are required but not specified. Products and outcomes (conversion/yield/selectivity) are also undisclosed. Reactor details include the microreactor type and packed-bed reactor ID. Critical conditions such as flow rate(s), residence time, temperature, and pressure are absent from the text.
+
+Summary: The paragraph describes a flow-chemistry process development for the semihydrogenation of MBY using a capillary microreactor with Pd–Bi/TiO2 catalyst under controlled conditions (flow rate, temperature, pressure). The reaction type is semihydrogenation. Key reactants are 1200 mol m−3 MBY in hexane as solvent and H2 flow at 42.5 μL min−1. The product is not mentioned. The reactor details include a capillary microreactor with Pd–Bi/TiO2 catalyst. Critical conditions are: flow rate of 10 mL min−1 (STP) H2 flow, and 335 K temperature. Outcomes such as conversion, yield, and selectivity are not mentioned in the given context.
+
+Summary: Flow-chemistry process development using mesoporous metal oxide coatings as catalysts or catalyst supports in microreactors is discussed for applications such as photocatalysis and gas chromatography. The small reaction volume allows the handling of hazardous chemicals safely, and high-pressure reactions can be carried out with inexpensive equipment. Microreactor technology enables process intensification. Reaction type, key reactants/solvent/catalyst, products, reactor details (type/ID), critical conditions (flow rate(s), residence time, temperature, pressure), and outcomes (conversion/yield/selectivity) are not specified in the given context.
+
+Table 1 Comparison of the microreactor performance in semihydrogenation
+
+Summary: Flow-chemistry process development for a metal-organic framework synthesis using a microreactor with a hydrogen flow of 10 mL min⁻¹ for 100 hours. The MBE yield was 93 ± 1.5% without deactivation or decrease in selectivity, but minor fluctuations were observed due to flow rate variations and thermostat temperature (±0.5 K) as well as pressure drop in the reactor caused by hydrodynamic reasons.
+
+parameter optimisation, the solution flow rate was varied in the interval of 30–50 μL min−1 at a constant hydrogen gas flow rate of 10 mL min−1 (STP), which corresponded to super- ficial flow velocities of 2–4 mm s−1 for liquid and 0.75 m s−1
+
+Catalysis in microreactors allows reactions to be performed in a very small volume, reducing the environmental problems and greatly intensifying the processes through easy pressure control and the
+
+stepper motor), which allows deposition from concentrated and viscous sols without channel clogging. A capillary microreactor wall-coated with titania supported Bi-poisoned Pd catalyst was obtained using the
+

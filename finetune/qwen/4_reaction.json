@@ -1,0 +1,52 @@
+{
+  "reaction_type": "oxidation",
+  "reactants": [
+    {
+      "name": "benzyl alcohol",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd/SiO2 nanoparticles",
+      "role": "catalyst"
+    },
+    {
+      "name": "water",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "benzaldehyde",
+      "yield_optimal": 86.35,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "403 K"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": "100 psi"
+    }
+  ],
+  "reactor": {
+    "type": "tubular",
+    "inner_diameter": "500 μm"
+  },
+  "metrics": {
+    "conversion": 86.53,
+    "yield": 86.35,
+    "selectivity": 99.79,
+    "unit": "%"
+  }
+}

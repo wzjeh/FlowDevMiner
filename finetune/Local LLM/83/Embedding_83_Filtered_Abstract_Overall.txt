@@ -1,0 +1,107 @@
+{
+  "reaction_summary": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["5-NTIN", "H2"],
+    "products": ["5-AIN", "5-ATHIN"],
+    "conditions": [
+      {"type":"gas flow rate","value":30},
+      {"type":"temperature","value":null},
+      {"type":"pressure","value":null}
+    ],
+    "reactor":{"type":"micropacked bed"},
+    "metrics":{
+        "conversion":99.9,
+        "yield":99.3,
+        "selectivity":98.7
+    }
+  },
+  "reaction_summary_2": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["5-NTIN", "H2"],
+    "products": ["5-AIN", "5-ATHIN"],
+    "conditions": [
+      {"type":"gas flow rate","value":30},
+      {"type":"temperature","value":null},
+      {"type":"pressure","value":null}
+    ],
+    "reactor":{"type":"micropacked bed"},
+    "metrics":{
+        "conversion":99.9,
+        "yield":99.3,
+        "selectivity":98.7
+    }
+  },
+  "reaction_summary_3": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["5-NTIN", "H2"],
+    "products": ["5-AIN", "5-ATHIN"],
+    "conditions": [
+      {"type":"gas flow rate","value":30},
+      {"type":"temperature","value":null},
+      {"type":"pressure","value":null}
+    ],
+    "reactor":{"type":"micropacked bed"},
+    "metrics":{
+        "conversion":99.9,
+        "yield":99.3,
+        "selectivity":98.7
+    }
+  },
+  "reaction_summary_4": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["5-NTIN", "H2"],
+    "products": ["5-AIN", "5-ATHIN"],
+    "conditions": [
+      {"type":"gas flow rate","value":30},
+      {"type":"temperature","value":null},
+      {"type":"pressure","value":null}
+    ],
+    "reactor":{"type":"micropacked bed"},
+    "metrics":{
+        "conversion":99.9,
+        "yield":99.3,
+        "selectivity":98.7
+    }
+  },
+  "reaction_summary_5": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["5-NTIN", "H2"],
+    "products": ["5-AIN", "5-ATHIN"],
+    "conditions": [
+      {"type":"gas flow rate","value":30},
+      {"type":"temperature","value":null},
+      {"type":"pressure","value":null}
+    ],
+    "reactor":{"type":"micropacked bed"},
+    "metrics":{
+        "conversion":99.9,
+        "yield":99.3,
+        "selectivity":98.7
+    }
+  },
+  "reaction_summary_6": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["5-NTIN", "H2"],
+    "products": ["5-AIN", "5-ATHIN"],
+    "conditions": [
+      {"type":"gas flow rate","value":30},
+      {"type":"temperature","value":null},
+      {"type":"pressure","value":null}
+    ],
+    "reactor":{"type":"micropacked bed"},
+    "metrics":{
+        "conversion":99.9,
+        "yield":99.3,
+        "selectivity":98.7
+    }
+  },
+  "reaction_summary_7": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["5-NTIN", "H2"],
+    "products": ["5-AIN", "5-ATHIN"],
+    "conditions": [
+      {"type":"gas flow rate","value":30},
+      {"type":"temperature","value":null},
+      {"type":"pressure","value":null}
+    ],
+    "reactor":{"type":"micropacked bed"}

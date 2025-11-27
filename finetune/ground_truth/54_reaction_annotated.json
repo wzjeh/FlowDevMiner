@@ -1,0 +1,48 @@
+{
+  "reaction_type": "thermal decomposition",
+  "reactants": [
+    {
+      "name": "Fe(acac)3",
+      "role": "reactant"
+    },
+    {
+      "name": "triethylene glycol",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "superparamagnetic iron oxide nanoparticles",
+      "yield_optimal": "86.5",
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "280 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": "76 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microchannel",
+    "inner_diameter": "370 μm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": "86.5",
+    "selectivity": null,
+    "unit": "%"
+  }
+}

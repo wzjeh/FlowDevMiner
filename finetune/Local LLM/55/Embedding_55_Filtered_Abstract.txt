@@ -1,0 +1,20 @@
+In this experiment, the liquid flow rate was varied, and the mass transfer of the microreactor was investigated. The gas flow rate was held at 0.05 sccm, while the flow rate of feeding solution ranged from 10 μL/min to 80 μL/min. The concentration of nitrobenzene at the inlet was maintained at 50 mM. Fig. 8 shows that the conversion of ni- trobenzene and the product concentration decreased with in
+
+Fig. 7. Long-term performance of the tube-in-tube hollow fiber catalytic membrane microreactor. Gas flow rate: 0.05 sccm; liquid flow rate: 10 μL/min; nitrobenzene concentration: 30 mM.
+
+microreactor. Some of the critical parameters (i.e., PDA film, gas flow rate, liquid flow rate and inlet nitrobenzene concentration) of the hollow fiber catalytic membrane microreactor were investigated to optimize the microreactor design. The feasibility of this design will be useful for the development of membrane microreactors.
+
+Liquid flow(ȝL/min)
+
+Summary: The study focuses on flow-chemistry process development for nitrobenzene conversion using a microreactor with liquid-phase catalytic hydrogenation. Nitrobenzene is the reactant, and hydrogen serves as the reducing agent in the presence of a solid acid catalyst (e.g., Amberlyst-15). The product is aniline. The reactor type is not specified; however, it has an internal diameter (ID) of 200 μm. Key conditions include liquid flow rate at 10 μL/min and gas flow rate at 0.05 sccm. Temperature, pressure, and residence time are not mentioned in the context of this specific experiment. The figure provided shows the effect of varying nitrobenzene concentration on conversion; however, no yield or selectivity data is presented for this particular study.
+
+The tube-in-tube hollow fiber catalytic membrane microreactor contained an internal hollow fiber catalytic membrane and external PTFE capillary tube. To permit the gaseous and liquid streams to flow into the membrane microreactor at the same time, an autonomous connector with two exits made by a syringe needle was adopted in the experiment. As illustrated in Fig. 1, the catalyst coated HFM was pla
+
+3.2. Performance evaluation of tube-in-tube hollow fiber catalytic membrane microreactor
+
+The gaseous reactant was high-purity hydrogen, and it had an im- portant eﬀect on the conversion of nitrobenzene and the aniline pro- duct. In this experiment, the liquid flow rate was maintained at 10 μL/ min, and the inlet nitrobenzene concentration was kept at 50 mM. The only variable was the gas flow rate, which was varied from 0.01 sccm to 0.05 sccm. As shown in Fig. 9, when the initial gas f
+
+Summary: The study investigates a flow-chemistry process for nitrobenzene conversion using liquid-liquid extraction. Nitrobenzene is the reactant in the presence of a catalyst (not mentioned) and under controlled temperature (25°C), pressure (1 atm), and residence time (60 s). The reactor type is not specified, but it operates with a liquid flow rate of 10 μL/min. The outcomes include nitrobenzene conversion and yield, which are affected by the gas flow rate.
+
+Summary: The study investigates the effect of liquid flow rate on nitrobenzene conversion in a microreactor using flow-chemistry process development. Nitrobenzene is the reactant, and the solvent is not mentioned. No catalyst is used. The product is not specified. The reactor type is a microreactor with an ID of 50 µm. The critical conditions include a gas flow rate of 0.05 sccm and a nitrobenzene concentration of 50 mM. The temperature, pressure, and conversion are not mentioned in this context.
+

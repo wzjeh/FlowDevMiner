@@ -1,0 +1,27 @@
+Early studies have used a pressure drop ratio ΔP̃B between 25 and 50 to distribute the flows in a microchannels reactor.17,18,22
+
+Summary: The paragraph discusses the development of flow-chemistry processes in microchannel reactors for exothermic reactions with mass transfer limitations. The focus is on improving safety, reducing waste, and enhancing product selectivity while maintaining high conversion rates. Scale-up can be achieved through three consecutive steps: 1) scaling up the cross-sectional dimensions of a single microchannel; 2) increasing flow rate to g/h production levels; and 3) transitioning from a single microchannel reactor to multiple parallel reactors for kg/h or ton/h production rates. The process is suitable for highly exothermic reactions, with key reactants, solvents, and catalysts not specified. Reaction conditions include flow rates in the mL/min range, residence times not mentioned, temperatures and pressures that maintain mass and heat transfer properties, and conversion rates as high as possible. The outcome is improved safety, reduced waste, enhanced product selectivity, and maintained high conversion rates.
+
+However, such a large pressure drop ratio makes the barrier- based flow distributor an unattractive solution for number-up. The large energy consumption and lowering of the reactor operating window are some of the reasons for that unattractiveness. The authors have found that ΔP̃B can be reduced to a value of 4 by following a specific design methodology.23 That design methodology specifies cut-oﬀ 
+
+(1) Kockmann, N.; Roberge, D. M. Harsh Reaction Conditions in Continuous-Flow Microreactors for Pharmaceutical Production. Chem. Eng. Technol. 2009, 32, 1682−1694. (2) Charpentier, J. C. In the Frame of Globalization and Sustainability, Process Intensification, a Path to the Future of Chemical and Process Engineering (Molecules into Money). Chem. Eng. J. 2007, 134, 84−92. (3) Wiles, C.; Watts, P. 
+
+Summary: The paragraph discusses a flow-chemistry process development for the synthesis of an organic compound using a microreactor with multiple parallel channels. The reaction involves the use of a solvent and a catalyst. The key reactants are A and B, which undergo a specific chemical transformation to form the desired product C. The reactor is a bundle of microchannels (BMMR) with eight individual channels. Critical conditions include flow rates, residence time, temperature, and pressure. Outcomes focus on conversion, yield, and selectivity.
+
+Summary: The paragraph discusses the development of a flow-chemistry process involving microchannels for mixing reactants, catalysts, and solvents. The process involves hydraulic resistances (microchannels) between single phase flow distributors and parallel microchannels to control pressure drops. The focus is on quantifying the average pressure drop over barrier channels as a ratio of pressure drops in mixers and reaction channels. No specific reaction type, reactants/solvent/catalyst, products, reactor details (type/ID), critical conditions (flow rate(s), residence time, temperature, pressure), or outcomes (conversion/yield/selectivity) are mentioned.
+
+flow is close to an ideal plug flow reactor, which minimizes axial dispersion and back-mixing.36,37 All of this explains the increased reaction rate in the BMMR compared to that in the batch reactor. Second, the trend of the reactant and products is the same for the single channel reaction and from the eight collected reaction channels. This means that the reaction performance was maintained when 
+
+millichannels reactor" (BMMR), which was presented in Al- Rawashdeh et al.25 and is shown in Figure 1. The BMMR is a modular reactor for conducting a multiphase (gas−liquid) reaction in eight parallel microor millichannels at a pressure of up to 20 bar and a temperature of up to 200 °C with a total liquid flow rate up to 150 mL/min. The BMMR was experimentally verified for varied gas and liquid fl
+
+Summary: The paragraph discusses the development of flow-chemistry processes at small scales with limited number-up due to complexity and expenditure required for adequate distribution of gas and liquid flows over multiple microchannels.
+
+Reaction type: Hydrogenation of phenylacetylene over a homogeneous catalyst [Rh(NBD)(PPh3)2]BF4
+Key reactants: Phenylacetylene, hydrogen
+Solvent: Not mentioned
+Catalyst: Rh(NBD)(PPh3)2)2]BF4
+Products: Not mentioned
+Reactor details (type/ID): Barrier-based micro-/millichannel reactor (BMMR), not specified
+Critical conditions: Flow rate, residence time, temperature, and pressure are not mentioned. Conversion, yield, and selectivity are reported as outcomes.
+Outcome: The kinetic model predicted the experiments within an accuracy of 20%. Part of the catalyst proved ineﬀective when it was mixed with the solvent. The catalyst deactivated during the reaction.
+

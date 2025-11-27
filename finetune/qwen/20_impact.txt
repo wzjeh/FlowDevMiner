@@ -1,0 +1,8 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion | increase |
+| temperature | molecular weight | increase |
+| catalyst_loading | molecular weight | increase |
+| droplet_size | molecular weight distribution | - |

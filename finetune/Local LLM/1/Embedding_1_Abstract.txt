@@ -1,0 +1,20 @@
+intensification technology for a broad range of reaction processes in laboratory and industry. The features of microreactors such as larger surface-to-volume ratio, higher mixing efficiency, faster heat and mass transfer rates, and excellent spatiotemporal control, allow reaction processes to overcome the transport limitation and thus to have better performance (e.g., higher selectivity and yield)
+
+2.2.2. Synthesis of homoarm star polymers in the cascade microreactor system Typically, for the synthesis of PBA homoarm star polymer (SPB) with the molar ratio of [BA]0/[DoPAT]0/[HDDA]0 = 100/1/10, the mixture of BA (2.5 M, 100 eq), DoPAT (0.025 M, 1eq), ABVN (2.5 mM, 0.1eq) and DMF were used to prepare linear arms. HDDA (0.5 M) dissolved in DMF and ABVN (0.01 M) dissolved in DMF were ready for t
+
+2.2.1. Synthesis of linear polymers in the microreactor Typically, for the synthesis of linear PBA, a homogeneous solution was obtained by adding the monomer BA (2.5 M, 100 eq), the RAFT agent DoPAT(1 eq), the initiator ABVN (0.1 eq) and the solvent DMF into a dried flask sealed with a rubber septum, and then was purged with N2 for 30 min. A capillary microreactor with 1.02 mL inner volume was flu
+
+feedstocks (both at the flow rate of 0.51 mL/h) mixed with the stream of synthesized linear polymers through two micromixers, so the concen- trations of reactants were diluted according to their flow rate ratio (Fig. S1). The newly combined stream was delivered into a second capillary microreactor with 4.08 mL for the star formation step, at a residence time τ2 of 2 h (total flow rate of 2.04 mL/h
+
+We first investigated the continuous-flow preparation of linear arms. BA and ACMO were selected as target monomers because their corre- sponding polymer chains were respectively hydrophobic and hydro- philic, which could be used to fabricate miktoarm star polymers. The highly active initiator ABVN was selected to ensure fast reaction rates as to avoid long reaction time. By adjusting the feed flow
+
+3.2.4. Kinetics of the coupling reaction in the cascade microreactor system Moreover, in the second step of the cascade microreactor system, we used l-PACMO with the chain length of nearly 40 as an example to study the coupling reaction kinetics from linear macromolecules to star shaped macromolecules. The flow rate of the combined stream was maintained constant, and τ2 was controlled by adjusting
+
+Accordingly, the GPC trace of the product moved slightly to a high MW region. Similar to Gao's report for preparing star polymers [39], the procedure of linear chains purification was omitted in our cascade microreactor system. Strictly speaking, the core was a copolymer of the cross-linker and the unreacted monomer. Such a structure could decrease the core's steric congestion, hence facilitating 
+
+With the RAFT arm-first method, butyl acrylate and 4-acryloylmorpholine were used as monomers to form linear arms, which subsequently reacted with the cross-linker 1,6-hexanediol diacrylate to form star-shaped macro- molecules in cascade microreactor systems. After studying polymerization kinetics in each step, homoarm and miktoarm star products with various arm compositions were steadily prepared
+
+3.2. Study on the reaction conditions for preparing star polymers in the cascade microreactor system
+
+2.2.3. Synthesis of miktoarm star polymers in the cascade microreactor system
+

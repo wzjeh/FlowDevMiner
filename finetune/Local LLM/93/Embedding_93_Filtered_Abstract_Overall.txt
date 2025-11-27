@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "hydrogenation", "reactants": ["furfural", "H2"], "products": ["furfuryl alcohol"], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": 5}], "catalyst": {"name": "Pd/C", "loading": null}, "reactor": {"type": "microchannel"}}}

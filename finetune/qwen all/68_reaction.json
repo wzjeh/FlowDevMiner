@@ -1,0 +1,52 @@
+{
+  "reaction_type": null,
+  "reactants": [
+    {
+      "name": null,
+      "role": "reactant"
+    },
+    {
+      "name": null,
+      "role": "catalyst"
+    },
+    {
+      "name": null,
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": null,
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": null
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": null,
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

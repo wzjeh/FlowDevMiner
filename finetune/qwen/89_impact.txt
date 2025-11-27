@@ -1,0 +1,15 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| molar_ratio_of_HNO3_to_2-MNT | conversion of 2-MNT | increase |
+| molar_ratio_of_HNO3_to_2-MNT | selectivity to 2,4-DNT | decrease |
+| molar_ratio_of_HNO3_to_2-MNT | selectivity to 2,6-DNT | increase |
+| temperature | conversion of 2-MNT | increase |
+| temperature | selectivity to 2,6-DNT | increase |
+| temperature | selectivity to 2,4-DNT | decrease |
+| residence_time | conversion of 2-MNT | increase |
+| H2SO4_mass_fraction | conversion of 2-MNT | increase |
+| H2SO4_mass_fraction | conversion of 2-MNT | decrease |
+| H2SO4_mass_fraction | selectivity to 2,6-DNT | decrease |
+| H2SO4_mass_fraction | selectivity to 2,4-DNT | increase |

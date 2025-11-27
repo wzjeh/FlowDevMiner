@@ -1,0 +1,133 @@
+{
+  "reaction_summary": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["3-VNB", "H2"],
+    "products": [null],
+    "conditions": [
+      {"type":"temperature","value":80},
+      {"type":"residence_time","value":30-38},
+      {"type":"pressure","value":10}
+    ],
+    "reactor":{"type":"packed bed"},
+    "metrics":{
+        "conversion": 95.2,
+        "yield": null,
+        "selectivity": null
+    }
+} 
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["3-VNB", "H2"],
+    "products": [null],
+    "conditions": [
+      {"type":"temperature","value":70},
+      {"type":"residence_time","value":30-38},
+      {"type":"pressure","value":10}
+    ],
+    "reactor":{"type":"packed bed"},
+    "metrics":{
+        "conversion": 95.2,
+        "yield": null,
+        "selectivity": null
+    }
+} 
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["3-VNB", "H2"],
+    "products": [null],
+    "conditions": [
+      {"type":"temperature","value":110},
+      {"type":"residence_time","value":30-38},
+      {"type":"pressure","value":10}
+    ],
+    "reactor":{"type":"packed bed"},
+    "metrics":{
+        "conversion": 95.2,
+        "yield": null,
+        "selectivity": null
+    }
+} 
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["3-VNB", "H2"],
+    "products": [null],
+    "conditions": [
+      {"type":"temperature","value":80},
+      {"type":"residence_time","value":30-38},
+      {"type":"pressure","value":40}
+    ],
+    "reactor":{"type":"packed bed"},
+    "metrics":{
+        "conversion": 95.2,
+        "yield": null,
+        "selectivity": null
+    }
+} 
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["3-VNB", "H2"],
+    "products": [null],
+    "conditions": [
+      {"type":"temperature","value":70},
+      {"type":"residence_time","value":30-38},
+      {"type":"pressure","value":40}
+    ],
+    "reactor":{"type":"packed bed"},
+    "metrics":{
+        "conversion": 95.2,
+        "yield": null,
+        "selectivity": null
+    }
+} 
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["3-VNB", "H2"],
+    "products": [null],
+    "conditions": [
+      {"type":"temperature","value":110},
+      {"type":"residence_time","value":30-38},
+      {"type":"pressure","value":40}
+    ],
+    "reactor":{"type":"packed bed"},
+    "metrics":{
+        "conversion": 95.2,
+        "yield": null,
+        "selectivity": null
+    }
+} 
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["3-VNB", "H2"],
+    "products": [null],
+    "conditions": [
+      {"type":"temperature","value":80},
+      {"type":"residence_time","value":5},
+      {"type":"pressure","value":10}
+    ],
+    "reactor":{"type":"packed bed"},
+    "metrics":{
+        "conversion": 95.2,
+        "yield": null,
+        "selectivity": null
+    }
+} 
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["3-VNB", "H2"],
+    "products": [null],
+    "conditions": [
+      {"type":"temperature","value":70}

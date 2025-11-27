@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "benzaldehyde",
+      "role": "reactant"
+    },
+    {
+      "name": "HNO3",
+      "role": "catalyst"
+    },
+    {
+      "name": "H2SO4",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "o-nitrobenzaldehyde",
+      "yield_optimal": 89.5,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "25 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "2 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "tubular",
+    "inner_diameter": "1.38 mm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": 89.5,
+    "selectivity": 78.0,
+    "unit": "%"
+  }
+}

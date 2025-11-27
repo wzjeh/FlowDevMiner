@@ -1,0 +1,18 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of Safranin O | increase |
+| temperature | conversion of Safranin O | unchanged |
+| reactor_length | conversion of Safranin O | increase |
+| temperature | effect of reactor length | increase |
+| flow_rate of dye | removal efficiency | decrease |
+| flow_rate of persulfate | conversion of Safranin O | increase |
+| temperature | effect of persulfate flow rate | - |
+| temperature (low: 30–40 °C) | conversion of Safranin O | increase |
+| Fe2+ concentration | conversion of Safranin O | increase |
+| temperature (60–80 °C) | conversion of Safranin O | - |
+| Fe2+ concentration (high: 0.1–0.2 mM) | conversion of Safranin O | decrease |
+| water_matrix (river, secondary effluent, seawater) | conversion of Safranin O | decrease |
+| temperature (70–80 °C) | effect of water matrix | unchanged |
+| activation_type (thermo-catalytic) | TOC reduction | increase |

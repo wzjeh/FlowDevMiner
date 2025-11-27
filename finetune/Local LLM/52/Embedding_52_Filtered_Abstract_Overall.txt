@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "Gattermann reaction", "reactants": ["2,4,5-trifluoroaniline", "HBr", "NaNO2"], "products": ["2,4,5-trifluorobromobenzene"]}}

@@ -1,0 +1,54 @@
+{}
+
+{"reaction_summary": {
+            "reaction_type": match.group(1),
+            "reactants": [],
+            "products": [{"name": None, "yield_optimal": 0, "unit": "%"}],
+            "conditions": [], 
+            "reactor": {"type": None, "inner_diameter": None},
+            "metrics": {"conversion": 0, "yield": 0, "selectivity": 0, "unit": "%"}
+        }}
+
+- Temperature is in °C; residence_time is in min; flow_rate is in mL/min; inner_diameter is in mm.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"([A-Za-z0-9_]+)", input_str)
+    reactant_names = [match for match in matches if not any(word in match.lower() for word in ['yield', 'flow rate', 't=', 'residence time'])]
+    
+    # Parse products (if present)
+    product_match = re.search(r"(\d+)%", input_str)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+        
+    else: 
+        yield_optimal = None
+    
+    # Parse conditions
+    condition_matches = re.findall(r"(T=\s*([0-9]+)\s*\°C)|(\d+\.\d+|[\d\.]+) (mL/min|mL\/min)", input_str)
+
+{"name":match.group(0),"role":"reactant"}
+
+{match_residence_time.group(1)}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"type":"flow_rate_reactant_A","value":"10 mL/min"}
+
+{"name": name, "yield_optimal": yield_optimal, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "photochemical", "reactants": [{"name": "hydrogen peroxide", "role": "catalyst"}], "products": [], "conditions": [{"type": "temperature", "value": "50 °C"}, {"type": "residence_time", "value": "10 min"}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "microreactor flow system", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"name": None, "yield_optimal": None, "unit": "%"}
+

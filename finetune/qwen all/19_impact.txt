@@ -1,0 +1,18 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of DMAOL | increase |
+| temperature | conversion of DMAOL | increase |
+| pressure | conversion of DMAOL | increase |
+| flow_rate | residence_time | decrease |
+| catalyst_loading | conversion of DMAOL | increase |
+| reactant_concentration | conversion of DMAOL | decrease |
+| acetic_acid_additive | conversion of DMAOL | increase |
+| triethylamine_additive | conversion of DMAOL | decrease |
+| water_additive | conversion of DMAOL | decrease |
+| solvent (tetrahydrofuran) | conversion of DMAOL | decrease |
+| solvent (2-methyltetrahydrofuran) | conversion of DMAOL | decrease |
+| solvent (methanol) | conversion of DMAOL | increase |
+| solvent (ethyl_acetate) | conversion of DMAOL | increase |
+| selectivity of 3-azetidinol | selectivity | unchanged |

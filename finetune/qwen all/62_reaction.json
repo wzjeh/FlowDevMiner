@@ -1,0 +1,56 @@
+{
+  "reaction_type": "decolorization",
+  "reactants": [
+    {
+      "name": "Direct Red 16",
+      "role": "reactant"
+    },
+    {
+      "name": "Fe2+",
+      "role": "catalyst"
+    },
+    {
+      "name": "H2O2",
+      "role": "reactant"
+    },
+    {
+      "name": "water",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "decolorized DR16",
+      "yield_optimal": 86.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "25 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "4.2 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "1 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "Y-shaped microreactor",
+    "inner_diameter": "1 mm"
+  },
+  "metrics": {
+    "conversion": 86.0,
+    "yield": 86.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

@@ -1,0 +1,329 @@
+Chemical Engineering Science 247 (2022) 117041
+
+Contents lists available at ScienceDirect
+
+Chemical Engineering Science
+
+journal homepage: www.elsevier.com/locate/ces
+
+Determination of nitration kinetics of p-Nitrotoluene with a homogeneously continuous microflow
+
+Jing Song 1, Yongjin Cui 1, Lin Sheng, Yujun Wang, Chencan Du, Jian Deng ⇑, Guangsheng Luo ⇑
+
+State Key Laboratory of Chemical Engineering, Department of Chemical Engineering, Tsinghua University, Beijing 100084, China
+
+h i g h l i g h t s
+
+ The characteristics of nitration hinder the accurate determination of kinetics.
+
+ Constructing a continuous-flow microreactor system to obtain kinetics of nitration.
+
+ Determining p-nitrotoluene nitration kinetics by homogeneous reaction in the system.
+
+ Establishing a general method to obtain the values of CNOþ 2 =CHNO3.
+
+a r t i c l e i n f o
+
+a b s t r a c t
+
+Article history: Received 19 May 2021 Received in revised form 9 July 2021 Accepted 21 August 2021 Available online 25 August 2021
+
+The kinetics of p-nitrotoluene nitration with mixed acid is important to industrial process design and safety control. However, it's difficult to acquire accurate kinetic data and no kinetics study has ever been reported before because of fast, highly exothermic and heterogeneous characteristics. In this work, a continuous-flow microreactor system including a micromixer, a capillary reactor and an online quench- ing module was designed to carry out the nitration under a homogeneous reaction condition. The homo- geneous nitration can completely eliminate mass transfer resistance between phases, and accurately control reaction temperature and residence time in the continuous-flow microreactor system. The observed reaction rate constants separately based on HNO3 and NO2 +, pre-exponential factor and activa- tion energy of p-nitrotoluene nitration were obtained and a general method was established to collect kinetics data for such a kind of fast and highly exothermal nitration reactions.  2021 Elsevier Ltd. All rights reserved.
+
+Keywords: P-nitrotoluene nitration Homogeneous Kinetics Continuous Microflow
+
+to be maintained because of the characteristic of highly exothermic reaction; (3) the reaction is coupled strongly with mass transfer in the liquid–liquid heterogeneous system. (Hompson and Eegers, 1990; Zaldivar et al., 1995; Zeegers, 1993) It is believed that the nitration process occurs almost exclusively in the aqueous phase. (Cox and Strachan, 1972a, b; Thompson and Zeegers, 1989) HNO3 reacts with concentrated H2SO4 to generate NO2 + firstly. 4-MNT dif- fuses through the organic phase to the aqueous phase to react with NO2 + to form 24-DNT. There is always mass transfer resistance in the diffusion process. (Quadros et al., 2004) The use of concen- trated H2SO4 could further increase the mass transfer resistance because of its high viscosity. Therefore, in order to obtain accurate kinetics data of nitration, a method of quenching reaction at mil- liseconds, and a reactor with excellent mass and heat transfer per- formances are required. Kinetic studies of nitration have attracted the interest of many researchers. (Barbosa et al., 2006; Su et al., 2011; Sullivan et al., 2020) Kinetic studies of many aromatic compounds have been reported in the literatures such as toluene, (Chapman et al.,
+
+1. Introduction
+
+2,4-dinitrotoluene (24-DNT) is an important intermediate for the production of dyes and explosives, which can be produced through p-nitrotoluene (4-MNT) nitration with mixed acid (Scheme 1). (Kulkarni, 2014; Olah et al., 1989; Rahaman et al., 2007; Sullivan et al., 2020) The kinetics study is very important to industrial process design and prevent the thermal runaway because nitration is fast and highly exothermic. But it is difficult to obtain the accurate kinetic data because of the following rea- sons: (1) compared to the reaction time, the time of quenching reaction and sampling cannot be ignored in the traditional stirred tank reactor. It could result in inaccurate determination of resi- dence time; (2) the constant temperature process is very difficult
+
+⇑Corresponding authors. E-mail addresses: jiandeng@tsinghua.edu.cn (J. Deng), gsluo@tsinghua.edu.cn (G. Luo). 1 Jing Song and Yongjin Cui contributed equally to this work.
+
+https://doi.org/10.1016/j.ces.2021.117041 0009-2509/ 2021 Elsevier Ltd. All rights reserved.
+
+J. Song, Y. Cui, L. Sheng et al. Chemical Engineering Science 247 (2022) 117041
+
+(less than98%) was prepared by diluting H2SO4 (98%) with deion- ized water.
+
+2.2. Experimental procedures and equipment
+
+The homogeneous solution of 4-MNT dissolved in specific con- centration H2SO4 (0.5 g / (0.5 + 160) g) was prepared by stirring for 12 h. According to the molar ratio of nitric acid and 4-MNT, nitric acid was also dissolved in 160 g the same concentration H2SO4 to obtain the mixed acid. The continuous-flow microreactor system (Fig. 1) contains two high-pressure syringe pumps (Chemyx fusion 6000, America), pre- treatment coiled capillaries (stainless steel, inner diameter of 0.5 mm, length of 1 m), micromixers (stainless three-way, inner diameter of 0.15 mm, 0.25 mm and 0.5 mm), a capillary microreac- tor (PTFE, inner diameter of 0.5 mm, 0.75 mm, and 1.0 mm), and one metering pump (2 PB-3020, Beijing Xingda, China). The pre- treatment, reaction and quenching modules were immersed in a temperature-controlled bath (CORIO CD-200F, Julabo, Germany). The homogeneous solution and mixed acid were delivered through high-pressure syringe pumps at the same volume flow rate, respectively. The two fluids flow separately through the pre- treatment coiled capillaries to reach a preset temperature and through micromixer 1 to microreactor system for several seconds. The change in reaction residence time was realized by adjusting the length of the capillary microchannel. The reaction was quenched by water at milliseconds at the outlet of the microchan- nel reactor.
+
+Scheme 1. Nitration of 4-MNT with mixed acid to form 24-DNT.
+
+1974; Cox and Strachan, 1972b; Su et al., 2011) benzene, (Biggs and White, 2010; Quadros et al., 2005) nitrotoluene, (Modak and Juvekar, 1995; Nunziata et al., 1983; Su et al., 2011; Westheimer and Kharasch, 1946) and chlorobenzene. (Cox and Strachan, 1971) However, an accurate kinetics study of 4-MNT nitration has not ever been reported before. More studies on the kinetics of this reaction should be performed. Microreactor could have excellent transfer and mixing perfor- mances because of its micron or submicron characteristic dimen- sions. (Chen et al., 2021; Cui et al., 2020; Han et al., 2019; Sheng et al., 2021; Yan et al., 2021) In addition, the residence time can be accurately controlled in a continuous-flow microreactor system. (Barbosa et al., 2005) These advantages in kinetics studies have been proven by many reported heterogeneous nitration reactions. (Kulkarni et al., 2009; Lan and Lu, 2021; Li et al., 2017; Wen et al., 2018) However, the mass transfer resistance in liquid–liquid reac- tion system cannot be eliminated completely. It is reported that 4- MNT has a certain solubility in 95% H2SO4 at 303 K without sul- fonation, and a homogeneous nitration reaction system can be formed. (Andreozzi et al., 1993; Rahaman et al., 2010; Rahaman et al., 2007) In a homogeneous reaction system, the mass transfer resistance between phases could be eliminated. The high mass ratio of sulfuric acid to 4-MNT can not only ensure the formation of homogenous solution, but also effectively reduce the adiabatic temperature rise of the system, which is an effective method to control the reaction temperature. Therefore, more accurate kinetic data of homogeneous 4-MNT nitration in a continuous-flow microreactor system may be obtained. Unfortunately, this work has not ever been tested before. In this study, a continuous-flow microreactor system including a micromixer, a capillary reactor and an online quenching module has been constructed to determine the kinetics of 4-MNT nitration under a homogeneous condition. The requirement of constant tem- perature was satisfied by adjusting the mass ratio of H2SO4 to 4- MNT. It can be proved by the calculation of the adiabatic temper- ature rise of the system. The mass transfer resistance between phases can be eliminated completely. In the microreactor system, the effect of mixing performance, temperature, residence time and molar ratio of reactants on nitration were investigated in detail and the reaction kinetic parameters including observed reaction rate constants separately based on HNO3 and NO2 +, preexponential factor and activation energy as well as their confidence intervals were obtained.
+
+2.3. Analysis
+
+Since H2SO4 in the quenched sample has been sufficiently diluted, it could not react with methanol. Therefore, all the organic products and acids were dissolved in methanol and analyzed by ultra-performance liquid chromatography (Waters, ACQUITY UPLC I-CLASS System, column: PFP Column, 1.8 lm, 3 mm  50 mm, America, mobile phase: VH2O/VMeOH = 0.65/0.35, flow rate: 0.2 mL/min, injection volume: 1 lL). The column temperature was 30 C and the detection wavelength of the UV detector was 200–300 nm. The composition of product was quantitatively ana- lyzed by the internal standard method and nitrobenzene was also dissolved in methanol as an internal standard.
+
+f i ¼ As=ms Ari=mri ð1Þ
+
+where i and s represent components and internal standard sub- stance, respectively. A and m are the integral area and the mass of nitrobenzene, respectively. fi is the relative correction factor for component i. Before each measurement of the composition of sam- ples, the relative correction factors of 4-MNT and 24-DNT were determined first. All these experiments were repeated at least three times to determine the reproducibility. The conversion of 4-MNT is calculated by equation (2):
+
+X4-MNT ¼ 1  x4-MNT x4-MNT þ x2;4-;DNT  M4-MNT M2;4DNT ð2Þ
+
+where X , x and M are the conversion, mass fraction and molecular weight, respectively. The reaction residence time is calculated by equation (3):
+
+2. Experimental
+
+2.1. Chemicals and materials
+
+t ¼ V Q h þ Q m ð3Þ
+
+J. Song, Y. Cui, L. Sheng et al. Chemical Engineering Science 247 (2022) 117041
+
+Fig. 1. Schematic overview of the experimental equipment.
+
+actor system, the effects of the inner diameter of the micromixer and microreactor, and the fluid flow rate on the conversion of 4-MNT were investigated, respectively. First, the micromixers 1 (with inner diameters of 0.15 mm, 0.25 mm and 0.5 mm) and the capillary microreactors (with inner diameters of 0.5 mm, 0.75 mm and 1.0 mm) were used to explore the optimal equipment that could achieve a better mixing effect. The results are shown in Fig. 2(a) and 2(b). The results prove that as the inner diameters of the micromixer and microreactor increase, the conversion of 4-MNT decreases under the same reac- tion conditions. Under the same flow rate, the smaller the inner diameter is, the greater the fluid velocity is. The turbulence in the fluid will be more intense. The more sufficient the fluid is mixed, the more conducive to the occurrence of the reaction. Therefore, a better mixing effect was achieved in the micromixer and microreactor with smaller inner diameters. According to the above results, a micromixer with an inner diameter of 0.15 mm and a microreactor with an inner diameter of 0.5 mm were utilized for the next step of the research. To achieve the best mixing effect in the selected micromixer and microreactor, the influence of the fluid flow rate on the conver- sion of 4-MNT was explored. The results are shown in Fig. 2(c). According to the results, when the fluid volume flow rate is lower than 1.0 mL/min, the conversion of 4-MNT increases with increas- ing of the fluid volume flow rate. When the fluid volume flow rate is higher than 1.0 mL/min, with the increase in the volume flow rate, the conversion of 4-MNT is almost unchanged. The results show that when the volume flow rate is increased to a certain value in the selected reaction devices, the mixing effect achieved in the selected micromixer and microreactor has almost no further influence on the reaction rate. Therefore, all the subsequent kinet- ics experiments were studied under the optimal mixing conditions.
+
+The adiabatic temperature rise is calculated by equation (4):
+
+DT ¼ Q r  n4-MNTX4-MNT cp-H2SO4  mH2SO4 ¼ Q r M4-MNT  cp-H2SO4  X4-MNT km ð4Þ
+
+Where DT is the adiabatic temperature rise, Qr is the reaction heat of 4-MNT nitration reaction, n4-MNT is the initial molar of 4-MNT, cp-H2SO4 is the specific heat capacity of H2SO4, mH2SO4 is the total mass of H2SO4 in the microchannel, and km ¼ mH2SO4=m4MNT.
+
+2.4. Determination of the solubility of 4-MNT in H2SO4
+
+The solubility was determined using the following procedure. The mixture of 4-MNT and 88% H2SO4 ðm4MNT=mH2SO4 ¼ 1=2Þ was stirred for 12 h at 288 K and rested for 24 h. Next, the mixture was separated into an organic phase and aqueous phase through separating funnel. The analysis samples were prepared by dissolv- ing the aqueous phase in methanol. The content of 4-MNT in the aqueous phase was analyzed by the above-mentioned UPLC method and convert to the value of solubility.
+
+3. Results and discussion
+
+3.1. Solubility of 4-MNT in H2SO4
+
+It is a prerequisite that 4-MNT can be dissolved in H2SO4 to form a homogeneous nitration reaction system. The solubility of 4-MNT in 88% H2SO4 at 288 K was shown to equal 0.1503 g per 1 g H2SO4. Therefore, in the range of solubility, 4-MNT can be com- pletely dissolved in 88% H2SO4 at the given temperature to form a homogeneous solution. According to the previous literature, (Rahaman et al., 2010) the solubility of aromatic compounds in H2SO4 increases with increasing of H2SO4 concentration and tem- perature. In addition, the sulfonation side reaction did not occur even in 95% H2SO4 at 308 K, as shown in the Supplementary Mate- rial (Figure S2). Therefore, the solubility research proved that the homogeneous nitration of 4-MNT in mixed acid is feasible under expected experimental conditions.
+
+3.3. Effect of molar ratio
+
+The effect of the molar ratio of HNO3 to 4-MNT was investigated at 293 K and the residence time of 7.07 s. The results are shown in Fig. 3, indicating that with increasing of molar ratio, the conversion of 4-MNT increases. According to the reported literature, (Edwards and Fawcett, 1994; Edwards et al., 1995) when the most of the mixed acid is occupied by H2SO4, as the concentration of HNO3 increases, the concentration of NO2 + increases. Furthermore, the low proportion of water in the mixed acid is conducive to the pro- tonation of HNO3. When the proportion of HNO3 in the mixed acid is large, the concentration of NO2 + will decrease with increasing of HNO3. In this work, a large amount of H2SO4 and a small amount of HNO3 were used to prepare the mixed acid. The oxidation
+
+3.2. Mixing performance of the continuous-flow microreactor system
+
+J. Song, Y. Cui, L. Sheng et al. Chemical Engineering Science 247 (2022) 117041
+
+Fig. 2. Effect of (a) micromixer inner diameter, (b) microreactor inner diameter, (c) fluid flow rate on 4-MNT conversion.
+
+where kobs is the observed reaction rate constant based on HNO3 and C4-MNT and CHNO3 are the concentrations of 4-MNT and HNO3, respectively. Equation (5) can be transformed in terms of the con- version of 4-MNT and described by the following rate equations:
+
+r ¼ kobsC0 4-MNT 1  X4-MNT ð Þ C0 HNO3  C0 4-MNTX4-MNT   ð6Þ
+
+r ¼ kobsC0 4-MNT 1  X4-MNT ð Þ M  X4-MNT ð Þ ð7Þ
+
+r ¼  dC4MNT dt ¼ C0 4MNT
+
+dX4MNT dt ð8Þ
+
+where X4-MNT is the conversion of 4-MNT, C0 HNO3and C0 4-MNT are the initial concentrations of HNO3 and 4-MNT in the homogeneous
+
+solution, respectively, and M ¼ C0 HNO3=C0 4-MNT, t is the reaction resi- dence time. By integrating Equations (7)-(8), we can obtain
+
+Fig. 3. Conversion variation of 4-MNT with molar ratio of HNO3 to 4-MNT.
+
+  ¼ kobs C0 HNO3  C0 4-MNT   t ð9Þ
+
+ln M  X4-MNT Mð1  X4-MNTÞ
+
+reaction of HNO3 can be reduced in this system. (Deno et al., 1961; Ross et al., 1983) Therefore, as the molar ratio increases, the reac- tion rate appears faster. The effect of the molar ratio on the observed reaction rate constant can also be reflected in the reac- tion rate equation. Furthermore, due to the constant consumption of NO2 + in the reaction process, a higher molar ratio is conducive to supplementation with NO2 +. Therefore, a high molar ratio and high concentration of H2SO4 are more favorable to nitration.
+
+Therefore, a plot of ln MX4-MNT Mð1X4-MNTÞ h i versus t is a straight line, and
+
+the slope equals kobs C0 HNO3  C0 4-MNT   . Next, the observed rate con-
+
+stant based on HNO3, kobs, can be calculated from the slope. At different temperatures and H2SO4 concentrations, Fig. 4 describes the variation in the conversion of 4-MNT with reaction residence time. To ensure that constant temperature conditions were satisfied in this work, the adiabatic temperature rise of each process was calculated. According to the results, the adiabatic tem- perature rises of all processes were less than 1 K. Therefore, it can be believed that requirement of the accurate temperature control was satisfied. The detailed results are given in the Supplementary Material (Table S2). Fig. 5 shows the relationship between
+
+3.4. Determination of the observed reaction rate constant based on HNO3
+
+It has been proven that a homogeneous nitration reaction is a second-order reaction. The reaction rate of 4-MNT nitration can be described as equation (5):
+
+ln MX4-MNT Mð1X4-MNTÞ h i and residence time (t). The values of kobs and its
+
+r ¼ kobsC4-MNTCHNO3 ð5Þ
+
+J. Song, Y. Cui, L. Sheng et al. Chemical Engineering Science 247 (2022) 117041
+
+Fig. 4. Effect of the residence time, temperature and concentration of H2SO4 on conversion. (a) 88% H2SO4, (b)90% H2SO4, (c) 92% H2SO4.
+
+Fig. 5. Determination of the observed reaction rate constant kobs at different temperatures and H2SO4 concentrations. (a) 88% H2SO4. (b) 90% H2SO4. (c) 92% H2SO4.
+
+linear relationships are obtained. This finding demonstrates that the results are in accordance with the second order reaction trend. It has been proven that the observed reaction rate constant based on HNO3 is a strong function of H2SO4 concentration. (Nunziata et al., 1983; Westheimer and Kharasch, 1946) It can be seen that
+
+95% confidence intervals are shown in the Table 1. At all H2SO4 concentrations, with increasing of reaction temperature, the con- version of 4-MNT is greater under the same reaction residence time. This result shows that as the temperature increases, the reaction rate increases. The results of Fig. 5 show that the excellent
+
+J. Song, Y. Cui, L. Sheng et al. Chemical Engineering Science 247 (2022) 117041
+
+Next, by rearranging Equation (13), we can obtain
+
+Table 1 Values and 95% confidence intervals of kobs at different temperatures and H2SO4 concentrations.
+
+lgkobs  lg CNOþ 2 =CHNO3   ¼ lgk  þ nMc ð14Þ
+
+Mass fraction of H2SO4 (%) Temperature (C) kobs102 (L mol1 s1)
+
+According to Equation (14), to obtain the values of k* and n, the values of CNOþ 2 =CHNO3 and Mc function should be determined first.
+
+35.20 ± 0.36 50.95 ± 1.58 74.99 ± 4.20 97.04 ± 7.31 37.50 ± 0.48 61.31 ± 3.51 80.37 ± 4.53 99.06 ± 4.17 37.68 ± 0.54 54.11 ± 0.42 82.38 ± 4.81 113.94 ± 3.13
+
+Marziano et al. proved that at a specific temperature, the Mc func- tion exclusively depends on the H2SO4 concentration. The values of the Mc function at 298 K can be calculated by polynomial fitting to the data in the literature reported by Marziano et al. (Marziano et al., 1973) In the H2SO4 concentration range between 15.2 and 18.4 mol/L, the polynomial is given as follows:
+
+Mc ¼ 2:16  104C5 H2SO4  1:27  102C4 H2SO4 þ 0:28C3 H2SO4  2:73C2 H2SO4 þ 10:6CH2SO4 ð15Þ
+
+The 95% confidence interval of kobs is from the linear fit.
+
+The result of polynomial fitting is given in the Supplementary Material (Figure S1). Therefore, the values of the Mc function with different H2SO4 concentrations can be determined at 298 K by Equation (15). (Marziano et al., 1981) The values at other temper- atures can be calculated by equation (16):
+
+kobs increases with increasing of H2SO4 concentration. Decreases in the proportion of water in mixed acid is more conducive to the pro- duction of NO2 +.
+
+3.5. Determination of the observed reaction rate constant based on NO2 +
+
+Mc T ð Þ ¼ Mc 298K ð Þ 200 T þ 0:3292   ð16Þ
+
+It is well known that the attack of NO2 + on the aromatic com- pounds is the rate-determining step in the nitration reaction. In addition, NO2 + is the real nitrating agent instead of HNO3. Therefore, to determine the law of 4-MNT nitration and explain the depen- dence of the observed reaction rate constant on the H2SO4 concen- tration, the determination of the observed reaction rate constant based on NO2 + is necessary. In Equation (5), the reaction rate is expressed by the concentration of HNO3. When the reaction rate is expressed by the concentration of NO2 +, the reaction rate equa- tion can be transformed as Equation (10).
+
+The values of CNOþ 2 =CHNO3 are crucial for determining the values
+
+of k*. It has been proven that CNOþ 2 =CHNO3 is a function of tempera-
+
+ture and H2SO4 concentration. Many researchers have determined
+
+r ¼ k  2C4-MNTCNOþ ð10Þ
+
+where k  2 is the observed second-order reaction rate constant related to the concentration of NO2 + and CNOþ 2 is the concentrations
+
+of NO2 +. According to the Brønsted-Bjerrum rate law (transition-state theory), (Olah et al., 1989) the reaction rate equation can be writ- ten as follows:
+
+c4-MNTcNOþ c ð11Þ
+
+Fig. 6. Variation of lg CNOþ 2 =CHNO3   with the H2SO4 concentration at different temperatures and fitted lines.
+
+r ¼ k C4-MNTCNOþ
+
+where k* is the observed reaction rate constant based on NO2 + and it is a thermodynamic parameter that is a function of temperature. c4-MNT, cNOþ 2 and c* are the activity coefficients of 4-MNT, NO2 + and
+
+the transition intermediate, respectively. According to the literature reported by Marziano et al., (Marziano et al., 1984) Equation (11) can be transformed by the Mc function which is expressed by the H2SO4 concentration as follows:
+
+r ¼ k C4-MNTCNOþ 2 10nMc ð12Þ
+
+where n is a thermodynamic parameter that depends on the aro- matic compound. The values of n will be different for different aro- matic compounds. The Mc function, which represents the acidity of H2SO4 is used to depict the change in the activity coefficients. By comparing Equations (5) and (12), the relationship between kobs and k* can be described as follows:
+
+k  ¼ kobs 10nMc
+
+J. Song, Y. Cui, L. Sheng et al. Chemical Engineering Science 247 (2022) 117041
+
+Fig. 8. Determination of the thermodynamic parameter n and k* at different temperatures. (a) T = 15 C, (b) T = 20 C, (c) T = 25 C, (d) T = 30 C.
+
+the value of CNOþ 2 =CHNO3 at different temperatures and H2SO4 con-
+
+tures, the results are shown in Fig. 8. All data are fitted well by straight lines. Therefore, the thermodynamic parameter n and k* can be calculated by the slopes and intercepts of these straight lines, respectively. The values of n and lgk* obtained at different temperatures are presented in Table 2. By combining Equations (5), (10) and (12), the relationship between k  2 and kobs, k  2 and k* can be written as follows:
+
+centrations. To obtain reliable values of CNOþ 2 =CHNO3, a mathemati-
+
+cal model is proposed in this work. First, according to the values of CNOþ 2 =CHNO3 reported in the pre-
+
+vious literature, (Marziano et al., 1998; Sapoli et al., 1985) by plot-
+
+ting the values of lg CNOþ 2 =CHNO3   versus mass fraction of H2SO4 at
+
+the given temperatures in the literature, the results are shown in Fig. 6. It can be observed that the experimental data are fitted well with the straight line at the three temperatures. Next, the values of
+
+CHNO3 CNO þ ð17Þ
+
+k  2;exp ¼ kobs
+
+lg CNOþ 2 =CHNO3   under the H2SO4 concentration used in the exper-
+
+k  2;cal ¼ k 10nMc ð18Þ
+
+iment can be calculated according to the fitted model. The results
+
+of the values of lg CNOþ 2 =CHNO3   under experimental conditions are
+
+According to Equation (17), k 2;exp can be expressed by kobs and CNOþ 2 =CHNO3. The values of kobs and CNOþ 2 =CHNO3 have been directly
+
+given in the Supplementary Material (Table S1). Therefore, at all
+
+H2SO4 concentrations, the values of lg CNOþ 2 =CHNO3   corresponding
+
+determined through experiments. According to Equation (18), k 2;cal can be expressed by k* and n. The values of k* and n have been
+
+to the three temperatures were obtained. Next, by plotting the val-
+
+ues of lg CNOþ 2 =CHNO3   versus 1/T at different H2SO4 concentrations,
+
+the results are shown in Fig. 7. After determining the values of the Mc function and
+
+lg CNOþ 2 =CHNO3   , according to Equation (14), by plotting the
+
+lgkobs  lg CNOþ 2 =CHNO3   versus Mc function at different tempera-
+
+Table 2 Values and 95% confidence intervals of n and lgk* at different temperatures.
+
+Temperature (C) n lgk*
+
+1.377 ± 0.001 16.258 ± 0.018 1.385 ± 0.007 16.412 ± 0.090 1.396 ± 0.002 16.566 ± 0.028 1.408 ± 0.006 16.707 ± 0.078
+
+Fig. 9. Comparison of experimental and calculated values of k  2 at different H2SO4 strengths and temperatures.
+
+J. Song, Y. Cui, L. Sheng et al. Chemical Engineering Science 247 (2022) 117041
+
+under homogeneous conditions. The constant temperature condi- tion can be proven by the adiabatic temperature rise of each pro- cess below 1 K. The observed reaction rate constants based on HNO3 were obtained. This finding proves that the reaction rate is highly dependent on the H2SO4 strength and temperature. Next, a complete kinetic model was established to describe this reaction. The observed reaction rate constant based on NO2 + is a parameter that is not affected by the change in H2SO4 concentration. And the results at different temperatures were calculated by the values
+
+of lg CNOþ 2 =CHNO3   and Mc function. A general method to obtain the
+
+values of CNOþ 2 =CHNO3 was proposed in this work. The preexponen-
+
+tial factor and activation energy as well as their confidence inter- vals were obtained. The activation energy of 4-MNT nitration is 50.207 ± 1.496 kJ/mol. This model first reported the preexponential factor and activation energy of the reaction of 4-MNT nitration. By comparing the calculated values and experimental values, model validation was proven. The kinetics study method can be applied to processes with similar reaction mechanisms. This model can help to deeply understand the whole process of 4-MNT nitration and will be used to optimize the operating conditions. Further- more, it is expected to achieve more efficient and faster determina- tion of reaction kinetics of similar nitration process by combining the method of kinetics study and the automation technology in our future work.
+
+Fig. 10. Arrhenius plot of lnk* versus 1/T.
+
+Table 3 Values and 95% confidence intervals of the preexponential factor and activation energy.
+
+Factors Values
+
+Ea 50.207 ± 1.496 kJ mol1
+
+lnA 58.393 ± 0.609
+
+The 95% confidence intervals of Ea and lnA are from the linear fit.
+
+Funding information
+
+National Natural Science Foundation of China, Grant/Award Number: 21,991,104.
+
+determined from the linear fit. The comparison between k 2;exp and
+
+k 2;cal at different H2SO4 strengths and temperatures is shown in Fig. 9. The calculated values are in excellent agreement with the experimental values and prove the validation of the model. The research scope of molar ratio of HNO3 to 4-MNT was expanded for further analyzing the correlation of conversion and molar ratio and verifying the applicability of the kinetic model. When the molar ratio was 2, the conversion of 4-MNT was 22.81 % under the same temperature and residence time, and higher than that at a molar ratio of 1.7. The result is consistent with the conclu- sion that a high molar ratio is more favorable to nitration. Accord- ing to the kinetic model, the calculated conversion was 23.51%. It demonstrates that the kinetic model is applicable when the molar ratio is changed. After obtaining the values of k* at different temperatures, the activation energy for the attack of NO2 + on 4-MNT molecules and the preexponential factor can be obtained. The relationship between k* and the activation energy can be described by the Arrhenius equation as follows:
+
+CRediT authorship contribution statement
+
+Jing Song: Writing – original draft, Investigation, Methodology. Yongjin Cui: Validation, Formal analysis. Lin Sheng: Software. Yujun Wang: Writing – review & editing. Chencan Du: Writing – review & editing. Jian Deng: Writing – review & editing, Concep- tualization. Guangsheng Luo: Writing – review & editing, Concep- tualization, Supervision.
+
+Declaration of Competing Interest
+
+The authors declare that they have no known competing finan- cial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+Acknowledgements
+
+  ð19Þ
+
+This work was financially supported by the National Natural Science Foundation of China (Grant No.21991104).
+
+k  ¼ Aexp  Ea RT
+
+where A is the preexponential factor and Ea is the activation energy. R is the molar gas constant. By plotting lnk* versus 1/T, a straight line can be obtained. Next, the value of Ea can be calculated by the slope of the fitted line, and the value of A can be calculated by the intercept of the fitted line. The results are shown in Fig. 10. The values and 95% confidence intervals are shown in Table 3.
+
+Appendix A. Supplementary material
+
+Supplementary data to this article can be found online at https://doi.org/10.1016/j.ces.2021.117041.
+
+Reference
+
+4. Conclusions
+
+In this work, a complete continuous-flow microreactor system has been constructed. The kinetics of 4-MNT nitration were studied by means of a homogeneous reaction in the continuous-flow microreactor. The solubility of 4-MNT in concentrated H2SO4 solu- tion was measured first to ensure that the reaction was carried out
+
+J. Song, Y. Cui, L. Sheng et al. Chemical Engineering Science 247 (2022) 117041
+
+Marziano, N.C., Tomasin, A., Traverso, P.G., 1981. The Mc activity coefficient function for acid–base equilibria. Part 5. The Mc activity coefficient for a reliable estimate of thermodynamic values. J. Chem. Soc. Perkin Trans. 2, 1070–1075. https://doi.org/10.1039/P29810001070. Modak, S.Y., Juvekar, V.A., 1995. Role of Interfacial Reaction in Heterogeneous Aromatic Nitration. Ind. Eng. Chem. Res. 34 (12), 4297–4309. https://doi.org/ 10.1021/ie00039a021. Nunziata, C., Marziano, Marco, Sampoli, 1983. A simple linear description of rate profiles for the nitration of aromatic compounds in the critical range 80–98 wt% sulphuric acid. J. Chem. Soc., 523–524. https://doi.org/10.1039/C39830000523. Olah, G.A., Malhotra, R., Narang, S.C., 1989. NITRATION: Methods and Mechanisms. Across Conventional Lines. https://doi.org/10.1142/9789812791405_0192. Quadros, P.A., Oliveira, N.M.C., Baptista, C.M.S.G., 2004. Benzene nitration: validation of heterogeneous reaction models. Chem. Eng. Sci. 59 (22-23), 5449–5454. https://doi.org/10.1016/j.ces.2004.07.107. Quadros, P.A., Oliveira, N.M.C., Baptista, C.M.S.G., 2005. Continuous adiabatic industrial benzene nitration with mixed acid at a pilot plant scale. Chem. Eng. J. 108 (1-2), 1–11. https://doi.org/10.1016/j.cej.2004.12.022. Rahaman, M., Mandal, B., Ghosh, P., 2010. Nitration of nitrobenzene at high- concentrations of sulfuric acid: Mass transfer and kinetic aspects. AIChE J. 56, 737–748. https://doi.org/10.1002/aic.11989. Rahaman, M., Mandal, B.P., Ghosh, P., 2007. Nitration of nitrobenzene at high- concentrations of sulfuric acid. AIChE J. 53, 2476–2480. https://doi.org/10.1002/ aic.11222. Ross, D.S., Kuhlmann, K.F., Malhotra, R., 1983. Studies in aromatic nitration. 2. Nitrogen14 NMR study of the nitric acid/nitronium ion equilibrium in aqueous sulfuric acid. J. Am. Chem. Soc. (13), 4299–4302. https://doi.org/ 10.1021/ja00351a030. Sapoli, M., De Santis, A., Marziano, N.C., Pinna, F., Zingales, A., 1985. Equilibria of nitric acid in sulfuric and perchloric acid at 25.degree.C by Raman and UV spectroscopy. J. Phys. Chem. 89, 2864–2869. https://doi.org/10.1021/ j100259a032. Sheng, L., Chen, Y., Wang, K., Deng, J., Luo, G., 2021. General rules of bubble formation in viscous liquids in a modified step T-junction microdevice. Chem. Eng. Sci. 239, 116621. https://doi.org/10.1016/j.ces.2021.116621. Su, Y., Zhao, Y., Jiao, F., Chen, G., Yuan, Q., 2011. The intensification of rapid reactions for multiphase systems in a microchannel reactor by packing microparticles. AIChE J. 57 (6), 1409–1418. https://doi.org/10.1002/aic.12367. Sullivan, F., Simon, L., Ioannidis, N., Patel, S., Ophir, Z., Gogos, C., Jaffe, M., Tirmizi, S., Bonnett, P., Abbate, P., 2020. Chemical reaction modeling of industrial scale nitrocellulose production for military applications. AIChE J. 66 (7). https://doi. org/10.1002/aic.v66.710.1002/aic.16234. Thompson, M.J., Zeegers, P.J., 1989. A theoretical study on the two-phase nitration of phenols. Tetrahedron 45 (1), 191–202. https://doi.org/10.1016/0040-4020 (89)80046-8. Wen, Z., Yang, M., Zhao, S., Zhou, F., Chen, G., 2018. Kinetics study of heterogeneous continuous-flow nitration of trifluoromethoxybenzene. React. Chem. Eng. 3 (3), 379–387. https://doi.org/10.1039/C7RE00182G. Westheimer, F.H., Kharasch, M.S., 1946. The Kinetics of Nitration of Aromatic Nitro Compounds in Sulfuric Acid1. J. Am. Chem. Soc. 68, 1871–1876. https://doi.org/ 10.1021/ja01214a001. Yan, Z., Tian, J., Wang, K., Nigam, K.D.P., Luo, G., 2021. Microreaction processes for synthesis and utilization of epoxides: A review. Chem. Eng. Sci. 229, 116071. https://doi.org/10.1016/j.ces.2020.116071. Zaldivar, J.M., Molga, E., Alós, M.A., Hernández, H., Westerterp, K.R., 1995. Aromatic nitrations by mixed acid. Slow liquid-liquid reaction regime. Chem. Eng. Process. 34 (6), 543–559. https://doi.org/10.1016/0255-2701(95)04111-7. Zeegers, P.J., 1993. Nitration of phenols: A two-phase system. J. Chem. Educ. 70 (12), 1036. https://doi.org/10.1021/ed070p1036.
+
+Biggs, R.D., White, R.R., 2010. Rate of nitration of benzene with mixed acid. AIChE J. 2 (1), 26–33. https://doi.org/10.1002/aic.690020106. Marziano, N.C., Tomasin, A., Tortato, C., Zaldivar, J.M., 1998. Thermodynamic nitration rates of aromatic compounds. Part 4. Temperature dependence in sulfuric acid of HNO3?NO2+ equilibrium, nitration rates and acidic properties of the solvent y. J. Chem. Soc. Perkin Trans. (9), 1973–1982 https://doi.org/ 10.1039/a802521e. Chapman, J.W., Cox, P.R., Strachan, A.N., 1974. Two phase nitration of toluene—III. Chem. Eng. Sci. 29 (5), 1247–1251. https://doi.org/10.1016/0009-2509(74) 80124-7. Chen, Y., Sheng, L., Deng, J., Luo, G., 2021. Geometric effect on gas-liquid bubbly flow in capillary-embedded T-junction microchannels. Ind. Eng. Chem. Res. 60 (12), 4735–4744. https://doi.org/10.1021/acs.iecr.1c00262. Cox, P.R., Strachan, A.N., 1971. Two phase nitration of chlorobenzene. Chem. Eng. Sci. 26 (7), 1013–1018. https://doi.org/10.1016/0009-2509(71)80014-3. Cox, P.R., Strachan, A.N., 1972a. Two-phase nitration of toluene. Part II. Chem. Eng. J. 4 (3), 253–261. https://doi.org/10.1016/0300-9467(72)80022-4. Cox, P.R., Strachan, A.N., 1972b. Two phase nitration of toluene — I. Chem. Eng. Sci. 27 (3), 457–463. https://doi.org/10.1016/0009-2509(72)87001-5. Cui, Y., Li, Y., Wang, K., Deng, J., Luo, G., 2020. Determination of Dynamic Interfacial Tension during the Generation of Tiny Droplets in the Liquid-Liquid Jetting Flow Regime. Langmuir (45), 13633–13641. https://doi.org/10.1021/acs. langmuir.0c02459. Deno, N.C., Peterson, H.J., Sacher, E., 1961. NITRIC ACID EQUILIBRIA IN WATER— SULFURIC ACID1. J. Phys. Chem. 65 (2), 199–201. https://doi.org/10.1021/ j100820a002. Edwards, H.G.M., Fawcett, V., 1994. Quantitative Raman spectroscopic studies of nitronium ion concentrations in mixtures of sulphuric and nitric acids. J. Mol. Struct. 326, 131–143. https://doi.org/10.1016/0022-2860(94)85013-5. Edwards, H.G.M., Turner, J.M.C., Fawcett, V., 1995. Raman spectroscopic study of nitronium ion formation in mixtures of nitric acid, sulfuric acid and water. J. Chem. Soc Faraday Trans. 91, 1439–1443. https://doi.org/10.1039/ FT9959101439. Han, C.L., Hu, Y.P., Wang, K., Luo, G.S., 2019. Preparation and in-situ surface modification of CaCO3 nanoparticles with calcium stearate in a microreaction system. Powder Technol. 356, 414–422. https://doi.org/10.1016/j. powtec.2019.08.054. hompson, M.J., Eegers, P.J., 1990. Studies on the two-phase nitration of phenols (part 2). Tetrahedron 46 (7), 2661–2674. https://doi.org/10.1016/S0040-4020 (01)82044-5. Kulkarni, A.A., 2014. Continuous flow nitration in miniaturized devices. Beilstein J. Org. Chem. 10, 405–424. https://doi.org/10.3762/bjoc.10.38. Kulkarni, A.A., Kalyani, V.S., Joshi, R.A., Joshi, R.R., 2009. Continuous Flow Nitration of Benzaldehyde. Org Process Res Dev. 13 (5), 999–1002. https://doi.org/ 10.1021/op900129w. Lan, Z., Lu, Y., 2021. Continuous nitration of o-dichlorobenzene in micropacked-bed reactor: process design and modelling. J. Flow Chem. 11 (2), 171–179. https:// doi.org/10.1007/s41981-020-00132-3. Li, L., Yao, C., Jiao, F., Han, M., Chen, G., 2017. Experimental and kinetic study of the nitration of 2-ethylhexanol in capillary microreactors. Chem. Eng. Process. 117, 179–185. https://doi.org/10.1016/j.cep.2017.04.005. Marziano, N.C., Cimino, G.M., Passerini, R.C., 1973. The M activity coefficient function for acid–base equilibria. Part I. New methods for estimating pka values for weak bases. J. Chem. Soc Perkin Trans. 2, 1915–1922. https://doi.org/ 10.1039/P29730001915. Marziano, N.C., Sampoli, M., Pinna, F., Passerini, A., 1984. Thermodynamic nitration rates of aromatic compounds. Part 2. Linear description of rate profiles for the nitration of aromatic compounds in the range 40–98 wt% sulphuric acid. J. Chem. Soc. Perkin Trans. 2, 1163–1166. https://doi.org/10.1039/P29840001163.

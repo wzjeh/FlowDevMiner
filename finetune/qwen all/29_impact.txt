@@ -1,0 +1,16 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rate | conversion of ST | increase |
+| flow_rate | conversion of ST | unchanged |
+| reactant_concentration | conversion of ST | unchanged |
+| molar_ratio of EBFA to ST | conversion of ST | increase |
+| molar_ratio of EBFA to ST | yield of EDPB | increase |
+| molar_ratio of EBFA to ST | yield of EDPB | unchanged |
+| catalyst_loading | conversion of ST | increase |
+| catalyst_loading | yield of EDPB | increase |
+| temperature | conversion of ST | increase |
+| temperature | yield of EDPB | increase |
+| residence_time | conversion of ST | increase |
+| residence_time | yield of EDPB | increase |

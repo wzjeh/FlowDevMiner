@@ -1,0 +1,52 @@
+{
+  "reaction_type": "氢化",
+  "reactants": [
+    {
+      "name": "5-nitroisoquinoline",
+      "role": "reactant"
+    },
+    {
+      "name": "Ni/SiO2",
+      "role": "catalyst"
+    },
+    {
+      "name": "tetrahydrofuran",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "5-aminoisoquinoline",
+      "yield_optimal": 99.9,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "70 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "5 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.3 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "2.0 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "micropacked bed",
+    "inner_diameter": "4.35 mm"
+  },
+  "metrics": {
+    "conversion": 99.2,
+    "yield": 99.9,
+    "selectivity": 100.0,
+    "unit": "%"
+  }
+}

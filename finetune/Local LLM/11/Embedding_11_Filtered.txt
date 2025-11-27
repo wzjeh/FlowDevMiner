@@ -1,0 +1,20 @@
+Ltd.) with maximum flow rate of 100 sccm. Liquid was pre- heated to reaction temperature and then mixed with gas prior to entering the micropacked bed reactor (Length: 24.0 cm, innner diameter: 5.5 mm, outer diameter: 13.9 mm) which was wrapped by the heating jacket vertically. A condenser was placed on the downstream of reactor to remove exces- sive heat from the product and hydrogen. Following that the mixture entered the gas–liquid separator and product was collected in the collection vial. A back pressure regulator was connected with the top of separator to control system pressure while a liquid level control valve was installed at the bottom of separator to avoid undesired overflow to gas outlet. System parameters (pressure, temperature and flow rate) were all set to required values using online control modules while transient reaction conditions were shown on the screen by the online monitor modules.
+
+60 ℃ Batch 61.8 Continuous flow 99.7
+
+In the continuous hydrogenation process, hydrogen flow rate would influence the gas–liquid mass transfer process by increasing the turbulence in the reactor which greatly influences the conversion and selectivity of reaction [37]. In order to investigate the influence of gas flow rate on reaction results, the selectivity and conversion of the reaction under different gas flow rates were studied with Pt/C catalyst and the results were shown in Fig. 2. It is found that the mass fraction of 3,4-DCAN under different gas flow rates were all beyond 99% except for the experiments under gas flow rate with 22.5 sccm. The CAN and CNB at hydrogen flow rate with 22.5 sccm were slightly higher than other results. The results could be attributed to the longer residence time of liquids in the reactor due to the small gas flow rate. Therefore, gas flow rate of 25 sccm was selected for the following experiments.
+
+The reactant (3,4-DCNB) was prepared as a specific concentration with the solvent. The micropacked bed reactor was prewetted by pure solvent, then followed by ­N2 to replace gas in the system. After that ­H2 was intro- duced into H-Flow and the system pressure was gradually increased to the required value, ensuring the pressure drop between mass flow controller and back pressure regula- tor less than 0.5 MPa to protect the mass flow control- ler. Meanwhile, the system temperature was increased to the required value. When all the desired parameters were achieved, the solution of reactant was delivered in the sys- tem and the system achieved a steady state after at least three times of liquid residence time, then the sample was collected. When all the experiments had been completed, the heating jacket was turned off and system pressure was reduced to atmospheric pressure by releasing the back- pressure regulator. After the system was depressurized, a mixture of ­N2 and methanol was transported through the micropacked bed reactor to fully remove residual gas–liquid mixture and catalyst was stored in a nitrogen atmosphere.
+
+Effect of liquid flow rate
+
+Journal of Flow Chemistry (2022) 12:121–129
+
+Journal of Flow Chemistry (2022) 12:121–129
+
+Journal of Flow Chemistry (2022) 12:121–129
+
+Journal of Flow Chemistry (2022) 12:121–129
+
+Journal of Flow Chemistry (2022) 12:121–129
+

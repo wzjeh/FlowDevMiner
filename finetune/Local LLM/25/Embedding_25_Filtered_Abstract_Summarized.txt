@@ -1,0 +1,85 @@
+{"reaction_summary": {"reaction_type": "flow-chemistry", "reactants": [{"name": "aniline", "role": "reactant"}, {"name": "nitrobenzene", "role": "reactant"}], "products": [{"name": "4-MNT", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "10 min"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}, {"type": "pressure", "value": null}, {"type": "catalyst", "value": "Pd/C"}], "reactor": {"type": "microreactor", "inner_diameter": "50 μm"}, "metrics": {"conversion": 95, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{}
+
+paragraph = """
+You output ONLY valid JSON. No explanations, no markdown, no comments.
+
+Context
+Summary: The paragraph discusses flow-chemistry process development for the conversion of 4-MNT using micromixers and microreactors with varying inner diameters and fluid flow rates. Key reactants are not mentioned, but it is implied that they are present in the reaction mixture. The solvent and catalyst details are also unclear. The products formed as a result of this conversion process are not specified. However, the reactor type used for this study is micromixer and microreactor with inner diameters of 0.15 mm and 0.5 mm, respectively. The critical conditions mentioned include fluid volume flow rate, which was varied between 0.1 mL/min to 2.0 mL/min. The temperature and pressure details are not provided. The outcomes of the study show that the conversion of 4-MNT decreases as the inner diameter of the micromixer and microreactor increases, with a better mixing effect achieved in devices with smaller inner diameters. Additionally, it is found that when the fluid volume flow rate exceeds 1.0 mL/min, further increase in the volume flow rate does not affect the conversion rate significantly.
+"""
+
+{ "reaction_summary": {  "reaction_type":"nitration",  "reactants":[{"name":"organic substrates","role":"reactant"}, {"name":"concentrated sulfuric acid","role":"catalyst"}],  "products":[{"name":"nitroalkanes","yield_optimal":98,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"50 °C"},    {"type":"residence_time","value":1.67},    {"type":"flow_rate_reactant_A","value":null}
+
+{"name": name, "role": role}
+
+{"reaction_summary": {"reaction_type": "homogeneous", "reactants": [{"name": "H2SO4", "role": "solvent"}, {"name": "nitric acid", "role": "catalyst"}], "products": [], "conditions": [{"type": "residence_time", "value": 12}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+from typing import List
+
+
+    # Parse reaction type (if any)
+    match = re.search(r'(\w+)-nitration', text, flags=re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).capitalize()
+    else:
+        reaction_type = None
+
+    # Parse reactants
+    reactant_names = []
+    for word in text.split():
+        if word.lower() == 'mixed':
+            continue  # Ignore mixed acid as it's not a specific chemical compound.
+        elif re.match(r'\d+(?:\.\d+)?', word):
+            break  # Stop parsing when encountering numbers (e.g., flow rates).
+        else:
+            reactant_names.append(word)
+
+    # Parse products
+    product_name = None
+    for word in text.split():
+        if re.search(r'(\w+) nitration', word, flags=re.IGNORECASE) and not any(re.match(r'\d+(?:\.\d+)?', w) for w in text.split()[text.split().index(word):]):
+            product_name = word
+
+    # Parse conditions
+
+{ "reaction_summary": { 
+    "reaction_type":"nitration", 
+    "reactants":[{"name":"benzene","role":"solvent"}, {"name":"chlorobenzene","role":""}, {"name":"4-MNT","role":""}], 
+    "products":[{"name":"nitrotoluene","yield_optimal":null,"unit":"%"}], 
+    "conditions":[
+        {"type":"temperature","value":"80 °C"}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-nitration', summary, flags=re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).capitalize()
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    reactant_names = []
+    for word in ['4-MNT', 'H2SO4']:
+        if re.search(r'\b' + word + r'\b', summary, flags=re.IGNORECASE):
+            reactant_names.append(word)
+    
+    # Parse products (if present)
+    match = re.search(r'yield (\d+)%', summary, flags=re.IGNORECASE)
+    yield_optimal = None
+    if match:
+        yield_optimal = int(match.group(1))
+        
+    # Parse conditions
+    temperature_match = re.search(r'T=([0-9]+) °C', summary)
+    residence_time_match = re.search(r'residence time ([0-9.]+)', summary, flags=re.IGNORECASE)
+    flow_rate_matches = [re.search(r'flow rate (\d
+

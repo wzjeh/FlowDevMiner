@@ -1,0 +1,100 @@
+{"type": "product", "name": product_name, "yield_optimal": value}
+
+{"name": "complex molecules", "yield_optimal": 82, "unit": "%"}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-reaction', text, flags=re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    # Parse reactants and products
+    matches = re.findall(r"([A-Z][a-z]+)", text)
+    for i in range(len(matches)):
+        name = matches[i]
+        
+        # Determine role (reactant, catalyst or solvent) based on context
+        if 'catalyst' not in text.lower() and i == 0:
+            role = "reactant"
+        elif 'solvent' in text.lower():
+            role = "solvent"
+        else:
+            role = "reactant" if i < len(matches)-1 or 'and' in text.split(name)[1] else "catalyst"
+
+        # Add to reactants/products list
+        if not hasattr(parse_reaction_summary, 'reaction_data'):
+            parse_reaction_summary.reaction_data = {"reaction_type": reaction_type,
+                                                     "reactants":[],
+                                                     "products":[{
+                                                         "name":
+
+{
+    "reaction_type": null,
+    "reactants": [
+        {"name": "H2", "role": "catalyst"},
+        {"name": "hydrocarbon mixture", "role": "solvent"}
+    ],
+    "products": [],
+    "conditions": [
+        {
+            "type": "temperature",
+            "value": null
+        },
+        {
+            "type": "residence_time",
+            "value": 30
+        }
+    ]
+}
+
+{"name": "hydrogenated product", "yield_optimal": optimal_yield, "unit": "%"}
+
+{
+        "reaction_type": null,
+        "reactants": [],
+        "products": [{"name": None, "yield_optimal": yield_optimal, "unit": "%"}
+
+{"type": "flow_rate_total", "value": f"{flow_rate_reactant_A + flow_rate_reactant_B} mL/min"}
+
+{'name': None, 'yield_optimal': value, 'unit': unit}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "10 min"}], "reactor": {"type": "coil", "inner_diameter": "2 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+- Normalize units when present.
+
+
+
+
+
+    # Parse reaction type and reactants/products
+    match = re.search(r"(\w+) of (\w+)", text)
+    if match:
+        reaction_type, _ = match.groups()
+    
+    # Parse products (yield optimal)
+    product_match = re.search(r"(?P<name>\w+)\s+(?P<yield_optimal>[0-9]+)%", text)
+    if product_match:
+        yield_optimal = int(product_match.group('yield_optimal'))
+        
+    # Parse conditions
+    condition_matches = re.findall(r"(\d+\.?\d*)\s*(mL/min|°C)", text)
+    
+    # Parse reactor type and inner diameter
+    reactor_match = re.search(r"in a (\w+) with an inner diameter of (\d+\.\d* mm)", text)
+    if reactor_match:
+        reactor_type, inner_diameter = reactor_match.groups()
+        
+    # Parse metrics (conversion/yield/selectivity)
+    metric_matches = re.findall(r"(\d+\.?\d*)\s*(%|°C)", text)
+
+    return {
+        "reaction_summary": {
+            "reaction_type": reaction_type,
+
+{"name": "1-butene", "yield_optimal": 97, "unit": "%"}
+

@@ -1,0 +1,20 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of FUR | increase |
+| temperature | yield of FA | increase |
+| pressure | conversion of FUR | increase |
+| pressure | yield of FA | increase |
+| flow_rate (gas) | conversion of FUR | decrease |
+| flow_rate (gas) | yield of FA | decrease |
+| flow_rate (liquid) | conversion of FUR | decrease |
+| flow_rate (liquid) | yield of FA | decrease |
+| residence_time | conversion of FUR | increase |
+| residence_time | yield of FA | increase |
+| reactant_concentration | conversion of FUR | unchanged |
+| solvent (isopropanol vs. others) | conversion of FUR | increase |
+| solvent (isopropanol vs. others) | yield of FA | increase |
+| solvent (ethyl acetate) | selectivity to FA | increase |
+| catalyst_loading | not explicitly mentioned | - |
+| pressure | solubility of hydrogen | increase |

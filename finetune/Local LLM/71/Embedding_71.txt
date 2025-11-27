@@ -1,0 +1,20 @@
+Batch type cell (In-cell) Batch type cell (ex-cell) Microflow reactorb a Experimental conditions: anode, graphite plate; cathode, Pt plate; current density, 1.5 mA cm−2 ; solvent, AcCN; substrate, 10 mM catechol; supporting electrolyte, 100 mM NaClO4; nucleophile, 10 mM 4-isopropylbenzenethiol; base, 10 mM 2,6-lutidine. b Electrode distance, 80 μm; flow rate, 0.1 mL/min. c Determined by HPLC.
+
+Microflow reactorb Batch type cell n.d.
+
+Microflow reactorb Batch type cell
+
+Microflow reactorb Batch type cell
+
+Figure 6. Schematic illustration of the microflow system
+
+Entry Flow rate (mL/min) Current density (mA cm−2) Yieldb (%)
+
+4), the yield decreased again. This can be explained by an insuffi- cient bulk conversion due to a higher flow rate. Actually, ca. 30% of the starting material was recovered in this case. At 1.1 mA cm−2
+
+generation without causing its decomposition. It is hoped that this facile and novel reaction system will highlight the utility of flow reactors for optimizing reactions involving sensitive intermediates.
+
+Entry Catechol concentration (mM) Yieldb (%)
+
+Entry Reactor type Yield (%)c
+

@@ -1,0 +1,53 @@
+{"name": "4-NBDT", "yield_optimal": 0, "unit": "%"}
+
+{
+  "Flow rate": [
+    {"value": "0.1 mL/min", "unit": "mL/min"}, 
+    {"value": "2.3 s", "unit": "s"} # converted to min: 2.3/60 = 0.03833 min, rounded to two decimal places
+  ],
+  "T": [{"value": "25 °C"}],
+  "Yield of 4-NBDT": [
+    {"value": "95%", "unit": "%"}
+  ]
+}
+
+{"type":"flow_rate_reactant_A","value":None}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}], "products": [{"name": "...", "yield_optimal": 99, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "13 min"}], "reactor": {"type": "capillary microreactor system", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 99, "selectivity": null, "unit": "%"}}}
+
+{
+  "reaction_summary": {
+    "reaction_type":"Suzuki-Miyaura cross-coupling",
+    "reactants":[{"name":"ionic liquid","role":"solvent"}],
+    "products":[{
+      "name":"product of Suzuki-Miyaura reaction", 
+      "yield_optimal":95,
+      "unit":"%"},{
+        "name":"homogeneous product of Suzuki-Miyaura cross-coupling",
+        "yield_optimal":82, 
+        "unit":"%"
+      }],
+    "conditions":[{
+      "type":"temperature","value":"80 °C"}
+
+{ "reaction_summary": { 
+    "reaction_type":"diazotization", 
+    "reactants":[{"name":"PNA","role":"reactant"}, {"name":"NaNO2","role":"reactant"}], 
+    "products":[{"name":"4-NBDT","yield_optimal":95,"unit":"%"}], 
+    "conditions":[
+        {"type":"temperature","value":"80 °C"},
+        {"type":"residence_time","value":10}
+
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+{"type": "temperature", "value": re.search(r'T=(\d+) °C', line).group(1)}
+
+{ "reaction_summary": {  "reaction_type":"...",  "reactants":[{"name":"HBF4","role":"catalyst"}, {"name":"NaNO2", "role": null}, {"name":"PNA", "role":null}
+
+{
+        "conversion": None,
+        "yield": 95, 
+        "selectivity": None,
+        "unit": "%"
+    }
+

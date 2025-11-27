@@ -1,0 +1,52 @@
+{
+  "reaction_type": "solvent-antisolvent precipitation",
+  "reactants": [
+    {
+      "name": "apigenin",
+      "role": "reactant"
+    },
+    {
+      "name": null,
+      "role": "catalyst"
+    },
+    {
+      "name": "DMSO",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "nano-apigenin",
+      "yield_optimal": 95.3,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "25 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "elliptical baffle mixer",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 95.3,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

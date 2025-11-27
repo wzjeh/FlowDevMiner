@@ -1,0 +1,98 @@
+{match_temp.group(1)}
+
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+- Assume that if a field is not explicitly stated in the input text, it should be included with its default value.
+
+
+
+
+
+    # Parse reaction type (if any)
+    match = re.search(r'(\w+)-', input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"([A-Za-z0-9]+)", input_str)
+    reactant_names = [match for match in matches if not any(word in match.lower() for word in ["yield", "flow rate", "t", "v", "q"])]
+    
+    # Parse products (if any)
+    product_match = re.search(r"(\d+)% yield")
+    if product_match:
+        optimal_yield = int(product_match.group(1))
+        
+    else: 
+        optimal_yield = None
+    
+    # Parse conditions
+    temperature_match = re.search(r"T=(\d+) \°C", input_str)
+    
+    residence_time_match = re.search(r"t=([\d\.]+) min", input_str)
+    
+    flow_rate_reactant_A_match = re.search(r"
+
+{"conversion": null, "yield": null, "selectivity": None, "unit": "%"}
+
+{ "reaction_summary": { 
+    "reactants":[{"name":"reagents","role":"reactant"}], 
+    "products":[{
+        "yield_optimal":82,
+        "unit":"%"
+      }], 
+    "conditions":[
+        {"type":"temperature","value":"80 °C"}, 
+        {"type":"flow_rate_total","value":"0.1 mL/min"}
+     ], 
+    "reactor":{"type":"coil", "inner_diameter":"0.5 mm"},
+    "metrics":{null:null, null:82, null:null,"unit":"%"}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "microreactor", "reactants": [], "products": [{"name": null, "role": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "microreactor", "inner_diameter": "2 mm"}, "metrics": {"conversion": 90, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{
+        "reaction_summary": {
+            "reactants": [],
+            "products": [{"name": None, "yield_optimal": yield_optimal, "unit": "%"}],
+            "conditions": [
+                {"type":"temperature","value":f"{temperature} °C"},
+                {"type":"flow_rate_total","value":f"{flow_rate_total} mL/min"}
+
+{"name": "p-dinitrobenzene", "yield_optimal": 95, "unit": "%"}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+from typing import List
+
+
+    # Parse reaction type (if present)
+    match = re.search(r"nitrobenzene nitration", input_str, flags=re.IGNORECASE)
+    if match:
+        reaction_type = "Nitration"
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    reactant_names: List[str] = []
+    for word in input_str.split():
+        if re.search(r"nitrobenzene", word):
+            reactant_names.append("Nitrobenzene")
+        elif re.search(r"sodium dodecyl sulfate|SDS", word, flags=re.IGNORECASE):
+            reactant_names.append("Sodium Dodecyl Sulfate (Catalyst)")
+    
+    # Parse products
+    product_name = "m-Dinitrobenzene"
+    yield_optimal = 91.6
+    
+    # Parse conditions
+    temperature_match = re.search(r"(\d+) °C", input_str)
+    if temperature_match:
+        optimal_temperature = int(temperature_match.group(1))
+    
+    residence_time
+

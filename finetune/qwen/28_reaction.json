@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "toluene",
+      "role": "reactant"
+    },
+    {
+      "name": "mixed acid",
+      "role": "catalyst"
+    },
+    {
+      "name": "dichloromethane",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "mononitrotoluene",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "null"
+    },
+    {
+      "type": "residence_time",
+      "value": "null"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "null"
+    },
+    {
+      "type": "pressure",
+      "value": "null"
+    }
+  ],
+  "reactor": {
+    "type": "coil microreactor",
+    "inner_diameter": "null"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

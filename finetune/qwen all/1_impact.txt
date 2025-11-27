@@ -1,0 +1,14 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of BA | increase |
+| residence_time | conversion of ACMO | increase |
+| residence_time | molecular weight of linear arms | increase |
+| residence_time | polydispersity of linear arms | unchanged |
+| residence_time | conversion of HDDA | increase |
+| flow_rate_ratio | arm composition ratio | increase |
+| reactant_concentration | star yield | increase |
+| catalyst_loading | molecular weight of linear arms | increase |
+| catalyst_loading | polydispersity of linear arms | unchanged |
+| temperature | polymerization rate | increase |

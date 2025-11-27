@@ -1,0 +1,14 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of N-ethylcarbazole | increase |
+| temperature | selectivity to dodecahydro-N-ethylcarbazole | increase |
+| temperature | selectivity to dodecahydro-N-ethylcarbazole | decrease |
+| pressure | conversion of N-ethylcarbazole | unchanged |
+| pressure | selectivity to dodecahydro-N-ethylcarbazole | unchanged |
+| gas flow rate | conversion of N-ethylcarbazole | unchanged |
+| gas flow rate | selectivity to dodecahydro-N-ethylcarbazole | unchanged |
+| catalyst_loading | conversion of N-ethylcarbazole | increase |
+| catalyst_loading | selectivity to dodecahydro-N-ethylcarbazole | increase |
+| residence_time | conversion of N-ethylcarbazole | increase |

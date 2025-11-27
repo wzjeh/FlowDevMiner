@@ -1,0 +1,15 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of EC | increase |
+| temperature | selectivity of CEC | decrease |
+| temperature | selectivity of DCEC | increase |
+| EC_to_Cl2_molar_ratio | conversion of EC | increase |
+| EC_to_Cl2_molar_ratio | selectivity of CEC | decrease |
+| EC_to_Cl2_molar_ratio | selectivity of DCEC | increase |
+| EC_to_Cl2_molar_ratio | chlorine_utilization_efficiency | decrease |
+| residence_time | conversion of EC | increase |
+| residence_time | conversion of EC | decrease |
+| light_intensity | conversion of EC | increase |
+| light_wavelength | chlorination_performance | increase |

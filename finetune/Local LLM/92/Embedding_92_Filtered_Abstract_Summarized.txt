@@ -1,0 +1,74 @@
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+from typing import List
+
+
+    # Parse reaction type (if present)
+    match = re.search(r"(\w+)-", input_str, flags=re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).lower()
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"(?<=in )\b\w+\b(?=\s|$)", input_str)
+    reactant_names = [match.lower() for match in matches]
+    
+    # Parse products (if present)
+    product_match = re.search(r"yield (\d+)%", input_str, flags=re.IGNORECASE)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+    else:
+        yield_optimal = None
+    
+    # Parse conditions
+    condition_matches = re.findall(r"(?<=in )\b\w+\s(\d+(?:\.\d+)?)(?= °C| min)", input_str)
+    
+    flow_rate_total = 0.0
+    for match in condition_matches:
+        if
+
+{'name': None, 'yield_optimal': value, 'unit': unit}
+
+{"name": name, "role": role}
+
+{"name": name, "yield_optimal": None, "unit": "%"}
+
+{"type": match_reactor.group(1), "inner_diameter": f"{match_reactor.group(2)}"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [{"name": "CO2", "role": "reactant"}], "products": [{"name": "", "yield_optimal": null, "unit": ""}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": ""}}}
+
+- Assume that if a field is not explicitly stated in the input text, it should be included with its default value.
+
+Step 1: Preprocess the input string to extract relevant information
+
+
+
+    # Extract temperature and flow rate from the input string using regular expressions
+    temp_match = re.search(r'T=(\d+) \D*(\d*)', input_str)
+    if temp_match:
+        temp_value, unit = temp_match.groups()
+        temp_value = int(temp_value)  # Convert to integer for consistency
+
+    flow_rate_match = re.search(r'(\d+\.\d+|\d+)\s*mL/min', input_str)
+    if flow_rate_match:
+        flow_rate_value = float(flow_rate_match.group())  # Convert to float for consistency
+    else:
+        flow_rate_value = None
+
+    inner_diameter_match = re.search(r'\D*(\d+(?:\.\d+)?) mm', input_str)
+    if inner_diameter_match:
+        inner_diameter_value = inner_diameter_match.group()
+    else:
+        inner_diameter_value = None
+
+    # Extract yield from the input string using regular expressions
+    yield_match = re.search(r'yield (\d+)%', input_str
+
+{"conversion":None, "yield":None, "selectivity":None, "unit":"%"}
+
+{"name": name, "role": role}
+
+{"name": "anthraquinone", "yield_optimal": 27, "unit": "%"}
+

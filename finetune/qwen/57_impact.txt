@@ -1,0 +1,16 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of LA | increase |
+| temperature | yield of GVL | increase |
+| pressure | conversion of LA | increase |
+| pressure | yield of GVL | increase |
+| flow_rate | conversion of LA | decrease |
+| flow_rate | yield of GVL | decrease |
+| residence_time | conversion of LA | increase |
+| residence_time | yield of GVL | increase |
+| catalyst_loading | conversion of LA | increase |
+| catalyst_loading | yield of GVL | increase |
+| catalyst_particle_size | conversion of LA | decrease |
+| catalyst_particle_size | yield of GVL | decrease |

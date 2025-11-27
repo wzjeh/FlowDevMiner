@@ -1,0 +1,445 @@
+Article Investigation of the Influencing Parameters of the H2O2-Assisted Photochemical Treatment of Waste Liquid from the Hydrothermal Carbonization Process in a Microreactor Flow System
+
+Aleksandra Petroviˇc 1,* , Tjaša Cenˇciˇc Predikaka 2, Silvo Hribernik 3 and Andreja Nemet 1
+
+Faculty of Chemistry and Chemical Engineering, University of Maribor, Smetanova 17, 2000 Maribor, Slovenia; andreja.nemet@um.si IKEMA d.o.o.—Institute for Chemistry, Ecology, Measurements and Analytics, Lovrenc na Dravskem Polju 4, 2324 Lovrenc na Dravskem polju, Slovenia; tjasa@ikema.si Faculty of Electrical Engineering and Computer Science, University of Maribor, Koroška cesta 46, 2000 Maribor, Slovenia; silvo.hribernik@um.si * Correspondence: aleksandra.petrovic@um.si
+
+Abstract
+
+Due to its complex composition and toxicity, the waste liquid from hydrothermal carboniza- tion (HTC) poses a serious environmental challenge that must be addressed before disposal. In this study, the photochemical treatment of HTC liquid in a microreactor flow system was investigated. The effects of wavelength, the presence of atmospheric oxygen, oxidizing agent (H2O2) and catalyst (FeSO4), residence time and pH on the efficiency of the photo- treatment were investigated. In addition, the influence of the addition of deep eutectic solvent (DES) on photo-treatment was studied. The results showed that the photochemical treatment was more efficient at 365 nm than at 420 nm, and that the acidic conditions gave better results than the basic ones. UV365 treatment in the presence of H2O2 (at a dosage of 1 vol%) resulted in removal efficiencies of 31.6% for COD, 17.6% for TOC, 16.9% for NH4-N and 17.2% for PO4-P. The addition of FeSO4 caused coagulation/flocculation effects, but improved phosphorus removal. The addition of DES resulted in slight discolouration of the liquid and proved unsuccessful in COD removal. The GC-MS analysis and 3D-EEM spectra showed significant changes in the fate of organics and in the fluorescence intensity of aromatic proteins and humic acid-like substances. Photochemical treatment in a microre- actor flow system in the presence of H2O2 under the selected operating conditions reduced the content of organics and nutrients in the HTC liquid, but the process liquids still showed toxic effects on the organisms V. fischeri and Daphnia magna.
+
+Academic Editor: Wen-Tien Tsai
+
+Received: 1 August 2025
+
+Revised: 23 August 2025
+
+Accepted: 9 September 2025
+
+Published: 14 September 2025
+
+Citation: Petroviˇc, A.; Cenˇciˇc
+
+Predikaka, T.; Hribernik, S.; Nemet, A.
+
+Investigation of the Influencing
+
+Parameters of the H2O2-Assisted
+
+Photochemical Treatment of Waste
+
+Keywords: hydrothermal treatment; waste process liquid; photochemical treatment; hydrogen peroxide; microreactor flow system
+
+Liquid from the Hydrothermal
+
+Carbonization Process in a
+
+Microreactor Flow System. Processes
+
+2025, 13, 2934. https://doi.org/
+
+10.3390/pr13092934
+
+1. Introduction
+
+Copyright: © 2025 by the authors.
+
+Licensee MDPI, Basel, Switzerland.
+
+The use of fossil fuels has led to environmental problems and prompted the develop- ment of alternative energy sources such as biofuels. Among the various types of biofuels, those derived from waste biomass, energy crops and microalgae hold particular promise for reducing dependence on fossil fuels [1]. However, there are still many challenges in large-scale production of biofuels, including high costs associated with feedstock col- lection and preprocessing, low conversion efficiencies, and the energy-intensive nature
+
+This article is an open access article
+
+distributed under the terms and
+
+conditions of the Creative Commons
+
+Attribution (CC BY) license
+
+(https://creativecommons.org/
+
+licenses/by/4.0/).
+
+of the conversion methods that require the development of innovative approaches and process integration. Advanced conversion and processing methods, such as catalytic and non-catalytic pyrolysis, torrefaction [2], anaerobic digestion [3], gasification, hydrothermal liquefaction and hydrothermal carbonization [4], have been explored to improve efficiency, reduce costs and enhance the overall sustainability of biofuel production [5]. Hydrothermal carbonization (HTC) has attracted considerable attention in the last decade as it is known as an effective approach for the conversion of particularly wet biomass into solid biofuel at relatively mild temperature conditions (180–350 ◦C) and pressures [6]. In addition to the solid product (hydrochar), this process also produces a liquid byproduct, the so-called process liquid or process water [7]. Due to its complex composition, the process liquid poses numerous challenges that must be solved before it can be disposed of in the environment or further managed [8]. In order to implement HTC as a large-scale treatment alternative for biomass valorization, effective concepts for the treatment of HTC process water are crucial [9]. One of the main problems is the high organic content of the process liquid, as it contains various organic compounds, including volatile fatty acids, phenolic compounds and polycyclic aromatic hydrocarbons, which result in a high chemical oxygen demand (COD) [10]. These organic compounds can cause environmental pollution and damage aquatic ecosystems if released into the environment. In addition, nitrogen compounds in the process liquid can contribute to the eutrophication of water bodies, promote excessive algae growth and disturb the ecological balance [11]. As the composition of the process liquid is highly dependent on the type of feedstock used in the HTC process, its treatment is complex and requires integrated approaches that prioritize environmental protection, resource recovery, sustainability and circular economy principles [12]. According to the literature, the intelligent utilization or treatment of the HTC process fluid has been little researched to date. The most common treatment strategies, i.e., treatment methods, proposed by previous researchers for the treatment of HTC process liquids include biological treatment with microorganisms such as bacteria or fungi [13], ultrafiltration and other membrane treatment processes [12], advanced oxidation processes [14] and some other methods. In particular, advanced oxidation processes (AOPs) such as photochemical [15] and photocatalytic UV irradiation [16] and electrochemical oxidation [9] have proven to be very effective for these purposes, as they degrade organic pollutants very effectively. There are still many unresolved issues related to their application that need to be addressed, including the high operating costs and energy demand, the need for chemical reagents (e.g., H2O2, catalysts), the formation of refractory or toxic byproducts, limited mineralization efficiency (partial oxidation to small organic acids), challenges in transferring laboratory systems to industrial systems, and uncertainties regarding the environmental impact and management of residual sludge and secondary waste [17]. Furthermore, relatively few scientific papers have investigated these techniques for the treatment of HTC process liquids, although recent reports have provided encouraging results. For example, electrochemical oxidation using Na2SO4 and NaCl as supporting electrolytes was successful in treating HTC process liquid from olive tree pruning [18]. The HTC process liquid from banana peels was used as feedstock in microbial fuel cells, achieving COD reduction of up to 85% in combination with the generation of electrical power [19]. In another study, the electrochemical oxidation of process water from HTC-treated sewage sludge was investigated [9]. Studies dealing with the photochemical treatment of hydrothermal process liquid are even rarer, which emphasizes the novelty and importance of the present study. To the authors' knowledge, only three studies are available in the literature. In one of them, pho- tocatalytic treatment of wastewater from the hydrothermal liquefaction of algae was used for efficient COD removal and colour reduction in the presence of H2O2 as an oxidant [16].
+
+In another study, the photocatalytic treatment of liquid effluent from the hydrothermal liq- uefaction of agricultural waste was investigated using a metal-doped TiO2/UV system [11]. Elsewhere, the photobleaching and photochemical behaviour of dissolved organic matter from HTC process water of chicken manure and rice straw was investigated, where the photochemical behaviour was more affected by the type of feedstock than by the HTC treatment temperature [15]. All the studies mentioned above were conducted in a batch system, while the photochemical treatment of HTC liquid in a continuous flow system has not yet been investigated, nor has the influence of the application of H2O2 in combination with FeSO4 in the photochemical treatment of HTC liquids. Similarly, the addition of deep eutectic solvent (DES), which has been shown in the past to be an efficient catalyst for the oxidation of organic sulphides in combination with H2O2 [20], has not been investigated. Considering the above facts, the aim of this research was to investigate the photo- chemical treatment of HTC process liquid in a laboratory-scale a microreactor flow system. The process liquid obtained from the HTC treatment of hemp oil cake was subjected to photochemical treatment under different experimental conditions (different wavelengths, liquid flows and residence times, different pH, etc.). In addition, the influence of the addition of FeSO4 and DES solution on the efficiency of the photochemical treatment was investigated. In order to monitor the changes in the physico-chemical properties of the process liquids and the efficiency of the treatment, the process liquids were characterized by various chemical parameters such as COD, total organic carbon (TOC), total phenolic compounds (TPC), total nitrogen (TN) and others. In addition, the degradation of organic pollutants in the process liquid was analyzed using gas chromatography, ultraviolet–visible spectroscopy (UV-VIS) and three-dimensional excitation–emission matrix fluorescence spectroscopy (3D-EEM). Furthermore, the process liquids were subjected to acute toxicity tests with V. fischeri bacteria and Daphnia magna organisms to additionally evaluate the performance of the photochemical treatment with regard to the ecological impact of the photochemically treated process liquids on freshwater microorganisms.
+
+2. Materials and Methods
+
+This section presents the materials and methods used in the experiments, explains the photochemical treatment process in the microreactor flow system and describes the analytical techniques used to analyze the photochemically treated sample.
+
+2.1. Chemicals
+
+H2O2 (50 wt%, Sigma Aldrich, St. Louis, MO, USA), FeSO4·7H2O (ACS reagent, ≥99.0%, Merck, Rahway, NJ, USA) and KOH (ACS reagent, ≥85%, Merck), glycolic acid (anhydrous, 99%, Sigma Aldrich) and choline chloride (purity > 98.0%, TCI, Tokyo, Japan) were used as basic chemicals in the experimental study.
+
+2.2. The Test Sample of the HTC Liquid
+
+The HTC process liquid used in the photochemical experiments was obtained from the HTC treatment of hemp oil cake at 250 ◦C and a treatment time of 5 h (with 1 h of additional heating to reach the desired temperature). The resulting products, the hydrochar and the process liquid, were separated by vacuum filtration using a filter for rapid filtration (quantitative filter paper, Grade 589/1, black ribbon, Whatman). The brown-coloured process liquid with the properties shown in Table 1 was stored in a refrigerator (4 ◦C) until further use in photochemical experiments. The process liquid was rich in organic matter, including high levels of TOC (22.7 ± 0.25 g/L), COD (98.0 ± 1.3 gO2/L) and organic acids (8.30 ± 0.02 g/L), as well as total phenolic compounds (4068 ± 30 mg/L). It also contained
+
+nitrogen compounds (4.85 ± 0.05 g/L total nitrogen—TN) and phosphorus compounds (2.20 ± 0.03 g/L total phosphorus—TP) and had an acidic pH of 5.6 ± 0.02.
+
+Table 1. Chemical properties of the HTC process liquid, i.e., the test sample.
+
+Parameter (Unit) Value
+
+pH (/) 5.60 ± 0.02 Conductivity (mS/cm) 15.98 ± 0.10 Turbidity (NTU) 978 ± 8 TOC (mg/L) 22,700 ± 250 COD (mg O2/L) 98,000 ± 1300 TN (mg/L) 4850 ± 50 NH4-N (mg/L) 1660 ± 24 TP (mg/L) 2200 ± 32 PO4-P (mg/L) 1920 ± 11 NO2 (mg/L) 34.41 ± 1.45 NO3 (mg/L) 13,590 ± 98 TPC (mg/L) 4068 ± 30 Organic acids (mg/L) 8300 ± 23
+
+2.3. The Photochemical Treatment Procedure
+
+The photochemical treatment was carried out using the Asia Flow Chemistry System (Syrris, Royston, UK), an advanced micro-flow system with different reactor types for solution and solid phase chemistry. The system allows many experiments to be carried out in a short time by using monochromatic light sources of different wavelengths, reducing the treatment time and cost of the process compared to batch systems. The experimental setup (Figure 1) for the HTC process liquid treatment consisted of a syringe pump with two channels (one for pumping the HTC liquid and one for pumping air) connected to a photochemistry module with cryo-controller for temperature control, and equipped with a 4 mL tubular reactor made of fluoropolymer material. The process liquids were treated with a photochemistry module with 4 high-power LED UV modules, allowing rapid photocatalytical reactions and easy scale-up of continuous reactions. A monochromatic light source of wavelength (λ) 365 nm and 420 nm was used separately as a UV light source with 100% power intensity. The operation of the photochemistry module was controlled by a photochemistry controller. The operation of the system and the control of the operating conditions (temperature, pressure, liquid flow, radiation flux, etc.) were monitored via the computer using Asia Manager 1.5 software, while samples of the process liquid were collected manually. As the photo treatment process generates considerable heat in the reaction medium due to light absorption and subsequent photothermal effects, the cryo-controller was used to maintain the solution at exactly 20 ± 0.1 ◦C throughout the experiment and to remove excess heat to ensure that temperature-dependent effects were excluded as a source of variability between experiments. At the beginning of each experiment, the steady-state conditions were first established, i.e., the photochemistry controller was switched on, the number of modules and the light intensity were set, then the desired temperature was set and maintained by the cryo- controller without introducing the feedstock (Figure 1). Once the operating parameters were stable, the solution was pumped into the tubular reactor using a syringe pump. The system was allowed to run for a predetermined residence time, so that a triple amount of liquid flowed through the reactor before sampling. This ensured that the entire reactor volume was completely occupied by the sample and that steady-state conditions were maintained in terms of flow rate and photochemical exposure. The flow rate was maintained by a high- precision syringe with a volume of 2.5 mL, while the light intensity was monitored and kept
+
+constant via the photochemistry module's control system. This ensured that the samples were taken under the specified continuous flow conditions in steady-state operation.
+
+Photochemistry- controller
+
+Syringe pump, channel A 100-200 µL/min
+
+Cryo-controller
+
+(T=20 °C)
+
+HTC liquid
+
+Sample collection
+
+T-shape mixer
+
+Air
+
+Syringe pump, channel B 0-200 µL/min
+
+Tube reactor with photo-modules
+
+λ = 420 nm (35.7 W), or 365 nm (48.5 W)
+
+Computer controlled
+
+Figure 1. Schematic representation of the treatment of HTC process liquid using a photochemistry module in a microflow reactor system.
+
+Ten different experiments (E1–E10) were carried out under the operating conditions described in Table 2, in which the influence of the wavelength (420 nm and 365 nm), the introduction of the atmospheric oxygen, the oxidizing agent (H2O2) and its quantity, the retention time (10 and 20 min) and the pH value (basic in one experiment, acidic in another) on the efficiency of the photo-treatment was investigated. The H2O2 (50 wt%) was added to the HTC liquid as an oxidizing agent in different volume proportions depending on the type of experiment (see experiments E3–E10).
+
+Table 2. Experimental setup.
+
+Air Flow (µL/min)
+
+Retention Time (min)
+
+Exp. No. Sample Name Liquid Flow (µL/min)
+
+Oxidant/ Catalyst Wavelength (nm) Radiation Flux (W)
+
+E1 P420 (no air) / / 35.7 E2 P420 / E3 P420-0.2%H2O2 0.2% H2O2
+
+E4 P365-0.2%H2O2 0.2% H2O2 48.5 E5 P365-1%H2O2 1% H2O2 E6 P365-1%H2O2-20min 1% H2O2 E7 P365-1%H2O2-pH7.5 1% H2O2 E8 P365-2%H2O2-5%DES 2% H2O2 + 5% DES E9 C(1 g/L FeSO4)-P365-1%H2O2 1 g/L FeSO4 + 1% H2O2 E10 C(2 g/L FeSO4)-P365-1%H2O2 2 g/L FeSO4 + 1% H2O2
+
+Experiments E1–E3 were conducted at a wavelength of 420 nm, all others at 365 nm (E4–E10). The effects of the introduction of atmospheric oxygen were studied in experiment E2 and compared with experiment E1 (without air), and the effects of the retention time in E5 (retention time 10 min) and E6 (retention time 20 min). The effect of the presence of an
+
+oxidizing agent (H2O2) was investigated in experiment E3, and the effect of its quantity in experiments E4 (0.2 vol% H2O2) and E5 (1 vol% H2O2). The pH value of the HTC liquid was acidic in all experiments, with the exception of experiment E7, in which the effects of an alkaline pH value on the photo-treatment were investigated. As the process liquid becomes cloudy after adjusting the pH to 7.5 (with 2M KOH), additional filtration was required prior to photo-treatment to avoid clogging of the microreactor system. In experiments E9 and E10, FeSO4·7H2O was added to the process liquid in two differ- ent concentrations (1 and 2 g/L) before the photo-treatment. The addition of Fe-sulphate led to coagulation/flocculation, which is why the sample was filtered after sedimentation of the particles and flocs (~1 h). To the resulting filtrate, i.e., pre-treated sample, 1 vol.% H2O2 was added and then the solution was subjected to a photo-treatment. The additional photo-treatment experiment (E8) was carried out in the presence of deep eutectic solvent (DES), to investigate its influence on the removal of organic matter and the reduction of colour during photo-treatment. DES has been shown in the past to be an efficient chemical agent in the liquid–liquid extraction of dyes in water treatment [21], as well as an extractant in photocatalytic oxidation for enhanced desulphurization [22] and as a catalyst in the oxidation of organic sulphides in the presence of H2O2 [20]. For the UV treatment of HTC liquid in this study, 5 vol% DES was added to HTC liquid together with 2 vol% H2O2 (E8). To prepare the deep eutectic solvent mixture, glycolic acid and choline chloride were mixed in an Erlenmeyer flask in a mass ratio of 2:1 and heated at 100 ◦C for one hour on a heating plate until a pure, slightly viscous solution was obtained.
+
+2.4. Analytical Methods
+
+The process liquid was characterized by various chemical analyses before and after the photocatalytic treatment. The pH value and conductivity were measured using wire- less sensors from the manufacturer Pasco, St. Louis, MO, USA. Turbidity was measured using the portable turbidimeter Hach 2100P, Loveland, CO, USA. Dissolved oxygen was measured using the WTW Multiparameter MultiLine 3510 IDS, Xylem Analytics, Weilheim, Germany. The parameters TOC, COD, TN, ammonium nitrogen NH4-N, the content of Fe, total phosphorus (TP), phosphate phosphorus PO4-P and organic acids were analyzed spectrophotometrically with NANO-COLOR cuvette tests (Macherey-Nagel, Düren, Ger- many) after appropriate dilution. The NO3 content was determined spectrophotometrically according to the standard method ISO 7890-1:1986 [23] and NO2 according to the standard method ISO 6777:1984 [24]. In order to obtain reliable analysis results, the measurements were carried out in parallel and the standard errors were provided. The removal efficiency for the specific parameters mentioned above was calculated for each sample based on the difference in concentration before and after photo-treatment, divided by the initial concentration and multiplied by 100. The degradation of the organic substances in the photo-treated samples was monitored spectrophotometrically. The UV-VIS spectra in the 200–600 nm range were recorded with the Varian Cary 50 Scan UV Visible Spectrophotometer at 1000-fold dilution. The 3D EEM analysis was conducted with the FP 8550 spectrofluorometer (Jasco, Easton, MD, USA). The diluted samples were analyzed at excitation/emission wavelengths of 200–450/250–600 nm (scan speed 2000 nm/min, interval 5 nm). The total phenolic content (TPC) was determined spectrophotometrically according to the standard Folin–Ciocalteu method. Gas chromatography–mass spectrometry (GC–MS) using the headspace sampling technique was used to identify volatile compounds in the process liquid with the Agilent GC–MS 6890 N instrument, Santa Clara, CA, USA. In addition, Fourier transform infrared spectroscopy (FTIR), was used to characterize the functional groups present in the liquid
+
+samples and in the precipitate using the classical Attenuated total reflectance (ATR) method. The precipitate formed in the HTC liquid after the addition of FeSO4 was additionally analyzed using the X-ray diffraction method by a Bruker D2 Phaser X-ray diffractometer, Billerica, MA, USA. The acute toxicity of the process liquids to the luminescent bacterium Vibrio fischeri (NRRL B-11177) was determined in accordance with DIN EN ISO 11348-3 standard using the Macherey-Nagel BioFix Luminous Bacteria Toxicity Test [25]. The results are given as the percentage of inhibition of the bioluminescence of V. fischeri, with the absolute error. The acute toxicity test on Daphnia mangna species (crustaceans) was carried out in accordance with the standard method, and the acute toxicity was determined after 24 h exposure of the test sample to microorganisms [26].
+
+3. Results
+
+In this section, the results of the experiments are presented, focusing on the discussion of the effects of specific parameters on the efficiency of the removal of organic and inorganic compounds from the HTC liquid by photochemical treatment. In addition, the results of 3D EEM fluorescence spectroscopy and GC analysis are commented on and the effects of photochemical treatment on the toxicity of the HTC process liquids are discussed.
+
+3.1. The Effectiveness of Photochemical Treatment in TOC/COD Removal
+
+The effectiveness of the photo-treatment of the HTC liquid under certain test conditions was monitored using various chemical parameters such as TOC, COD, organic acids, TPC, TN, TP and others. The results are shown in Figures 2 and 3, and Table 3.
+
+Organic acids TPC (b)
+
+TOC COD (a)
+
+20,000
+
+110,000
+
+23,000
+
+Organic acids (mg/L)
+
+17,500
+
+100,000
+
+22,000
+
+COD (mgO2/L)
+
+TPC (mg/L)
+
+TOC (mg/L)
+
+15,000
+
+90,000
+
+21,000
+
+12,500
+
+80,000
+
+20,000
+
+10,000
+
+70,000
+
+19,000
+
+60,000
+
+18,000
+
+Figure 2. Chemical properties of untreated and photochemically treated process liquids: (a) TOC and COD content and (b) organic acids and TPC content.
+
+Table 3. The average removal efficiency of the specific parameters for the photo-treated HTC liquid.
+
+Exp. No. Sample Removal Efficiency (%)
+
+TOC COD NH4-N TN PO4-P TP NO3
+
+E1 P420 (no air) 0.44 12.24 3.61 3.09 9.90 10.45 57.86 E2 P420 0.88 14.29 0.60 5.15 13.02 13.18 70.57 E3 P420-0.2%H2O2 7.49 16.33 9.64 6.19 14.58 15.45 70.94 E4 P365-0.2%H2O2 15.86 20.92 15.66 7.22 14.84 11.82 71.82 E5 P365-1%H2O2 17.62 31.63 16.87 5.36 17.19 22.27 27.36 E6 P365-1%H2O2-20min 15.42 29.59 30.72 18.56 30.21 29.55 76.23 E7 P365-1%H2O2-pH7.5 5.73 22.45 21.69 4.12 36.46 41.36 79.18 E8 P365-2%H2O2-5%DES 6.17 −4.08 9.64 −25.77 4.17 14.09 58.99 E9 C(1 g/L FeSO4)-P365-1%H2O2 13.66 33.67 10.84 3.09 27.60 27.73 22.89 E10 C(2 g/L FeSO4)-P365-1%H2O2 14.98 35.20 12.65 3.51 16.15 26.36 65.09
+
+PO₄-P TP (b)
+
+NH₄-N TN (a)
+
+PO4-P (mg/L)
+
+TP (mg/L)
+
+NH4-N (mg/L)
+
+TN (mg/L)
+
+pH Conductivity (d)
+
+NO₂ NO₃ (c)
+
+18,000
+
+Conductivity (mS/cm)
+
+NO2 (mg/L)
+
+NO3 (mg/L)
+
+12,000
+
+pH
+
+(e)
+
+(f)
+
+Dissolved oxygen (mg/l)
+
+Turbidity (NTU)
+
+Figure 3. Results of measurements of selected parameters in untreated and photochemically treated process liquids: (a) NH4-N and TN, (b) PO4-P and TP, (c) NO2 and NO3, (d) pH and conductivity, (e) turbidity and (f) dissolved oxygen.
+
+After photochemical treatment, several changes in the chemical properties of the HTC liquid were observed, including changes in the content of organic and inorganic substances. Photo-treatment at lower wavelengths (365 nm, UV-A range) proved to be more efficient than at higher wavelengths (420 nm, visible spectrum), as COD and TOC content (Figure 2a) and other parameters decreased significantly. The TOC removal efficiency (Table 3) for the samples treated at 420 nm was max. 7.5%, while it increased to 17.6% for the samples treated at 365 nm. In comparison, slightly higher removal efficiencies were observed for COD. In addition, a decrease in the ammonium and phosphate concentration was also observed (Figure 3a,b). The 365 nm wavelength has been successfully used in the past for UV/H2O2 treatment of wastewater contaminated with dyes and for the photo-Fenton oxidation process with H2O2 and Fe2+ ions [27]. The introduction of atmospheric air (with ~21% oxygen) into the system that should promote the formation and generation of singlet oxygen during the photo-treatment (sam- ple P420 and all other samples) resulted in only a slight decrease in organic contaminants
+
+(COD and TOC), as well as phosphorus and nitrogen content. In general, singlet oxygen plays an important role in the degradation of organic contaminants and can also be pro- duced as a naturally occurring photosensitizer when organic matter in water media is irradiated [28], but in the present study, air-derived singlet oxygen played only a minor role, suggesting that it does not contribute significantly to singlet oxygen production. Since the untreated process liquid contains naturally dissolved oxygen (5.39 ± 0.03 mg/L), and was not degassed, this would probably explain the insignificant differences in removal efficiency between samples P420 and P420 (no air). If pure O2 was introduced, the differ- ences would most likely be larger, due to improved singlet oxygen formation. However, since the formation of singlet oxygen was not monitored experimentally, this is only a prediction. Otherwise, the dissolved oxygen content was higher in photo-treated samples than in untreated samples, especially in samples with higher H2O2 dosage, with the highest value measured in the sample containing DES (Figure 3f). H2O2 proved to be an effective oxidizing agent in both dosages tested, which is to be expected as it is considered one of the strongest oxidizing agents. The increase in dosage from 0.2 to 1 vol% was reflected in a significant decrease in COD and phosphorus content, while the decrease in TOC content was lower. The improvement in COD removal efficiency (from 20.9% at 0.2 vol.% dosage of H2O2 to 31.6 at 1 vol% of H2O2) is due to an increased and faster generation of OH radicals, and H2O2 reacts more intensively with UV light at lower wavelengths, especially below 300 nm [29]. These values are comparable to the efficiency of COD reduction achieved in the photocatalytic treatment of liquids from the hydrothermal liquefaction process, where 23% of the COD was removed [16]. Another researcher reported much higher efficiencies for the H2O2/UV and photo-Fenton processes in the treatment of real high-concentration aqueous waste, with COD removal efficiencies of over 70% [30]. The additional test in the absence of light under the same operating conditions (see Table S1, Supplementary Materials), confirmed the importance of the light source in the UV treatment and that the addition of H2O2 has only a minor effect on the removal efficiency in the absence of light. However, the literature shows that the H2O2 dosage varies greatly depending on the type and composition of the treated solution. For example, for photocatalytic UV treatment of wastewater from hydrothermal liquefaction at 254 nm wavelength in the presence of TiO2 as a catalyst [16], a dosage between 0.25 and 0.5 g H2O2 in relation to gCOD was used, and the higher the H2O2 concentration was, the higher the reduction efficiency as the production of radicals was enhanced. In another study, dosages between 0.1 and 1.2 g/L H2O2 were reported to be efficient for the treatment of dye wastewater [27]. The improvement in removal efficiency and the differences between samples P365- 0.2%H2O2 and P420-0.2%H2O2 could also be partly explained by the higher energy of the light reaching the sample, as the radiant flux in experiment E4 (sample P365-0.2%H2O2) was higher (48.5 W) than in experiment E3, which was performed at 420 nm (35.7 W). The reac- tion of H2O2 with UV light, which catalyzes the degradation of H2O2 and leads to the forma- tion of hydroxyl radicals, can be represented by the following reaction (Equation (1)) [31]:
+
+H2O2 + hv →2·OH (1)
+
+The main mechanism of organic matter degradation by AOPS, including photo- oxidation, is the mineralization of organic matter into inorganic matter (CO2 and H2O) [32]. The degradation of organic matter in the presence of H2O2, i.e., its radicals (·OH) generated under UV light, can be expressed as follows (Equation (2)):
+
+Organicmatter + ·OH →CO2 + H2O + Intermediateproducts (2)
+
+In addition to the light source wavelength and the light intensity, the photo-treatment is highly influenced by the retention time, the addition of oxidizing agents and catalysts and their concentration, the temperature of the solution and the presence of inorganic ions in the solution [17]. The photo-oxidation is therefore often enhanced by the addition of catalysts such as TiO2, ZnO, persulphate and Fe2+ salts and other chemical reagents [27]. The photo-treatment of HTC liquid in the presence of 2 vol% H2O2 and 5 vol% DES (experiment E8) resulted in an increase in COD and conductivity, and a slight decrease in TOC compared to untreated HTC liquid. The addition of DES caused a sharp decrease in pH, but contributed to a reduction in colour of the liquid. A very acidic pH leads to low degradation due to the loss of OH ions, as protons prevent the formation of OH radicals [29]. The significant increase in N content is due to the one of the DES components, namely choline chloride, a quaternary ammonium salt. On the other hand, a small decrease in P content was observed compared to untreated HTC liquid. It was expected that DES would make a greater contribution to TOC and COD removal, as it is reported to be able to dissolve organic lipophilic and hydrophilic species, making the oxidation of organic compounds by H2O2 more efficient [33], but according to the results, this is apparently not the case. On the other hand, pre-treatment with FeSO4 (E9 and E10) led to a decrease in COD content, as one of the lowest COD values was measured for the samples C(2 g/L FeSO4)- P365-1%H2O2 and C(1 g/L FeSO4)-P365-1%H2O2, namely 35.2 and 33.7%. Interestingly, the addition of FeSO4 to the HTC liquid causes flocculation/coagulation despite the acidic pH (~5.2). This phenomenon was explained by Kim et al. [34]; at moderate or near-neutral pH, Fe2+ can oxidize to Fe3+, which hydrolyzes at moderate pH, and forms Fe(OH)3 precipitates that act as coagulants and cause flocculation/coagulation via π-interactions and Fe–O bonding. Carboxylic acids, phenols, and humic-like polymers in the HTC liquor complex Fe3+ and adsorb on precipitated Fe(III) hydroxide/phosphate surfaces. This leads to neutralization of colloids and their incorporation into Fe-aggregates. XRD analysis of the precipitated/coagulated solids (Figure S1a, see Supplementary Materials) revealed that both samples treated with FeSO4 produced poorly crystalline solids, most likely Fe-oxides and Fe-hydroxides, consistent with the diffraction peaks observed between 15 and 35◦2θ. In the sample treated with 1 g/L FeSO4, the material remained largely amorphous, reflecting a strong incorporation of organic matter from the HTC liquid. At the higher Fe-dosage (2 g/L), the sharp low-angle peaks suggest a more ordered Fe(III) oxyhydroxide crystallization. A similar composition of precipitates was observed when the aqueous phase of hy- drothermal carbonization of sewage sludge was subjected to an iron/persulfate process [35], in which coagulation and precipitation were also caused by the presence of Fe. Since the HTC liquor contains abundant phosphate, a significant amount of iron can precipitate as iron phosphate solids, amorphous/weakly crystalline Fe phosphate in addition to Fe(III) oxyhydroxides. Mg can also be co-precipitated in the form of amorphous Mg phosphate, and the precipitation of Fe sulphate is also possible. The process is driven by hydrolysis and oxidation of Fe2+, followed by charge neutralization and flocculation with carboxylic acids, phenols and colloidal species, which are abundant in HTC process water. In addition, a decrease in phosphorus content was observed, which is most likely due to the formation of precipitates in the form of phosphates, as Fe and other ions such as Ca and Mg can react with phosphates and form precipitates [36]. An additional FTIR analysis of the precipitated particles was also performed (Figure S1b). The FTIR spectra of the particles show broad O–H stretching bands around ~3218 cm−1, confirming the presence of hydroxyl groups. Strong absorptions at ~1038 cm−1 and 791–611 cm−1 can be assigned to P–O stretching vibrations of phosphate groups, while the bands at ~530 cm−1
+
+correspond to Fe–O vibrations of iron oxides/oxyhydroxides. In addition, bands near 1658 cm−1 and 1416 cm−1 indicate functional groups of organic compounds (C=O, C=C, C–O) and carbonate incorporation from the process liquid. However, the combined flocculation/coagulation and photo-treatment in this study did not improve TOC removal at either the lower or higher FeSO4 concentration tested (1 and 2 g/L) compared to photo-treatment alone (in the presence of 1 vol% H2O2) under the same operating conditions. This behaviour could be explained by the dual role of the Fe species: first, Fe2+/Fe3+ especially under light can destabilize colloids and humic-like macromolecules in HTC liquids and release more dissolved organic carbon detectable as TOC; and second, partial oxidation of macromolecular organics into low-molecular- weight carboxylic acids. These acids contribute to TOC but exhibit lower oxygen demand, since they are already partially oxidized, so they need less oxygen equivalent for full mineralization, thereby reducing COD. A detailed comparison of TOC and COD removal rates achieved in other studies using photochemical treatment or other advanced oxidation processes (such as electrochemical oxidation) is shown in Table 4. Compared to photochemical treatment, electrochemical oxida- tion of HTC process liquid from olive tree pruning, using Na2SO4 and NaCl as supporting electrolytes, removed about 30–40% TOC [18]. In another study, electrochemical oxidation of process water from HTC-treated sewage sludge removed COD by over 97.0% [9]. On the other hand, 35% of dissolved organic carbon (DOC) and 42.0% of UV254 absorption were removed by using an Fe(II)/persulfate-based method via oxidization and coagulation [35]. In another study on electrochemical oxidation, more than 97% of COD was removed [9]. The relatively low TOC and COD removal rates in this study are also a result of the highly contaminated HTC fluid with high initial COD and TOC concentrations. UV light penetration cannot be the limiting factor as the process takes place in a microflow reactor system that allows good irradiation, but the use of a lower wavelength (254 nm) could improve the removal efficiency. It must be added that in the present study the treatment time was shorter than in other studies, but the other studies were all performed in batch mode (there is no study on continuous treatment of HTC liquid in a flow reactor). This suggests that more efficient irradiation can be achieved by treatment in a continuous flow system.
+
+Table 4. Comparison of the TOC, COD and/or DOC removal efficiencies achieved in this study with the removal efficiencies achieved in previous studies using advanced oxidation processes.
+
+COD/TOC/DOC Removal Efficiency (%) *
+
+Treatment Time Light Source Wavelength Reference
+
+Feedstock Method Oxidant/ Catalyst
+
+HTC process liquid of hemp oil cake Photochemical treatment UV/H2O2 H2O2 31.6 (COD), 17.6 (TOC) 10 min 365 nm This study
+
+FeSO4/H2O2 (coagulation and photochemical treatment) FeSO4, H2O2 35.2 (COD), 14.9 (TOC) 10 min 365 nm This study
+
+HTC process liquid of hemp oil cake
+
+HTL process liquid of algae Photocatalytic treatment, UV/H2O2/TiO2 H2O2, TiO2 23.4 (COD) 24 h 254 nm [16]
+
+Photocatalytic treatment, UV/TiO2 Metal doped TiO2 94.1 (COD) 75.1 (TOC) 1 h 365–400 nm [11]
+
+HTC process liquid of agricultural waste
+
+Electrochemical oxidation (Na2SO4 and NaCl as electrolytes) / 30–40 (TOC) 0.5–5 h / [18]
+
+HTC process liquid of olive tree pruning
+
+HTC process liquid of sewage sludge Electrochemical oxidation / 97 (COD) 9.5 h / [9]
+
+HTC process liquid of sewage sludge
+
+Fe (II)/CaO2 oxidization processes CaO2 38.6 (DOC) 2 h / [32]
+
+Fe(II)/persulfate-method (combined oxidation and coagulation)
+
+FeSO4·7H2O, K2S2O8 35.0 (DOC) 130 min / [35]
+
+HTC process liquid of sewage sludge
+
+* COD—chemical oxygen demand; TOC—total organic carbon; DOC—dissolved organic carbon.
+
+3.2. The Organic Acids and Total Phenolics Content
+
+The total phenolic content (Figure 2b) of the samples treated at 420 nm was more or less the same as that of the untreated sample, while the samples treated at 365 nm with a higher amount of H2O2 or with FeSO4 showed a lower content of phenols. Phenolic compounds (phenols, cresols, hydroxybenzoic acids, etc.) are one of the main components of HTC process liquids as they are formed during the thermal degradation of lignin and hemicellulose [37]. During light irradiation, they are first degraded to intermediates such as short-chain and hydroxylated compounds, and then mineralized to CO2 and H2O [38]. In the presence of Fe, which may still be present in the solution after partial coagulation/flocculation, the so-called photo-Fenton process could also take place, in which Fe2+ acts as a catalyst in the Fenton reaction and the generated hydroxyl radicals attack and open the aromatic rings and convert them into short-chain aldehydes, carboxylic acids or CO2. Chemical analysis of the HTC liquids after their flocculation confirmed that Fe is still present in the solution (171 mg/L was detected in the sample exposed to FeSO4 dosage of 1 g/L and 296 mg/L in the sample exposed to 2 g/L of FeSO4, while the untreated sample contained only 6 mg/L Fe), which means that the Fenton process could take place. However, Maillard products and cyclization products, which are usually present in the HTC liquids, are hardly oxidized to CO2 and H2O according to Liu et al. [32]. On the other hand, the aromatic methoxy groups present in the aromatic compounds of HTC liquids can participate in the formation of CO, which is another possible product of the photodegradation of dissolved organic matter [39]. At the same time, the TOC in the process liquids remains high, as the carbon remains in solution in the form of organic acids, aldehydes, etc. The content of organic acids (Figure 2b) in most of the treated samples, with the excep- tion of sample P365-1%H2O2-20min, increases as large, complex molecules are broken down into smaller, more oxidized fragments, such as aldehydes, ketones and short-chain car- boxylic acids (acetic, propionic and other acids). Samples P365-1%H2O2 and P365-1%H2O2- pH7.5 had the highest content of organic acids alongside sample P365-2%H2O2-5%DES (the reason for the latter is the addition of DES). Sample P365-1%H2O2-20min was exposed to photo-treatment for longer than the other samples, allowing further transformation of these fragments, which is reflected in a lower content of organic acids.
+
+3.3. Nitrogen and Phosphorus Fluctuations
+
+The TP and PO4-P content (Figure 3b) was lowest in sample P365-1%H2O2-7.5 of all samples. This is most likely not due to the photo-treatment, but to the precipitation of various ions with phosphates, as the pH of the HTC liquid was alkaline, resulting in the formation of solid precipitates that were filtered before photo-treatment. The NH4-N content in this sample also decreased compared to sample P365-1%H2O2 (16.9% removal efficiency), but the total amount of N remained almost the same (Figure 3a) and the removal efficiency was only 5.4%. This means that NH4-N was most likely converted to other N species, most probably it was oxidized to nitrite (NO2−) or nitrate (NO3−), according to Equations (3)–(5) [40].
+
+NH+ 4 + OH− ⇆ H+ NH3 (3)
+
+NH3 + 6·OH −→NO− 2 + 4H2O + H+ (4)
+
+NO− 2 + 2·OH −→NO− 3 + H2O (5)
+
+Another reaction pathway for N conversion involves further photoreduction of nitrate to nitrite or N2. The same reaction pathways were previously noticed by Ortiz-Marin et al.
+
+during UV/H2O2 treatment of industrial wastewater with high nitrogen content [41]. Such conversion pathways could also take place in other samples in this study. Anyway, to test this hypothesis, additional nitrate and nitrite measurements were carried out, which yielded quite interesting results (Figure 3c). The NO2 content was much lower than the NO3 content; the former varied in the range of 24–84 mg/L and the latter in the range of 2829–10,479 mg/L. This means that NH4 was oxidized to nitrite to a small extent, as its content was still quite high. On the other hand, samples P365-1%H2O2 and C(2 g/L FeSO4)-P365-1%H2O2 showed an exceptionally high NO3 content, but lower than the untreated initial sample, reflecting the conversion of N compounds to NO3. Otherwise, the removal efficiency for NO3 ranged from 22.89% (sample C(2 g/L FeSO4)-P365-1%H2O2) to 71.82% (P365-0.2%H2O2). The lowest NH4-N and TN contents were measured in the sample with the longest photo-treatment (sample P365-1%H2O2-20min), with removal efficiencies of 30.7% and 18.6%, respectively. In comparison, UV/H2O2 treatment of industrial wastewater with much lower COD (13,261 mg/L) and TN (569 mg/L) resulted in COD removal efficiencies of 37–65%, and 50% conversion of TN to nitrate and nitrite [41]. The above-mentioned sample also had one of the lowest COD contents and one of the lowest conductivities. The TP and PO4-P contents were significantly lower than those of the sample treated with a shorter retention time (sample P365-1%H2O2). This indicates that increasing the residence time can significantly improve removal efficiency. Phosphorus degradation pathways that can occur simultaneously during UV/H2O2 treatment include oxidative degradation by hydroxyl radicals that break the P–O bond, the P=S bond and other P bonds such as the nitrophenyl bond [36]. An increase in H2O2 concentration and UV irradiation can enhance the conversion of soluble, non-reactive P, such as organic P, into easily degradable and soluble reactive P or orthophosphate, as a higher H2O2 concentration increases the rate of radical formation and thus enhances the oxidation of organophosphorus compounds [42].
+
+3.4. The Influence of the pH Value
+
+One of the most important influencing parameters in photo-treatment is the pH value of the solution [43]. The pH of the initial HTC liquid was acidic (5.6), and all but one of the experiments were performed under acidic conditions (Figure 3d). The photo-treatment under basic conditions (sample P365-1%H2O2 with an initial pH of 7.5) was less efficient than under acidic conditions (sample P365-1%H2O2 with a pH of 5.5), as only 21.7% of COD and 5.7% of TOC were removed. The explanation for this could be that H2O2 could deprotonate at a higher pH to form hydroperoxy anions that react with OH radicals and H2O2, occupy hydroxyl radicals and consequently impair degradation efficiency [27], so in general acidic and neutral conditions are more desirable for UV treatment in the presence of H2O2. Interestingly, some researchers reported the opposite effect and an improvement in COD reduction performance in neutral and slightly alkaline media [16]. It should be noted that the pH of sample P365-1%H2O2-7.5 decreased to 6.79 after photo-treatment. The decrease in pH has also been observed elsewhere, e.g., in the UV treatment of formaldehyde- contaminated water [29]. In addition to pH, the turbidity of the samples was also measured (Figure 3e), and a significant decrease in turbidity was noticed after photo-treatment, with the samples treated in the presence of Fe and those treated at 365 nm showing the greatest reduction in turbidity.
+
+3.5. Changes in the Functional Properties and the UV-VIS, and 3D-EEM Spectra
+
+The FTIR spectra of the process liquids (Figure 4) confirm the presence of characteristic functional groups typical of HTC effluents.
+
+Figure 4. The comparison of the FTIR spectra of: (a) untreated and photo-treated samples at 420 and 365 nm wavelength, (b) samples pre-treated with FeSO4 (coagulation/flocculation) and (c) sample photo-treated at 365 nm in the presence of DES with the untreated sample.
+
+The broad peak in the 3000–3500 cm−1 range represents the O–H stretching of alcohols, phenols, carboxylic acids and water. This band also overlaps with the stretching vibrations of N–H groups. The sharp peak at 1636 cm−1 represents the vibrations of the C=O groups of carboxylic acids, while the small peaks in the 1500–1200 cm−1 range can be attributed to the C=C and C=N stretching of aromatic, heterocyclic N-compounds, and amides, as well as C–O, COO– and O–H bonds of other organic compounds, such as carboxylic acids, esters and ketones. The photochemical treatment is reflected in the various changes in the FTIR profiles, especially in the 1000–1600 cm−1 spectral range, as the small peaks at 1509, 1421 and 1283 cm−1 have almost disappeared, while the peak at 1076 cm−1 is more pronounced. UV-VIS spectral analysis of untreated and photo-treated HTC liquids was performed in the 200–600 nm wavelength range, although the results shown in Figure 5 are only shown for the 200–450 nm range, as no significant peaks were observed above this range.
+
+Figure 5. The comparison of the UV-VIS spectra of: (a) untreated and photo-treated samples at 420 and 365 nm wavelength, (b) samples pre-treated with FeSO4 (coagulation/flocculation) and (c) sample photo-treated at 365 nm in the presence of DES with the untreated sample.
+
+The UV-VIS spectra of the HTC liquids photo-treated at 365 nm (Figure 5a) showed lower absorbance values throughout the UV–VIS spectrum than those of the untreated samples and the samples photo-treated at 420 nm, particularly in the wavelength range 240–320 nm, indicating that the organic substances and compounds present in the HTC liquid are better degraded at 365 nm. A clear difference can also be seen in the samples that were photo-treated in the absence of air. The HTC process liquids are composed of various components, including carbohydrates, aromatics (phenols, pyridines, pyrazines, furans, etc.), organic acids (acetic acid, propionic acid, humic acid-like compounds, etc.), alkenes, alcohols, aldehydes and many other organic substances [10], so the degradation mechanism of HTC liquid during photo-treatment is quite complex. The HTC liquid from hemp oil cake is rich in aromatic (phenolic) compounds, organic acids, especially volatile fatty acids (see Section 3.6), and, as already reported in a previous study by the author, also in mineral compounds (phosphorus, nitrogen, potassium, magnesium, calcium, etc.) [44], all of which are involved in photo-treatment. However, the samples pre-treated by coagulation/flocculation and photo-treated at 365 nm (Figure 5b) also showed lower absorbance values compared to the untreated HTC liquid. Detailed analysis revealed that the sample treated with a higher FeSO4 dosage (2 g/L) showed lower absorbances than the P365-1%H2O2 sample, while the sample treated with a lower FeSO4 dosage (1 g/L) showed higher absorbance values. The lower absorption values at higher doses may be related to better colour reduction in this sample (see Figure 6l).
+
+Figure 6. The 3D-EEM spectra of samples: (a) untreated HTC liquid, (b) P420-no air, (c) P420, (d) P420- 0.2%H2O2, (e) P365-0.2%H2O2, (f) P365-1%H2O2, (g) P365-1%H2O2-20 min, (h) P365-1%H2O2-pH7.5, (i) P365-2%H2O2-5%DES, (j) C(1 g/L FeSO4)-P365-1%H2O2 and (k) C(2 g/L FeSO4)-P365-1%H2O2. (l) shows the visual changes caused by photochemical treatment.
+
+Figure 5c shows the UV-VIS spectra of all samples photo-treated at 365 nm, including the DES-containing samples. A higher concentration of H2O2 (1 vol%) compared to a lower concentration (0.2 vol%) is reflected in lower absorbance values, especially in the wavelength range of 250–300 nm, while the difference at higher wavelengths was almost negligible. The lowest absorbances in the wavelength range of 230–300 nm for the samples treated at 365 nm were obtained for the sample with the longest residence time in the photo-reactor (20 min). The samples photo-treated at alkaline pH conditions showed the highest absorbances, but were still lower than the untreated samples. Similar UV-VIS profiles of photo-treated HTC liquids were observed in one of the earlier studies [15], with the most significant changes also observed in the 200–350 nm wavelength range. In the present study, however, an interesting and quite different behaviour (in the spectral range of 230–350 nm) was observed for the sample to which the deep eutectic solvent (DES) was added at a concentration of 5 vol%. This sample showed one of the lowest absorbances near the wavelength of 250 nm, and the absorbances in the wavelength range of 260–300 nm were high compared to other samples photo-treated at 365 nm, and above 300 nm they decreased significantly again. It could be assumed that DES, with its low pH value, contributes in some way to bond cleavage and oxidizes organic matter, as evidenced by the colour change and degradation of organic compounds that show absorbances below 260 nm and above 300 nm to 350 nm. In the UV–visible range, organic compounds with unsaturated bonds, especially those with conjugated structures such as aromatic rings, absorb light [45], with alkenes and aromatic compounds in particular absorbing below 260 nm, while carbonyl groups and phenols absorb between 300 and 350 nm [46]. The absorbance values measured at the specific wavelengths 254 nm (corresponding to the presence of organic substances, in particular aromatic compounds) and 280 nm (cor- responding to humic substances and proteins) as well as the SUVA254 and SUVA280 values, which represent aromatization and humification, are listed in Table 5. The SUVA254 and SUVA280 values decreased after photo-treatment in most samples, indicating a decrease in the content of aromatic compounds and humic substances and their successful degradation and oxidation. The aromatic compounds are usually degraded to smaller molecules due to the oxidation of conjugated double bonds [47], while humic acid-like substances are subject to self-degradation due to the absorption of light energy during photo-treatment with UV light [15]. In certain samples, such as sample P365-0.2%H2O2, an increase in SUVA values was observed. This may be due to the formation of new aromatic products or intermediates or byproducts of the photo-treatment. For example, the oxidation of phenol by hydroxyl radicals and UV light to form catechol, hydroquinone or toxic compounds, such as dicarbonyls, is possible [48], although these compounds were not detected by GC-MS. The SUVA value can also be higher because some low-aromatic compounds can be removed during photo-treatment [9]. For example, substances with low aromaticity such as volatile fatty acids can be mineralized by direct photolysis, which leads to the breaking of bonds, or by indirect photolysis, i.e., oxidation by hydroxyl radicals. The photodegradation of the HTC liquid was further monitored by 3D-EEM analysis. The spectra of untreated and photo-treated HTC liquids shown in Figure 6 were divided into 5 regions representing the most typical organic compounds in the HTC liquids, as previously suggested by other researchers [49]. Aromatic proteins are found in region I (Excitation-Ex: 200–250/Emission-Em: 250–330) and region II (Ex: 200–250/Em: 330–380), fulvic acid-like substances represent region III (Ex: 200–250/Em: 380–600), soluble microbial byproduct-like compounds (such as amino acids and carbohydrates) can be assigned to region IV (Ex: 250–450/Em: 250–380) and humic acid-like substances to region V (Ex: 250–450/Em: 380–600). The untreated
+
+HTC liquid (Figure 6a) was rich in aromatic proteins of region I, fulvic acid and humic acid-like substances, but less rich in soluble microbial byproducts (region IV) and aromatic proteins (region II). The mentioned compounds are main products of hydrothermal reac- tions such as dehydration, decarboxylation, dehydrogenation, condensation and others. The same compounds have also been detected in HTC liquids from sewage sludge [50] and its combination with agricultural waste [49].
+
+Table 5. The absorbance values of the diluted samples (1000× dilution), measured at wavelengths of 254 nm and 280 nm, and the calculated values for SUVA254 and SUVA280.
+
+Exp. No. Sample A254 (nm) A280 (nm) SUVA254 (L/(mg·m)) a SUVA280 (L/(mg·m)) a
+
+/ Untreated HTC liquid 0.2985 0.2567 1.32 1.13 E1 P420 (no air) 0.2845 0.2458 1.28 1.09 E2 P420 0.2677 0.2331 1.19 1.04 E3 P420-0.2%H2O2 0.2599 0.2236 1.24 1.06 E4 P365-0.2% H2O2 0.2586 0.2275 1.35 1.19 E5 P365-1% H2O2 0.2509 0.2147 1.34 1.15 E6 P365-1% H2O2-20min 0.2268 0.1973 1.18 1.03 E7 P365-1% H2O2pH7.5 0.2696 0.2230 1.26 1.04 E8 P365-2% H2O25%DES 0.2320 0.2431 1.09 1.14 E9 C(1 g/L FeSO4)-P365-1% H2O2 0.2742 0.2377 1.35 1.21 E10 C(2 g/L FeSO4)-P365-1% H2O2 0.2310 0.1968 1.20 1.03
+
+a SUVA value represents the specific absorbance in relation to the TOC concentration [15].
+
+The photo-treatment of the HTC liquid was reflected in changes in all five regions of the 3D-EEM spectra. Photo-treatment at a wavelength of 420 nm and in the presence of air (Figure 6b,c) resulted in a decrease in peak intensities for aromatic proteins (regions I and II) and for fulvic acid and humic acid-like substances (regions III and V), while the addition of 0.2 vol% H2O2 (Figure 6d) caused an additional reduction in the content of fulvic acid and humic substances, but did not contribute to the reduction of soluble microbial byproduct-like compounds (region IV). The reduction in wavelength to 365 nm in the UV-A spectrum (Figure 6e) is reflected in a considerable reduction in peak intensities in regions III and V, indicating enhanced degradation of fulvic acids and humic acid-like substances. An increase in H2O2 concentration (to 1 vol%, Figure 6f) led to a decrease in peaks in regions III, V and also in region IV, the latter indicating an improved degradation of soluble microbial byproduct-like compounds. Increasing the duration of the photo-treatment (Figure 6g) had the greatest effect on regions III and V, as the intensity of these peaks decreased significantly, while changing the pH (Figure 6h) decreased the efficiency of the photo-treatment and the removal of all organic compounds. Similar to this study, increasing the treatment time with simulated sunlight irradiation of chicken manure and rice straw HTC liquids with a xenon lamp showed a significant decrease in fluorescence intensity, although the treatment times were much longer (48–144 h) as the experiments were conducted in batch mode [15]. In addition, photodegradation was more pronounced in chicken manure HTC liquid, which had a higher content of protein-like substances, suggesting that the properties of the process liquids strongly influenced the photo-treatment. However, the spectra of the sample with DES (Figure 6i) showed a significant decrease in intensities in region III, followed by region V, but not in regions I, II and IV, suggesting that the degradation of humic acid-like substances is enhanced, while the degradation of aromatic proteins and soluble microbial byproduct-like compounds is hindered in the presence of DES. This behaviour is consistent with the results of the UV-VIS spectrophoto- metric analysis, but not with the COD analysis. Apparently, the colour of the sample was
+
+mainly reduced by the addition of DES and less by the UV treatment. However, the role of DES in the UV treatment of HTC liquid in the presence and absence of H2O2 should be investigated in detail in the future, as precise conclusions can hardly be drawn on the basis of a single experiment with DES. The HTC liquids subjected to coagulation/flocculation pre-treatment (Figure 6j,k) showed similar peak intensities in regions III and V as the HTC liquid photo-treated in the presence of 1 vol% H2O2 with an extended retention time (20 min) (Figure 6g). In addition, the sample C(1 g/L FeSO4)-P365-1% H2O2 contained the lowest content of aromatic proteins and soluble microbial byproduct-like compounds among all the photo-treated samples.
+
+3.6. The Influence of Photochemical Treatment on the Fate of Volatile Organic Compounds
+
+Table 6 lists the organic compounds detected by GC-MS analysis (identification proba- bility ≥80%) in the samples exposed to photo-treatment. The compounds were sorted into 7 subgroups (Figure 7), with N-heterocycles and acids generally being the most represented. Other compounds were detected in significantly lower quantities. The composition of the process liquids is consistent with the information in the literature. For example, similar compounds were detected in the process water from the HTC of olive tree pruning [18].
+
+Aliphatic hydrocarbons
+
+Relative content (%)
+
+Aldehydes & ketones
+
+Acids
+
+N-heterocyclics
+
+Amines & amides
+
+Alcohols & phenols
+
+Aromatic hydrocarbons
+
+Sample
+
+Figure 7. The influence of photochemical treatment on the fate of organic compounds in the process liquid samples analyzed with GC-MS.
+
+During photochemical treatment, the composition of the HTC process liquid changed significantly, with clear trends in the fate of the organic substances. Aromatic hydrocar- bons, phenols, aldehydes/ketones, and N-heterocycles decreased significantly under all irradiation conditions, indicating their high reactivity towards photochemically generated radicals. In contrast, carboxylic acids (especially acetic acid) became the dominant fraction after treatment, particularly upon 365 nm irradiation with added H2O2 or in the presence of FeSO4, which is consistent with the oxidative fragmentation of aromatics, phenols and heterocycles into low-molecular-weight acid.
+
+Processes 2025, 13, 2934 20 of 26
+
+Table 6. Organic compounds detected by GC-MS analysis in the samples exposed to photochemical treatment.
+
+Peak Area (abs. %) of the Specific Compound
+
+Organic Compound
+
+Untreated P420 (No Air) P420 P420-0.2%H2O2 P365-0.2%H2O2 P365-1%H2O2 P365-1%H2O2- 20min P365-1%H2O2- pH7.5 P365-2%H2O2- 5%DES C(1 g/L FeSO4)- P365-1%H2O2 C(2 g/L FeSO4)- P365-1%H2O2
+
+Aliphatic hydrocarbons Hexane 1.82 3.34 4.49 3.67 4.28 4.02 4.03 5.69 3.93 3.49 3.64 Heptadecane 0.88 / / / / / / / / / / Octadecane 0.78 / / / / / / / / / /
+
+Aldehydes and ketones Acetone 3.05 2.35 / / / / / / 5.91 / / 2-butanone 2.98 / / / / / / / / / Cyclopentanone 1.33 1.11 / 1.25 / 0.34 0.22 0.28 / / / 2-Cyclopenten-1-one, 2-methyl 6.8 6.58 5.98 5.81 4.87 4.09 3.68 / 3.3 2.38 2.63
+
+2-hydroxi-benzaldehyde / / / / / / / / 0.43 / /
+
+Acids Acetic Acid 1.67 6.37 4.81 9.85 14.16 16.93 25.76 9.01 57.46 34.38 27.74 1-2-benzendicarboxylic acid / / 2.38 / / / / / / / /
+
+N-heterocyclics Pyrimidine (1,3-diazine) 4.56 4.43 4.8 4.61 3.69 4.66 3.94 4.63 2.85 3.41 3.2 Pyrazine 2-ethyl-5methyl 8.47 7.21 8.17 4.99 7.66 6.96 1.46 / 0.86 7.7 3.86 Pyrazine 2,6-dimethyl 13.26 12.42 13.31 11.6 13.76 12.82 11.5 15.83 3.23 9.68 10.35 Pyrazine 2,3-dimethyl 2.35 2.13 / 2.01 2.66 2.33 1.66 2.24 / 1.82 1.61 Pyrazine 2-ethyl-3methyl / / / / / / / / / / 0.99 Methyl-pyrazine 20.12 21.05 21.31 19.8 20.48 20.88 19.76 24.91 8.48 15.47 15.49 Ethyl Pyrazine 6.46 6.36 6.1 5.9 5.65 5.92 4.69 5.88 2.34 3.76 3.73
+
+Amines and amides N-N-dimethyl-4- pyridinamine 1.87 1.63 1.74 4.28 / 1.24 6.85 9.54 / / 3.28
+
+Alcohols and phenols Phenol / 0.55 / 0.8 0.93 1.11 0.97 1.2 0.69 0.9 0.66 Phenol, 2-methoxy-(Guaiacol) 7.59 6.89 7.02 6.96 7.21 7.34 5.06 6.89 0.83 3.39 3.03
+
+Aromatic hydrocarbons Ethylbenzene / / / / / / / / / / 1.08 1,4-dimethylbenzene 1.46 / / / / / / / / / /
+
+Aldehydes and ketones decreased as they were further oxidized to acids, while aliphatic hydrocarbons such as hexane increased slightly. Phenols and N-heterocycles showed relatively little variation, except for samples treated with FeSO4/H2O2 and DES, where their content decreased significantly. N-heterocycles and other aromatic substances were most likely oxidized to acids by carbonylation and carboxylation [32], while other organic substances (polysaccharides, proteins, humic-like substances) were removed by the synergistic effects of oxidation and coagulation in the case of FeSO4/H2O2 removed via the synergistic effects of oxidation and coagulation. A similar synergistic effect was observed in the treatment of the aqueous HTC phase of sewage sludge with iron/persulfate-based AOP, where 35% of the dissolved organic carbon was removed by combined oxidization and coagulation [35]. However, H2O2 obviously had an effect on the distribution of acids, while the FeSO4/H2O2 further accelerated the conversion of organic substances into acids. The increase in retention time led to a significant increase in acidity and a decrease in N-heterocycles. The DES-treated samples showed a significant shift, i.e., a decrease in N-heterocycles and an increase in the content of acids (due to the addition of glycolic acid) and amines (choline chloride is a quaternary ammonium salt), with a slightly higher retention of aldehydes and ketones, suggesting DES-induced changes in the solubility and degradation of organic components. The data suggest that photochemical oxidation of HTC liquid preferentially converts complex organic molecules into carboxylic acids, which accumulate under the applied conditions.
+
+3.7. Evaluation of the Acute Toxicity of Untreated and Photo-Treated HTC Liquids
+
+The untreated and photo-treated samples of process liquids were subjected to acute toxicity tests with V. fischeri bacteria and complex Daphnia magna organisms to assess their acute toxicity to aquatic organisms and to identify their potential ecological risk. The results are shown in Table 7.
+
+Table 7. The results of the toxicity tests with the microorganisms V. fischeri and Daphnia magna at 1000× dilution of the test samples.
+
+Exp. No. Sample Inhibition of Bioluminescence of V. fischeri (%) a Toxicity to Daphnia magna a,b
+
+/ Untreated HTC liquid 0 ± 0 Non-toxic E1 P420 (no air) 0 ± 0 Toxic E2 P420 1 ± 0 Toxic E3 P420-0.2%H2O2 8 ± 1 Toxic E4 P365-0.2%H2O2 9 ± 0 Toxic E5 P365-1%H2O2 10 ± 2 Toxic E6 P365-1%H2O2-20min 17 ± 1 Toxic E7 P365-1%H2O2-pH7.5 28 ± 3 Toxic E8 P365-2%H2O2-5%DES 41 ± 0 Toxic E9 C(1 g/L FeSO4)-P365-1%H2O2 23 ± 1 Toxic E10 C(2 g/L FeSO4)-P365-1%H2O2 30 ± 2 Toxic
+
+a Factor of dilution of the process liquid: 1000×. b Toxic—if adverse effects are observed in 50% or more of a test population of Daphnia magna microorganisms.
+
+The undiluted test samples proved to be toxic for the above-mentioned microorgan- isms, which can be attributed to a high organic load (high TOC and COD) and signifi- cant concentrations of organic acids and total phenolics. Further dilutions showed that the toxicity of the untreated sample for Vibrio fischeri microorganisms was negligible at 1000× dilution (0% inhibition of bioluminescence). However, when the process liquid was subjected to photochemical treatment at 365 nm and 420 nm, especially in the presence of hydrogen peroxide and under conditions that favoured radical generation (higher H2O2 doses, adjusted pH or treatment duration), inhibition increased markedly (up to 41% in the
+
+presence of DES), indicating that partial oxidation converts less bioavailable macromolecu- lar species into smaller, more bioavailable and reactive intermediates. These intermediates, i.e., low molecular weight organic compounds, such as short-chain organic acids (acetic acid, propionic acid, etc.), aldehydes and quinone-like compounds, are known for their mutagenicity and their ability to penetrate cell membranes and thus inhibit microbial bioluminescence [51]. The pronounced increase in inhibition with prolonged treatment time (17%), alkaline pH (28%) and FeSO4-assisted coagulation/flocculation (23% and 30%) confirms that these settings and the presence of iron salts likely enhance the production of hydroxyl radicals and the degradation of phenols and nitrogenous organics into compounds with higher acute toxicity. This behaviour is consistent with the literature indicating that advanced oxidation processes (AOPs) may initially elevate acute toxicity due to incomplete mineralization and transient byproducts accumulation such as NO2−and NH4+ [38]. Although AOPs are promising for the degradation of recalcitrant organics of HTC liquids, the results underline that the process parameters (wavelength, oxidant dose, reaction time, pH) need to be carefully optimized to advance the treatment beyond the intermediate stage to complete mineralization and oxidation and minimize the risk of more toxic transformation products being released into the environment. In addition, the toxicity test of the process liquids with one of the most commonly used model organisms—Daphnia magna species—at the same dilution (1000×) as the test with V. fischeri confirmed the toxic nature of the photochemically treated HTC liquids, as adverse effects were observed in 50% or more of a test population in all samples except the untreated sample. The process waters from the HTC process have been classified as toxic in many studies in the past, including the study conducted by Mantovani et al. [52], in which the raw HTC effluent from the microalgae treatment process was found to be toxic to A. fisheri at an EC50 concentration of 1.8%. The same author also found that the HTC liquid fraction was not harmful to the microalgae-bacteria consortia and could therefore be used for microalgae growth, i.e., algae cultivation. However, similar EC50 concentrations (1.1–5.7%), as previously mentioned, were determined for the HTC process liquids from hemp oil cake obtained under different operating conditions in the author‘s previous study using D. magna as test microorganisms [44]. Despite the high toxicity of HTC process waters, some studies have reported a possible adaptation of microorganisms, e.g., some nitrifying bacteria can adapt to the inhibitors of HTC process water [53]. Among AOPs, electrochemical oxidation was found to be highly effective in reducing the toxicity of HTC process waters to V. fischeri [9]. Therefore, it was expected that photochemical treatment would also lead to lower toxicity of the process waters of the present study due to the decrease in COD and TOC content, but this was obviously not the case, as the decrease was too small and the content of organic acids increased, and the formation of N-compounds and other intermediates occurred.
+
+4. Conclusions
+
+The efficiency of photo-treatment of HTC liquid with a high content of organic com- pounds was studied under specific experimental conditions in a microreactor flow reactor. The effect of photochemical treatment was reflected in the altered chemical composition of the process liquid, as well as in the changes in UV-VIS spectra and 3D-EEM fluorescence intensity. Photo-treatment with UV light at 365 nm was more effective than treatment at 420 nm. H2O2 proved to be an effective oxidizing agent, with higher dosages (1 vol% com- pared to 0.2 vol%) leading to a significant reduction in COD, TOC and phenolic compounds. The content of organic acids, especially acetic acid, increases due to the degradation of com- plex organic molecules to smaller molecules. The NO2 content was much lower than the
+
+NO3 content, indicating that ammonium was mainly converted to nitrate. Photochemical treatment with addition of FeSO4 or DES did not contribute significantly to the improve- ment of removal efficiency, although DES decolourized the sample and showed unique behaviour according to 3D-EEM analysis. The addition of FeSO4, on the other hand, pro- duced a coagulation/precipitation effect. The acidic pH conditions were more favourable than the alkaline conditions, as was the longer residence time. Regarding the evaluation of toxicity, the acute toxicity experiments showed a high toxicity of the process liquids to the living microorganisms, although the process liquids were photochemically treated. The main drawback of this study, which deals with the treatment of HTC process liquids, is the relatively low separation efficiency. On the other hand, the study provides valuable insights into the continuous photochemical treatment of the highly complex real sample. Future work can therefore be directed towards improving the process, e.g., by introducing a light source with a wavelength below 365 nm or by possibly integrating different AOPs, such as integrating the photochemical treatment with the electrochemical treatment or similar. In addition, an in-depth study of the reaction pathways that take place during the photochemical treatment of HTC liquids would improve the knowledge of the interactions and interferences of the molecules present in this complex matrix.
+
+Supplementary Materials: The following supporting information can be downloaded at: https: //www.mdpi.com/article/10.3390/pr13092934/s1, Figure S1: (a) XRD and (b) FTIR spectra of precipitated/coagulated particles obtained after treating HTC liquid with FeSO4; Table S1: The results of experiments in the dark (absence of the light).
+
+Author Contributions: Conceptualization, A.P. and A.N.; methodology, A.P., T.C.P. and S.H.; software, A.N.; validation, A.P. and A.N.; formal analysis, A.P., T.C.P. and S.H.; investigation, A.P., T.C.P. and S.H.; resources, A.N.; data curation, A.P., T.C.P. and S.H.; writing—original draft preparation, A.P. and A.N.; writing—review and editing, A.P. and A.N.; visualization, A.P.; funding acquisition, A.P. and A.N. All authors have read and agreed to the published version of the manuscript.
+
+Funding: This research was funded by Slovenian Research and Innovation Agency (ARIS), grant numbers P2-0421, P2-0118, P2-0414, J2-60044 and J4-50149. The research was performed using Asia Flow Chemistry System funded within the project "Upgrading national research infrastructures- RIUM", financed by the Republic of Slovenia, the Ministry of Education, Science and Sport and the European Union from the European Regional Development Fund.
+
+Data Availability Statement: The original contributions presented in this study are included in the article. Further inquiries can be directed to the corresponding author.
+
+Acknowledgments: The authors would like to thank the Slovenian Research and Innovation Agency (ARIS) for supporting this work by funding the research programmes and projects.
+
+Conflicts of Interest: Author Tjaša Cenˇciˇc Predikaka was employed by IKEMA d.o.o.—Institute for Chemistry, Ecology, Measurements and Analytics. The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+Abbreviations
+
+The following abbreviations are used in this manuscript:
+
+AOPs Advanced oxidation processes ATR Attenuated total reflectance COD Chemical oxygen demand DES Deep eutectic solvent Ex Excitation Em Emission
+
+FTIR Fourier transform infrared spectroscopy GC-MS Gas chromatography–mass spectrometry HTC Hydrothermal carbonization SUVA Specific ultraviolet absorbance TN Total nitrogen TOC Total organic carbon TP Total phosphorus TPC Total phenolic compounds UV-VIS Ultraviolet–visible spectroscopy 3D-EEM 3-dimensional excitation–emission matrix fluorescence spectroscopy XRD X-ray diffraction method

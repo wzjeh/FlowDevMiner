@@ -1,0 +1,102 @@
+{"name": "aldehyde"}
+
+# Parse temperature and flow rate
+    temp = None
+    flow_rate_A = None
+    flow_rate_B = None
+    
+    match_temp = re.search(r'(\d+) °C', input_str)
+    if match_temp:
+        temp = int(match_temp.group(1))
+    
+    match_flow_rates = re.findall(r'\b\d+\.\d+ mL/min\b', input_str)
+    for rate in match_flow_rates:
+        flow_rate_A, flow_rate_B = float(rate), None
+        break
+    
+    # Parse reactor type and inner diameter
+    reactor_type = None
+    inner_diameter = None
+    
+    if 'coil' in input_str.lower():
+        reactor_type = "coil"
+        
+        match_inner_diameter = re.search(r'\d+\.\d+ mm', input_str)
+        if match_inner_diameter:
+            inner_diameter = float(match_inner_diameter.group(0))
+    
+    # Parse yield
+    yield_optimal = None
+    
+    match_yield = re.findall(r'(\d+)%', input_str)
+    for value in match_yield:
+        yield_optimal, _ = int(value), 95
+        
+        break
+
+    return {
+        "reaction_summary": {
+
+- Assume that if a field is not explicitly stated in the input text, it should be included with its default value.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"([A-Za-z]+)",input_str)
+    reactant_names = [match for match in matches if not any(word in match.lower() for word in ["yield", "rate", "temperature","coil"])]
+    
+    # Parse products (if present)
+    product_match = re.search(r'(\d+)%', input_str)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+        
+    else: 
+        yield_optimal = None
+    
+    # Parse conditions
+    temperature_match = re.search(r'T=([0-9]+) \D+',input_str)
+    
+    residence_time_match = re.search(r'(\d+) min', input_str)
+    
+    flow_rate_reactant_A_match = re.search(r"([A-Za-z]+)_
+
+{ "reaction_summary": {  "reaction_type":"...",  "reactants":[{"name":"hydrogen","role":"reactant"}],  "products":[],"conditions":[ {"type":"temperature","value":"room"}, {"type":"flow_rate_reactant_A","value":"0.1 mL/min"} ],  "reactor":{"type":null,"inner_diameter":null}
+
+{ "reaction_summary": { 
+    "reaction_type":"hydrogenolysis", 
+    "reactants":[{"name":"N-diphenylmethylazetidin-3-ol","role":"reactant"}], 
+    "products":[{"name":"3-azetidinol","yield_optimal":95,"unit":"%"}], 
+    "conditions":[
+        {"type":"temperature","value":"80 °C"}, 
+        {"type":"residence_time","value":10}, 
+        {"type":"flow_rate_reactant_A","value":0.1}, 
+        {"type":"pressure","value":101325}
+
+{'name': None, 'yield_optimal': value, 'unit': '%'}
+
+{
+        "conversion": None,
+        "yield": None,
+        "selectivity": None,
+        "unit": "%"
+    }
+
+{
+        "conversion":97,
+        "yield":null,  # Not explicitly stated in the text; assume null for unknown fields.
+        "selectivity":null,
+        "unit":"%"
+    }
+
+{"name": m.split()[0].lower(), "role": None}
+

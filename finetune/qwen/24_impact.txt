@@ -1,0 +1,11 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of o-nitroanisole | increase |
+| residence_time | selectivity of o-anisidine | unchanged |
+| catalyst_loading | conversion of o-nitroanisole | increase |
+| temperature | conversion of o-nitroanisole | increase |
+| hydrogen_pressure | conversion of o-nitroanisole | increase |
+| reactant_concentration | conversion of o-nitroanisole | increase |
+| residence_time | space-time yield (STY) | increase |

@@ -1,0 +1,56 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "nitrobenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "mixed acid",
+      "role": "reactant"
+    },
+    {
+      "name": "sodium dodecyl sulfate",
+      "role": "catalyst"
+    },
+    {
+      "name": "sulfuric acid",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "m-dinitrobenzene",
+      "yield_optimal": 91.6,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "65 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "4 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "9.8 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microreactor",
+    "inner_diameter": "1 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 91.6,
+    "selectivity": 0.44,
+    "unit": "%"
+  }
+}

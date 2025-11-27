@@ -1,0 +1,40 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "nitrobenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "palladium nanocatalyst",
+      "role": "catalyst"
+    },
+    {
+      "name": "ethanol-water",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "aniline",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "gas_flow_rate",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "gas-liquid-solid_microreactor",
+    "inner_diameter": "0.6 mm"
+  },
+  "metrics": {
+    "conversion": 100,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

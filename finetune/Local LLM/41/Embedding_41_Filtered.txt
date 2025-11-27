@@ -1,0 +1,20 @@
+The microreactor system improved some of the fixed bed deficiencies as low heat transfer rates [11]. Furthermore, the WHSV values used were appropriate for the microreactor system but no for the fixed bed reactor system. Considering that the dilution also affected the microreactors, the measured conversions were much higher than the ones measured in the fixed bed reactor.
+
+2.2.1. The microreactor A reactor for hydrogen production from natural gas was designed focussing on avoiding internal and external mass-transfer resistances. As it can be observed in Fig. 2, the platelets are composed by 14 microchannels which were fabricated with 500 mm  250 mm (width  depth) dimensions. The microreactors were made of stainless-steel with the next composition: 53.22% Fe, 24.21% Cr, 19.09% Ni, 1.97% Si, 1.43% Mn, 0.05% C, 0.02% Pb and 0.001% S (wt.). The impregnated catalyst particle size must be small enough for the deposition and fixing in the channels as well as for the reduction of internal mass-transfer resistance. The external mass-transfer resistance was studied trough Mears criteria [16]. Moreover, the microreactors were modelled using Aspen Plus commercial software for the process analysis. All the experimental conditions were analyzed and simulated before the operation in the laboratory [17,18].
+
+fixed bed reactor system, and microreactors. Weight hourly space velocity, WHSV, was
+
+2.2.1.1. Deposition of micro-nanoparticles on the reactor microchannels. The next procedure was carried out for the deposition of the micro-nanoparticles on the reactors micro- channels [19,20]:
+
+Microreactor
+
+3.2. Experiments in microreactors
+
+tested in the microreactor systems. The analysis by SEM and TEM revealed a carbon-free
+
+2.2.2. Fixed bed reactor As a traditional reactor system a stainless-steel fixed bed reactor (1.15 cm i.d. and 30 cm length) was used. The same amount of catalyst than in the microreactors was used.
+
+experimental conditions really low conversions were ach- ieved; for every S/C ratios the achieved methane conversion was under 5%. The results of conversion for natural gas SR were also insignificant, only hydrocarbons like propane and butane had high conversions. As a summary, conversions far from the maximum equilibrium values were obtained operating with micro- reactors and no significant conversions were obtained in the fixed bed reaction system. This difference indicates the advantages of microreactor systems. For all catalysts and both reaction systems the calculated element balances errors were small and as a result coking rates were quite low.
+
+a. Catalyst preparation: An IKA mill was used for the reduc- tion of the catalysts particle size. Once powdered the catalysts were sieved with a 75-mm sieve. b. Microreactor preparation: The microreactors were intro- duced in an ultrasonic bath with isopropanol during 10 min for channel cleaning. After drying, they were calcined at 1273 K during 4 h. c. Catalyst impregnation: A liquid phase suspension which ensures a perfect adhesion between catalysts and micro- channels was prepared for the impregnation. Catalysts were manually impregnated filling microchannels with suspension and removing the excess. d. Conditioning of catalyst and microreactor: After impreg- nation, the catalysts were calcined at 1073 K during 2 h under oxidative conditions. Finally, the platelets were welded and the microreactors conditioned for using them in the activity tests.
+

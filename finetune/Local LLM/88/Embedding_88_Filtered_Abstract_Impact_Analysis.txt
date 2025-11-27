@@ -1,0 +1,17 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| Residence Time | Conversion of TFMB | increase |
+| Temperature | Product Yield | decrease |
+| Flow Rate | Residence Time | decrease |
+| Magnetic Stirring Controller | Uniform Distribution of Suspensions | increase |
+| Flow Rate | Residence Time | decrease |
+| Flow Rate | Selectivity and Conversion of TFMB | - |
+| Flow Rate | Residence Time | decrease |
+| Residence Time | Conversion of TFMB | increase |
+| Temperature | Product Yield | decrease |
+| Flow Rate | Residence Time | decrease |
+| Magnetic Stirring Controller | Uniform Distribution of Suspensions | increase |
+| Flow Rate | Selectivity and Conversion of TFMB | - |
+| Flow Rate | Residence Time | decrease |

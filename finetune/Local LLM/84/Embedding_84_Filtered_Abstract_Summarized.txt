@@ -1,0 +1,104 @@
+{ "reaction_summary": {  "reaction_type":"diazotization",  "reactants":[{"name":"p-nitroaniline","role":"solvent"}],  "products":[{"name":"...","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"25 °C"},    {"type":"residence_time","value":null},    {"type":"flow_rate_reactant_A","value":1500 rpm},    {"type":"flow_rate_total","value":1.0 mol/L}  ],  "reactor":{"type":"coil", "inner_diameter":"..."},  "metrics":{"conversion":null,"yield":95,"selectivity":null, "unit":"%"}}}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [{"name": "Sodium 6-hydroxynaphthalene-2-sulfonate", "role": "reactant"}], "products": [], "conditions": [], "reactor": {"type": "beaker", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": {  "reaction_type":"diazotization",  "reactants":[{"name":"weakly basic aromatic amine","role":"reactant"}],  "products":[{"name":"nitrogen-containing compounds","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"flow_rate_reactant_A","value":"0.1 mL/min"}
+
+{"reaction_summary": {"reaction_type": "microchannel", "reactants": [], "products": [{"name": null, "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "40 °C"}, {"type": "residence_time", "value": 3}, {"type": "flow_rate_total", "value": 1.5}], "reactor": {"type": "microchannel", "inner_diameter": 0.25}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{'conversion': None, 'selectivity': None}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+Input
+A typical case of diazotization of p-nitroaniline was studied systematically. Through the optimization of the crystallization process of p-nitroaniline, the slurries with an average crystal size of about 56 μm in length and 19 μm in width were obtained. The reaction mixture consisted of a solution containing sodium nitrite (0.1 M) as the oxidizing agent and hydrochloric acid (2M). In this study, we developed an efficient continuous-flow microreaction system to conduct diazotization reactions of weakly basic aromatic amines. A typical case of diazotization of p-nitroaniline was studied systematically. Through the optimization of the crystallization process of p-nitroaniline, the slurries with an average crystal size of about 56 μm in length and 19 μm in width were obtained. The reaction mixture consisted of a solution containing sodium nitrite (0.1 M) as the oxidizing agent and hydrochloric acid (2M). In this study, we developed an efficient continuous-flow microreaction system to conduct diazotization reactions of weakly basic
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+from typing import List
+
+
+    # Parse reaction type (if any)
+    match = re.search(r'(\w+)-', text, re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r'\b\w+\b(?![a-z])', text.lower())
+    reactant_names = [match for match in matches]
+    
+    # Parse products (yield)
+    product_match = re.search(r'(\d+)% yield', text, re.IGNORECASE)
+    if product_match:
+        optimal_yield = int(product_match.group(1))
+        
+    else:
+        optimal_yield = None
+    
+    # Parse conditions
+    temperature_match = re.search(r'T=(\d+) °C', text, re.IGNORECASE)
+    
+    residence_time_match = re.search(r'residence time (\d+)', text.lower())
+    
+    flow_rate_matches = re.findall(r'(\d+(?:\.\d+)?)(?!\w)\D*(m
+
+{}
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp_residence = re.search(r"(\d+) °C|T=(\d+)", input_str)
+    if match_temp_residence:
+        groups = match_temp_residence.groups()
+        for group in groups:
+            if group:  # Ignore empty strings
+                value = int(group) if "°C" not in group else float(group)
+                if temp is None or (temp == -1 and value > 0):  # Prioritize °C over T=
+                    temp = value
+                elif res_time is None:
+                    res_time = value / 60.0
+
+    # Parse flow rate, pressure, inner diameter
+    match_flow_pressure_diameter = re.search(r"(\d+(?:\.\d+)?)(?= mL/min|mm)", input_str)
+    if match_flow_pressure_diameter:
+        flow_rate_total = float(match_flow_pressure_diameter.group())
+        
+        # Pressure is not explicitly stated; use null.
+        pressure = None
+        
+        # Inner diameter
+        inner_diameter_match = re.search(r"(\d+(?:\.\d+)?) mm",
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp_residence = re.search(r"(\d+) °C|T=(\d+)", input_str)
+    if match_temp_residence:
+        groups = match_temp_residence.groups()
+        if len(groups) == 2: # T=...
+            temp, res_time = float(groups[0]), None
+        else: # ...°C
+            temp = float(groups[0])
+
+    # Parse flow rate and inner diameter
+    flow_rate_reactant_A = None
+    flow_rate_total = None
+    match_flow_diameter = re.search(r"(\d+) mL/min|Flow rate (\d+)", input_str)
+    if match_flow_diameter:
+        groups = match_flow_diameter.groups()
+        for group in groups:
+            if group: # Ignore empty strings
+                value = float(group)
+                if "mL/min" in input_str or "total flow rate" in input_str.lower():
+                    flow_rate_total = value
+                elif "reactant A" in input_str.lower() and not temp:
+                    flow_rate_reactant_A = value
+
+    # Parse inner
+
+{"name": None, "yield_optimal": int(match_yield.group(1)), "unit": "%"}
+

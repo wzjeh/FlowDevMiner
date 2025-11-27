@@ -1,0 +1,12 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of p-xylene | increase |
+| temperature | mononitration selectivity | increase |
+| H2SO4/HNO3 molar ratio | conversion | increase |
+| H2SO4/HNO3 molar ratio | selectivity | increase |
+| H2SO4 concentration | selectivity | increase |
+| HNO3/p-xylene molar ratio | conversion | increase |
+| HNO3/p-xylene molar ratio | selectivity | increase |
+| residence_time | conversion | increase |

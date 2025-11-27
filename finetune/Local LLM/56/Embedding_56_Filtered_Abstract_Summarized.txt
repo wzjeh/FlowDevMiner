@@ -1,0 +1,93 @@
+{"conversion": None, "yield": yield_optimal, "selectivity": None, "unit": "%"}
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp_residence = re.search(r"(\d+) (°C|min)", text)
+    if match_temp_residence:
+        value, unit = match_temp_residence.groups()
+        if unit == "°C":
+            temp = int(value)
+        elif unit == "min":
+            res_time = float(value)
+
+    # Parse flow rate
+    flow_rate_reactant_A = None
+    flow_rate_reactant_B = None
+    total_flow_rate = None
+    match_flow_rates = re.search(r"(\d+(?:\.\d+)?) (mL/min)", text)
+    if match_flow_rates:
+        value, unit = match_flow_rates.groups()
+        total_flow_rate = float(value)
+
+    # Parse pressure and inner diameter
+    pressure = None
+    inner_diameter = None
+    match_pressure_inner_diameter = re.search(r"(\d+(?:\.\d+)?) (mm)", text)
+    if match_pressure_inner_diameter:
+        value, unit = match_pressure_inner_diameter.groups()
+        inner_diameter = float(value)
+
+    # Parse reaction type and react
+
+{"type": re.search(r"T=\d+\s*°C", paragraph).group() if " °C" in condition else "flow_rate_total",
+                           "value": f"{value} {unit}"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": 90, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+- Assume that if a field is not explicitly stated in the input text, it should be included with its default value.
+
+Step 1: Preprocess the paragraph to extract relevant information
+The qualitative preliminary results presented in Section 3.2 were confirmed by the analytical results. In all the previously reported ni- trations in microreactos [11], although the observed reaction rate was found to increase in microreactors, there is no direct proof that the adopted devices are working under kinetic control. A few more detailed studies [43,44] carried out using simple tubular s
+
+Step 2: Identify relevant information for each field
+- Reaction type: null (no explicit mention)
+- Reactants:
+	+ No reactant names mentioned in this paragraph.
+- Products:
+	+ Yield optimal: not explicitly stated; assume default value of 0% if no yield is given, otherwise use the provided percentage. 
+- Conditions:
+	+ Temperature: "T=80 °C"
+	+ Residence time: null (no mention)
+	+ Flow rate reactant A and B: only one flow rate mentioned ("Flow rate 0.1 mL/min")
+	+ Pressure: not explicitly stated; assume default value of null
+- Reactor type:
+	+ No explicit reactor description
+
+{
+  "The flow-chemistry process development involves a small-scale batch reactor and microreactor with an embedded static mixer. The reaction is the nitrobenzene oxidation to TPT using hydrogen peroxide as the oxidant in sulfuric acid medium.",
+  "Key reactants are nitrobenzene, hydrogen peroxide, and sulfuric acid; solvent is not mentioned. The catalyst is also not specified.",
+  "The products are 2,4,6-triphenyl-1,3,5-triazine (TPT) and byproducts.",
+  "The small-scale batch reactor shows lower conversion compared to the microreactor with an embedded static mixer due to its longer residence time of 3.6 min at a temperature of 35 °C.",
+  "Flow rates are not mentioned, but it is implied that they were varied in the study."
+}
+
+{ "reaction_summary": {  "reaction_type":"nitration",  "reactants":[{"name":"organic compounds","role":"reactant"}],  "products":[    {"name":"various nitro derivatives","yield_optimal":null,"unit":null}  ],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":"10 min"},    {"type":"flow_rate_reactant_A","value":"0.1 mL/min"}  ],  "reactor":{"type":"lab-scale setup", "inner_diameter":null}
+
+{"type": "temperature", "value": re.search(r'T=(\d+) °C', line).group(1) + " °C"}
+
+{"reaction_summary": {"reaction_type": "continuous_flow", "reactants": [{"name": "water", "role": "solvent"}], "products": [{"name": "product_A", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_B", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": "4 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "heterogeneous benzaldehyde nitration", "reactants": [{"name": "benzaldehyde", "role": "solvent"}], "products": [{"name": "nitrobenzaldehyde", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": 0.1}, {"type": "pressure", "value": null}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": 90, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [{"name": "A", "role": "reactant"}], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "10 min"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}, {"type": "flow_rate_reactant_B", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"type": "temperature", "value": match.group(1)}
+
+paragraph = """
+The paragraph discusses a flow-chemistry process development using microreactors with a fixed flow rate of 20 μL∙min−1 for the investigation of different flow patterns in a threading stable flow regime. The reaction involves an organic phase surrounded by an aqueous acidic phase, and the key reactants are not mentioned. The products are also unknown. The reactor is a microreactor with unspecified dimensions. The critical conditions include a fixed flow rate of 20 μL∙min−1, residence time, temperature, and pressure that are not specified. The outcome focuses on the observation of significantly different flow patterns in terms of thread thinning, occasional instability, and formation of big organic droplets with diameters comparable to the internal diameter of the channel at higher flow rates.
+"""
+
+
+
+
+
+    # Extract conditions
+    conditions = []
+    for line in paragraph.split('\n'):
+        match = re.search(r'(\d+(?:\.\d+)?)([a-z]+)', line)
+        if match:
+            value, unit = match.groups()
+            if '°C' in unit or 'min' in unit or 'mL/min' in unit:
+                conditions.append
+

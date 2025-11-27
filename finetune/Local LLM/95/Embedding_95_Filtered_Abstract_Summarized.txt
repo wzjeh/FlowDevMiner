@@ -1,0 +1,68 @@
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+{word}
+
+{"name": "PCL polymers", "yield_optimal": 95, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "synthesis", "reactants": [{"name": "benzyl alcohol", "role": "initiator"}], "products": [{"name": "end-functionalized oligomers of PCL", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": 0.1}, {"type": "pressure", "value": null}], "reactor": {"type": "microreactor system", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{
+    "reaction_summary": {
+        "reaction_type":"transesterification",
+        "reactants":[{"name":"PCL","role":"solvent"},{"name":"N435","role":"catalyst"}],
+        "products":[{
+            "name":"ε- CL", 
+            "yield_optimal":90, 
+            "unit":"%"},{
+            "name":"water saturated PCL",
+            "yield_optimal":null,
+            "unit":"%"
+        }],
+        "conditions":[
+            {"type":"residence_time","value":7},
+            {"type":"temperature","value":null}
+
+text = """
+You output ONLY valid JSON. No explanations, no markdown, no comments.
+
+Context
+Flow-chemistry process development: Reaction type: Microreactor synthesis of polyester with benzyl ester chain ends Key reactants: epsilon-caprolactone (ε-CL), benzyl alcohol (BzOH) Solvent/Catalyst: Toluene-d8, N435 reusability for BzOH end-functionalized PCL synthesis Products: Benzyl ester chain ends in polyester Reactor details: Microreactor system with 90 mL reaction mixture and flow rate of 65 μL/s Critical conditions: Reaction time of 120 s, maximum % ε-CL conversion reached within this time frame Outcomes: Percentage of benzyl ester chain ends in polyester increased to >98% under "water saturated" conditions compared to <0.2% under "dry" conditions. The decrease in percentage of benzyl estor chain ends over 30 cycles was larger for the "dry" system, indicating water depletion and decreased enzyme activity.
+"""
+
+
+lines = [line.strip() for line in text.split('\n')]
+context = lines[0]
+key_reactants = 'Key reactants: epsilon-caprolactone
+
+{"name": "poly(ε-caprolactone)", "yield_optimal": 95, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "therapeutic application"}}
+
+{"name": name, "yield_optimal": yield_optimal, "unit":"%"}
+
+# Parse temperature and residence time
+    temp_match = re.search(r"(\d+) °C", input_str)
+    if temp_match:
+        temp_value = int(temp_match.group(1))
+    
+    res_time_match = re.search(r"(\d+ s)", input_str)
+    if res_time_match:
+        res_time_value = float(res_time_match.group(1)) / 60.0
+
+    # Parse flow rates
+    flow_rate_A_match = re.search(r"Flow rate (\d+) mL/min", input_str, re.IGNORECASE)
+    flow_rate_B_match = re.search(r"Benzyl alcohol and PCL, with a catalyst present but not specified.", input_str)
+
+    if flow_rate_A_match:
+        flow_rate_value = float(flow_rate_A_match.group(1))
+    
+    # Parse reactor type
+    reactor_type_match = re.search(r"a microreactor \(not specified further\)", input_str)
+    if reactor_type_match:
+        reactor_type = "microreactor"
+        
+    inner_diameter_match = re.search(r"inner diameter (\d+) mm", input_str, re.IGNORECASE)
+
+    # Parse products
+    product_yield_match = re.search(r"The outcome of
+

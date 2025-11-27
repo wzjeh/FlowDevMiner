@@ -1,0 +1,11 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | yield of polyaniline | increase |
+| residence_time | yield of polyaniline | increase |
+| HCl concentration | yield of polyaniline | increase |
+| flow_rate ratio (aqueous to organic) | mass transfer performance | increase |
+| flow_rate ratio (aqueous to organic) | yield of polyaniline | increase |
+| Reynolds number | slug coalescence | increase |
+| Reynolds number | mass transfer rate | decrease |

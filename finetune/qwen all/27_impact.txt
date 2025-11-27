@@ -1,0 +1,14 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of etherate | increase |
+| residence_time | conversion of etherate | increase |
+| temperature | selectivity to acifluorfen | unchanged |
+| residence_time | selectivity to acifluorfen | unchanged |
+| M-ratio | conversion of etherate | increase |
+| M-ratio | selectivity to acifluorfen | decrease |
+| N/S | conversion of etherate | increase |
+| N/S | selectivity to acifluorfen | decrease |
+| acetic_anhydride | conversion of etherate | increase |
+| acetic_anhydride | selectivity to acifluorfen | decrease |

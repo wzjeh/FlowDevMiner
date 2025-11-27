@@ -1,0 +1,60 @@
+{
+  "reaction_type": "diazotization and azo coupling",
+  "reactants": [
+    {
+      "name": "2,4-dimethylaniline",
+      "role": "reactant"
+    },
+    {
+      "name": "sodium nitrite",
+      "role": "reactant"
+    },
+    {
+      "name": "2-naphthol",
+      "role": "reactant"
+    },
+    {
+      "name": "HCl",
+      "role": "catalyst"
+    },
+    {
+      "name": "water",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "Sudan II",
+      "yield_optimal": 99.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "20 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "1.5 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "16.212 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "spinning disc reactor",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": 99.0,
+    "yield": 99.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

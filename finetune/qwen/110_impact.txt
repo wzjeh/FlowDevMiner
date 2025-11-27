@@ -1,0 +1,20 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| wavelength | COD removal efficiency | increase |
+| wavelength | TOC removal efficiency | increase |
+| wavelength | NH4-N removal efficiency | increase |
+| wavelength | PO4-P removal efficiency | increase |
+| pH | treatment efficiency | decrease |
+| residence_time | COD removal efficiency | increase |
+| residence_time | TOC removal efficiency | increase |
+| residence_time | NH4-N removal efficiency | increase |
+| residence_time | PO4-P removal efficiency | increase |
+| catalyst_loading (FeSO4) | phosphorus removal | increase |
+| reactant_concentration (H2O2) | COD removal efficiency | increase |
+| reactant_concentration (H2O2) | TOC removal efficiency | increase |
+| reactant_concentration (H2O2) | NH4-N removal efficiency | increase |
+| reactant_concentration (H2O2) | PO4-P removal efficiency | increase |
+| DES addition | COD removal | unchanged |
+| DES addition | discoloration | increase |

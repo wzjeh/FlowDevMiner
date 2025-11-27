@@ -1,0 +1,18 @@
+Processes 2015, 3 can be continuously varied and monitored in flow systems during catalytic processes, greatly accelerating reaction kinetic studies and process optimization [1,2]. Additionally, flow microreactors have advantages, such as enhanced atom efficiency, selectivity, yield and purity of products, reproducibility, increased turn-over-number (TON), turn-over-frequency (TOF), process safety
+
+The continuous flow monolithic microreactor was constructed as follows: The monolith (5 mm × 7 mm) was positioned into a heat shrinkable PTFE tube of 30 mm and 60 mm in length, which was heated to shrink the PTFE tubing until a tight fit to the monolith was produced. An aqueous solution of EO (2.9 µM) and reducing agent NaBH4 (0.018 M) was pumped with a peristaltic pump through the microreactor at
+
+T.V.K. and M.G.B. designed the study and constructed the flow reactor. Y.H. carried out the catalyst preparation and the flow studies. Y.H., T.V.K. and M.G.B. carried out the data analysis and preparation of the manuscript.
+
+Summary: Flow-chemistry process development using Ag/SiO2and Ag/Co3O4-Based Monolithic Microreactors for hydrogenation of dyes is described. The reaction type involves the hydrogenation of azo and anthraquinone dyes in the presence of H2 gas as the carrier gas, using microreactor technology with Ag/SiO2or Ag/Co3O4 catalysts. Key reactants include dye molecules, solvent (H2O), and catalyst; products are hydrogenated dyes. The reactor type is a monolithic flow microreactor with an ID of 500 µm. Critical conditions include varying flow rates (1-3 mL/min) and residence times (1-6 min). Temperature and pressure are not mentioned. Outcomes show high conversion, yield, and selectivity for hydrogenated dyes using the Ag/Co3O4 catalyst compared to Ag/SiO2.
+
+The washing tests of the Ag/SiO2 and Ag/Co3O4 monoliths were carried out in a continuous flow microreactor. The fixed bed of the continuous monolithic microreactor was constructed as mentioned in Section 2.6. Neat hexane was pumped through the microreactor with a peristaltic pump at a constant flow rate of 2.1 mL/min. The quantitative analysis of the washing of Ag from the support was determined b
+
+Figure 2. The typical continuous monolithic microreactor used for the hydrogenation of EO.
+
+The continuous monolithic microreactor set-up used is shown in Figure 2 and incorporates a UV-visible spectrophotometer as the detector.
+
+Summary: Flow-chemistry process development has been applied in the hydrogenation of epoxides using continuous monolithic microreactors. The reaction involves the use of hydrogen gas as a reducing agent and an epoxide as the starting material. The solvent used is typically toluene, while a palladium catalyst is employed for enhancing selectivity. The reactor type is a monolithic microreactor with an internal diameter of 500 µm and a length of 12 cm. The flow rate ranges from 3 to 6 mL/min, the residence time is around 4 s, and the temperature is maintained at 80°C. The pressure is kept at atmospheric pressure. The outcomes include high conversion rates (up to 95%) and good selectivity towards the desired product.
+
+Summary: The paragraph discusses the development of flow-chemistry processes for hydrogenation reactions using microreactors with monolith catalysts containing nanoparticles as catalysts.
+

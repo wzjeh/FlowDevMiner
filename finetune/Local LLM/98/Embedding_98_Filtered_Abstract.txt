@@ -1,0 +1,20 @@
+The main advantages of microreactors are rapid mixing and excellent temperature control of chemical reactions.1,2 Both processes strongly depend on the reactor dimensions. In microchannels, eﬃcient mixing results from a high local energy dissipation rate and short diﬀusion paths.3 The speed of heat removal in a microreactor not only benefits from the short length scale for heat transfer, but also 
+
+Thus, fluid flow encloses the entire measurement tip. Three diﬀerent reactor modules, manufactured from silicon carbide, were used. A mixer module, including preheating channels, T- mixer, and a reaction channel (reaction volume, 2.9 mL), was combined with two residence time modules of 16.8 and 33.6 mL. The reaction channel with a square cross section (2.0 mm × 2.0 mm) is arranged in recurring 90°
+
+ABSTRACT: Microreactors are an eﬃcient tool for process development and intensification. However, the scale-up from lab studies to small-scale commercial production is challenging, since a change in the channel dimensions requires good knowledge of heat and mass transfer phenomena. In this work, complete process development for an exothermic Michael addition is presented. In a systematic scale-up 
+
+In this paper, a general approach for process development is proposed: First, kinetic data of the reaction are obtained by a series of experiments using a microreactor with small internal volume of a few microliters. Analysis of reactor characteristics (Reactor Characteristics Section) allows for confirmation of the assumption of an ideal, nearly isothermal plug flow reactor behavior. On this basi
+
+Figure 9. Simulation of conversion and temperature in the reaction channel of the ESK flow reactor, compared with the microreactor MR2.
+
+reactors compared to the traditional batch process. Due to superior heat removal in microreactors, the exothermic Michael additions could be carried out without any solvent. In consequence, the reaction time was decreased from 25 h in semibatch operations to only a few minutes in microreactors. This example clearly demonstrates the use of microreactors enabling safe operation of fast exothermic so
+
+Summary: The paragraph discusses the development of a flow-chemistry process for the production of fine chemicals using modular plate reactors. The reactor concept is based on capillary reactors with specific dimensions and curvature, which can be easily scaled up in small-scale microreactor setups. To maintain flexibility in large-scale production reactors, a suitable reactor concept is the ESK production reactor. The process involves mixing key reactants/solvent/catalyst in modular plate reactors with specific channel dimensions and flow guidance. Critical conditions include residence time, temperature, pressure, and flow rate(s). The outcome of the process is determined by conversion, yield, and selectivity.
+
+channel diameter (mm) 0.25 0.75 length (m) 0.50 0.50 inner volume (mL) 0.025 0.221 mean residence time (s) flow rate (mL/min) 0.29 0.22 flow velocity (m/s) 0.10 0.008 Re number 21.6 5.4 Dn number 2.70 1.17 Bo number (Taylor−Aris) Bo number (Janssen)
+
+Table 1. Channel dimensions of the microreactors used for the kinetic study and dimensionless parameters, calculated for selected mean residence times
+
+Table 2. Characteristic parameters for heat transfer in the investigated microreactors
+

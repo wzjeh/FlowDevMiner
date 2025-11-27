@@ -1,0 +1,10 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of benzaldehyde dimethyl acetal | increase |
+| residence_time | conversion of 2-aminobenzophenone | increase |
+| residence_time | conversion of pseudoionone | increase |
+| temperature | conversion of 2-aminobenzophenone | increase |
+| temperature | conversion of pseudoionone | increase |
+| catalyst_loading | conversion | unchanged |

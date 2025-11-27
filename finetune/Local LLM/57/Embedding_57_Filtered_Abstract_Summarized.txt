@@ -1,0 +1,75 @@
+{
+        "type": "temperature",
+        "value": f"{temperature_Celsius} °C"
+    }
+
+{"name": re.findall(r'[A-Z][a-z]+', input_str)[0], "yield_optimal": 95, "unit": "%"}
+
+- Assume that if a field is not explicitly stated in the input text, it should be included with default values.
+
+Step 1: Preprocess the input string to extract relevant information
+
+
+
+    # Extract temperature and flow rate from the input string using regular expressions
+    temp_match = re.search(r'(\d+) °C', input_str)
+    if temp_match:
+        temp_value = int(temp_match.group(1))
+    
+    flow_rate_match = re.search(r'(\d+\.\d+|\d+)\s*mL/min', input_str)
+    if flow_rate_match:
+        flow_rate_value = float(flow_rate_match.group(0))
+
+    # Extract reactor type and inner diameter from the input string
+    reactor_type_match = re.search(r'in a (\w+) with an inner diameter of (\d+\.\d+|\d+)\s*mm', input_str)
+    if reactor_type_match:
+        reactor_type = reactor_type_match.group(1)
+        inner_diameter_value = float(reactor_type_match.group(2))
+
+    # Extract yield from the input string
+    yield_match = re.search(r'yield (\d+)%', input_str)
+    if yield_match:
+        yield_optimal = int(yield_match.group
+
+{'value': f'{value}{unit}', 'unit': unit}
+
+{"type":"flow_rate_total","value":"0.27–0.55 mL/min"}
+
+{"reaction_summary": {"reaction_type": "solid catalyzed", "reactants": [{"name": "A", "role": "reactant"}, {"name": "B", "role": "gaseous"}], "products": [], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": 0.1}, {"type": "flow_rate_reactant_B", "value": 0.2}], "reactor": {"type": "packed bed microreactors", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "LA conversion", "reactants": [{"name": "CLA", "role": "reactant"}], "products": [{"name": "GVL", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "130 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": 4.5}], "reactor": {"type": "packed bed microreactor", "inner_diameter": "0.45 mm"}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+- Assume that if a field is not explicitly stated in the input text, it should be included with default values.
+
+Step 1: Preprocess the paragraph to extract relevant information
+The paragraph discusses the influence of superficial gas and liquid velocities on the flow pattern in a packed bed microreactor used for flow-chemistry process development. It highlights that understanding these flow patterns is crucial for optimizing mass transfer and reaction rates, which are essential for achieving high conversion, yield, and selectivity of desired products.
+
+Step 2: Identify key information from the paragraph
+The relevant information includes:
+* Reaction type (null)
+* Reactants (none mentioned)
+* Products (none mentioned)
+* Conditions:
+	+ Temperature (80 °C)
+	+ Residence time (not specified)
+	+ Flow rate (0.1 mL/min, total flow rate not specified)
+	+ Pressure (not specified)
+* Reactor: packed bed microreactor
+* Metrics:
+	+ Conversion (null)
+	+ Yield (82%)
+	+ Selectivity (null)
+
+Step 3: Create the JSON object based on extracted information
+
+{
+    "reaction_summary": {
+        "reaction_type": null,
+        "reactants": [],
+        "products": [
+            {"name": null, "yield_opt
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "flow_rate_reactant_B", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": 90, "yield": 82, "selectivity": null, "unit": "%"}}}
+

@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "", "reactants": ["BA monomer", "water"], "products": [], "conditions": [{"type": "residence time", "value": ""}, {"type": "temperature", "value": "100 °C"}, {"type": "pressure", "value": ""}], "reactor": {"type": "coaxial capillary microreactor", "inner_diameter": ""}, "metrics": {}}}

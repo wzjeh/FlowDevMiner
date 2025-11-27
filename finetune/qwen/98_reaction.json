@@ -1,0 +1,56 @@
+{
+  "reaction_type": "Michael addition",
+  "reactants": [
+    {
+      "name": "ethyl acrylate",
+      "role": "reactant"
+    },
+    {
+      "name": "piperidine",
+      "role": "reactant"
+    },
+    {
+      "name": "1-hexanol",
+      "role": "solvent"
+    },
+    {
+      "name": "1-butanol",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "3-piperidinopropionic acid ethyl ester",
+      "yield_optimal": 95.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "70 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "5 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.5 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "coiled capillary",
+    "inner_diameter": "750 μm"
+  },
+  "metrics": {
+    "conversion": 95.0,
+    "yield": 95.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

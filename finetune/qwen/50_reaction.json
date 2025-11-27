@@ -1,0 +1,56 @@
+{
+  "reaction_type": "precipitation",
+  "reactants": [
+    {
+      "name": "Zn(NO3)2",
+      "role": "reactant"
+    },
+    {
+      "name": "NaOH",
+      "role": "reactant"
+    },
+    {
+      "name": "null",
+      "role": "catalyst"
+    },
+    {
+      "name": "n-octane",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "ZnO",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "50 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "null"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "4.0 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "2.0 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "microchannel",
+    "inner_diameter": "6.35 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

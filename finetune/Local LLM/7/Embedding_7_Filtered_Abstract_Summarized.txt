@@ -1,0 +1,89 @@
+{"reaction_type": None,
+                        "reactants": [],
+                        "products": [{"name": None}],
+                        "conditions": [],
+                        "reactor": {"type": None, "inner_diameter": None},
+                        "metrics": {"conversion": None, "yield": None, "selectivity": None}}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    if "catalyst" not in input_str:
+        reaction_type = None  # No catalyst mentioned, assume no reaction type
+    else:
+        match = re.search(r'(\w+) catalyst', input_str)
+        if match: 
+            reaction_type = match.group(1)
+
+    # Parse reactants (if present)
+    reactant_list = []
+    for word in input_str.split():
+        if "catalyst" not in word and "solvent" not in word:
+            role = None
+            name = re.sub(r'[^\w\s]', '', word).strip()
+            match = re.search(r'(\d+\.?\d*)\s*(mL/min|mm)', word)
+            if match: 
+                flow_rate = float(match.group(1))
+                unit = match.group(2)
+                role = "reactant"
+            else:
+                # Assume unknown reactants are solvents
+                name = re.sub(r'[^\w\s]', '', word).strip()
+                role = "solvent"
+
+            if role is
+
+{"name": name, "role": role}
+
+# Parse input string into a dictionary of reaction parameters
+    match = re.search(r"Flow rate (\d+(?:\.\d+)?) mL/min", input_str)
+    if match:
+        flow_rate_reactant_A = float(match.group(1))
+    
+    match = re.search(r"T=(\d+ °C)", input_str)
+    if match:
+        temperature = int(match.group(1))
+
+    # Parse reactor information
+    match = re.search(r"in a (\d+(?:\.\d+)?) mm coil", input_str)
+    if match:
+        inner_diameter = float(match.group(1))
+    
+    # Parse yield and reaction type (if present) from the last part of the string
+    parts = input_str.split(";")
+    for i in range(len(parts)-1, -1, -1):
+        part = parts[i].strip()
+        
+        match = re.search(r"yield (\d+)%", part)
+        if match:
+            yield_optimal = int(match.group(1))
+            
+        # Reaction type
+        reaction_type_match = re.search(r"(?:reaction|process) (type)?:(.*)$", part, re.IGNORECASE)
+        if reaction_type
+
+{ "reaction_summary": { 
+    "reaction_type":"...", 
+    "reactants":[{"name":"HETBAB","role":"catalyst"}], 
+    "products":[], 
+    "conditions":[{
+        {"type":"pressure","value":"1 MPa"}, 
+        {"type":"residence_time","value":14}, 
+        {"type":"flow_rate_reactant_A","value":null},
+        {"type":"flow_rate_reactant_B","value":null}
+    ]}
+
+{"reaction_summary": {}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "intrinsic kinetics", "reactants": [{"name": "solvent", "role": "solvent"}], "products": [], "conditions": [{"type": "residence_time", "value": "10 min"}, {"type": "temperature", "value": null}, {"type": "flow_rate_reactant_A", "value": null}], "reactor": {"type": "stirred reactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+{"reaction_summary": {"reaction_type": "microreactor", "reactants": [{"name": "PC", "role": "product"}], "products": [{"name": "PC", "yield_optimal": 99.8, "unit": "%"}], "conditions": [{"type": "pressure", "value": "3.5 MPa"}, {"type": "residence_time", "value": "14 s"}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 99.8, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "reactant|catalyst|solvent"}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "-20 °C"}, {"type": "residence_time", "value": 0.01}, {"type": "flow_rate_reactant_A", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 89, "selectivity": null, "unit": "%"}}}
+

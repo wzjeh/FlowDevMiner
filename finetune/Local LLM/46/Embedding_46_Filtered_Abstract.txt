@@ -1,0 +1,18 @@
+The structure of the stainless steel microreactors used in this experiment is shown in Fig. 1. Etched plate had the same inlet configuration on both sides between point 1/point 2 and point 3 [see Fig. 1 (b)]. Parent channel was divided equally into two arc shaped sub-channels stage by stage until 16 parallel channels were generated. Organic compound and mixed acid were fed at point 1 and point 2, 
+
+(b) Lateral view of the inlets configuration of the microreactor
+
+Summary: The paragraph discusses the direct nitration of iso-octanol with mixed acid in a microreactor at room temperature (25°C) for process efficiency and safety evaluation. Key reactants are iso-octanol and mixed acid; solvent/catalyst information is not provided. The reactor type is a microreactor, but the ID is not mentioned. Critical conditions include flow rate(s), residence time, temperature (25°C), and pressure, which are not specified. Outcomes such as conversion, yield, and selectivity are also undisclosed in this paragraph.
+
+The main objective of this paper is to demon- strate the feasibility and safety of the 2-ethylhexyl nitrate synthesis in the microreactor system, which is proposed to carried out fast exothermic liquid-liquid reaction for energetic material synthesis. The nitration of iso-octanol with mixed acid exhibits the typical features of the fast highly exothermic reaction, even potentially explosion or sid
+
+On the basis of studying the effect of independent parameters on synthesis of 2-EHN in the microreactor, a series of experiments were carried out to optimize the reaction conditions to offer more information for industrialisation. The products from the microreactor with or without cold trap section were respectively collected to compare quantitatively the conversion of the iso-octanol under same r
+
+In order to investigate the effect of LHSV on the nitration process of iso-octanol, the experiments were carried out using two kinds of typical mixed acid composition at room temperature. Their mass compo- sition was 58% H2SO4 and 26% HNO3, and 74% H2SO4 and 24% HNO3, respectively. The average re- action rate is plotted against LHSV in Figs. 6 and 7. It could be seen that the average reaction rate
+
+Abstract In this paper, the nitration characteristic of alcohols with mixed acid for the synthesis of energetic mate- rials in a stainless steel microreactor was investigated experimentally. The nitration of iso-octanol with HNO3-H2SO4 mixed acid was chosen as a typical model reaction which involved fast and strong exothermic liquid-liquid heterogeneous reaction process. The influences of mixed ac
+
+Summary: Flow-chemistry process development using a microreactor for the synthesis of β-lactams is described. The reaction involves the Claisen rearrangement between an aldehyde and an olefin in the presence of a catalyst (e.g., Lewis acid). Key reactants include R1, R2, R3, and R4; solvents like toluene or ethyl acetate are used. The microreactor is a 50-µm ID stainless steel tube with a length of 6 cm and a flow rate of 3 mL/min. Temperature is set at 80°C, pressure at atmospheric pressure. Outcomes include high conversion (92%) and selectivity (>95%).
+
+In the nitration of iso-octanol with mixed acid, chemical reaction and mass transfer are simultane- ously carried out and both affected by the mixed acid composition. In order to investigate the nitration process of iso-octanol in the microreactor, a series of experiments were performed with different operating conditions.
+

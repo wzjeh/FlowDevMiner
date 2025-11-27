@@ -1,0 +1,22 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | H2O2 yield | unchanged |
+| temperature | H2 conversion | unchanged |
+| pressure | H2O2 yield | unchanged |
+| pressure | H2 conversion | unchanged |
+| catalyst_loading | H2O2 yield | increase |
+| catalyst_loading | H2 conversion | increase |
+| catalyst_loading | H2O2 selectivity | increase |
+| residence_time | H2O2 concentration | increase |
+| flow_rate | residence_time | decrease |
+| Ni_doping | H2O2 selectivity | increase |
+| Ni_doping | H2O2 yield | increase |
+| Ni_doping | catalytic_activity | increase |
+| Ni_doping | O−O_bond_dissociation | decrease |
+| LA_functionalization | Pd2+_concentration | increase |
+| LA_functionalization | O−O_bond_dissociation | decrease |
+| LA_functionalization | catalyst_stability | increase |
+| LA_functionalization | H2O2_selectivity | increase |
+| LA_functionalization | H2O2_yield | increase |

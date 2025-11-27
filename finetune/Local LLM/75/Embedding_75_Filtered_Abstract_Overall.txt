@@ -1,0 +1,101 @@
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["benzene", "HNO3"],
+    "products": ["nitrobenzene"],
+    "conditions": [
+      {"type":"flow_rate","value":1},
+      {"type":"residence_time","value":0.02},
+      {"type":"temperature","value":40-80}
+    ],
+    "reactor":{"type":"capillary microreactor", "inner_diameter":50-200},
+    "metrics":{
+        "conversion":null,
+        "yield":89.5
+    }
+  },
+  "reaction_summary_2": {
+    "reaction_type": "nitration",
+    "reactants": ["toluene","HNO3"],
+    "products": ["dinitrotoluene"],
+    "conditions": [
+      {"type":"flow_rate","value":1},
+      {"type":"residence_time","value":0.02},
+      {"type":"temperature","value":40-80}
+    ],
+    "reactor":{"type":"capillary microreactor", "inner_diameter":50-200},
+    "metrics":{
+        "conversion":null,
+        "yield":89
+    }
+  },
+  "reaction_summary_3": {
+    "reaction_type": "nitration",
+    "reactants": ["benzene","HNO2"],
+    "products": ["dinitrobenzene"],
+    "conditions": [
+      {"type":"flow_rate","value":1},
+      {"type":"residence_time","value":0.02},
+      {"type":"temperature","value":40-80}
+    ],
+    "reactor":{"type":"capillary microreactor", "inner_diameter":50-200},
+    "metrics":{
+        "conversion":null,
+        "yield":88
+    }
+  },
+  "reaction_summary_4": {
+    "reaction_type": "nitration",
+    "reactants": ["toluene","HNO2"],
+    "products": ["dinitrotoluene"],
+    "conditions": [
+      {"type":"flow_rate","value":1},
+      {"type":"residence_time","value":0.02},
+      {"type":"temperature","value":40-80}
+    ],
+    "reactor":{"type":"capillary microreactor", "inner_diameter":50-200},
+    "metrics":{
+        "conversion":null,
+        "yield":87
+    }
+  },
+  "reaction_summary_5": {
+    "reaction_type": "nitration",
+    "reactants": ["benzene","HNO3"],
+    "products": ["trinitrobenzene"],
+    "conditions": [
+      {"type":"flow_rate","value":1},
+      {"type":"residence_time","value":0.02},
+      {"type":"temperature","value":40-80}
+    ],
+    "reactor":{"type":"capillary microreactor", "inner_diameter":50-200},
+    "metrics":{
+        "conversion":null,
+        "yield":86
+    }
+  },
+  "reaction_summary_6": {
+    "reaction_type": "nitration",
+    "reactants": ["toluene","HNO3"],
+    "products": ["trinitrotoluene"],
+    "conditions": [
+      {"type":"flow_rate","value":1},
+      {"type":"residence_time","value":0.02},
+      {"type":"temperature","value":40-80}
+    ],
+    "reactor":{"type":"capillary microreactor", "inner_diameter":50-200},
+    "metrics":{
+        "conversion":null,
+        "yield":85
+    }
+  },
+  "reaction_summary_7": {
+    "reaction_type": "nitration",
+    "reactants": ["benzene","HNO2"],
+    "products": ["trinitrobenzene"],
+    "conditions": [
+      {"type":"flow_rate","value":1},
+      {"type":"residence_time","value":0.02},
+      {"type":"temperature","value":40-80}
+    ],
+    "reactor":{"type":"capillary microreactor", "inner_diameter":50-200}

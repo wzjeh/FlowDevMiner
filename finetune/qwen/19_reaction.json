@@ -1,0 +1,52 @@
+{
+  "reaction_type": "hydrogenolysis",
+  "reactants": [
+    {
+      "name": "N-diphenylmethylazetidin-3-ol",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd(OH)2/Al2O3",
+      "role": "catalyst"
+    },
+    {
+      "name": "methanol",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "3-azetidinol",
+      "yield_optimal": 100.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "80 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "5 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.4 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "25 bar"
+    }
+  ],
+  "reactor": {
+    "type": "micropacked bed",
+    "inner_diameter": "4.35 mm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": null,
+    "selectivity": 100.0,
+    "unit": "%"
+  }
+}

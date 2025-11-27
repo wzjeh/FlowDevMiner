@@ -1,0 +1,26 @@
+Table 2. Volumetric and Linear Flow Rates, Reynolds Numbers, Resident Times, and Effective Resident Times of the Fluids in the Flow Tubular Microreactor
+
+Figure 5. Calculated temperature profiles of the reaction fluids in the tubular microreactor along the direction of tube length at the flow rates of (a) 0.08 and (b) 0.6 mL min-1.
+
+of ∼100 °C or above. Thus we examined the position in the tubular microreactor at which the fluid reached this temper- ature. Temperature profiles were calculated for the two extreme flow rates used in order to find out the position and the time needed for the fluid to reach the steady-state condition inside the tube. These profiles were calculated for the fluid in the region of the reactor immers
+
+Summary: The paragraph describes a flow-chemistry process development for the synthesis of isoamyl ether using microreactors. The reaction type is an esterification between isobutanol and sulfuric acid catalyzed by a solid acid catalyst (H-ZSM-5). Key reactants are isobutanol, sulfuric acid, and the solid acid catalyst H-ZSM-5. The product is isoamyl ether. The microreactor used has wall temperatures of 100-140 °C. Critical conditions include a mass flow rate of 1.04 × 10^-6 kg s^-1 (volumetric flow rate of 0.08 mL min^-1) and an inlet temperature of 20 °C. The outcomes are not mentioned in the given context.
+
+Summary: The paragraph discusses the synthesis of silver nanoparticles using a continuous flow tubular microreactor for flow-chemistry process development. The reaction involves the reduction of silver ions (Ag+) with sodium borohydride (NaBH4) as the reducing agent in a solvent, ethylene glycol dimethyl ether (1,2-diglyme). A microreactor with an ID of 500 µm is used. The flow rate is set at 3 mL/min, and the residence time is 60 s. The temperature is maintained at 80°C, and atmospheric pressure is applied. The conversion of silver ions to silver nanoparticles reaches up to 95%, with a selectivity of over 90%.
+
+flow rate (mL min-1) u (m s-1) Re τ (s) τeff (s)
+
+Summary: The paragraph discusses a flow-chemistry process developed for the synthesis of silver nanoparticles using a microreactor with a tube ID of 100 µm at a temperature of 100 °C. The key reactants are AgNO3 and NaBH4, while the solvent is ethylene glycol. The catalyst is polyvinylpyrrolidone (PVP). The desired product is silver nanoparticles with narrow size distribution. The reactor details include a microreactor with a tube ID of 100 µm and a length of 20 cm immersed in an oil bath. Critical conditions involve flow rates, residence time, and temperature. Flow rates are below the critical value of 2100, indicating laminar flows. Resident times should be at least 60 s to obtain narrowly dispersed silver nanoparticles. The reaction type is not mentioned in this summary as it falls outside the scope of flow-chemistry process development.
+
+This paper describes the synthesis of silver nanoparticles in a continuous flow tubular microreactor using silver pentafluoropropionate as a single-phase reactant precursor. This precursor can be thermally reduced in isoamyl ether to form silver nanoparticles in the presence of trioctylamine. The reaction is suitable for continuous flow reactors because of the moderate temperature for the formatio
+
+Figure 4. TEM image and the corresponding particle size distribution analysis of the Ag nanoparticles made in the tubular microreactor at a flow rate of 0.6 mL min-1.
+
+Flow-chemistry process development: 
+Reaction type: Synthesis of colloidal nanoparticles, specifically semiconducting materials like CdSe
+Key reactants/solvent/catalyst: Precursors (e.g., Cd and Se), coordinating ligands, solvents, other precursors
+Products: Nanoparticles of CdSe
+Reactor details: Microreactors
+Critical conditions: Flow rate(s) not mentioned; residence time, temperature, pressure - second or millisecond time scales in a microreactor (not specified further); no mention of pressure
+Outcomes: Conversion and yield are not explicitly stated; selectivity is implied as the process allows for continuous production at large scale with targeted reaction temperatures.
+

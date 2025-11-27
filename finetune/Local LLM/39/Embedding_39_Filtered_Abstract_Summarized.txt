@@ -1,0 +1,83 @@
+{"name": name, "role": role}
+
+{"reaction_summary": { "reaction_type": match.group(1).lower() }}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "1.2 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reactants": [], "products": [{"name": "...", "yield_optimal": null, "unit": "%"}], "conditions": [{"type": "temperature", "value": "..."}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [{"name": "Solution A", "role": "solvent"}], "products": [], "conditions": [{"type": "temperature", "value": "70 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}, {"type": "pressure", "value": null}], "reactor": {"type": "microchannel reactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{next_word}
+
+# Parse temperature and flow rate
+    temp = None
+    flow_rate_total = 0.0
+    
+    match_temp = re.search(r"(\d+) °C", input_str)
+    if match_temp:
+        temp = int(match_temp.group(1))
+    
+    match_flow_rate = re.search(r"Flow rate (\d+(?:\.\d+)? mL/min)", input_str)
+    if match_flow_rate:
+        flow_rate_total = float(match_flow_rate.group(1))
+
+    # Parse reactor type and inner diameter
+    reactor_type = None
+    inner_diameter = 0.0
+    
+    match_reactor = re.search(r"in a (\w+) with an inner diameter of (\d+(?:\.\d+)? mm)", input_str)
+    if match_reactor:
+        reactor_type = match_reactor.group(1).lower()
+        inner_diameter = float(match_reactor.group(2))
+
+    # Parse products
+    product_yield_optimal = 0.0
+    
+    match_product = re.search(r"yield (\d+(?:\.\d+)?)%", input_str)
+    if match_product:
+        product_yield_optimal = float(match_product.group(1))
+
+{word}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'photocatalytic halogenation of benzyl c', input_str, re.IGNORECASE)
+    if match:
+        reaction_type = "halogenation"
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    reactant_names = ["benzyl", "c"]
+    
+    # Parse products (if present)
+    product_match = re.search(r'yield (\d+)%', input_str, re.IGNORECASE)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+    else:
+        yield_optimal = None
+    
+    # Parse conditions
+    condition_matches = []
+    
+    for match in re.finditer(r'(T=\d+\s*°C|residence_time\s*\d+min|flow_rate \d+(?:\.\d)? mL/min)', input_str, re.IGNORECASE):
+        value_match = re.search(r'(\d+(?:\.\d)?)', str(match.group(0)))
+        
+        if match.group(0).startswith('T=
+
+{
+  "Flow chemistry process development involving a photo­ catalytic reaction in a microchannel reactor system": {
+    "The key reactants are ethylene (EC) and chlorine (Cl₂), with the molar ratio of EC:Cl₂ being 1:0.48."
+  },
+  "The products formed are not mentioned.",
+  "The reactor type is a microchannel reactor, but its ID is not specified.",
+  "The critical conditions include a temperature of 85 °C and residence times ranging from 12.5 to 25 min.",
+  "The reaction is monitored by measuring the conversion of EC, which initially increases with residence time before peaking at 38.9% at 18.5 min and then declining significantly at 25 min."
+}
+

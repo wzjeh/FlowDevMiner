@@ -1,0 +1,14 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion | increase |
+| temperature | selectivity | decrease |
+| nitration_ratio | conversion | increase |
+| nitration_ratio | selectivity | unchanged |
+| flow_rate | conversion | increase |
+| residence_time | conversion | increase |
+| catalyst_loading | not mentioned | - |
+| reactant_concentration | not mentioned | - |
+| pressure | not mentioned | - |
+| residence_time | selectivity | unchanged |

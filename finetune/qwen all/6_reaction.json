@@ -1,0 +1,52 @@
+{
+  "reaction_type": "oxidation",
+  "reactants": [
+    {
+      "name": "2-[3-Methyl-4-(2,2,2-trifluoroethoxy)-2-pyridinyl] methylthio-1H-benzimidazole 6a",
+      "role": "reactant"
+    },
+    {
+      "name": "aq NaOCl",
+      "role": "catalyst"
+    },
+    {
+      "name": "acetonitrile",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "lansoprazole 1a",
+      "yield_optimal": 79.4,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "0-10 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "~1 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "900 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "micromixer",
+    "inner_diameter": "0.35-1.5 mm"
+  },
+  "metrics": {
+    "conversion": 98.9,
+    "yield": 79.4,
+    "selectivity": 97.94,
+    "unit": "%"
+  }
+}

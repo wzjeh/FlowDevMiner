@@ -1,0 +1,52 @@
+{
+  "reaction_type": "solution polymerization",
+  "reactants": [
+    {
+      "name": "pyromellitic dianhydride (PMDA)",
+      "role": "reactant"
+    },
+    {
+      "name": "4,4-(hexafluoroisopropylidene)diphthalic anhydride (6FDA)",
+      "role": "reactant"
+    },
+    {
+      "name": "DMAc",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "poly(amic acid)s",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "20 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": "19.6 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.4 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "tubing",
+    "inner_diameter": "1 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

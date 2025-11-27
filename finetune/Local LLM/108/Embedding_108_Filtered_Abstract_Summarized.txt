@@ -1,0 +1,47 @@
+{"type":"flow_rate_reactant_A","value": str(278) + "-1100 µL/s"}
+
+{"name": None, "yield_optimal":None,"unit":None}
+
+{"type":"flow_rate_reactant_A","value":"0.1 mL/min"}
+
+# Parse temperature and residence time
+    temp_match = re.search(r"(\d+) °C", input_str)
+    if temp_match:
+        temp_value = int(temp_match.group(1))
+    
+    res_time_match = re.search(r"in (\d+ min)", input_str)
+    if res_time_match:
+        res_time_value = float(res_time_match.group(1))
+
+    # Parse flow rate
+    flow_rate_match = re.search(r"(\d+) mL/min", input_str)
+    if flow_rate_match:
+        flow_rate_total = int(flow_rate_match.group(1))
+    
+    # Parse reactor length and type (2 m vs. 6 m, coil or microreactor)
+    reactor_length_match = re.search(r"(micro)?reactor|coil (\d+)m", input_str)
+    if reactor_length_match:
+        reactor_type = "microreactor" if reactor_length_match.group(1) else "coil"
+        inner_diameter = None
+        if len(reactor_length_match.groups()) > 2 and reactor_length_match.group(3):
+            inner_diameter = float(reactor_length_match.group(3))
+    
+    # Parse dye conversion (yield)
+    yield_match =
+
+{"name": None, "yield_optimal": 95, "unit": "%"}
+
+{
+                "name": None,
+                "yield_optimal": int(value),
+                "unit": "%"
+            }
+
+{"type":"initial_concentration","value":"12.5–50 μm"}
+
+{"reaction_summary": {"reaction_type": "flow-chemistry", "reactants": [{"name": "Cdye,in", "role": "catalyst"}, {"name": "[PI]in", "role": "solvent"}], "products": [], "conditions": [{"type": "temperature", "value": "..."}, {"type": "residence_time", "value": null}, {"type": "flow_rate_total", "value": "278-1100 µL/s"}, {"type": "pressure", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"name": "Conversion of BY28", "yield_optimal":95, "unit":"%"}
+
+{"name": "BY28", "role": "reactant"}
+

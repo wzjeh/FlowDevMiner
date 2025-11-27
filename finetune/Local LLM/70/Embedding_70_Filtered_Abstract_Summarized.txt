@@ -1,0 +1,55 @@
+{"reaction_summary": {"reaction_type": "chemical", "reactants": [], "products": [{"name": null, "yield_optimal": null, "unit": null}], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": null}], "reactor": {"type": "silicon carbide microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+{"reaction_summary": {"reaction_type": "nitrating", "reactants": [{"name": "toluene", "role": "reactant"}, {"name": "nitric acid", "role": "catalyst"}], "products": [{"name": "mononitrotoluene (MNT)", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "60 °C"}, {"type": "residence_time", "value": 120}, {"type": "flow_rate_reactant_A", "value": 1.5}, {"type": "pressure", "value": "atmospheric pressure"}], "reactor": {"type": "tubular reactor", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": 95, "yield": 85, "selectivity": 85, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "nitration", "reactants": [{"name": "toluene", "role": "reactant"}], "products": [{"name": "trinitrotoluene (TNT)", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+from typing import List
+
+
+    # Parse reaction type (if any)
+    match = re.search(r'(\w+)-', input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r'\b\w+\b(?![a-z])', input_str)
+    reactant_names = [match for match in matches]
+    
+    # Parse products (yield optimal)
+    product_match = re.search(r'(\d+)% yield (\d+)%', input_str)
+    if product_match:
+        yield_optimal, _ = map(int, product_match.groups())
+    else:
+        yield_optimal = None
+    
+    # Parse conditions
+    temperature_match = re.search(r'T=([0-9]+) °C', input_str)
+    residence_time_match = re.search(r'residence time ([0-9.]+)', input_str)
+    
+    flow_rate_reactant_A_match = re.search(r'flow rate (\d+(?:\.\d+)?)
+
+{"type": "flow_rate_total", "value": f"{flow_rate_reactant_A} mL/min"}
+
+{
+        "conversion": 90,
+        "yield": null, 
+        "selectivity": null
+    }
+
+{"type": "flow_rate_total", "value": f"{float(flow_rate_value)} {unit}"}
+
+{"name": None, "yield_optimal": optimal_yield, "unit": "%"}
+
+{
+        "conversion": None,
+        "yield": None,
+        "selectivity": None,
+        "unit": "%"
+    }
+

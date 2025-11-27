@@ -1,0 +1,113 @@
+{"name": name, "yield_optimal": None, "unit": "%"}
+
+{ "reaction_summary": {  "reaction_type":"liquid-liquid reaction",  "reactants":[{"name":"benzene","role":"solvent"}, {"name":"toluene","role":"unknown"}],  "products":[],  "conditions":[    {"type":"temperature","value":"null °C"},    {"type":"residence_time","value":null},    {"type":"flow_rate_reactant_A","value":null},    {"type":"flow_rate_reactant_B","value":null},    {"type":"pressure","value":null}  ],  "reactor":{"type":"microchannel", "inner_diameter":null}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-nitration', text, flags=re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).capitalize()
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    reactant_names = []
+    for word in text.split():
+        if word.lower() == 'reactant':
+            reactant_name = re.search(r'(\w+)', text, flags=re.IGNORECASE)
+            reactant_names.append(reactant_name.group(1))
+    
+    # Parse products (yield optimal)
+    product_yield_optimal = None
+    for word in text.split():
+        if word.lower() == 'yield':
+            match = re.search(r'(\d+)%', text)
+            if match:
+                product_yield_optimal = int(match.group(1))
+
+    # Parse conditions
+    temperature_value = None
+    residence_time_value = None
+    flow_rate_reactant_A_value = None
+    flow_rate_reactant_B_value = None
+    pressure_value = None
+    
+    for word
+
+{"name": name, "role": role}
+
+- Assume that if a field is not explicitly stated, it should be null.
+
+
+
+
+
+    # Parse reaction type and reactants/products
+    match = re.search(r"(\w+) reacting with (\w+)", input_str)
+    if match:
+        reaction_type = "unknown"
+        reactant_A_name = match.group(1).capitalize()
+        reactant_B_name = match.group(2).capitalize()
+
+        # Parse products and yield optimal
+        product_match = re.search(r"(\d+) % yield", input_str)
+        if product_match:
+            yield_optimal = int(product_match.group(1))
+    else:
+        reaction_type = None
+        reactant_A_name, reactant_B_name = "unknown", "unknown"
+        yield_optimal = 0
+
+    # Parse conditions (temperature and residence time)
+    temperature_match = re.search(r"(\d+) °C", input_str)
+    if temperature_match:
+        temp_value = int(temperature_match.group(1))
+    else:
+        temp_value = None
+    res_time_match = re.search(r"in (\d+ min)", input_str)
+    if res_time_match:
+        residence_time = float(res_time_match.group(1)) /
+
+{1,2}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"name":product_name,"yield_optimal":95,"unit":"%"}
+
+{
+        "conversion": None,
+        "yield": 95,
+        "selectivity": None,
+        "unit": "%"
+    }
+
+- Assume that if a field is not explicitly stated in the input text, it should be included with default values.
+
+Step 1
+Split the paragraph into sentences and extract relevant information. 
+The experimental investigation of multiphase flow through narrow sub-millimeter channels was conducted in a range of devices and materials.
+Initial work in this area was performed in etched stainless steel and glass systems and has been described in earlier publications by Burns et al. (1997).
+The development of devices to generate slug flow for reactions concentrated on the use of transparent material.
+
+Step 2
+Identify relevant information from each sentence:
+- Sentence 1: No reaction data.
+- Sentence 2: No reaction data, but mentions a publication that might contain useful information.
+- Sentence 3: Reaction type is "slug flow", and materials used are "transparent material".
+
+Step 3
+Extract the most informative/complete data for fields like reactants, products, reactor. 
+From sentence 3:
+- Reactor type: slug flow (not coil or other types).
+- Materials: transparent material.
+
+Step 4
+Determine default values for unknown fields.
+Default reaction_type is null since it's not explicitly stated in the input text.
+No information about reactants and products; use empty lists/objects
+

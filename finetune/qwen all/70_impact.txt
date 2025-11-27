@@ -1,0 +1,12 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of toluene | increase |
+| residence_time | conversion of toluene | increase |
+| catalyst_loading (H2SO4 mass fraction) | conversion of toluene | increase |
+| reactant_concentration (molar ratio HNO3 to toluene) | conversion of toluene | increase |
+| temperature | yield of MNT | increase |
+| residence_time | yield of MNT | increase |
+| catalyst_loading (H2SO4 mass fraction) | yield of MNT | increase |
+| reactant_concentration (molar ratio HNO3 to toluene) | yield of MNT | increase |

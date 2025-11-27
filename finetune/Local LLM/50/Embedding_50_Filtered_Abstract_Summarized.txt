@@ -1,0 +1,108 @@
+{"reaction_summary": {"reaction_type": "microreactor", "reactants": [], "products": [{"name": null, "role": null, "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "10 min"}], "reactor": {"type": "microreactor", "inner_diameter": "2 mm"}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "microchannel", "reactants": [], "products": [{"name": "nano-sized particles", "yield_optimal": null, "unit": "%"}], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": null}], "reactor": {"type": "flow type microchannel reactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{
+        "type": re.search(r"(\w+)",text).group(1),
+        "inner_diameter":re.search(r"(\d+\.\d+) mm",text).group(0)
+    }
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+Step 1: Parse input string into individual words
+"Flow rate 0.1 mL/min, T=80 °C in a 0.5 mm coil; yield 82%."
+
+
+
+| Field | Keywords |
+| --- | --- |
+| reaction_type | null (no keyword) |
+| reactants | A,B,catalyst,solvent |
+| products | yield,product |
+| conditions | temperature,residence_time,flow_rate,presure |
+| reactor | coil,microreactor,batch reactor,T-joint,micromixer |
+
+
+
+- **reaction_type**: null
+- **products**:
+	+ Name: yield (product)
+	+ Yield optimal: 82%
+	+ Unit: %
+- **conditions**:
+	+ Temperature: T=80 °C
+	+ Residence time: no keyword found, assume not present
+	+ Flow rate of reactant A/B: flow_rate_reactant_A = 0.1 mL/min (assuming only one type of flow rate is mentioned)
+	+ Pressure: pressure = null
+
+{ "reaction_summary": {  "reaction_type":"synthesis",  "reactants":[{"name":"Zn2+","role":"catalyst"}, {"name":"NaOH","role":"solvent"}],  "products":[{"name":"ZnO nanoparticles","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"... °C"},    {"type":"residence_time","value":"... min"},    {"type":"flow_rate_reactant_A","value":"0.1 mL/min"}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "reactant|catalyst"}], "products": [{"name": "C", "yield_optimal": null, "unit": "%"}], "conditions": [{"type": "temperature", "value": "25 °C"}, {"type": "residence_time", "value": "360 min"}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "flow_rate_reactant_B", "value": null}, {"type": "pressure", "value": "atmospheric"}], "reactor": {"type": "CSTR", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+from typing import List
+
+
+    # Parse reaction type (if any)
+    match = re.search(r"(\w+)-", paragraph)
+    if match:
+        reaction_type = match.group(1).lower()
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    reactant_names = []
+    for word in paragraph.split():
+        if word.lower() == "reactant":
+            reactant_name = re.search(r"(\w+)-", paragraph)
+            if reactant_name:
+                reactant_names.append(reactant_name.group(1).lower())
+    
+    # Parse products
+    product_yield_optimal = None
+    for word in paragraph.split():
+        match = re.search(r"(\d+)%", word)
+        if match and (product_yield_optimal is None or int(match.group(1)) > product_yield_optimal):
+            product_yield_optimal = int(match.group(1))
+    
+    # Parse conditions
+    temperature_value = None
+    residence_time_value = None
+    flow_rate_reactant_A_value = None
+    flow_rate_reactant
+
+- Assume that if a field is not explicitly stated in the input paragraph, it should be included with default values.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"([A-Za-z0-9_]+)", input_str)
+    reactant_names = [match for match in matches if not any(word in match.lower() for word in ["yield", "rate", "t", "temperature"])]
+    
+    # Parse products (if present)
+    product_match = re.search(r"(\d+)% yield (\w+)", input_str)
+    if product_match:
+        optimal_yield = float(product_match.group(1))
+        product_name = product_match.group(2).capitalize()
+        
+    else: 
+        optimal_yield = None
+        product_name = None
+    
+    # Parse conditions (if present)
+    condition_matches = re.findall(r"(\d+\.?\d*)\s*(mL/min|°C|min)", input_str)
+    
+    if
+

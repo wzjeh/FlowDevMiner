@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "trifluorotoluene",
+      "role": "reactant"
+    },
+    {
+      "name": "mixed acid",
+      "role": "catalyst"
+    },
+    {
+      "name": "none",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "3-trifluoromethylnitrobenzene",
+      "yield_optimal": 100,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "30 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": "30 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "60 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": 1.8
+    }
+  ],
+  "reactor": {
+    "type": "Heart-type micromixer",
+    "inner_diameter": "1.1379 mm"
+  },
+  "metrics": {
+    "conversion": 100,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

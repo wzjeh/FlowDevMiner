@@ -1,0 +1,20 @@
+Compared with traditional nitration method, the continuous nitra­ tion process using microchannel reactors has series of advantages. However, the channel size of microchannel reactors is generally concentrated in the range of micron to submillimeter, which generates shortcomings such as small reaction flux and channel blockage. When blockage occurs, the pressure in the microchannel reactor will in
+
+According to the data, compared to the semi-batch reactor, the space time yield of microchannel reactor has improved by almost two orders of magnitude. The annual production also increased significantly as the microchannel reactor was scaled up. Compared to the space-time yield of 1.36 g⋅L−1⋅s−1 obtained by Fu et al. in a mesoscale flow reactor with a quarter-inch internal diameter [16], the space
+
+In this study, two different microchannel reactors were assembled and toluene nitration was investigated in the microchannel reactor using HNO3-AC2O. The effects of temperature (T), molar ratio of nitric acid to toluene (molar ratio, MR), mass fraction of acetic anhydride in the mixed acid (ω), and residence time (τ) on the nitration were investi­ gated. And response surface methodology was used t
+
+microchannel reactor 2 c
+
+microchannel reactor 1 a
+
+a Data from optimized process. b Isoperibolic mode. c Volumetric flow rate= 18 mL⋅min−1. d A working year of 3000 h.
+
+Summary: Flow-chemistry process development in a microchannel reactor involves the use of continuous flow reactors for chemical synthesis. The focus is on optimizing reaction conditions such as temperature, pressure, and residence time distribution. Key components include reactants, solvents, catalysts, and the reactor itself (microchannel). Outcomes are dependent on conversion, yield, and selectivity of desired products.
+
+favorable to improve the mixing of the two phases at the T-shaped micromixer. A smaller droplet size facilitates an increase in the inter­ facial area between the two phases [30], which in turn improves the mass transfer performance and conversion. The method used in this work to enhance mass transfer is to increase the volumetric flow rate. In addition, the mass transfer performance can be enhanc
+
+Summary: Flow-chemistry process development in a microchannel reactor involves the use of continuous flow reactors for chemical synthesis. The focus is on optimizing reaction conditions such as temperature, pressure, and residence time to achieve high conversion, yield, and selectivity. Examples include Heck, Sonogashira, and Suzuki couplings using various catalysts like palladium or nickel complexes with key reactants/solvents. The reactor type is a microchannel ID (internal diameter) reactor, which allows for precise control of flow rates and residence times. Critical conditions vary depending on the reaction being studied but typically involve high pressures and temperatures to achieve desired outcomes in terms of conversion, yield, and selectivity.
+
+Summary: The paragraph discusses a flow-chemistry process development for dinitration reaction using a T-shaped micromixer reactor. The key reactants are not mentioned, but the products are likely nitrobenzene derivatives. The critical conditions include volumetric flow rate (18 mL/min), residence time, temperature (30.9 ◦C), and pressure is not specified. Although dinitration did not occur at the selected flow rate due to low overtemperature, the reactor structure can be modified for better temperature control in future studies.
+

@@ -1,0 +1,20 @@
+materials and final product and the same productivity, the volume of the reaction mixture in a batch reactor is several orders of magnitude higher than in a flow reactor [5]. The minimum amount of the reaction mixture in the reactor minimizes the explosion hazard of exothermic reactions. In addition to process safety, a significant reduction in the amount of reagents plays a significant role in so
+
+(capillary) reactors and standard volumetric ones is the laminar flow of fluids (liquids and gases). The use of capillaries provides almost perfect mixing of reagents due to diffusion. Ideal diffusion mixing pre­ determines the high selectivity and purity of the reaction, and, as a consequence, a significant reduction in the formation of by-products and intermediate products [3]. The ratio of the 
+
+The performance of a microcapillary reactor was compared to that of a batch type reactor (Table 1). A significant difference was obtained in the selectivity. Higher selectivity in the microcapillary reactor can be achieved through precise control of the reagent residence time. An in­ crease in the residence time results in a loss of selectivity due to the complete hydrogenation of the MBE. Selecti
+
+from 4 ml/min to 1 ml/min. The hydrogen flow rate was 25 times greater than the liquid velocity, providing a 5:1 M ratio of hydrogen to the substrate and full hydrogenation even at lower gas flow rates. Gas and liquid flow rates have the main effect on the structure of the two phase flow, setting the flow regime (slug flow and annular flow). For round pipes, it is advisable to use the ratios of in
+
+CMBY,0 х100; where CMBY,0 is the initial concentration of MBY; CMBY and CMBE are current concentrations of MBY and MBE, respectively; V is the reaction volume; vl liquid flow rate, t is the current reaction time in
+
+defined as A = (CMBY,0−CMBY)×V t×molPd × 100; activity in microcapillary reactor
+
+Fig. 2. Effect of liquid flow rate on conversion (a) and selectivity (b) over Pd/Ti0.95Ce0.05O2 (1), Pd80Zn20/Ti0.95Ce0.05O2 (2) and Pd/TiO2 (3). MBY 0.2 M (1,2), 0.11 M (3), vg– 2.00 mL/min, H2 1 atm, T 313 K.
+
+At a low gas flow rate (1 ml/min), the value of WeGS (13) exceeds the value of 11.0 × W0.14 LS (8.5), even at a high liquid flow rate (40 μl/min). The range of the applied gas and liquid flow rates corresponds to the annular flow regime. As a result of the decreased ratio between the gas and liquid flow rates, the liquid film flowing along the channel walls becomes thicker, which results in a long
+
+2.2.2. Continuous capillary reactor The coatings on the inner surface of the silica capillary were tested in the setup presented in Fig. 1 at the temperature range from 303 to 333 K. The setup consisted of a continuous flow syringe pump, hydrogen and helium mass flow controllers, connected to the reactor by tubes (250 μm in diameter) and thermostatic oven. The coating on the inner surface of the s
+
+on stream in terms of activity and selectivity at >97 % conversion (Fig.11) and conversion and selectivity at a constant liquid flow rate (Fig. 12). Our results showed that the MBY (1.0 M) conversion increases from 36.6 % to 99.4 % at a liquid flow rate of 0.03 mL/min during 20 h on stream due to cleaning the active surface from carbonaceous deposits [22]. Increasing run time from 20 h to 68 h inc
+

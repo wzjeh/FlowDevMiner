@@ -1,0 +1,60 @@
+{
+  "reaction_type": "azo-coupling",
+  "reactants": [
+    {
+      "name": "diphenylamine",
+      "role": "reactant"
+    },
+    {
+      "name": "p-nitroaniline",
+      "role": "reactant"
+    },
+    {
+      "name": "sodium nitrite",
+      "role": "reactant"
+    },
+    {
+      "name": "sodium dioctyl sulfosuccinate",
+      "role": "catalyst"
+    },
+    {
+      "name": "chloroform",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "azo compound",
+      "yield_optimal": 99.12,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "0 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "2.4 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.15 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "T-mixer with PEEK tubing",
+    "inner_diameter": "125 μm"
+  },
+  "metrics": {
+    "conversion": 99.12,
+    "yield": 99.12,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

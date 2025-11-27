@@ -1,0 +1,70 @@
+{
+    "Table 3": [
+        {"gas_flow_rate": 20, "liquid_flow_rate": 0.5},
+        # ...
+    ],
+    "Table 4": [
+        {"solvent": "water", "concentration": 0.118},
+        # ...
+    ]
+}
+
+# Define the optimal conditions
+optimal_conditions = {
+    "reaction_type": "hydrogenation",
+    "reactants": ["furfural", "H2", "Pd/C catalyst"],
+    "products": ["furfuryl alcohol"]
+}
+
+# Extract the optimal condition set from abstracts
+abstract_data = [
+    {"temperature": 60, "pressure": 2},
+    # ...
+]
+
+optimal_condition_set = {
+    "reaction_summary": {
+        "type": "hydrogenation",
+        "reactants": ["furfural", "H2"],
+        "products": ["furfuryl alcohol"]
+    },
+    "conditions": [
+        {"type": "temperature", "value": 60},
+        # ...
+    ],
+    "metrics": {
+        "conversion": 99.9,
+        "yield": None,  # Unknown
+        "selectivity": None,  # Unknown
+        "unit": "%"
+    }
+}
+
+# Output the optimal condition set as JSON
+print(json.dumps(optimal_condition_set))
+Output:
+{"reaction_summary":{"type":"hydrogenation","reactants":["furfural","H2"],"products":["furfuryl alcohol"]},"conditions":[{"type":"temperature","value":60},{"type":"pressure","value":2}],"metrics":{"conversion":99.9,"yield":null,"selectivity":null,"unit":"%"}}
+# Output the optimal condition set as JSON
+print(json.dumps(optimal_condition_set))
+Output:
+{"reaction_summary":{"type":"hydrogenation","reactants":["furfural","H2"],"products":["furfuryl alcohol"]},"conditions":[{"type":"temperature","value":60},{"type":"pressure","value":2}],"metrics":{"conversion":99.9,"yield":null,"selectivity":null,"unit":"%"}}
+# Output the optimal condition set as JSON
+print(json.dumps(optimal_condition_set))
+Output:
+{"reaction_summary":{"type":"hydrogenation","reactants":["furfural","H2"],"products":["furfuryl alcohol"]},"conditions":[{"type":"temperature","value":60},{"type":"pressure","value":2}],"metrics":{"conversion":99.9,"yield":null,"selectivity":null,"unit":"%"}}
+# Output the optimal condition set as JSON
+print(json.dumps(optimal_condition_set))
+Output:
+{"reaction_summary":{"type":"hydrogenation","reactants":["furfural","H2"],"products":["furfuryl alcohol"]},"conditions":[{"type":"temperature","value":60},{"type":"pressure","value":2}],"metrics":{"conversion":99.9,"yield":null,"selectivity":null,"unit":"%"}}
+# Output the optimal condition set as JSON
+print(json.dumps(optimal_condition_set))
+Output:
+{"reaction_summary":{"type":"hydrogenation","reactants":["furfural","H2"],"products":["furfuryl alcohol"]},"conditions":[{"type":"temperature","value":60},{"type":"pressure","value":2}],"metrics":{"conversion":99.9,"yield":null,"selectivity":null,"unit":"%"}}
+# Output the optimal condition set as JSON
+print(json.dumps(optimal_condition_set))
+Output:
+{"reaction_summary":{"type":"hydrogenation","reactants":["furfural","H2"],"products":["furfuryl alcohol"]},"conditions":[{"type":"temperature","value":60},{"type":"pressure","value":2}],"metrics":{"conversion":99.9,"yield":null,"selectivity":null,"unit":"%"}}
+# Output the optimal condition set as JSON
+print(json.dumps(optimal_condition_set))
+Output:
+{"reaction_summary":{"type":"hydrogenation","reactants":["furfural","H2"],"products":["furfuryl alcohol"]}

@@ -1,0 +1,205 @@
+<image: ICCBased(RGB,sRGB v4 ICC preference perceptual intent beta), width: 236, height: 298, bpc: 8>
+
+<image: ICCBased(RGB,sRGB v4 ICC preference perceptual intent beta), width: 248, height: 271, bpc: 8>
+
+Chemical Engineering and Processing - Process Intensification
+
+<image: ICCBased(RGB,sRGB v4 ICC preference perceptual intent beta), width: 118, height: 117, bpc: 8>
+
+Photothermal synergistic chlorination of ethylene carbonate in a solvent-free microchannel reactor
+
+Qi Wang , Yaxin Dong 1, Yuyu Wei , Chuanwei Zhang , Qi Zhang , Huijun Song , Jianlu Liu *
+
+Weifang Key Laboratory of Advanced Electrochemical Energy Storage Materials and Devices, Shandong Provincial Innovation Center for Efficient Utilization of Seawater Brine Resources, Shandong Haihua Group Co., Ltd.,Weifang 262737,China
+
+Keywords: Microchannel reactor C-H chlorination Selectivity Chloroethylene carbonate Green synthesis
+
+The photothermal chlorination of ethylene carbonate (EC) using liquid chlorine and benzoyl peroxide (BPO) initiator offers a green approach to C-H chlorination. However, batch reactors present challenges including prolonged reaction times and low chlorine utilization efficiency. These limitations may be effectively overcome through microchannel reactor technology. This study developed a green, safe process for selectively chlorinating EC to chloroethylene carbonate (CEC). In the microchannel reactor, liquid chlorine served as chlorinating agent and BPO as initiator under UV irradiation. After parameter optimization, the optimal conditions achieved 99.5% EC conversion and 84.1% CEC yield.
+
+steps, increasing overall costs and limiting industrial application. Furthermore, the chlor-alkali industry faces challenges stemming from the imbalance between chlorine and caustic soda production, alongside declining market performance of key downstream products such as polyvinyl chloride (PVC) and epichlorohydrin. Therefore, the develop- ment of novel downstream applications for liquid chlorine to enhance product value has become a critical priority.
+
+Chloroethylene carbonate (CEC) is a crucial intermediate for syn-
+
+thesizing surfactants, coatings, lithium battery electrolyte additives, and flame retardants [1–3]. Conventional preparation involves C-H chlori- nation of ethylene carbonate (EC) using acyl chlorides or liquid chlorine (Cl₂) as chlorinating agents, typically mediated by free radical initiators or ultraviolet (UV) irradiation [4–8].The acyl chloride route suffers from significant drawbacks: it generates mixed gaseous by-products (e.g., SO₂ and HCl) that reduce chlorine utilization efficiency and cause environ- mental pollution. Additionally, the high cost of acyl chlorides limits their industrial scalability [8,9].In contrast, Cl₂ chlorination offers greater economic viability due to low cost and abundance. However, this method requires excess chlorine to drive the heterogeneous reaction, resulting in poor chlorine utilization. Liquid chlorine's toxicity and high vapor pressure also create transportation and storage hazards, though it remains the preferred industrial option due to cost-effectiveness and availability [10–12].
+
+Solvent-free organic synthesis has emerged as a prominent research field due to its growing appeal [17]. While most C–H chlorination re- actions utilize solvents to benefit from the typically faster kinetics of homogeneous systems [18], studies of solvent-free organic reactions have opened promising new research avenues. Traditionally, these solvent-free chlorination reactions employ batch reactors. However, such systems suffer from significant limitations, including low reaction efficiency, poor selectivity, high operational intensity (labor-intensive- ness), and excessive waste generation. These drawbacks become particularly acute in large-scale production, where the risk of explosion also becomes substantial [19,20]. Consequently, developing effective methods to overcome these challenges is essential for advancing envi- ronmentally protective and energy-efficient green chemistry processes.
+
+To enhance chlorine utilization efficiency, researchers have explored alternative reagents and methods for C–H chlorination, including NaNO₂/O₂/HCl [13], MgCl₂/FeCl₃/CH₃CN/O₂ [14], Cu (OAc)₂/CH₃C- N/O₂/Ar₃NSbCl₆ [15], and MCPBA/DMF/H₂SO₄/NaCl [16]. Although these approaches improve chlorine efficiency, the introduction of metal impurities and organic solvents complicates subsequent purification
+
+In recent years, microchannel reactor technology has demonstrated considerable potential in chemical synthesis. Compared to conventional batch reactors [21,22], continuous-flow microchannel reactors offer distinct advantages, including a high surface area-to-volume ratio,
+
+https://doi.org/10.1016/j.cep.2025.110497 Received 11 April 2025; Received in revised form 15 July 2025; Accepted 6 August 2025
+
+Available online 7 August 2025 0255-2701/© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+enhanced heat and mass transfer efficiency, operational flexibility, enhanced safety, and minimal by-product formation. These features enable precise control of reaction conditions, leading to high selectivity and simplified scalability. Consequently, continuous-flow microchannel reactors have found broad application in photocatalytic chemistry, encompassing photocatalytic halogenation of benzyl compounds [11, 12,23], photocatalytic oxidation [24], photocatalytic diazotization [25], cyclopropanation of heteroaryl and aryl diazo compounds [26], and addition reactions of heteroaromatic compounds [27].In the domain of C-H chlorination, researchers including Ilhyong Ryu et al. [6, 28,29] and Jiquan Zhao et al. [12,30] have achieved selective C-H chlorination of alkanes, arenes, and carbonates using microchannel re- actors, yielding encouraging outcomes. Klaus J¨ahnisch et al. [31] has also reported successful photochemical chlorination in continuous-flow microreactors.
+
+millimeter-scale channels to establish plug flow with minimal back mixing, enabling efficient thermal management and precise regulation of reaction conditions.
+
+As illustrated in Fig. 1, the continuous-flow microreactor system comprises three core subsystems: a modular microreactor assembly, an LED illumination unit, and a temperature control module (Fig. 1(a)).The microreactor assembly integrates five functional segments: a premixing module (Fig. 1(b)) followed by four coiled FEP reaction modules (Fig. 1 (c)). Each reaction module has a coil configuration with 45 m length and dimensional parameters of 3 mm OD (outer diameter) / 2 mm ID (inner diameter).The LED unit employs uniformly distributed matrix arrays on bilateral sides to ensure homogeneous irradiance. The temperature control system incorporates integrated heating/cooling elements for precise thermal uniformity.
+
+The complete setup occupies a footprint of 1140 × 600 × 1100 mm (L × W × H).
+
+This study investigates the selective C-H chlorination of EC with Cl₂ to synthesize CEC in a continuous-flow microchannel reactor under UV irradiation. Liquid chlorine served as the chlorinating agent, and ben- zoyl peroxide (BPO) acted as the radical initiator. Through optimization of reaction parameters, we established a safe, green, and efficient pro- cess for CEC synthesis.
+
+In a typical experiment, Solution A was prepared by sequentially adding 1000 mL (14.86 mol) of liquefied ethylene carbonate (EC) and 13.4 g of benzoyl peroxide (BPO) into a conical flask. This solution was maintained above 40◦C to prevent crystallization.
+
+As depicted in Fig. 2, Solution A was preheated to 70◦C via a ther-
+
+mostatted plunger pump and fed into the reaction system. Simulta- neously, Gas B (Cl₂) was delivered from a high-pressure cylinder regulated by a pressure-reducing valve and mass flow controller. The two streams underwent premixing before entering the microchannel reactor. Reaction progression occurred under controlled temperature and pressure. Upon completion, the effluent was collected at the reactor outlet. Unreacted Cl₂ and byproduct HCl were scrubbed with 2M NaOH solution. System pressure was maintained using a back-pressure valve positioned downstream. Reaction products and byproducts were char- acterized by ¹H-NMR, ¹³C-NMR, and GC-MS analyses. (See Supporting Information Fig. S1-S3).
+
+Ethylene carbonate (EC, 99%), azobisisobutyronitrile (AIBN, 99%), benzoyl peroxide (BPO, 99%), and azobis(2,4-dimethylvaleronitrile) (ABVN, 99%) were purchased from Shanghai Aladdin Biochemical Technology Co., Ltd. Acetonitrile (CAN, ≥99.9%, gradient grade, suit- able for HPLC) was obtained from Sigma-Aldrich (Shanghai) Trading Co., Ltd. Liquid chlorine (Cl₂, 99.5%) was supplied by Shandong Haihua Group Co., Ltd.
+
+Reaction products and intermediates were analyzed by gas chro-
+
+matography (Shimadzu GC-2030) equipped with a flame ionization detector (FID) and an SK-5 capillary column (0.32 mm × 0.25 μm × 30 m).
+
+The standard calibration curve and linear equation for ethylene carbonate (EC) are shown in Supplementary Fig. S4. Analysis was per- formed using a GC-2030 equipped with an FID detector. The injection
+
+The continuous-flow microreactor (Model KX-P3-Pro) incorporated
+
+<image: ICCBased(RGB,sRGB v4 ICC preference perceptual intent beta), width: 1200, height: 910, bpc: 8>
+
+Fig. 1. Fig. caption. (a) The continuous-flow microchannel reactor consists of three independent components: the microreactor, the LED illumination module, and the heating module.(b) The microreactor is composed of five modules, including a premixing module.(c) The mixing and reaction module is a coil-type reactor.
+
+<image: ICCBased(RGB,sRGB v4 ICC preference perceptual intent beta), width: 1600, height: 775, bpc: 8>
+
+Fig. 2. The process flow of the photothermal synergistic chlorination reaction.
+
+port temperature was set to 280◦C, the detector temperature to 300◦C, and the oven initial temperature to 90◦C (held for 1 min). The oven temperature was then ramped at 30◦C/min to 250◦C and held for 6 minutes.
+
+<image: ICCBased(RGB,sRGB v4 ICC preference perceptual intent beta), width: 1040, height: 841, bpc: 8>
+
+The conversion of EC and the selectivities toward dichloroethylene carbonate (DCEC) and chloroethylene carbonate (CEC), along with the yield of CEC, were calculated using the following equations:
+
+Where ni (EC),nf (EC),n(CEC)and n(DCEC) represent the initial moles of EC,
+
+the final moles of EC, the moles of CEC, and the moles of DCEC, respectively.
+
+Fig. 3:. Effect of temperature on the photothermal synergistic chlorination of ethylene carbonate. Reaction conditions: 120 W UV light; EC:Cl₂ molar ratio = 1:0.48; Solution A: 1.5 wt% BPO dissolved in 1000 mL EC, 75 mmol/min; Gas B: Cl₂, 37.5 mmol/min; residence time: 18.5 min; reaction pressure: 0.8 MPa.
+
+the reaction substrate, which ultimately limited the improvement of reaction yields. Thus, The phenomenon can be explained by the close relationship between the chlorination rate and the concentration of chlorine radicals. Specifically, the generation of chlorine radicals under UV irradiation increases proportionally with temperature. Moreover, the reaction between EC and Cl₂ is endothermic, and higher tempera- tures favor the forward reaction. However, excessively high tempera- tures lead to the excessive generation of chlorine radicals. These radicals readily react with CEC, forming DCEC as a by-product. Consequently, the optimal reaction temperature was identified as approximately 85◦C.
+
+Reaction temperature proved to be a critical factor in the C-H chlo-
+
+rination of ethylene carbonate (EC) within a continuous-flow micro- channel reactor under specific wavelengths and light intensities. The primary reaction products were identified as chloroethylene carbonate (CEC) and dichloroethylene carbonate (DCEC), achieving a CEC selec- tivity of ≥80.0%, which demonstrates excellent selectivity under these conditions. As shown in Fig. 3, while maintaining the molar ratio of EC to Cl₂ at 1:0.48, the conversion of EC increased from 8.5% to 38.9% as the reaction temperature was raised from 50◦C to 85◦C.However, CEC selectivity decreased dramatically from 100% to 95.9%, while DCEC selectivity increased from 0% to 3.2%. A further increase in reaction temperature beyond 85◦C resulted in a modest rise in EC conversion, accompanied by a gradual decline in CEC selectivity from 95.9% to 90.5% and a corresponding increase in DCEC selectivity from 3.2% to 6.4%.
+
+Optimizing the molar ratio of EC to Cl₂ is crucial for enhancing chlorine utilization efficiency. As depicted in Fig. 4, increasing the EC: Cl₂ molar ratio from 1:0.07 to 1:0.99 resulted in increased EC conversion and DCEC selectivity, reaching 47.9% and 7.9%, respectively, at the 1:0.99 ratio. Concurrently, CEC selectivity and chlorine utilization ef- ficiency progressively declined, registering values of 91.0% and 48.3%
+
+Xiang M et al. [32] found that liquid chlorine, under heating or irradiation conditions, generated a large amount of uncontrolled chlo- rine radicals. These radicals subsequently led to the polychlorination of
+
+<image: ICCBased(RGB,sRGB v4 ICC preference perceptual intent beta), width: 1040, height: 826, bpc: 8>
+
+<image: ICCBased(RGB,sRGB v4 ICC preference perceptual intent beta), width: 1040, height: 788, bpc: 8>
+
+Fig. 4. Effect of EC to Cl₂ molar ratio on the photothermal synergistic chlori- nation of ethylene carbonate. Reaction conditions: 120 W UV light; Solution A: 1.5 wt% BPO dissolved in 1000 mL EC; Gas B: Cl₂, 5.4-44.6 mmol/min; resi- dence time: 18.5 min; reaction pressure: 0.8 MPa; reaction temperature: 85◦C.
+
+Fig. 5. Effect of residence time on the photothermal synergistic chlorination of ethylene carbonate. Reaction conditions: 120 W UV light; EC:Cl₂ molar ratio = 1:0.48; Solution A: 1.5 wt% BPO dissolved in 1000 mL EC, 75 mmol/min; Gas B: Cl₂, 35.7 mmol/min; reaction pressure: 0.8 MPa; reaction temperature: 85◦C.
+
+at this ratio. At an EC:Cl₂ molar ratio of 1:0.48, the reaction achieved an optimal balance, yielding an EC conversion of 38.9%, a high chlorine utilization efficiency of 81.7%, a significant CEC yield of 37.3%, and a low DCEC selectivity of 3.2%. Therefore, the optimal EC to Cl₂ molar ratio was identified as 1:0.48.
+
+Chlorine utilization efficiency is constrained by two key factors: the power of the ultraviolet LED and the mixing state of chlorine gas (Cl₂) and vinyl carbonate (EC). Higher UV light power excites more chlorine free radicals, promoting their reaction and improving utilization effi- ciency. However, this simultaneously reduces the ultraviolet LED's lifespan. Therefore, a balanced power of 120W is considered optimal under standard operating conditions.
+
+To achieve higher CEC yield with improved chlorine utilization ef-
+
+ficiency, the effect of the number of cycles on the C-H chlorination of EC was investigated at a constant total molar ratio of EC:Cl₂ = 1:1.43. As shown in Table 1, EC conversion increased with cycle count, while both CEC selectivity and chlorine utilization efficiency gradually decreased. After three cycles, the highest EC conversion (99.5%), chlorine utiliza- tion efficiency (69.7%), and maximum CEC yield (84.1%) were obtained.
+
+At low EC/Cl₂ molar ratios, the mixture exists as a gas-dispersed-in liquid (bubbly flow) regime where UV light efficiently activates the limited Cl₂. The resulting chlorine free radicals react rapidly with EC, achieving high chlorine utilization efficiency. However, the limited Cl₂ supply results in lower product yield. Conversely, at high molar ratios, the mixture transitions to a liquid-dispersed-in-gas (mist/spray) state. While exciting abundant Cl₂ generates copious chlorine free radicals and enhances product yield, the gas-liquid interface restricts their interac- tion with EC molecules. This limitation leads to underutilization of chlorine resources and reduced process efficiency. Consequently, an optimal EC/Cl₂ molar ratio exists that balances yield and chlorine uti- lization efficiency.
+
+As the number of cycles increased, the initial EC to Cl₂ molar ratio decreased. This led to lower chlorine utilization efficiency and CEC selectivity, while EC conversion and DCEC selectivity increased. Sub- sequently, the CEC yield initially rose but then declined. Therefore, three cycles were determined to be optimal, corresponding to an ideal initial EC to Cl₂ molar ratio of 1:0.48. Under these conditions, the C-H chlorination of EC in a microchannel reactor demonstrated superior performance compared to batch reactors, achieving higher chlorine utilization efficiency, shorter reaction times, and greater product yields. For comparison, similar chlorination reactions in batch reactors require an optimal EC to Cl₂ molar ratio of approximately 1:2 [20].
+
+In microchannel reactor systems, the residence time of reactants is another critical factor influencing the reaction, as it indirectly de- termines the effective duration of light exposure during the photo- catalytic process. The effect of residence time on the reaction was investigated at 85◦C and an EC:Cl₂ molar ratio of 1:0.48. As shown in Fig. 5, EC conversion initially increased with residence time, rising sharply at 12.5 min before peaking at 38.9% at 18.5 min. Beyond this residence time, conversion gradually declined, with a significant drop observed at 25 min.
+
+Beyond reaction temperature, reactant ratios, and residence time, light source characteristics and intensity critically influence chlorination efficiency. Under optimized conditions (85◦C, EC:Cl₂ = 1:0.48, 18.5 min, 0.8 MPa), varying the wavelength among 254 nm, 295 nm, and 365 nm demonstrated that shorter wavelengths enhance chlorination perfor- mance (Supplementary Table S1). This occurs because shorter wave- lengths possess higher energy, enabling more efficient cleavage of the Cl-Cl bond to generate chlorine radicals. Based on the Cl-Cl bond ioni- zation energy (242.4 kJ/mol), the critical wavelength for chlorine radical formation—calculated via the second law of photochemistry—is approximately 494 nm. Consequently, shorter wavelengths (with higher energy) promote dissociation more readily.
+
+The sharp increase in EC conversion at 12.5 min may be attributed to homogeneous gas-liquid mixing within the microchannel reactor, which forms a gas-in-liquid dispersion favorable for interfacial reactions. In contrast, the significant decline in EC conversion at residence times beyond 25 min is likely due to the transition to a liquid-in-gas disper- sion, where uneven mixing reduces mass transfer efficiency. Therefore,
+
+At 254 nm, the effect of light intensity was studied by adjusting the light source aperture. As shown in Fig. 6, EC conversion was negligible in darkness, though trace CEC detection indicated thermal Cl₂
+
+Table 1 Effect of cycle number on the photothermal synergistic chlorination of ethylene carbonate.
+
+Entry Conditions EC of conversion/% Product selectivity/% Yield of CEC /%
+
+75.0 17.9+17.9+17.9+17.9+17.9+17.9 100.0 62.8 25.9 62.8 70.1
+
+<image: ICCBased(RGB,sRGB v4 ICC preference perceptual intent beta), width: 1040, height: 851, bpc: 8>
+
+<image: ICCBased(RGB,sRGB v4 ICC preference perceptual intent beta), width: 1040, height: 840, bpc: 8>
+
+Fig. 6. Effect of light intensity on the photothermal synergistic chlorination of ethylene carbonate. Reaction conditions: EC:Cl₂ molar ratio = 1:0.48; Solution A: 1.5 wt% BPO dissolved in 1000 mL EC, 75 mmol/min; Gas B: 35.7 mmol/ min; residence time: 18.5 min; cycle number: 3; reaction pressure: 0.8 MPa; reaction temperature: 85◦C.
+
+Fig. 7. Effect of BPO initiator concentration on the photothermal synergistic chlorination of ethylene carbonate. Reaction conditions: 120 W UV light; EC:Cl₂ molar ratio = 1:0.48; Solution A: 0.4-2.5 wt% BPO dissolved in 1000 mL EC, 75 mmol/min; Gas B: 35.7 mmol/min; residence time: 18.5 min; cycle number: 3; reaction pressure: 0.8 MPa; reaction temperature: 85◦C.
+
+dissociation occurs. Activating the light source significantly increased reaction efficiency. Raising light intensity from 60 W to 120 W boosted EC conversion from 74.9% to 99.5% but reduced CEC selectivity from 89.8% to 84.5%. These results demonstrate that higher intensities generate more chlorine radicals, accelerating the photochemical reac- tion. However, further intensity increases produced only marginal gains in EC conversion while further decreasing CEC selectivity and increasing DCEC selectivity. This suggests excessive chlorine radical concentrations under intense irradiation promote side reactions, likely through further chlorination of CEC. Consequently, 120 W was selected as the optimal light intensity, balancing target product selectivity and process efficiency.
+
+CEC yield. Consequently, the optimal BPO initiator concentration was determined to be 1.5 wt%.
+
+Under fixed conditions of an EC:Cl₂ molar ratio of 1:0.48, an 18.5 minute residence time, three reaction cycles, 120 W light intensity, and a 1.5 wt% initiator concentration, the performance of different initiators in the C-H chlorination reaction was compared. As presented in Table 2, AIBN demonstrated significantly lower efficacy than ABVN, BPO, and the BPO/AIBN combination. Among these initiators, BPO outperformed ABVN but was slightly less effective than the BPO/AIBN mixture. This performance trend is likely attributable to the higher ac- tivity of BPO compared to both AIBN and ABVN.
+
+Under the conditions of an EC:Cl₂ molar ratio of 1:0.48, an 18.5 min residence time, three cycles, and 120 W light intensity, the influence of benzoyl peroxide (BPO) initiator concentration on chlorinated ethylene carbonate (CEC) yield was investigated. As depicted in Fig. 7, both CEC conversion and selectivity increased initially with rising BPO concen- tration but began to decline beyond an optimal point. Specifically, increasing the BPO concentration from 0.4 wt% to 1.5 wt% enhanced CEC conversion significantly, from 55.9% to 99.5%. However, further increases in BPO concentration resulted in a gradual decrease in conversion.
+
+Table 2 Effect of initiator type on the photothermal synergistic chlorination of ethylene carbonate.
+
+This trend is attributed to the dual role of the initiator. While a moderate BPO concentration promotes the desired reaction, excessive BPO promotes aggregation, reducing the number of active sites and increasing competition with reactants, thereby adversely affecting the
+
+monomers, Synth. Commun. 50 (23) (2020) 3629–3641, https://doi.org/10.1080/ 00397911.2020.1808995.
+
+[3] V. Chauhan, K. Holmberg, R. Bordes, A reverse degradation vs. temperature relationship for a carbonate-containing gemini surfactant, J. Colloid. Interface Sci. 531 (2018) 189–193, https://doi.org/10.1016/j.jcis.2018.07.048.
+
+The implementation of a microchannel reactor facilitates precise control of reaction feedstocks within a confined space, ensuring reaction accuracy while preventing back-mixing. Furthermore, the system effi- ciently dissipates excess process heat, establishing stable external con- ditions that enhance product purity while significantly improving target product yield and selectivity. This approach not only accelerates chlo- rination kinetics but also partially mitigates safety concerns associated with liquid chlorine.
+
+[4] F. Marcos C, A.G. Neo, J. Díaz, S. Martínez-Caballero, A safe and green Benzylic radical bromination experiment, J. Chem. Educ. 97 (2) (2020) 582–585, https:// doi.org/10.1021/acs.jchemed.9b00020.
+
+[5] Y. Ren, Y. Ge, Q. Yan, S. Chen, Y. Li, L. Li, et al., Free radical-promoted monochloroalkylarylation of Alkenes with chloralkanes, J. Org. Chem. 86 (17) (2021) 12460–12466, https://doi.org/10.1021/acs.joc.1c01605.
+
+[6] T. Kasakado, T. Fukuyama, T. Nakagawa, S. Taguchi, I. Ryu, High-speed C–H chlorination of ethylene carbonate using a new photoflow setup, Beilstein. J. Org. Chem. 18 (2022) 152–158, https://doi.org/10.3762/bjoc.18.16.
+
+Using BPO as a radical initiator and Cl₂ as the chlorine source, the chlorination of EC to synthesize CEC was successfully carried out in a microchannel reactor under UV irradiation. The optimal process pa- rameters were determined to be a reaction temperature of 85◦C, Cl₂ to EC molar ratio of 0.48:1, residence time of 18.5 min, three cycles, wavelength of 254 nm, light intensity of 120 W, and BPO initiator concentration of 1.5 wt%. Under these conditions, the EC conversion reached 99.5%, and the CEC yield was 84.1%.
+
+[7] C.C. Yan, S. Cheng, M.Q. Yuan, X. Tian, ZJ. Sui, Reaction process and kinetics of photochlorination synthesis of chloroethylene carbonate, Appl. Chem. Ind. 53 (05) (2024) 1027, https://doi.org/10.16581/j.cnki.issn1671-3206.2024.05.001. -30+ 35.
+
+[8] M. Deng, K. Liu, S. Yuan, G. Luo, L. Dian, Photoinduced FeCl3 -catalyzed chlorination of aromatic sulfonyl chloride via extrusion of SO2 at room temperature, Org. Lett. 25 (24) (2023) 4576–4580, https://doi.org/10.1021/acs. orglett.3c01642.
+
+[9] A. García-Domínguez, N.M. West, R.T. Hembre, Lloyd-Jones GC, Thiol chlorination with N -chlorosuccinimide: HCl-catalyzed release of molecular chlorine and the dichotomous effects of water, ACS. Catal. 13 (14) (2023) 9487–9494, https://doi. org/10.1021/acscatal.3c02380.
+
+[10] Y. Choi, S. Park, S. Kwon, K.C. Ko, K. Na, Controlled electropositive catalytic sites on zeolites for achieving high CH3 Cl selectivity via electrophilic CH4 chlorination using Cl2, J. Mater. Chem. A 10 (46) (2022) 24475–24486, https://doi.org/ 10.1039/D2TA06787K.
+
+[11] Y. Manabe, Y. Kitawaki, M. Nagasaki, K. Fukase, H. Matsubara, Y. Hino, et al., Revisiting the bromination of C�H bonds with molecular bromine by using a photo-microflow system, Chem. Eur. J 20 (40) (2014) 12750–12753, https://doi. org/10.1002/chem.201402303.
+
+The datasets generated during and/or analyzed during the current study are available from the corresponding author on reasonable request.
+
+[12] L. Liu, P. Liu, D. Zhang, H-Y Zhang, Y. Zhang, J. Zhao, Photocatalytic oxidative bromination of 2,6-dichlorotoluene to 2,6-dichlorobenzyl bromide in a microchannel reactor, ACS. Omega 7 (5) (2022) 4624–4629, https://doi.org/ 10.1021/acsomega.1c06737.
+
+[13] L. Xu, C. Mei, W. Lu, Visible-light-driven oxidative chlorination of alkyl sp3 C–H bonds with HCl/air at room temperature, Synthesis. (Mass) 56 (11) (2024) 1793–1798, https://doi.org/10.1055/a-2261-3255.
+
+Qi Wang: Conceptualization, Writing – original draft. Yaxin Dong: Writing – original draft, Resources. Yuyu Wei: Methodology. Chuanwei Zhang: Methodology. Qi Zhang: Formal analysis. Huijun Song: Writing – review & editing. Jianlu Liu: Writing – review & editing, Project administration.
+
+[14] J. Huang, Y. Liu, X. Tian, S-F Ni, S. Li, Z-H Zhang, et al., Visible light-induced FeCl3 -catalyzed chlorination of C–H bonds with MgCl2, Green. Chem. 26 (11) (2024) 6559–6569, https://doi.org/10.1039/D4GC00664J.
+
+[15] H. Ding, S. Zhang, Z. Sun, Q. Ma, Y. Li, Y. Yuan, et al., Tris(4-bromophenyl) aminium hexachloroantimonate as a "waste-utilized"-type initiator-promoted C–H chlorination via C–H activation relay: synthesis of chlorinated pyrroles, J. Org. Chem. 87 (22) (2022) 15139–15151, https://doi.org/10.1021/acs.joc.2c01641.
+
+[16] F. Guo, Synthesis of 4-chloro-1,3-dioxolan-2-one with high purity, Fine Chem. Intermed. 45 (06) (2015) 61–62, https://doi.org/10.19342/j.cnki.issn.
+
+[17] A. Loupy, Solvent-free microwave organic synthesis as an efficient procedure for green chemistry, C. R. Chim. 7 (2) (2004) 103–112, https://doi.org/10.1016/j. crci.2003.10.015.
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+[18] W. Li, H. Jin, S. Yang, X. Guo, G. He, R. Zhang, An environmentally friendly acylation reaction of 2-methylnaphthalene in solvent-free condition in a micro channel reactor, Green Process. Synth. 8 (1) (2019) 474–479, https://doi.org/ 10.1515/gps-2019-0015.
+
+[19] S. Firoozi, M. Hosseini-Sarvari, M. Koohgard, Solvent-free and room temperature visible light-induced C–H activation: CdS as a highly efficient photo-induced reusable nano-catalyst for the C–H functionalization cyclization of t -amines and C–C double and triple bonds, Green. Chem. 20 (24) (2018) 5540–5549, https://doi. org/10.1039/C8GC03297A.
+
+The authors very much appreciate the financial support from the Shan-
+
+dong Province Enterprise Technological Innovation Project (grant no. 202360700605) and the Science and Technology Projects of Shandong Haihua Group Co., Ltd. (grant no. sdhh-kjxm20237JSYFZX).
+
+[20] F. An, X.H. Ye, R.Q. Hao, JC. Tong, Study on synthesis of chloroethylene carbonatesynthesis, Spec. Petrochemicals 32 (03) (2015) 51–53, https://doi.org/ 10.3969/j.issn.1003-9384.2015.03.012.
+
+[21] P.L. Suryawanshi, S.P. Gumfekar, B.A. Bhanvase, S.H. Sonawane, MS. Pimplapure, A review on microreactors: reactor fabrication, design, and cutting-edge applications, Chem. Eng. Sci. 189 (2018) 431–448, https://doi.org/10.1016/j. ces.2018.03.026.
+
+Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.cep.2025.110497.
+
+[22] A.A. Bojang, Wu H-S. Design, Fundamental principles of fabrication and applications of microreactors, Processes 8 (8) (2020) 891, https://doi.org/ 10.3390/pr8080891.
+
+[23] X. Li, Y. Mao, P. Fan, C. Wang, Nickel/photo-cocatalyzed acyl C−H benzylation of aldehydes with benzyl chlorides, Eur. J. Org. Chem. 2022 (17) (2022) e202200214, https://doi.org/10.1002/ejoc.202200214.
+
+[24] M.J.P. Mandigma, J. ˇZurauskas, C.I. Macgregor, L.J. Edwards, A. Shahin, L. D'heureuse, et al., An organophotocatalytic late-stage N–CH3 oxidation of trialkylamines to N -formamides with O2 in continuous flow, Chem. Sci. 13 (7) (2022) 1912–1924, https://doi.org/10.1039/D1SC05840A.

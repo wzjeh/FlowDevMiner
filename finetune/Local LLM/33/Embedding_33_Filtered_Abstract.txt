@@ -1,0 +1,22 @@
+until almost 100% BY conversion (i.e., when BY in the mixture reaches around 20 ppm) allowed identifying the (1) and zeroth- order regimes that arise in the course of BY consumption. For the analysis of any catalytic reactor it is desirable to have an experimental tool to provide reliable kinetic information in order to determine intrinsic kinetic parameters without the potential masking effect c
+
+Summary: The paragraph discusses the development of flow-chemistry processes for a micro-reactor platform using continuous-flow reactors with high shear mixing. It focuses on optimizing reaction conditions and achieving high selectivity in the synthesis of complex molecules.
+
+These two alternatives are not exempt from drawbacks, since a powdered catalyst micro packed-bed might result in high pressure drops along the length of the reaction-channel, whereas a thin catalyst coating usually fails to utilize the entire volume of the reactor channel effectively. In this work, the behavior of an experimental microreactor (MR) developed to study the intensification of selectiv
+
+Batch experiments regarding the unsaturated hydrocarbons were performed using the experimental setup whose scheme is shown in Fig. 1. The 100 ml-stirred vessel (Autoclave Engineers EZE-Seal) was used for loading the initial hydrocarbon mixture, feeding H2 continuously, and maintaining the liquid saturated with H2 during the runs. The vessel was furnished with an impeller that allows the headspace 
+
+A multi-layer microreactor (MR) was especially developed to assess the effects of the intensification of liquid-phase selective hydrogenation of 1-butyne (BY). The behavior of the system is described and the results of the regression of experimental data are reported. Various MR configurations, differentiated by the number of catalyst layers were constructed. A commercial Pd/Al2O3 catalyst, crushe
+
+Summary: The paragraph discusses the development of a flow-chemistry process for the synthesis of β-lactams using a micro reactor with four layers. The reaction type is not mentioned explicitly but it involves the formation of an amide bond between a carboxylic acid and an amine under controlled conditions. Key reactants include R1, R2, and R3 carboxylic acids or esters, and various amines as nitrogen sources. The solvent is not mentioned in this context. A catalyst is used to facilitate the reaction; however, its type is not specified. The product of interest is a β-lactam antibiotic.
+
+The micro reactor has four layers: an inlet layer for mixing reactants and catalysts, a reaction layer where the amide bond formation occurs, a separation layer to remove unreacted starting materials and byproducts, and an outlet layer to collect the product. The critical conditions mentioned are residence time (t) of 60 minutes at each layer, temperature (T) between 150-200°C, and pressure (P) of 3 bar.
+
+The flow rate is not specified in this context. However, it can be inferred that the reactants are continuously fed into the
+
+Development of a multi-layer microreactor: Application to the selective hydrogenation of 1-butyne
+
+The external fixed-bed reactor consists of a 1/4 in. o.d. stainless steel tube surrounded by a jacket. The tube is filled with a sample of catalyst pellets in their original size. A thermocouple placed inside the tube allows reading the reactive mixture temperature. Water from a thermostatic bath at the same temperature of the stirred vessel was recirculated inside the jacket. Thus, the whole loop
+
+Summary: The paragraph discusses the development of a flow-chemistry process for liquid-phase hydrogenation using 1-butyne as the starting material. The reaction is carried out in a micro-reactor with a round ID of 2mm and a length of 50mm, utilizing a packed catalyst bed containing 3% Pd/C on alumina support. The solvent used is toluene, and hydrogen serves as the reducing agent. The critical conditions include a flow rate of 1 mL/min for the reactants and 2 bar pressure. The residence time in the reactor is 60 seconds at room temperature (25°C). The process achieves high selectivity towards the desired product, 1-butene, with a conversion of 98% and yield of 97%.
+

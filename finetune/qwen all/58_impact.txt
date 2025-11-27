@@ -1,0 +1,10 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of o-xylene | increase |
+| temperature | conversion of o-xylene | increase |
+| temperature | yield of mono-nitro compounds | increase |
+| temperature | formation of poly-nitro impurities | increase |
+| flow_rate | mixing efficiency | increase |
+| residence_time | volumetric mass transfer coefficient | increase |

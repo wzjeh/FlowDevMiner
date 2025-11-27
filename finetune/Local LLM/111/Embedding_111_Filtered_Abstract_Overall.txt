@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "Suzuki cross-coupling", "reactants": ["aryl halides"], "products": ["biphenyl"], "conditions": [{"type": "temperature", "value": 40}, {"type": "residence_time", "value": 1}], "reactor": {"type": "microchannel", "inner_diameter": "10-50 micron"}, "metrics": {"conversion": null, "yield": null}}}

@@ -1,0 +1,11 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion | increase |
+| catalyst_loading | conversion | increase |
+| diluent_ratio | conversion | decrease |
+| catalyst_particle_size | conversion | unchanged |
+| diluent_particle_size | conversion | decrease |
+| temperature | conversion | increase |
+| pressure | conversion | increase |

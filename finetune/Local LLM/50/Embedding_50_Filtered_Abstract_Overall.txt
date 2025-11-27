@@ -1,0 +1,95 @@
+{
+  "reaction_summary": {
+    "reaction_type": "",
+    "reactants": [],
+    "products": [],
+    "conditions": [
+      {"type": "", "value": ""},
+      {"type": "", "value": ""}
+    ],
+    "reactor": {},
+    "metrics": {}
+  }
+} 
+
+Step 1: Extract the optimal condition set from each abstract.
+For this task, we need to extract the conditions that lead to the best yield/conversion. We will assume that the best outcome is not explicitly stated in some cases.
+
+### Step 2: Identify the reaction type and reactants/products for each process
+- For the first paragraph, the reaction involves liquid-liquid two phase mixing with immiscible oil as the solvent and catalyst.
+- The second paragraph discusses the synthesis of ZnO nanoparticles using a continuous flow-chemistry system. 
+- The third paragraph describes the development of a flow-chemistry process for an organic compound.
+
+### Step 3: Extract conditions that lead to optimal outcomes
+For each abstract, we need to identify the critical conditions (e.g., temperature, residence time) and their corresponding values.
+
+
+python
+import json
+
+# Define the output JSON structure
+output_json = {
+    "reaction_summary": {
+        "reaction_type": "",
+        "reactants": [],
+        "products": [],
+        "conditions": [
+            {"type": "", "value": ""},
+            {"type": "", "value": ""}
+        ],
+        "reactor": {},
+        "metrics": {}
+    }
+}
+
+# Define the conditions for each process
+processes = {
+    1: {
+        "reaction_type": "nanoparticle synthesis",
+        "reactants": ["metals", "alloys"],
+        "products": ["nano-sized particles"],
+        "conditions": [
+            {"type": "flow rate(s)", "value": null},
+            {"type": "residence time", "value": null}
+        ],
+        "reactor": {
+            "type": "microchannel reactor"
+        },
+        "metrics": {
+            "conversion": 0,
+            "yield": 0
+        }
+    },
+    2: {
+        "reaction_type": "ZnO nanoparticle synthesis",
+        "reactants": ["M(Zn2+)"],
+        "products": ["ZnO nanoparticles"],
+        "conditions": [
+            {"type": "temperature", "value": null},
+            {"type": "pressure", "value": null}
+        ],
+        "reactor": {
+            "type": "microchannel reactor"
+        },
+        "metrics": {
+            "conversion": 0,
+            "yield": 0
+        }
+    },
+    3: {
+        "reaction_type": "organic compound synthesis",
+        "reactants": ["A", "B"],
+        "products": ["C"],
+        "conditions": [
+            {"type": "flow rate", "value": null},
+            {"type": "residence time", "value": "6 hours"}
+        ],
+        "reactor": {
+            "type": "continuous stirred-tank reactor"
+        },
+        "metrics": {
+            "conversion": 0,
+            "yield": 0
+        }
+    }
+}

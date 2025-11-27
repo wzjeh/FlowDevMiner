@@ -1,0 +1,369 @@
+Contents lists available at ScienceDirect
+
+Chemical Engineering Journal
+
+journal homepage: www.elsevier.com/locate/cej
+
+High pressure microreactor for minute amounts of catalyst on planar supports: A case study of CO2 hydrogenation over Pd0.25Zn0.75Ox nanoclusters
+
+Imran Abbas a,*, Filippo Romeggio b, Kacper Pilarczyk a,c, Simon Kuhn d, Christian Danvad Damsgaard b,e, Jakob Kibsgaard b, Peter Lievens a, Didier Grandjean a, Ewald Janssens a,*
+
+a Quantum Solid-State Physics, Department of Physics and Astronomy, KU Leuven, Celestijnenlaan 200D, 3001 Leuven, Belgium b Department of Physics, Technical University of Denmark, 2800 Kongens Lyngby, Denmark c Faculty of Physics and Applied Computer Science, AGH University of Science and Technology, al. A. Mickiewicza 30, 30-059 Krak´ow, Poland d Department of Chemical Engineering, KU Leuven, Celestijnenlaan 200F, 3001 Leuven, Belgium e National Centre for Nano Fabrication and Characterization, Technical University of Denmark, 2800 Kongens Lyngby, Denmark
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords: High-pressure microreactor Cluster-based catalyst PdZnO CO2 hydrogenation Reverse water–gas shift reaction
+
+High-pressure studies of well-defined catalysts, deposited on planar supports in ultra-high vacuum using physical methods, may bridge the gap between surface science and applied catalysis approaches in order to develop better catalysts for crucial reactions such as CO2 hydrogenation. However, the chemical reactors necessary for such investigations, typically involving catalyst quantities down to a few hundred nanograms, are lacking.
+
+We present the novel design and evaluation of a 50 µL rectangular microchannel reactor capable of testing small quantities of catalyst at pressures up to 40 bar and temperatures up to 240 ◦C. To evaluate the microreactor performance, Pd0.25Zn0.75Ox nanoclusters soft-landed on SiO2-coated mica sheets using the cluster beam depo­ sition technique, were tested for CO2 hydrogenation via the reverse water–gas shift reaction through a series of kinetic experiments.
+
+Experimental results, combined with computational fluid dynamics and mass transport analysis, demonstrate that the proposed microreactor setup allows for testing minute quantities of catalysts with very high sensitivity at industrially relevant temperatures and pressures. Although not restricted to a particular catalyst preparation method, the setup is an excellent platform for conducting catalytic tests on composition-controlled, mass selected, gas-phase nanoparticles deposited on planar substrates, facilitating the determination of reliable structure–activity relationships and enabling a more rational design of catalysts.
+
+CO2 hydrogenation products [3]. Rational design of highly active and selective catalysts necessitates a comprehensive understanding of the nature and structure of their active sites [4,5].
+
+1. Introduction
+
+Current approaches for investigating these active sites can be broadly categorized into two groups namely (i) the surface science approach and (ii) the applied catalysis approach. The surface science approach in­ volves the investigation of well-defined catalytic surfaces, traditionally in ultra-high vacuum conditions, to establish a relationship between the structure of the catalyst and its activity [6]. However, extrapolating these structure–activity relationships from ultra-high vacuum to indus­ trial conditions remains challenging, as catalyst structure and behaviour can vary significantly with changes in pressure — a phenomenon
+
+The urgent need to combat climate change has prompted an increasing focus on CO2 utilization as a means to reduce greenhouse gas emissions and achieve a more sustainable future [1]. Among the various pathways for CO2 utilization, thermochemical CO2 conversion to fuels and valuable chemicals using a solid catalyst is promising. Heteroge­ neous catalysis offers immediate product separation and an industrially proven technology to process upscaling and integration in the contem­ porary chemical industry [2]. Central to this endeavor is the search for efficient and stable catalysts that are selective towards one of the various
+
+* Corresponding authors.
+
+E-mail addresses: imran.abbas@kuleuven.be (I. Abbas), ewald.janssens@kuleuven.be (E. Janssens).
+
+https://doi.org/10.1016/j.cej.2024.158127 Received 27 August 2024; Received in revised form 30 October 2024; Accepted 27 November 2024
+
+Available online 29 November 2024 1385-8947/© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+s−1) Rads,j, Rate of adsorption (or desorption) of species j per unit Ar (mol m−2 s−1) σ Characteristic length of the Lennard-Jones/Stockmayer potential (m) T Absolute temperature (K) τ Mean residence time (s) tD Maximal diffusion time (s) μ Dynamic viscosity (Pa⋅s) u Velocity field (m/s) v0 Volumetric flow rate at reaction conditions (cm3 s−1) Vr Volume of the reactor (m3) cat Catalyst CBD Cluster Beam Deposition EXAFS Extended X-ray Absorption Fine Structure EDX/EDS Energy Dispersive X-Ray Spectroscopy FT Fourier Transform FID Flame Ionization Detector GC Gas Chromatograph ICP Inductive Coupled Plasma ML Equivalent atomic MonoLayer QCM Quartz Crystal Microbalance RWGS Reverse Water Gas Shift SEM Scanning Electron Microscopy sccm Standard cubic centimeter per minute TCD Thermal Conductivity Detector TOF-MS Time-of-Flight Mass Spectrometry XAS X-ray Absorption Spectroscopy XANES X-ray Absorption Near Edge Structure
+
+Nomenclature
+
+A Pre-exponential factor Ar Area of catalytic surfaces (m2) AS(ads) Surface species as Ar to Vr ratio (m−1) α Partial order of the reaction with respect to CO2 β Partial order of the reaction with respect to H2 Cj Concentration of species j (mol/m−3) d Diameter of the nanocluster (nm) Dj Diffusion coefficient of species j (m2 s−1) Da Damk¨ohler number DaII Damk¨ohler number II
+
+Ea Activation energy (J mol−1) eV Electronvolt FCO2 Molar flow rate of CO2 (mol s−1) hML Loading expressed in equivalent atomic monolayers (ML) Φma Mass flux of the nanoclusters (ng cm−2 min−1) h Channel height (µm) k Reaction rate constant m Mass (kg) n Normal vector to the surface with catalyst ΩD Collision integral ρ Density of the nanocluster (kg m−3) p Pressure (Pa) Pe Peclet number
+
+R Gas constant (approx. 8.314 J mol−1K−1) R2 R-squared value Rj Rate of production (or consumption) of species j (mol/m−3
+
+commonly referred to as the "pressure gap" [7,8]. Additionally, the investigated surfaces may differ in size and morphology from those of the actual supported nanoparticles used in practical catalysts operating at industrial conditions, introducing another challenge known as the "material gap" [9,10].
+
+laboratory reactors. As a result, a specialized microreactor designed to handle these extremely small catalyst quantities on planar substrates is necessary to ensure sufficient contact time at lower feed gas flow rates, while minimizing product dilution. Additionally, the geometry of the reactor should be suitable for planar samples.
+
+In contrast, the applied catalysis approach addresses the material and pressure gaps by mimicking industrially relevant conditions to prepare and test catalysts, including the use of high-pressure laboratory reactors [11]. However, the inherent structural complexity of these (usually chemically prepared) heterogeneous catalysts complicates the characterization of the active sites, particularly under reaction condi­ tions. This severely impedes the identification of reliable structur­ e–activity relationships [12]. Additionally, dynamic changes in the catalyst as well as the impact of ligands and remnant impurities from the chemical synthesis route add to the uncertainty in the results [13]. These challenges have, for example, contributed to the lack of consensus on the nature of active sites in methanol synthesis catalysts studied for decades [14].
+
+Some research groups have developed dedicated reactors for testing small quantities of catalysts deposited on planar supports. One notable example is a reactor microfabricated in a silicon chip for catalytic ac­ tivity tests and surface kinetics. This reactor was employed for testing soft-landed mass-selected AuTiOx nanoparticles for CO oxidation [25,26] and NiGa thin films for CO2 hydrogenation to methanol at pressures up to 1 bar [27]. Another reactor, designed for gas phase re­ actions using minimal catalyst quantities was used for the dehydroge­ nation of cyclohexene and CO2 hydrogenation at ambient pressures [28,29]. More recently, a microreactor was developed and employed for activity characterization of thin films (3 nm Pd) at 1 bar and 100 ◦C [30].
+
+To the best of our knowledge, no microreactor has been reported to study ultrasmall quantities of catalysts on planar substrates at high pressures (10 bar or more). In response, we have designed a micro­ reactor specifically tailored for testing planar substrates decorated with catalyst quantities down to a few hundred nanograms (or below 1 atomic monolayer) of catalyst at pressures up to 40 bar.
+
+To address the pressure and material gaps while minimizing the structural complexity of heterogeneous catalysts, there is a need to prepare well-defined surfaces and nanoparticles that are free of impu­ rities and ligands, and to test them under industrially relevant pressures and temperatures [15–19]. This can be achieved by combining the strengths of surface science and applied catalysis approaches. The preparation of catalyst nanoparticles with precisely tailored size, composition, and oxidation state is possible using gas aggregation cluster sources and the Cluster Beam Deposition (CBD) technique [20–24]. However, an inherent limitation of this synthesis technique to perform activity tests at industrially relevant conditions is that it pro­ duces small quantities of catalysts, typically ranging from 20 to 200 ng/ min. These catalyst quantities are typically 3–4 orders of magnitude smaller than the mass loading required for activity tests in traditional
+
+In this manuscript, we present a comprehensive case study of the microreactor's performance, using CO2 hydrogenation to CO via the Reverse Water-Gas Shift (RWGS) reaction on Pd0.25Zn0.75Ox catalyst. While the RWGS reaction itself does not require high pressure, the re­ actions were performed at conditions relevant for industrial methanol synthesis, i.e., 40 bar and 200–250 ◦C. Additionally, CO produced at high pressure from CO2 and (renewable) H2 can serve as a valuable feedstock for several key industrial processes performed at high pressure, e.g., methanol synthesis and the Fischer-Tropsch synthesis processes for fuel production [31,32].
+
+Bimetallic PdZnOx nanoparticles are known to be efficient catalysts for several important reactions, including methanol steam reforming, CO oxidation, alcohol oxidation, and CO2 hydrogenation [33–35]. Their ability to produce different CO2 hydrogenation products depending on the catalyst composition and the type of support has been the subject of several studies. Pd/ZnO and PdZn-ZnO interfaces have been associated with methanol production [36,37]. Investigations involving various Pd: Zn ratios deposited on TiO2 and CeO2 revealed the presence of β-PdZn alloy in Zn-rich compositions, which has been highlighted for its role in CO2 hydrogenation to methanol and CO via the RWGS reaction [38–41].
+
+between the top plate and the catalyst substrate when the two plates are securely tightened against each other using 10 screws. A K-type ther­ mocouple, compression-fitted in the top plate, slightly presses the middle of the sample to accurately monitor its temperature. The entire microreactor is placed inside the constant temperature zone of a tube furnace, as schematically shown in Fig. 1.
+
+Compression-type fittings for 1/32″ capillaries are seamlessly inte­ grated into the top plate to introduce the reaction gas mixture and allow the outflow of products. Low-flow mass flow controllers (Bronkhorst High-Tech B.V.) are employed to control the gas flow rates into the microreactor. The products leave the microreactor through a 130 µm internal diameter stainless-steel capillary (Valco Instruments Co. Inc.) to reach a T-piece, where helium carrier gas can be introduced to accel­ erate the flow towards a backpressure regulator with a small dead vol­ ume (Equilibar® USA) and subsequently to the gas chromatograph (GC). The accelerated product flow rate lowers the response time of the GC to changes in the reaction conditions.
+
+We prepared Pd0.25Zn0.75Ox nanoclusters in ultra-high vacuum using a laser ablation gas aggregation cluster source [24] and soft-landed them onto mica sheets coated with nano-dispersed SiO2. These planar samples were investigated in the new microreactor in a 3H2:1CO2 feed gas flowing at 0.5–4 sccm (0.08–0.32 sccm/µgcat). Activity results were fitted with a power-law model to extract the kinetic parameters of the reaction which were then used in reacting fluid dynamics simulations to validate the design of the microreactor. The results demonstrate that the reactivity of minute quantities of catalysts deposited on planar sub­ strates can be accurately measured with high sensitivity and under industrially relevant conditions. This approach helps bridging the gap between surface science and applied catalysis approaches, facilitating the development of reliable structure–activity relationships, thereby enabling the rational design of highly efficient catalysts.
+
+The products are analyzed using a customized GC (Thermo Fisher Scientific) which has small internal dead volume and requires only 150 µL of sample to quantify up to 1 ppm of CO, methane, methanol, ethanol, ethylene, and dimethyl ether.
+
+2.2. Substrate preparation
+
+Planar substrates for the nanocluster deposition consist of inert mica sheets (Grade V-5, Structure Probe, Inc.) nanostructured by coating them with SiO2 nanoparticles. 40 µL of a 50 wt% SiO2 nanoparticle dispersion (Thermo Fisher, Product No. 43109) was drop-casted onto a 50 × 18 × 0.15 mm3 mica sheet and evenly spread using a doctor-blade technique, resulting in a 20 µm coating composed of 20 nm SiO2 nanoparticles. After air-drying, these substrates were used for nano­ cluster catalyst deposition and characterization, as schematically shown in Fig. 2.
+
+2. Experimental methods
+
+2.1. Design and fabrication of microreactor
+
+The microreactor consists of two precisely machined stainless steel plates. The bottom plate has a rectangular cavity of 50 × 18 × 0.22 mm3, tailored to accommodate a 150–200 µm thick planar catalyst substrate decorated with nanoclusters. Positioned 2 mm away from each edge of the sample cavity on all sides, a 2.2 mm deep groove is carved, providing housing for a Kalrez O-ring (47.29 mm ID × 2.62 mm CS, FFKM 300B AED 90 ShA) to ensure a leak-tight seal. For thicker planar substrates, a similar bottom plate with a deeper cavity can be prepared.
+
+2.3. Cluster-based catalyst deposition
+
+The SiO2-coated mica substrates were decorated with Pd0.25Zn0.75Ox nanoclusters produced in a laser ablation-based cluster source [42], operating in ultra-high vacuum conditions (base pressure 10−8 mbar). As precursor material, a bimetallic PdZn alloy target (ACI alloys, 99.99 % purity) is installed in a liquid nitrogen-cooled source for nanocluster synthesis. The target is ablated by the 2nd harmonic of a pulsed Nd:YAG
+
+The top plate was machined to craft a 1 mm wide rectangular fin with a height of 70 µm that inserts into the sample cavity of the bottom plate, exerting uniform pressure on all edges of the planar catalyst substrate. This meticulous design ensures the creation of a reactor volume of around 50 µL (≈48 × 16 × 0.07 mm3) with a reproducible gap of 70 µm
+
+Fig. 1. Schematics of the experimental setup with the microreactor: (a) Inlet, (b) preheater, (c) thermocouple, (d) tube furnace housing the microreactor, (e) gas flow path through the microchannel, (f) outlet, (g) back pressure regulator, (h) gas flow capillaries (blue lines), (i) pressure gauges, (j) data communication (orange lines). (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+
+Fig. 2. Schematic representation of the catalyst sample preparation and characterization.
+
+laser (Spectra Physics, INDI, 532 nm, 10 Hz), which generates vapors corresponding to the composition of the target. Simultaneously, a 5 % O2/He gas is injected into the source with a backing pressure of 8 bar, which causes cooling of the vapor, resulting in condensation and the formation of clusters within the confined volume (around 1 mL) of the aggregation channel of the source. The cluster-gas mixture exits the confined space of the source through a 1 mm opening nozzle, inducing a supersonic expansion generating a beam consisting of oxidized bime­ tallic Pd0.25Zn0.75Ox nanoclusters. The nanoclusters in the beam are characterized by in situ Time-of-Flight Mass Spectrometry (TOF-MS) and their mass distribution is converted into a particle diameter distribution assuming a spherical shape and a weighted average density using the following equation:
+
+2.4. Deposited catalyst characterization
+
+The surface of the SiO2-coated mica sheet modified with Pd0.25Zn0.75Ox nanoclusters was characterized using Scanning Electron Microscopy (SEM) with a Thermo Scientific Helios 5 Hydra UX PFIB microscope. The SEM was operated at an acceleration voltage of 5 kV and a current of 0.20 nA. The secondary electrons were collected using a Through-the-Lens Detector (TLD) in immersion mode, and the images were captured with a pixel size of 0.35 nm. Under optimal focus con­ ditions, the probe size is estimated to be approximately 1 nm. EDX/EDS measurements were conducted with a Quanta FEG 250 Analytical ESEM mounting an X-Max50 detector. The acceleration voltage was set to 30 kV, the spot size to 5.5 nm, and the working distance to 10 mm.
+
+The deposited nanoclusters were further analyzed using X-ray ab­ sorption spectroscopy (XAS). XAS data were collected at the SAMBA beamline of the French national synchrotron facility SOLEIL in Paris Saclay, France. The facility is equipped with a Si (220) mono­ chromator cooled with liquid nitrogen. The spectra were recorded at the Pd K-edge (24,357.6 eV) in grazing incidence mode (incidence angle around 1◦) using fluorescence detection. A Canberra 35-element detec­ tor was used, and the incoming beam was measured with a nitrogen filled ion chamber. Samples were measured under ambient conditions up to a wavenumber of 11 Å−1. The typical acquisition time was six minutes per spectrum in continuous scanning mode. At least six spectra were averaged for each sample using the Athena software to improve data quality. Data reduction of the experimental x-ray absorption spectra was performed with the program EXBROOK and the EXAFS re­ finements with the EXCURVE package [43].
+
+̅̅̅̅̅̅̅̅
+
+√
+
+3m 4πρ
+
+(i)
+
+d = 2⋅
+
+Where d, m, and ρ are, respectively, the diameter, the mass (determined from TOF-MS), and the density (set equal to the weighted average density of Pd and Zn) of the nanoclusters.
+
+The mass flux of the cluster beam in ng/min/cm2 was determined using a Quartz Crystal Microbalance (QCM). The flux of the cluster beam was maximized while a narrow nanocluster size distribution was ach­ ieved by adjusting laser power, condensation gas pressure, and source temperature. After this optimization, the SiO2-coated mica substrates were placed in front of the beam for the nanocluster deposition. Using the measured mass flux, Φma, the nanocluster loading (ng/cm2) is defined by the deposition time, t. The accuracy of the determined mass loading was found to be ± 5 % by comparing it with the results obtained by Inductively Coupled Plasma (ICP) mass spectrometry (see supple­ mentary information, Table S1). The loading in terms of an equivalent height expressed in atomic monolayers, hML, was calculated using the following formula:
+
+2.5. Activity testing
+
+The SiO2-coated mica sheets decorated with nanoclusters were removed from the cluster deposition apparatus and loaded into the microreactor. These samples were then heated up to the required tem­ perature with a ramp rate of 4 ◦C/min in a 3H2:1CO2 feed gas at a pressure of 40 bar. Feed gas flow rates were varied from 0.5 to 4 sccm (0.04 to 0.32 sccm/µgcat) for flow-rate effect experiments at 200 ◦C, 220 ◦C, and 240 ◦C. To study the pressure effect, the pressure was varied from 5 bar to 40 bar at 240 ◦C with a 0.5 sccm feed gas flow rate. All the reported data were collected 40–48 h after the start of the reaction to minimize the influence of catalyst deactivation and restructuring on kinetic data. The product lines from the reactor to the GC were heated to avoid the condensation of liquid products. In the GC the products were separated using a PlotQ capillary column and quantified with a Thermal Conductivity Detector (TCD) and a Flame Ionization Detector (FID). The FID is equipped with a methanizer and was operated with air and H2, flowing at rates of 350 mL/min and 50 ml/min, respectively.
+
+[ ng min−1cm−2] t[min] [ ng ML−1cm−2] (ii)
+
+hML[ML] = Φma
+
+Where the 258 ng ML−1 cm−2 conversion factor is based on the average bulk density and average atom size of Pd and Zn. Each SiO2-coated mica sheet was decorated with three 2 cm2 circular depositions (total area 3 × 2 cm2 = 6 cm2) of Pd0.25Zn0.75Ox nanoclusters. The samples were prepared with different loadings: 1) m = 2.07 µg/cm2 × 6 cm2 = 12.4 µg (or hML = 8.8 ML) and 2) m = 1.1 µg/cm2 × 6 cm2 = 6.6 µg (or hML = 4.7 ML). One 2 cm2 circular deposition was also carried out on carbon paper, an electrically conducting substrate, to facilitate composition analysis using Energy Dispersive X-Ray Spectroscopy (EDX/EDS).
+
+3. Simulation model
+
+Similarly, a no flux condition is applied to all boundaries where the velocity is zero, except at the catalytic surfaces.
+
+Reaction engineering and fluid dynamics simulations, performed with the COMSOL Multiphysics package [44], were used to validate the design and performance of the microreactor. The following governing equations were solved:
+
+3.2. Geometry and mesh
+
+As detailed in Section 2.1 and illustrated in Fig. 3a, the placement of the planar catalyst sample in the microreactor creates a rectangular microchannel measuring 48 × 18 × 0.07 mm3 (green), with catalyst deposited surfaces at the bottom of the channel (highlighted by or­ ange dashed circles in Fig. 3b). The inlets and outlets are indicated by white-filled and dark-filled small circles in Fig. 3b at both ends of the channel. A 3D model of the microreactor was developed and discretized using a physics-controlled generation of a free triangular mesh, resulting in a denser mesh on the catalytic surfaces to accurately account for the non-zero boundary flux. Initially, simulations were conducted at a single temperature for the highest and lowest flow rates using a coarser mesh. The mesh density was then systematically adjusted until the results became independent of further increases in mesh density. Finally, all simulations were performed using a ‘fine' mesh comprising 2,561,479 domain elements, 716,140 boundary elements, and 5,910 edge ele­ ments. An enlarged view (15×) of a corner of the discretized domain, shown in Fig. 3c, demonstrates the mesh generation used for the simulations.
+
+3.1. Conservation of mass
+
+dCj
+
+Vr
+
+dt = VrRj + ArRads,j (iii)
+
+Ar = asVr (iv)
+
+Where Vr is the volume of the reactor (m3), Cj is the concentration of species j in the reactor (mol m−3), and Rj is the rate of production (or consumption) of species j per unit volume due to chemical reaction occurring in the bulk (mol m−3 s−1). Rj is set to zero as the reaction proceeds only on the catalytic surfaces. Rads,j represents the rate of surface reaction of species j per unit surface area (mol m−2 s−1). Ar is the area of catalytic surfaces (m2) where adsorption/desorption can occur and as is the ratio of Ar to Vr.
+
+Fluid flow: The fluid flow in the microreactor channel is modelled by solving the continuity equation and the steady state Navier-Stokes equation for incompressible fluids in the ‘Laminar Flow' interface. The governing equations are as follows:
+
+3.3. Simulation Strategy
+
+ρ ∇⋅u = 0 (v)
+
+To simulate the reaction occurring on catalytic surfaces, a surface species, AS(ads), representing the catalyst deposited on the catalytic surface, was introduced as both a reactant and product. The concen­ tration of AS(ads) was set constant during the simulations. The reaction was simulated using a space-independent model, and the resulting chemical data were then exported to a space-dependent model of the microreactor (the domain shown in Fig. 3). In the space-dependent model, the transport of diluted species and laminar flow were set up to describe the mass and momentum transport within the reacting sys­ tem. The model was first solved for fluid flow, followed by the calcu­ lation of the mass transport using the fluid field to represent convection of the gases.
+
+ρ(u⋅∇)u = −∇p + μ∇2u + F (vi)
+
+where ρ is the fluid density (kg/m3), u is the velocity field (m/s), p is the pressure (Pa), μ is the dynamic viscosity (Pa⋅s), and F represents the external forces per unit volume (e.g., gravity).
+
+The flow in the reactor is controlled by defining the flow rate at the inlet boundary condition, while the pressure is defined at the outlet boundary condition. The flow velocity is zero (u = 0) at the reactor walls. The density and viscosity of air, along with their temperature dependence, are assumed to adequately represent the properties of the reaction gas mixture. The gas mixture is assumed to behave as an ideal gas, and the pressure drop is considered negligible due to the short reactor length and low flow rates.
+
+Mass transport: The mass transport is described through the diffusion-convection equation in ‘Transport of Diluted Species' interface:
+
+∂Cj
+
+) + Rj (vii)
+
+∂t + ∇⋅(uCj) = ∇⋅ ( Dj∇Cj
+
+Since the reaction takes place on the catalytic surface, the boundary fluxes for the area covered with the catalyst are given by:
+
+) = Rads,j (viii)
+
+−n ( Dj ∇Cj
+
+where n is the normal vector to the surface with the catalyst, and Dj is the diffusion coefficient of species j (m2/s), which was calculated based on the kinetic gas theory using the following expression:
+
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ (T3(MA + MB)/(2⋅103MAMB) √
+
+⋅Ω−1 D (ix)
+
+DAB = 2.6628⋅10−22⋅
+
+pσAσB
+
+Fig. 3. (a) 3D representation of the microreactor, with the green part repre­ senting the microchannel; (b) 2D diagrams of the microchannel domain built for the simulations. Large, dashed circles indicate catalytic surfaces, while the small white-filled and dark-filled circles represent the inlet and outlet, respec­ tively; (c) Enlarged view (15×) of a section of the free triangular mesh of the domain. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+
+Here, DAB (m2/s) is the binary diffusion coefficient, M (kg/mol) is the molecular weight, T (K) represents the absolute temperature, p (Pa) the pressure, σ (m) is the characteristic length of the Lennard-Jones/ Stockmayer potential, ΩD is the collision integral [45]. Inlet conditions are defined by the inlet concentrations, and at the outlet, the mass transport is dominated by convection, with the diffusive flux set to zero.
+
+• k is the rate constant ( [ mol m−3]1−α−β
+
+4. Results and discussions
+
+s−1) and is given by the
+
+Arrhenius equation:
+
+4.1. Kinetic model
+
+−Ea
+
+k = Ae
+
+RT (xi)
+
+As most of the reacted CO2 was found to be converted to CO, vide infra, competing reactions are ignored in the kinetic model, and we evaluate the reactor performance using the RWGS reaction only:
+
+• A is the pre-exponential or frequency factor and has the same units as k • Ea is the activation energy (J mol−1) • R is the gas constant (approximately 8.314 J mol−1K−1) • T is the absolute temperature (K)
+
+CO2 + H2 ⇌CO + H2 O ΔH298 = 41.3 kJ mol−1
+
+Without a good understanding of the active sites and the RWGS reaction mechanism over the prepared catalysts, it is difficult to apply the traditional Langmuir–Hinshelwood model [46]. However, a power-law rate expression with an Arrhenius equation is sufficient in predicting the operating conditions and evaluating the reactor design.
+
+For H2-rich feed gas compositions, it was shown that the partial re­ action order with respect to hydrogen, β, reaches zero [47,48]. There­ fore, β = 0 was used in our analysis and the final equation becomes:
+
+For very low conversions, the backward reaction can be neglected, and the RWGS reaction rate can be expressed in terms of the CO for­ mation rate:
+
+−Ea
+
+RCO = Ae
+
+RT (CCO2)α (xii)
+
+The expression was fitted to the experimental data to find the kinetic parameters of the rate law.
+
+RCO = k(CCO2)α(CH2)β (x)
+
+Where:
+
+4.2. Catalyst characterization
+
+• RCO is the rate of CO formation (mol m−3 s−1) • CCO2 and CH2 are the concentrations of carbon dioxide and hydrogen (mol m−3) • α and β are the partial orders of reaction with respect to CO2 and H2, respectively.
+
+A precise control of the size, composition, and loading of the catalyst was crucial for evaluating the performance of the microreactor. The size distribution of the nanoclusters in the gas phase characterized by TOF MS shows an average cluster diameter of 2.5 ± 0.8 nm (Fig. 4b). After
+
+Fig. 4. (a) SEM images of the pristine (left) and used (right) samples; (b) TOF-MS nanocluster diameter distribution before deposition, yielding an average diameter of 2.5 nm; (c) Pd K-edge XANES and Fourier transform of k2-weighted EXAFS spectra (inset) for the pristine and used samples. PdO and Pd foil references are shown for comparison. The schematic at the bottom of (a) illustrates the cross-section of the samples.
+
+deposition, the Pd:Zn molar ratio was determined to be 25:75 through Energy-Dispersive X-Ray (EDX) Spectroscopy (see supplementary in­ formation, Figure S4).
+
+4.3. Catalytic activity
+
+Fig. 5a presents the product concentrations at the microreactor exit, measured with the online GC, during an experiment conducted using 8.8 ML of Pd0.25Zn0.75Ox at 40 bar and 220 ◦C. Experimental data for the other test conditions are provided in the supplementary information (Figure S1).
+
+An SiO2-coated mica sheet decorated with 8.8 ML of Pd0.25Zn0.75Ox was examined using scanning electron microscopy (SEM) both before and after the reaction. Fig. 4a depicts a nanostructured planar substrate, with only a few nanoclusters visible on the evenly distributed SiO2 nanoparticles. This may result from the oxidic nature of the pristine clusters (see below) that may cause them not to appear as bright as their metallic counterparts and/or from the electrical insulating properties of the substrate, which limits the image resolution due to charging effects. At the same time, in case the original 2.5 nm clusters would have aggregated on the surface, this should have led to larger particles visible in SEM images. The fact that no aggregates could be identified in the SEM image suggests that clusters have been successfully stabilized in the pristine sample and highlights the role of SiO2 in the system.
+
+The results indicate a stable activity under all reaction conditions, demonstrating that the aforementioned mild aggregation of the nano­ clusters does not affect the catalyst performance. It also provides evi­ dence that ligand-free nanoclusters prepared in ultra-high vacuum can indeed be mechanically immobilized (e.g., on the rough SiO2 coating) to enable prolonged catalyst operation.
+
+A summary of the reaction rate and selectivity for each test condition is provided in the supplementary information (Table S2). The reaction rate for CO production ranges from 16.7 mmol gcat −1 hr−1 at 200 ◦C and 0.5 sccm (or 0.04 sccm/µgcat) to 223 mmol gcat −1 hr−1 at 240 ◦C and 4 sccm (or 0.32 sccm/µgcat), with a CO selectivity maintained above 97 % for all the test conditions. These results indicate that the prepared catalyst is highly active and selective towards the CO2 hydrogenation reaction to produce CO with only trace amounts of MeOH and CH4. The high ac­ tivity, selectivity, and stability make the selected catalyst an ideal choice for conducting control experiments and evaluating the microreactor's performance.
+
+On the contrary, SEM images of the used samples show some cluster aggregates on the SiO2 support, suggesting that a fraction of the clusters aggregated during the reaction, while the majority is still below the detection limit of the SEM [49]. The role of SiO2 in stabilizing the clusters under reaction conditions was further investigated by compar­ ison with a reference sample without SiO2. An SEM image of this sample, consisting of 1.2 µg/cm2 (5 ML) of Pd0.25Zn0.75Ox nanoclusters directly deposited on a mica sheet and exposed to reaction conditions, demon­ strated significant aggregation (see supplementary information, Figure S5). Atomically flat mica provides minimal surface roughness and the effective surface area available to support the nanoclusters is essentially the same as the geometric area. This results in clusters being deposited close to each other even at such low loadings. This proximity, combined with their mobility on the surface, increases the likelihood of nanocluster aggregation [50,51]. By increasing the surface roughness, SiO2 coating does not only limit the mobility of the nanoclusters by creating physical barriers to the movement but also increases the effective surface area reducing the chance of clusters coming into close contact and significantly minimizing their aggregation.
+
+The kinetic parameters of equation (xii) were determined by fitting it to the experimental data. The Arrhenius plots at different specific flow rates (Fig. 5b) yield an apparent activation energy of Ea = 105 kJ mol−1. This result is consistent with previously reported values of 100 kJ mol−1
+
+and 120 kJ mol−1 for the RWGS reaction over CuO/ZnO/Al2O3 [47] and Pd/TiO2 [52] catalysts, respectively. The reaction order with respect to CO2 is 0.82, as determined by fitting the pressure dependence (5–40 bar) of the reaction rate at a fixed temperature of 240 ◦C (Fig. 5c). Table 1 provides a summary of the obtained kinetic parameters. These param­ eters were used in COMSOL to simulate and visualize the design and performance of the microreactor.
+
+XANES spectra of pristine and used Pd0.25Zn0.75Ox, measured at the Pd K-edge (Fig. 4c), confirm the presence of clusters on the SiO2-coated mica sheets and show two distinct profiles that resemble the PdO reference for a pristine sample and the Pd foil for the used one. The damped oscillations in the used sample compared to the Pd foil confirm the nanoscopic character of the catalyst. Phase-corrected Fourier Transforms of Pd K-edge k2-weighted EXAFS (Fig. 4c insert) of pristine and used Pd0.25Zn0.75Ox nanoclusters feature distinct profiles in line with the XANES analysis. The pristine Pd0.25Zn0.75Ox spectrum has a peak at 2 Å corresponding to a Pd-O contribution, while the peak at 2.7 Å corresponds to a Pd-Pd and/or a Pd-Zn distance. The EXAFS analysis (see supplementary information, Figure S2 and Table S4) shows that the first peak of the pristine Pd0.25Zn0.75Ox corresponds to 3.4 oxygen atoms at 2.01 Å, indicating that it consists of 85 % of PdO while the remaining part, likely Pd0, could not be detected in the fit. After the reaction, the Pd-O contribution is reduced to 0.8 at 1.99 Å corresponding to only 20 % of PdO, while the main FT peak could be fitted with a combination of 7.6 Pd at 2.69 Å and 1.8 Zn at 2.62 Å suggesting the formation of a random Pd-rich PdZn alloy containing ca. 20 % of Zn. The remaining Zn fraction is expected to be ZnO. As the samples were stored in the ambient after the reaction, the oxide fraction in the used samples may originate from post-reaction transformation.
+
+4.4. Effect of reaction temperature and specific flow rate
+
+The experimental data elucidating the effect of temperature and specific flow rate on the reaction, together with the simulation results, are presented in Fig. 6a and 6b. The data were measured by varying the feed gas flow rate from 0.5 to 4 sccm (0.04 to 0.32 sccm/µgcat) at 40 bar and constant reaction temperatures of 200 ◦C, 220 ◦C, and 240 ◦C. The experimentally measured CO concentrations closely match those pre­ dicted by the simulations across different temperatures and flow rates. This agreement is illustrated in the parity plot shown in Fig. 6c, which demonstrates a good linear relationship with an R2 value of 0.995. This indicates that the model proposed in section 4.1 describes the kinetics with high accuracy across the employed range of test conditions.
+
+The results show an exponential increase in CO concentration with rising temperature (Fig. 6a) for all flow rates. This behaviour is further confirmed by the consistent values of apparent activation energies of 105 – 106 kJ/mol obtained from the Arrhenius plots (Fig. 5b and Table S3). These findings suggest that the used planar substrate and microreactor geometry effectively facilitate the reaction without sig­ nificant heat and mass transfer limitations across a wide range of testing conditions.
+
+These characterizations of the deposited nanoclusters show that they remain in the nanometer size range with limited aggregation, high­ lighting the role of the SiO2 coating on the mica sheet in minimizing the mobility of the clusters. This is further evidenced by the stable activity of the prepared catalysts, as discussed in the following sections. At the same time, the structural and chemical changes occurring in the system – namely, the shift from a mostly fully oxidized form in the pristine sample to a PdZn alloy in the used sample – highlight a restructuring occurring under the reaction conditions.
+
+Fig. 6b illustrates the CO concentration at the reactor exit as a function of the specific flow rate at different temperatures. At all tem­ peratures, the increase in the flow rate leads to an exponential decrease in the product concentration. This can be explained by the shorter contact time between reactants (CO2 and H2 molecules) and the catalytic surface resulting in lower conversion rates and, consequently, lower CO concentrations at the microreactor exit.
+
+A slight increase in the reaction rate with the rising feed gas flow rate is observed (Fig. 6d) at all temperatures. Several factors could contribute
+
+Fig. 5. (a) Product concentrations measured at 40 bar, 220 ◦C and various specific flow rates of the 3H2:1CO2 feed gas, using a 2.1 µg/cm2 loading of Pd0.25Zn0.75Ox catalyst; (b) Arrhenius plots for CO formation at different specific flow rates, illustrating the consistent temperature dependence of the reaction rate and allowing determination of the activation energy; (c) Reaction order with respect to CO2 determined using data collected at 240 ◦C and for pressures varying between 5 and 40 bar.
+
+concentrations. Therefore, the influence of product inhibition on the reaction rate is excluded.
+
+Table 1 Kinetic parameters for reverse water–gas shift reaction over Pd0.25Zn0.75Ox.
+
+Similar reasoning can be applied to demonstrate the absence of mass transport limitations. A detailed analysis presented in Section 4.5 will prove that the reaction does not occur in the mass transport-limited regime. Therefore, the increase in the reaction rate at higher flow rates can be attributed to non-linear changes in the residence time dis­ tribution. In an ideal plug flow reactor, all the fluid molecules spend equal time inside the reactor and increasing the flow rate linearly de­ creases the residence time of the reactants. In the current scenario, in­ ternal mixing and recirculation are expected due to higher gas velocities near the inlet and outlet. This would cause a non-linear change in resi­ dence time with increasing flow rate. These effects would also be in­ dependent of the changes in temperature and are in line with our observations of the consistent reaction rate change across all temperatures.
+
+Model k A ([ mol m−3]0.18
+
+) Ea (kJ/ mol)
+
+Reaction order α
+
+s−1
+
+Power Law
+
+A•exp(−Ea/ RT)
+
+605 ± 5 105.4 ± 0.2
+
+0.82 ± 0.01
+
+to this behavior, including product inhibition, changes in mass transport limitations, and a non-linear decrease in residence time distribution.
+
+The product inhibition has been reported for several catalysts [53–56] and it could lead to a change in the reaction rates with varying flow rates. At lower flow rates, a higher concentration of both water and CO can accumulate in the vicinity of the nanoclusters. Additional adsorption sites provided by SiO2 coating of mica sheet may further enhance this effect. The buildup can promote the backward reaction, reducing the net rates of CO formation at lower flow rates. As the flow rate increases, enhanced sweep and turbulence can remove adsorbed water more effectively, thus reducing product inhibition. At the same time, this effect is dependent on both temperature and product concentration.
+
+4.5. Mass transport study
+
+As gas passes through the microreactor channel, which has a height of 70 µm, it establishes a parabolic velocity profile due to the no-slip condition at the walls. This results in a maximum velocity at the cen­ ter of the channel, which decreases to zero at the reactor walls, including the catalytic surfaces (Fig. 7a). Consequently, the reactants must diffuse from the bulk flow to the surface of the catalyst through a stagnant fluid layer. Similarly, products formed on the catalytic surface will diffuse back through this stagnant layer to enter the bulk flow and exit the
+
+In the current study, increasing the flow rate eightfold, from 0.04 to 0.32 sccm/µgcat, resulted in reaction rate increases by factors of 1.74, 1.86, and 1.77 at 200 ◦C, 220 ◦C, and 240 ◦C, respectively. This indicates that the extent of the increase of the reaction rate as a function of flow rate is essentially independent of the temperature and the product
+
+Fig. 6. Predicted (lines) and experimental (symbols) CO concentrations measured at the microreactor exit during reactions conducted at 40 bar plotted as a function of (a) temperature and (b) specific flow rate; (c) Parity plot comparing all experimental and predicted CO concentrations; (d) Dependence of the experimental CO formation rate on specific flow rates at different temperatures.
+
+microreactor. This diffusion process is crucial for determining whether the reaction is kinetically controlled or limited by mass transport.
+
+To experimentally verify the absence of diffusion limitations across the stagnant layer over the catalyst surface, the reaction rates for two different catalyst loadings were compared under the experimental con­ ditions that are most susceptible to mass transfer limitations (240 ◦C, 40 bar, 0.5 sccm). The observed reaction rate for 4.7 ML and 8.8 ML catalyst loadings were equal to 126 and 130 mmol gcat −1 hr−1, respectively. The observation of very similar reaction rates for different catalyst loadings further proves the absence of mass transfer limitations. Therefore, we conclude that the reactor geometry is suitable for studying the kinetics of minute amounts of catalysts deposited on planar substrates. Addi­ tionally, the consistent activation energy at various flow rates and the stable dependence of reaction rate on pressure (Fig. 5b and 5c) confirm that the reaction kinetics can be extracted in a reliable manner using the microreactor setup.
+
+For a reaction to be governed by kinetic control, the diffusion rate through the stagnant layer should be higher than the catalytic reaction rate. If this condition is not met, a reactant deficiency at the catalyst surface occurs, shifting control over the reaction rate to diffusion pro­ cesses. Such a scenario hinders the investigation of true kinetics, as its details would be masked by diffusion limitations.
+
+The experimental data from this study indicate a maximum reaction rate of 1.61 × 1013 molecules cm−2 s−1 at 240 ◦C, 40 bar, and 0.5 sccm. The diffusion rate of water, the slowest diffusing product, is 8 orders of magnitude higher than the observed reaction rate, assuming a concen­ tration gradient of just 10 ppm across the stagnant layer of 35 µm thickness and 10−5 m2/s diffusion coefficient of water at those condi­ tions [57]. This substantial difference indicates that diffusion should be significantly faster than the reaction rate.
+
+4.6. Concentration profiles
+
+To get further insight into the mass transport, characteristic time scales and dimensionless numbers are defined and provided in Table 2.
+
+The concentration profiles of CO at 240 ◦C and 40 bar are presented in Fig. 7b and 7c for the lowest and highest flow rates (0.04 and 0.32 sccm/µgcat, respectively). The simulation provides a detailed insight into the distribution of product along the length and width of the micro­ reactor channel. These profiles reveal that the product concentration continuously increases from the inlet to the outlet of the reactor. Notably, the CO concentration is nearly constant along the width of the channel. These factors collectively indicate a close resemblance to an ideal plug flow reactor [59].
+
+The Peclet number (Pe) and Damk¨ohler number II (DaII), calculated for the reaction conditions in the microreactor channel, provide further evidence of an absence of transport limitations. Previous microfluidics studies have established that species concentrations remain uniform across the channel height when Pe and DaII are less than unity [58]. The calculated values for these parameters (Table 2) indicate that diffusion is sufficiently rapid to ensure uniform species distribution and that reac­ tion kinetics predominate over diffusion limitations.
+
+Fig. 7. Simulated (a) contour of the velocity magnitude in the microreactor channel, (b) CO concentration profile in the microreactor channel during the RWGS reaction at 40 bar and 240 ◦C, at 0.04 sccm/µgcat, and (c) at 0.32 sccm/µgcat. The inlet of the microreactor channel is marked with a white-filled circle, while a dark filled circle indicates the outlet. The positions of the catalyst surfaces within the microreactor channel are represented by dashed orange circles. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+
+standard trace gas mixture containing 5 ppm of various products was passed through the reactor capillaries, and the quantification of CO, methanol, and methane was found to be 6.0 ± 1.0 ppm, 5.3 ± 0.5 ppm, and 6.6 ± 1.3 ppm, respectively, with the error indicating the standard deviation for 10 measurements. Based on these results, we can conclude that the microreactor setup can be used in activity tests with catalyst loadings down to a few hundred nanograms with reasonably high ac­ curacy, even if the mass activity is an order of magnitude lower than in the current study.
+
+Table 2 Characteristic time scales and dimensionless numbers for mass transfer study.
+
+Parameter Symbol Definition Value
+
+v0 sccm × T 273.15 × P
+
+0.022–0.194
+
+Gas flow rate at reaction conditions (cm3/min)
+
+Mean Residence time (s) τ Vμr/v0 15.5–138.5 Max diffusion time (s) tD h2/D 2.4 × 10−4
+
+Peclet number Pe tD/τ 1.7–15 × 10−6
+
+Damk¨ohler number Da RCO × Vμr
+
+3.7–126 × 10−4
+
+FCO2
+
+Damk¨ohler number II DaII τ/tD 3–42 × 10−9
+
+5. Conclusions
+
+We present a novel microreactor design for high-pressure catalytic investigations of minute quantities of catalysts deposited on planar substrates. Using the reverse water–gas shift (RWGS) reaction over Pd0.25Zn0.75Ox nanoclusters as a model system, we explored the per­ formance of this new microreactor at pressures up to 40 bar and tem­ peratures up to 240 ◦C. The highly pure, ligand-free Pd0.25Zn0.75Ox nanoclusters were prepared using the cluster beam deposition technique in ultra-high vacuum and soft-landed on SiO2-coated mica sheets. These substrates provided an excellent support, stabilizing the nanoclusters during tests at high temperature and pressure. The prepared catalysts exhibited high activity (up to 220 mmol gcat −1 hr−1) and selectivity (up to 97 %) towards CO from CO2 hydrogenation, making them ideal for conducting controlled experiments aimed at evaluating the microreactor performance.
+
+4.7. Microreactor sensitivity
+
+The high sensitivity of the microreactor is achieved through an ac­ curate control of the low flow rates supplied to the 50 µL reactor channel through low dead volume capillaries and a sensitive product quantifi­ cation down to 1 ppm via a GC. In the current experiments, with a feed gas flow rate of 0.5 sccm, temperature of 240 ◦C, and pressure of 40 bar, the CO concentration measured at the reactor exit was 1172 ppm and 645 ppm for samples with catalyst loadings of 2.1 µg/cm2 (8.8 ML) and 1.1 µg/cm2 (4.7 ML), respectively. This demonstrates a proportional relationship between catalyst loading and product concentration. By systematically decreasing the catalyst loading under the same condi­ tions, CO concentrations of 50 ppm and 5 ppm at the reactor exit should be observed at catalyst loadings of 160 ng/cm2 (0.7 ML) and 16 ng/cm2
+
+A rigorous evaluation was achieved through kinetic experiments
+
+(0.07 ML), respectively. To confirm the validity of these estimates, a
+
+carried out under varying reaction conditions. The effect of temperature, pressure, feed gas flow rate, and catalyst loading on reaction, along with the analysis of characteristic dimensionless numbers and COMSOL simulations, offered insights into mass transport, concentration profiles, and the sensitivity of the catalytic measurements conducted in the microreactor. The presented results highlight the capabilities of the reactor to investigate the kinetics of minute quantities of catalysts deposited on planar supports. Catalysts can be prepared using various methods, including drop casting, spin coating, dip coating, and elec­ trodeposition. However, the setup is particularly suitable for funda­ mental studies using well-defined catalysts prepared through physical methods in ultra-high vacuum. This approach could help bridge the surface science and applied catalysis approaches to catalyst develop­ ment. A promising application is conducting essential investigations with composition-controlled size-selected nanoparticles prepared through gas-phase cluster beam deposition techniques. These nano­ particles could serve as precise model catalysts to develop reliable structure–activity relationships crucial for the rational design of cata­ lysts for strategically important chemical reactions.
+
+Appendix A. Supplementary data
+
+Supplementary data to this article can be found online at https://doi. org/10.1016/j.cej.2024.158127.
+
+Data availability
+
+Data will be made available on request.

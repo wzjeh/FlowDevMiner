@@ -1,0 +1,52 @@
+{
+  "reaction_type": "polymerization",
+  "reactants": [
+    {
+      "name": "acrylamide",
+      "role": "reactant"
+    },
+    {
+      "name": "ammonium persulfate",
+      "role": "catalyst"
+    },
+    {
+      "name": "sodium bisulfite",
+      "role": "catalyst"
+    }
+  ],
+  "products": [
+    {
+      "name": "poly(acrylamide)",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "50 C"
+    },
+    {
+      "type": "residence_time",
+      "value": "10 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "1.0 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "capillary",
+    "inner_diameter": "1.016 mm"
+  },
+  "metrics": {
+    "conversion": 87.0,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

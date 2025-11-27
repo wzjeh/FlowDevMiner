@@ -1,0 +1,60 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "toluene",
+      "role": "reactant"
+    },
+    {
+      "name": "nitric acid",
+      "role": "reactant"
+    },
+    {
+      "name": null,
+      "role": "reactant"
+    },
+    {
+      "name": "sulfuric acid",
+      "role": "catalyst"
+    },
+    {
+      "name": null,
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "nitrotoluene",
+      "yield_optimal": 86,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "60 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "60 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "flow reactor",
+    "inner_diameter": "6.35 mm"
+  },
+  "metrics": {
+    "conversion": 86.0,
+    "yield": null,
+    "selectivity": 78,
+    "unit": "%"
+  }
+}

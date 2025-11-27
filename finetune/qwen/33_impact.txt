@@ -1,0 +1,8 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of BY | increase |
+| hydrogen_partial_pressure | conversion of BY | increase |
+| catalyst_loading | selectivity of 1BE | increase |
+| number_of_catalyst_layers | selectivity of 1BE | increase |

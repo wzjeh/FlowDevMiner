@@ -1,0 +1,19 @@
+Summary: The paragraph discusses flow-chemistry process development for a specific reaction involving hydrogenation of an alkene in the presence of a catalyst. The key reactants are an alkene and hydrogen gas, with a solvent used as well. The desired products are the corresponding alcohol and aldehyde. A batch reactor is initially tested, showing low conversion rates (18.5% after 3 h and 38.1% after 5 h). In contrast, micropacked-bed reactors achieve a high conversion of 63% with a short residence time of only 1.9 min. The value of conversion per unit volume per unit time in the micropacked-bed reactor is 100 times that of the batch reactor.
+
+Summary: 
+The paragraph discusses continuous flow processes for hydrogenation reactions in micropacked-bed reactors (μPBRs). The key reactants are pressurized hydrogen and liquid reactants, while the catalyst particles have diameters smaller than 500 μm. The products of these reactions are not mentioned. The reactor type is a microscale packed bed reactor with excellent gas-liquid-solid mass transfer, heat transfer, and safety features. The critical conditions include pressurized hydrogen flow rate(s), liquid reactant residence time, temperature, and pressure. The outcomes of these reactions are not mentioned in the summary.
+
+Table 3. Comparison of Performances of Traditional Batch and Micropacked-Bed Reactorsa
+
+Because of the use of pure hydrogen as a reactant, the mass transfer resistance occurring in the gas film side of the gas− liquid interface can be ignored, and the mass transfer resistance on the liquid side at the gas−liquid interface and the mass transfer resistance at the liquid−solid interface should be considered.24 Exploring the eﬀect of diﬀerent liquid superficial velocities (flow rate/cros
+
+ABSTRACT: In recent years, with the advancements in continuous flow technology and the ever-increasing demand for green processes, continuous flow chemistry has become more and more widely adopted in the pharmaceutical industry. In this work, the continuous hydrogenolysis of N-diphenylmethylazetidin-3-ol to 3-azetidinol in micropacked bed reactors was demonstrated. The eﬀects of diﬀerent catalysts
+
+reactor performance [g(raw material) × mL (reactor volume)−1 × min−1]
+
+where, D (cm) and L (cm) are the inner diameter and the length of the packed tubing, respectively; ε is the bed porosity; and h is the liquid holdup representing the fraction of interstitial open space filled by liquid. From this equation, we can find that the residence time is only determined by the liquid holdup, which can be calculated with the equations reported in the literature.16
+
+Summary: Flow-chemistry process development for continuous hydrogenolysis of N-Diphenylmethyl groups in a micropacked-bed reactor is described. The reaction involves the use of H2 and a Pd/C catalyst under 1 atm pressure, with toluene as solvent. Key products are phenols and diphenylmethane derivatives. A microreactor (ID: 0.5 mm) is used with residence times between 3-6 hours, temperatures of 80°C, and flow rates of 1 mL/min H2 and 4 mL/min toluene mixture. The process achieves high conversion (97%) and selectivity towards desired products.
+
+was connected to a back pressure regulator (Beijing Xiongchuan Technology Co. Ltd.) to control the system pressure. The mixing of the feeding gas and liquid before the entering the packed-bed reactor greatly aﬀects the stability and reproducibility of the system. To minimize the hydrodynamic instabilities, the reactor structure followed the design which was described in the literature16 and more d
+

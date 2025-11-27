@@ -1,0 +1,245 @@
+Journal of Catalysis 269 (2010) 302–308
+
+Contents lists available at ScienceDirect
+
+Journal of Catalysis
+
+journal homepage: www.elsevier.com/locate/jcat
+
+A wall-coated catalytic capillary microreactor for the direct formation of hydrogen peroxide
+
+Jeck Fei Ng, Yuntong Nie, Gaik Khuan Chuah, Stephan Jaenicke *
+
+Department of Chemistry, National University of Singapore, 3 Science Drive 3, Singapore 117543, Singapore
+
+a r t i c l e i n f o
+
+a b s t r a c t
+
+Article history: Received 22 September 2009 Revised 12 November 2009 Accepted 12 November 2009 Available online 19 January 2010
+
+The direct formation of hydrogen peroxide from H2 and O2 was successfully carried out in a capillary mic- roreactor at room temperature and atmospheric pressure. A key element in sustaining the activity of the catalyst is the incarceration of the palladium nanoparticles in a cross-linkable amphiphilic polystyrene- based polymer, prepared following the protocol of Kobayashi [R. Akiyama, S. Kobayashi, J. Am. Chem. Soc. 125 (2003) 3412–3413]. The immobilization effectively reduced the leaching of palladium under acidic conditions. Applying the catalyst as a coating on the inner walls of a capillary enabled the sustained pro- duction of 1.1% hydrogen peroxide over at least 11 days. The highest catalyst utilization in a 2 mm cap- illary reactor was 0.54 molH2O2/h gPd. When the inner diameter of the reactor capillary was reduced to 530 lm, the rate was enhanced fourfold to 2.28 molH2O2/h gPd corresponding to a turnover frequency of 0.067 s1.  2009 Elsevier Inc. All rights reserved.
+
+Dedicated to Professor Hideshi Hattori on the occasion of his 70th birthday.
+
+Keywords: Hydrogen peroxide Direct formation Polymer-incarcerated palladium Capillary microreactor
+
+1. Introduction
+
+dilute solutions of hydrogen peroxide are adequate and an on-site production would be highly desirable as it would minimize han- dling and eliminate the need for the transportation of concentrated hydrogen peroxide over long distances. Extensive studies have therefore been carried out on the direct catalytic formation of hydrogen peroxide from hydrogen and oxy- gen (Scheme 1). The reaction is triphasic, involving a gas (H2 and O2), liquid, and solid phase (catalyst). Control of the selectivity of hydrogen peroxide formation and its subsequent decomposition and hydrogenation to water remains a major challenge. In order to achieve a more favorable equilibrium and higher conversion, most reported processes involve extreme operating conditions such as high pressures of 50–96 bar [5–8]. Palladium has been identified as the best catalyst. It has been used in a variety of forms, e.g., as colloids [9–11] or is supported on supports such as silica, titania, and zirconia, or as alloys [12– 20] in aqueous or methanolic acid solutions. Using palladium sup- ported on alumina, Choudhary et al. [16] studied the effect of var- ious halide ions and established that the best promoter for hydrogen peroxide formation is the bromide ion. Furthermore, the leaching of palladium from the support was reduced in the presence of phosphoric acid. The nature of the support has a major influence on the selectivity of the catalyst. Edwards et al. [20] ob- served that the pretreatment of the activated carbon with acetic acid prior to depositing Au/Pd nanoparticles to form the catalyst completely suppressed the reduction of hydrogen peroxide by hydrogen. Using a non-explosive mixture of 3.6% v/v of H2 and 7% O2 in CO2 at a total pressure of 40 bar and at a temperature of
+
+From the view of green chemistry and atom economy, hydrogen peroxide is the best single-oxygen donor, next to molecular oxy- gen. The oxygen is cleanly transferred, and the only byproduct is water. Applications of hydrogen peroxide in organic synthesis are reviewed in [1]. On a commercial scale, hydrogen peroxide is used as a bleach in the pulp and paper industry, as a disinfectant in the cosmetic and pharmaceutical industry and as an oxidant in water treatment. In highly purified form, it is used for etching and clean- ing in the electronics industry. Recently, several propylene oxide plants have come on stream that utilize hydrogen peroxide for the catalytic oxidation of propylene. However, the hydrogen perox- ide used by these units is still manufactured by the Riedl–Pfleider- er process via anthraquinone autooxidation (AO) [2,3]. This now over 70-year old process remains the only process used commer- cially to produce hydrogen peroxide. Because of the complexity of the process, economics of scale dictate the use of big production units. However, this makes it necessary to transport hydrogen per- oxide in concentrated form over large distances to the consumers. The transport costs add substantially to the price of the hydrogen peroxide for the end user. Therefore, despite its advantage as a clean oxidant, hydrogen peroxide is still not economically compet- itive for the production of bulk chemicals or for more widespread use in wastewater treatment [4]. For most applications, relatively
+
+* Corresponding author. Fax: +65 6779 1691. E-mail address: chmsj@nus.edu.sg (S. Jaenicke).
+
+J.F. Ng et al. / Journal of Catalysis 269 (2010) 302–308
+
+O O
+
+H2O + H2
+
++ O2
+
+H2O2
+
+O OH z
+
+ΔH = -105.75 kJ mol-1 ΔH = -135.9 kJ mol-1
+
+H2
+
+y
+
+H2O + ½ O2
+
+x
+
+ΔH = -105.8 kJ mol-1
+
+H2O + ½ O2
+
+ΔH = -241.6 kJ mol-1
+
+(x:y:z = 57:26:17)
+
+Scheme 1. Formation of hydrogen peroxide from H2 and O2 and competing reactions.
+
+Fig. 1. Copolymer with polystyrene backbone.
+
+2 C, these authors obtained a productivity of 0.175 molH2O2/h gcat at a remarkable selectivity of >98%. An obvious drawback in the formation of hydrogen peroxide from H2 and O2 is the very wide explosive regime, 5–96 vol%, in the H2/O2 system. To avoid the potential hazards from direct con- tact between H2 and O2, catalytic membranes [21–23] and a fuel cell design [24,25] have been proposed. Melada et al. [22] studied the continuous formation of hydrogen peroxide over Pd/Pt on car- bon-coated membranes. A relatively low hydrogen peroxide con- centration of 400 ppm was obtained using O2-saturated acidic solutions in the presence of bromide ions and hydrogen, fed in at 3 bar. Another approach is the use of microreactors to achieve the direct formation of hydrogen peroxide. Microreactors mitigate the inherent hazards of a thermal runaway because their large surface to volume ratio allows for highly efficient heat transfer. Further- more, the free radicals that are needed to sustain the chain reaction during an explosion are efficiently quenched through wall colli- sions. The volume hold-up in microreactors is also very small. Mic- roreactors are therefore inherently safe. In many cases, higher product yield and purity have been achieved in microreactors than in conventional equipment due to a much higher gas–liquid mass transfer coefficient [26]. Another advantage of these small-scale systems is that they can be built at the point of use, and a simple numbering-out allows for rapid capacity increases. Despite these advantages, there are only a few reports on the use of microreactors for the direct synthesis of hydrogen peroxide. Using a single chan- nel packed-bed microreactor at 20 bar and 50 C, Voloshin et al. [27–29] obtained hydrogen peroxide as a 1.3 wt% solution. Maehara et al. [30] reduced the total system size by using water electrolysis to generate H2 and O2 instead of feeding these gases from gas cylin- ders. The gases were subsequently passed through a Pd/C-coated stacked microreactor. A relatively modest hydrogen peroxide con- centration of 8.3  103 mol/L (0.028 wt %) was obtained at 10 C in a 0.1 mol/L solution of HCl with a residence time of 93 s. We have previously reported on the synthesis of hydrogen perox- ide over silica-supported Pd/Pt using two different packed-bed mic- roreactor designs [31]. Experiments with a multi-channel design with multiple parallel channels revealed difficulties in maintaining a constant and uniform two-phase flow through all channels. Be- cause of the high surface tension of the liquid, liquid plugs can form, leading to a much increased pressure drop over the affected channel. In turn, the gas will flow through the other channels and no catalytic reaction can take place in the plugged channel. Microreactors can be made from a wide range of materials, and a variety of fabrication techniques have been proposed such as LIGA (German: Lithographie-Galvanoplastik-Abformung, translating to lithography, electroforming, and molding), DRIE (Deep Reactive Ion Etching), laser ablation, photolithography, hot embossing, injec- tion moulding, powder blasting, and microlamination [32]. How- ever, all these techniques require special fabrication equipment and skills. Here, we report a simpler, easier, and cheaper design, namely a single-capillary microreactor for the direct formation of hydrogen peroxide. As our earlier investigations indicated that the pressure drop in a packed bed is a major concern, we choose an open channel wall-coated system instead, where the palladium catalyst
+
+nanoparticles are immobilized within a thin film of polymer. The polymer-micelle incarceration (PMI) technique developed by Kobayashi and collaborators is used for the immobilization of palla- dium [33,34]. In this method, an amphiphilic polystyrene-based copolymer (Fig. 1) is induced to form micelles within which a solu- ble palladium precursor is dissolved. The palladium nanoparticles formed by thermal decomposition are immobilized in the resin by cross-linking. Previous applications of these polymers for microen- capsulated scandium, ruthenium, and palladium catalysts have demonstrated their resistance to leaching [35–39]. This is attributed to the strong interaction between the p-electrons of the benzene rings in the polystyrene backbone and the vacant orbitals on the metal. Because the liquid phase used for the formation of hydrogen peroxide is normally acidic, the leaching of the metal catalyst is a se- vere problem. Hence, the polymer-micelle incarceration technique for immobilizing palladium is evaluated as a potential approach to overcome or at least to mitigate the leaching problem.
+
+2. Experimental
+
+2.1. Preparation of polymer-micelle incarcerated palladium (PMI–Pd)
+
+The epoxide-containing polystyrene copolymer was synthe- sized according to the procedures described in [39]. The exact de- tails of the preparation can be found in the Supplementary material. The synthesized copolymer (54 mg) and Pd(PPh3)4 (12 mg) were dissolved in THF (1 mL). Cyclohexane (3 mL) was slowly added to this mixture to form polymer micelles. Glass cap- illary tubes (ID 2.0 mm; OD 6.5 mm, length 115.0 mm) were washed successively with 1 N NaOH, water, and ethanol, and were filled with the polymer solution. When we attempted to use longer segments of the glass tubes, we observed that it was difficult to evaporate the solvent hexane from the polymer solution to form a uniform coating. Therefore, several shorter pieces were coated on the inside and later combined to provide the necessary length of the reactor. The tubes were mounted horizontally in a fixture in which they could be slowly rotated, and left overnight to precip- itate the polymer micelles onto the glass and to allow the solvent to evaporate. After drying, a yellow precipitate covered the inner surface of the tube as a uniform film. The coated glass tubes were washed with hexane, dried, and subjected to heat treatment for 5 h at 150 C. During this heat treatment, the Pd(PPh3)4 decomposed, forming the palladium metal nanoparticles, and the film changed to black color. The glass tubes were then washed with acetonitrile to remove the liberated triphenylphosphine and any excess (un- bound) palladium. Washing was continued until all triphenylphos- phine had been washed out as confirmed by the absence of the UV- absorption at 266 nm. To analyze for washed-out palladium, all washings were combined and evaporated to dryness. Concentrated nitric acid (0.1 mL) was added to dissolve the palladium and the solution was made up to 10 mL using deionized water. The washed-out palladium was quantitatively determined by induc- tively coupled plasma-atomic emission spectroscopy. The amount of palladium catalyst retained in the coating was then calculated as
+
+J.F. Ng et al. / Journal of Catalysis 269 (2010) 302–308
+
+palladium weighed in at the beginning minus the amount washed out. Typically, more than 90% of the palladium was bound in the polymer matrix. Transmission electron microscopy (TEM) mea- surements on the fresh and used PMI–Pd catalysts were performed with a JEOL JEM 3010 HRTEM at operated at 300 kV. The samples were mounted by drying a droplet of a suspension containing the ground sample in ethanol onto the copper grid. 2-Aminopropyl derivatized glass surfaces were prepared as de- scribed in the literature [33]. The cleaned and washed capillary tubing was filled with a solution of 2-aminopropyl trimethoxysi- lane in methanol and left at room temperature for 15 h. It was then dried before coating with the polymer micelle solution as de- scribed above.
+
+The free amino group reacts with the oxirane function of the poly- mer to form a secondary amine which links the polymer covalently to the capillary wall. However, we found that the presence of the amine linker was incompatible with the reaction conditions to pro- duce hydrogen peroxide. The acidic liquid medium used in the tri- phasic reaction rapidly hydrolyzed the amine bond and weakened the attachment between the polymer and the glass surface. As a consequence, the palladium-containing film was washed out from the reactor, and the production of hydrogen peroxide at a concen- tration of 200 mM could only be sustained for 2 days. For subse- quent experiments, the PMI catalyst was therefore deposited directly on the surface of the glass capillaries without prior chem- ical surface functionalization.
+
+3.2. Composition of the solvent system
+
+2.2. Direct formation of H2O2
+
+The composition of the solvent system was varied in order to assess the effect of different modifiers on the direct formation of hydrogen peroxide (Table 1). Initial trials with pure water gave low H2O2 yields. Methanol was therefore chosen as the solvent be- cause the solubility of H2 is three times and that of O2 eight times higher in methanol than in water [18]. Furthermore, alcoholic hydrogen peroxide would be compatible with the subsequent pro- cesses, e.g., in the production of propylene oxide [11–13,26]. Using pure methanol as the solvent, the hydrogen conversion was as high as 47%, but hydrogen peroxide was obtained only with a concen- tration of 28 mM. After the addition of potassium bromide to the methanol, the concentration increased to 47 mM. Even better re- sults were obtained when the methanol was acidified. Sulfuric acid was tested as it does not cause the specific corrosive effects of ha- lide ions such as pitting and stress corrosion. The achievable hydrogen peroxide concentration increased significantly, from 28 mM to 156 mM. When the methanol was acidified with hydro- chloric acid, the final concentration was slightly lower at 107 mM. A further increase in the hydrogen peroxide concentration was ob- tained when potassium bromide was added to the acidified meth- anol. Using MeOH/H2SO4/KBr as the solvent doubled the hydrogen peroxide concentration to 278 mM, while in the MeOH/HCl/KBr system, the hydrogen peroxide obtained had a concentration of 326 mM. With the latter liquid phase composition, the productiv- ity of the hydrogen peroxide at 0.54 mol/h gPd is about 10 times that observed in pure methanol. Both the hydrogen and halide ions (Cl and Br) are known to promote the hydrogen peroxide yield by inhibiting its hydrogenation and decomposition [10,14,41]. The halide ions presumably block the active sites (consisting of ensembles of metal atoms) for the dissociation of the O–O bond. This is reflected in the dramatic increase in the hydrogen peroxide selectivity from 0.65% without additives to 77% in the system with H2SO4 and Br, which is the result of a largely decreased H2 conver- sion (from 47% to only 3.9%). The observed selectivities are compa- rable to those observed in a batch reactor under 6 bar total pressure (see data under Supplementary material, Table S-1).
+
+Three of the catalyst-coated glass capillary tubes were joined end-to-end with Teflon tubing to form a reactor of 34.5 cm length. All other connections were made with standard HPLC fittings. Hydrogen and oxygen flows were separately controlled via mass flow controllers (MKS). Typical flow rates were 2 and 4 mL/min, respectively. The two gases were mixed using a T-coupling. The li- quid phase, a solution of 0.1 N HCl and 0.281 mM KBr in methanol, was then added to the gas stream through the side port of another T-coupling at a rate of 0.5 mL/h via a syringe pump (Harvard Appa- ratus). The reactor effluent was passed through a gas–liquid sepa- rator kept in an ice bath. To avoid the accumulation of dangerous concentrations of hydrogen gas, the outlet of the reactor was di- luted with nitrogen to below the explosive limit and removed through a vent line. The system was allowed to stabilize for 2 h at ambient temperature and pressure before the liquid effluent was collected. The hydrogen peroxide formed was quantitatively determined by colorimetry using the TiOSO4/H2SO4 reagent [40]. The UV-absorption of the complex was measured at 425 nm. The liquid effluent from the microreactor was collected to test for the leaching of palladium as described above. In order to determine conversion and selectivity, the total gas flow at the inlet and after the reactor was determined with a bubble flow meter. Since water is the only by-product formed, its concentration can then be calcu- lated from a mass balance. The selectivity is given as moles H2O2/ (H2O + H2O2). The samples of the gas before and after reaction were also collected with a gas tight syringe and the content of H2 and O2 was determined with a gas chromatograph (Hewlett-Pack- ard 5890 Plus with thermal conductivity detector; column: molec- ular sieve 5A, 90  1/800; carrier gas N2).
+
+2.3. Determination of the length of unit cell
+
+The length of one unit cell refers to the length of one liquid plug plus one gas plug. Due to the slow pumping speed used in the experiment, only one liquid plug was observed within the microre- actor at any one time. Subsequent liquid plugs appeared after the first liquid plug has passed through the microreactor. Therefore, the velocity of the liquid plug can be determined from the time re- quired for a liquid plug to pass through the microreactor. The time required for the subsequent liquid plugs to appear was also mea- sured. As the length of the microreactor is known, the distance be- tween two liquid plugs can be estimated.
+
+Table 1 Comparison of different solvent systems for the synthesis of hydrogen peroxide.
+
+Solvent system Conc. of H2O2 (mM) Productivity (mol/h gPd) H2 conv. (%) Selectivitya
+
+(%)
+
+MeOH 0.05 0.65 MeOH/KBr 0.08 1.4 MeOH/HCl 0.18 nd nd MeOH/H2SO4 0.26 8.7 MeOH/H2SO4/KBr 0.46 3.9 MeOH/HCl/KBr 0.54 nd nd
+
+3. Results and discussion
+
+3.1. Surface Pretreatment
+
+J.F. Ng et al. / Journal of Catalysis 269 (2010) 302–308
+
+Fig. 2. TEM images for fresh PMI catalysts with (a) 1 wt%, (b) 2 wt%, (c) 4 wt% Pd and (d) 2 wt% PMI–Pd after reaction.
+
+3.3. Influence of catalyst loading
+
+to indicate a size effect similar to that observed by Edwads et al. [20]: the activity of the nanoparticles for H2O2 formation is opti- mum at a certain size, but decreases for even smaller particles, over which water formation becomes favored. Several microreactors were prepared with polymer films con- taining palladium at a concentration of 2 wt% with respect to the polymer. The amount of catalyst in the reactor was increased by increasing the film thickness through applying multiple coats of the polymer. The concentration of the hydrogen peroxide gener- ated in the microreactor increased linearly from 123 to 254 mM as the catalyst amount increased from 0.19 to 0.35 mg Pd (Table 3). However, the productivity normalized to the amount of catalyst remained essentially constant, varying only slightly from 0.32 to 0.36 mol/h gPd. This shows that the polymer film was well pene- trated by the reactants so that all the encapsulated metal particles were readily accessible for the reaction. Furthermore, the decom-
+
+Different palladium loadings into the polymer were achieved by varying the amount of Pd(PPh3)4 in the micelle precursor. Repre- sentative TEM micrographs of the resulting PMI–Pd catalysts are shown in Fig. 2. The palladium clusters, represented by the black dots, are well distributed throughout the polymer support. The clusters had a relatively uniform particle size around 2.5, 2.7, and 3.6 nm for 1, 2, and 4 wt% Pd loading, respectively (Table 2). Com- paring their activity, the productivity of hydrogen peroxide nor- malized to the amount of palladium increased from 0.25 to 0.34 mol/h gPd as the loading increased from 1 to 2 wt%. However, the productivity became lower when the palladium loading was further increased to 4 wt%. While the decrease in activity may be related to the bigger particle size and consequently lower metal dispersion at the higher metal loading, the initial increase appears
+
+Table 2 Effect of palladium concentration in the polymer film.
+
+Table 3 Influence of palladium loading varied by repeated coating with PMI–2% Pd.
+
+Pd loading (wt%) Coated Pd (mg) TEM particle size (nm) Conc. of H2O2 (mM) Productivity of H2O2 (mol/h gPd)
+
+Amount of Pd (mg) Conc. of H2O2 (mM) Productivity of H2O2 (mol/h gPd)
+
+0.19 0.32 0.28 0.36 0.35 0.34
+
+0.14 2.5 71.2 0.25 0.37 2.7 0.34 0.59 3.6 0.25
+
+J.F. Ng et al. / Journal of Catalysis 269 (2010) 302–308
+
+position of hydrogen peroxide was not significant even at the high- est loading of catalyst.
+
+shorter as more liquid plugs are introduced into the channel per unit time. The shorter unit cell length increases the gas–liquid mass transfer and therefore leads to higher hydrogen peroxide pro- ductivity. In Fig. 3 the estimated unit cell length and productivity of hydrogen peroxide are plotted against different liquid feed rates. The results are in good agreement with Eq. (1).
+
+3.4. Flow rate of the liquid phase
+
+The flow rate of the liquid plays an important role in the mass transfer within the microreactor. In a 2-mm ID capillary, increasing the liquid feed rate from 0.2 to 1.0 mL/h resulted in an increase in the productivity of hydrogen peroxide from 0.24 to 0.46 mol/h gPd (Table 4). However, the hydrogen peroxide concentration de- creased from 409 mM to 160 mM due to dilution by a larger vol- ume of liquid. Bercic and Pintar [42] found that the gas–liquid mass transfer in a methane/water system under Taylor flow condi- tions is well described by the relation
+
+3.5. Influence of microreactor diameter
+
+According to Eq. (1), the mass transfer can also be improved by increasing the flow velocity u of the unit cell. Higher velocity of the unit cell is achieved by maintaining a constant gas and liquid flow rate and decreasing the inner diameter of the reactor at the same time. The results in Table 5 show that the productivity of hydrogen peroxide increased from 0.34 to 2.28 mol/h gPd when the reaction was ran in narrower capillaries. The productivity per unit palla- dium obtained with a microreactor of 0.53 mm diameter was about six times higher than in one with 2 mm inner diameter. These results clearly confirm that a smaller diameter resulted in a higher velocity of the unit cell and therefore a better liquid-gas mass transfer. However, the concentration of the hydrogen perox- ide was lower for the smaller diameter reactor. This is due to the significantly smaller amounts of catalyst-coated on the wall of the narrower capillary. The amount of catalyst deposited onto the walls of the capillary depends on the volume of the solution from which the catalyst was deposited. It will therefore scale with r2 (r is the radius of the capillary) if a constant number of impreg- nation steps is used.
+
+KLa ¼ aub
+
+ðð1  egÞLUCÞc ð1Þ
+
+In this equation a, b, and c are constants, and LUC is the length of one ‘‘unit cell", i.e., of one gas bubble and the liquid plug separating it from the next gas bubble, eg is the volume fraction of the gas bubbles, and u is the flow velocity of the unit cell. Inspection of this equation shows that an increase of the flow velocity u or a decrease of the unit cell length LUC will have the strongest impact on the mass transfer coefficient KLa. The numerical value for exponent c in our experiments was calculated to be 0.56. The flow velocity u remains essentially the same if the liquid feed rate is varied at constant gas flow rate because under our experimental conditions, the volume flow rate of the gas is very much higher than that of the liquid. Therefore, the main parameter affected by a change in liquid feed rate is the length of the unit cell. At a higher liquid feed rate, the length of the unit cell becomes
+
+3.6. Varying gas ratios and secondary reactions
+
+Scheme 1 shows that except for the decomposition of hydrogen, all other side reactions involve hydrogen. Therefore, it is crucial to optimize the ratio of the O2:H2 for maximum formation of hydro- gen peroxide. When the amount of hydrogen is stoichiometric (1:1) or higher than that of oxygen (2:1), the formation of hydro- gen peroxide is four to seventeen times lower as compared to that for a H2:O2 ratio of 1:2 (Table 6). An excess of hydrogen favors the subsequent hydrogenation of hydrogen peroxide to water. There- fore, a moderate oxygen excess is essential to suppress the reduc- tion reactions. The H2:O2 ratio of 1:2 was established as close to the economic optimum. To investigate the secondary reactions that hydrogen peroxide undergoes in the microreactor, hydrogen peroxide at a concentra-
+
+Table 4 Effect of liquid pumping speed in a 2-mm ID capillary reactor.
+
+Pumping speed (mL/h) Conc. of H2O2 (mM) Productivity of H2O2 (mol/h gPd)
+
+0.2 0.24 0.5 0.34 1.0 0.46
+
+Reaction conditions: Pd: 0.35 mg; O2: 4 mL/min; H2: 2 mL/min, liquid (MeOH/HCl/ KBr): 0.5 mL/h.
+
+0.5
+
+Table 5 Hydrogen peroxide production in different capillary tubes.
+
+1.6
+
+0.4
+
+Productivity (mol/h.g Pd)
+
+Inner diameter (mm) Coated Pd (mg) Conc. of H2O2 (mM) Productivity of H2O2 (mol/h gPd)
+
+Unit cell length (m)
+
+1.2
+
+0.3
+
+2.00 0.37 0.34 1.00 0.12 0.61 0.53 0.02 81.7 2.28
+
+0.8
+
+0.2
+
+Reaction conditions: O2: 4 mL/min; H2: 2 mL/min, liquid (MeOH/HCl/KBr): 0.5 mL/h.
+
+0.4
+
+0.1
+
+Table 6 Variation of H2:O2 gas ratio on hydrogen peroxide formation.
+
+Gas ratio (H2:O2) Conc. of H2O2 (mM) Productivity of H2O2 (mol/h gPd)
+
+0.5 1.5 Pumping Speed (mL/h)
+
+1:2 0.34 1:1 58.8 0.08 2:1 17.1 0.02
+
+J.F. Ng et al. / Journal of Catalysis 269 (2010) 302–308
+
+hydrogen peroxide productivity rate of 0.34–0.35 mol/h gPd was sustained over the first 3 days at a daily operation time of 10 h (for safety reasons, the reactor was only operated in the presence of an operator). The productivity decreased over the next 3 days to stabilize at a constant value of 0.27 mol/h gPd, which is 77% of the initial activity. The productivity was maintained at this level until the experiment was terminated after another 5 days. The con- centration of hydrogen peroxide obtained during the period of highest productivity was 0.9 wt%. The observed decrease in activity between day 4 and day 6 can be attributed to a loss of palladium from the microreactor. This may be palladium particles which are not tightly incarcerated in the polymer and can be easily removed by the acidic liquid phase. Indeed, no further decrease in hydrogen peroxide productivity was observed with continued operation of the microreactor after this time. A control experiment, using an acidand halogen-free solu- tion of methanol in water as the liquid phase, showed that the amount of palladium in the reactor effluent was below detection limit. The palladium content in the film was analyzed by ICP-AES after the run and was found to be 10% lower than that in the fresh film. This loss in palladium can account for half of the observed de- cline in productivity. Another contributing factor is the formation of bigger palladium particles and agglomeration of palladium clus- ters. Transmission electron micrographs of the polymer film after the reaction (Fig. 2d) showed the presence of palladium crystallites with a diameter of up to 4.8 nm, in addition to many small parti- cles that were similar in size or even smaller than the 2.7 nm par- ticles in the as-synthesized film (Fig. 2b). The growth of bigger palladium particles at the expense of smaller ones (Ostwald ripen- ing) will result in lower catalyst dispersion which adequately ex- plains the observed reduction in activity up to day 6. The stable hydrogen peroxide productivity obtained thereafter suggests that the tightly bound PMI–Pd crystallites were stable toward leaching and particle growth.
+
+tion of 200 mM was added to the liquid feed. The hydrogen perox- ide concentration in the product stream was measured as a func- tion of the gas phase composition (Table 7). In the absence of hydrogen, the final concentration of hydrogen peroxide remained unchanged. Hence, the catalytic decomposition of hydrogen perox- ide was negligible within the short retention time of about 7–8 s in the microreactor. A very significant decrease in hydrogen peroxide concentration was observed in the presence of hydrogen gas. In a He and H2 (2:1) gas mixture, almost half of the initial hydrogen peroxide was reduced to water, and the hydrogen peroxide con- centration decreased from 200 mM to 121 mM. Using our standard synthesis gas mixture of H2 and O2 in the ratio of 1:2, the decrease in hydrogen peroxide concentration was smaller, from 200 mM to 165 mM. This was the same concentration that could be obtained with this reactor in the synthesis mode. Obviously, under these conditions, the formation of hydrogen peroxide occurs, but at a lower rate than the reduction of hydrogen peroxide. The final va- lue, 165 mM, is the steady-state concentration between formation and decomposition reactions. We conclude that the main second- ary reaction within our microreactor system is the reduction of hydrogen peroxide by hydrogen rather than its decomposition. Our results confirm earlier observations by Han and Lunsford [10] who had shown that under batch conditions, hydrogen perox- ide was stable in the presence of O2 but was readily reduced to water by H2.
+
+3.7. Lifetime of the catalyst in the microreactor
+
+The long-term behavior of the microreactor for the continuous production of hydrogen peroxide was investigated (Fig. 4). A
+
+Table 7 Effect of gas composition on the reduction/decomposition of hydrogen peroxide in feed.
+
+Gas composition Conc. of H2O2 (mM)
+
+4. Conclusions
+
+He He:H2 (4:2) H2:O2 (2:4) He:O2 (2:4)
+
+The catalytic capillary microreactor was shown to be a suitable approach for the intrinsically safe in situ generation of hydrogen peroxide from the elements. Over a wall-coated Pd nano-particle catalyst, this reaction takes place under mild conditions, i.e., room temperature and atmospheric pressure, without dilution by an in- ert gas. A moderate excess of oxygen in the feed stream over the stoichiometric 1:1 ratio for O2:H2 is necessary to suppress the cat- alytic reduction of the formed hydrogen peroxide to water. A two- fold oxygen excess was identified as close to the economic optimum. The immobilization of palladium from a soluble precursor using the PMI method resulted in uniform palladium nanoparticles of 2.5–3.6 nm diameter for palladium loadings of 1–4 wt%. The pres- ence of bromine and hydrogen ions in the solvent system is essen- tial for achieving high productivity of hydrogen peroxide. Despite the corrosive conditions, the PMI catalyst showed little leaching. The long-time stability of the catalyst could be demonstrated dur- ing the continuous production of hydrogen peroxide for 11 days. Using a 2-mm ID microreactor coated with PMI–Pd, a maximum concentration of 1.4 wt% of H2O2 corresponding to a turnover fre- quency of 0.54 molH2O2/h gPd was obtained in continuous operation.
+
+Reaction conditions: Pd: 0.58 mg; liquid (MeOH/HCl/KBr): 0.5 mL/h; gas flow: 6 mL/min, feed [H2O2]: 200 mM.
+
+0.40
+
+H2O2 productivity (mol/h.g Pd )
+
+0.30
+
+0.20
+
+0.10
+
+0.00
+
+Acknowledgment
+
+Time (day)
+
+J.F. Ng et al. / Journal of Catalysis 269 (2010) 302–308
+
+[18] Q. Liu, J.C. Bauer, R.E. Schaak, J.H. Lunsford, Angew. Chem. Int. Ed. 47 (2008) 6221. [19] T. Ishihara, Y. Ohura, S. Yoshida, Y. Hata, H. Nishiguchi, Y. Takita, Appl. Catal. A 291 (2005) 215. [20] J.K. Edwards, B. Solsona, E. Ntainjua N, A.F. Carley, A.A. Herzing, C.J. Kiely, G.J. Hutchings, Science 323 (2009) 1037. [21] V.R. Choudhary, A.G. Gaikwad, S.D. Sansare, Angew. Chem. Int. Ed. 40 (2001) 1776. [22] S. Melada, F. Pinna, G. Strukul, S. Perathoner, G. Centi, J. Catal. 235 (2005) 241. [23] S. Melada, F. Pinna, G. Strukul, S. Perathoner, G. Centi, J. Catal. 237 (2006) 213. [24] I. Yamanaka, T. Onizawa, S. Takenaka, K. Otsuka, Angew. Chem. Int. Ed. 42 (2003) 3653. [25] I. Yamanaka, Catal. Surveys Asia 12 (2008) 78. [26] S.J. Haswell, P. Watts, Green Chem. 5 (2003) 240. [27] Y. Voloshin, R. Halder, A. Lawal, Catal. Today 125 (2007) 40. [28] Y. Voloshin, J. Manganaro, A. Lawal, Ind. Eng. Chem. Res. 47 (2008) 8119. [29] Y. Voloshin, A. Lawal, Appl. Catal. A 353 (2009) 9. [30] S. Maehara, M. Taneda, K. Kusakabe, Chem. Eng. Res. Des. 86 (2008) 410. [31] X. Wang, Y. Nie, J.L.C. Lee, S. Jaenicke, Appl. Catal. A 317 (2007) 258. [32] W. Ehrfeld, V. Hessel, H. Löwe, Microreactors: New Technology for Modern Chemistry, Wiley-VCH, Weinheim, 2000. p. 1. [33] J. Kobayashi, Y. Mori, K. Okamoto, R. Akiyama, M. Ueno, T. Kitamori, S. Kobayashi, Science 304 (2004) 1305. [34] R. Akiyama, S. Kobayashi, Chem. Rev. 109 (2009) 594. [35] R. Akiyama, S. Kobayashi, J. Am. Chem. Soc. 125 (2003) 3412. [36] K. Okamoto, R. Akiyama, S. Kobayashi, J. Org. Chem. 69 (2004) 2871. [37] K. Okamoto, R. Akiyama, S. Kobayashi, Org. Lett. 6 (2004) 1987. [38] R. Akiyama, T. Sagae, M. Sugiura, S. Kobayashi, J. Organomet. Chem. 689 (2004) 3806. [39] H. Miyamura, R. Akiyama, T. Ishida, R. Matsubara, M. Takeuchi, S. Kobayashi, Tetrahedron 61 (2005) 12177. [40] I.R. Cohen, T.C. Purcell, A.P. Altshuller, Environ. Sci. Technol. 1 (1967) 247. [41] R. Burch, P.R. Ellis, Appl. Catal. B 42 (2003) 203. [42] G. Bercic, A. Pintar, Chem. Eng. Sci. 52 (1997) 3709.
+
+Appendix A. Supplementary material
+
+Supplementary data associated with this article can be found, in the online version, at doi:10.1016/j.jcat.2009.11.015.

@@ -1,0 +1,60 @@
+{"name": "Naphthalene", "yield_optimal": 95, "unit": "%"}
+
+{'' if not temp_match.group(2) else '°' + temp_match.group(2)}
+
+{"name": m, "role": role_match.group(2)}
+
+{"name": "1-nitronaphthalene", "yield_optimal": 95, "unit": "%"}
+
+{"name": main_product, "yield_optimal": 95, "unit": "%"}
+
+# Extract metrics and conditions
+    yield_match = re.search(r"yield (\d+)%", text)
+    if yield_match:
+        yield_optimal = int(yield_match.group(1))
+    
+    flow_rate_match = re.search(r"Flow rate (.*?) mL/min", text, re.IGNORECASE)
+    if flow_rate_match:
+        flow_rate_value = float(flow_rate_match.group(1))
+
+    temperature_match = re.search(r"T=(\d+) °C", text)
+    if temperature_match:
+        temperature_value = int(temperature_match.group(1))
+    
+    residence_time_match = re.search(r"residence time (.*?) min", text, re.IGNORECASE)
+    if residence_time_match:
+        residence_time_value = float(residence_time_match.group(1))
+
+    pressure_match = re.search(r"P=(\d+) bar|pressure (\d+)", text, re.IGNORECASE)
+    if pressure_match:
+        pressure_value = int(replace_pressure_unit(text))
+    
+    # Extract reactor type and inner diameter
+    coil_match = re.search(r"coil", text, re.IGNORECASE)
+    microreactor_type = "microreactor"
+    if coil_match:
+        microreactor_type =
+
+{"name": f"{match.group(2)}-{match.group(3)}-nitro{'' if match.group(4) else 'o'}", 
+                     "yield_optimal": 95, "unit": "%"}
+
+{"name": None, "yield_optimal": yield_optimal, "unit": "%"}
+
+{
+"reaction_summary": {
+    "reaction_type":"nitration",
+    "reactants":[{"name":"o-nitrotoluene","role":"reactant"}],
+    "products":[{
+        "name":"null", 
+        "yield_optimal":95, 
+        "unit":"%"}], 
+    "conditions":[
+        {"type":"temperature","value":"less"},
+        {"type":"residence_time","value":"null"}
+    ],
+    "reactor":{"type":"packed microreactor",
+                "inner_diameter":"null"
+               }
+
+{"reaction_summary": {"reactants": [{"name": "naphthalene", "role": "reactant"}], "products": [], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": null}], "reactor": {"type": null, "inner_diameter": null}, "metrics": {}}}
+

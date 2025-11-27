@@ -1,0 +1,56 @@
+{
+  "reaction_type": "direct synthesis",
+  "reactants": [
+    {
+      "name": "hydrogen",
+      "role": "reactant"
+    },
+    {
+      "name": "oxygen",
+      "role": "reactant"
+    },
+    {
+      "name": "polymer-embedded palladium",
+      "role": "catalyst"
+    },
+    {
+      "name": "methanol",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "hydrogen peroxide",
+      "yield_optimal": 95.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "25 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "93 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.5 mL/h"
+    },
+    {
+      "type": "pressure",
+      "value": "0.1 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "capillary",
+    "inner_diameter": "2 mm"
+  },
+  "metrics": {
+    "conversion": 3.9,
+    "yield": 95.0,
+    "selectivity": 95.0,
+    "unit": "%"
+  }
+}

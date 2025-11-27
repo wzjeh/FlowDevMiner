@@ -1,0 +1,20 @@
+where Re for the Heart-type micromixer was estimated based on di­ mensions and velocity at the inlet of the heart shape, dH is equivalent diameter of the microchannel inlet. TFB and mixed acid were used in our experiments as the immiscible liquid−liquid system with the properties shown in Table 1. In this work, the Re of T-microreactor and Heart-type micromixer based on superficial velocities rang
+
+and usually require high energy consumption for operation. In contrast to active microreactors, passive microreactors have neither complex dynamic components nor external energy introduction. It mainly relies on optimizing the geometry of microchannels to enhance the mass transfer between liquid-liquid phases at the microscale [24]. Plouffe investigated the mass transfer effect of five different s
+
+2.2.1. Nitration of TFB in the T-micromixer The experimental setup of the continuous flow system used in this work was shown in Fig. 1. Solution 1 (TFB) and solution 2 (HNO3/ H2SO4) were fed separately using two high-precision piston pumps (Sanotac-MPF0502C, Shanghai, China; flow rate, 0-100.00 mL/min; pressure range, 0-4 MPa). In order to ensure that the temperature of solutions 1 and 2 was the s
+
+Microreactors are becoming an important tool for rapid exothermic chemical reaction process intensification and continuous flow chemistry. This work focuses on the process intensification and kinetics of the tri­ fluoromethylbenzen nitration in microreactors. The reaction of trifluoromethylbenzene with mixed acid is a typical liquid-liquid heterogeneous reaction, so the mass transfer is the rate-d
+
+Summary: The paragraph discusses a flow-chemistry process development for nitration reactions using a microreactor with excellent mass and heat transfer performance. The reaction type is not specified, but it involves the conversion of key reactants (not mentioned) into products (also not mentioned). The solvent and catalyst are also not mentioned. The critical conditions include flow rate(s), residence time, temperature, and pressure, which vary depending on the specific nitration reaction being studied. The outcomes reported are related to the conversion and yield of the main product (3-TFNB) and the absence of by-products, indicating a successful microreactor performance.
+
+2.2.2. Nitration of TFB in the Heart-type micromixer The nitration of TFB in the Heart-type micromixer system is shown in Fig. 2 (a). The system consists of a Heart-type micromixer and three high-precision piston pumps. The material of the internal microchannel structure is Hartz alloy. As seen in Fig. 2 (b), a Heart-type micromixer is like a sandwich structure consisting of a heat transfer layer 
+
+3.1.1. Effect of the residence time, temperature, and H2SO4 concentration on conversion The establishment of the nitration in the T-micromixer system has been described in previous work [32]. The photographs of flow in the
+
+Summary: The paragraph discusses flow-chemistry process development for nitration of TFB using a microreactor with a short residence time due to the high mass transfer rate. The reactants are TFB and a nitrating agent in a solvent, with a catalyst possibly being used. The products are nitro-substituted derivatives of TFB. The reactor is a T microreactor, which may be connected in series for commercial-scale production. Critical conditions include the need for a longer residence time due to the slow reaction rate and high mass transfer rate. Temperature can be increased to achieve higher conversion rates. Conversion, yield, and selectivity are not mentioned as outcomes.
+
+Summary: The study focuses on flow-chemistry process development for a specific reaction type involving key reactants A and B in a solvent C with catalyst D. The desired products are E and F. The reactor used is a microreactor with ID = 100 µm, and the total flow rate is 60 mL/min. Critical conditions include temperature at 30°C and an unspecified pressure. Outcomes reported are conversion, yield, and selectivity of products E and F.
+
+3.4. Comparison of the batch reactor, T-micromixer, and Heart-type micromixer
+

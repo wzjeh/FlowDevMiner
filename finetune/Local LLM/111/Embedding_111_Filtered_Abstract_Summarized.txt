@@ -1,0 +1,112 @@
+{"name": word, "yield_optimal": yield_val}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+Table 2
+| Substrate | Reaction Conditions | Yield (%) |
+| --- | --- | --- |
+| Chloro-benzene | T=80 °C, t=10 min, F1=0.5 mL/min, P=100kPa | 92% |
+| Nitro-benzene | T=90 °C, t=15 min, F2=0.8 mL/min, P=150kPaa | 85% |
+| Acetyl-benzoic acid | T=70 °C, t=5 min, F3=1.2 mL/min, P=50kPa | 88% |
+| Methoxy-phenol | T=80 °C, t=10 min, F4=0.6 mL/min, P=120kPaa | 95% |
+
+Input
+Under the optimized reaction conditions, various sub-strates could be carried out smoothly in the Pd-immobi- lized microchannels (Table 2). The microfluidic reactor exhibited high efficiency and good functional group com- patibility. Substituents such as chloro, nitro, acetyl and meth
+
+{word}
+
+{"reaction_type": match.group(1).lower()}
+
+{"name": "aryl boronic acid", "yield_optimal": 95, "unit": "%"}
+
+{ "reaction_summary": {  "reaction_type":"...",  "reactants":[{"name":"...","role":"reactant|catalyst|solvent"}],  "products":[{"name":"...","yield_optimal":95,"unit":"%"}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-reaction', input_str, flags=re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).lower()
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"([A-Za-z0-9]+)", input_str)
+    reactant_names = [match for match in matches]
+    
+    # Parse products (if present)
+    product_match = re.search(r'yield (\d+)%', input_str, flags=re.IGNORECASE)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+    else:
+        yield_optimal = None
+    
+    # Parse conditions
+    temperature_match = re.search(r'T=([0-9]+) °C', input_str, flags=re.IGNORECASE)
+    residence_time_match = re.search(r'residence time ([0-9.]+)', input_str, flags=re.IGNORECASE)
+    
+    if temperature_match:
+        temp_value = temperature_match.group(1)
+    else:
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-catalyzed', input_str, flags=re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).lower()
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r'\b\w+\b(?![a-z])', input_str)
+    reactant_names = [match for match in matches]
+    
+    # Parse products (yield optimal)
+    product_match = re.search(r'(\d+)% yield', input_str, flags=re.IGNORECASE)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+    else:
+        yield_optimal = None
+    
+    # Parse conditions
+    temperature_match = re.search(r'T=(\d+) °C', input_str, flags=re.IGNORECASE)
+    residence_time_match = re.search(r'residence time (\d+)', input_str, flags=re.IGNORECASE)
+    
+    if temperature_match:
+        temp_value = temperature_match.group(1) + '° C'
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp_residence = re.search(r"(\d+) \D+(\d+)", input_str)
+    if match_temp_residence:
+        temp, res_time = map(int, match_temp_residence.groups())
+
+    # Parse flow rates (reactant A and B) and pressure
+    flow_rate_A = None
+    flow_rate_B = None
+    pressure = None
+    match_flow_pressure = re.search(r"(\d+(?:\.\d+)?) \D+ (\d+(?:\.\d+)?)", input_str)
+    if match_flow_pressure:
+        flow_rate_A, _ = map(float, match_flow_pressure.groups())
+        _, pressure = match_flow_pressure.group(0).split(' ')
+        pressure = float(pressure)
+
+    # Parse inner diameter
+    inner_diameter = None
+    match_inner_diameter = re.search(r"(\d+(?:\.\d+)?) mm", input_str)
+    if match_inner_diameter:
+        inner_diameter = float(match_inner_diameter.group(1))
+
+    # Parse yield and conversion (if present)
+    yield_optimal = None
+

@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "hydrogenation", "reactants": ["furfural", "H2"], "products": ["furfuryl alcohol"], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": 5}], "reactor": {"type": "microchannel", "inner_diameter": null}, "metrics": {"conversion": 95.2, "yield": 89.5, "selectivity": null, "unit": "%"}}}

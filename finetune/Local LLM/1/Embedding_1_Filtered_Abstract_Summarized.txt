@@ -1,0 +1,62 @@
+{"name": None, "yield_optimal": optimal_yield, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}, {"name": "...", "role": "..."}, {"name": "...", "role": "..."}, {"name": "BA", "role": "reactant"}], "products": [{"name": "PBA", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}, {"type": "pressure", "value": null}, {"type": "residence_time", "value": 30}], "reactor": {"type": "coil", "inner_diameter": "2 mm"}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+{"name": name, "role": role}
+
+{'name': None, 'yield_optimal': value, 'unit': '%'}
+
+{ "reaction_summary": {  "reaction_type":"continuous-flow",  "reactants":[{"name":"BA","role":"monomer"},{"name":"ACMO","role":"monomer"}],  "products":[{"name":"miktoarm star polymers","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":null},    {"type":"flow_rate_reactant_A","value":0.1},    {"type":"flow_rate_total","value":0.2},    {"type":"pressure","value":null}  ],  "reactor":{"type":"coil", "inner_diameter":"0.5 mm"}
+
+{"name": name, "role": role}
+
+{ "reaction_summary": {  "reaction_type":"...",  "reactants":[{"name":"...","role":"reactant|catalyst|solvent"}],  "products":[{"name":"...","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"..."},    {"type":"residence_time","value":"..."},    {"type":"flow_rate_reactant_A","value":"..."},    {"type":"flow_rate_total","value":"..."},    {"type":"pressure","value":"..."}  ],  "reactor":{"type":"...", "inner_diameter":"..."}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+Step 1: Preprocess input string
+python
+import re
+
+def preprocess_input(input_str):
+    # Remove punctuation and convert to lowercase
+    input_str = re.sub(r'[^\w\s]', '', input_str).lower()
+    
+    return input_str
+Step 2: Extract reaction type, reactants, products, conditions, reactor, metrics from the preprocessed string
+
+python
+def extract_info(input_str):
+    # Reaction Type
+    reaction_type = None
+    
+    # Reactants
+    reactants = []
+    
+    # Products
+    product_name = None
+    yield_optimal = 0.0
+    unit = "%"
+    
+    # Conditions
+    conditions = []
+    
+    # Reactor
+    reactor_type = None
+    inner_diameter = None
+    
+    # Metrics
+    conversion = None
+    yield_value = 0.0
+    selectivity = None
+    
+    for word in input_str.split():
+        if re.match(r'raft|arm-first', word):
+            reaction_type = "RAFT"
+        
+        elif re.search(r'reactant|monomer|solvent|catalyst', word):
+

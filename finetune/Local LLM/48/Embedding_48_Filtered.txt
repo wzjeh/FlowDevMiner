@@ -1,0 +1,18 @@
+Type Intensity (mW cm−2) Effective area (cm2) Absorbed UV (mW) Flow rate (l/min) [retention time (s)] Dose (mJ)
+
+and depended on the material and thickness of layer. In case of batch reactor, UV exposed area was 3.14 cm2 and intensity was 4.23 mW cm−2 after passing 1 mm thickness of glass plate. And commercial glass microreactor received same UV intensity, 4.23 mW cm−2 with 0.08 cm2 channel bottom area, meanwhile measured UV intensity of the AHPCS microreactor coated with 100 m thickness of inorganic polymer was 3.99 mW cm−2. The specific degradation rates of 4-CP in the presence of TiO2 nanoparti- cles per unit photonic energy at various conditions were illustrated with different concentrations and injection flow rates of 4-CP solution. Based on this intensity, effective photonic energy was cal- culated by multiplying UV intensity, exposure area and retention time for each case as listed in Table 1. Generally, AHPCS microreac- tor showed 95% of conversion rate at various flow rates compared with glass microreactor, which is consistent with the similar optical
+
+affected cell membrane and DNAs. In contrast, plain microchan- nel with no TiO2 beads was infused with broth containing E. coli at the same flow rate and then exposed to UV radiation, there was slight sterilization effect of E. coli, which occurred by UV irradia- tion. Eventually, it demonstrated that optically transparent AHPCS derived microchannel was very useful as a photocatalytic microre- actor by decomposition photochemistry and sterilization effect of E. coli. And it is plausible that inorganic polymer based microchan- nel is very useful as a photochemical microreactor with high optical transparency and excellent stability, which cannot be realized in the plastic or polymer derived microreactors.
+
+Fig. 5. Comparative photocatalytic sterilization effect of plain and TiO2 packed bed microreactor.
+
+It is evaluated that optically transparent inorganic polymer derived microchannel showed good performance for photocat- alytic microreaction by decomposition of 4-chlorophenol by photochemistry as much as commercial glass derived microre- actor. In addition, microreactor packed with TiO2 microbeads is effective for photocatalytic reaction by demonstration of steriliza- tion of E. coli. Finally, it is plausible that inorganic polymer based microchannel fabricated facile UV imprinting process is very use- ful as a photochemical microreactor with high optical transparency and excellent stability.
+
+For the comparison of the photocatalytic performance of AHPCS microreactor, glass microreactor and batch reactor, effective pho- tonic energy (UV intensity × exposure area × time) inflicted on reaction site is an important factor; therefore, the energies of batch, glass and AHPCS microreactor were investigated based on the effec- tive exposed area as shown in Fig. 3(a). Measured UV intensity from light source beneath the reactor bottom was 5.64 mW cm−2
+
+Fig. 1. Images of commercial glass microreactor (top) and in-house AHPCS inorganic polymer microreactor for photocatalytic chemistry (bottom).
+
+Fig. 4. (a) Microscopic and SEM images of SiO2 and TiO2 coated microbead after sol–gel process, (b) characterization of rutile and anatase TiO2 by XRD analysis and (c) optical images of TiO2 packed bed microreactor and magnified image of throat barrier structure at the end of microchannel.
+
+Photocatalytic reaction using novel inorganic polymer derived packed bed microreactor with modified TiO2 microbeads
+

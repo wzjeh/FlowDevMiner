@@ -1,0 +1,20 @@
+Microreactor technology is regarded as a promising process intensification strategy for chemical synthesis due to its unique characteristics, such as well-defined flow properties, high effec- tive surface-to-volume ratio, enhanced heatand mass-transfer rates, improved chemistry, and excellent process safety.1–3
+
+Flow rate is an important factor which can control the flow pattern and affect the mixing performance in micromixers and microreactors.15,30 The Reynolds number in microstructured devices is usually low due to their small characteristic dimen- sions and low volumetric flow rates, and therefore the flow in micromixers and microreactors is generally within the laminar flow regime.31 Engler et al. demonstrated that the laminar flow in a T-micromixer can be further distinguished among three flow regimes including stratified flow, vortex flow, and engulf- ment flow with the Reynolds number lower than 200.32 Both experimental and simulation results have proven that the increase of flow rate results in a higher mixing quality due to the increased vorticity and disturbance inside the T-junction of the T-micromixer.16,32
+
+Figure 8. The Mn variation of the polymers collected from the capillary microreactor with the monomer conversion at different tempera- tures (the inner diameter of capillary micro- reactor was 1.016 mm, and the volumetric flow rates was 1.00 mL/min).
+
+Figure 7. The viscosity variation of the reaction mixture collected from the capillary microreactor with the monomer conversion at different temper- atures (the inner diameter of capillary micro- reactor was 1.016 mm and the volumetric flow rate was 1.00 mL/min).
+
+Figure 16. Effect of the pre-mixing time on Mn and PDI (the inner diameter of capillary microreactor was 1.016 mm, the polymerization tempera- ture was 508C, the volumetric flow rate was 1.00 ml/min, and the polymerization time was 7 min).
+
+Microreactors are typically described as plug flow reactors. However, the plug flow in a channel is only valid when the radial diffusion is much faster than convective mass transport along the channel length.21,52 The Bodenstein number (Bo) in a dispersion model, provided by Taylor and Aris,21,53,54
+
+Figure 6. (A) Effect of the polymerization temperature on conversion; (B) Effect of polymerization temperature on Mn and PDI (the inner diameter of capillary microreactor was 1.016 mm, the volumetric flow rate was 1.00 mL/min, and the residence time was 12 min).
+
+the capillary microreactor during the polymerization can be calculated by the Einstein-Smoluchovski equation with con- sidering the flow pattern as a strictly laminar flow22
+
+1.548 mm indicating that deviations from plug flow were enhanced and the dispersion effect could not be ignored. The value of Bo decreased at the outlet of the microreactor com- paring with that at the inlet of the microreactor because of the decrease of the diffusion coefficient. That is, the deviations from plug flow increased gradually with the polymerization proceeding. The Taylor dispersion coefficient can be further expressed as the following
+
+Figure 4. Effects of the volumetric flow rate and the residence time on the acrylamide conversion at different residence times (the inner diame- ter of capillary microreactor was 1.016 mm, the polymerization temperature was 408C, and the values of Reynolds number were 12.9, 25.4, 50.8, and 84.7 corresponding to the volumetric flow rates of 0.40, 0.80, 1.58, and 2.62 mL/min).
+

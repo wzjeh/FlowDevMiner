@@ -1,0 +1,48 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "nitrobenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd nanoparticles",
+      "role": "catalyst"
+    },
+    {
+      "name": "ethanol:water (7:3 by volume)",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "aniline",
+      "yield_optimal": "93",
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "room temperature"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "hollow fiber catalytic membrane microreactor",
+    "inner_diameter": "350 ﾂｵm"
+  },
+  "metrics": {
+    "conversion": 93.0,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

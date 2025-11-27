@@ -1,0 +1,333 @@
+Contents lists available at ScienceDirect
+
+Journal of Industrial and Engineering Chemistry
+
+journal homepage: www.elsevier.com/locate/jiec
+
+High throughput preparation and particle size control strategy of nano apigenin by a scale-up microreactor
+
+Shuangfei Zhao a,1, Yimin Wei a,1, Pengjie Yu a, Fei Yuan a, Chao Li a, Qifeng Gao a, Lianzhu Sheng a, Yirong Feng a, Jiming Yang a, Wei He a, Ning Zhu a,b, Yuguang Li c, Dong Ji c, Kai Guo a,b,*
+
+a College of Biotechnology and Pharmaceutical Engineering, Nanjing Tech University, Nanjing 211816, China b State Key Laboratory of Materials-Oriented Chemical Engineering, Nanjing Tech University, Nanjing 211816, China c Institute of Nanjing Advanced Biomaterials & Processing Equipment, Nanjing 211299, China
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords: Microreactor technology Nanodrug Apigenin Solvent-antisolvent precipitation；Particle size regulation
+
+The particle size and distribution have a significant impact on the bioavailability and stability of insoluble drugs. A scale-up microreactor system based on an ellipsoidal baffle mixer was proposed for the preparation and tuning of insoluble drug. As an important bioactive substance, apigenin was used as a representative of insoluble drugs and was subject to particle size regulation by this system. The effects of surfactant, flow rate ratio, flow rate and solvent concentration on apigenin particle size were studied by solvent/anti-solvent method experiments and the transport process of apigenin molecules in the microreactor was simulated numerically by computational fluid dynamics (CFD). Furthermore, the particle size regulation model of apigenin in the system was built by using the π theorem of fluid mechanics. Finally, under the conditions of optimal parameters, the minimum particle size of nano apigenin (D50) was 116 nm, the recovery was 95.3 % and the purity was increased by 0.88 %. This study demonstrates the feasibility of a highly efficient, high-throughput, particle size controllable preparation of nanomedicine.
+
+[18,19]. However, the traditional preparation methods are usually performed at macroscale. At the macroscale, it is difficult to accurately control the preparation environment of nano drug crystals and easily leads to wide particle size distribution. Microreactor technology has been widely used for the preparation of microscale and nanoscale particles [20–23]. Compared with traditional methods, microreactor technology provides a more precise and controllable environment for the investigation of preparation processes at nanoscale or microscale, which is conducive to preparing high-quality crystals [24–27]. By using the droplet microfluidic technology and uti­ lizing the characteristics of rapid continuous mixing inside the droplet, Zhang, Toprakcioglu et al. [28] through the combination of simulation and experiment, found that changing parameters such as protein con­ centration and flow rate can finely adjust the size characteristics of nanoparticles, so as to prepare highly monodisperse protein nano­ particles. Zhang et al. [29] investigated the effects of microgravity and hypergravity on the antisolvent crystallization of L-histidine in a self
+
+Introduction
+
+In recent years, with the development of combinatorial chemistry and high-throughput synthesis technology [1], many drug crystals with large molecular weight and complex structure have emerged. About 40 % of these drug crystals are insoluble in water [2,3]. The poor solubility of drug crystal easily leads to its low bioavailability, which makes it difficult to exert its corresponding therapeutic effect and limits the clinical application of drugs [4–6]. It is beneficial to improve the solu­ bility and dissolution rate of insoluble drugs by adjusting the particle size of insoluble drugs to nanoscale [2,7]. Therefore, the preparation method of nanoscale drug crystals has become a research hotspot in recent years [8,9]. There are several ways to prepare nanoscale drug with tunable particle sizes, such as mechanical ball milling [10,11], high-pressure homogenization [12,13], spray crystallization [14], su­ percritical fluid [15,16], emulsification [17] and solvent/anti-solvent
+
+* Corresponding author at: College of Biotechnology and Pharmaceutical Engineering and State Key Laboratory of Materials-Oriented Chemical Engineering, Nanjing Tech University, Nanjing 211816, China. E-mail address: guok@njtech.edu.cn (K. Guo). 1 These authors contributed equally.
+
+https://doi.org/10.1016/j.jiec.2023.11.059 Received 17 July 2023; Received in revised form 13 November 2023; Accepted 28 November 2023
+
+Available online 30 November 2023 1226-086X/© 2023 The Korean Society of Industrial and Engineering Chemistry. Published by Elsevier B.V. All rights reserved.
+
+effect of apigenin in the body is poor, which affects its bioavailability and utilization efficiency [43]. When preparing apigenin nanoparticles, surfactants are often added to alter the topography and size of the nanoparticles. At this point, attention need to be paid to the concen­ tration and toxicity of the surfactant [44]. The critical micellar con­ centration (CMC) [45] is defined as the concentration of surfactant above which micelles form and any additional surfactant added to the system will go into micelles. Therefore, when using surfactants, the concentration should exceed the critical micelle concentration. Surfac­ tants such as CTAB, didodecyl dimethyl ammonium bromide (DDAB), Sodium dodecyl sulfate (SDS), nonylphenolethoxylate (NP9) and BS-12 are toxic [46–48]. Therefore, after obtaining the sample, the surfactant must be removed by several centrifugation, dialysis and heat treatment [49]. Thus far, apigenin nano particles have been prepared by several methods. Zhang et al. [50] used the supercritical antisolvent process to prepare apigenin nanocrystals, and they obtained the spherical shape nanocrystals with particle size of approximately 400–800 nm. Xu et al. [51] purposed a green and efficient antisolvent method for the prepa­ ration of apigenin nanosuspension, and the apigenin achieved a mean particle size of about 280.4 nm. However, apigenin nanoparticle has not been prepared by microreactor technology, especially a microreactor with the potential of scale-up. In this study, a scale-up microreactor system was built based on an ellipsoidal baffle mixer for the preparation of apigenin nanoparticles. Our previous work showed that the mixer had high mixing efficiency, low pressure drop and high throughput [40]. It indicated that the mixer had potential in the preparation of high-quality apigenin nanoparticles. Additionally, apigenin nanoparticles were prepared by solvent/anti solvent method using the system. The particle size of apigenin was tuned by the change of surfactants, flow rate (Q), flow ratio (q) and API concentration (C). Furthermore, the mechanism of apigenin particle size regulation was studied with the assist of computational fluid dynamics (CFD) simulation. The particle size regulation model of apigenin in the system was built by using the π theorem of fluid mechanics, and its calculation formula was derived by combining the principle of dimen­ sional coordination.
+
+Nomenclature
+
+d mean particle size, nm R radius, mm N number of ellipsoids in the reactor q flow ratios Q flowrate, mL/min C Concentration, mg/mL ρ density, g/mL μ viscosity, Pa⋅s u velocity vector, m/s p pressure, Pa D the diffusion coefficient of the apigenin molecule, m2/s M transport index N the number of nodes Ci the mass fraction of each point
+
+designed micro-channel crystallizer, and they found that the difference between microgravity and hypergravity was the increase or decrease of the micromixing and crystal sedimentation driven by density difference. Additionally, they determined the kinetics of antisolvent crystallization by the combination of experiments and the population balance equa­ tions [30]. K¨ohler et al. developed a micro-segmented flow strategy, by which the particle size and crystal morphology can be easily controlled, and they achieved the hierarchical assemblies of polymer particles [31], morphology tuning of bimetallic gold-platinum nanorods [26], and situ assembly of gold nanoparticles in the presence of poly-DADMAC [32]. However, the high quality of nano particles and the high throughput of the preparation process are difficult to obtain at the same time. In order to scale-up the micro chemical process, Lim et al. [33] developed a simple and versatile coaxial turbulent jet mixer that can synthesize a variety of NPs at high throughput up to 3 kg/d, while maintaining the advantages of homogeneity, reproducibility, and tunability that are normally accessible only in specialized microscale mixing devices. Guo and Liu et al. [34] synthesized the nucleobase unit of the antiviral drug remdesivir, 7-bromopyrrolo [2,1-f] [1,2,4] triazin 4-amine through a five-step continuous flow in a microreactor. Under the optimal flow, 7-bromopyrrolo [2,1-f] [1,2,4] triazin-4-amine was produced at a total yield of 14.1 % for 79 min and a flux of 2.96 g⋅h−1. The total effective time was significantly shorter than the total time consumed in batch procedures (>26.5 h), which significantly enhances the liquid–liquid phase reaction. Geng and Mao et al. [35] summarized a process strengthening method for mixing and separation in a pneumatic slurry reactor in continuous production. A process strengthening tech­ nique combining directional flow in airlift loop reactors (ALRs) with simple solid–liquid separation in hydrocyclone was proposed, which had the advantages of high efficiency and low cost. Qiu et al. [36] proposed a convenient numbering-up strategy by assembling different numbered up capillary microreactor systems with commercially available parts, and they demonstrated the feasibility of this strategy for the processes with significant variation of fluid properties. Alan et al. [37] established an acoustically actuated microfluidic mixer, which can provide a 50-fold improvement in throughput compared to previously demonstrated acoustofluidic approaches at flow rates reaching 8 mL⋅min−1. Recently, microfluidic strategy by coupling high-efficiency flow field internals with directly scale-up microchannels has been proved that it can enhance mixing efficiency on the premise of ensuring high throughput [38–41]. This strategy has great potential in high-throughput prepara­ tion and particle size control of nanoparticles. Apigenin (API) has many biological activities and values such as anti inflammatory, anti-tumor, anti-oxidation, anti-anxiety, immune regu­ lation, cardiovascular and cerebrovascular protection [42]. Due to its low solubility and high permeability, the absorption and utilization
+
+Methodology
+
+Experimental methods
+
+Materials Apigenin (purity ≥99 %) was obtained from "Shanghai Aladdin Biochemical Technology Co. Ltd. (Shanghai, China)". Solvent: dimethyl sulfoxide (DMSO, purity ≥99 %) was purchased from "Shanghai Macklin Biochemical Technology Co. Ltd. (Shanghai, China)". Anti­ solvent: lab-made DI water. Cetyltrimethylammonium bromide (CTAB, purity ≥99 %) and sodium dodecyl benzene sulfonate (SDBS, purity > 95 %) were purchased from "Shanghai Mindrell Chemical Technology Co. Ltd (Shanghai, China)". Dodecyl dimethyl betaine (BS-12, purity ≥ 30 %) was obtained from "Shanghai Macklin Biochemical Technology Co. Ltd. (Shanghai, China)".
+
+Preparation of apigenin nanoparticles In this study, apigenin nanoparticle was prepared by solvent/anti solvent method based on microreactor technology. In the system, DMSO was used as the solvent, and apigenin was dissolved in DMSO with concentration ranging from 10 mg/mL to 25 mg/mL. CTAB, BS-12 and SDBS were used as the surfactants dissolved in deionized water as the anti-solvent. Experimental device for preparation of apigenin nanomedicine included two syringe pumps, a Y-shaped ellipsoid baffle mixer (YEBM), a water bath, a sample collection beaker and a series of related connecting pipes, as shown in Fig. 1. The solvent and anti-solvent were driven by the syringe pumps with specific flow rates. In our previous work, the best structural parameters of the YEBM were determined through CFD simulation [40]. The YEBM
+
+Fig. 1. Experimental devices and processes for preparation of apigenin nanomedicine.
+
+has been proven to improve the mixing performance and reduce the pressure drop on the premise of ensuring high throughput, which in­ dicates that the mixer had potential in the scale-up preparation of high quality apigenin nanoparticles [40]. Therefore, the YEBM with the best structural parameters was used as the scale-up microreactor to improve the mixing quality of solvent and anti-solvent and enhance the prepa­ ration process of nano apigenin. The YEBM was made of nylon by 3D printing technology. The solvent and anti-solvent flowed into the YEBM driven by the syringe pumps, and contacted, mixed and crystallized in the mixer to generate nano apigenin suspension. The nano apigenin suspension was collected in the beaker. The collected apigenin nano suspension was washed with water and centrifuged at 12,500 r/min for 10 min. Then, the nano apigenin suspension was put into a vacuum freeze-drying machine for 2 h of prefreezing at − 40 ◦C and 64 h of freeze-drying at − 65 ◦C. Nano apigenin power was obtained after the freeze-drying process. Finally, the morphology and particle size of the nano apigenin power were analyzed by scanning electron microscope (SEM, Zeiss Merlin at 10 kV) and Zetasizer Nano ZS9 zeta potential analyzer (Malvern Instruments GmbH, Germany). The whole prepara­ tion process was carried out at room temperature (25 ◦C). The type of surfactant, the total flow rate and flow ratio of anti solvent and solvent, and the concentration of drug have important ef­ fects on the particle size and size distribution of drug nanoparticles. Therefore, in this study, the surfactants were screened, and the effects of the total flow rate, flow ratio and concentration were studied to tune the particle size and particle size distribution of nano apigenin.
+
+In the simulation, the solute molecules consumed by apigenin were ignored, and the effect of apigenin nanoparticles on molecular transport was not considered. The transport of apigenin molecules in the scale-up microreactor was governed by the following equations:
+
+∇u = ∂u
+
+∂x + ∂u
+
+∂y + ∂u
+
+∂z = 0 (1)
+
+ρ u∇u + ∇p − μ∇2u = 0 (2)
+
+u∇Cap = D∇Cap (3)
+
+where u denotes the velocity vector, ρ is the fluid density, p is the pressure, μ is the viscosity, Cap is the mass fraction of apigenin and D is the diffusion coefficient of the apigenin molecule. CFD software, ANSYS/FLUENT 19.2, was used to solve the governing equations. In the experiment, the flow state of solvent and anti-solvent was laminar flow, thus the laminar flow model was adopted. The solver was set as pressure-based solver, and the steady-state calculation were adopted. The SIMPLEC method was applied for the pressur­ e–velocity coupling. The convergence criterion of the simulation was that the values of all governing equations residual less than 10-5. In the boundary conditions, two Inlets (Inlet-1 and Inlet-2) were set as velocity inlets, and one Outlet was set as pressure outlet. The other faces are defined as walls, and the channel walls are set as no slip boundary conditions. In the solvent/anti-solvent system, the amount of apigenin dissolved in DMSO and the amount of surfactant dissolved in deionized water were less, the physical parameters of DMSO and deionized water were taken as those of the two fluids. The physical parameters of these two fluids were shown in Table 1. The distribution uniformity of apigenin in mixed solution can be used to quantify the transport mass of apigenin molecules. It can be
+
+CFD simulation of solute transport
+
+The transport of solute molecules is a key factor affecting the for­ mation and growth of nano drug crystals. In the microreactor, the transport efficiency of solute molecules can be easily improved and regulated [52]. The transport law of solute molecules can well explain the change law of nano drug particle size and particle size distribution, so as to better guide the regulation of nano drug particle size. In this study, CFD simulation method was used to simulate the molecular transport of apigenin, and the simulation results were used to explain the particle size regulation mechanism of apigenin.
+
+Table 1 Physical parameters.
+
+Inlet Component ρ(g/mL) μ(Pa⋅s)
+
+Inlet-1 apigenin/DMSO 1.10 0.001987 Inlet-2 surfactant/H2O 9.98 0.001
+
+expressed by the following equation:
+
+shown in Table 2. Therefore, Eq. (10) is assumed to be valid, that is:
+
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+
+)2 √ √ √ √ (4)
+
+f(d, q, Q, C, ρ, μ, R) = 0 (10)
+
+( Ci −Cmix
+
+∑ N
+
+N
+
+M = 1 −
+
+where ρ, μ, R are the basic physical quantities, as can be seen from Table 2.
+
+Cunmix −Cmix
+
+i
+
+where M is the transport index, N is the number of nodes, Ci is the mass fraction of each point, Cmix is the mass fraction after mixing, and Cunmix is the mass fraction before mixing. In the system, Cmix and Cunmix can be calculated by the following equations:
+
+[ρ] = [ ML-3T0]
+
+[μ] = [ ML-1T-1] (11)
+
+[R] = [ M0LT0]
+
+Cmix = map map + msol + manti
+
+(5)
+
+In order to ensure that ρ, μ, and R is dimensionally independent and cannot form dimensionless numbers, then their exponential product cannot be 0, that is, the exponential determinant of Eq. (12) cannot be 0.
+
+⎧ ⎨
+
+map map + msol
+
+, Ci ≥Cmix
+
+(6)
+
+⃒⃒⃒⃒⃒⃒⃒⃒
+
+⃒⃒⃒⃒⃒⃒⃒⃒
+
+Cumix =
+
+⎩
+
+-3
+
+0, Ci < Cmix
+
+= 1 ∕= 0 (12)
+
+Δ =
+
+-1 -1
+
+where map is the mass of apigenin, msol is the mass of the solvent, and manti is the mass of antisolvent and surfactant.
+
+According to the above equation Δ ∕= 0, the dimensions of physical quantity ρ, μ, R are independent of each other. Therefore, it can be used as the basic physical quantity of the equation. Let αi, βj and γk be the power coefficients of ρ, μ and R respectively, and assume that four dimensionless numbers πm (m = 1 ~ 4) are combined with the ratio of the product ραi, μβj and Rγk of the exponential form composed of three basic dimensions respectively, where i, j and k are the natural numbers from 1 to 4 respectively.
+
+Particle size regulation model
+
+The physical model of nanoparticle size regulation is complex, and it is difficult to directly establish the differential equation of nanoparticle size regulation. In this paper, a mathematical model is established by using the π theorem of fluid mechanics, and its calculation formula is obtained by combining the principle of dimensional coordination. The Buckingham π [53] is a theory to simplify a physical problem based on dimensional analysis, which decreases the number of relevant variables using dimensional homogeneity. By considering length (L), mass (M), and time (T) as the primary dimensions, and time (T) as the primary dimensions, each variable can be written as:
+
+π1 = q, π2 = Q ραiμβjRγk, π3 = C ραiμβjRγk, π4 = d ραiμβjRγk (13)
+
+π2 = [ L3T−1] = [ ML−3]α2[ ML−1T−1]β2[L]γ2 (14)
+
+The solution yields the following equation: ⎧ ⎪ ⎪ ⎨
+
+[Qi] = LliMmiTτi (7)
+
+⎧ ⎪ ⎪ ⎨
+
+α2 + β2 = 0
+
+α2 = −1
+
+Where the exponents of li, mi, and τi are dimensionless numbers. If the number of variables in a problem is N and the number of elementary dimensions is R, then a set of N − R equations can be described as the following form of the problem:
+
+(15)
+
+−3α2 −β2 + γ2 = 3
+
+β2 = 1
+
+⇒
+
+⎪ ⎪ ⎩
+
+⎪ ⎪ ⎩
+
+−β2 = −1
+
+γ2 = 1
+
+Substituting the calculation result into Eq. (10), π2 is obtained:
+
+n (8)
+
+QN−R = πN−R QaN−R
+
+QbN−R
+
+, ⋯, QmN−R
+
+π2 = Qρ μR (16)
+
+The corresponding problem can be described by this system of equations. The number of non-dimensional numbers (i = N − R), or independent dimensionless groups π, and arbitrary exponents of a, b, …, m can be determined. In the Buckingham π theorem, each group is connected to the others by a functional relationship as follows:
+
+The same can be obtained:
+
+π1 = q, π3 = C
+
+ρ, π4 = d R (17)
+
+π1 = f(π2, π3, ⋯, πN−R) (9)
+
+Therefore, the average particle size formula of nanoparticles can be deduced:
+
+The π theorem is a method to compute sets of dimensionless pa­ rameters from the identified parameters, and in general, it is a scheme for nondimensionalization. Using the π theorem, the specific relation­ ship between nanoparticle particle size, solvent and antisolvent flow rates, flow ratios and drug concentration were obtained. There are also various parameters, such as microreactor hydraulic diameter (R) and fluid density (ρ), viscosity (μ), and their parameter dimensions are
+
+(Qρ μR
+
+)A(C
+
+)D
+
+(18)
+
+d = δRqB
+
+ρ
+
+where δ, q, A, B, D are constant coefficients.
+
+Results and discussion
+
+Screening of surfactants
+
+Table 2 Influence factors and dimensions of apigenin particle size.
+
+Surfactant have a great influence on the particle size and morphology of nano apigenin, and suitable surfactants can effectively inhibit the agglomeration between drug particles. To obtain the optimal nanoscale apigenin, we used the microfluidic platform for screening of experi­ mental conditions. In this study, CTAB, BS-12 and SDBS were used to adjust the crystal morphology and particle size of nano apigenin, all experimental data are contained in Supplementary material B
+
+Factors Symbol Unit (SI) Dimension
+
+Mean particle size d m [L] Flow ratios q – Flowrate Q m3/s [L3T−1] Concentration C kg/m3 [ML-3] Density ρ kg/m3 [ML-3] Viscosity μ kg/ (m s) [ML-1T−1] Radius R m [L]
+
+(Table B1). D10, D50 and D90 reflect the uniformity of the nanoparticles. D50 is a typical value for particle size, which accurately divides the population into secondary parts. Generally, the smaller the D50 particle size, the more uniform the particle size distribution, and vice versa. Therefore, D50 was selected as one of the parameters for the particle size analysis of apigenin nanoparticles [54]. As shown in Table B1, SDBS surfactant have smaller particle sizes and smaller PDI compared to CTAB and BS-12. It was shown that SDBS as a surfactant could better increase the dispersion of drugs in solvent. Fig. 2 shows the crystal morphology and particle size distribution of nano apigenin obtained by microfluidic platform. The nano apigenin recrystallized with CTAB (Fig. 2a) and BS-12 (Fig. 2c) show a large amount of agglomeration, while the nano apigenin recrystallized with SDBS (Fig. 2e) is granular. From the particle size distribution image, it can be seen that the particle size of nano apigenin obtained using SDBS (Fig. 2f) surfactant is nanoscale, while the apigenin particles obtained using CTAB (Fig. 2b) and BS-12 (Fig. 2d) surfactants are either nanoscale or micron. SDBS has a better effect on reducing the size of nano apige­ nin, because SDBS can significantly reduce the surface tension between solvent and the recrystallized nanoscale apigenin. It means that SDBS is better than CTAB and BS-12 for nanoscale apigenin preparation considering morphology, particle size and agglomeration of nanoscale apigenin.
+
+Fig. 3 represents the agglomeration of nano apigenin particles in the presence of three different surfactants. For nano apigenin particles coagulation in the presence of CTAB, micelles were formed from free CTAB monomers first, followed by adsorption to the negatively charged particle surface, changing the surface charge slowly to positive. Then, the positive charged particles adsorb other free negatively charged nanoparticles, forming interconnected strip particles, as shown in Fig. 3 (a), leading to larger particle sizes [55,56]. For nano apigenin incor­ porated of BS-12 [57], the hydrophilic and hydrophobic ends of the amphoteric surfactant BS-12 form stable spherical micelles, as shown in Fig. 3 (b). The apigenin nanoparticles attached to BS-12 have a certain electrostatic repulsion with other free apigenin nanoparticles in the solution, but because the concentration of BS-12 is low, the electrostatic repulsion is small, and the apigenin nanoparticles slowly agglomerate together to form strip particles. Upon the addition of SDS, micelles were also first formed, with the charged head sticking out. The surfactant micelles were combined on the surface of the apigenin nanoparticles, as shown in Fig. 3 (c). Due to the same charge, SDBS micelles near the surface of the particles will be partially depleted, resulting in the for­ mation of smaller elliptic particles [58].
+
+Effect of flow ratio on particle size of nano apigenin
+
+Fig. 2 Scanning electron microscopy and particle size distribution of apigenin with surfactant: (a, b) CTAB; (c, d) BS-12; (e, f) SDBS.
+
+Using a microreactor, we were able to gently control the flow rate of the two joined phases with electrical syringe pumps. Change in flow rate
+
+Fig. 2. Scanning electron microscopy and particle size distribution of apigenin with surfactant: (a, b) CTAB; (c, d) BS-12; (e, f) SDBS.
+
+Fig. 3. Nano apigenin particles agglomeration in the presence of different surfactants.
+
+of the two fluids affected the particle size of the nano apigenin to either increase or decrease their size. In the process of preparing nano apigenin by solvent-antisolvent method, in order to compare the effect of different flow ratios on the particle size of nano apigenin, the flow rate of fixed antisolvent (water) was 10 mL/min, the concentration of apigenin was 20 mg/mL, and the solvent (DMSO) flow rate was changed to 0.5 mL/min, 1 mL/min, 2 mL/ min and 5 mL/min. Particle size changes under different flow ratios are shown in Table B1. With respect to nanoparticles' synthesis, similar to the droplet generation process, the antisolvent flow rate is kept constant, and the solvent flow rate is changed, that is, when the flow ratio in­ creases from 1:2 to 1:10, resulting in a decrease in particle diameter. However, the flow ratio increases to 1:20, and the particle size increases. This may be due to excessive antisolvent flow, which makes the effective timeof the reactants too short and affects the particle size. The effect of
+
+different flow ratios on the diameter of nanoparticles is shown in Fig. 4. With the increase of flow ratio, the particle sizes of nano apigenin also changed, which were 260, 117, 116 and 172, respectively. Compared to other flow ratios, the particle size is the smallest at a flow ratio of 1:5, with a smaller PDI and a narrower particle size distribution. Mass transfer process of apigenin under different flow ratios, flow­ rate and apigenin concentration can be numerically simulated by CFD. Mixing index and effective time were used to evaluate the mass transfer of apigenin molecules in the reactor to understand the factors affecting the formation of nano apigenin particles. Fig. 5 shows the mass distri­ bution of apigenin molecules flowing through different ellipsoids under different flow ratios. The flow ratio increased, and the color in the cloud gradually changed from blue to green and yellow, indicating that the solvent phase volume flow rate increased with the increase of the flow ratio, and the mass fraction interval of apigenin increased from 0.001 to 0.008.
+
+Fig. 6 shows the molecular mixing index and effect time of apigenin compared with different flow ratios. Fig. 6(a) shows that the mixing index of apigenin increases significantly after passing through the first ellipsoid (n = 1), indicating that molecular transport is enhanced at this time. Among them, q = 1:2 molecular transport was weak, and the mixing index did not change much after the first ellipsoid. The mixing index of q = 1:5 increased significantly after passing the second ellip­ soid, and it had the largest mixing index, indicating that its molecular transport was the strongest. Fig. 6(b) shows the time required for the ideal mixing of apigenin molecules at different flow ratios. It can be seen that q = 1:2 has the longest effective time of 1.1 s, while q = 1:5 has the shortest effective time of 0.28 s. This may be due to an increase in the amount of antisolvent within the reactor and an increase in the total flow, resulting in faster precipitation of apigenin into nanoparticles. Once the nucleus is formed, growth occurs simultaneously. For subse­ quent growth, more antisolvents increase the diffusion distance between crystals, and diffusion becomes the limiting factor for nuclear growth [52]. Therefore, when q = 1:5, apigenin molecules have better mass transfer effect in the reactor, and have a shorter effective time and high mixing index. It can be judged that when the solvent-antisolvent flow
+
+Fig. 4. Size distribution of apigenin by different flow ratios.
+
+Fig. 5. Mass fraction contour of different flow ratio of apigenin.
+
+Fig. 6. Mass transfer effect of different flow ratio of apigenin (a) Mixing efficiency; (b) t0.9.
+
+ratio is 1:5, the particle size of nano apigenin is small and the particle size distribution is narrow.
+
+min. This is because as the flow rate increases, apigenin is able to mix more quickly into deionized water. Due to the short time allowed for crystal growth, apigenin crystallizes quickly, and it is easier to form nanocrystals with small particle size and narrow particle size distribu­ tion [52]. The effects of different flow rates on the mixing index and effective time of apigenin can be compared by numerical simulation. The mo­ lecular mass distribution of apigenin under different flow rates is shown in Fig. 8. The smaller the flow rates, the more obvious the fluid strati­ fication in the microreactor is, and the smaller the contact surface be­ tween apigenin and water, resulting in larger precipitated apigenin particles. Increasing the flow rate, especially when Q = 1 mL/min, the chaotic convection in the microreactor is enhanced, which makes the apigenin in full contact with water, and rapidly precipitates the nano­ particles with small particle size from the water. There is no significant difference in the mixing index of the four flow rates in Fig. 9(a), but the greater the flow rate, the shorter the time required for molecular transport. Therefore, the greater the flow rates, the shorter the time to
+
+Effect of flow rates on particle size of nano apigenin
+
+The flow of solvent and antisolvent also has an important effect on the formation of nano apigenin. Maintain the flow ratio of solvent to antisolvent at 1: 20, the concentration of proto apigenin was 20 mg/mL, the solvent flow rates were 0.125 mL/min, 0.25 mL/min, 0.5 mL/min, 1 mL/min, and the antisolvent flow rates were 2.5 mL/min, 5 mL/min, 10 mL/min, and 20 mL/min. The particle size variation rule was studied, and the results of apigenin particle size at different flows were shown in Table B1. With the increase of flow, the particle size of nano apigenin gradually decreased, and the particle size of 1 mL/min was the smallest, which was half of 0.25 mL/min. It can also be seen from the particle size distribution law (Fig. 7) that the larger the flow, the smaller the particle size of nano apigenin, among which the particle size is the smallest and the particle size distribution is the narrowest when the flow rate is 1 mL/
+
+effect (Fig. 9(b)). When Q = 1 mL/min, t0.9 is only 0.16 s. It can be judged that the larger the flow, the shorter the effective time required in the apigenin molecular molecule reactor, and the better the mass transfer effect.
+
+Effect of concentration on particle size of nano apigenin
+
+Another main parameter affecting nanoparticles' size and stability is the apigenin active pharmaceutical ingredients (API) concentration. This section studies the effect of concentration on apigenin particle size and compares its mass transfer effect on apigenin. The flow rate of sol­ vent and antisolvent are 1 mL/min and 20 mL/min, respectively, and apigenin API concentrations were changed by 10 mg/mL, 15 mg/mL, 20 mg/mL, 25 mg/mL to prepare nano apigenin. The results of particle size determination of nano apigenin with different proto apigenin API con­ centrations are shown in Table B1. It can be seen that with the increase of concentration, apigenin particle size and PDI both decrease first and then increase. From the particle size distribution (Fig. 10), it can be seen that when the concentration is 10 mg/mL and 15 mg/mL, the particle size distribution is narrow, but bimodal appears, and there is a large particle size distribution between 800 ~ 1600 nm. It shows that the Fig. 7. Size distribution of apigenin by different flow rate.
+
+Fig. 8. Mass fraction contour of different flowrate of apigenin.
+
+Fig. 9. Mass transfer effect of different flowrate of apigenin (a)Mixing efficiency; (b) t0.9.
+
+concentrations of 15 mg/mL and 10 mg/mL. The effect time (Fig. 12b) was also significantly shortened, and the proto apigenin API concen­ tration of 20 mg/mL required only 0.12 s to reach the mixing index of 97 %. This result is consistent with the law of particle size distribution. That means that the concentration of proto apigenin was between 10 ~ 20 mg/mL, and with the increase of concentration, the molecular transport gradually increased, which promoted the recrystallization of apigenin to form nanoparticles with smaller diameters. However, the concentration increased to 25 mg/mL, the molecular transport was weakened, the supersaturation is too large, and the agglomeration increased, which increased the particle size. Therefore, 20 mg/mL of proto apigenin API is the most suitable concentration for preparing nano apigenin.
+
+Particle size regulation model and verification
+
+This section discusses the particle size regulation model of nano apigenin and the error analysis of the model. The particle size of nano apigenin is related to the flow ratio, flowrate and raw material con­ centration. Correlating Eq. (18) in Section 2.3 with the relevant exper­ imental data yields the following empirical correlation, the detailed derivation process is in Supplementary material A.
+
+Fig. 10. Size distribution of apigenin by different concentration.
+
+particles at this time cannot be uniformly dispersed in the system, and the particles are agglomerate. As the concentration increases to 20 mg/ mL, the particle size gradually decreases. This is due to the increase in concentration, the increase in supersaturation, and it is easier to form nanocrystals with small particle sizes. However, the concentration continued to increase to 25 mg/mL, and the number of drug particles in the reaction system increased, and the collision between the particles increased, and the agglomeration increased. As a result, the diameter of the nanoparticles begins to increase at this time. Therefore, apigenin concentration of recrystallization to form granules is the best. In order to better explain this phenomenon, the mass transfer process of apigenin API at different concentrations was numerically simulated. Fig. 11 shows the molecular mass distribution of apigenin at different concentrations. It can be seen that the mass fraction of apigenin at different concentrations is mainly concentrated in the range of 0.02 ~ 0.03. Mixing index and effect time are calculated separately as shown in Fig. 12. Overall, the mixing index (Fig. 12a) first increased and then decreased with the increase of proto apigenin concentration, with a concentration of 20 mg/mL having the largest mixing index at the outlet, followed by a concentration of 25 mg/mL, and finally
+
+)−0.5684(C
+
+(Qρ μR
+
+)−1.0226
+
+(19)
+
+d = 5665.3661Rq−0.2993
+
+ρ
+
+In order to verify the accuracy of this empirical correlation, the error analysis was carried out. Fig. 13 shows diagonal graph of experimental and predicted mean particle size values of nano apigenin. It can be seen from the figure that the predicted value and the experimental value are in good agreement, and the error is basically within 13.31 %, which shows the possibility of using this correlation formula to predict the mean particle size of nano apigenin.
+
+Preparation and purity analysis of nano apigenin
+
+The empirical correlation formula (Eq. (19) was used to guide the synthesis of nano apigenin to obtain the smallest particle size. It can be seen from Eq. (19) that the larger the values of q, Q and C in a certain range (q = 1/20 ~ 1/2, Q = 0.125 ~ 2 mL/min, C = 10 ~ 25 mg/mL), the smaller the particle size of the obtained nanoparticles. Considering the mixing index and effective timeof apigenin recrystallization in the microreactor, we selected the values with the highest mixing index and
+
+Fig. 11. Mass fraction contour of different concentration of apigenin.
+
+Fig. 12. Mass transfer effect of different concentration of apigenin (a) Mixing efficiency; (b) t0.9.
+
+obtained by recrystallization is improved.
+
+Conclusions
+
+This work provides a novel technology for the preparation of drug nanoparticles with poorly aqueous solubility using a scale-up micro­ reactor system based on an ellipsoidal baffle mixer. The microreactor has excellent mixing performance, which can expand the applicable flow range at medium and low flow rates to prepare nano apigenin. The combination of experiment and simulation was used to prepare apigenin nanoparticles by solvent-antisolvent method, and the particle size of apigenin was regulated by changing the surfactant, total flow rate, flow rate ratio and solute concentration. CFD simulation studied the molec­ ular transport process of apigenin in solvent-antisolvent, and further explained the mechanism of apigenin particle size regulation. By adjusting different operating parameters, apigenin particles with average particle size (D50) ranging from 97 nm to 468 nm were pre­ pared. In addition, the empirical correlation formula of the nano api­ genin particle size regulation model was derived by dimensional analysis, which was correlated with the experimental data with an error of less than 13.31 %, which proved the feasibility of the empirical cor­ relation. Finally, apigenin nanoparticles were prepared under the guidance of the empirical formula, the particle size of the nanoparticles was 116 nm and the purity was 98.72 %. Compared with apigenin API, the purity was increased by 0.88 % and the recovery was 95.3 %. The toxicity of apigenin nanoparticles will be further studied later.
+
+Fig. 13. Diagonal graph of experimental and predicted mean particle size values of nano apigenin.
+
+the smallest effective timeas the experimental conditions for the syn­ thesis of nano apigenin, that is, the solvent and antisolvent flow rates were 2 mL/min and 10 mL/min, respectively, the flow ratio was 1:5, and the concentration of apigenin API was 20 mg/mL and the concentration of surfactant was 0.5 %. The prepared nano apigenin emulsion was washed with deionized water, centrifuged for 5 times, the supernatant was poured off and dried in a vacuum drying oven. Finally, obtaining 1.906g of nano apigenin, and the recovery was 95.3 %, the particle size of nano apigenin was 116 nm. By analyzing the liquid chromatograms of the apigenin API and the prepared nano apigenin sample at the same concentration (the specific experimental process is in Supplementary material C). The relative peak area (purity) of the apigenin API was 97.84 % and the purity of the sample was 98.72 %. It can be seen that the purity of the nano apigenin prepared by the microreactor was increased by 0.88 %. This may be due to the fact that in the microreactor system, when the apigenin API enters the microreactor at a certain flow rate, the complex flow field structure inside the microreactor causes the flow rate to change sharply, forming turbulence. Apigenin reacts quickly with water and precipitates in the form of crystals, while a small number of impurities in apigenin are dissolved in water. Therefore, the purity of the nano apigenin particles
+
+Declaration of Competing Interest
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+Acknowledgements
+
+The research has been supported by The National Key R&D Program of China (2021YFC2101900, 2022YFC2105603 and 2019YFA0905000); The National Natural Science Foundation of China (21908094, 22178168, 22078150 and 22278221); Key Research and Development Plan of Jiangsu Province (SBE2022740422 and BE2021083); The Nat­ ural Science Foundation of Jiangsu Province, Frontier Project (BK20212003); The Top-notch Academic Programs Project of Jiangsu Higher Education Institutions. The computational resources generously provided by the High Performance Computing Center of Nanjing Tech University are greatly appreciated.
+
+Appendix A. Supplementary material
+
+[26] J. Kluitmann, X. Zheng, J.M. K¨ohler, Tuning the morphology of bimetallic gold platinum nanorods in a microflow synthesis, Colloids and Surfaces a: Physicochemical and Engineering Aspects 626 (2021), 127085. [27] R. Mazetyte-Stasinskiene, E. Freiberger, E. T¨auscher, J.M. K¨ohler, Four-Level Structural Hierarchy: Microfluidically Supported Synthesis of Polymer Particle Architectures Incorporating Fluorescence-Labeled Components and Metal Nanoparticles, Langmuir 38 (29) (2022) 8794–8804. [28] Q. Zhang, Z. Toprakcioglu, A.K. Jayaram, G. Guo, X. Wang, T.P.J. Knowles, Formation of Protein Nanoparticles in Microdroplet Flow Reactors, ACS Nano (2023). [29] Y. Zhang, J. Cheng, Y. Glick, G. Samburski, J. Chen, C. Yang, Antisolvent Crystallization of L-histidine in Micro-Channel Reactor under Microgravity, Microgravity Science and Technology 32 (1) (2020) 27–33. [30] L. Yang, Y. Zhang, P. Liu, C. Wang, Y. Qu, J. Cheng, C. Yang, Kinetics and population balance modeling of antisolvent crystallization of polymorphic indomethacin, Chemical Engineering Journal 428 (2022), 132591. [31] N.R. Visaveliya, J.M. K¨ohler, Hierarchical Assemblies of Polymer Particles through Tailored Interfaces and Controllable Interfacial Interactions, Advanced Functional Materials 31 (9) (2021) 2007407. [32] J.M. K¨ohler, J. Kluitmann, In Situ Assembly of Gold Nanoparticles in the Presence of Poly-DADMAC Resulting in Hierarchical and Highly Fractal Nanostructures, Applied Sciences 11 (3) (2021) 1191. [33] J.M. Lim, A. Swami, L.M. Gilson, S. Chopra, S. Choi, J. Wu, R. Langer, R. Karnik, O. C. Farokhzad, Ultra-high throughput synthesis of nanoparticles with homogeneous size distribution using a coaxial turbulent jet mixer, ACS Nano 8 (6) (2014) 6056–6065. [34] Y. Guo, M. Liu, M. Jiang, Y. Tao, D. Cheng, F.-E. Chen, Continuous-Flow Synthesis of the Nucleobase Unit of Remdesivir, Engineering 21 (2023) 92–100. [35] S. Geng, Z.-S. Mao, Q. Huang, C. Yang, Process Intensification in Pneumatically Agitated Slurry Reactors, Engineering 7 (3) (2021) 304–325. [36] M. Qiu, L. Zha, Y. Song, L. Xiang, Y. Su, Numbering-up of capillary microreactors for homogeneous processes and its application in free radical polymerization, Reaction Chemistry & Engineering 4 (2) (2019) 351–361. [37] N.H. An Le, H. Deng, C. Devendran, N. Akhtar, X. Ma, C. Pouton, H.-K. Chan, A. Neild, T. Alan, Ultrafast star-shaped acoustic micromixer for high throughput nanoparticle synthesis, Lab on a Chip 20 (3) (2020) 582–591. [38] S. Zhao, R. Hu, Y. Nie, L. Sheng, W. He, N. Zhu, Y. Li, D. Ji, K. Guo, Intensification of mixing efficiency and reduction of pressure drop in a millimeter scale T-junction mixer optimized by an elliptical array hole structure, Chemical Engineering and Processing - Process Intensification 178 (2022), 109034. [39] S. Zhao, Y. Nie, W. Zhang, R. Hu, L. Sheng, W. He, N. Zhu, Y. Li, D. Ji, K. Guo, Microfluidic field strategy for enhancement and scale up of liquid–liquid homogeneous chemical processes by optimization of 3D spiral baffle structure, Chinese Journal of Chemical Engineering 56 (2023) 255–265. [40] S. Zhao, L. Sheng, W. He, N. Zhu, Y. Li, D. Ji, K. Guo, Design and optimization of a novel ellipsoidal baffle mixer with high mixing efficiency and low pressure drop, Journal of Chemical Technology & Biotechnology 97 (11) (2022) 3121–3131. [41] S. Zhao, Y. Wei, P. Yu, Y. Nie, R. Hu, W. He, N. Zhu, Y. Li, D. Ji, K. Guo, High throughput millifluidics mixer with double triangle baffle for improvement of mixing performance and reduction of flow resistance designed by grey relational analysis, Chemical Engineering and Processing - Process Intensification 181 (2022), 109166. [42] S. Shukla, S. Gupta, Apigenin: a promising molecule for cancer prevention, Pharmaceutical Research 27 (6) (2010) 962–978. [43] M. Xiao, W. Yan, Z. Zhang, Solubilities of Apigenin in Ethanol + Water at Different Temperatures, Journal of Chemical & Engineering Data 55 (9) (2010) 3346–3348. [44] J.N. Putro, S. Ismadji, C. Gunarto, F.E. Soetaredjo, Y.H. Ju, Effect of natural and synthetic surfactants on polysaccharide nanoparticles: Hydrophobic drug loading, release, and cytotoxic studies, Colloids and Surfaces a: Physicochemical and Engineering Aspects 578 (2019). [45] F. Ríos, A. Fern´andez-Arteaga, M. Fern´andez-Serrano, E. Jurado, M. Lechuga, Silica microand nanoparticles reduce the toxicity of surfactant solutions, Journal of Hazardous Materials 353 (2018) 436–443. [46] Z. Singh, I. Singh, CTAB Surfactant Assisted and High pH Nano-Formulations of CuO Nanoparticles Pose Greater Cytotoxic and Genotoxic Effects, Scientific Reports 9 (1) (2019). [47] E.-J. Bae, H.-J. Park, J.-S. Park, J.-Y. Yoon, Y.-H. Kim, K.-H. Choi, J.-H. Yi, Effect of Chemical Stabilizers in Silver Nanoparticle Suspensions on Nanotoxicity, Bulletin of the Korean Chemical Society 32 (2) (2011) 613–619. [48] C.A.T. Toloza, J.M.S. Almeida, S. Khan, Y.G. dos Santos, A.R. da Silva, R. Q. Auc´elio, Kanamycin detection at graphene quantum dot-decorated gold nanoparticles in organized medium after solid-phase extraction using an aminoglycoside imprinted polymer, MethodsX 5 (2018) 1605–1612. [49] B. Martin, J.P. Claverie, Depolymerizable Polyimines Triggered by Heat or Acid as Binders for Conductive Inks, ACS Applied Polymer Materials 4 (7) (2022) 4912–4918. [50] J. Zhang, Y. Huang, D. Liu, Y. Gao, S. Qian, Preparation of apigenin nanocrystals using supercritical antisolvent process for dissolution and bioavailability enhancement, European Journal of Pharmaceutical Sciences 48 (4) (2013) 740–747. [51] R. Xu, C. Jiang, L. Zhou, B. Li, Y. Hu, Y. Guo, X. Xiao, S. Lu, Fabrication of Stable Apigenin Nanosuspension with PEG 400 as Antisolvent for Enhancing the Solubility and Bioavailability, Aaps Pharmscitech 23 (1) (2021). [52] M. Kakran, N.G. Sahoo, I.L. Tan, L. Li, Preparation of nanoparticles of poorly water soluble antioxidant curcumin by antisolvent precipitation methods, Journal of Nanoparticle Research 14 (3) (2012).
+
+Supplementary data to this article can be found online at https://doi. org/10.1016/j.jiec.2023.11.059.

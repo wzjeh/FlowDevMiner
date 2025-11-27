@@ -1,0 +1,18 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of 3-VNB | increase |
+| temperature | selectivity to 3-VAN | unchanged |
+| temperature | yield of 3-EAN | increase |
+| temperature | selectivity to 4-AAN | decrease |
+| temperature | yield of condensation product from 4-AAN | decrease |
+| residence_time | conversion of 3-VNB | increase |
+| hydrogen_flow_rate | conversion of 3-VNB | increase |
+| hydrogen_flow_rate | conversion of 3-VNB | unchanged |
+| hydrogen_flow_rate | selectivity to nitro group hydrogenation | unchanged |
+| pressure | conversion of 4-CNB | increase |
+| temperature | conversion of 2-CNB | increase |
+| temperature | conversion of 3-CNB | increase |
+| temperature | conversion of 4-CNB | increase |
+| pressure | conversion of 4-CNB | increase |

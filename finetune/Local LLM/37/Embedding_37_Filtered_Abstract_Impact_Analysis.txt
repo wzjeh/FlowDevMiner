@@ -1,0 +1,16 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| heating | temperature_of_solution | increase |
+| residence_time | conversion_of_TFMB | increase |
+| residence_time | product_selectivity | unchanged |
+| cooling | temperature_of_solution | decrease |
+| heating_rate | temperature | increase |
+| residence_time | conversion_of_TFMB | increase |
+| residence_time | product_selectivity | decrease |
+| cooling_rate | temperature | decrease |
+| heating_rate | temperature | increase |
+| residence_time | conversion_of_TFMB | increase |
+| residence_time | product_selectivity | decrease |
+| cooling_rate | temperature | decrease |

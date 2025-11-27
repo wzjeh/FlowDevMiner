@@ -1,0 +1,60 @@
+{"conversion": None, "yield": None, "selectivity": None}
+
+{"type": f"{unit}_rate", "value": f"{float(value)} {unit}"}
+
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+{ "conversion": null, "yield": None, "selectivity": None, "unit":"%"}
+
+{compound}
+
+{
+        "reaction_summary": { 
+            "reaction_type": null,  # No reaction information available
+            "reactants": [],  
+            "products": [{"name": None}],  # Assume a single product for simplicity
+            "conditions": [],
+            "reactor": {"type": reactor_type}
+
+- Assume that if a field is not explicitly stated in the input text, it should be null.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'prepared by this method exhibited (.*) durability', input_text)
+    if match:
+        reaction_type = "microreactor"
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    reactant_names = []
+    
+    # Parse products
+    product_name, yield_optimal = parse_product(input_text)
+    
+    # Parse conditions (temperature and residence time are not present in the example input text; assume null for now)
+    flow_rate_reactant_A = None
+    flow_rate_reactant_B = None
+    
+    match = re.search(r'Flow rate (\d+) mL/min', input_text)
+    if match:
+        flow_rate_total = int(match.group(1))
+    
+    # Parse reactor type and inner diameter (if present)
+    match = re.search(r'in a (.*) mm coil;', input_text)
+    if match:
+        reactor_type = "coil"
+        inner_diameter = float(match.group(1))  # Convert to float
+    else:
+        reactor_type = None
+        inner_diameter
+
+{ "reaction_summary": {  "reaction_type":"catalytic oxidation",  "reactants":[{"name":"oxygen","role":"oxidant"}],  "products":[{"name":"carbon dioxide","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":"10 min"},    {"type":"flow_rate_reactant_A","value":"0.1 mL/min"},    {"type":"pressure","value":"1013 mbar"}  ],  "reactor":{"type":"microchannel", "inner_diameter":null}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}, {"name": "nitrobenzene", "role": "reactant"}], "products": [], "conditions": [{"type": "temperature", "value": null}], "reactor": {"type": "microreactor"}, "metrics": {}}}
+
+{"reaction_summary": {"reaction_type": "multiphase catalytic", "reactants": [], "products": [{"name": null, "yield_optimal": null, "unit": null}], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+

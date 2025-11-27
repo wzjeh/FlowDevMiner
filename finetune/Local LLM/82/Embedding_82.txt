@@ -1,0 +1,20 @@
+Table 3. Influence of gas-liquid flow rate for the hydrogenation using micropacked-bed reactor
+
+Table 5. Comparison of performance of conventional batch and continuous flowa
+
+system.8 A major objective of the research was to identify the gas-liquid flow rate. Therefore, experiments were carried out under diﬀerent gas flow rates and liquid flow rates. As can be seen from Table 3, when hydrogen flow rate was 20 sccm, >99.9 conversion of substrate and high selectivity of product can be obtained at relatively lower liquid flow rates. The hydrogen flow rate was increased subsequently, and >99.9% conversions was obtained at all of the tested liquid flow rates. To explain the phenomenon, a test on residence time distribution (RTD) experiment was conducted. The mean residence time in the
+
+Table 4. Influence of solvent and concentration for the hydro- genation using micropacked-bed reactor
+
+Keywords: Micropacked-bed reactor | Continuous-flow catalytic hydrogenation | Riluzole
+
+Experiment conditions: Concentration = 0.118 M; Reaction temperature = 60 °C; Reaction pressure = 2 MPa; VG = 60 sccm; VL = 1.0 mL/min; Reactor volume = 6.6 mL; VL is the liquid flow rate; VG is the hydrogen flow rate. Conv. is conversion, Conversion ¼ C0Ca C0 , C0 is the original concen- tration of 4-TFMNB and 2-TFMNB in the reactant, Ca is the concentration of 4-TFMNB and 2-TFMNB in the product. Selec. is selectivity, Selectivity ¼ A4TFMAþA2TFMA Ai , A4-TFMA and A2-TFMA are the peak area of 4-TFMA and 2-TFMA in GC, Ai is the total peak area of all products in GC. flow rateSubs (mol h¹1) = (VL/1000) © Concentration © 60 min h¹1; flow rateProd (mol h¹1) = flow rateSubs © (Conversion/100 © Selectivity/100); TOF (molprod gpt¹1 h¹1) = flow rateSubs © (Conversion/100)/mPt; STY (g L¹1 h¹1) = flow rateProd © MWProd/reactor volume.
+
+overview of the continuous flow system is shown in Figure 3. The ¯PBR was comprised of two sections: a stainless steel pipe and the catalyst. Stainless steel tubes were inert to solvent and catalyst components. In addition, they can work well over a wide range of temperature and pressure. Pictures and detailed parameters of the ¯PBR are provided in Figure S2, Table S2 and Table S3. Solvents have great influence on the hydrogenation, which would aﬀect the solubility of hydrogen and interactions between the reactant and catalyst.23 Eﬀect of some common organic solvents on the conversion and selectivity obtained from GC analysis is listed in Table 2. The concentration of substrate was specified at 0.118 M, and the substrate can dissolve completely in all of the tested solvents. Under the same experimental conditions, the substrate was residual while the solvents were ethanol and tetrahydrofuran. Except for the above two solvents, the conversion of substrate in the other three solvents were >99.9%. Considering the selectivity and environmental protec- tion, methanol was selected as the solvent, which was consistent with the industrial production. The gas-liquid flow rate has a profound importance as it may aﬀect the flow regime and the mixing eﬃciency in the
+
+catalytic static mixers12­14 and wall-coated microreactors.15
+
+Figure 3. Schematic overview of the continuous flow system for hydrogenation. MFC, mass flow controller; BPR, back- pressure regulator; G/L, gas-liquid separator.
+
+Table 2. Influence of solvent for the hydrogenation using micropacked-bed reactor.
+

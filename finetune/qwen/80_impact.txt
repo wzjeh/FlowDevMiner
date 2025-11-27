@@ -1,0 +1,10 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | yield | unchanged |
+| flow_rate | productivity | increase |
+| pore_size | pressure_drop | decrease |
+| pore_size | flow_rate | increase |
+| catalyst_loading | yield | unchanged |
+| temperature | pore_size | increase |

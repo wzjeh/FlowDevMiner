@@ -1,0 +1,20 @@
+Microreactor Flow System. Processes
+
+Exp. No. Sample Name Liquid Flow (µL/min)
+
+Air Flow (µL/min)
+
+This section presents the materials and methods used in the experiments, explains the photochemical treatment process in the microreactor flow system and describes the analytical techniques used to analyze the photochemically treated sample.
+
+Figure 1. Schematic representation of the treatment of HTC process liquid using a photochemistry module in a microflow reactor system.
+
+Syringe pump, channel A 100-200 µL/min
+
+Article Investigation of the Influencing Parameters of the H2O2-Assisted Photochemical Treatment of Waste Liquid from the Hydrothermal Carbonization Process in a Microreactor Flow System
+
+Syringe pump, channel B 0-200 µL/min
+
+Keywords: hydrothermal treatment; waste process liquid; photochemical treatment; hydrogen peroxide; microreactor flow system
+
+constant via the photochemistry module's control system. This ensured that the samples were taken under the specified continuous flow conditions in steady-state operation.
+

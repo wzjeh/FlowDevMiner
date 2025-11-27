@@ -1,0 +1,11 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | benzaldehyde yield | increase |
+| pressure | benzaldehyde yield | increase |
+| reactant_concentration | reaction rate | increase |
+| residence_time | benzaldehyde concentration | increase |
+| catalyst_loading (TEMPO) | oxidation rate | increase |
+| catalyst_loading (TEMPO) | benzaldehyde yield | unchanged |
+| flow_rate (gas and liquid, at constant ratio) | reaction rate | unchanged |

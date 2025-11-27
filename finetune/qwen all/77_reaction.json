@@ -1,0 +1,56 @@
+{
+  "reaction_type": "enzymatic synthesis",
+  "reactants": [
+    {
+      "name": "L-glutamine",
+      "role": "reactant"
+    },
+    {
+      "name": "ethylamine",
+      "role": "reactant"
+    },
+    {
+      "name": "glutaminase",
+      "role": "catalyst"
+    },
+    {
+      "name": "ethylamine hydrochloride solution",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "L-theanine",
+      "yield_optimal": 95.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "20 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "1 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "10 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microreactor",
+    "inner_diameter": "5 mm"
+  },
+  "metrics": {
+    "conversion": 95.0,
+    "yield": 95.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

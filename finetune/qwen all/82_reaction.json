@@ -1,0 +1,52 @@
+{
+  "reaction_type": "氢化",
+  "reactants": [
+    {
+      "name": "4-(Trifluoromethoxy)nitrobenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "Pt/BAC",
+      "role": "catalyst"
+    },
+    {
+      "name": "甲醇",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "4-(Trifluoromethoxy)aniline",
+      "yield_optimal": 98.2,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "60 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "4.6 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "1.0 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "2 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "micropacked-bed",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": 99.9,
+    "yield": 98.2,
+    "selectivity": 98.2,
+    "unit": "%"
+  }
+}

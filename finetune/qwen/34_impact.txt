@@ -1,0 +1,15 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of 2-EH | increase |
+| residence_time | conversion of 2-EH | increase |
+| temperature | selectivity of EHN | unchanged |
+| M-ratio | conversion of 2-EH | increase |
+| water_content | conversion of 2-EH | decrease |
+| water_content | selectivity of EHN | decrease |
+| catalyst_loading | conversion of 2-EH | unchanged |
+| reactant_concentration | conversion of 2-EH | increase |
+| pressure | conversion of 2-EH | unchanged |
+| flow_rate | residence_time | decrease |
+| flow_rate | conversion of 2-EH | decrease |

@@ -1,0 +1,119 @@
+{
+  "reaction_summary": {
+    "reaction_type": "azo coupling",
+    "reactants": ["amine", "sodium nitrite solution"],
+    "products": ["azocompounds"],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"flow_rate","value":0.7}
+    ],
+    "reactor":{"type":"microfluidic"},
+    "metrics":{
+        "conversion": 95,
+        "yield": null
+    }
+  },
+  "reaction_summary_2": {
+    "reaction_type": "azo coupling",
+    "reactants": ["amine", "sodium nitrite solution"],
+    "products": ["azocompounds"],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"flow_rate","value":0.03}
+    ],
+    "reactor":{"type":"microfluidic"},
+    "metrics":{
+        "conversion": null,
+        "yield": 90
+    }
+  },
+  "reaction_summary_3": {
+    "reaction_type": "azo coupling",
+    "reactants": ["amine", "sodium nitrite solution"],
+    "products": ["azocompounds"],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"flow_rate","value":0.7}
+    ],
+    "reactor":{"type":"microfluidic"},
+    "metrics":{
+        "conversion": 95,
+        "yield": null
+    }
+  },
+  "reaction_summary_4": {
+    "reaction_type": "azo coupling",
+    "reactants": ["amine", "sodium nitrite solution"],
+    "products": ["azocompounds"],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"flow_rate","value":0.03}
+    ],
+    "reactor":{"type":"microfluidic"},
+    "metrics":{
+        "conversion": null,
+        "yield": 90
+    }
+  },
+  "reaction_summary_5": {
+    "reaction_type": "azo coupling",
+    "reactants": ["amine", "sodium nitrite solution"],
+    "products": ["azocompounds"],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"flow_rate","value":0.7}
+    ],
+    "reactor":{"type":"microfluidic"},
+    "metrics":{
+        "conversion": 95,
+        "yield": null
+    }
+  },
+  "reaction_summary_6": {
+    "reaction_type": "azo coupling",
+    "reactants": ["amine", "sodium nitrite solution"],
+    "products": ["azocompounds"],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"flow_rate","value":0.03}
+    ],
+    "reactor":{"type":"microfluidic"},
+    "metrics":{
+        "conversion": null,
+        "yield": 90
+    }
+  },
+  "reaction_summary_7": {
+    "reaction_type": "azo coupling",
+    "reactants": ["amine", "sodium nitrite solution"],
+    "products": ["azocompounds"],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"flow_rate","value":0.03}
+    ],
+    "reactor":{"type":"microfluidic"},
+    "metrics":{
+        "conversion": null,
+        "yield": 90
+    }
+  },
+  "reaction_summary_8": {
+    "reaction_type": "azo coupling",
+    "reactants": ["amine", "sodium nitrite solution"],
+    "products": ["azocompounds"],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"flow_rate","value":0.7}
+    ],
+    "reactor":{"type":"microfluidic"},
+    "metrics":{
+        "conversion": 95,
+        "yield": null
+    }
+  },
+  "reaction_summary_9": {
+    "reaction_type": "azo coupling",
+    "reactants": ["amine", "sodium nitrite solution"],
+    "products": ["azocompounds"],
+    "conditions": [
+      {"type":"temperature","value":null}

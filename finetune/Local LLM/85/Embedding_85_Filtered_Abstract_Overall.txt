@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "nitration", "reactants": ["salicylic acid", "HNO3/AcOH"], "products": ["5-nitrosalicylic acid"], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": 7}], "reactor": {"type": "tubular", "material": "SS316"}, "metrics": {"conversion": 100, "yield": null}}}

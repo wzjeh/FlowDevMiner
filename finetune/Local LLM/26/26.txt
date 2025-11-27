@@ -1,0 +1,251 @@
+Chemical Engineering Science 251 (2022) 117477
+
+Contents lists available at ScienceDirect
+
+Chemical Engineering Science
+
+journal homepage: www.elsevier.com/locate/ces
+
+Investigation of hydrogenation and mass transfer performance in micropacked beds with highly active monolithic catalysts
+
+Chi Ma, Mengmeng Huang, Jiabin Yin, Fengyan Lou, Jisong Zhang ⇑
+
+State Key Laboratory of Chemical Engineering, Department of Chemical Engineering, Tsinghua University, Beijing 100084, China
+
+h i g h l i g h t s
+
+g r a p h i c a l a b s t r a c t
+
+ The coatings prepared by slurry circulation had good uniformity.
+
+ Active component Pd was uniformly distributed on the coatings.
+
+ The activity of monolithic catalysts was higher than that of particle catalysts.
+
+ The coatings had a certain influence on overall external mass transfer performance.
+
+a r t i c l e i n f o
+
+a b s t r a c t
+
+Article history: Received 9 December 2021 Received in revised form 20 January 2022 Accepted 23 January 2022 Available online 29 January 2022
+
+A method of slurry circulation for coating supports on nickel foams with small pore size is proposed to prepare monolithic catalysts used in micropacked beds (MPBs). Rather than the method applied to a sin- gle support material, this method is verified to be universal and applicable for various supports in this work. The coatings and active component Pd loaded on the coatings are demonstrated to be uniform. The coating weight can be predicted by an empirical correlation, revealing a law of coating weight. The monolithic catalysts exhibit high activity, long-term stability, and mechanical stability in the hydro- genation of a-methylstyrene. Moreover, the overall external mass transfer coefficient (kOV) of catalysts is measured, showing that kOV is affected by the properties of coatings. The catalysts prepared by slurry cir- culation method hopefully provide high activity and stability for various catalytic reactions in MPBs.  2022 Elsevier Ltd. All rights reserved.
+
+Keywords: Monolithic catalyst Nickel foam Hydrogenation Mass transfer Micropacked bed
+
+have attracted substantial attentions (Nuzhdin et al., 2015; Vilé et al., 2015; Zhang et al., 2017). Compared with conventional trickle bed reactors, MPBs have the small dimensional scale and are packed with small particles (diameters < 500 lm) (Ranade et al., 2011; Zhang et al., 2018), which exhibit the advantages of high surface-to-volume ratio, enhanced mass transfer, fast multi- phase mixing, and excellent operating safety (Liu et al., 2016; Zheng et al., 2019). At present, MPBs have been widely applied in
+
+1. Introduction
+
+Micropacked beds (MPBs) are derived from the miniaturization of trickle bed reactors (Losey et al., 2001; Cao et al., 2021), which
+
+⇑Corresponding author. E-mail address: jiszhang@tsinghua.edu.cn (J. Zhang).
+
+https://doi.org/10.1016/j.ces.2022.117477 0009-2509/ 2022 Elsevier Ltd. All rights reserved.
+
+C. Ma, M. Huang, J. Yin et al. Chemical Engineering Science 251 (2022) 117477
+
+Nomenclatures
+
+ac intrinsic activity (mols1g1 Pd ) CAMS AMS initial concentration (wt%) C H2 hydrogen concentration at equilibrium (molm3) Cl H2 hydrogen concentration in the liquid (molm3) Cs H2 hydrogen concentration at catalyst surface (molm3) DE effective diffusivity (m2s1) Dl H2 the molecular diffusivity in the liquid phase (m2s1) dp pore size of nickel foam (m) Ea activation energy (Jmol1) G gas flow rate (mLmin1) k0 Arrhenius pre-exponential factor (mols1g1 Pd ) kH2 hydrogen adsorption equilibrium constant (m3mol1) kOV overall external mass transfer coefficient (s1) Lcat catalyst layer thickness (m) mPd mass of active component Pd (g) P system pressure (MPa) Q liquid flow rate (mLmin1) Qs slurry flow rate (mLmin1) R gas constant (Jmol1K1) ra apparent reaction rate (mols1g1 Pd ) rint intrinsic reaction rate (mols1g1 Pd ) S specific surface area (m2g1) T reaction temperature (C)
+
+ug gas superficial velocity (ms1) ul liquid superficial velocity (ms1) Vcat catalyst volume (m3) VL liquid volume (m3) W coating weight (g(g nickel foam)1)
+
+Greek symbols g effectiveness factor l slurry viscosity (cP) lg gas viscosity (Pas) ll liquid viscosity (Pas) q powders density (gcm3) qg gas density (kgm3) ql liquid density (kgm3) U Thiele modulus vAMS AMS conversion
+
+Dimensionless numbers Reg gas Reynolds number ¼ qgugdp lg Rel liquid Reynolds number ¼ qluldp ll Scl liquid Schmidt number ¼ ll qlDl H2
+
+higher CH4 and CO2 conversions, higher H2/CH4 yields, lower H2/ CO ratios, and reduced coke formation. Xue et al. (2021) developed a TiO2 film on nickel foam and loaded Zn0.95Fe0.05S as monolithic catalyst, which was induced into photocatalytic system. The cata- lyst showed a high utilization of supports, attributing to the inte- gration of three independent materials. One of the most common methods for preparing catalyst sup- ports is coating by sol–gel slurry (Ma et al., 2019). Whereas, the pore size of metal foam used in MPBs is usually smaller than 500 lm for creating microchannels and cavities (Yang et al., 2018; Tu et al., 2020). The slurry is difficult to flow into the pores of metal foam because of the high capillary force, and the distribu- tion of catalyst coatings is nonuniform when the slurry impregna- tion is used (Zheng et al., 2019). At present, there are few reports on how to fabricate uniformly distributed catalyst coatings and control the coating weight, which significantly affect the catalyst properties (Zanota et al., 2018). Moreover, the mass transfer per- formance of the MPBs with metal foam monolithic catalysts at such small pore size is still unclear. Based on our previous work of sol–gel slurry method applied to a single support material (Ma et al., 2021), a universal and applica- ble method for the preparation of catalyst coatings was proposed in this work. Various coatings, including Al2O3, SiO2, CeO2, TiO2, and CaCO3 were applied on the metal foams, and an empirical cor- relation was established to predict the coating weight. The unifor- mity of the catalyst coatings was characterized, and the activity and stability of the catalysts were evaluated by a-methylstyrene (AMS) hydrogenation reaction in the MPB. The overall external mass transfer coefficient (kOV) and correlation were also investi- gated for a better understanding of the gas–liquid-solid mass transfer process in MPBs.
+
+gas–liquid-solid reactions, such as hydrogenation (Kataoka et al., 2012; Feng et al., 2016) and oxidation (Cao et al., 2021; Shang et al., 2013; Shang et al., 2015). However, high pressure drop will be generated in the MPBs with such small particles, leading to a high energy consumption and operating cost (Sang et al., 2020). Metal foam is a class of structural material, offering several fea- tures of high porosity, low pressure drop, interconnected pore structure, and attractive thermal and mechanical stability (Yu et al., 2007; Sang et al., 2012), which is regarded as the outstanding material for catalyst substrate (Wang et al., 2016; Sudhakaran et al., 2019; Wang et al., 2019). The combination of metal foam and catalyst particles is used to prepare monolithic catalysts in recent years. In addition, metal foam monolithic catalysts can pro- mote active component dispersion, minimize sintering, and stabi- lize coke formation (Bobadilla et al., 2012; Koc and Avci, 2017; Chen et al., 2020). Therefore, it presents a flexible approach for the applications of metal foam monolithic catalysts in the MPBs, which hopefully reduce the pressure drop and intensify the cat- alytic performance in the meanwhile. Liang et al. (2017) investi- gated the Cu-Zn/Al foam monolithic catalyst in a microreactor, and the catalyst delivered a high yield of methanol in the CO2 hydrogenation reaction. Wang et al. (2019) prepared a Ru-Ni/Ni foam monolithic catalyst for hydrogen production from NaBH4, and the reaction activity energy was much lower than previously published NaBH4 spontaneous methanolysis. Zhu et al. (2019) reported the discovery of a Ni3P/Ni-foam monolithic catalyst, which was highly active and highly stable for the hydrogenation of dimethyl oxalate to methyl glycolate. The reactions can be intensified by loading the active compo- nents onto the metal foams. However, the specific surface area of metal foams is relatively low, restricting the development of cata- lysts (Li et al., 2013; Jin and Kwon, 2009). An intermediate layer was needed to increase the specific surface area and further improve the catalyst properties (Wang et al., 2016). Many efforts have been devoted to fabricating the catalyst supports on metal foams for the monolithic catalysts. Roy et al. (2018) investigated variable CeZrO2-Al2O3 support compositions on metal foam, and coated Pd-Rh catalysts for biogas conversion to syngas by steam reforming. Catalysts with a larger CeZrO2/Al2O3 ratio exhibited
+
+2. Experimental section
+
+2.1. Catalyst preparation and characterization
+
+C. Ma, M. Huang, J. Yin et al. Chemical Engineering Science 251 (2022) 117477
+
+less steel, and the inner diameter, outer diameter, and length were 3.8, 6.4, and 80.0 mm, respectively. Four pieces of monolithic cat- alysts were packed in the middle of the MPB, and other parts of the MPB were packed with untreated nickel foams. AMS dissolved in methanol (Shanghai Titan Technology Co., Ltd., China) was pumped and mixed with pure hydrogen from reg- ulated cylinder, and then flowed into the MPB. The MPB was installed in a water bath to control the reaction temperature (T) at 70 C, and a back pressure regulator was employed to control the system pressure (P) at 1.0 MPa. AMS initial concentration (CAMS) and the gas flow rate (G) were set as 10 wt% and 20 mLmin1, respectively. The liquid flow rate (Q) of 0.05, 0.1, 0.2, 0.3, 0.4, and 0.5 mLmin1 was chosen in the experiments. When the reaction was stable, the liquid samples from the outlet of MPB were collected, diluted, and then analyzed by a gas chro- matography (GC, 8860, Agilent Technologies Co., Ltd., U.S.) with a flame ionization detector (FID) and a capillary column (HP-5, 30 m  0.32 mm  0.25 lm). The same MPB packed with Pd/Al2O3 particle catalysts was employed in this work for the comparison of hydrogenation perfor- mance. The catalysts were prepared by loading active component Pd on Al2O3 particles with the same method in Section 2.1. The Pd concentration of catalysts was controlled as 0.3 wt%, and the catalysts with 0.04 g were used for the similar content of Pd as the monolithic catalysts. The diameter of Al2O3 particles was about 460 lm, by which the similar channels as the nickel foam can be created. The particle catalysts were also packed in the middle of MPB, and other parts of the MPB were packed with blank Al2O3 particles.
+
+pieces were 3.8 mm and 5.0 mm, respectively. These nickel foams were firstly washed by deionized water (self-prepared) and alcohol for 30 min, respectively, in an ultrasonic cleaner (KQ5200DE, Kun- shan Ultrasonic Instrument Co., Ltd., China) with the frequency of 40 kHz and power of 200 W. Then the nickel foams were pretreated by a mixed acid solution of HCl, HNO3 (Beijing Lanyi Chemical Products, Co., Ltd., China), and deionized water. HCl: HNO3: deion- ized water (volume ratio) of 3: 1: 15, etching time of 45 min, and etching temperature of 20 C were chosen to improve the rough- ness of substrate surface. After pretreatment, the nickel foams were ultrasonically washed in deionized water for 30 min to remove the remaining acid solution. Subsequently, the catalyst coatings were prepared by a sol–gel method. Al2O3 powders (Jiangsu Xianfeng Nanomaterials Technol- ogy Co., Ltd., China), SiO2 powders (Shanghai Xiangtian Nanomate- rials Co., Ltd., China), CeO2 powders (Shanghai Puzhen Biological Technology Co., Ltd., China), TiO2 powders (Bangrui New Material Technology Co., Ltd., China), and CaCO3 powders (Jiangsu Xianfeng Nanomaterials Technology Co., Ltd., China) were separately used for the coatings. Polyvinyl alcohol (PVA, Beijing Anxinkang Tech- nology Co., Ltd., China) and deionized water were mixed and mag- netically stirred for 2 h at 85 C to dissolve the PVA. The powders and HNO3 were added into the PVA solution and continuously stir- red for 2 h to obtain the slurry. The PVA and HNO3 were used as binder and stabilizer, respectively, and the concentrations of Al2O3, PVA, HNO3, and deionized water were 12.0, 1.8, 1.2, and 85.0 wt%, respectively. After that, the slurry was kept at room tem- perature (25 C) for 24 h to make it stable. To overcome capillary force, the slurry was coated on the sur- face of pretreated nickel foams by slurry circulation method. The nickel foams were packed right in a tube with the inner diameter of 3.8 mm. The slurry was pumped and circulated by a peristaltic pump (BT00-300 M, Baoding Lange Constant Flow Pump Co., Ltd., China) for 30 min. The slurry flow rate (Qs) of 18, 54, 90, 126, 162, and 198 mLmin1 was chosen for different coating weights. Then the nickel foams were retained in the tube with the air circu- lation for 10 min to remove the remaining slurry. After coating, the nickel foams were successively dried in air at room temperature for 24 h, at 120 C for 6 h, and calcined in an oven at 600 C for 2 h with ramping up at 5 Cmin1. The preparation of coatings can be referred to our previous work (Ma et al., 2021). At last, the active component was loaded using a wet impregna- tion method. PdCl2 (Beijing Balinwei Technology Co., Ltd., China) was dissolved in the HCl solution with the concentration of 0.1 molL1. The nickel foams with coatings were immersed in the above solution and treated at 60 C for 3 h, and the content of Pd loaded for each sample was 0.00003 g. The samples were dried and calcined in an oven at 400 C for 2 h with ramping up at 2 Cmin1, and then reduced in hydrogen at 300 C for 2 h with ramping up at 5 Cmin1. After that, the monolithic catalysts were obtained, and the schematic diagram of the monolithic catalyst preparation process is shown in Fig. 1. The surface morphologies of the samples were analyzed by a scanning electron microscope (SEM, Sirion200, FEI, Netherlands). The textural properties of the samples were determined at 196 C by a dynamic nitrogen adsorption apparatus (Autosorb- 1-C, Quantachrome Instruments, U.S.) with the samples pretreated at 200 C for 6 h. The specific surface area was calculated by the Brunauer-Emmett-Teller (BET) method.
+
+2.3. Mass transfer performance evaluation
+
+The overall external mass transfer performance was measured by the hydrogenation of AMS in methylcyclohexane (Shanghai Meryer Chemical Technology Co., Ltd., China) with the same exper- imental setup as the catalyst performance test in Section 2.2. The mass transfer performance of MPB both packed with monolithic catalysts and particle catalysts was investigated. The reaction tem- perature, pressure, AMS initial concentration, and gas flow rate were set as 30 C, 0.6 MPa, 10 wt%, and 20 mLmin1, respectively. The AMS hydrogenation is an extremely fast reaction and enables to reach a fully mass transfer limited regime even at moderate temperature and pressure (Meille et al., 2004; Lévêque et al., 2016). Assuming a plug flow model, the apparent rate of reaction (ra) can be determined by an integration of a steady state mass bal- ance over the whole catalysts (Tourvieille et al., 2013; Tourvieille et al., 2015). The apparent rate can be expressed in terms of the AMS conversion and the liquid flow rate, as shown in equation (1) (Haase et al., 2013; Sang et al., 2020).
+
+ra ¼ Q  CAMS  vAMS mPd ð1Þ
+
+where vAMS and mPd refer to the AMS conversion and the mass of active component Pd, respectively. The kOV can be measured through the hydrogen balance between the gas phase and the cata- lyst layer, which is given in equation (2).
+
+   VL ¼ ra  mPd ¼ g  rint  mPd ð2Þ
+
+kOV  C H2  Cs H2
+
+2.2. Catalyst performance test
+
+The hydrogenation of AMS (Shanghai McLean Biochemical Technology Co., Ltd., China) to cumene was used as a model reac- tion for catalyst performance test. The schematic diagram of the experimental setup is shown in Fig. 2. The MPB was made of stain-
+
+C. Ma, M. Huang, J. Yin et al. Chemical Engineering Science 251 (2022) 117477
+
+Fig. 1. Schematic diagram of monolithic catalyst preparation process.
+
+Fig. 2. Schematic diagram of the experimental setup for catalyst performance test.
+
+liquid, respectively. The equation (6) was chosen because the hydrogenation conditions (30 C and 0.6 MPa) were similar as those in the literature (Meille et al., 2002), and referring to the estimated kinetic parameters by Meille et al., k0 = 8.5  106 mols1g1 Pd , Ea = 38.7  103 Jmol1, and kH2 = 1.4  102 m3mol1. The unknown parameters in equations (1)–(6) were Cs H2, g, and U, which can be easily calculated to obtain kOV.
+
+% in methylcyclohexane) than that in pure AMS, a prefactor of 1.3 is required (Meille et al., 2002).
+
+C H2 ¼ 0:0145T  1:6985 ð Þ  P ð3Þ
+
+To account for internal mass transfer limitation, the effective- ness factor and the Thiele modulus (U) for a first order reaction are given in equations (4) and (5), respectively.
+
+g ¼ tanhðUÞ U ð4Þ
+
+3. Results and discussion
+
+U2 ¼ ac  mPd  L2 cat Vcat  DE  Cs H2 ð5Þ
+
+3.1. Characterization of catalysts
+
+3.1.1. Coating weight The coatings were prepared by slurry circulation method, and the effect of slurry flow rate on the coating weight of Al2O3, SiO2, CeO2, TiO2, and CaCO3 is shown in Fig. 3. The coating weight decreased with the increase of slurry flow rate, ranging from 0.18 to 0.06 g(g nickel foam)1 for Al2O3, 0.13 to 0.04 g(g nickel foam)1 for SiO2, 2.23 to 0.60 g(g nickel foam)1 for CeO2, 0.39 to 0.13 g(g nickel foam)1 for TiO2, and 0.15 to 0.05 g(g nickel foam)1 for CaCO3. This is because the slurry in the pores of nickel foams flowed out with the air circulation, and more slurry can be removed by increasing the flow rate. In addition, the coating weight was affected by the density of powders and the viscosity of slurry.
+
+where ac, Lcat, Vcat, and DE refer to the intrinsic activity, the catalyst layer thickness, the catalyst volume, and the effective diffusivity, respectively. According to Meille et al. (Meille et al., 2002), the intrinsic activity can be obtained by equation (6).
+
+  
+
+kH2  Cl H2
+
+ac ¼ k0  exp  Ea RT
+
+q  2 ð6Þ
+
+1 þ ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ kH2  Cl H2
+
+C. Ma, M. Huang, J. Yin et al. Chemical Engineering Science 251 (2022) 117477
+
+Fig. 3. Effect of slurry flow rate on coating weight.
+
+Fig. 4. Comparison of coating weight between predicted and experimental values.
+
+An empirical correlation of the coating weight on the nickel foams, considering slurry flow rate, density of powders (q) and vis- cosity of slurry (l) was proposed to evaluate their contribution. The density of Al2O3, SiO2, CeO2, TiO2, and CaCO3 powders and the viscosity of corresponding slurry are listed in Table 1, and the correlation is expressed as follows:
+
+et al., 2019; Zhang et al., 2015). From Fig. 5(d), (e), (f), (g), and (h), it can be seen that the surface was further rough and irregular by coating the supports. At the slurry flow rate of 162 mLmin1, the Al2O3, SiO2, CeO2, TiO2, and CaCO3 coatings were all uniform. When the slurry flow rate was increased or decreased, the coatings remained uniform except for CaCO3 at low flow rate of 54 mLmin1, as displayed in Fig. S.1. The main reason is that the agglomeration of CaCO3 particles occurred at low flow rate, and the agglomeration was eliminated with the strong turbulence of slurry at high flow rate. As shown in Fig. 5(d) and (g), and Fig. S.1 (a1), (a2), and (d2), the Al2O3 and TiO2 coatings had pore structures because of the high viscosity of slurry. The bubbles were generated and mixed in the slurry when the slurry was circulated through the pores of the nickel foams. The surface of Al2O3 particle was also rough with blocky struc- tures. Conversely, the surface of Al2O3 particle was less uniform than that of the monolithic catalyst coatings. Most of the coatings prepared by slurry circulation are uniform, especially at high flow rate, which is beneficial to the improvement of the uniformity of active components and the performance of catalysts. Whereafter, the coatings with the slurry flow rate of 162 mLmin1 were chosen as examples for loading active compo- nent Pd. Fig. 6 presents the SEM micrographs of Pd/Al2O3 catalyst particle, Pd/Al2O3, Pd/SiO2, Pd/CeO2, Pd/TiO2, and Pd/CaCO3 catalyst coatings on the nickel foams. It is obvious that the surfaces of cat- alyst coatings were all uniform, and the surface of Pd/Al2O3 cata- lyst particle was nonuniform, which were consistent with the corresponding supports. This suggested that the loading process of active components had little influence on the morphologies of the Al2O3 particles and the coatings. The large range of coatings and the loading effects can be observed from the SEM micrographs with low magnification (100), as shown in Fig. S.2. The catalyst coatings were uniform, and the pores of nickel foams were not blocked by the coatings. The preparation method of catalysts may have the advantages in overcoming capillary force and intensifying reaction process.
+
+m ¼ 0:0852  Q 0:49 s  q2:97  l0:84 ðR2 ¼ 0:9726Þ ð7Þ
+
+The predicted values agreed well with the experimental values with the errors of ±35%, as shown in Fig. 4, indicating the practical- ity of this correlation to predict the coating weight. According to the results in Fig. 3, the correlation was applicable with the coating weight of 0.04 to 2.23 g(g nickel foam)1. The coating weight was proportional to the density's power of 2.97, and inversely propor- tional to the viscosity's power of 0.84 and to the flow rate's power of 0.49. When the density of powders was high, the weight of the remaining slurry with similar volume was large. The binding force between the powders was better than that between the powders and the nickel foam. Consequently, more slurry was removed by the air circulation when the viscosity was higher. The higher the flow rate, the stronger the slurry turbulence, the larger the air pres- sure, and the smaller the coating weight. This method can be used for coating various supports on the nickel foams with high applica- bility and accuracy. The experimental conditions can be calculated, and the required coating weight can be controlled according to the correlation.
+
+3.1.2. Surface morphology
+
+Fig. 5 displays the SEM micrographs of Al2O3 particle, nickel foam, pretreated nickel foam, and the coatings on nickel foams. The surface of nickel foam was flat and smooth, as shown in Fig. 5(b). After pretreatment, there were some pores formed on the surface of the nickel foam, as shown in Fig. 5(c). The roughness of the surface was improved by pretreatment, which was beneficial to the enhancement of the mechanical stability of coatings (Ma
+
+Table 1 Density of support powders and viscosity of corresponding slurry.
+
+Support Powders density (gcm3) Slurry viscosity (cP)
+
+Al2O3 3.7 5.46 SiO2 2.2 1.29 CeO2 7.1 3.93 TiO2 4.3 4.51 CaCO3 2.9 2.95
+
+C. Ma, M. Huang, J. Yin et al. Chemical Engineering Science 251 (2022) 117477
+
+) b ( )a(
+
+) d ( )c(
+
+)f( )e(
+
+) h ( ) g (
+
+Fig. 5. SEM micrographs of (a) Al2O3 particle, (b) nickel foam, (c) pretreated nickel foam, (d) Al2O3, (e) SiO2, (f) CeO2, (g) TiO2, and (h) CaCO3 coatings on nickel foams with slurry flow rate of 162 mLmin1.
+
+C. Ma, M. Huang, J. Yin et al. Chemical Engineering Science 251 (2022) 117477
+
+) b ( )a(
+
+) d ( )c(
+
+)f( )e(
+
+Fig. 6. SEM micrographs of (a) Pd/Al2O3 particle, (b) Pd/Al2O3, (c) Pd/SiO2, (d) Pd/CeO2, (e) Pd/TiO2, and (f) Pd/CaCO3 coatings on nickel foams.
+
+weights, which is consistent with the analysis results of the corre- lation and surface morphologies. The specific surface areas of nickel foams further increased, and the pore volumes and the average pore sizes decreased with the loading of active component Pd. The main reason is that Pd small particles were deposited on the surface of coatings and also accessed into the pores. The loading process of active components did not significantly affect the textural properties of the coatings. The variation tendency for the specific surface area, pore volume, and average pore size of Al2O3 particles is the same as that for nickel foams with the similar reasons. Compared with the particle catalysts, the monolithic catalysts had the smaller specific surface
+
+SiO2, CeO2, TiO2, and CaCO3, the specific surface areas of pretreated nickel foams increased, and the order of specific surface area was SiO2 > Al2O3 > CeO2 > CaCO3 > TiO2, which was mainly related to the specific surface area of the powders. The pore volumes of the coatings on nickel foams also increased except for CaCO3, and the average pore sizes decreased. This is because the powders have abundant pore structures, and compared with the pretreated nickel foams, the powders have larger pore volumes and smaller average pore sizes. While the pore volume of CaCO3 was smaller than that of pretreated nickel foams. In general, slurry circulation can be a practical method for preparing coatings on the nickel foams with different kinds of supports and different coating
+
+C. Ma, M. Huang, J. Yin et al. Chemical Engineering Science 251 (2022) 117477
+
+mity of active component Pd dispersed on the coatings can also affect the catalyst activity. For the investigation of the uniformity, the Pd distribution on the coatings was analyzed through the EDS mapping images, as shown in Fig. 8, which are corresponding to the SEM micrographs in Fig. 6. It can be seen that the Pd dispersed on Al2O3, SiO2, CeO2, TiO2, and CaCO3 coatings was uniform. This indicated that the coat- ings prepared by slurry circulation can promote the uniformity of Pd distribution because of the uniform distribution of the coatings. Therefore, Pd distribution may have little effect on the catalyst activity, and the difference in catalyst activity mainly depend on the properties of coatings. The monolithic catalysts had the higher AMS conversion com- pared with the particle catalysts, as shown in Fig. 7. At the liquid flow rate of 0.05 mLmin1, the AMS conversion of Pd/Al2O3/nickel foam and Pd/Al2O3 particle catalysts had the maximum difference as 60.5%. The Pd distribution on the particle catalysts was also uni- form, as shown in Fig. 8(a). Although the particles had the higher Al2O3 content and the larger specific surface area, there was higher internal mass transfer resistance inside the catalysts, and it is more difficult for the reactants to reach the Pd sites in the particles. This suggested that the thin layer of Al2O3 coatings on nickel foams had significant advantages for the improvement of active component utilization and internal mass transfer.
+
+Table 2 Textural properties of Al2O3 particles, nickel foam, pretreated nickel foam, support coatings, and corresponding catalyst coatings on nickel foams.
+
+Parameter Surface area (m2g1) Pore volume (cm3g1) Pore size (nm)
+
+Al2O3 particles 191.8 0.7750 16.2 Pd/Al2O3 particles 203.1 0.7590 15.0 Nickel foam 10.4 0.0610 23.4 Pretreated nickel foam 15.3 0.1173 39.3
+
+Al2O3 coatings 47.8 0.2038 17.1 Pd/Al2O3 coatings 47.9 0.1545 8.9 SiO2 coatings 55.2 0.1933 14.0 Pd/SiO2 coatings 57.5 0.1774 7.1 CeO2 coatings 29.0 0.1647 22.7 Pd/CeO2 coatings 31.3 0.1102 14.4 TiO2 coatings 16.0 0.1919 5.4 Pd/TiO2 coatings 19.6 0.1448 5.3 CaCO3 coatings 24.8 0.0926 17.0 Pd/CaCO3 coatings 26.6 0.0747 14.5
+
+area and pore volume, because the nickel foam substrate occupied most of the mass.
+
+3.2. Hydrogenation performance of catalysts
+
+3.2.1. Catalyst activity The hydrogenation reaction was performed in the MPB with the similar Pd content of about 0.00012 g for both particle catalysts and monolithic catalysts. The effect of liquid flow rate on the activ- ity of particle catalysts and monolithic catalysts is shown in Fig. 7. The AMS conversion decreased with the increase of liquid flow rate. Although the increase of liquid flow rate may improve the mass transfer efficiency, AMS cannot contact adequately with Pd sites and flows directly through the reactor at high liquid flow rate. With increasing the liquid flow rate, the residence time of liquid reactant decreased. The decreasing tendency of conversion at high liquid flow rate was not significant than that at low liquid flow rate. Comparing the activity of the monolithic catalysts with the same content of Pd, the catalysts with Pd/CeO2 and Pd/CaCO3 coat- ings had the highest and lowest AMS conversion, respectively. The catalysts with Pd/Al2O3, Pd/SiO2, and Pd/TiO2 coatings had little difference in AMS conversion. The possible reason is that there was difference in the textural properties between the coatings, and the capabilities of the coatings for the combination and storage of gas and liquid reactants were also different. Besides, the unifor-
+
+3.2.2. Catalyst stability The catalyst stability is one of the important parameters for cat- alytic reactions, so the long-term stability and the mechanical sta- bility were investigated in this work. Fig. 9 displays the activity of particle catalysts and monolithic catalysts in the MPB for 72 h. Obviously, the stabilities of all catalysts were fairly high. The activ- ity of the monolithic catalysts with Al2O3 and SiO2 coatings slightly decreased in the first 16 h because of a small loss of catalyst coat- ings. Subsequently, the activity remained stable for a period of 56 h. In contrast, the activity of the particle catalysts and the monolithic catalysts with CeO2, TiO2, and CaCO3 coatings slowly decreased in 72 h. The possible reason is that the mass loss of par- ticles and coatings occurred during the gas and liquid scouring. The decrease of AMS conversion for the particle catalysts and the monolithic catalysts with Al2O3, SiO2, CeO2, TiO2, and CaCO3 coat- ings was 1.5%, 4.8%, 3.0%, 6.0%, 7.0%, and 6.2%, respectively. Com- pared with the monolithic catalysts, the particle catalysts had relatively higher stability because the adhesion between Al2O3 was stronger than that between Al2O3 and nickel foam. Compared with nickel foam, Al2O3 particles have more rough structures on the surface and between the particles. Other Al2O3 particles dif- fused into these structures, which can provide mechanical adhe- sion. In addition, the surface of Al2O3 particles adsorbed more polar groups than that of nickel foam, promoting the formation of more chemical bonds between Al2O3 particles to improve adhe- sion. These are beneficial to the improvement of stability. Among the monolithic catalysts, Pd/SiO2/nickel foam catalysts demon- strated the highest stability by reason of the strongest adhesion. After the long-term experiments, the catalysts were washed and dried, and the mass loss before and after the experiments was measured to evaluate the mechanical stability. The mass losses of the particle catalysts and the monolithic catalysts with Al2O3, SiO2, CeO2, TiO2, and CaCO3 coatings were 1.6%, 3.2%, 2.4%, 5.6%, 8.1%, and 6.3%, respectively. The order of mechanical stability was quite consistent with that of long-term stability. This verified that the decrease in activity mainly resulted from the loss of parti- cles and coatings. The method of slurry circulation for preparing monolithic catalysts can provide high activity and stability during the hydrogenation reaction.
+
+C. Ma, M. Huang, J. Yin et al. Chemical Engineering Science 251 (2022) 117477
+
+) b ( )a(
+
+) d ( )c(
+
+)f( )e(
+
+Fig. 8. EDS mapping images of Pd distribution on (a) Al2O3 particle, (b) Al2O3, (c) SiO2, (d) CeO2, (e) TiO2, and (f) CaCO3 coatings.
+
+The difference of kOV between the monolithic catalysts was not significant. This is because the liquid flow and liquid contact states were similar on the coatings with the same pore size of nickel foam in the same MPB. The order of kOV was similar to that of the cata- lyst activity, indicating that the coatings had a certain influence on kOV, and the difference mainly attributed to the catalyst properties. The kOV of particle catalysts was higher than that of monolithic cat- alysts, which was contrary to the tendency of catalyst activity. The reason is that the porosity of particle catalysts was lower than that of monolithic catalysts, and it is easier for the liquid to contact with the Pd sites on particle catalysts, which improved the liquid–solid
+
+3.3. Mass transfer performance of catalysts
+
+3.3.1. Overall external mass transfer performance
+
+Fig. 10 shows the effect of liquid superficial velocity on the overall external mass transfer coefficient of the MPB with particle catalysts and monolithic catalysts. The kOV increased with the increase of liquid superficial velocity, because the liquid turbulence and liquid renewal rate were enhanced at high liquid superficial velocity. This can lead to the improvement of gas–liquid and liq- uid–solid contact areas and the intensification of gas–liquid and liquid–solid mass transfer processes.
+
+C. Ma, M. Huang, J. Yin et al. Chemical Engineering Science 251 (2022) 117477
+
+Fig. 9. Long-term stability of catalysts in the MPB.
+
+Fig. 11. Comparison of kOV between predicted and experimental values.
+
+where dp and Dl H2 refer to the pore size of nickel foam and the molecular diffusivity in the liquid phase, respectively. The correla- tion was applicable when the kOV was between 0.0625 and 0.2594 s1. According to the experimental data, the ranges of appli- cation for W and S were from 0.06 to 0.72 g(g nickel foam)1 and 19.6 to 57.5 m2g1, respectively. Scl is constant (Lévêque et al., 2016; Tourvieille et al., 2015; Haase et al., 2013; Sang et al., 2020), and Rel, Reg, W, and S all had a certain influence on kOV. The influence of Rel and Reg was the largest and smallest, respec- tively. As shown in Fig. 11, the relative errors between predicted values and experimental values were almost within ±25%. This sug- gested that there was a good practicality for the correlation to pre- dict the kOV of the MPB with monolithic catalysts.
+
+4. Conclusions
+
+Fig. 10. Effect of liquid superficial velocity on kOV of MPB with particle and monolithic catalysts.
+
+In this work, a universal and applicable method of slurry circu- lation was proposed to prepare monolithic catalysts used in MPBs. Al2O3, SiO2, CeO2, TiO2, and CaCO3 were coated on the nickel foams with good uniformity, and the coating weight can be controlled by empirical correlation. The Pd was also uniformly distributed on the coatings. During the AMS hydrogenation process in the MPB, the monolithic catalysts exhibited the higher activity compared with the particle catalysts because of the high internal mass transfer performance. The stability of monolithic catalysts was high with a slight decrease in the first 16 h, resulting from the small loss of coatings. The kOV of the MPB with monolithic catalysts was rela- tively low, indicating that the hydrogenation was mainly con- trolled by external mass transfer process. The correlation was proposed and the predicted kOV agreed well with the experimental kOV. The catalysts prepared by slurry circulation with uniform sup- port coatings and active components hopefully provide high activ- ity and stability in MPBs.
+
+mass transfer performance. However, the activity of monolithic catalysts was relatively high because of the small internal mass transfer limitation, as described in Section 3.2.1. This suggested that the hydrogenation in monolithic catalysts was mainly con- trolled by external mass transfer process.
+
+3.3.2. Correlation of mass transfer coefficients An attempt of overall external mass transfer coefficient mod- elling was proposed. To predict the kOV of the MPB with monolithic catalysts, dimensionless numbers including liquid Reynolds num- ber (Rel), gas Reynolds number (Reg), and liquid Schmidt number (Scl) were used (Lévêque et al., 2016; Tourvieille et al., 2015; Haase et al., 2013; Sang et al., 2020), and the coating weight (W) and the specific surface area (S), which may affect the overall external mass transfer performance were also taken into account. Fig. S.3 shows the effect of gas superficial velocity on kOV of the MPB with Pd/Al2O3/nickel foam catalysts, and the dimensionless numbers were calculated based on the data in Fig. 10 and Fig. S.3. The correlation is shown below:
+
+CRediT authorship contribution statement
+
+kOV  d p Dl H2 ¼ 0:0137  Re0:46 l  Re0:05 g  Sc0:33 l  W0:13  S0:07 ðR2 ¼ 0:9527Þ
+
+ð8Þ
+
+C. Ma, M. Huang, J. Yin et al. Chemical Engineering Science 251 (2022) 117477
+
+Meille, V., Pestre, N., Fongarland, P., de Bellefon, C., 2004. Gas/liquid mass transfer in small laboratory batch reactors: comparison of methods. Ind. Eng. Chem. Res. 43, 924–927. Nuzhdin, A.L., Moroz, B.L., Bukhtiyarova, G.A., Reshetnikov, S.I., Pyrjaev, P.A., Aleksandrov, P.V., Bukhtiyarov, V.I., 2015. Selective liquid-phase hydrogenation of a nitro group in substituted nitrobenzenes over Au/Al2O3 catalyst in a packed-bed flow reactor. ChemPlusChem 80 (12), 1741–1749. Ranade, V.V., Chaudhari, R.V., Gunjal, P.R., 2011. Trickle Bed Reactors: Reactor Engineering & Applications. Kidlington, Oxford, UK. Roy, P.S., Song, J., Kim, K., Kim, J.M., Park, C.S., Raju, A.S.K., 2018. Effects of CeZrO2- Al2O3 support composition of metal-foam-coated Pd-Rh catalysts for the steam- biogas reforming reaction. J. Ind. Eng. Chem. 62, 120–129. Sang, L.X., Sun, B.A., Tan, H.Y., Du, C.X., Wu, Y.T., Ma, C.F., 2012. Catalytic reforming of methane with CO2 over metal foam based monolithic catalysts. Int. J. Hydrogen Energ. 37 (17), 13037–13043. Sang, L., Feng, X.D., Tu, J.C., Xie, B.Q., Luo, G.S., Zhang, J.S., 2020. Investigation of external mass transfer in micropacked bed reactors. Chem. Eng. J. 393, 124793. Sang, L., Tu, J.C., Cheng, H., Luo, G.S., Zhang, J.S., 2020. Hydrodynamics and mass transfer of gas-liquid flow in micropacked bed reactors with metal foam packing. AlChE J. 66 (2), e16803. Shang, M.J., Noel, T., Wang, Q., Hessel, V., 2013. Packed-bed microreactor for continuous-flow adipic acid synthesis from cyclohexene and hydrogen peroxide. Chem. Eng. Technol. 36, 1001–1009. Shang, M.J., Noel, T., Wang, Q., Su, Y.H., Miyabayashi, K., Hessel, V., Hasebe, S., 2015. 2-and 3-Stage temperature ramping for the direct synthesis of adipic acid in micro-flow packed-bed reactors. Chem. Eng. J. 260, 454–462. Sudhakaran, M.S.P., Hossain, M.M., Gnanasekaran, G., Mok, Y.S., 2019. Dry reforming of propane over c-Al2O3 and nickel foam supported novel SrNiO3 perovskite catalyst. Catalysts 9, 68. Tourvieille, J.N., Bornette, F., Philippe, R., Vanderberghe, Q., de Bellefon, C., 2013. Mass transfer characterization of a microstructured falling film at pilot scale. Chem. Eng. J. 227, 182–190. Tourvieille, J.N., Philippe, R., de Bellefon, C., 2015. Milli-channel with metal foams under an applied gas-liquid periodic flow: external mass transfer performance and pressure drop. Chem. Eng. J. 267, 332–346. Tu, J.C., Sang, L., Cheng, H., Ai, N., Zhang, J.S., 2020. Continuous hydrogenolysis of N- diphenylmethyl groups in a micropacked-bed reactor. Org. Process Res. Dev. 24 (1), 59–66. Vilé, G., Almora-Barrios, N., López, N., Pérez-Ramírez, J., 2015. Structure and reactivity of supported hybrid platinum nanoparticles for the flow hydrogenation of functionalized nitroaromatics. ACS Catal. 5 (6), 3767–3778. Wang, F.H., Luo, Y.M., Wang, Y.A., Zhu, H., 2019. The preparation and performance of a novel spherical spider web-like structure Ru-Ni/Ni foam catalyst for NaBH4 methanolysis. Int. J. Hydrogen Energ. 44 (26), 13185–13194. Wang, C.X., Ping, D., Dong, X.F., Dong, Y.C., Zang, Y.H., 2016. Construction of Ru/Ni- Al-oxide/Ni-foam monolithic catalyst for deep-removing CO in hydrogen-rich gas via selective methanation. Fuel Process. Technol. 148, 367–371. Xue, Y.E., Shao, P.H., Yuan, Y.X., Shi, W.X., Guo, Y., Zhang, B., Bao, X., Cui, F.Y., 2021. Monolithic nickel foam supported macro-catalyst: manipulation of charge transfer for enhancement of photo-activity. Chem. Eng. J. 418, 129456. Yang, C.X., Teixeira, A.R., Shi, Y.X., Born, S.C., Lin, H.K., Song, Y.F.L., Martin, B., Schenkel, B., Lachegurabi, M.P., Jensen, K.F., 2018. Catalytic hydrogenation of N- 4-nitrophenyl nicotinamide in a micro-packed bed reactor. Green Chem. 20 (4), 886–893. Yu, H., Chen, H.Q., Pan, M.Q., Tang, Y., Zeng, K., Peng, F., Wang, H.J., 2007. Effect of the metal foam materials on the performance of methanol steam micro- reformer for fuel cells. Appl. Catal., A 327, 106–113. Zanota, M.L., Pallier, S., Dousse, A., Lachambre, J., Meille, V., 2018. Demonstration of the use of 3D X-ray tomography to compare the uniformity of catalyst coatings in open-cell foams. ChemEngineering 2, 52. Zhang, L., Ren, Y.L., Luo, Q., Ying, X., Xu, H., Xuan, J., 2015. A novel method to from well-adhered c-Al2O3 coating in 316L stainless steel microchannels. Energ. Procedia 75, 2044–2048. Zhang, J.S., Teixeira, A.R., Kogl, L.T., Yang, L., Jensen, K.F., 2017. Hydrodynamics of gas-liquid flow in micropacked beds: pressure drop, liquid holdup, and two- phase model. AlChE J. 63, 4694–4704. Zhang, J.S., Teixeira, A.R., Jensen, K.F., 2018. Automated measurements of gas-liquid mass transfer in micropacked bed reactors. AlChE J. 64 (2), 564–570. Zheng, T.Q., Zhou, W., Gao, Y., Yu, W., Liu, Y.X., Zhang, C.Y., Zheng, C.C., Wan, S.L., Lin, J.D., Xiang, J.H., 2019. Active impregnation method for copper foam as catalyst support for methanol steam reforming for hydrogen production. Ind. Eng. Chem. Res. 58 (11), 4387–4395. Zhu, J., Cao, L.Q., Li, C.Y., Zhao, G.F., Zhu, T., Hu, W., Sun, W.D., Lu, Y., 2019. Nanoporous Ni3P evolutionarily structured onto a Ni foam for highly selective hydrogenation of dimethyl oxalate to methyl glycolate. ACS Appl. Mat. Inter. 11 (41), 37635–37643.
+
+Declaration of Competing Interest
+
+The authors declare that they have no known competing finan- cial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+Acknowledgements
+
+We gratefully acknowledge the supports of National Natural Science Foundation of China (22022809, 22008138, and 21991103) on this work.
+
+Appendix A. Supplementary material
+
+Supplementary data to this article can be found online at https://doi.org/10.1016/j.ces.2022.117477.

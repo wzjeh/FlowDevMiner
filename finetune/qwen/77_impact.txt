@@ -1,0 +1,9 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of L-glutamine | increase |
+| residence_time | conversion of L-glutamine | increase |
+| pore_diameter | enzyme immobilisation ability | increase |
+| pore_diameter | enzymatic activity | increase |
+| pore_diameter | selectivity in theanine production | increase |

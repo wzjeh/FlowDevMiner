@@ -1,0 +1,13 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| Reaction temperature | Conversion of methyl acrylate | increase |
+| Flow rate | Mixing quality | increase |
+| Volumetric flow rate | Conversion of TFMB | increase |
+| Residence time | Conversion of TFMB | increase |
+| Residence time | Product selectivity | unchanged |
+| Reaction temperature | Conversion of methyl acrylate | increase |
+| Flow rate | Mixing quality | increase |
+| Volumetric flow rate | Conversion of TFMB | increase |
+| Residence time | Conversion of TFMB | increase |

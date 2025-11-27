@@ -1,0 +1,56 @@
+{
+  "reaction_type": "direct fluorination",
+  "reactants": [
+    {
+      "name": "carbon monoxide",
+      "role": "reactant"
+    },
+    {
+      "name": "fluorine gas",
+      "role": "reactant"
+    },
+    {
+      "name": "null",
+      "role": "catalyst"
+    },
+    {
+      "name": "null",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "carbonyl fluoride",
+      "yield_optimal": 89.5,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "-18 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "0.1 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "2.0 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "null"
+    }
+  ],
+  "reactor": {
+    "type": "parallel channel microreactor",
+    "inner_diameter": "400 μm"
+  },
+  "metrics": {
+    "conversion": 95.0,
+    "yield": 89.5,
+    "selectivity": 94.0,
+    "unit": "%"
+  }
+}

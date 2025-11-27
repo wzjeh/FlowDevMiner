@@ -1,0 +1,10 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rate | particle size | decrease |
+| flow_rate | standard deviation of particle size | decrease |
+| reactant_concentration | particle size | increase |
+| reactant_concentration | number of particles | increase |
+| chitosan_concentration | particle size | decrease |
+| chitosan_concentration | zeta potential | increase |

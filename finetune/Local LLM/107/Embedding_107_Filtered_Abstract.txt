@@ -1,0 +1,18 @@
+Figure 4. Run time of continuous-flow hydrogenation in microreactor. Reaction conditions: ni- trobenzene (0.1 mol/L, methanol as solvent), catalyst (Pd@SBA-15, 0.1 g), flow rate (0.50 mL/min), H2 (1.0 MPa), back-pressure (0.9 MPa), 50 ◦C, and 1.0 min.
+
+Entry a Flow Rate (mL/min) H2 Pres. (MPa) Temp. (◦C) Solvent Yield (%) b
+
+Summary: The paragraph discusses the development of a flow-chemistry process for hydrogenation reactions using mesoporous Pd@SBA-15 catalysts in a continuous microreactor system. The key reactants are not mentioned, but the reaction type is hydrogenation. The solvent and catalyst used are also not specified. However, the products of this process are mentioned as being important for further optimization. The reactor used is a microreactor with an ID of 500 µm. The critical conditions include flow rates (1 mL/min), residence time (360 s), temperature (80°C), and pressure (2 bar). The conversion, yield, and selectivity of the process are not mentioned in this paragraph.
+
+Data Availability Statement: The data presented in this study are available in [Continuous-Flow Hydrogenation of Nitroaromatics in Microreactor with Mesoporous Pd@SBA-15].
+
+Article Continuous-Flow Hydrogenation of Nitroaromatics in Microreactor with Mesoporous Pd@SBA-15
+
+Nitroaromatics in Microreactor with
+
+Continuous-flow hydrogenation. In this work, a more environmentally friendly and practical continuous-flow hydrogenation system was developed by using a micro- packed-bed reactor (MPBR) filled with Pd@SBA-15 as a reusable catalytic model. Aromatic amines were prepared by a safe and efficient hydrogenation process using nitroaromatics and hydrogen as feedstock. In the optimization of reaction param
+
+where misolated is the mass of the isolated product by silica gel column chromatography during run time; C0 is the concentration of the feedstock in the solution; F0 is the flow rate
+
+(WC) obtained through a urea glass route with high activity and chemoselectivity for the continuous flow hydrogenation of nitro compounds [13]. Moreover, they extended WC and prepared a bimetallic Ni@WC composite characterized by high activity for the cardanol hydrogenation. Although continuous flow reactors have shown many excellent applications in the field of hydrogenation, they still have tech
+

@@ -1,0 +1,125 @@
+Article
+
+pubs.acs.org/OPRD
+
+Continuous-Flow Process for Selective Mononitration of 1‑Methyl-4- (methylsulfonyl)benzene
+
+Zhiqun Yu,† Pengcheng Zhou,‡ Jiming Liu,‡ Wenzuo Wang,‡ Chuanming Yu,†,‡ and Weike Su*,†,‡
+
+†National Engineering Research Center for Process Development of Active Pharmaceutical Ingredients, Collaborative Innovation Center of Yangtze River Delta Region Green Pharmaceuticals, Zhejiang University of Technology, Hangzhou 310014, P.R. China ‡Key Laboratory for Green Pharmaceutical Technologies and Related Equipment of Ministry of Education, College of Pharmaceutical Sciences, Zhejiang University of Technology, Hangzhou 310014, P.R. China
+
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+ABSTRACT: An expeditious process for selective nitration of 1-methyl-4-(methylsulfonyl)benzene in a continuous-flow reactor in 98% yield is described. The continuous-flow mononitration ran well in adiabatic condition with 80 wt% sulfuric acid, and residence time was reduced to 5 s. The short residence time can significantly reduce byproducts. Dinitration was also studied for optimization of the mononitration. The spent acid could be reused for several times after concentration in a vacuum. ■INTRODUCTION Nitroaromatic derivatives are an important class of compounds with wide applications in pharmaceuticals, pesticides, dyes, perfumes, explosives, etc.1 For example, the title reaction product, 1-methyl-4-(methylsulfonyl)-2-nitrobenzene, is an important material for the synthesis of Mesotrione (Figure 1), which is an herbicide used to control some grass and broad-
+
+Downloaded via HOKKAIDO UNIV on October 18, 2025 at 01:28:06 (UTC).
+
+stoichiometry, residence time, and temperature, high reprodu- cibility, easy scale-up, and often better reaction yields. The much higher surface area-to-volume ratio under flow conditions renders heat transfer highly eﬃcient. Furthermore, safety hazards in handling exothermic reactions associated with explosive reagents are minimized.8 It is particularly advanta- geous to carry out nitration of aromatics in continuous-flow reactors: the reactor dimensions are smaller, reactant inventory at any given time is less, diﬀusion is much faster, and surface-to- volume ratio is higher, which significantly reduces the possibility of side-product formation and significantly improves the safety. Motivated by these advantages, our group has been committed to the continuous-flow synthesis technology and has reported several practical kilogram-scale continuous-flow processes.9 Herein, we apply this technology to the mono- nitration of 1-methyl-4-(methylsulfonyl)benzene (1) in both isothermal and adiabatic conditions (Scheme 1).
+
+Figure 1. Structure of Mesotrione.
+
+leaf weeds, mainly in maize crops.2 Nitroaromatics are generally produced by nitration of aromatic derivatives. These nitration reactions are extremely hazardous due to highly exothermic thermodynamics as well as possible decomposition and explosion of nitro compounds.3 The heat of reaction per electrophilic substitution by a nitronium ion is typically −100 kJ/mol, and it presents serious hazards, particularly in large- scale production. In the chemical industry, to carry out the reaction in a mild way, large quantities of diluents or solvents are used, and addition is done slowly, hence requiring long reaction times and creating large amounts of waste solvents.4
+
+Scheme 1. Mononitration of 1-Methyl-4- (methylsulfonyl)benzene
+
+Also, selectivity is not satisfactory due to easy over-nitration or oxidation when reagents and products are both exposed to the reaction conditions over a long residence time.5 And still, the safety risk is not eliminated owing to mass and heat transfer limitations in conventional batch reactors. The great demand for nitroaromatic compounds provides enormous impetus for extensive study of nitration reactions. Recently, one approach complementary to the conventional batch or semi-batch mode is to employ a continuous and selective nitration mode. There are a number of reports of nitration reactions which have been performed under continuous-flow conditions.4,6
+
+■RESULTS AND DISCUSSION In the batch preparation10 of mononitrated product 2, mixing acid (composed of concentrated sulfuric acid and nitric acid) was added dropwise into sulfuric acid solution of 1 at ≤10 °C, followed by stirring at room temperature for several hours, and then solid product was obtained by introducing the reaction mixture into large amount of cold water. The heat of reaction
+
+It is well proved that continuous-flow technology oﬀers many advantages over batch methods,7 including precise control of
+
+Received: November 13, 2015 Published: January 6, 2016
+
+Organic Process Research & Development Article
+
+had to be removed by external cooling, thus avoiding overnitration and oxidation side reactions. In the design of a continuous-flow process for 2, our original objectives were to shorten the reaction time and reduce the amount of waste. Isothermal Nitration Process. From the beginning of our investigation, commercial nitric acid (98 wt% HNO3) was selected as the nitrating agent, and a sulfuric acid solution of 1 was prepared in an acid tank. Scheme 2 shows the continuous-
+
+Scheme 2. Schematic of Experimental Setup of Isothermal Nitration Process
+
+Figure 2. Eﬀect of temperature and residence time on nitration when F1:FN:FS = 1:1.2:2.5, and flow rates of nitric acid and sulfuric acid solution were 11.2 and 60.4 mL/min, respectively. Conversion was determined by HPLC.
+
+flow reactor experimental setup. The equipment consists of two peristaltic pumps (P1 and P2, Baoding Longer, China) loaded with tubing connected by a T-mixer (SS316, 1.5 mm i.d.) that was connected to a residence loop (SS316, 3 mm i.d., 5 mm o.d.). The reacting tube was immersed in a thermostat- controlled water bath. The flow rate of water was very high compared to the flow rate of the reactants, which would take the reactor to near isothermal conditions. Nitric acid and sulfuric acid solution were pumped into the reactor. After a residence time (τ) in the reacting tube, the reacting mixture was introduced into the dilution tank, and the reaction was quenched by cold water. Solid product was precipitated, and samples were analyzed by HPLC. The optimization of experimental parameters started with varying residence time (τ) and temperature (T), with 98% sulfuric acid, molar feed ratio of 1:HNO3:H2SO4 (F1:FN:FS) = 1:1.2:2.5, and flow rates of nitric acid and sulfuric acid solutions 11.2 and 60.4 mL/min, respectively. This procedure was greatly facilitated by continuous-flow conditions, and a significant number of runs were conducted rapidly in a sequential manner. For the purpose of high eﬃciency, we hope to shorten the reaction time to less than 1 min. Figure 2 shows the influence of temperature and residence time on nitration. It is known, on the basis of the Arrhenius equation, that the reaction rate increases with increasing temperature. When the reaction temperature was below 45 °C, no dinitration product was detected, and excellent selectivity (over 98%) of mononitration product 2 was obtained along with low conversion rate. As the reaction temperature was raised (higher than 55 °C), conversion of 1 could be completed immediately; however, dinitration product 3 and oxidation product 4 (Figure 3) emerged. At T = 75 °C, the reaction was complete within 15 s, but the selectivity for 2 was only 90% (about 9% of 3, and nearly 0.5% of 4). Based on the above results, for the primary purpose of improving reaction selectivity, we tried changing the acids' dosages at low reaction temperature. The molar feed ratio was
+
+Figure 3. Oxidated byproduct 4.
+
+then studied (Table 1) when the flow rate of nitric acid was 11.2 mL/min and the reaction temperature was about 40 °C.
+
+Table 1. Eﬀect of Molar Feed Ratio on Nitration When T = 40 °C
+
+entry F1:FN:FSa τ (s) conv (%)b sel (%)b
+
+1:1.2:2.0 1:1.2:2.5 3c 1:1.2:2.5 1:1.2:5.0 1:1.2:7.5 1:1.2:10.0 1:1.1:5.0 1:1.05:5.0 aMolar feed ratio of 1:HNO3:H2SO4. bDetermined by HPLC. c5 m tube length.
+
+The flow rate of sulfuric acid solution was adjusted to adapt to the molar feed ratio, and the reactor volume was not changed (10 m tube length). The reaction was obviously accelerated when FS/F1 increased, and selectivity was still excellent until the ratio value reached 10 (entries 1−5, Table 1). Shortening the residence time resulted in lower conversion (entries 2 and 3, Table 1). Decreasing FN/F1 aﬀected the conversion rate (entries 6 and 7, Table 1). Due to excellent heat transfer eﬃciency, the reactions were run at accurate temperature, and almost no dinitration or oxidation side reactions occurred in such short residence times. The success with 98 wt% nitric acid and 98 wt% sulfuric acid prompted us to study the influence of another process parameter, i.e., liquid hourly space velocity (LHSV). Studies11
+
+have proved that the nitration reaction is controlled by mass
+
+Organic Process Research & Development Article
+
+Table 3. Eﬀect of Concentration of Sulfuric Acid on Nitration When LHSV = 240 h−1 and FN/F1 = 1.2
+
+transfer, so an increase in LHSV would lead to an increase in Reynolds number, which finally improved the mass transport of the reaction process. When the nitration temperature was low, the reaction rate was slow, so the reaction was controlled by reaction kinetics. But as the temperature was raised, the reaction rate increased as well. If the reaction rate reached a certain point, the reaction was instantaneous in a macroscopic way of observation, and in that case, the reaction was controlled by the mass transport. Table 2 shows the eﬀect of LHSV on
+
+entry H2SO4 (wt%) FS/F1 T (°C) conv (%)a sel (%)a
+
+2.5 2.5 2.5 4.5 7.5 7.5 7.5 12.5 7.5 aDetermined by HPLC.
+
+Table 2. Eﬀect of LHSV on Nitration when F1:FN:FS = 1:1.2:2.5 and T = 40 °C
+
+entry τ (s) LHSV (h−1) conv (%)a sel (%)a
+
+aDetermined by HPLC.
+
+Scheme 3. Nitration of 1-Methyl-4-(methylsulfonyl)-2- nitrobenzene
+
+nitration when F1:FN:FS = 1:1.2:2.5 and T = 40 °C. A value of LHSV = 240 h−1 provided a better result (entry 3, Table 2). These findings validated that, at low LHSV, the flow regime was laminar flow, for which mixing was relatively slow, so the reaction need a longer τ to complete conversion (entries 1 and 2, Table 2). As LHSV increased, the Re number increased as well, and the flow regime changed from laminar flow to turbulent flow, which improved mixing eﬃciency; therefore, conversion could be completed in a shorter τ (entries 3−6, Table 2). But when LHSV was too high, the reaction conditions changed drastically, causing some hotspots, which led to dinitration and decreased selectivity (entries 5 and 6, Table 2). With these continuous-flow reaction parameters, an excellent isolated yield of 2 was achieved (ranging from 96% to 98%). The objective of a shorter reaction time was achieved. However, the amount of waste, especially diluted sulfuric acid, still needed to be reduced. As stated in the nitration mechanism, sulfuric acid is just a catalyst and dehydration agent. Theoretically, no sulfuric acid is consumed during the nitration reaction, and we aimed to establish that a continuous- flow nitration process that recycled sulfuric acid was possible. The key to achieving this goal was the recycling of sulfuric acid. The concentration of sulfuric acid was then studied when fuming nitric acid was used and the flow rate of nitric acid was 44.8 mL/min. The flow rate of the sulfuric acid solution was adjusted to adapt to the molar feed ratio (FN/F1 = 1.2), and the tube length was adjusted to keep LHSV = 240 h−1. The results in Table 3 reveal that decreasing concentration of sulfuric acid led to a decrease in conversion, and increasing FS/F1 together with reaction temperature at low sulfuric acid concentration will not generate more byproducts. A H2SO4 concentration of 80 wt % can keep the conversion rate and selectivity in balance (entry 5, Table 3). Study of Dinitration. An extra nitration test of mono- nitrated product 2 (Scheme 3) was carried out systematically by varying reaction temperature and residence time with the above optimized conditions, i.e., 80 wt% sulfuric acid, 98 wt% nitric acid, F2:FN:FS = 1:1.2:7.5, LHSV = 240 h−1. The experiments were conducted in the same setup as shown in Scheme 2. It was found that the dinitration reaction rate was not so fast within
+
+the first few seconds, which makes possible an adiabatic nitration process, shortening the reaction time to within 5 s (Figure 4).
+
+Figure 4. Study on nitration of 2 with optimized mononitration conditions.
+
+Adiabatic Nitration Process. Bearing in mind that few byproducts are generated in a very short residence time, an adiabatic process was then undertaken. The experimental setup is shown in Figure 5. Nitric acid and sulfuric acid solutions of 1 were pumped into the flow reactor, and the outlet of the reacting tube was connected to a dilution tank. A PTFE tube was used as the reaction tube, wrapped with cotton thermal insulation. The thermal conductivity of PTFE is only 0.25 W/ (m·K), and the nitration reaction can be done in a few seconds with an adiabatic temperature rise in excess of 60 °C, so the continuous-flow nitration can be regarded as an adiabatic reaction. The reaction conditions were the same as the optimized isothermal reaction parameters, i.e., 80 wt% sulfuric
+
+Organic Process Research & Development Article
+
+Figure 5. Experiment setup of adiabatic nitration process.
+
+nitration process was fulfilled (Figure 7). Recycling experiments were carried out under adiabatic nitration conditions. The spent
+
+acid, 98 wt% nitric acid (44.8 mL/min), F1:FN = 1:1.2. As shown in Figure 6, the adiabatic nitration was complete within
+
+Figure 7. Schematic of recycling nitration process.
+
+acid collected from the adiabatic process consists of sulfuric acid, water, and a trace of nitric acid. The concentration of sulfuric acid in spent acid was about 40 wt%. The diluted acid was condensed to 80 wt% under vacuum at about 140 °C. Higher temperatures, which led to carbonation of organic solutes,12 resulted in decreased purity. Recycled water (about 0.1 wt% sulfuric acid) was reused for dilution. The results are shown in Table 5. The sulfuric acid and water could be recycled several times without an obvious decrease in product quality.
+
+Figure 6. Eﬀect of FS/F1 on adiabatic nitration.
+
+5 s with 99% selectivity when FS/F1 was 3.5. Mononitration of 1 ran well at adiabatic conditions (high T, short τ). The isolated yield of mononitrated product 2 was about 98%. In addition, increasing the sulfuric acid dosage led to a decrease of conversion; the reason may be the decrease in the adiabatic temperature elevation. At this point, the adiabatic nitration parameters can be summarized as follows: 80 wt% sulfuric acid and 98 wt% nitric acid were used, F1:FN:FS = 1:1.2:3.5, all reagents were fed at room temperature, total flow rate was 395.3 mL/min, residence time was 5 s, reaction tube i.d. was 3 mm, length of reacting tube was 4.6 m, and isolated yield of 2 was about 98%. To underline the advantages of the proposed flow synthesis, a comparison with the reaction performed in a batch manner is presented in Table 4. Continuous-flow synthesis reduced byproducts and saved energy consumption obviously. Recycling of Spent Acid. Based on the results of the adiabatic nitration process, our target of establishing a recycling
+
+Table 5. Results of Recycling Experiments
+
+recycle run yield of 2 (%) purity of 2 (%)
+
+Table 4. Comparison of the Batch Process with Continuous-Flow Processes
+
+operation manner
+
+batch isothermal continuous-flow adiabatic continuous-flow
+
+yield (%) purity (%) reaction time stirred for hours after completing the addition of mixing acid within 15 s within 5 s reaction temperature addition: ≤10 °C (need cooling) reaction: room temperature feeding: room temperature reaction: 80 °C feeding: room temperature reaction: adiabatic
+
+Organic Process Research & Development Article
+
+■CONCLUSION
+
+■ACKNOWLEDGMENTS We are grateful to the National Natural Science Foundation of China (No. 21406203) for financial support. ■REFERENCES
+
+In summary, an expeditious and high-yielding process for selective mononitration of 1-methyl-4-(methylsulfonyl)benzene via a continuous-flow reactor has been established. The flow technology applied in this study increases the quality of the nitration product, and the adiabatic flow process reduces the amount of sulfuric acid used and saves energy consumption measurably. Use of a moderate concentration of sulfuric acid makes the recycling process easy to implement. The process is readily adapted for preparation of analogous compounds and can easily be scaled up by increasing the reactor size or operating several reactors with high throughput in parallel. ■EXPERIMENTAL SECTION
+
+(1) Olah, G. A.; Malhotra, R.; Narang, S. C. Organic Nitro Chemistry Series: Nitration Methods and Mechanisms; VCH: New York, 1989. (2) Brown, S. M.; Bentley, T. W.; Jones, R. O. Process for the Preparation of Acylated Cyclic 1,3-Dicarbonyl Compounds. Patent WO1999028282 A1, Jun 10, 1999. (3) (a) Corson, B. B.; Hazen, R. K. Org. Synth. 1943, 2, 434−436. (b) Wang, Z. C.; Xu, X. L.; Wu, C. J.; Zhang, J. Y.; Mao, H. X. Chlor- Alkali Industry 2012, 48, 29−31. (c) Smith, M. B. Organic Synthesis, 2nd ed.; McGraw-Hill: New York, 2001; pp 157−164. (4) Sharma, Y.; Joshi, R. A.; Kulkarni, A. A. Org. Process Res. Dev. 2015, 19, 1138−1147. (5) (a) Tingle, J. B.; Blanck, F. J. Am. Chem. Soc. 1908, 30, 1395− 1412. (b) Riegel, E. R.; Post, H. W.; Reid, E. E. J. Am. Chem. Soc. 1929, 51, 505−508. (c) Raiford, L. C.; Wickert, J. N. J. Am. Chem. Soc. 1931, 53, 3143−3147. (d) Gigante, B.; Prazeres, A. O.; Marcelo-Curto, M. J.; Cornelis, A.; Laszlo, P. J. Org. Chem. 1995, 60, 3445−3447. (6) (a) Burns, J. R.; Ramshaw, C. Chem. Eng. Commun. 2002, 189, 1611−1628. (b) Panke, G.; Schwalbe, T.; Stirner, W.; Taghavi- Moghadam, S.; Wille, G. Synthesis 2003, 18, 2827−2830. (c) Ducry, L.; Roberge, D. M. Angew. Chem., Int. Ed. 2005, 44, 7972−7975. (d) Kulkarni, A. A.; Nivangune, N. T.; Kalyani, V. S.; Joshi, R. A.; Joshi, R. R. Org. Process Res. Dev. 2008, 12, 995−1000. (e) Kulkarni, A. A.; Kalyani, V. S.; Joshi, R. A.; Joshi, R. R. Org. Process Res. Dev. 2009, 13, 999−1002. (f) Gage, J. R.; Guo, X. W.; Tao, J.; Zheng, C. S. Org. Process Res. Dev. 2012, 16, 930−933. For more references on nitration in flow, see the review: (g) Kulkarni, A. A. Beilstein J. Org. Chem. 2014, 10, 405−424. (7) (a) Hessel, V. Chem. Eng. Technol. 2009, 32, 1655−1681. (b) Wahab, B.; Ellames, G.; Passey, S.; Watts, P. Tetrahedron 2010, 66, 3861−3865. (c) Riva, E.; Gagliardi, S.; Martinelli, M.; Passarella, D.; Vigo, D.; Rencurosi, A. Tetrahedron 2010, 66, 3242−3247. (d) Wegner, J.; Ceylan, S.; Kirschning, A. Adv. Synth. Catal. 2012, 354, 17−57. (e) Wiles, C.; Watts, P. Green Chem. 2012, 14, 38−54. (f) Wiles, C.; Watts, P. Green Chem. 2014, 16, 55−62. (8) (a) Kulkarni, A. A.; Kalyani, V. S.; Joshi, R. A.; Joshi, R. R. Org. Process Res. Dev. 2009, 13, 999−1002. (b) Baxendale, I. R.; Ley, S. V.; Mansfield, A. C.; Smith, C. D. Angew. Chem., Int. Ed. 2009, 48, 4017− 4021. (c) Yu, Z. Q.; Tong, G.; Xie, X. X.; Zhou, P. C.; Lv, Y. W.; Su, W. K. Org. Process Res. Dev. 2015, 19, 892−896. (9) (a) Yu, Z. Q.; Lv, Y. W.; Yu, C. M. Org. Process Res. Dev. 2012, 16, 1669−1672. (b) Yu, Z. Q.; Lv, Y. W.; Yu, C. M.; Su, W. K. Org. Process Res. Dev. 2013, 17, 438−442. (10) (a) Lai, H. Q.; Zhu, Y. J.; Ding, C. L.; Zhou, Y.; Li, W. M. J. Zhejiang Univ. Technol. 2007, 35, 491−493. (b) Gao, X. Y.; Gao, Z. L.; Peng, J. B. Huaxue Shiji 2010, 32, 939−940. (11) (a) Chen, Y. Z.; Su, Y. H.; Jiao, F. J.; Chen, G. W. RSC Adv. 2012, 2, 5637−5644. (b) Chen, Y. Z.; Zhao, Y. C.; Han, M.; Ye, C. B.; Dang, M. H.; Chen, G. W. Green Chem. 2013, 15, 91−94. (12) There was a little product in the filtrate. It could be carbonated if the temperature of the concentration reaction with concentrated sulfuric acid was too high, and the concentrated liquid became black. After recycling runs, the carbonated impurities might be found in the product.
+
+All chemicals were purchased from commercial sources and were used without further purification. Melting points were determined on a Buchi 540 melting point apparatus and are uncorrected. 1H NMR spectra were recorded on a Varian 400 MHz spectrometer using tetramethylsilane (TMS) as the internal standard. High-performance liquid chromatography (HPLC) analysis was carried out on an Agilent 1200 system equipped with an SB-Aq 150 mm × 4.6 mm × 5 μm column and detected at 216 nm, eluting with 30:70 CH3CN/H2O at 1.0 mL/min. Continuous-Flow Experimental Procedure of Adia- batic Nitration Process. As shown in Figure 5, a mixture of 1 (340 g, 2 mol), water (158 mL), and concentrated sulfuric acid (700 g, 7 mol) was prepared. The mixed solution and fuming nitric acid (154 g, 2.4 mol) were pumped into the reactor by two pumps at flow rates of 350.5 and 44.8 mL/min, respectively. The stream flowed through the mixer with a residence time of 5 s in the reaction tube, which was wrapped with cotton for thermal insulation. The temperature of the reaction mixture at the outlet of the reactor was immediately raised to 100 °C, while the adiabatic temperature rise was about 70 °C. The mixture was then introduced into the dilution tank and the reaction quenched by cold water (900 mL). White solid precipitated immediately. The mixture was then cooled to room temperature. An amount of 421 g of solid product was obtained after filtration and drying, in 98% yield and 99% purity: mp 117−119 °C. 1H NMR (400 MHz, CDCl3) δ/ppm: 8.50 (s, 1H), 8.04 (d, 1H, J = 8.0 Hz), 7.06 (d, 1H, J = 8.0 Hz), 3.11 (s, 3H), 2.71 (s, 3H). Recycling of Spent Acid. The waste acid (about 1680 g, about 40 wt% sulfuric acid) collected from the procedure described above was concentrated in a vacuum at 140 °C until the concentration of sulfuric acid reached 80 wt%. At the same time, 830−840 g of water (about 0.1 wt% sulfuric acid) was collected. Both the acid and water were reused, and a small amount of water was added to keep the reactants ratio the same as in the first run. The experiment was carried out under identical conditions (residence time, feeding mole ratio, and total flow rate) and operations as the first run, and resulted in a 98% yield of product 2 with 99% purity. Further recycling experiments were run analogously. ■AUTHOR INFORMATION
+
+Corresponding Author *E-mail: pharmlab@zjut.edu.cn.
+
+Notes The authors declare no competing financial interest.

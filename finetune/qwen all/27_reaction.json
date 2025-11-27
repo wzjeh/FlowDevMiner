@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "3-[2-chloro-4-(trifluoromethyl)phenoxy] benzoic acid",
+      "role": "reactant"
+    },
+    {
+      "name": "fuming nitric acid",
+      "role": "catalyst"
+    },
+    {
+      "name": "1,2-dichloroethane",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "acifluorfen",
+      "yield_optimal": 66.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "308 K"
+    },
+    {
+      "type": "residence_time",
+      "value": "660 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "tubular",
+    "inner_diameter": "0.5 mm"
+  },
+  "metrics": {
+    "conversion": 83.03,
+    "yield": 66.0,
+    "selectivity": 79.52,
+    "unit": "%"
+  }
+}

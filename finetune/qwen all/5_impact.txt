@@ -1,0 +1,10 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | decolorization efficiency | increase |
+| pH | decolorization efficiency | decrease |
+| H2O2_concentration | decolorization efficiency | increase |
+| dye_concentration | decolorization efficiency | decrease |
+| flow_rate | decolorization efficiency | decrease |
+| catalyst_loading (Fe2+) | decolorization efficiency | increase |

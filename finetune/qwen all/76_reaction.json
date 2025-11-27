@@ -1,0 +1,52 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "cyclooctadiene",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd nanoparticles",
+      "role": "catalyst"
+    },
+    {
+      "name": "methanol",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "monohydrogenated product",
+      "yield_optimal": 85.5,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "25 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.12 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "2.4 bar"
+    }
+  ],
+  "reactor": {
+    "type": "packed bed",
+    "inner_diameter": "4 mm"
+  },
+  "metrics": {
+    "conversion": 95.0,
+    "yield": 85.5,
+    "selectivity": 90.0,
+    "unit": "%"
+  }
+}

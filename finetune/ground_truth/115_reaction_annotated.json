@@ -1,0 +1,56 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "naphthalene",
+      "role": "reactant"
+    },
+    {
+      "name": "nitric acid",
+      "role": "reactant"
+    },
+    {
+      "name": "sulfuric acid",
+      "role": "catalyst"
+    },
+    {
+      "name": "dichloroethane",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "1-nitronaphthalene",
+      "yield_optimal": 94.96,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "30 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": "120 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "3 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "0.135 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "Mesoscale Flow Reactor",
+    "inner_diameter": "0.8 mm to 4 mm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": 94.96,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

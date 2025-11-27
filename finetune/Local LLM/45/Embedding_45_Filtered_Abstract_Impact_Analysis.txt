@@ -1,0 +1,11 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| 1. Interfacial_contact_area | mass_transfer_coefficient | increase |
+| 2. residence_time | conversion_rate_of_TFMB | increase |
+| 3. volumetric_flow_rates | molar_ratio | decrease |
+| 1. Interfacial_contact_area | mass_transfer_coefficient | increase |
+| 2. residence_time | conversion_rate_of_TFMB | increase |
+| 3. volumetric_flow_rates | molar_ratio | decrease |
+| 4. flow_rates | product_selectivity | unchanged |

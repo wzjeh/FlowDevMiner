@@ -1,0 +1,18 @@
+This method provides reliable data in steady state oper- ation. However, it is less satisfactory for very small volumes of precursor and may be too time-consuming for rapid searching of product properties for new mate- rials and varying process conditions. The search can be made more efficient by using small-scale reactors with short run time. An idea is to have a small volume of precursor vapor c
+
+Nanoparticle microreactor system
+
+Response: The paragraph discusses a study comparing microreactors with larger scale systems for flow-chemistry process development. The primary particle sizes were compared with results from Kirkbir and Komiyama (1987) who used a 22.2 mm diameter tube reactor with steadily supplied precursor vapor through bubbling helium in a precursor reservoir. Figure 12 shows the comparison for TTIP concentrations near 1.0 mol% at reactor temperatures ranging from 300°C to 700°C, focusing on concentration trends.
+
+Figure 11. Effect of carrier gas flow rate on particle size for 4 mm reaction tube with sheath gas (reactor temperature: 700◦C; TTIP concentration: 1 mol%). The residence time, τ (reactor volume/volumetric flow rate at 700◦C), varied from 0.35 to 1.4 s. There was no effect of residence time on primary particle size.
+
+Operating parameter For 2 mm For 4 mm tube tube with sheath gas TTIP conc. (mol%) 7.0 1.0–7.0 N2 carrier flow rate 34.0 17.0–68.0 (cm3/min) N2 sheath flow rate 0. 51.0–204.0 (cm3/min) Space time at STP (s) 2.2 1.1–4.4 Reactor temp. (◦C) 500–1000 300–700
+
+Figure 2 shows a schematic diagram of the microreac- tor system which consists of an oxygen trap (Hewlett- Packard, Model HP3150-0528), a drying column (Hammond, Model 27066) a carrier gas preheater, an evaporator, a tubular furnace (Thermolyne, Model 21100) and a particle collector. The preheater is a pyrex cylinder wrapped with a heating coil, with a volume of 100 cm3 selected to give a residenc
+
+Figure 2. Schematic drawing of nanoparticle microreactor system.
+
+In aerosol reactor design, the main goal is to produce particles with desired properties – primary particle size, aggregate size, crystalline state and primary par- ticle bond energies. It is generally not possible to predict particle properties from first principles alone, and pilot scale studies and modeling are important in scale-up. We have introduced the concept of a small- scale ‘microreacto
+
+The nanoparticle microreactor (NPMR) is a new concept that we have introduced to describe a very small-scale system capable of converting an aerosol precursor to solid particles. The liquid precursor of about 1 µl is injected by a syringe through a septum into a tubular evaporator of 1.0 cm3 in volume with stopcocks at both ends. The evaporator has been preheated by a heating tape to a temperature
+

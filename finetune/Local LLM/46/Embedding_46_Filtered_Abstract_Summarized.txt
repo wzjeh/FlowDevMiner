@@ -1,0 +1,40 @@
+{ "reaction_summary": { 
+    "reaction_type":"null", 
+    "reactants":[{"name":"organic compound","role":"reactant"}], 
+    "products":[],"conditions":[{
+        "type":"temperature",
+        "value":"null"
+    },{
+        "type":"residence_time",
+        "value":"null"
+    },"flow_rate_reactant_A":0.1,
+"flow_rate_reactant_B":0.2],
+    "reactor":{"type":"stainless steel microreactors","inner_diameter":"null"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "direct_nitration", "reactants": [{"name": "iso-octanol", "role": "reactant"}], "products": [], "conditions": [{"type": "temperature", "value": "25 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": {  "reaction_type":"fast exothermic",  "reactants":[{"name":"iso-octanol","role":"solvent"}, {"name":"mixed acid","role":"catalyst"}],  "products":[{"name":"2-ethylhexyl nitrate","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":null},    {"type":"flow_rate_reactant_A","value":0.1},    {"type":"pressure","value":null}  ],  "reactor":{"type":"microreactor", "inner_diameter":null}
+
+{name}
+
+{ "reaction_summary": { 
+    "reaction_type":"nitration", 
+    "reactants":[{"name":"iso-octanol","role":"solvent"}, {"name":"H2SO4","role":"catalyst"}], 
+    "products":[{"name":"nitro-iso-octane","yield_optimal":95,"unit":"%"}], 
+    "conditions":[
+        {"type":"temperature","value":"room temperature °C"},
+        {"type":"residence_time","value":null},
+        {"type":"flow_rate_reactant_A","value":null}, 
+        {"type":"flow_rate_reactant_B","value":null}, 
+        {"type":"pressure","value":null}
+    ], 
+    "reactor":{"type":"batch", "inner_diameter":null}
+
+{"reaction_summary": {"reaction_type": "nitration", "reactants": [{"name": "iso-octanol", "role": "solvent"}, {"name": "HNO3-H2SO4 mixed acid", "role": "catalyst"}], "products": [], "conditions": [{"type": "temperature", "value": "..."}], "reactor": {"type": "stainless steel microreactor", "inner_diameter": null}, "metrics": {}}}
+
+{ "reaction_summary": {  "reaction_type":"Claisen rearrangement",  "reactants":[{"name":"R1","role":"reactant"}, {"name":"R2","role":"reactant"}],  "products":[],"conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":null},    {"type":"flow_rate_reactant_A","value":null}
+
+{"name": "iso-octanol", "yield_optimal": null, "unit": "%"}
+

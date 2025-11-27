@@ -1,0 +1,405 @@
+Chemical Engineering Journal 353 (2018) 769–780
+
+Contents lists available at ScienceDirect
+
+Chemical Engineering Journal
+
+journal homepage: www.elsevier.com/locate/cej
+
+Hydrodynamics and mass transfer performance during the chemical oxidative polymerization of aniline in microreactors
+
+T
+
+Yang Songa, Jianan Songa, Minjing Shanga, Wenhua Xua, Saier Liua, Baoyi Wanga, Qinghua Lua,c, Yuanhai Sua,b,⁎
+
+a Department of Chemical Engineering, School of Chemistry and Chemical Engineering, Shanghai Jiao Tong University, Shanghai 200240, PR China b Key Laboratory of Thin Film and Microfabrication (Ministry of Education), Shanghai Jiao Tong University, Shanghai 200240, PR China c School of Chemical Science and Engineering, Tongji University, Shanghai 200092, PR China
+
+H I G H L I G H T S
+
+G R A P H I C A L A B S T R A C T
+
+• A continuous-flow protocol for pre- paring polyaniline was proposed. • Eﬀects of various factors on the poly- merization process were investigated. • Hydrodynamics and mass transfer in polymerization were characterized. • The competition between the mass transfer and the polymerization was elaborated. • Transformation of polymerization from the interface to bulk phase was confirmed.
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+The hydrodynamics and mass transfer performance in the chemical oxidative polymerization of aniline in ca- pillary microreactors within the liquid-liquid slug flow regime were investigated. Higher reaction temperature, higher HCl concentration and larger volumetric flow rate ratio of the aqueous phase to the organic phase im- proved the mass transfer performance and thus led to higher yield of polyaniline. Internal recirculation in the dispersed phase slugs was captured by high-speed camera, which was beneficial for the mass transfer en- hancement in the polymerization process. The polyaniline yield reached 82.1% in the microreactor at the re- sidence time of 95 s and the temperature of 40 °C. The slug coalescence became significant with increasing Reynolds number, thus reducing the mass transfer rate. Moreover, both Hatta number and mass transfer en- hancement factor were evaluated to further characterize the mass transfer mechanism and reflect the compe- tition between the mass transfer and the reaction during the polymerization.
+
+Keywords: Slug flow Mass transfer Microreactor Liquid-liquid heterogeneous process Polyaniline Polymerization
+
+and chemical industry has gained increasing attention [1–7]. Micro- reactors have numerous advantages, such as larger specific surface area, higher mixing eﬃciency, faster heat and mass transfer rates, enhanced
+
+1. Introduction
+
+Currently, the application of microreactor technology on chemistry
+
+⁎ Corresponding author at: Department of Chemical Engineering, School of Chemistry and Chemical Engineering, Shanghai Jiao Tong University, Shanghai 200240, PR China. E-mail address: y.su@sjtu.edu.cn (Y. Su).
+
+https://doi.org/10.1016/j.cej.2018.07.166 Received 1 June 2018; Received in revised form 23 July 2018; Accepted 25 July 2018
+
+Available online 27 July 2018 1385-8947/ © 2018 Published by Elsevier B.V.
+
+ReM the mean Reynolds number of the organic and aqueous phases, 1 T the polymerization temperature, °C t residence time, s uM the superficial velocity of the liquid phase, m/s x the conversion of aniline, 1
+
+Notation
+
+a interfacial area, m2/m3
+
+Ca* the modified capillary number, 1 CAN the concentration of aniline in the organic phase, mol/L Coxi the concentration of oxidant in the organic phase, mol/L Cp the concentration of PANI in the aqueous phase, mol/L CHCl,0 the initial concentration of hydrochloric acid in the aqu- eous phase, mol/L Corg,0 the concentration of aniline in the organic phase at the microreactor inlet, mol/L Corg,1 the concentration of aniline in the organic phase at the microreactor outlet, mol/L di the inner diameter of the capillary microreactor, mm E the mass transfer enhancement factor, 1 DAN the diﬀusivity of aniline, cm2/s Ha Hatta number, 1 K overall mean mass transfer coeﬃcient, m/s Ka overall volumetric mean mass transfer coeﬃcient, 1/s k the reaction constant, L/(mol·s) Lf the liquid film length, m Ls the dispersed phase slug length, m Q the volumetric flow rate of the liquid phase, ml/min q the volumetric flow rate ratio of the aqueous phase to the organic phase, 1 Re Reynolds number, 1
+
+Greek letters
+
+μ the viscosity of the liquid phase, mPa/s ρ the density of the liquid phase, g/cm3
+
+σ the interfacial tension between the two immiscible liquid phases, mN/m δ the liquid film thickness between the aqueous slug and the wall of the microreactors, mm φ the volumetric fraction of the organic phase, 1 μ the viscosity of the liquid phase, mPa/s
+
+Subscripts
+
+AN aniline aq aqueous phase org organic phase phy physical chem chemical
+
+flow behavior, mass transfer and reaction processes of liquid-liquid heterogeneous systems in microreactors [28–32]. For these liquid-li- quid heterogeneous reactions, the mass transfer performance aﬀects the final reaction performance significantly [33]. The mass transfer per- formance can be intensified by reducing the transport distance, im- proving the concentration gradient, and enlarging the interfacial area between two immiscible liquid phases, which is beneficial for im- proving the reaction rate and the yield of the target product especially for fast heterogeneous reaction processes. In particular, the mass transfer performance may aﬀect the monomer conversion and the properties of polymer products in many polymerization processes. Although microreactors were frequently ap- plied in various polymerization processes for liquid-liquid hetero- geneous systems, the mass transfer performance in these processes has not been characterized so far. In fact, the existence of concentration gradients of monomers, initiators and polymers, and the significant variation of fluid properties (e.g., viscosity) during the polymerization both result in a more complicated mass transfer process in the poly- merization compared with that in small-molecule reaction systems. Therefore, a systematical evaluation of the mass transfer performance during the polymerization for liquid-liquid heterogeneous systems in microreactors is necessary. Recently, intrinsically conductive polymers (ICPs), such as poly- aniline (PANI), polypyrrole (PPy), polythiophene (PTH), poly(p-phe- nylene-vinylene) (PPV), etc., have aroused great interest for their spe- cial optical and electronic properties. Many articles devote to investigating ICPs in terms of synthesis, kinetics and mechanisms with both the experiment and numerical simulation methods [34–38]. Polyaniline (PANI) is considered as one of the most promising materials in the family of conductive polymers due to its ease of synthesis, good environmental stability, desirable conductivity and tunable properties [39–41]. Moreover, PANI has a variety of applications for the fabrica- tion of rechargeable batteries [42,43], solar cells [44,45], sensors and indicators [46–48], and electrorheological devices [49]. Interfacial polymerization of aniline via the chemical oxidation method, con- ducted in flasks or vessels at low temperature with long reaction time, is a common approach for the preparation of PANI nanofibers with
+
+process safety and more precise control over process parameters, etc., in comparison with conventional batch reactors [8–12]. With these ad- vantages, microreactors have been widely applied in homogeneous and heterogeneous polymerization processes [13–16]. In particular, poly- mers synthesized by radical polymerization, photopolymerization and copolymerization with the use of microreactor technology, have con- trollable molecular weight/structures and narrow polydispersity index of molecular weight distribution (PDI) [17]. Moreover, the poly- merization in liquid-liquid heterogeneous processes conducted in mi- croreactors has been proven to be a robust strategy to prepare a variety of polymeric nanoparticles [18], vesicles [19] and hydrogels [20]. Due to diﬀerent wettability of the channel wall for two immiscible liquid phases (i.e., organic phase and aqueous phase), the polymerization can be limited inside the dispersed phase slugs and there are liquid films between the dispersed phase slugs and the inner wall of the micro- reactor, which prevents the polymer particles fouling on the wall and avoids the channel clogging. Mello et al. realized the preparation of conductive poly(3-hex- ylthiophene) with PDI of 1.5–1.8 and high regioregularity (> 98%) in a droplet-based microfluidic reactor with the production rate of 57 g/day and excellent product quality [21]. In comparison with other literature, the molecular weight distribution of the polymers obtained in the mi- croreactor was in a more reasonable range [22–25]. Chemtob et al. synthesized poly(methacrylate) nanoparticles (< 200 nm) in a micro- reactor by the miniemulsion photopolymerization method using a UV fluorescent as the light source [26]. The polymer yield could be im- proved significantly compared with the batch processing. Hornung et al. successfully conducted the polymerization processes of acryla- mides, acrylates and vinyl acetate via the reversible addition-frag- mentation chain transfer approach (RAFT) in microreactors [27]. The products had narrow molecular weight distributions (PDI = 1.15–1.20) with average molecular weights similar to those synthesized via the batch RAFT polymerization. It was demonstrated that the liquid-liquid slug flow in microreactors overcame the oxygen-sensitive nature of the RAFT process and provided a facile and alternative scale-up route for industrial application. A large number of studies have been carried out to understand the
+
+the capillary microreactor, a quartz needle with 0.5 mm inner diameter and 0.75 mm outer diameter was inserted into the T-micromixer by means of interference fit and situated into the front part of the capillary connected with the T-micromixer, and such a quartz needle was used for introducing the dispersed phase, as shown in Fig. 1(B). More im- portantly, such a modified structure prohibited the contact between the wall of the T-micromixer and the PANI particles, and thus eﬃciently avoided the channel clogging. The formation mechanism of PANI na- nofibers in the microreactor is schematically depicted in Fig. 2. With the time prolonging, aniline transported gradually from the organic phase to the organic-aqueous interface and then to the bulk of the aqueous phase. Monomers were consumed and polymerized with the eﬀect of oxidants. Because aniline was slightly soluble in water, aniline migrated continuously to the aqueous phase to maintain the dissolution equilibrium as the polymerization proceeded. Polymer particles would exist in the aqueous phase due to their hydrophilic properties although the solubility of PANI in water was poor. In addition, the components in the organic and aqueous phases during the polymerization are listed in Table 2. Upon exiting the capillary microreactor, the reaction mixture was collected in a conical flask containing the ammonium hydroxide aqueous solution with the complete termination of the polymerization. The solid-liquid mixture was washed with deionized water for 30 min under the vacuum filtration to remove byproducts (aniline hydro- chloride and oligomers such as dimers, trimers and tetramers) and unreacted materials. The obtained solid products were transferred into a vacuum oven and dried at 80 °C for 24 h in order to remove the re- maining traces of solvent. Finally, dry PANI nanofibers were obtained as shown in the SEM image (Fig. 2). Each experiment was repeated at least two times, and the average measurement values were taken as final results.
+
+uniform nanostructures and excellent electrochemical properties [50–53]. This polymerization route is usually performed in a biphasic system with aniline dissolved in the organic phase and the oxidant (eg. ammonium persulfate ((NH4)2S2O8) or ferric chloride (FeCl3)) dissolved in the aqueous acidic solution. Polymers are formed at the organic- aqueous interface firstly, then migrate to the bulk of the aqueous phase, and finally suspend inside the aqueous phase. Afterwards, PANI pro- ducts can be obtained after filtration, purification and drying. Never- theless, such a polymerization process is highly exothermic with the enthalpy change of −105 kcal/mol and its reaction kinetics is rather fast [54], resulting in the diﬃculty to control over process parameters in conventional reactors. Especially, a part of PANI particles would be detained at the organic-aqueous interface during the polymerization conducted in the conventional reactors, which prohibits the contact between monomers and oxidants. Thus, the batch processing based on these reactors (e.g., flasks) usually needs a rather long reaction time to reach a high monomer conversion. Based on the characteristics of interfacial chemical oxidative poly- merization of aniline, this work presents a novel approach for the synthesis of PANI with the use of microreactors within the liquid-liquid slug flow regime. To the best of our knowledge, such a continuous-flow protocol for preparing PANI has never been reported. In particular, the hydrodynamics and mass transfer performance associated with the li- quid-liquid heterogeneous polymerization of aniline in capillary mi- croreactors were characterized. The eﬀects of various operational parameters such as polymerization temperature, concentration of hy- drochloric acid, volumetric flow rate, and flow rate ratio of two im- miscible liquid phases on the mass transfer and the polymerization process in the capillary microreactor were investigated systematically. The dispersed phase slug size was predicted by a correlation and the specific surface area was calculated at diﬀerent volumetric flow rate ratios of the aqueous phase to the organic phase in the microreactor. Hatta number was calculated based on a film model in order to further characterize the relationship between the mass transfer and the poly- merization process. Moreover, the eﬀect of the polymerization on the mass transfer enhancement was evaluated by comparing the overall physical volumetric mass transfer coeﬃcient with the overall chemical volumetric mass transfer coeﬃcient.
+
+2.2. Analytical procedure and characterization
+
+The aniline concentration was determined by Agilent 7890B gas chromatography (GC with flame ionization detector, HP-5 column, 30 m × 0.32 mm × 0.25 μm). The morphology of the PANI particles was characterized by scanning electron microscope (SEM, Nova NanoSEM 450, USA). The number-average molecular weight and the polydispersity index were measured by a gel permeation chromato- graphy (GPC, Perkin Elmer series 200, USA) at room temperature (20 °C). DMF with 0.01 mol/L LiBr was used as the eluent at a flow rate of 0.6 ml/min. The molecular weight was calibrated according to the standard samples of polystyrene. The number-average molecular weight of the purified PANI products was determined to be in the range of 1900–3400 g/mol and the PDI value ranged from 4.2 to 8.7 in our
+
+2. Experimental section
+
+2.1. Material and apparatus
+
+Aniline (AR, 99.0 wt%), hydrochloric acid (HCl, AR, 36.0 wt%) and ammonium persulfate ((NH4)2S2O8, AR, 99.0 wt%), carbon tetra- chloride (CCl4, AR, 99.0 wt%), and ammonium hydroxide aqueous so- lution (AR, 26.0 wt%) were purchased from Sinopharm Chemical Reagent Co., Ltd (Shanghai, China). All chemicals used in this study were not further purified. Polyetheretherketone (PEEK) T-micromixer and perfluoroalkoxy (PFA) capillaries were provided by Valco Instruments Co. Inc. (United States). All the capillaries applied in ex- periments had the same inner diameter (di = 1.0 mm) and the same outer diameter (1.5 mm). Fig. 1(A) shows the schematic diagram of the experimental setup for the preparation of PANI. The whole capillary microreactor system was immersed inside the water bath to control the reaction temperature. The organic phase with aniline (0.44 mol/L) dissolved in carbon tetrachloride (continuous phase) and the aqueous solution with ammonium persulfate as the initiator dissolved in hy- drochloric acid (dispersed phase) were delivered into the capillary microreactor system by two syringe pumps (NE-1200, New Era Pump System, Inc., United States), respectively. The residence time (t) was easily controlled by changing the capillary length while keeping the same volumetric flow rate. The physical properties of the aqueous and organic phases are listed in Table 1. The liquid-liquid two-phase flow in T-micromixers and microreactors is strongly aﬀected by the wetting properties of the channel wall [18]. To generate uniform slug flow in
+
+Fig. 1. Schematic diagram of the microreactor system for the polymerization of aniline.
+
+polymerization temperature significantly accelerated the polymeriza- tion rate for the formation of PANI. Increasing the temperature was beneficial for the decomposition of ammonium persulfate, which was necessary for the activation of the monomer molecules in the initiation stage. As a consequence, the polymerization rate was accelerated with the temperature increasing. On the other hand, the molecular motion would be increased as the temperature increased, which improved the opportunity for the contact and the reaction between various molecules leading to the increase of the polymerization rate. Therefore, the PANI yield significantly increased with the polymerization temperature in- creasing. The color variation associated with the aniline polymerization along the capillary microreactor visually reflected the eﬀect of the tempera- ture on the polymerization rate of aniline. It could be observed ob- viously in real time by the CCD camera under various reaction condi- tions. As shown in Fig. 4, after a short induction period depending on the polymerization temperature, the pink color appeared in the dis- persed phase slugs, indicating that oligomeric intermediates such as dimers and trimers were produced at the initial stage of the poly- merization [55,56]. These oligomers continued to react with each other or with monomers and grew to be the polymers. Then the green poly- aniline appeared since these newly formed PANI products were in the doped emeraldine salt form with hydrophilic properties. The color change associated with the aniline polymerization was related to the diﬀerent oxidant states of polyaniline. There are three major oxidation states for PANI known as leucoemeraldine (fully reduced), emeraldine (half-oxidized) and pernigraniline (fully oxidized), which are de- termined by the number of quinoid and benzenoid units in the polymer. Accordingly, the colors of leucoemeraldine, emeraldine and perni- graniline in solutions are transparent, green (doped)/blue (undoped), and deep violet, respectively. With the residence time prolonging, the color of the dispersed phase slugs changed from transparent to pink, blue and then deep green, and finally became entirely dark along the capillary microreactor, which reflected the oxidant state variations of polyaniline. This was more pronounced for the high temperature op- erations (i.e., 35 °C and 40 °C). Notably, the color transformation rate for the dispersed phase slugs was accelerated with the polymerization temperature increasing, in- dicating again that the polymerization rate was intensified by the in- crease of the temperature. It is worth noting that aniline is hard to dissolve in the aqueous phase while both oligomeric intermediates and PANI are hydrophilic. Therefore, the continuous phase was maintained transparent during this polymerization. Interestingly, the internal recirculation in the dispersed phase slugs
+
+Table 1 Physical properties of solutions at 20 °C.
+
+Density (kg/ m3) Viscosity (mPa·s) Interfacial Tension (N·m−1)
+
+HCl solution with (NH4)2S2O8 1002.36 1.06 73.47 CCl4 1591.08 1.47
+
+Fig. 2. Schematic diagram of the formation of PANI nanofibers in the micro- reactor with the insertion of an experimental SEM image.
+
+Table 2 The components in the organic and aqueous phases during the polymerization.
+
+Organic phase Aqueous phase
+
+Solvent CCl4 H2O Solute Aniline HCl, (NH4)2S2O8, Aniline (slight) Other insoluble components – polymers, oligomers
+
+current experiments. The wide dispersity of the molecule weight dis- tribution might be attributed to that the initiation rate was slow and thus the chain initiation occurred along the entire length of the capil- lary microreactor. Moreover, the PANI particles were detected to be nanofibers with diameters in the range of 50–130 nm and with lengths varying from 500 nm to 1000 nm. The PANI yield was used to evaluate both the mass transfer and polymerization processes, which was de- termined by the weight ratio of the final products to the starting monomers. A high-speed CCD camera (PhantomLab110-12G, USA) installed with a stereo microscope (Olympus, SZ2-CLS, Japan) was used for capturing snapshots of the liquid-liquid slug flow inside the capillary microreactor with a heating-cooling circulator (DC0506, −5 to 100 °C, Shanghai FangRui Instrument Co., Ltd. China) to control the tempera- ture. The viscosities of the organic phase and the aqueous phase were determined by a viscometer (DV2T, Brookfield, USA). The interfacial tension between water and carbon tetrachloride was measured by Surface Tensiometer (KRUSS GmbH, Germany) at room temperature. The chemical structure of PANI was characterized by the FTIR spectra recorded via a Nicolet 470 Fourier transform infrared (FT-IR) spectro- meter in a frequency range of 450–4000 cm−1. The particle samples were crushed and then measured in KBr pellets at room temperature.
+
+3. Results and discussion
+
+3.1. Eﬀect of the temperature on the polymerization
+
+The reaction rate is usually strongly dependent on the temperature that should be well controlled for highly exothermic polymerization processes. The eﬀect of the temperature on the PANI synthesis in mi- croreactors was investigated with the residence time of 95 s at constant volumetric flow rates of the aqueous phase and the organic phase. As shown in Fig. 3, the increase of the polymerization temperature sig- nificantly improved the yield of PANI. For example, the PANI yield was increased from 2.9% to 82.1% with the polymerization temperature increasing from 15 °C to 40 °C. It demonstrated that the increase of the
+
+Fig. 3. The eﬀect of the polymerization temperature on the PANI yield (CHCl,0 = 2.63 mol/L, t = 95 s, Qaq = 0.333 ml/min, and Qorg = 0.167 ml/min).
+
+Fig. 4. Color changes associated with the aniline polymerization along the capillary microreactor under diﬀerent temperatures (CHCl,0 = 2.63 mol/L, Qaq = 0.333 ml/min, and Qorg = 0.167 ml/min).
+
+[65,66]. The mechanism for the chemical oxidative polymerization of aniline is shown in Fig. 7[67–69]. Both the initial aniline and the protonated aniline can be oxidized to form aniline nitrenium cations in the polymerization. When the aniline nitrenium cations attack the monomers in the medium with low acidity, the orthoand para-posi- tions of aniline phenyl ring have higher reactivity compared with the meta-position due to the electrostatic distribution in the molecule, leading to the formation of para-dimers or ortho-dimers. Dimers can react with aniline nitrenium cations to produce trimers and further to form tetramers and other oligomers. In the medium with high acidity, dimers tend to be protonated by hydrogen ion avoiding the further generation of oligomers. The protonated dimers are attacked by the aniline nitrenium cations to form the protonated trimers that partici- pate in the propagation stage. The chain termination is caused by the hydrolysis of the terminal amino group or by the reaction between the active chain and the intermediates/completed chains. The hydrolysis of the terminal amino group is typically considered as a chain termination mechanism, as presented in Fig. 7. The eﬀect of the initial HCl concentration on the PANI yield is shown in Fig. 8. The PANI yield increased with the initial HCl con- centration increasing from 0.14 mol/L to 0.69 mol/L. It illustrated that the increase of the acidity in the reaction system was beneficial for decreasing the generation of oligomers and increasing the production of polymers. These experimental results also accorded with Figs. 6 and 7. Interestingly, the PANI yield almost kept constant with the further in- crease of the initial HCl concentration (CHCl,0 ≥0.69 mol/L). In this case, HCl might be excessive for the protonation of the dimer inter- mediate. The reaction for generating trimers could be suppressed completely. Moreover, polymeric intermediates were protonated by the abundant hydrogen ions in a maximum degree. Thus, the polymeriza- tion rate was not determined by the protonation, and the polymer
+
+was observed during the polymerization. As shown in Fig. 5, there were two smaller vortices confined to the front section of the dispersed phase slug in which it was nearly transparent representing lower concentra- tion of PINA in such a zone. Moreover, two larger vortices were gen- erated in the middle and rear sections of the dispersed phase slug in which the color was dark blue representing higher concentration of PINA in this zone. The internal recirculation resulted in the decrease of the concentration gradient in the dispersed phase slug, the increase of the surface renewal rate and the intensification of the mixing inside the slug, which was beneficial for the transport of aniline from the organic phase to the organic-aqueous interface and then to the bulk of the aqueous phase. Moreover, the vortices structure and the concentration profile in the dispersed phase slug were similar to the simulation and experimental results for hydrodynamic studies in capillaries without chemical reactions [57]. It is reasonable to assume that the internal recirculation also occurred inside the continuous phase slugs connected with each other through the liquid films between the dispersed phase slugs and the inner wall of the microreactor during the polymerization process.
+
+3.2. Eﬀect of the initial concentration of hydrochloric acid on the polymerization
+
+Both organic acid and inorganic acid can be used as media for the aniline polymerization, among which HCl is the most widely involved one [50,52,58,59]. A suﬃcient amount of HCl in this polymerization is required for avoiding the generation of oligomers [60,61]. In order to investigate the eﬀect of the initial HCl concentration on the structures of the products, the obtained PANI products were characterized using FTIR. Fig. 6 presents FTIR spectra of the PANI products synthesized at diﬀerent initial HCl concentrations under the temperature of 35 °C. Such FTIR spectra agreed well with previously reported spectra for PANI [62–64]. As shown in Fig. 6, several additional peaks were ob- served at 1445, 1415, 1364, 754 and 695 cm−1 when the polymeriza- tion was conducted at the initial HCl concentration of 0.14 mol/L. It was attributed to the formation of oligomers containing phenazine-like segments generated by the oxidation of numerous aniline molecules [61]. The additional peaks gradually decreased and then disappeared as the initial HCl concentration increased to 1.26 mol/L. These FTIR spectra again demonstrated that the high acidity was favorable for synthesizing PANI without the generation of oligomers. Acidity plays an important role in the formation of PANI without oligomers since it aﬀects the polymerization mechanism significantly
+
+Fig. 5. The internal recirculation in the dispersed phase slugs in the capillary microreactor (CHCl,0 = 2.63 mol/L, Qaq = 0.333 ml/min, Qorg = 0.167 ml/min, T = 30 °C, and the capturing position corresponded to the residence time of 58.4 s).
+
+3.4. Eﬀect of the volumetric flow rate ratio of aqueous phase to organic phase on the polymerization
+
+For the polymerization process, the transport of aniline from the organic phase to the aqueous phase needed to approach and then cross the organic-aqueous interface, which was strongly dependent on the volumetric flow rate ratio of the aqueous phase to the organic phase (q). To investigate the eﬀect of the volumetric flow rate ratio on the mass transfer and the polymerization process, the total volumetric flow rate (Qtotal) was fixed at 0.5 ml/min in the capillary microreactor with the residence time of 95 s at 35 °C. Fig. 11 exhibits the photos of slug flow captured at the front part of the capillary microreactor with the var- iation of q. The dispersed phase slug length (Ls) increased with the in- crease of q. Typically, the length of the dispersed phase slug in a mi- crochannel is dependent on the volumetric flow rate ratio and physical properties of the two immiscible liquid phases. A modified capillary number (Ca*) can be introduced to reflect the eﬀects of the viscosity and the interfacial tension between the two immiscible liquid phases in the generation of the dispersed phase slug: [71]
+
+Fig. 6. FTIR spectra of the PANI products synthesized at diﬀerent initial HCl concentrations under the reaction temperature of 35 °C.
+
+= ∗ Ca μ u σ / M c (2)
+
+where uc is the superficial velocity of the continuous phase. A correlation was developed to predict the dispersed phase slug length using the multiple linear regression method:
+
+production could not be further improved when the initial HCl con- centration reached a certain value.
+
+0.038 0.46 0.038 0.46
+
+⎜ ⎟ = ⎛ ⎝ ⎞ ⎠ = ∗− ∗− L d Ca u u Ca q 1.65( ) 1.65( ) s
+
+d
+
+(3)
+
+i
+
+c
+
+3.3. Eﬀect of Reynolds number on the polymerization
+
+In this correlation, the parameter calculation was based on the physical properties of the two aqueous and organic phases before the occurrence of the polymerization. To evaluate the credibility of Eq. (3), a comparison between the experimental and predicted values of Ls is shown in Fig. 12. The relative deviations between the experimental and predicted values are found to be within ± 10%. It illustrates that the correlation can predict the dispersed phase slug length accurately in the capillary microreactor when the slug coalescence does not occur during the polymerization. In fact, the viscosity of aniline is higher than that of CCl4 at the same temperature. As a consequence, the viscosity of the organic phase de- creased as aniline transported to the dispersed phase during the poly- merization. However, the viscosity of the aqueous phase especially for the organic-aqueous interfacial zone increased significantly during the polymerization. This indicated that the role of the viscous force became more pronounced compared with the interfacial tension during the polymerization. The increase of the viscous eﬀect during the poly- merization partially contributed to the slug coalescence phenomena at the rear zone of the microreactor for large Reynolds numbers (e.g., 40.8, 61.2 and 81.6, see Fig. 10). The zones of thin liquid films provided extremely short transport distance and large eﬀective interfacial area for the polymerization. The liquid film between the dispersed phase slug and the inner wall of the capillary actually exists although it is diﬃcult to distinguish by high- speed CCD camera [57]. The liquid film thickness (δ) can be calculated as follows: [72]
+
+Reynolds number (Re) is an important dimensionless parameter for predicting flow mechanics/patterns under diﬀerent conditions [28,32]. To evaluate variations of the mass transfer and the polymerization process with diﬀerent Reynolds numbers, the total volumetric flow rate was changed while maintaining the volumetric flow rate ratio of the aqueous phase to the organic phase and the residence time constant (q = Qaq: Qorg = 2, and t = 95 s) under 35 °C. This was realized by ap- plying capillary microreactors with various lengths. The mean Reynolds number of the organic and aqueous phases (ReM) was calculated based on the pseudo-homogeneous model: [28]
+
+= Re ρ d u μ · · M M i M
+
+M (1)
+
+where di is the inner diameter of the capillary microreactor, uM is the superficial velocity, μM is the mean viscosity of the two immiscible li- quid phases.
+
+Fig. 9 shows the eﬀect of Reynolds number on the polymerization process. The PANI yield was improved as ReM increased up to 20.4. The internal recirculation in the dispersed phase slugs became stronger and its symmetry decreased with the increase of ReM, leading to the increase of the surface renewal rate and the mass transfer rate. Thus, the poly- merization rate was intensified and the PANI yield increased with the increase of ReM. However, the PANI yield decreased with the further increase of ReM (ReM > 20.4). This should be attributed to the droplet/ slug coalescence mainly caused by the specific energy dissipation of the dispersed phase [70]. From Fig. 10, it can be seen that the flow pattern was regular and the dispersed phase slugs maintained to travel one by one in the capillary microreactor at low values of ReM (e.g., 5.1, 10.2 and 20.4). However, the coalescence of the consecutive dispersed phase slugs became remarkable when ReM reached 40.8. In particular, the coalescence of the dispersed phase slugs resulted in rather irregular flow patterns when ReM increased to 81.6. The slug coalescence de- creased the interfacial area and thus decreased the transport of aniline from the organic phase to the aqueous phase. Therefore, both the polymerization rate and the PANI yield decreased with the further in- crease of ReM.
+
+= ∗ δ d Ca 0.67( ) (4)
+
+The interfacial area between the aqueous and organic phases is equal to the surface area of the dispersed phase slug when considering a unit cell in the liquid-liquid slug flow. As illustrated in Fig. 13, the surface area of the dispersed phase (Ai) can be calculated by the fol- lowing equation (Eq. (5)) when treating the head and tail of the dis- persed phase slug as semi-ellipsoids and the middle as a cylinder:
+
+= + − − + A π w L L L L πw L 3 (2 )( ) i s s f s f s f (5)
+
+where ws is the width of the semi-ellipsoid cap, and Lf is the liquid film
+
+Fig. 7. The proposed mechanism for the chemical oxidative polymerization of aniline.
+
++ − + a w L L L L w L
+
+= + − − +
+
+4(2 )( )
+
+length. The volume of the dispersed phase slug can be expressed as follows:
+
+s s f s f s f
+
+w w L L L q
+
+[3 2( )](1 )
+
+s s f s f (9)
+
+s s f s s f
+
+= + − V w πL w π L L
+
+( )
+
+The eﬀect of q on the specific surface area and the PANI yield is shown in Fig. 14. The specific surface area increased with the increase of q (Fig. 14(A)). Accordingly, the PANI yield increased due to the in- creased specific surface area (Fig. 14(B)). The mass transfer process was intensified by the increased specific surface area and thus provided suﬃcient opportunities for the contact between the monomers and the oxidant, resulting in higher monomer conversion. Moreover, the dis- persed phase slug length became longer with increasing q, resulting in a larger portion of the thin liquid films over the whole continuous phase. The liquid film zones with thin film thickness were beneficial for re- ducing the mass transfer distance, thus improving the PANI yield.
+
+(6)
+
+Moreover, the specific surface area (a) can be calculated by the following equation:
+
+= a A V
+
+i
+
+unit (7)
+
+where Vunit is the volume of the unit cell. Because the average residence times of the dispersed phase (τaq) and the continuous phase (τorg) are equal (see a detailed deduction in the supplementary material) [7,12], the volume of the unit cell can be expressed as follows:
+
+3.5. Competition between the mass transfer and the reaction during the polymerization
+
+= + V V q (1 ) unit s (8)
+
+According to Eqs. (5), (6) and (8), Eq. (7) can be further written as follows:
+
+In order to clearly elaborate the relationship between the mass
+
+polymerization of aniline as follows: [73]
+
+− = + dC dt k C C k C C AN AN oxi AN P (10)
+
+where CAN is the concentration of aniline, Coxi is the concentration of the oxidant, CP is the concentration of PANI, k1 and k2 rate constants for the initiation and propagation stages of the polymerization, respec- tively. k2 is usually 2–3 orders of magnitude higher than k1. The first term in the right side of Eq. (10) represents the initiation rate of the polymerization, indicating that the initiation reaction is first order with both aniline and the oxidant. The second term in the right side of Eq. (10) represents the chain propagation rate [74]. Due to the poor solu- bility of PANI in water, the concentration of PANI can be treated as a constant value ( = × − C mol/L p bulk , ) with the assumption that the solubility equilibrium is achieved soon after PANI is produced [39,75]. Thus, the polymerization rate is assumed to follow the pseudo-first order reaction kinetics. The extent of mass transfer limitation in this chemical oxidative polymerization can be evaluated by Hatta number (Ha) based on a film model [76].
+
+Fig. 8. The eﬀect of the initial HCl concentration on the PANI yield (T = 35 °C, t = 95 s, Qaq = 0.333 ml/min, and Qorg = 0.167 ml/min).
+
+, , ,
+
+( ) ( ) m m n AN in m B bulk n AN
+
+= + − Ha k C C D
+
+K
+
+(11)
+
+aq
+
+where CB,bulk is the concentration of component B (i.e., the oxidant or PANI) in the aqueous phase, CAN,in is the concentration of aniline at the organic-aqueous interface, DAN is the diﬀusion coeﬃcient of aniline in water, Kaq is the mass transfer coeﬃcient of aniline, km,n is the reaction rate constant (i.e., k1 or k2), and m and n are the reaction orders with respect to aniline and component B, respectively. The polymerization will be limited by the mass transfer and completes in the liquid film zone when Ha is larger than 3. Whereas, the mass transfer rate is so fast that no polymerization occurs in the liquid film zone and the poly- merization takes place inside the bulk phase in the case of Ha < 0.3. An empirical correlation recently proposed by Susanti et al. is applied for the calculation of the physical mass transfer coeﬃcient (Kphy) in capil- lary microreactors within the liquid-liquid slug flow regime: [77]
+
+= + K 2.6 phy
+
+,
+
+DAN aq πt λ DAN org πt
+
+, (12)
+
+= λ C
+
+org eq
+
+,
+
+Fig. 9. The eﬀect of Reynolds number on the yield of PANI (CHCl,0 = 2.63 mol/ L, T = 35 °C, t = 95 s, and q = 2).
+
+C
+
+, (13)
+
+aq eq
+
+where λ is the proportion of the equilibrium concentration of aniline in the organic phase (Corg,eq) to the equilibrium concentration of aniline in the aqueous phase (Caq,eq) assuming that the mass transfer occurs without re- actions.
+
+transfer and the chemical reaction during the polymerization in the capillary microreactor, the polymerization kinetics should be analyzed. Tzou et al. proposed a kinetic expression for the chemical oxidative
+
+Fig. 10. The flow patterns with various Reynolds numbers at the rear zone of the capillary microreactor (CHCl,0 = 2.63 mol/L, T = 35 °C, t = 95 s, and q = 2).
+
+Fig. 11. The photos of slug flow captured at the front part of the capillary microreactor with the variation of the volumetric flow rate ratio of the aqueous phase to the organic phase (Qtotal = 0.5 ml/min).
+
+− = = dC dt k C C k C C X X (1 - )(1 - 0.5 ) AN AN oxi AN oxi ,0 ,0 (15)
+
+Eq. (15) can be further written as follows:
+
+⎞ ⎠ dt dC X k C C X X dX k C X X (1 - ) (1 - )(1 - 0.5 )
+
+AN
+
+,0
+
+= − = ⎛ ⎝− −−
+
+,0 ,0 ,0 (16)
+
+AN oxi oxi
+
+By integrating Eq. (16), the residence time can be expressed as the following equation (Eq. (17) when a certain monomer conversion (X) needs to be achieved with only considering the initiation stage:
+
+= − − t c k X X ln 2(1 ) i oxi,0 1 (17)
+
+Moreover, the residence time should be satisfied as Eq. (18) re- garding the propagation stage:
+
+= − t k X 1 ln p (18)
+
+Therefore, Eq. (11) can be further simplified to the following equation considering both the initiation and propagation stages during the aniline polymerization:
+
+Fig. 12. Comparison between the experimental and predicted values of Ls.
+
+π X X
+
+5.2 1.25 2(1 )
+
+− −
+
+= ⎧
+
+ln (initiation stage)
+
+⎨ ⎪
+
+− Ha π
+
+5.2
+
+× −
+
+ln (propagation stage)
+
+⎩⎪
+
+(19)
+
+X
+
+Fig. 15 shows the variation of Ha with the conversion of aniline during the polymerization, in which Hai and Hap respectively represent the Hatta numbers for the initiation stage and propagation stage in the polymerization process. It can be seen that both Hai and Hap increased with the increase of the aniline conversion. These results indicated that the mass transfer limitation became higher for both initiation stage and propagation stage as the polymerization proceeded. Hai was about two orders larger than Hap, illustrating that the eﬀect of the mass transfer limitation on the polymerization was mainly reflected in the initiation stage. Moreover, the values of Hai and Hap were lower than 0.3 before the aniline conversion reached 85%. It demonstrated that the mass transfer limitation could be neglected and the polymerization process occurred inside the aqueous phase when the aniline conversion was lower than 85%. However, the mass transfer limitation became pro- nounced gradually as the aniline conversion was further improved (X > 85%). In this situation, the mass transfer could not completely match the reaction kinetics and the interfacial reactions became im- portant in the polymerization process. According to literature, the li- quid-liquid heterogeneous polymerization of aniline in batch reactors
+
+Fig. 13. Schematic diagram of a dispersed phase slug in a unit cell within the liquid-liquid slug flow.
+
+The solubility of aniline in the aqueous phase is much lower than that in the organic phase, indicating that Corg, eq is much larger than Caq,
+
+eq. Thus, Eq. (12) can be rewritten as follows:
+
+= K D
+
+πt 5.2 phy AN aq ,
+
+(14)
+
+The initial molar ratio of the monomers to the oxidant was fixed at 2 in experiments. To simplify the calculation, an assumption is made that the reactants were consumed in the reaction according to the initial molar ratio. The initiation rate of the polymerization can be expressed as follows:
+
+Fig. 14. The eﬀect of q on the specific surface area (A) and the PANI yield (B), (CHCl,0 = 2.63 mol/L, T = 35 °C, t = 95 s, and Qtotal = 0.5 ml/min).
+
+= Ka Q
+
+C
+
+C ( ) ln chem org
+
+org
+
+,0
+
+V
+
+,1 (23)
+
+c
+
+org
+
+where Vc is the volume of the capillary microreactor, Corg,0 and Corg,1 are the concentrations of aniline in the organic phase at the micro- reactor inlet and outlet, respectively. Corg,0 can be considered as the initial concentration of aniline in the organic phase. Corg,1 can be ex- pressed as a function of the monomer conversion:
+
+= − C C X (1 ) org org , 1 , 0 (24)
+
+Then Eq. (17) can be calculated according to Eqs. (14), (21)–(24):
+
+= − E a π D t X 5.2 ln AN (25)
+
+Fig. 16 shows the variation of E with the residence time in the polymerization process. As shown in Fig. 16, the value of E was in the range of 5.4–6.1 relating to the monomer conversion of 53.6–83.1% at 35 °C, indicating that the polymerization enhanced the mass transfer performance significantly. Due to the consumption of aniline molecules in the polymerization, the aniline concentration distribution between the organic and aqueous phases was hard to reach equilibrium, and both the concentration driving force and the surface renewal rate were higher than those in the physical mass transfer process. As a con- sequence, the mass transfer resistances existing at the organic-aqueous interface and in the bulk phases were reduced, the mass transfer was
+
+Fig. 15. The variation of Ha with the conversion of aniline during the poly- merization.
+
+was reported to be interfacial polymerization [50–53]. Compared with batch reactors, microreactors provide much higher mass transfer rate to reach more uniform reaction conditions for the aniline polymerization process. Furthermore, the mass transfer enhancement due to the poly- merization can be evaluated by the enhancement factor (E):
+
+= E Ka Ka ( ) ( )
+
+chem
+
+phy (20)
+
+where (Ka)phy and (Ka)phy are the overall physical volumetric mass transfer coeﬃcient and the overall chemical volumetric mass transfer coeﬃcient, respectively. Assuming that the flow pattern in the capillary microreactor with the polymerization was the same as that without the polymerization, Eq. (20) can be transformed as follows:
+
+= E K K
+
+chem
+
+phy (21)
+
+The overall chemical mass transfer coeﬃcient (Kchem) can be cal- culated as follows:
+
+= K Ka a ( ) chem chem
+
+(22)
+
+Fig. 16. The variation of E with the residence time during the polymerization (CHCl,0 = 2.63 mol/L, T = 35 °C, q = 2, and Qtotal = 0.5 ml/min).
+
+Based on a mass balance calculation, (Ka)chem can be expressed as the following equation: [77]
+
+greatly intensified and more aniline molecules diﬀused from the or- ganic phase to the aqueous phase for the polymerization process.
+
+[2] D. Parida, C.A. Serra, F. Bally, D.K. Garg, A. Hoarau, Intensifying the ATRP synthesis of statistical copolymers by continuous micromixing flow techniques, Green Process Synth. 1 (2012) 525–532. [3] Y. Su, Y. Zhao, F. Jiao, G. Chen, Q. Yuan, The intensification of rapid reactions for multiphase systems in a microchannel reactor by packing microparticles, AIChE J. 57 (2011) 1409–1418. [4] J.R. Burns, C. Ramshaw, The intensification of rapid reactions in multiphase sys- tems using slug flow in capillaries, Lab Chip 1 (2001) 10–15. [5] H.P. Gemoets, Y. Su, M. Shang, V. Hessel, R. Luque, T. Noël, Liquid phase oxidation chemistry in continuous-flow microreactors, Chem. Soc. Rev. 45 (2016) 83–117. [6] J.I. Park, A. Saﬀari, S. Kumar, A. Günther, E. Kumacheva, Microfluidic synthesis of polymer and inorganic particulate materials, Annu. Rev. Mater. Res. 40 (2010) 415–443. [7] K. Wang, L. Li, P. Xie, G. Luo, Liquid–liquid microflow reaction engineering, React. Chem. Eng. 2 (2017) 611–627. [8] K.F. Jensen, Flow chemistry-Microreaction technology comes of age, AIChE J. 63 (2017) 858–869. [9] J. Zhang, K. Wang, A.R. Teixeira, K.F. Jensen, G. Luo, Design and scaling up of microchemical systems: a review, Annu. Rev. Chem. Biomol. Eng. 8 (2017) 285–305. [10] P. Zhu, L. Wang, Passive and active droplet generation with microfluidics: a review, Lab Chip 17 (2016) 34–75. [11] T.J. Ober, D. Foresti, J.A. Lewis, Active mixing of complex fluids at the microscale, Proc. Natl. Acad. Sci. U.S.A. 112 (2015) 12293–12298. [12] K. Wang, G. Luo, Microflow extraction: a review of recent development, Chem. Eng. Sci. 169 (2017) 18–33. [13] P. Derboven, P.H. Van Steenberge, J. Vandenbergh, M.F. Reyniers, T. Junkers, R. D'Hooge, D.G.B. Marin, Improved livingness and control over branching in RAFT polymerization of acrylates: could microflow synthesis make the diﬀerence? Macromol. Rapid Commun. 36 (2015) 2149–2155. [14] N. Lorber, B. Pavageau, E. Mignard, Investigating acrylic acid polymerization by using a droplet-based millifluidics approach, Macromol. Symp. 296 (2010) 203–209. [15] W. Wang, M.J. Zhang, L.Y. Chu, Functional polymeric microparticles engineered from controllable microfluidic emulsions, Acc. Chem. Res. 47 (2014) 373–384. [16] Y. Okubo, T. Maki, F. Nakanishi, T. Hayashi, K. Mae, Precise control of polymer particle properties using droplets in the microchannel, Chem. Eng. Sci. 65 (2010) 386–391. [17] C. Tonhauser, A. Natalello, H. Löwe, H. Frey, Microflow technology in polymer synthesis, Macromolecules 45 (2012) 9551–9570. [18] P.F. Dong, J.H. Xu, H. Zhao, G.S. Luo, Preparation of 10μm scale monodispersed particles by jetting flow in coaxial microfluidic devices, Chem. Eng. J. 214 (2013) 106–111. [19] B. Herranz-Blanco, L.R. Arriaga, E. Makila, A. Correia, N. Shrestha, S. Mirza, D.A. Weitz, J. Salonen, J. Hirvonen, H.A. Santos, Microfluidic assembly of multi- stage porous silicon-lipid vesicles for controlled drug release, Lab Chip 14 (2014) 1083–1086. [20] R.F. Shepherd, J.C. Conrad, S.K. Rhodes, D.R. Link, M. Marquez, D.A. Weitz, J.A. Lewis, Microfluidic assembly of homogeneous and janus colloid-filled hydrogel granules, Langmuir 22 (2006) 8618–8622. [21] J.H. Bannock, S.H. Krishnadasan, A.M. Nightingale, C.P. Yau, K. Khaw, D. Burkitt, J.J.M. Halls, M. Heeney, J.C. de Mello, Continuous synthesis of device-grade semiconducting polymers in droplet-based microreactors, Adv. Funct. Mater. 23 (2013) 2123–2129. [22] H. Seyler, J. Subbiah, D.J. Jones, A.B. Holmes, W.W. Wong, Controlled synthesis of poly(3-hexylthiophene) in continuous flow, Beilstein J. Org. Chem. 9 (2013) 1492–1500. [23] A.E. Rudenko, C.A. Wiley, J.F. Tannaci, B.C. Thompson, Optimization of direct arylation polymerization conditions for the synthesis of poly(3-hexylthiophene), J. Polym. Sci. Pol. Chem. 51 (2013) 2660–2668. [24] R.H. Lohwasser, J. Bandara, M. Thelakkat, Tailor-made synthesis of poly(3-hex- ylthiophene) with carboxylic end groups and its application as a polymer sensitizer in solid-state dye-sensitized solar cells, J. Mater. Chem. 19 (2009) 4126–4130. [25] R. Miyakoshi, A. Yokoyama, T. Yokozawa, Synthesis of poly(3-hexylthiophene) with a narrower polydispersity, Macromol. Rapid Commun. 25 (2004) 1663–1666. [26] E. Lobry, F. Jasinski, M. Penconi, A. Chemtob, C. Croutxé-Barghorn, E. Oliveros, A.M. Braun, A. Criqui, Synthesis of acrylic latex via microflow miniemulsion pho- topolymerization using fluorescent and LED UV lamps, Green Process Synth. 3 (2014) 335–344. [27] C.H. Hornung, C. Guerrero-Sanchez, M. Brasholz, S. Saubern, J. Chiefari, G. Moad, E. Rizzardo, S.H. Thang, Controlled RAFT polymerization in a continuous flow microreactor, Org. Process. Res. Dev. 15 (2011) 593–601. [28] Y. Zhao, G. Chen, Q. Yuan, Liquid-liquid two-phase flow patterns in a rectangular microchannel, AIChE J. 52 (2006) 4052–4060. [29] D. Tsaoulidis, P. Angeli, Eﬀect of channel size on mass transfer during liquid–liquid plug flow in small scale extractors, Chem. Eng. J. 262 (2015) 785–793. [30] N. Azimi, M. Rahimi, N. Abdollahi, Using magnetically excited nanoparticles for liquid–liquid two-phase mass transfer enhancement in a Y-type micromixer, Chem. Eng. Process. 97 (2015) 12–22. [31] P. Plouﬀe, D.M. Roberge, A. Macchi, Liquid–liquid flow regimes and mass transfer in various micro-reactors, Chem. Eng. J. 300 (2016) 9–19. [32] G. Li, M. Shang, Y. Song, Y. Su, Characterization of liquid-liquid mass transfer performance in a capillary microreactor system, AIChE J. 64 (2018) 1106–1116. [33] J.R. Bourne, Mixing and the selectivity of chemical reactions, Org. Process. Res. Dev. 7 (2003) 471–508. [34] N. Nuraje, K. Su, N.L. Yang, H. Matsui, Liquid/Liquid interfacial polymerization to
+
+4. Conclusion
+
+The continuous synthesis of polyaniline was realized in capillary microreactors within liquid-liquid slug flow through the chemical oxi- dative polymerization method. The eﬀects of various factors on the polymerization process in microreactors were investigated, and the hydrodynamics and the mass transfer associated with the polymeriza- tion were characterized. The high-speed CCD camera facilitated the direct observation of the mass transfer and polymerization processes in capillary microreactors. Higher reaction temperature was beneficial for intensifying the mass transfer and accelerating the polymerization process. The yield of PANI in the capillary microreactor could reach 82.1% at the residence time of 95 s and the reaction temperature of 40 °C. The initial HCl concentration aﬀected the protonation rate of PANI and thus the mass transfer during the polymerization. Higher HCl concentration was found to be beneficial for reducing the production of oligomers and obtaining higher PANI yield. The mass transfer in the polymerization was enhanced with the increase of Reynolds number. However, the slug coalescence tended to become serious with the fur- ther increase of Reynolds number, which was unfavorable for the mass transfer and the polymerization. A correlation was developed for pre- dicting the dispersed phase slug size in the microreactor with a relative deviation of ± 10%. The increase in the volumetric ratio of the aqueous phase to the organic phase provided larger specific interfacial area for the mass transfer and resulted in higher PANI yield. Furthermore, the Hatta numbers with respect to both the initiation and propagation stages increased with the increase of the aniline con- version during the polymerization, indicating that the mass transfer limitation became higher as the polymerization proceeded. The eﬀect of the mass transfer limitation on the polymerization mainly existed in the initiation stage. The values of Hai and Hap were found to be lower than 0.3 before the aniline conversion reached 85%. It illustrated that the mass transfer limitation was trivial and the polymerization process took place in the bulk of the aqueous phase when the aniline conversion was lower than 85%. However, with the aniline conversion further in- creasing, the mass transfer limitation became obvious and the inter- facial reactions could not be neglected. Compared with batch reactors, microreactors provide much higher mass transfer rate to reach more uniform reaction conditions for the aniline polymerization process, i.e., the interfacial polymerization in batch reactors could be easily trans- formed to the polymerization process occurring in the bulk phase when applying microreactors. The calculation of the mass transfer enhance- ment factor indicated that the polymerization could enhance the mass transfer process significantly.
+
+Acknowledgments
+
+We would like to acknowledge financial support from the National Natural Science Foundation of China (Nos. 21676164, 21706157 and 51733007), China Postdoctoral Science Foundation (2017M611565) and the Basic Research Project of Shanghai Science and Technology Commission (16JC1403900).
+
+Appendix A. Supplementary data
+
+Supplementary data associated with this article can be found, in the online version, at https://doi.org/10.1016/j.cej.2018.07.166.

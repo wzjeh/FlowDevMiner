@@ -1,0 +1,9 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rate | conversion of nitrobenzene | increase |
+| gas flow rate | performance of the microreactor | increase |
+| liquid flow rate | performance of the microreactor | increase |
+| residence_time | conversion of TFMB | increase |
+| temperature and pressure | not mentioned, no direction | - |

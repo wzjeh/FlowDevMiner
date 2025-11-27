@@ -1,0 +1,52 @@
+{
+  "reaction_type": "氢化",
+  "reactants": [
+    {
+      "name": "furfural",
+      "role": "reactant"
+    },
+    {
+      "name": "Cu/SiO2",
+      "role": "catalyst"
+    },
+    {
+      "name": "isopropanol",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "furfuryl alcohol",
+      "yield_optimal": 99.6,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "80 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "65 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.2 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "0.6 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "micropacked bed",
+    "inner_diameter": "3.87 mm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": 99.6,
+    "selectivity": 100.0,
+    "unit": "%"
+  }
+}

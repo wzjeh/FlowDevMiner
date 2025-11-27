@@ -1,0 +1,56 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "naphthalene",
+      "role": "reactant"
+    },
+    {
+      "name": "nitric acid",
+      "role": "reactant"
+    },
+    {
+      "name": "sulfuric acid",
+      "role": "catalyst"
+    },
+    {
+      "name": "dichloroethane",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "1-nitronaphthalene",
+      "yield_optimal": 94.96,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "40 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "80 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "3 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microchannel",
+    "inner_diameter": "0.8 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 94.96,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

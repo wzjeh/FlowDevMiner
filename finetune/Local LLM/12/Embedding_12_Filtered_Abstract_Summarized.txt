@@ -1,0 +1,18 @@
+{"name": null, "yield_optimal": 82, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "hydrogenation", "reactants": [{"name": "3-VNB", "role": "reactant"}], "products": [{"name": "null", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "..."}, {"type": "residence_time", "value": "..."}], "reactor": {"type": "packed-bed flow reactor", "inner_diameter": "null"}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mm"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": {  "reaction_type":"liquid-phase hydrogenation",  "reactants":[{"name":"isomeric CNBs","role":"reactant"}],  "products":[{"name":"...","yield_optimal":95,"unit":"%"}
+
+{"type": "temperature", "value": f"{temperature} °C"}
+
+{"name": null, "yield_optimal": yield_optimal, "unit": unit}
+
+{'type':'flow_rate_total','value':f'{flow_rate_total} mL/min'}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}, {"name": "toluene", "role": "solvent"}], "products": [], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": 30.5}, {"type": "flow_rate_reactant_A", "value": 0.5}, {"type": "flow_rate_reactant_B", "value": 60}, {"type": "pressure", "value": 10}], "reactor": {"type": null, "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"name": "3-VNB", "yield_optimal": null, "unit": "%"}
+

@@ -1,0 +1,5 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of nitroaromatics | increase |

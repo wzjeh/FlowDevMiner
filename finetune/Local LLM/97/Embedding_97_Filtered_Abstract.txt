@@ -1,0 +1,20 @@
+Fig. 7 Effect of the total volumetric flow rate on the yield of 4-NBP and the conversion of 4-NBDT in the capillary microreactor at the same residence time (tS = 7.7 min, TS = 25 °C, Pd(OAc)2 = 1 mol%, and C(HNO3) = 11.5 mmol/L)
+
+Fig. 2 Effect of total volumetric flow rate on the yield of 4-NBDT in the capillary microreactor at the same residence time (the molar ratio of HBF4, NaNO2 and PNA was 2.72:1.05:1, TD = 25 °C, and tD = 2.3 s)
+
+Summary: The paragraph discusses a flow-chemistry process development for the diazotization reaction of 4-NBDT in a microreactor system. The key reactants are not mentioned, but the products are 4-NBDT and other unspecified byproducts. The reactor type is a T-micromixer followed by a capillary. The critical conditions include total volumetric flow rate (2 mL/min), residence time, temperature, and pressure, which are not specified. The outcome is the yield of 4-NBDT, which remains constant for various volumetric flow rates from 2 to 15 mL/min, indicating excellent mixing performance and fast enough diazotization under the involved experimental conditions.
+
+involved operational conditions. Hence, the highest 4- NBP yield of 99% was achieved with the residence time of 13 min in the capillary microreactor system.
+
+homogeneous Suzuki-Miyaura cross-coupling reactions. [19, 20] Ionic liquid (IL) was used to transform the heterogeneous Suzuki-Miyaura cross-coupling reaction to a homogeneous state and implemented in a continuous-flow microreactor sys- tem. [21] Due to the better mixing performance of microreactor, the yield and selectivity were improved than the batch reactor. Next, a droplet-based microreactor 
+
+The schematic overview of the capillary microreactor system is shown in Fig. 1. Twosteps, namely the diazotization and the Suzuki-Miyaura cross-coupling reaction, were operated sepa- rately in this work. In the diazotization step synthesizing 4- NBDT, Solution A was prepared by dissolving PNA and HBF4 in MeCN with the fixed PNA concentration of 0.81 mol/L, while Solution B consisted of NaNO2, s- t
+
+flow process with the use of the capillary microreactor, and the reaction efficiency was promoted with shorter reaction time and lower cost catalyst. In short, the microreactor shows ex- cellent application potential for both the diazotization and the following Suzuki-Miyaura cross-coupling reaction. Nevertheless, there are still lots of work to be done in the future such as combining these two st
+
+Fig. 8 Effect of MeCN on the yield of 4-NBP in the capillary microreactor (tS = 3.92 min, TS = 25 °C, Pd(OAc)2 = 1 mol%, and C(HNO3) = 11.5 mmol/L)
+
+Fig. 5 Effects of reaction temperature and residence time on the yield of 4-NBDT in the capillary microreactor with a constant molar ratio of HBF4, NaNO2 and PNA (2.72:1.05:1)
+
+Fig. 6 Effect of the concentration of HNO3 on the yield of 4-NBP in the capillary microreactor system (QC = 0.05 mL/min, QD = 0.25 mL/min, tS = 7.85 min, TS = 25 °C, and Pd(OAc)2 = 1 mol%)
+

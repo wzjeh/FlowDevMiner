@@ -1,0 +1,12 @@
+Micropacked beds (MPBs) are derived from the miniaturization of trickle bed reactors (Losey et al., 2001; Cao et al., 2021), which
+
+have attracted substantial attentions (Nuzhdin et al., 2015; Vilé et al., 2015; Zhang et al., 2017). Compared with conventional trickle bed reactors, MPBs have the small dimensional scale and are packed with small particles (diameters < 500 lm) (Ranade et al., 2011; Zhang et al., 2018), which exhibit the advantages of high surface-to-volume ratio, enhanced mass transfer, fast multi- phase mixing, 
+
+Summary: The paragraph describes a flow-chemistry process development for the hydrogenation of AMS in methylcyclohexane using monolithic catalysts and particle catalysts. The reaction is performed at 30°C, 0.6 MPa, with an initial concentration of 10 wt% and a gas flow rate of 20 mL/min. The AMS hydrogenation allows reaching a fully mass transfer limited regime even at moderate temperature and pressure. The apparent rate of reaction is determined by integrating a steady state mass balance over the whole catalysts, assuming a plug flow model. The key reactants are AMS and H2, with methylcyclohexane as solvent. The critical conditions include a liquid flow rate of 20 mL/min, and the reactor type is not mentioned. The outcomes are not specified in this paragraph.
+
+less steel, and the inner diameter, outer diameter, and length were 3.8, 6.4, and 80.0 mm, respectively. Four pieces of monolithic cat- alysts were packed in the middle of the MPB, and other parts of the MPB were packed with untreated nickel foams. AMS dissolved in methanol (Shanghai Titan Technology Co., Ltd., China) was pumped and mixed with pure hydrogen from reg- ulated cylinder, and then flow
+
+Meille, V., Pestre, N., Fongarland, P., de Bellefon, C., 2004. Gas/liquid mass transfer in small laboratory batch reactors: comparison of methods. Ind. Eng. Chem. Res. 43, 924–927. Nuzhdin, A.L., Moroz, B.L., Bukhtiyarova, G.A., Reshetnikov, S.I., Pyrjaev, P.A., Aleksandrov, P.V., Bukhtiyarov, V.I., 2015. Selective liquid-phase hydrogenation of a nitro group in substituted nitrobenzenes over Au/Al
+
+mity of the monolithic catalysts may contribute to their similar activity in hydrogenation reaction.
+

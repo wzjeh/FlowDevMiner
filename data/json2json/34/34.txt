@@ -1,0 +1,105 @@
+Experimental and kinetic study of the nitration of 2-ethylhexanol in capillary microreactors
+
+Lei Lia,b, Chaoqun Yaoa, Fengjun Jiaoa, Mei Hana, Guangwen Chena,⁎
+
+a Dalian National Laboratory for Clean Energy, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian 116023, China b University of Chinese Academy of Sciences, Beijing 100049, China
+
+The nitration process of 2-ethylhexanol (2-EH) with mixed acid was studied in diﬀerent capillary microreactors. The conversion of 2-EH and selectivity to 2-ethylhexyl nitrate (EHN) were investigated by varying reaction temperature, molar ratio of nitrate to 2-EH, residence time and water content in mixed acid. Under optimized conditions, the conversion of 2-EH and selectivity to EHN could be up to 99% in less than 10 seconds, indicating great potential of microreactors in process intensification. Moreover, with an assumption of homogeneous reaction, a kinetic model based on first order kinetics for nitric acid and 2-EH was proposed to determine both the apparent and intrinsic reaction kinetics. By taking into account the activity of solutes that depend on the acidity (Mc), the intrinsic kinetic was obtained, which is independent of the sulfuric acid concentration. The reaction model can well predict the conversion of 2-EH.
+
+Keywords: 2-Ethylhexanol 2-Ethylhexyl nitrate Nitration Microchannel reactor Kinetics
+
+addition, the mixed acid is usually fed by dropping into the reactant to avoid hot spot and regional over-nitration [6,7]. Obviously, such conditions induce large amount of coolant and long reaction time, leading to very low eﬃciency. To improve the reaction performance, two main approaches have been developed. One approach is using additives such as urea [8] to prevent side reaction or using large amount of inert solvent [9] to prevent fast heat accumulation. This method, however, increases the energy consumption in refining and acid recycling. The other approach is to develop high eﬃcient reactors such as static reactor and spinning disk. Yan et al. [4] employed a jet reactor to improve the mixing and a large reduction in the acid usage and reaction time was obtained. However, the reaction heat can only be removed by the cooling jacket that large amount of coolant is still needed. The above research results suggest that the current methods are still with low eﬃciency and there is huge need of improvement. Among the emerging novel reactors, microreactors hold great promises for process intensification, especially in fast and highly exothermic reaction [10–13]. With characteristic size in the range of tens to hundreds of microns, microreactors have huge specific surface area, providing both excellent heat and mass transfer rate [14–18]. Therefore, it allows fast mixing and quick heat removal during reaction. For the nitration of 2-EH, the reaction can be conducted at higher temperatures to increase the reaction rate while keeping the process safety. In this case, the usage of acid, as well as coolant, can be dramatically reduced. Moreover, microreactors can improve process
+
+2-Ethylhexyl nitrate (EHN) is an excellent cetane improver in diesel fuel [1,2]. Its main role is to reduce the ignition temperature and shorten the ignition delay time, hence improving the dynamic perfor- mance of engine. Currently, industrial production of 2-EHN is generally through nitration of 2-ethylhexanol (2-EH) with mixed solutions of sulfuric acid and nitric acid in stirred tanks. The reaction mechanism is shown by Eqs. (1)-(3) and the overall reaction shown by Eq. (4). It is a typical alcohol nitration reaction, which is fast and highly exothermic. The products are usually temperature-sensitive energetic materials [3] that are highly decomposable and explosive. Therefore, a precise control over reaction temperature and mixing is of great importance during production.
+
+Conventionally, the reaction is operated in stirred tanks with limited mass and heat transfer rate. In order to prevent the oxidation [4,5] that may result in serious decomposition of 2-EHN, the nitration tempera- ture is kept at low temperatures in the range of −10∼10 °C [6]. In
+
+⁎ Corresponding author. E-mail address: gwchen@dicp.ac.cn (G. Chen).
+
+http://dx.doi.org/10.1016/j.cep.2017.04.005 Received 24 December 2016; Received in revised form 28 March 2017; Accepted 5 April 2017
+
+Available online 10 April 2017 0255-2701/ © 2017 Elsevier B.V. All rights reserved.
+
+ΔG HNO3 the Gibbs free energy of HNO3 (KJ/mol) M the initial concentration ratio of nitric acid to 2-EH x the conversion rate of 2-EH t reaction time (s) kapp the apparent reaction rate constant (L mol−1 s−1) k° the intrinsic rate constant (L mol−1 s−1) n thermodynamic parameter defined in Eq.11 Mc activity coeﬃcient function A pre-exponential factor (L mol−1 s−1) Ea activation energy (J mol−1) R gas constant (J K−1 mol−1) T reaction temperature (K)
+
+2-EH 2-ethylhexanol EHN 2-ethylhexyl nitrate C2-EH the concentration of 2-EH (mol/L)
+
+CH SO the concentration of sulfuric acid (mol/L) n2-EH the amount of substance of 2-EH (mol) v2-EH the flow rate of 2-EH (ml/min) vmixed acid the flow rate of mixed acid (ml/min) ρ2-EH the density of 2-EH (g/ml) M2-EH the relative molecular mass of 2-EH (g/mol) a activity (mol/L)
+
++ activity coeﬃcient of nitronium ion γ2-EH activity coeﬃcient of 2-EH γ* activity coeﬃcient of the transition-state intermediate
+
+regulated by changing the length of the reaction tube. The feed tube, the mixer and the reaction tube were all immersed in a water bath to ensure a constant reaction temperature. After the reaction was quenched with ice-water mixture, the liquid samples were collected from the organic phase. For each condition, the samples were collected and analyzed for three times.
+
+safety because of low material hold-up, which has limited damage when hazardous situation happens. Other advantages such as miniaturization and the numbering-up mode can reduce the investment in R & D and commercial application. In accordance with these advantages, our previous work shown that the nitration of 2-EH in microreactors can be eﬀectively enhanced, and the reaction was highly dependent on sulfuric acid concentration and temperature [10]. However, a deep understanding of the reaction with respect to reaction kinetics is rather limited, which is very important for process design, despite the fact that 2-EHN has been commercially produced for long time. Since excellent process control can be obtained in microreactors [19], they also serve as ideal tools for the determination of reaction kinetics [20–23], including apparent and intrinsic kinetics. In this paper, the synthesis of EHN was studied in capillary microreactors. A microchemical system was designed to precisely control the reaction time and reaction temperature. The objective of this work was to determine the reaction kinetics of the nitration of 2- EH. Firstly, the eﬀect of reaction temperature, residence time, HNO3 to 2-EH molar ratio, water content in the mixed acid on nitration process was studied. Based on the experimental results, both the apparent and intrinsic kinetics were calculated with an assumption of homogeneous reaction.
+
+For the current system, the fluid mixture was firstly a homogenous aqueous phase as 2-EH completely dissolves in mixed acid, whereas it turned to immiscible two phases as the product EHN had a very low solubility in the acid phase. After the reaction was quenched, the organic and acid phases were separated into layers by density diﬀer- ence. The acid phase included sulfuric acid, nitric acid and water. The organic phase included 2-EH, EHN and a small amount of by-products. The organic phase was treated with water and alkali solution until it reached neutral. Then, the organic phase was analyzed by gas chromatography.
+
+The reaction temperature is a very important parameter that aﬀects the reaction rate, product selectivity and heat release. To optimize the nitration reaction condition, the eﬀect of reaction temperatures on the conversion of 2-EH and selectivity of 2-EHN is investigated. The reaction was performed at the nitric acid to 2-EH molar ratio of 1.26 and water content of 5% in the mixed acid. The results are shown in Fig. 2. As expected, 2-EH conversion increases with either increasing residence time or reaction temperature. This is because higher tem-
+
+Fuming nitric acid (concentration of > 95%, Tianjin Kemiou Co.), concentrated sulfuric acid (concentration of > 98%, Tianjin Kemiou Co.) and 2-EH (purity of 98%, Sinopham Co.) were used. During preparation of the mixed acid, the water content was varied between 2-10% by mass, and the molar ratio of sulfuric acid to nitric acid (abbr. S/N) was kept at 2. The reason to choose the S/N of 2 is because it allows a maximum concentration of NO2 + for fixed water content [24]. The molar ratio of nitric acid to 2-EH (abbr. M-ratio) was set between 0.7-1.6.
+
+The experimental setup is shown in Fig. 1. 2-EH and mixed acid were delivered separately by metering pumps (America Lab Alliance Series II). The fluids were firstly mixed in a T-mixer with an inner diameter of 1.0 mm (stainless steel), and then reacted in stainless steel capillary with an inner diameter of 0.6 mm. The residence time was
+
+rather serious that rapid temperature rise and generation of gas containing nitrogen oxide may occur. As to the M-ratio, which dose not change the sulfuric acid strength, its eﬀect on the selectivity can be neglected, as shown in Fig. 3(b). Therefore, the nitration should be performed with high M-ratio and low water content. Under optimized condition, both the conversion of 2-EH and selectivity of EHN can exceed 99%.
+
+With respect to the kinetics study of nitration with mixed acid, most studied systems belong to the nitration of aromatic compounds. Although such processes are liquid-liquid heterogeneous system, they are generally treated as pseudo-homogeneous [27–29] because the de- coupling of mass transfer and reaction is extremely diﬃcult. In the present work, as 2-EH is soluble in the mixed acid, so that the reaction system can be regarded as quasi-homogeneous. The reaction order follows the second order assumption that has been widely accepted in the nitration of aromatic compounds [30–33]. This is reasonable since the nitration mechanism is similar. Therefore, the nitration rate of 2-EH is described by Eq. (5).
+
+where kapp is the apparent reaction rate constant, C2-EH and CHNO t 3 are the concentration of 2-EH and nitric acid based on the total volume of mixed fluids, respectively. By substituting the conversion of 2-EH, Eq. (5) is written as
+
+Fig. 2. Eﬀect of reaction temperature and residence time on the (a) conversion of 2-EH and (b) selectivity of EHN. M-ratio = 1.26; water content = 5%; S/N = 2; total flow rate = 1.2 mL/min.
+
+perature promotes the reaction rate. In addition, Fig. 2(b) shows that the selectivity of EHN is always larger than 98% at all temperatures, suggesting the side reactions are greatly suppressed due to excellent heat transfer rate. The slight decrease in the selectivity at smaller temperature may result from the higher fluid viscosity that leads to lower mixing.
+
+The eﬀects of M-ratio and water content in mixed acid on nitration reaction were investigated at the temperature of 298 K and residence time of 10 s. It can be seen in Fig. 3(a), the conversion of 2-EH increases with increasing of M-ratio. This is reasonable because higher M-ratio renders larger amount of sulfuric and nitric acid both of which are beneficial for the generation of NO2 +, promoting the reaction rate. On the other side, with the decreasing water content, the conversion of 2- EH is found to increase rapidly. Because lower water content in the mixed acid can speed up the rate of protonation of nitric acid, thus making the overall reaction rate increases. Fig. 3(b) shows that the selectivity of EHN decreases with the increase in water content while little eﬀect of M-ratio is observed. It is known that the main side reaction during nitration of 2-EH is the oxidation by the nitric acid. When water content increases, the reduced sulfuric acid strength will decrease the protonation of nitric acid (Eq. (1)) [25,26], thus making nitric acid more oxidative. Meanwhile, the oﬀensive of NO2 + is significantly reduced due to solvation of water. Therefore, the selectiv- ity of EHN decreases dramatically with the increase of water content. If the water content is further increased, the oxidation reaction would be
+
+Fig. 3. Eﬀect of M-ratio and water content in mixed acid on the (a) conversion of 2-EH and (b) selectivity of EHN. Temperature = 298 K; residence time = 10 s; S/N = 2; total flow rate = 0.5 mL/min.
+
+also given by Marziano et al. [36]. According to their data, an empirical correlation based on fitting is proposed in Eq. (14), which is suitable for sulfuric acid concentration in the range of 11.6 to 14.6 mol/L.
+
+where C 2−EH is the initial concentration of 2-EH, x is the conversion of 2-EH, M is the initial M-ratio. Integrating Eq. (6) obtains Eq. (7).
+
++ to CHNO t 3, it can be determined from the ionization equilibria and nitrogen conservation for nitric acid in mixed acid.
+
+The initial concentration of 2-EH was calculated as the following equation.
+
+where n2-EH is the amount of substance of 2-EH; v2-EH and vmixedacid are the flow rate for 2-EH and mixed acid, respectively; ρ2-EH denotes the density of 2-EH; M2-EH denotes the relative molecular mass of 2-EH. From Eq. (7), a plot of G against t should be a straight line passing through the origin, and kapp can be determined from the slope. In this work, four temperatures (278, 283, 288 and 293 K) and three mixed acid compositions (the concentration of sulfuric acid at 13.54, 12.95, and 12.36 mol/L) were chosen for kinetic determination. The results are shown in Fig. 4. As can be seen, excellent linear relations are obtained, showing agreement with the second-order assumption. Fig. 5 shows the relationship between kapp and sulfuric concentration of mixed acid at diﬀerent temperatures. It can be seen that kapp increases with the increase of sulfuric acid concentration and reaction temperature.
+
+In order to explain the dependence of nitration reaction rate on sulfuric acid concentration and determine the law of reaction process, it is necessary to study the intrinsic reaction kinetics of the reaction process. In the nitration process of 2-EH, the controlling step is the attack of NO2 + on the 2-EH molecule (Eq. (2)) in the acid phase
+
+[34,35]. Thus, the rate equation can be expressed using Brφnsted- Bjerrum rate law or transition-state theory.
+
+where k° is the intrinsic reaction rate constant, which only depends on the temperature and is independent of the concentration of sulfuric acid. γ2-EH and γNO2
+
++ are the activity coeﬃcients of 2-EH and NO2 +, respectively. γ* is the activity coeﬃcient of the transition-state inter- mediate. There are no accurate data for the above activity coeﬃcients currently. In this work, Mc function (or activity coeﬃcient function) is induced to describe the relation between activity coeﬃcient and acidity, as proposed by Marziano et al. [36,37]. They proposed a revised rate equation as following.
+
+where n is a thermodynamic parameter. According to Eq. (5) and Eq. (11), the relation between kapp and k° can be obtained:
+
+Before calculation of the intrinsic rate constant k°, Mc and the ratio of CNO2
+
++ to CHNO t 3 have to be determined. Mc is a function of temperature for fixed acid composition. Its relationship has been proposed by Marziano et al. [38].
+
+Fig. 4. Determination of rate constants at S/N= 2, total flow rate = 1.2 mL/min (a) concentration of sulfuric acid = 13.54 mol/L, M-ratio = 1.25; (b) concentration of sulfuric acid = 12.95 mol/L, M-ratio = 1.20; (c) concentration of sulfuric acid = 12.36 - mol/L, M-ratio = 1.24.
+
+The value of Mc at 298 K at diﬀerent sulfuric acid concentrations are
+
+Fig. 5. Variation of experimental values of kapp with the concentration of sulfuric acid at diﬀerent temperatures.
+
+Fig. 8. Temperature dependence of the intrinsic rate constant k°.
+
+Fig. 9. Comparison between experimental (symbols) and calculated (continuous lines) values for the conversion of 2-EH at 286 K and at diﬀerent concentrations of sulfuric acid.
+
++ are constants and their values were determined by Sampoli et al. [39] as 0.571 and 2.542, respectively. The equilibrium constants only depend on temperature and the correlations are:
+
+where ΔG HNO3 denotes the Gibbs free energy of HNO3 at 298 K. The nitronium ion equilibrium constant KNO2 + can be expressed as Eq. (21)
+
+based on Ross et al. [40] experimental study. The concentration of H+ is assumed to be independent of tempera- ture and only depends on sulfuric concentration, as suggested by Zaldivar et al. [41]. The correlation can be obtained from their literature[41].
+
+Fig. 7. Variation of experimental (symbols) and calculated (continuous lines) values of kapp with temperature at diﬀerent concentrations of sulfuric acid.
+
+The corresponding equilibrium constants of Eq. (15) and (16) can be written as
+
+temperature, whereas the intrinsic reaction rate constant only depends on the reaction temperature. Eventually, the activation energy Ea was determined to be 42.67 kJ/mol.
+
+The work was financially supported by research grants from the National Natural Science Foundation of China (NSFC) (Nos. U1608221, 91334201 and 21225627).
+
+Therefore, a linear regression of logZ vs. -Mc gives the log k° as the intercept and n as the slope. As shown in Fig. 6, the data are well fitted by linear relationship. The lines appear parallel, suggesting that the value of n is independent of temperature. The value of n in the present work is determined as 0.575. On the other hand, the obtained value of k° increases with the increase in temperature. Fig. 7 shows the comparison between experimental and calculated values for kapp at diﬀerent concentrations of sulfuric acid and temperatures. It can be seen that the calculated results are in good agreement with experi- mental data. From the values of k° at diﬀerent temperatures, the activation energy Ea for the electrophilic attack of nitronium ion on the 2-EH molecule can be determined. The relationship between k° and the reaction temperature can be well expressed by the Arrhenius equation. As shown in Fig. 8, the plot of ln k° vs. 1/T is fitted by a straight linear, and the activation energy Ea and the pre-exponential factor A can be obtained from the slope and intercept of the line, respectively. Based on the result, the activation energy Ea is 42.67 kJ/mol and the pre- exponential factor A is 6.06.

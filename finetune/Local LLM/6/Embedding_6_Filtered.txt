@@ -1,0 +1,20 @@
+aCFMMR: continuous flow micromixing reactor.
+
+*CFMMR: continuous flow micromixing reactor.
+
+Figure 3. Schematic diagram of continuous flow micromixing reactor.
+
+entry micromixings flow rate (mL/min) 6c 1c 7c
+
+Hence, the number of micromixers was further increased from three to five (M4, M5), and the conversion was improved to 95.2%. Certainly, the extended micromixing collisions allowed the substrate 6c and oxidant NaOCl to react eﬃciently and aﬀord the maximum conversion of 1c. Hence, the five micromixers were employed in further flow rate optimization studies (Table 4 and Figure 5).
+
+micromixing reactor made up of SS-316 consists of two inlets and one outlet. This type of micromixer reactor is based on the principle of high-shear axial collision. For that purpose each micromixing reactor contains two slit angles at 180° with diameters varying from 0.35−1.5 mm and an aperture at 90° above both slits with diameter varying from 0.35−1.5 mm and having a mixing volume of 0.2−1 mL. The micromixer reactors were connected with stainless-steel tube tubing through pumps P1and P2 for feeding the reagents, and the product was collected from the outlet of reactor. To vary the residence time, flow rates were changed. The micromixer reactors were placed in a locally fabricated double jacketed stainless-steel water bath equipped with Julaboo heating and cooling circulator with external temperature sensor. To increase the residence time or oﬀer multiple collisions, a series of micromixers was connected for maximum conversion. For reactions with one step, quenching can be done by using another micromixing reactor with inlet 1 from M1 and inlet 2 connected through pump P3 with a quenching agent. An external coil can also be connected to the outlet of a micromixer for the reactions which are moderately slow. P1, P2, and P3 are pumps from Knauer with 0−1000 L/min. Diﬀerent pump heads for regulating the flow rates of the M1 and M2 micromixer reactors were fabricated from local vendors (SS-316 and Hastelloy 22). Investigation of Alkylation of Sulfides. Our inves- tigation started with condensation of pyridine compound 4a and thio compound 5a in the presence of sodium hydroxide and water. In this study the 4a solution was first injected into a T-shaped micromixer by using a Knauer preparative pump (P1). At the same time, a mixture of 5a (1 equiv of 5a, 2.1 equiv of NaOH solution) was also injected into the micromixture by using another pump (P2). At this point, identical flow rates were maintained for pumps P1 and P2. Afterwards, the reaction mixture was admitted through a stainless steel tube, and conversion of 6a was observed within ∼1 s. Afterwards, the product stream was diluted with water and 6a was isolated by filtration in 97.1% yield with 99.6% HPLC purity. Thereafter the same protocol was performed for condensation of 4b and 4c and 5b and 5c and corresponding intermediates, 6b and 6c, with 97.2% and 96.9% yields and 99.3% and 99.5% HPLC purity, respectively. With this investigation the alkylated sulfides (6a−6c) were prepared with comparable yields of the batch processes and also the reaction times decreased from 5 h to ∼1 s (Table 1). Investigation of Sulfoxidation Step. Sulfoxidation is the crucial step in the synthesis of prazole drugs because the formation of overoxidation sulfone impurity is the common problem for all benzimidazole drugs (Figure 2). In this sulfoxidation, first a solution of 6a in acetonitrile (200 mL/ min) was injected into a T-shaped micromixer by using a
+
+entry flow rate (mL/min) 6c 1c 7c
+
+entry flow rate (mL/min) 6a 1a 7a
+
+To evaluate the performance of continuous processing technologies we investigated the application of continuous flow micromixing reactor technology for synthesis of benzimidazole drugs, which are a group of drugs that elicit pronounced and long-lasting pharmacological eﬀect by reducing the gastric acid production. These drugs are among
+
+entry flow rate (mL/min) 6b 1b 7b
+

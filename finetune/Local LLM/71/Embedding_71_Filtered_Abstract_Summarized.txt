@@ -1,0 +1,94 @@
+{"name": match.group(2), "role": f"reactant"}
+
+{}
+
+{}
+
+{}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str)
+    if match:
+        reaction_type = match.group(1).capitalize()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r'\b\w+\b(?![a-z])', input_str)
+    reactant_names = [match for match in matches]
+    
+    # Parse products (yield optimal)
+    product_match = re.search(r'(\d+)% yield ([^]+)', input_str)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+        product_name = product_match.group(2).strip()
+        
+    else: 
+        yield_optimal = None
+        product_name = None
+    
+    # Parse conditions (temperature and residence time are optional; flow rate is required)
+    condition_matches = re.findall(r'(\d+(?:\.\d+)?)([a-z]+)', input_str)
+    
+    optimal_conditions = []
+    
+    for value, unit in condition_matches:
+        if
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{key}
+
+- Temperature is in °C; residence_time and flow_rate are in min/mL/min respectively.
+
+
+
+
+
+    # Parse reaction type
+    if "catalyst" not in input_str:
+        reaction_type = None
+    else:
+        match = re.search(r'(\w+)-', input_str)
+        if match: 
+            reaction_type = match.group(1)
+
+    # Parse reactants, products and conditions
+    lines = [line.strip() for line in input_str.split('\n')]
+    
+    reactant_A = None
+    reactant_B = None
+    
+    product_name = None
+    yield_optimal = 0
+
+    temperature = None
+    residence_time = None
+    flow_rate_reactant_A = None
+    flow_rate_reactant_B = None
+    pressure = None
+    inner_diameter = None
+
+    for line in lines:
+        if "Entry" not in line and "Catechol concentration (mM)" not in line: 
+            match = re.search(r'(\w+): (\d+(?:\.\d+)?)', line)
+            
+            # Parse conditions
+            if 'T=' in line or 'temperature' in line:
+                temperature
+
+{ "reaction_summary": {
+            "reaction_type": match.group(1).strip(),
+            "reactants": [],
+            "products": [{"name": None, "yield_optimal": 0, "unit": "%"}],
+            "conditions": [],
+            "reactor": {"type": None, "inner_diameter": None},
+            "metrics": {"conversion": None, "yield": 0, "selectivity": None, "unit": "%"}}}
+

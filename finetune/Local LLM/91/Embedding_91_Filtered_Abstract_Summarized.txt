@@ -1,0 +1,59 @@
+{"reaction_summary": {"reaction_type": "mononitration", "reactants": [{"name": "nitric acid", "role": "catalyst"}], "products": [{"name": "benzene nitro compound", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": 0.1}, {"type": "pressure", "value": null}], "reactor": {"type": "coil", "inner_diameter": "50 mm"}, "metrics": {"conversion": 90, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": {  "reaction_type":"mononitration",  "reactants":[{"name":"nitrosonium tetrafluoroborate","role":"nitrating agent"}, {"name":"dimethyl sulfoxide","role":"solvent"}],  "products":[{"name":"mononitro aromatic compounds","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"residence_time","value":"10-60 min"},    {"type":"temperature","value":"25-80 °C"},    {"type":"pressure","value":"atmospheric pressure"}
+
+{"type":"temperature","value":temp_match.group(1)}
+
+{re.search(r'\d+(?:\.\d+)?%', summary).group(0)}
+
+{"reaction_summary": {"reaction_type": "mononitration", "reactants": [{"name": "acid", "role": "catalyst"}, {"name": "substrate", "role": "reactant"}], "products": [], "conditions": [{"type": "residence_time", "value": "29 min"}], "reactor": {"type": null, "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "nitration", "reactants": [{"name": "H2SO4", "role": "catalyst"}, {"name": "p-xylene"}], "products": [{"name": "...", "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {}}}
+
+{
+ "reaction_summary": {
+  "reaction_type":"oxidation",
+  "reactants":[{"name":"p-Xylene","role":"substrate"}],
+  "products":[{
+    "name":"mixed_acid", 
+    "yield_optimal":null, 
+    "unit":"%"}, {"name":"H2O", "yield_optimal": null,"unit":"%"}], 
+  "conditions":[
+   {"type":"temperature","value":"..."},
+   {"type":"residence_time","value":"..."}, 
+   {"type":"flow_rate_reactant_A","value":"..."}, 
+   {"type":"pressure","value":"..."}
+
+{ "reaction_summary": {  "reaction_type":"continuous-flow",  "reactants":[{"name":"o-xylene","role":"reactant"}, {"name":"HNO3","role":"solvent"}],  "products":[{"name":"mononitro-o- xylene","yield_optimal":94.1,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"null °C"},    {"type":"residence_time","value":"null min"},    {"type":"flow_rate_reactant_A","value":"null mL/min"}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+Step 1: Parse input string into individual words
+
+
+
+
+    # Split the input string by spaces, punctuation, or numbers
+    words = re.findall(r'\b\w+\b|[^\w\s]', input_str)
+    
+    return [word for word in words if not any(char.isdigit() for char in word)]
+Step 2: Extract reaction type and conditions from parsed words
+
+
+    # Reaction type is the first word (if it's a noun or verb) 
+    # Conditions are extracted based on keywords like 'T', 'temperature', etc.
+    
+    reaction_type = None
+    
+    for i, word in enumerate(words):
+        if word.lower() == "reaction" and words[i-1].lower() != "type":
+            continue
+        elif (word.lower() in ["nitration", "oxidation"] or 
+              any(char.isalpha() for char in word)):
+            reaction_type = word
+            
+    conditions = []
+    
+    for i, word in enumerate(words):
+        if word.upper().startswith('T') and words[i-
+

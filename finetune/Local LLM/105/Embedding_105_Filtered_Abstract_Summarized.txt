@@ -1,0 +1,30 @@
+{"reaction_summary": {"reaction_type": "nitration", "reactants": [{"name": "organic compound", "role": "solvent"}], "products": [{"name": "dinitrated organic compound", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}], "reactor": {"type": "microchannel system", "inner_diameter": "null"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": {  "reaction_type":"nitration",  "reactants":[{"name":"TFMB","role":"reactant"}],  "products":[{"name":"byproduct","yield_optimal":null,"unit":null}, {"name":"TFMB nitrate","yield_optimal":99.6,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"..."},    {"type":"residence_time","value":"..."},    {"type":"flow_rate_reactant_A","value":"0 mL/min"},    {"type":"flow_rate_reactant_B","value":null}  ],  "reactor":{"type":"micro-reactor", "inner_diameter":null}
+
+{ "reaction_summary": { 
+    "reaction_type":"null", 
+    "reactants":[{"name":"TFMB","role":"reactant"}], 
+    "products":[{"name":"product selectivity in a packed microchannel system","yield_optimal":95,"unit":"%"}], 
+    "conditions":[
+        {"type":"temperature","value":"273 K"}, 
+        {"type":"residence_time","value":null}, 
+        {"type":"flow_rate_reactant_A","value":0.25}, 
+        {"type":"pressure","value":null}
+    ], 
+    "reactor":{"type":"packed microchannel system", "inner_diameter":null}
+
+{"reaction_summary": {"reactants": [], "products": [{"name": "TFMB", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "coil", "inner_diameter": "2.5 mm"}, "metrics": {"conversion": 90, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"name": "TFMB", "yield_optimal": 95, "unit": "%"}
+
+{"type":"residence_time","value":f"{int(residence_time.group(1))} min"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mm"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "reactant|catalyst|solvent"}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.4−1.0 mL·min−1"}], "reactor": {"type": "microchannel", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"total": 0}
+

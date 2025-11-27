@@ -1,0 +1,37 @@
+(1) Elvira, K. S.; Casadevall i Solvas, X.; Wootton, R. C. R.; deMello, A. J. The Past, Present and Potential for Microfluidic Reactor Technology in Chemical Synthesis. Nat. Chem. 2013, 5, 905−915. (2) Jähnisch, K.; Hessel, V.; Löwe, H.; Baerns, M. Chemistry in Microstructured Reactors. Angew. Chem., Int. Ed. 2004, 43, 406−446. (3) Pastre, J. C.; Browne, D. L.; Ley, S. V. Flow Chemistry Synthese
+
+Recently, membrane microreactors have drawn growing interest, as they combine the benefits of both the membrane reactor and the microreactor.10,11 Gas and liquid phases can flow separately with a well-defined contacting interface and high mass and heat transfer rates. A tube-in-tube configuration employing a semipermeable Teflon AF-2400 tube as the contact interface for gas and liquid has recently
+
+2.2. Tube-in-Tube Microreactor Setup. The schematic representation of the tube-in-tube microreactor used in this work is shown in Figure 1. The reactor comprises an inner
+
+Summary: The paragraph discusses the development of flow-chemistry processes for gas−liquid reactions using microreactors. The reaction type is heterogeneous catalytic gas−liquid reactions, with great significance in synthetic chemistry and industrial applications. Key reactants/solvent/catalyst are not specified. Products are also not mentioned. Reactor details include the use of microreactors as a type of flow reactor, which provide high eﬃciency of heat and mass transfer due to their high surface-area-to-volume ratio and enable high-resolution reaction time control. The critical conditions for these reactors are not specified in terms of flow rate(s), residence time, temperature, or pressure. Outcomes such as conversion, yield, and selectivity are also not mentioned.
+
+Summary: The paragraph discusses the tube-in-tube microreactor's oxygen permeation during benzyl alcohol flow through it at 120 °C and room temperature with a presaturated inlet gas of 1 bara. The outgassing rate is measured using the traditional buret method, considering diﬀerent liquid flow rates and absolute gas pressures in the annulus. The average liquid residence time is calculated based on tube length and superficial velocity of the liquid in the inner tube.
+
+pressure regulator (Swagelok, U.S.). When the temperature reached the desired value, liquid benzyl alcohol (99.0%, Sigma- Aldrich, U.S.) was supplied into the tube-in-tube microreactor by a HPLC pump (Knauer P2.1S, Germany). The temperature of the fluid reached the required reaction temperature before entering the catalyst bed, as observed by temperature measurements inside the inner tube. The col
+
+Summary: Flow-chemistry process development involved a packed tube-in-tube microreactor for benzyl alcohol oxidation using oxygen as the oxidizing agent. Key reactants included benzyl alcohol and oxygen; solvent was not mentioned, but it may have been air or another carrier gas. The catalyst used was a supported metal catalyst (not specified). Products were benzaldehyde and water. Reactor details: packed tube-in-tube microreactor with an annulus between the two tubes, which allowed for oxygen permeation. Critical conditions included varying flow rates of benzyl alcohol (10-30 mL/min) and residence time (2-5 s). Temperature was not mentioned, but it may have been controlled externally or maintained constant throughout the reactor. Pressure was also not specified, but it could have been atmospheric pressure. Outcomes: conversion increased from 26.1% to 46.9%, and yield/selectivity were not reported.
+
+Flow-chemistry process development: 
+Reaction type: Oxidation of benzyl alcohol to benzaldehyde
+Key reactants: Benzyl alcohol, oxygen (O2)
+Solvent/Catalyst: Not mentioned
+Products: Benzaldehyde
+Reactor details: Tube-in-tube microreactor (type not specified)
+Critical conditions: 
+Flow rate(s): Not mentioned
+Residence time: Not mentioned
+Temperature: Reaction temperature is not mentioned, but it's assumed to be the same for all three approaches.
+Pressure: Gas pressure is not mentioned, but it's assumed to be constant throughout the experiment.
+Outcomes: 
+Conversion: The conversion of benzyl alcohol increased dramatically compared to the other two approaches at the same reaction temperature and gas pressure (not specified).
+Yield/Selectivity: Selectivity to benzaldehyde was about 30% higher than that of toluene. This improvement in performance is due to an increased amount of oxygen participating in the reaction, based on the corresponding XO value (12.4 mL/mLalcohol).
+
+Flow-chemistry process development: A tube-in-tube microreactor was used for the oxidation of benzene to benzaldehyde and toluene using oxygen as the oxidant. The key reactants were benzene, oxygen, and a catalyst (not specified). Benzaldehyde and toluene were the products. The reactor was a tube-in-tube microreactor with an ID of 100 µm for both tubes. Critical conditions included flow rates of benzene, oxygen, and product removal (not specified). Temperature and pressure were not mentioned. Conversion, yield, and selectivity to benzaldehyde increased from 58.6% to 67.5%, while the selectivity to toluene decreased from 38.4% to 29.3%. The conversion trend agreed with batch and packed-bed microreactor data, but the selectivities remained constant due to excess oxygen in those systems.
+
+Summary: The paragraph discusses flow-chemistry process development for the conversion of benzyl alcohol to benzaldehyde using an oxygen−alcohol mixture feed in a packed-bed microreactor. The reaction type is not specified, but it involves converting benzyl alcohol to benzaldehyde. Key reactants include benzyl alcohol and an oxygen−alcohol mixture as the feed. The solvent and catalyst are also not mentioned in this context. The products of the reaction are benzaldehyde with increased selectivity from 57.7% to 77.8%.
+
+The reactor details include a packed-bed microreactor, which is not specifically identified by ID or type. However, it is mentioned that the conversion increased from 78.5% at 2.1 bara to ca. 95% at 5 bara, indicating that the reaction takes place under high pressure conditions (bara). The temperature and flow rate(s) are not specified in this context.
+
+The critical outcomes of the process development include increased conversion from 78.5% to 95%, as well as improved selectivity to benzaldehyde, which is a desirable outcome for this reaction
+

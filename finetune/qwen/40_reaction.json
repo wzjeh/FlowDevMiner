@@ -1,0 +1,61 @@
+{
+  "reaction_type": "aromatic nitration",
+  "reactants": [
+    {
+      "name": "toluene",
+      "role": "reactant"
+    },
+    {
+      "name": "chlorobenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "mixed acid (HNO3/H2SO4)",
+      "role": "catalyst"
+    },
+    {
+      "name": "null",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "mononitrotoluene",
+      "yield_optimal": 91.49,
+      "unit": "%"
+    },
+    {
+      "name": "mononitrochlorobenzene",
+      "yield_optimal": 93.95,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "null"
+    },
+    {
+      "type": "residence_time",
+      "value": "null"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "null"
+    },
+    {
+      "type": "pressure",
+      "value": "null"
+    }
+  ],
+  "reactor": {
+    "type": "heart-shaped microreactor",
+    "inner_diameter": "1.5 mm × 0.75 mm"
+  },
+  "metrics": {
+    "conversion": 95.0,
+    "yield": 91.49,
+    "selectivity": 94.0,
+    "unit": "%"
+  }
+}

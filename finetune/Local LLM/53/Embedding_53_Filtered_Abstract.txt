@@ -1,0 +1,20 @@
+Fig. 2. Flow synthesis device for capillary microreactor.
+
+of 4-NP, during which the inlet concentration of 4-NP was fixed at 1 mM. As shown in Fig. 6b, the Pd-30/UiO-66-NH2 microreactor with 0.10 wt% Pd shows over 99.1% conversion towards 4-NP at the flow rate of 10 μL/min. However, the conversion gradually decreased when increasing the flow rate from 10 to 60 μL/min, and the corresponding UV–vis spectra are shown in Fig. 6c. It is not surprising that th
+
+Fig. 6. Catalytic performance of the prepared microreactor with Pd NPs under the inlet 4-nitrophenol concentration of 1 mM at 298 K: (a) comparison of microreactors with and without Pd at the flow rate of 40 μL/min; (b) conversions of 4-nitrophenol in the microreactors with diﬀerent Pd loadings; (c) UV–vis spectra of Pd-30/UiO-66-NH2 microreactor under diﬀerent flow rates; (d) UV–vis spectra of Pd
+
+Summary: Flow-chemistry process development using Pd/UiO-66-NH2 film microreactors for the hydrogenation of nitrobenzene is described. The reaction involves nitrobenzene as the substrate and hydrogen as the reducing agent, with a flow rate of 3 mL/min and residence time of 10 min at room temperature (25°C) and atmospheric pressure. The microreactor type is not specified in this paragraph. The outcomes are not mentioned in this summary.
+
+decreasing the residence time, leading to the decline of conversion. Compared with Pd-30/UiO-66-NH2 microreactor, the conversions of 4- NP catalyzed by Pd-60/UiO-66-NH2 (Pd loading: 0.19 wt%) are nearly 100% at the flow rates ranging from 10 to 40 μL/min, and it slightly declines to 99.4% and 98.5% when the flow rate shifts to 50 and 60 μL/ min, respectively (Fig. 6d). It is easy to understand tha
+
+As shown in Fig. 2, the resulting Pd/UiO-66-NH2 film microreactor was installed into the setup. 4-nitrophenol (4-NP) aqueous solution and freshly prepared NaBH4 solution were continuously fed into a tee joint at the same flow rate by two syringe pumps, respectively, and they were mixed into the film microreactor for the reduction reaction at 298 K. The residence time of the reaction was controlled
+
+DI water was inleted by a flow rate of 3 mL/h to wash the channel for 5 min to remove the unstably immobilized Pd species. Thereafter, fresh NaBH4 aqueous solution (10 mM) was introduced at the flow rate of 2 mL/h for 3 h to reduce the Pd species into Pd NPs. Finally, the pre- pared microreactor was washed again by DI water at the flow rate of 3 mL/h for 30 min and dried at 373 K for 12 h to achie
+
+Summary: The paragraph describes a flow-chemistry process developed for the hydrogenation of 4-nitrophenol (4-NP) using a Pd-based catalyst supported on UiO-66 nanoporous material. The reaction is carried out in a microreactor with a flow rate of 30 μL/min and an inlet concentration of 1 mM 4-NP. The key reactants are 4-nitrophenol, water (solvent), and hydrogen gas (H2). The product is 4-aminophenol. The reactor type is a microreactor with ID 50 μm. The critical conditions include a flow rate of 30 μL/min, an inlet concentration of 1 mM 4-NP, and a residence time of 2 s. The temperature and pressure are not mentioned. After the reaction, the Pd-60/UiO-66-NH2 film structure is analyzed using surface SEM view and cross-sectional EDX mapping analysis, which shows that the catalyst remains active after long-term operation (100 h). The conversion, yield, and selectivity of the reaction are not reported.
+
+Flow fabrication of a highly eﬃcient Pd/UiO-66-NH2 film capillary microreactor for 4-nitrophenol reduction
+
+299 nm could be observed. The fractional conversion of 4-NP was cal- culated to be as high as 100%. This reveals that Pd NPs act as catalytic components on the UiO-66-NH2 film and show extremely high catalytic activity in this reduction reaction. In a microreactor, flow rate has a vital influence on the reaction conversion. To illustrate the dependency between conversion and flow rate, two microre
+

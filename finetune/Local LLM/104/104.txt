@@ -1,0 +1,469 @@
+Article
+
+pubs.acs.org/IECR
+
+Phenylacetylene Hydrogenation over [Rh(NBD)(PPh3)2]BF4 Catalyst in a Numbered-Up Microchannels Reactor
+
+M. Al-Rawashdeh,† J. Zalucky,†,‡ C. Müller,†,§ T. A. Nijhuis,† V. Hessel,† and J. C. Schouten*,†
+
+†Laboratory of Chemical Reactor Engineering, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB Eindhoven, The Netherlands ‡Institute of Fluid Dynamics, Helmholtz-Zentrum Dresden-Rossendorf, Bautzner Landstraße 400, 01328 Dresden, Germany §Institut für Chemie und Biochemie, Freie Universität Berlin, Fabeckstraße 34−36, 14195 Berlin, Germany
+
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+ABSTRACT: This paper provides a proof of concept for the capability of the barrier-based micro-/millichannels reactor (BMMR) to number-up gas−liquid Taylor flow under reactive flow conditions. The hydrogenation of phenylacetylene to styrene and ethylbenzene using homogeneous cationic rhodium catalysts [Rh(NBD)(PPh3)2]BF4] (NBD = norbornadiene) was used as a model reaction. First, a parametric study in a semicontinuous batch reactor was made by changing the hydrogen pressure, the catalyst concentrations, and the initial concentrations of phenylacetylene and styrene. A mechanism for this reaction system has been proposed by Esteruelas et al. (J. Org. Chem. 1998, 49−53). This mechanism was extended here to develop a kinetic model which predicts the experimental result within an accuracy of 20%. Catalyst deactivation was observed and incorporated in the kinetic model. Second, the reaction was conducted in the BMMR. The reactant and product concentrations of a single channel were compared to those of eight parallel channels combined. For 95% of the obtained results, the diﬀerence in concentrations between the single channel and the eight channels was within ±10% and depended on the gas and liquid flow rates. As a proof of concept, the number-up concept of gas−liquid Taylor flow in the BMMR under reactive flow conditions has been successfully realized. ■INTRODUCTION
+
+Downloaded via HOKKAIDO UNIV on October 25, 2025 at 05:33:26 (UTC).
+
+distribution. The hydraulic resistances are microchannels with dimensions smaller than those of the reaction microchannels and are placed between the single phase flow distributors and the parallel microchannels as shown in Figure 1. The hydraulic resistances can be quantified in a generic way as ΔP̃B as given in eq 1. It is the average pressure drop over the barrier channels ΔPB divided by the average pressure drop over the corresponding mixers and reaction channels ΔPC. Because ΔP̃B is a ratio of pressure drops, it is dimensionless.
+
+For highly exothermic and mass-transfer-limited reactions, microstructured reactors are attractive devices to improve safety, reduce waste, and enhance product selectivity, as well as conversion.1−5 For a single microchannel reactor, the flow rate is often in the range of mL/min, which is suited for a g/h production rate. Scale-up is required to reach kg/h and ton/h production rates. A scale-up route in microchannel reactors can be achieved in three consecutive steps. First, the microchannel cross-sectional dimensions are scaled up while maintaining the mass and heat transfer properties of the single microchannel.6,7
+
+Δ ̃ = Δ Δ P P P B B
+
+Second, multiple channels are placed in parallel in one modular unit in what is named number-up. The third step is made by placing multiple modular units in parallel. For heterogeneously catalyzed gas phase reactions in microreactors, scale-up and number-up to thousands of parallel channels was successfully demonstrated.8,9 For liquid phase reactions, scale-up was successfully demonstrated for industrial capacities,10 although it remains limited to a small number of parallel channels due to the complexity of flow distribution.11,12
+
+C (1)
+
+Early studies have used a pressure drop ratio ΔP̃B between 25 and 50 to distribute the flows in a microchannels reactor.17,18,22
+
+However, such a large pressure drop ratio makes the barrier- based flow distributor an unattractive solution for number-up. The large energy consumption and lowering of the reactor operating window are some of the reasons for that unattractiveness. The authors have found that ΔP̃B can be reduced to a value of 4 by following a specific design methodology.23 That design methodology specifies cut-oﬀ values of the maximum allowed diameter and temperature deviations in diﬀerent parts of the reactor to keep flow nonuniformity below an acceptable limit.24 The outcome of that design methodology led to the "barrier-based micro-/
+
+For gas−liquid processing, scale-up was successfully made,13
+
+but number-up remains mostly restricted to the laboratory scale with a few reporting at the pilot scale14,15 such as the stacked falling film microreactor.16 This is due to the complexity and expenditure needed for an adequate number-up with an equal distribution of the gas and liquid flows over multiple microchannels.17−21
+
+The barrier-based flow distributor has shown promising results for numbering up multiphase flow. A key characteristic of the barrier-based distributor is the hydraulic flow resistances, which passively regulate the flows and equalize the flow
+
+Received: March 22, 2013 Revised: July 10, 2013 Accepted: July 15, 2013 Published: July 15, 2013
+
+Industrial & Engineering Chemistry Research Article
+
+conducting hydrogenation reactions.32−34 The micrometer- scale reaction channel accelerates the fluid mixing and heating and increases the specific interfacial area by more than 1 order of magnitude compared to the case of a typical slurry bubble column. This acceleration allows the reaction to occur in a very short time and allows precise temperature control resulting in clear-cut improvements in the conversion and selectivity. In this paper, the hydrogenation of phenylacetylene (PA) to styrene (ST) and ethylbenzene (EB) catalyzed by the cationic rhodium catalyst [Rh(NBD)(PPh3)2]BF4 is used as a model reaction to characterize the barrier-based micro-/millichannels reactor, the BMMR. The aim is to provide a proof of concept of the capability of the BMMR to number-up gas−liquid Taylor flow under reactive flow conditions. First, a parametric study is carried out to identify possible operating windows for the BMMR and to provide data for the kinetic model. The parametric study is conducted by changing hydrogen pressure, catalyst concentrations, initial concentrations of phenylacety- lene, and concentrations of styrene in a semicontinuous batch reactor using dichloromethane as a solvent. These parametric experiments are fitted by extending the kinetic model of Esteruelas et al.29 to take into account the production of styrene and ethylbenzene. Second, the reaction is conducted in the BMMR under diﬀerent gas and liquid flow rates while keeping the other operating conditions fixed. The number-up concept under reactive flow conditions is analyzed by comparing the reactant and products concentrations from a single reaction channel to those from the eight reaction channels combined. ■EXPERIMENTAL SECTION
+
+Figure 1. Top: Schematic cross-sectional view of the BMMR for one single channel. Symbols used: G, gas; L, liquid; M, manifold; B, barrier channel; C, reaction channel. Bottom: BMMR with an enlarged view of the glass chip that hosts the barrier channels and the T mixer and a picture of Taylor flow in the eight parallel channels.
+
+millichannels reactor" (BMMR), which was presented in Al- Rawashdeh et al.25 and is shown in Figure 1. The BMMR is a modular reactor for conducting a multiphase (gas−liquid) reaction in eight parallel microor millichannels at a pressure of up to 20 bar and a temperature of up to 200 °C with a total liquid flow rate up to 150 mL/min. The BMMR was experimentally verified for varied gas and liquid flow rates, liquid viscosities, surface tensions, and reaction channel dimensions and materials.25 Gas−liquid channeling was prevented, and a flow uniformity of more than 90% was reached. However, no reaction study was made using the BMMR. In this paper, the eﬀect of reactive flow conditions on the concept of number-up in the BMMR is evaluated. The selective reduction of triple bonds and double bonds is an important transformation in synthetic organic chemistry.26
+
+Catalyst Preparation. A mixture of bis(norbornadiene)- rhodium(I) tetrafluoroborate (0.08 g, 0.21 mmol) and triphenylphosphine (0.11 g, 0.42 mmol) was stirred in freshly distilled tetrahydrofuran (2 mL) for 10 min (all glassware were dried prior to use). The volume of the solution was reduced to 1 mL, and it was then poured into diethyl ether (Na-dried and distilled, 25 mL). The sample was isolated by filtration (Craig tube) and washed with ether, giving 0.151 g of [Rh(NBD)- (PPh3)2]BF4 as yellow solid. Experimental Procedure: Batch Setup. The experiments in the batch setup were carried out in a stainless steel 75 mL batch reactor at a constant pressure and temperature as given in Table 1. The reactor was equipped with five side inlets. One was for the thermocouple to monitor the temperature; another was for the gas supply; one was for sampling using a stainless steel capillary of 0.5 mm internal diameter connected to a
+
+Transition metal compounds play a key role in catalytic conversion, in particular for the homogenously catalyzed hydrogenation reactions. The cationic rhodium complex with the general formula [Rh(diene)La]+ (a = 2 or 3), where L is a ligand such as triphenylphosphine (PPh3), is an active catalyst for the hydrogenation of olefins, diens, alkynes, ketones, polynuclear heteroaromatic compounds, and carbon diox- ide.27,28
+
+Table 1. Operating Conditions Applied in the Parametric Study Experiments (Isothermal Temperature Maintained at 70 °C)
+
+The cationic rhodium catalyst [Rh(NBD)(PPh3)2]BF4 (NBD = norbornadiene) was studied by Esteruelas et al.29
+
+for the selective hydrogenation of phenylacetylene to styrene. The catalyst showed an excellent performance using dichloro- methane as a solvent. A selectivity of 80% was achieved at mild conditions of 25 °C and atmospheric pressure. In their work, the reaction mechanism was experimentally verified and the reaction was found to be first order in the catalyst and substrate and second order in the hydrogen pressure. Phenylacetylene hydrogenation is often used as a model system for evaluating reactor design and alkyne hydrogenation catalysts.30,31 Attempts to correlate experimental data with reactor design are limited due to the absence of accurate kinetic models. Model systems are required to fully characterize and exploit their potential. Microreactors are attractive reactors for
+
+experiment mcat., g/L PH2, bar CPA, mol/m3
+
+0.48 0.90 1.24 0.21 0.12 0.12 0.51 0.48 0.48 0a
+
+aStyrene initial concentration is 150 mol/m3.
+
+Industrial & Engineering Chemistry Research Article
+
+Figure 2. Process flow diagram of the BMMR setup and the locations of the temperature and pressure sensors. Symbols used: i, liquid tank; ii, hydrogen bottle; iii, nitrogen bottle; iv, argon bottle; v, gear pump; vi, mass flow controller; vii, barrier mixer glass chip; viii, manifold; ix, reaction channel plate; x, inspection window; xi, connection block; xii, collector block; xiii, sampling points; xiv, gas liquid separator; xv, mist collector; xvi, back-pressure regulator; xvii, control valve; TS, temperature sensor; PS, pressure sensor. The box around the reactor represents a Lauda water bath. The box around the collector block represents an ice bath.
+
+three-way valve; the last side inlet was connected to a funnel that will contain the concentrated substrate plus the solvent solution. Agitation was provided via a magnetic stirring bar. The pressure was maintained by keeping the gas side open to a hydrogen cylinder while the pressure was fixed using a pressure regulator valve. The experimental procedure was carried out as follows. The catalyst [Rh(NBD)(PPh3)2]BF4 was weighed and dissolved in dichloromethane. The solution was pressurized with hydrogen and then heated up to the required temperature while stirring at 1100 rpm. After a stabilization time of 30 min, a solution of phenylacetylene in dichloromethane was added, and this was taken as the starting time zero of the reaction. For each experimental run, samples were taken at diﬀerent reaction times. The samples were analyzed using gas chromatography (Varian 3800) with a FID detection system. The liquid phase concentrations were measured from calibration curves generated for each species using the internal standard (n- dodecane). Phenylacetylene, styrene, ethylbenzene, and n- dodecane were obtained from Sigma-Aldrich. Experimental Procedure: BMMR Setup. A process flow diagram of the BMMR experimental setup is shown in Figure 2. Key dimensions of the BMMR are given in Table 2. Reaction
+
+channels with square cross sections are fabricated in a stainless steel plate. Further details about the design and fabrication of the BMMR can be found in Al-Rawashdeh et al.25
+
+Liquid was pumped (v) using a gear pump (NHK Mikrosysteme GmbH, MZR-7205) via a liquid mass flow controller (vi) (Bronkhorst). Nitrogen (iii), hydrogen (i), and argon (iv) were fed from a gas bottle using mass flow controllers (Bronkhorst). The pressure was measured at the manifold using a pressure sensor (range 0−25 bar, Endress + Hauser, PMP131), and the temperature was measured using thermocouple type Pt100. The temperature in the reactor was regulated by placing the entire reactor in a water heating bath (Lauda). The gas−liquid separation was achieved in a 0.5 L stainless steel vessel (xiv) via gravity. The liquid level was monitored by a diﬀerential pressure sensor (PS4) and maintained by a PID control valve (Bronkhorst) (xvii) placed downstream from the gas−liquid separator. At the gas outlet, a back-pressure regulator (Bronkhorst) (xvi) was used to regulate the operating pressure of the entire setup. The experiments in the BMMR were conducted according to the following procedure. First, the substrate (phenylacetylene) and catalyst ([Rh(NBD)(PPh3)2]BF4) were dissolved in dichloromethane in the required quantities under inert conditions in a glovebox. The solution was placed in a liquid storage tank (i) and transported to the experimental setup. The liquid storage was then connected to an argon line. Next, the tubing and the liquid manifold were filled while the hydrogen was fed at very low flow rate. A flow of nitrogen to the gas− liquid separator was started to bring the system to the required operating pressure. During all of these processes, the water heating bath was switched on to reach the required temper- ature. The collector block and sample points were placed in an ice box to quench the reaction after the gas−liquid flows left the reactor. Once the required temperature and pressure in the reactor were reached, the BMMR experimental setup became ready for conducting a reaction experiment. The experiments were performed at a constant temperature of 70 °C and pressure of 10 bar. The liquid flow rate was
+
+Table 2. Dimensions for the Barrier-Based Micro-/ Millichannels (BMMR)a
+
+W, mm H, mm L, mm
+
+inlet gas manifold 41b inlet liquid manifold 41b gas barrier channel 0.4 0.1 liquid barrier channel 1.0 0.1 inlet gas T-mixer 1.3 1.3 inlet liquid mixer 1.3 1.3 reaction channel 1.23 1.23
+
+aSymbols used are channel width (W), depth (H), and length (L). bThe width is decreasing by an 8° angle.
+
+Industrial & Engineering Chemistry Research Article
+
+changed in the range of 8−125 mL/min and the gas flow rate from 60 to 4750 mLn/min. For each specific experiment, the gas and the liquid flows were run for a few minutes until steady state was reached. Then, samples were taken and analyzed using GC as stated earlier. Samples were taken at two locations. The first location was before the collector block for one of the outlet streams from the reactor; the second location was after the collector block for the eight reaction channels combined. At each sampling location, two samples were taken at diﬀerent times to check the reproducibility. Because it was not possible to measure slug and bubble lengths, the residence time of Taylor flow was calculated on the basis of the combined gas and liquid superficial velocities and not on the bubble velocity. ■RESULTS
+
+rate is 10 times smaller, which demonstrates the excellent selectivity of [Rh(NBD)(PPh3)2]BF4 to styrene. In Figure 4a, the initial reaction rate shows a first-order dependence to the catalyst concentration, which matches with those from literature.29,30 At a catalyst concentration below 0.38 g/L, the initial rate of reaction is almost zero. It is possible that the catalyst is poisoned when it is mixed with the solvent, which makes it ineﬀective. The solvent or the reactant may contain a small amount of the poisoning compound, which deactivates a fixed amount of the catalyst. The other possibility is that part of the catalyst is deactivated because the catalyst is in contact with the hydrogen during the heating step. Hydrogen activates the catalyst, which makes it more prone to deactivation. Further information about catalyst deactivation will be presented next. To account for this, in subsequent modeling, we will use an eﬀective catalyst concentration, which is the actual catalyst concentration minus the inactive catalyst amount of 0.38 g/L. The second parameter that is investigated is the hydrogen pressure as shown in Figure 4b. The hydrogen pressure varies between 5 and 15 bar. The initial reaction rate increases as the hydrogen pressure increases. The initial reaction rate for the 15 bar experiment is equal to that at 10 bar; increasing the hydrogen pressure to 15 bar does not increase the reaction rate. This indicates that mass transfer limitations exist. This is possibly because hydrogenation is a fast reaction, and the rate of reaction increases with the hydrogen pressure. Quantifing the gas-to-liquid mass transfer in the batch reactor is not possible here because the bubble volume and mixing information are not available. In Figure 4c, initial reaction rates of phenylacetylene concentrations are shown. Increasing the initial concentration of phenylacetylene slightly increases the initial reaction rate. Kinetic Models. To obtain a kinetic model that takes into account the styrene and ethylbenzene production, the reaction mechanism of Esteruelas et al.29 is extended as proposed in eqs 2−7.
+
+Batch Setup Experiments. A typical result for one of the batch experiments is shown in Figure 3. Phenylacetylene
+
+Figure 3. Typical result obtained for the hydrogenation reaction of phenylacetylene using [Rh(NBD)(PPh3)2]BF4 in dichloromethane. Operating conditions are those of experiment 3 in Table 1. Symbols used: circle, phenylacetylene; triangle, styrene; square, ethylbenzene.
+
+converts to styrene with a maximum selectivity up to 80%. The production of ethylbenzene linearly increases until all styrene is consumed. The results obtained from the batch experiments are used to estimate the kinetic parameters via fitting. Initial Rate Studies. In Figure 4, initial rate studies are presented as a function of catalyst concentrations, hydrogen pressure, and initial concentrations of phenylacetylene. In all studies, similar initial rates of reaction for styrene and phenylacetylene are obtained. For ethylbenzene, the initial
+
++
+
+[Rh(NBD)(PPh ) ]BF H
+
+3 2
+
+[RhH (NBD)(PPh ) ]BF K
+
+⇌
+
+3 2
+
+(2)
+
+Figure 4. Initial rate studies for catalyst concentration (a), hydrogen pressure (b), and initial concentration of phenylacetylene (c). Operating conditions are given in Table 1.
+
+Industrial & Engineering Chemistry Research Article
+
+= K [PPh ][ ] [ ]
+
+[RhH (NBD)(PPh )]BF
+
+[RhH (NBD)(PPh )]BF PPh K
+
+(9)
+
+⇌ +
+
+=  K [ ] [PhC CH][ ] (10)
+
+(3)
+
+
+
++
+
+[RhH (NBD)(PPh )]BF PhC CH
+
+=  K [ ] [CH CHPh][ ] (11)
+
+[RhH(CH CHPh)(NBD)(PPh ) ]BF K
+
+
+
+⇌
+
+3 2
+
+(4)
+
+When all complex intermediates are resubstituted as a function of 4, the concentration of complex intermediates 1−3 and 5 are written as
+
+
+
++
+
+[RhH(CH CHPh)(NBD)(PPh )]BF H
+
+[RhH (NBD)(PPh )]BF CH CHPh k
+
+=  K K K [ ] [ ][PPh ] [PhC CH][H ]
+
+
+
+→ +
+
+(5)
+
+(12)
+
++ 
+
+[RhH (NBD)(PPh )]BF CH CHPh
+
+=  K K [ ] [ ][PPh ] [PhC CH]
+
+[RhH(CH CH Ph)(NBD)(PPh )]BF K
+
+(13)
+
+ H Ioo
+
+(6)
+
+=  K [ ] [ ] [PhC CH] (14)
+
+
+
++
+
+[RhH(CH CH Ph)(NBD)(PPh )]BF H
+
+[RhH (NBD)(PPh )]BF CH CH Ph k
+
+=   K K [ ] [ ][CH CHPh] [PhC CH]
+
+
+
+→ +
+
+(15)
+
+(7)
+
+The total amount of catalyst in the system is known and is equal to the sum of all the catalyst complexes.
+
+On the basis of the described reaction mechanism, the equilibrium constants are defined as
+
+= + + + + [Rh] [ ] [ ] [ ] [ ] [ ] tot (16)
+
+= K [ ] [H ][ ] (8)
+
+The concentration of [4] is then equal to eq 17.
+
+
+
+K K K
+
+K K K K K K K K K [ ] [Rh] [H ][PhC CH]
+
+tot.
+
+= + + + +
+
+  ( )
+
+[H ] PPh [H ][PhC CH] PPh 7 10 [H ][CH CHPh] PPh
+
+[H ]
+
+(17)
+
+Following the same analogy as that of Esteruelas et al.,29 the rate determining steps for the formation of styrene and ethylbenzene are
+
+= r K [H ][ ] (19)
+
+When complex intermediates [4] and [5] are substituted, the
+
+= r k [H ][ ] (18)
+
+rate expression for the rate determining steps are
+
+[H ] 8 9 tot.
+
+
+
+r K K K k
+
+[Rh] [H ] [PhC CH]
+
+= + + + +
+
+  ( )
+
+[H ] PPh [H ][PhC CH] PPh 7 10 [H ][CH CHPh] PPh
+
+K K K K K K K K K
+
+(20)
+
+[H ] 7 10 11 tot.
+
+
+
+r K K K k
+
+[Rh] [H ] [CH CHPh]
+
+= + + + +
+
+  ( )
+
+[H ] PPh [H ][PhC CH] PPh 7 10 [H ][CH CHPh] PPh
+
+K K K K K K K K K
+
+(21)
+
+= −  t r r d[CH CHPh] d
+
+Via mass balance, the concentrations of phenylacetylene, styrene, and ethylbenzene are computed in eqs 22, 23, and 24, respectively.
+
+(23)
+
+=  t r d[CH CH Ph] d
+
+(24)
+
+= −  t r d[PhC CH] d (22)
+
+Catalyst Deactivation. Catalyst deactivation was observed during reaction. In all of the conducted experiments, reaction
+
+Industrial & Engineering Chemistry Research Article
+
+rate reduced significantly after some reaction time. Figure 5 shows the results for one of these experiments conducted for 3
+
+Figure 6. Deactivation of catalyst over time using eq 25 for the same experimental conditions used in Figure 5.
+
+Figure 5. Experimental results for experiment 2 in Table 1. The reduction of the reaction rate after 30 min is due to catalyst deactivation. Symbols used: circle, phenylacetylene; triangle, styrene; square, ethylbenzene.
+
+function is minimized using the least-squares method (using Fmin in Matlab), kinetic parameters K's can be estimated.
+
+j i j i
+
+− ⎜ ⎟ ⎛ ⎝ ⎞ ⎠
+
+, exp , calc
+
+k L j M i N C C
+
+= ∑∑ ∑
+
+hours. The significant reduction in the reaction rate can be clearly seen after 30 min. The same significant reduction was seen in all of the conducted experiments after 30 min. For experiments which were completed in less than 30 min such as the one shown in Figure 3, reduction of the reaction rate was not observed. Another observation that suggests that catalyst deactivation occurred was the reproducibility of the experimental results. For two experiments conducted at the same operating conditions with the same initial concentrations, poor reproducibility was obtained if the reaction started at diﬀerent times. Time zero for the reaction is defined as when the substrate solution was injected into the catalyst solution. For example, if the heating step was made longer by 20 min (so reaction time starts after 50 min), inconsistent results and lower reaction rates were obtained with an error larger than 30%. During the 30 min heating step, the catalyst was in contact with hydrogen. Therefore, the catalyst was activated and was prone to deactivation. The most likely reason for this deactivation is the hydrogenation of the NBD ligand, which modifies the active catalyst.35 To maintain a good reproducibility, the reaction was started at the same time for all of the conducted experiments. For estimating the kinetic parameters, a model to predict the catalyst deactivation was taken into account. Among diﬀerent tested deactivation models, the model shown in eq 25 best predicted the catalyst deactivation. Because it was not clear which of the metal complexes deactivates, the deactivation was implemented for the total catalyst concentration. In Figure 6, catalyst deactivation using eq 25 is demonstrated for the same experimental result as Figure 5. After 30 min, more than 90% of the initial catalyst weight was deactivated.
+
+, exp
+
+C
+
+j i
+
+LM N error ( 1)
+
+−
+
+(26)
+
+Parametric Study: Kinetic Results. All of the exper- imental results from the parametric study are shown in Figure 7. The points are the experimental results, and the solid lines are the model fittings. In all experiments, the maximum styrene selectivity remains between 60% and 85%. The best fit values for the kinetic parameters are given in Table 3. The extended kinetic model of Esteruelas et al.29
+
+predicts the experiments well with an accuracy of ±20%. The inaccuracy only increases when the high hydrogen pressure of 15 bar is used. This is most likely due to the mass transfer limitation, which was pointed earlier in the initial rate studies at higher hydrogen pressure. Overall, the model shows the capability of predicting the reaction behavior. The kinetic model was tested for the hydrogenation of styrene to ethylbenzene as shown in Figure 8. The kinetic model accurately predicted the hydrogenation of styrene to ethylbenzene. This also confirmed the capability of the model to describe the reaction behavior at varied operating conditions. BMMR Setup Experiments. Experimental results obtained for the hydrogenation reaction in the BMMR setup are shown in Figure 9. Reactant and product concentrations were measured at varied gas and liquid flow rates for the two sample locations shown in Figure 2xiii. One sampling location was taken before the collector block at the outlet of one reaction channel; the other sampling location was taken after the collector block for the eight reaction channels combined. Concentrations from both samples were compared with each other to provide an indication of the eﬀects of the number-up in the BMMR. Three sets of experiments were performed at the same operating conditions as experiment 7 in Table 1. The diﬀerence between them was the amount of prepared reactant solution at 0.5, 1, and 1.5 L for (a), (b), and (c), respectively. A larger amount of reactant solution allowed us to take more sampling points at a wider range of gas and liquid flow rates. It is important to mention that the aim of the study in Figure 9 is to compare the single channel result to that of the eight collected channels to give an indication about the eﬀect of the number-up. Thus, variation in the results between (a), (b), and (c) will not be addressed here. However, possible reasons for
+
+= − t k d[Rh] d [H ][Rh] tot d tot (25)
+
+Determination of Kinetic Parameters. By providing values to the kinetic parameters K's, eqs 22−25 can be numerically integrated using the Ode15 Matlab routine to calculate the reaction concentrations over time. The computed concentrations can then be compared with the experimental concentrations to calculate the error function given in eq 26, where L is the number of experiments involving M species, with concentrations measured at N reaction times. When the error
+
+Industrial & Engineering Chemistry Research Article
+
+Figure 7. Parametric study results for operating conditions given in Table 1. The dots are the experimental results, and the solid lines are the models. Experiments i, ii, and iii refer to the pressure eﬀect at 5, 10, and 15 bar, respectively. Experiments iv, v, and vi refer to the eﬀect of catalyst concentration at 0.48, 0.9, and 1.24 g/L, respectively. Experiments vi, vii, and ix refer to initial concentrations of phenylacetylene of 75, 150, and 200 mol/m3, respectively.
+
+Table 3. Best Fit for Kinetic Parameters
+
+parameter fit unit
+
+K6 6.89 × 10−5 m3/mol K7 0.50 mol/m3
+
+K8 0.06 m3/mol k9 5.90 × 10−3 m3 m3/(mol g min) K10 0.06 m3/mol k11 9.19 × 10−4 m3 m3/(mol g min) kd 1.10 × 10−3 m3/(mol min)
+
+the diﬀerences are catalyst deactivation, eﬀects of slug and bubble length, and bubble coalescence. A few observations can be made on the basis of the results in Figure 9. First, the reaction performance in the BMMR is 10 times faster compared to that of the batch experiment (Figure 7vii) made at the same conditions. In the BMMR, the hydrogen contacts the catalyst and substrate only in the reaction channel. Thus, activation of the catalyst happened in situ, and there is less possibility for catalyst deactivation. However, in the batch setup, the hydrogen comes into contact with the catalyst before the reaction starts, during the heating step, which increases the
+
+Figure 8. Results for hydrogenation of styrene to ethylbenzene. Symbols used: triangle, styrene; square, ethylbenzene; solid lines, the model. Operating conditions are those of experiment 9 in Table 1.
+
+chance of catalyst deactivation as already shown in Figure 5. The improved gas-to-liquid mass transfer in the Taylor flow is another possible reason for the improved reaction performance in the BMMR. A gas-to-liquid mass transfer limitation has been observed in the batch setup experiments. Adding to that, Taylor
+
+Industrial & Engineering Chemistry Research Article
+
+Figure 9. Experimental results obtained for the hydrogenation reaction in the BMMR setup. Symbols used: circle, phenylacetylene; triangle, styrene; square, ethylbenzene. Filled symbols are the analyses of samples collected from a single channel, and open symbols are for samples collected from the eight channels together. Operating conditions are those of experiment 7 in Table 1. Graphs a, b, and c refer to the volume of the reactant solution used in the experiment, at 0.5, 1, and 1.5 L, respectively.
+
+Figure 10. Experimental results obtained for the hydrogenation reaction in the BMMR setup. Symbols used are the same as those of Figure 9. Experiments were done at a fixed liquid flow rate with a varied hydrogen flow rate as mentioned above each point in the figures. Liquid flow rate of (a) is 7.5 mL/min, of (b) is 15 mL/min, and of (c) is 30 mL/min.
+
+factor is that bubble coalescence occurs and the specific interfacial area varies considerably between the parallel microchannels. Because in this experimental setup it was not possible to measure slug and bubble lengths and flow nonuniformity, there was no possible way to study any of these two factors independently. When experiments were done without any reaction, the absolute value of slug and bubble lengths aﬀected flow distribution in the BMMR.25 Due to the sharp corner in the BMMR and when the slug length reduces to less than the channel diameter, which is possible in the above given reaction conditions, bubble coalescence occurred, which aﬀected the pressure drop and the flow distribution consecutively. Additionally, the reaction seems to depend on the gas-to-liquid mass transfer as already observed in the batch experiments. Thus, if any bubble coalescence occurred during the reaction in the BMMR, it will change the specific interfacial area and the mass transfer, resulting in diﬀerent reaction performance even at the fixed flow rates of a single microchannel reactor. Because it was not possible to quantify the eﬀect of specific interfacial area and the residence time on the reaction performance, it is not possible to generalize that flow distribution in the BMMR under reactive flow conditions and high flow rates is not eﬀective. More detailed reaction experiments in the BMMR under reactive flow conditions are needed to explicitly validate that. From the above analysis, it can be clearly stated that the reaction performance of the single channel and the eight reaction channels are aﬀected by the flow nonuniformity as well as by the slug and bubble lengths. Therefore, selective
+
+flow is close to an ideal plug flow reactor, which minimizes axial dispersion and back-mixing.36,37 All of this explains the increased reaction rate in the BMMR compared to that in the batch reactor. Second, the trend of the reactant and products is the same for the single channel reaction and from the eight collected reaction channels. This means that the reaction performance was maintained when the multiphase flow was numbered-up in the BMMR under reactive conditions. Third, there was no systematic diﬀerence between the concentrations of the single channel to those of the eight channels. The results from the single channel in comparison to those of the eight channels vary randomly. The last observation is the diﬀerence in performance between the single channel and the eight channels seems to depend on the gas and liquid flow rates. To demonstrate the eﬀect of gas and liquid flow rates, the reaction performance at fixed liquid flow rate and varied gas flow rates is shown in Figure 10. Parts a, b, and c refer to three experiments done at diﬀerent total liquid flow rates of 7.5, 15, and 30 mL/min, respectively. As the gas flow rate increases, the gas bubble length increases, the slug length decreases, and the residence time decreases. Such an influence on the reaction performance is correctly observed in Figure 10a,b. However, in Figure 10c, the reaction performance seems random even for the single channel. The worse reaction performance at high gas and liquid flow rates can be explained by two factors. The first is that the flow distribution may become ineﬀective, resulting in varied residence time in the eight parallel microchannels. The second
+
+Industrial & Engineering Chemistry Research Article
+
+that in the batch reactor, kinetic experiments are needed in a single channel reactor under the Taylor flow regime. Proof of Concept of Number-Up in the BMMR. The eﬀect of number-up in the BMMR can be seen by plotting all of the experimental results obtained from the BMMR as shown in Figure 12. The reaction concentrations from the single reaction
+
+hydrogenation to styrene using [Rh(NBD)(PPh3)2]BF4 is a suitable reaction model to characterize the BMMR and the concept of number-up. Reactor Modeling: BMMR. The kinetic model determined using the batch reactor experiments was used to model the reaction performance in the BMMR. The model is provided in the Appendix. The modeling results are provided in Figure 11.
+
+Figure 12. Comparison between the experimental results of a sample taken from one reaction channel and a sample taken from all of the eight reaction channels collected together in the BMMR at varied flow rates. Symbols used: circle, phenylacetylene; triangle, styrene; square, ethylbenzene.
+
+channel are compared to concentrations from the eight reaction channels combined. For more than 95% of the results, the diﬀerence in concentrations between the single channel and the eight collected channels remains within ±10%. Predicting what the corresponding flow nonuniformity is that leads to this percentage is not straightforward. This is because the reaction depends, in addition to the residence time, on the interfacial area, which could not be estimated because no information could be obtained about the slug and bubble lengths in this setup. Additionally, concluding whether the ±10% diﬀerence is acceptable will depend on the final application. This margin was obtained before any optimization of the reactor. It is expected that this marginal diﬀerence can be reduced by assuring that no slug and bubble coalescence occurs, and the slug and bubble lengths remain larger than the channel diameter. For example, this can be done by avoiding the transport channels in the BMMR setup (see Figure 2) and by placing the mixer in the reaction channel. Overall, the BMMR successfully demon- strated its potential for numbering up gas−liquid Taylor flow under reactive conditions. ■CONCLUSIONS This paper aimed at providing a proof of concept of the capability of the barrier-based micro-/millichannel reactor (BMMR) to number-up gas−liquid Taylor flow under reactive flow conditions. The hydrogenation of phenylacetylene over a homogeneous catalyst [Rh(NBD)(PPh3)2]BF4 was used as a model reaction. First, kinetic parameters were estimated for the reaction by extending the work of Esteruelas et al.29 The kinetic model was capable of predicting the reaction behavior for a range of catalyst concentrations (0.48−1.24 g/L), hydrogen pressures (5−15 bar), and phenylacetylene concentrations (75−200 mol/ m3). The kinetic model predicted the experiments within an accuracy of 20%. Part of the catalyst proved ineﬀective when it was mixed with the solvent. The catalyst deactivated during the
+
+Figure 11. Results of the BMMR reactor model at operating conditions similar to those of Figure 9 with a residence time similar to those of the batch reactor experiments (a), at a residence time more typical for the BMMR experiments (b), without catalyst deactivation (c), and after the gas−liquid flow ratio has been changed to 1:1 (d), whereas all of the previous three results were performed with a gas− liquid flow ratio of 5:1.
+
+The calculations were performed for the virtual performance of the BMMR at a residence time similar to that of the batch reactor experiments in (a), at a residence time more typical for the BMMR in (b), in the absence of catalyst deactivation as well as at diﬀerent gas−liquid ratios (5:1 and 1:1 in (c) and (d), respectively). When comparing the results of the reactor model in Figure 11 to the experimental results in Figure 9, one can see that the reactor model underestimates the reaction rate. In other words, the reaction rate proceeds much faster in the BMMR than what is predicted by the reactor model. The reaction performance in the BMMR is 10 times faster compared to that of the batch experiment in Figure 7vii made at the same conditions. As anticipated earlier in the text, catalyst deactivation is almost avoided in the BMMR and mass transfer is enhanced, which explains the result obtained by the reactor model. However, the modeling results without catalyst deactivation shown in Figure 11c show that the reaction rate increases in the reactor model but is still slower than the experimental results. When the gas− liquid flow ratio is changed from 5:1 to 1:1, the rate of reaction decreases, which shows the dependence of the reactor model on the gas and liquid flow rates, matching the experimental finding in Figure 10. Most probably, the model underestimates the amount of hydrogen in the liquid phase. To verify that and explain the higher catalyst activity in the BMMR compared to
+
+Industrial & Engineering Chemistry Research Article
+
+Note that r9 and r11 are in minutes which needs to be converted to seconds in eqs 32−35. Equations r9 and r11 are given in eqs 20 and 21, respectively. Mass Transfer Parameters Mass transfer parameters are calculated from ref 38 as
+
+reaction time. A model to predict catalyst deactivation was incorporated into the kinetic model. Even with catalyst deactivation, the developed kinetic model was of use for evaluating the BMMR performance. Second, the model reaction proved to be a suitable one for characterizing the number-up concept for gas−liquid Taylor flow in the BMMR. The reaction performance in the BMMR was 10 times faster compared to that of the batch experiment made at the same conditions. This is most likely because activation of the catalyst in the BMMR happened in situ, there is less possibility of catalyst deactivation, gas-to-liquid mass transfer is enhanced, and axial dispersion and back-mixing are at a minimum in the BMMR. However, in batch setup, the hydrogen comes into contact with the catalyst before the reaction started, during the heating step, which increases the chance of catalyst deactivation. The reaction conversion and selectivity were sensitive to flow nonuniformity and slug and bubble lengths in the BMMR. For more than 95% of the results, the diﬀerence in concentrations between the single channel and the eight combined reaction channels remained within ±10%. This result was achieved before any reoptimiza- tion of the reactor design and operating conditions. As a proof of concept, the number-up concept of gas−liquid Taylor flow in the BMMR under reactive flow conditions was successfully realized. ■APPENDIX
+
+[(1 )( )] GL GL G L 1.19
+
+ε = +
+
+− + k a U U
+
+L L 0.11 ( )
+
+G S B 0.57 (36)
+
+UG and UL are the gas and liquid superficial velocities. The slug LS and bubble LB lengths are calculated according to ref 39. The gas holdup is calculated from ref 40 as
+
+ε = + A U U U G b G
+
+G L (37)
+
+where Ab is the gas bubble cross-sectional area which is calculated from the film thickness as given by ref 40. The liquid holdup is calculated as
+
+ε ε = − L L (38)
+
+The ODE's of the reactor model were solved using Matlab Ode15s function. ■AUTHOR INFORMATION Corresponding Author *Tel.: +31 40 247 2850. Fax: +31 40 244 6653. E-mail: J.C. Schouten@tue.nl. Web: www.chem.tue.nl/scr. Notes The authors declare no competing financial interest. ■ACKNOWLEDGMENTS The authors gratefully acknowledge financial support by the Dutch Technology Foundation (STW, project number 07979) with support from the Industrial Advisory Board (IROP) of The Netherlands Research School in Process Technology. ■NOMENCLATURE
+
+Equation in the Gas Phase Pure hydrogen was used in the the gas phase. The hydrogen consumed by the reaction which changes the gas flow rate as
+
+= − − ⎛
+
+⎝ ⎜⎜ ⎞
+
+q
+
+x k a RT h [H ] d
+
+⎠ ⎟⎟ A
+
+d [H ] [H ] 2 G G GL GL H 2 G 2 L
+
+(27)
+
+Equations in the Liquid Phase Equation for hydrogen:
+
+ε = − − ⎛
+
+⎝ ⎜⎜ ⎞
+
+aGL = specific gas−liquid interfacial area, m2/mreactor Ab = bubble cross-sectional area, m2 C = concentration, mol/m3 H = channel height, m hH2 = Henry's constant, mol/(m3 Pa) kGL = gas-to-liquid mass transfer, 1/s L = channel length, m LB = bubble length, m LS = slug length, m mcat. = catalyst concentration, g/L N = number of channels P = pressure, bar q = flow rate, m3/s R = gas constant, J/(mol K) r = reaction rate, mol/(gcatalyst min) U = superficial velocity, m/s W = channel width, m Greek Symbols ε = holdup τ = residence time (τ = LC/(UG + UL)), s Subscripts B = barrier C = microchannel of gas−liquid flow G = gas L = liquid
+
+⎠ ⎟⎟ q
+
+A x k a RT h r d[H ] d [H ] [H ] L 2 L GL GL H 2 G 2 L [H ] L
+
+2 L
+
+(28)
+
+Equation for phenylacetylene:
+
+ε =   q
+
+A x r d[PhC CH] d
+
+L [PhC CH] L (29)
+
+Equation for styrene:
+
+ε =   q
+
+A x r d[CH CHPh] d
+
+L [CH CHPh] L (30)
+
+Equation for ethylbenzene:
+
+ε =   q
+
+A x r d[CH CH Ph] d
+
+L [CH CH Ph] L (31)
+
+The rate equations are
+
+= + r r r [H ] 2 L (32)
+
+= −  r r [PhC CH] (33)
+
+= −  r r r [CH CHPh] (34)
+
+=  r r [CH CH Ph] (35)
+
+Industrial & Engineering Chemistry Research Article
+
+(21) Behl, M.; Roy, S. Experimental Investigation of Gas-Liquid Distribution in Monolith Reactors. Chem. Eng. Sci. 2007, 62, 7463− 7470. (22) Haverkamp, V.; Hessel, V.; Loewe, H.; Menges, G.; Warnier, M. J. F.; Rebrov, E. V.; de Croon, M. H. J. M.; Schouten, J. C.; Liauw, M. A. Hydrodynamics and Mixer-Induced Bubble Formation in Micro Bubble Columns with Single and Multiple-Channels. Chem. Eng. Technol. 2006, 29, 1015−1026. (23) Al-Rawashdeh, M.; Fluitsma, L. J. M.; Nijhuis, T. A.; Rebrov, E. V.; Hessel, V.; Schouten, J. C. Design Criteria for a Barrier-Based Gas- Liquid Flow Distributor for Parallel Microchannels. Chem. Eng. J. 2012, 181−182, 549−556. (24) Al-Rawashdeh, M.; Yu, F.; Patil, N. G.; Nijhuis, T. A.; Rebrov, E. V.; Hessel, V.; Schouten, J. C. Designing Flow and Temperature Uniformities in Parallel Microchannels Reactor. AIChE J., in press. (25) Al-Rawashdeh, M.; Yu, F.; Nijhuis, T. A.; Rebrov, E. V.; Hessel, V.; Schouten, J. C. Numbered-Up Gas-Liquid Micro/Milli Channels Reactor with Modular Flow Distributor. Chem. Eng. J. 2012, 207−208, 645−655. (26) Kluwer, A. M.; Elsevier, C. J. In The Handbook of Homogeneous Hydrogenation; de Vries, J. G., Elsevier, C. J., Eds.; Wiley-VCH: Berlin, Germany, 2007. (27) Schrock, R. R.; Osborn, J. A. Catalytic Hydrogenation Using Cationic Rhodium Complexes. I. Evolution of the Catalytic System and the Hydrogenation of Olefins. J. Am. Chem. Soc. 1976, 98, 2134− 2143. (28) Schrock, R. R.; Osborn, J. A. Catalytic Hydrogenation Using Cationic Rhodium Complexes. II. The Selective Hydrogenation of Alkynes to Cis Olefins. J. Am. Chem. Soc. 1976, 98, 2143−2147. (29) Esteruelas, M. A.; Gonzalez, I.; Herrero, J.; Oro, L. A. Kinetic Studies on the Selective Hydrogenation of Phenylacetylene Catalyzed by [Rh(NBD)(PPh3)2]BF4 (NBD=2,5-Norbornadiene). J. Organomet. Chem. 1998, 551, 49−53. (30) Wilhite, B. A.; McCready, M. J.; Varma, A. Kinetics of Phenylacetylene Hydrogenation over Pt/Al2O3 Catalyst. Ind. Eng. Chem. Res. 2002, 41, 3345−3350. (31) Fishwick, R. P.; Natividad, R.; Kulkarni, R.; McGuire, P. A.; Wood, J.; Winterbottom, J. M.; Stitt, E. H. Selective Hydrogenation Reactions: A Comparative Study of Monolith CDC, Stirred Tank and Trickle Bed Reactors. Catal. Today 2007, 128, 108−114. (32) Keybl, J.; Jensen, K. F. Microreactor System for High-Pressure Continuous Flow Homogeneous Catalysis Measurements. Ind. Eng. Chem. Res. 2011, 50, 11013−11022. (33) Abdallah, R.; Meille, V.; Shaw, J.; Wenn, D.; de Bellefon, C. Gas- Liquid and Gas-Liquid-Solid Catalysis in a Mesh Microreactor. Chem Commun. 2004, 372−373. (34) Nijhuis, T. A.; Dautzenberg, F. M.; Moulijn, J. A. Modeling of Monolithic and Trickle-Bed Reactors for the Hydrogenation of Styrene. Chem. Eng. Sci. 2003, 58, 1113−1124. (35) Esteruelas, M. A.; Herrero, J.; Martin, M.; Oro, L. A.; Real, V. M. Mechanism of the Hydrogenation of 2,5-Norbornadiene Catalyzed by [Rh(NBD)(PPh3)2]BF4 in Dichloromethane: A Kinetic and Spectro- scopic Investigation. J. Organomet. Chem. 2000, 599, 178−184. (36) Salman, W.; Angeli, P.; Gavriilidis, A. Sample Pulse Broadening in Taylor Flow Microchannels for Screening Applications. Chem. Eng. Technol. 2005, 28, 509−514. (37) Fries, D. M.; von Rohr, P. R. Liquid Mixing in Gas-Liquid Two- Phase Flow by Meandering Microchannels. Chem. Eng. Sci. 2009, 64, 1326−1335. (38) Bercic, G.; Pintar, A. The Role of Gas Bubbles and Liquid Slug Lengths on Mass Transport in the Taylor Flow through Capillaries. Chem. Eng. Sci. 1997, 52, 3709−3719. (39) van Steijn, V.; Kleijn, C. R.; Kreutzer, M. T. Predictive Model for the Size of Bubbles and Droplets Created in Microfluidic T- Junctions. Lab Chip 2010, 10, 2513−2518. (40) Warnier, M. J. F.; Rebrov, E. V.; de Croon, M. H. J. M.; Hessel, V.; Schouten, J. C. Gas Hold-Up and Liquid Film Thickness in Taylor Flow in Rectangular Microchannels. Chem. Eng. J. 2008, 135, S153− S158.
+
+M = manifold ■REFERENCES
+
+(1) Kockmann, N.; Roberge, D. M. Harsh Reaction Conditions in Continuous-Flow Microreactors for Pharmaceutical Production. Chem. Eng. Technol. 2009, 32, 1682−1694. (2) Charpentier, J. C. In the Frame of Globalization and Sustainability, Process Intensification, a Path to the Future of Chemical and Process Engineering (Molecules into Money). Chem. Eng. J. 2007, 134, 84−92. (3) Wiles, C.; Watts, P. Continuous Flow Reactors: A Perspective. Green Chem. 2012, 14, 38−54. (4) Hessel, V.; Cortese, B.; de Croon, M. H. J. M. Novel Process Windows - Concept, Proposition and Evaluation Methodology, and Intensified Superheated Processing. Chem. Eng. Sci. 2011, 66, 1426− 1448. (5) Anxionnaz, Z.; Cabassud, M.; Gourdon, C.; Tochon, P. Heat exchanger/reactors (HEX reactors): Concepts, technologies: State-of- the-art. Chem. Eng. Process. 2008, 47, 2029−2050. (6) Kockmann, N.; Gottsponer, M.; Roberge, D. M. Scale-Up Concept of Single-Channel Microreactors from Process Development to Industrial Production. Chem. Eng. J. 2011, 167, 718−726. (7) Hornung, C. H.; Mackley, M. R.; Baxendale, I. R.; Ley, S. V. A Microcapillary Flow Disc Reactor for Organic Synthesis. Org. Process Res. Dev. 2007, 11, 399−405. (8) Hessel, V.; Knobloch, C.; Loewe, H. Review on Patents in Microreactor and Micro Process Engineering. Recent Pat. Chem. Eng. 2008, 1, 1−16. (9) Lerou, J. J.; Tonkovich, A. L.; Silva, L.; Perry, S.; McDaniel, J. Microchannel Reactor Architecture Enables Greener Processes. Chem. Eng. Sci. 2010, 65, 380−385. (10) Roberge, D. M.; M, G.; Eyholzer, M.; Kockmann, N. Industrial Design, Scale-Up, and Use of Microreactors. Chim. Oggi 2009, 27, 8− 11. (11) Schenk, R.; Hessel, V.; Hofmann, C.; Loewe, H.; Schoenfeld, F. Novel Liquid-Flow Splitting Unit Specifically Made for Numbering-Up of Liquid/Liquid Chemical Microprocessing. Chem. Eng. Technol. 2003, 26, 1271−1280. (12) Saber, M.; Commenge, J. M.; Falk, L. Heat-Transfer Characteristics in Multi-Scale Flow Networks with Parallel Channels. Chem. Eng. Process. 2009, 49, 732−739. (13) Nieves-Remacha, M. J.; Kulkarni, A. A.; Jansen, K. F. Gas-Liquid Flow and Mass Transfer in an Advanced-Flow Reactor. Ind. Eng. Chem. Res. 2013, 52, 8996−9010. (14) Chambers, R. D.; Fox, M. A.; Holling, D.; Nakano, T.; Okazoe, T.; Sandford, G. Elemental Fluorine, Part 16. Versatile Thin-Film Gas- Liquid Multi-Channel Microreactors for Effective Scale-Out. Lab Chip 2005, 5, 191−198. (15) Huebner, S.; Bentrup, U.; Budde, U.; Lovis, K.; Dietrich, T.; Freitag, A.; Kupper, L.; Jahnisch, K. An Ozonolysis-Reduction Sequence for the Synthesis of Pharmaceutical Intermediates in Microstructured Devices. Org. Process Res. Dev. 2009, 952−960. (16) Metzke, D. Chemical Micro Process Technology: The Catalouge - Falling Film Microreactor; Institut fur Mikrotechnik Mainz: Mainz, Germany, 2013 (a technical manual, www.imm-mainz.de). (17) Losey, M. W.; Jackman, R. J.; Firebaugh, S. L.; Schmidt, M. A.; Jensen, K. F. Design and Fabrication of Microfluidic Devices for Multiphase Mixing and Reaction. J. Microelectromech. Syst. 2002, 11, 709−717. (18) De Mas, N.; Gunther, A.; Kraus, T.; Schmidt, M. A.; Jensen, K. F. Scaled-Out Multilayer Gas-Liquid Microreactor with Integrated Velocimetry Sensors. Ind. Eng. Chem. Res. 2005, 44, 8997−9013. (19) Kashid, M.; Gupta, A.; Renken, A.; Kiwi-Minsker, L. Numbering-Up and Mass Transfer Studies of Liquid-Liquid Two- Phase Microstructured Reactors. Chem. Eng. J. 2010, 158, 233−240. (20) Tonomura, O.; Tominari, T.; Kano, M.; Hasebe, S. Operation Policy for Micro Chemical Plants with External Numbering-Up Structure. Chem. Eng. J. 2008, 135, S131−S137.

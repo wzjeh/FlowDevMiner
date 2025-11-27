@@ -1,0 +1,16 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of toluene | increase |
+| temperature | conversion of toluene | decrease |
+| temperature | selectivity of m-MNT | unchanged |
+| temperature | selectivity of o-MNT | decrease |
+| temperature | selectivity of p-MNT | increase |
+| molar_ratio | conversion of toluene | increase |
+| molar_ratio | selectivity of mononitrotoluene | unchanged |
+| mass_fraction_of_acetic_anhydride | conversion of toluene | increase |
+| mass_fraction_of_acetic_anhydride | conversion of toluene | decrease |
+| mass_fraction_of_acetic_anhydride | selectivity of o-MNT | increase |
+| mass_fraction_of_acetic_anhydride | selectivity of p-MNT | decrease |
+| residence_time | conversion of toluene | increase |

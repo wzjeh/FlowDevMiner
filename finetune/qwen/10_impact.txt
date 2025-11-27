@@ -1,0 +1,15 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of dinitro-FPAA | increase |
+| pressure | conversion of dinitro-FPAA | increase |
+| flow_rate | conversion of dinitro-FPAA | decrease |
+| residence_time | conversion of dinitro-FPAA | increase |
+| catalyst_loading | conversion of dinitro-FPAA | unchanged |
+| catalyst_loading | diamino/monoamino selectivity | unchanged |
+| temperature | diamino/monoamino selectivity | unchanged |
+| pressure | diamino/monoamino selectivity | unchanged |
+| flow_rate | diamino/monoamino selectivity | unchanged |
+| residence_time | diamino/monoamino selectivity | unchanged |
+| residence_time | purity of dinitro-FPAA | increase |

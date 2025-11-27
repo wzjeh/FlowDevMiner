@@ -1,0 +1,61 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "o-nitrotoluene",
+      "role": "reactant"
+    },
+    {
+      "name": "HNO3",
+      "role": "reactant"
+    },
+    {
+      "name": "H2SO4",
+      "role": "catalyst"
+    },
+    {
+      "name": "mixed acid",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "2,4-dinitrotoluene",
+      "yield_optimal": 89.5,
+      "unit": "%"
+    },
+    {
+      "name": "2,6-dinitrotoluene",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "20 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "10 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microchannel",
+    "inner_diameter": "0.5 mm"
+  },
+  "metrics": {
+    "conversion": 95.0,
+    "yield": 89.5,
+    "selectivity": 94.0,
+    "unit": "%"
+  }
+}

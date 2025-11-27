@@ -1,0 +1,27 @@
+{'name': name, 'role': role}
+
+{"type": type_, "value": f"{value} {unit}"}
+
+{"type": "temperature", "value": sentence.split(' ')[-2] + ' °C'}
+
+{"type":"flow_rate_reactant_A","value":line.split(' ')[-3]}
+
+{
+        "TTIP conc.": 1.0-7.0,
+        "N2 carrier flow rate (cm3/min)": 17.0-68.0,
+        "Space time at STP (s)": 1.1-4.4,
+        "Reactor temp. (°C)": [300,700]
+    }
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mm"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{
+                "name": None,
+                "yield_optimal": int(value),
+                "unit": "%"
+            }
+
+{"name": name, "yield_optimal": None, "unit": "%"}
+
+{"type": "flow_rate_reactant_A", "value": f"{flow_rate_reactant_A_match.group(1)} mL/min"}
+

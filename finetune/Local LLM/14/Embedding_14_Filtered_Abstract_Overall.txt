@@ -1,0 +1,89 @@
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["nitrobenzene", "mixed acid"],
+    "products": ["p-dinitrobenzene", "nitrophenol", "trinitrobenzene"],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"residence_time","value":60,"unit":"s"},
+      {"type":"pressure","value":null}
+    ],
+    "reactor":{"type":"microreactor","inner_diameter":500,"unit":"µm"},
+    "metrics":{
+        "conversion": null,
+        "yield": 91.6,
+        "selectivity":0.44
+    }
+  },
+  "reaction_summary_2": {
+    "reaction_type": "nitration",
+    "reactants": ["nitrobenzene", "mixed acid"],
+    "products": ["p-dinitrobenzene","ortho- and meta-nitrotoluene isomers"],
+    "conditions": [
+      {"type":"temperature","value":5,"unit":"°C"},
+      {"type":"residence_time","value":60},
+      {"type":"pressure","value":null}
+    ],
+    "reactor":{"type":"microreactor", "inner_diameter":500, "unit":"µm"},
+    "metrics":{
+        "conversion": null,
+        "yield": 98.0,
+        "selectivity": >"98%"
+    }
+  },
+  "reaction_summary_3": {
+    "reaction_type": "nitration",
+    "reactants": ["nitrobenzene", "mixed acid"],
+    "products": ["p-dinitrobenzene","ortho- and meta-nitrotoluene isomers"],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"residence_time","value":60,"unit":"s"},
+      {"type":"pressure","value":null}
+    ],
+    "reactor":{"type":"microreactor", "inner_diameter":500, "unit":"µm"},
+    "metrics":{
+        "conversion": null,
+        "yield": 98.0,
+        "selectivity": >"98%"
+    }
+  },
+  "reaction_summary_4": {
+    "reaction_type": "nitration",
+    "reactants": ["nitrobenzene", "mixed acid"],
+    "products": ["p-dinitrobenzene","ortho- and meta-nitrotoluene isomers"],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"residence_time","value":60,"unit":"s"},
+      {"type":"pressure","value":null}
+    ],
+    "reactor":{"type":"microreactor", "inner_diameter":500, "unit":"µm"},
+    "metrics":{
+        "conversion": null,
+        "yield": 98.0,
+        "selectivity": >"98%"
+    }
+  },
+  "reaction_summary_5": {
+    "reaction_type": "nitration",
+    "reactants": ["nitrobenzene", "mixed acid"],
+    "products": ["p-dinitrobenzene","ortho- and meta-nitrotoluene isomers"],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"residence_time","value":60,"unit":"s"},
+      {"type":"pressure","value":null}
+    ],
+    "reactor":{"type":"microreactor", "inner_diameter":500, "unit":"µm"},
+    "metrics":{
+        "conversion": null,
+        "yield": 98.0,
+        "selectivity": >"98%"
+    }
+  },
+  "reaction_summary_6": {
+    "reaction_type": "nitration",
+    "reactants": ["nitrobenzene", "mixed acid"],
+    "products": ["p-dinitrobenzene","ortho- and meta-nitrotoluene isomers"],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"residence_time","value":60,"unit":"s"},
+      {"type":"pressure","value":null}

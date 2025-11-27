@@ -1,0 +1,32 @@
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": {  "reaction_type":"diazotization|coupling|oxidation-reduction",  "reactants":[{"name":"NADA","role":"reactant"}, {"name":"hydrochloric acid","role":"solvent"}],  "products":[{"name":"C.I. Reactive Red 195 dye","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"..."},    {"type":"residence_time","value":"..."}
+
+{}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+Figure 5. Optimization of continuous coupling reaction conditions. 
+(a) Effect of temperature on dye purity. Conditions: n(NaNO2)/n(NADA) = 1.05, n(HCl)/n(NADA) = 0, n(NH2SO3H)/n(NADA) = 0.05, pH = 8, Q = 1000 mL/min.
+(b) Effect of CTN solution pH on dye purity. Conditions: n(NaNO2)/n(NADA) = 1.05, n(HCl)/n(NADA) = 0, n(NH2SO3H)/n(NADA) = 0.05, TP = 20 °C, Q = 1000 mL/min.
+(c) Effect of total flow rate on dye purity. Conditions: n(NaNO2)/n(NADA) = 1.05, n(HCl)/n(NADA) = 0, n(NH2SO3H)/n(NADA) = 0.05, pH = 8, TP = 20 °C.
+Output:
+{ "reaction_summary":
+
+{"reaction_summary": {"reaction_type": "continuous", "reactants": [{"name": "...", "role": "..."}, {"name": "...", "role": "solvent"}], "products": [{"name": "Reactive Red 195", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": 0.1}, {"type": "pressure", "value": null}], "reactor": {"type": "coil", "inner_diameter": "2 mm"}, "metrics": {"conversion": 90, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"name": product_name, "yield_optimal": yield_optimal, "unit": "%"}
+
+{ "reaction_summary": {  "reaction_type":"diazo coupling",  "reactants":[{"name":"diazotized sulfanilic acid","role":"catalyst"}, {"name":"1-naphthol","role":"reactant"}],  "products":[{"name":"...","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":"10 min"},    {"type":"flow_rate_reactant_A","value":null},    {"type":"flow_rate_reactant_B","value":null},    {"type":"pressure","value":null}  ],  "reactor":{"type":"screw reactor", "inner_diameter":null},  "metrics":{"conversion":null,"yield":95,"selectivity":null, "unit":"%"}}
+
+{"name": "1,3,5-triazine derivatives", "yield_optimal": null}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": { 
+    "reaction_type":"diazotization", 
+    "reactants":[{"name":"hydrogen cyanide","role":"reagent"},{"name":"sulfuric acid","role":"catalyst"}], 
+    "products":[{"name":"nitro compounds","yield_optimal":95,"unit":"%"}], 
+    "conditions":[
+        {"type":"temperature","value":"80 °C"}
+

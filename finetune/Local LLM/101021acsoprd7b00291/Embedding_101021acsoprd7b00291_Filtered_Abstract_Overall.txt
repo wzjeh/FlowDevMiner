@@ -1,0 +1,92 @@
+{
+"reaction_summary": {
+    "reaction_type": null,
+    "reactants": ["trifluoromethoxybenzene"],
+    "products": [null],
+    "conditions": [
+        {"type": "residence_time", "value": 2},
+        {"type": "temperature", "value": 278}
+    ],
+    "reactor": {
+        "type": "microchannel",
+        "inner_diameter": null
+    },
+    "metrics": {
+        "conversion": 95,
+        "yield": null,
+        "selectivity": null,
+        "unit": "%"
+    }
+} 
+Context
+The nitration of trifluoromethoxybenzene (TFMB) was conducted in a microchannel reactor with the following conditions: residence time = 2 min, temperature = 278 K, and flow rate = 0.5 mL·min−1. The conversion of TFMB was found to be 95% at this condition.
+
+Answer
+{
+"reaction_summary": {
+    "reaction_type": null,
+    "reactants": ["trifluoromethoxybenzene"],
+    "products": [null],
+    "conditions": [
+        {"type": "residence_time", "value": 2},
+        {"type": "temperature", "value": 278}
+    ],
+    "reactor": {
+        "type": "microchannel",
+        "inner_diameter": null
+    },
+    "metrics": {
+        "conversion": 95,
+        "yield": null,
+        "selectivity": null,
+        "unit": "%"
+    }
+} 
+Context
+The nitration of trifluoromethoxybenzene (TFMB) was conducted in a microchannel reactor with the following conditions: residence time = 2 min, temperature = 278 K, and flow rate = 0.5 mL·min−1. The conversion of TFMB was found to be 95% at this condition.
+
+Answer
+{
+"reaction_summary": {
+    "reaction_type": null,
+    "reactants": ["trifluoromethoxybenzene"],
+    "products": [null],
+    "conditions": [
+        {"type": "residence_time", "value": 2},
+        {"type": "temperature", "value": 278}
+    ],
+    "reactor": {
+        "type": "microchannel",
+        "inner_diameter": null
+    },
+    "metrics": {
+        "conversion": 95,
+        "yield": null,
+        "selectivity": null,
+        "unit": "%"
+    }
+} 
+Context
+The nitration of trifluoromethoxybenzene (TFMB) was conducted in a microchannel reactor with the following conditions: residence time = 2 min, temperature = 278 K, and flow rate = 0.5 mL·min−1. The conversion of TFMB was found to be 95% at this condition.
+
+Answer
+{
+"reaction_summary": {
+    "reaction_type": null,
+    "reactants": ["trifluoromethoxybenzene"],
+    "products": [null],
+    "conditions": [
+        {"type": "residence_time", "value": 2},
+        {"type": "temperature", "value": 278}
+    ],
+    "reactor": {
+        "type": "microchannel",
+        "inner_diameter": null
+    },
+    "metrics": {
+        "conversion": 95,
+        "yield": null,
+        "selectivity": null,
+        "unit": "%"
+    }
+}

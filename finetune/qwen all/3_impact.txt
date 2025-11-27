@@ -1,0 +1,7 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | molecular weight | increase |
+| residence_time | molecular weight | increase |
+| molar_ratio | molecular weight | decrease |

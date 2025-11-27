@@ -1,0 +1,117 @@
+{"type": "flow_rate_reactant_A", "value": f"{flow_rate_reactant_A} mL/min"}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'one-step dinitration of aniline', input_str, flags=re.IGNORECASE)
+    if match:
+        reaction_type = "dinitration"
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    reactant_match = re.findall(r'aniline|nitric acid|sulfuric acid|h2o', input_str.lower())
+    
+    # Parse products (yield optimal)
+    product_match = re.search(r'(\d+)% yield', input_str, flags=re.IGNORECASE)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+    else:
+        yield_optimal = None
+    
+    # Parse conditions
+    condition_matches = re.findall(r'T=(\d+) °C|flow rate (\d+\.\d+ mL/min)|residence time (\d+) min', input_str)
+    
+    temperature, flow_rate_total, residence_time = [None]*3
+    for match in condition_matches:
+        if len(match) == 2 and 'T=' in str(match
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'One-step dinitration', input_str, flags=re.IGNORECASE)
+    if match:
+        reaction_type = "dinitration"
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    reactant_names = ["N-(1-ethylpropyl)-3,4-xylidine", "nitric acid"]
+    
+    # Parse products (if present)
+    product_match = re.search(r'yield (\d+)%', input_str)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+    else:
+        yield_optimal = None
+    
+    # Parse conditions
+    condition_matches = []
+    for match in re.finditer(r'T=(\d+) °C|flow rate (\d+(?:\.\d+)? mL/min)|residence time (\d+(?:\.\d+)?) min', input_str):
+        if "T=" in str(match.group(0)):
+            type, value = 'temperature', match.group(1) + " °C"
+        elif "
+
+{re.escape(name)}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp = re.search(r"(\d+) °C", input_str)
+    if match_temp:
+        temp = int(match_temp.group(1))
+    
+    match_res_time = re.search(r"h\-\-(\d+)", input_str)
+    if match_res_time:
+        res_time = float(match_res_time.group(1)) / 60.0
+
+    # Parse flow rates
+    reactant_A_flow_rate = None
+    reactant_B_flow_rate = None
+    total_flow_rate = None
+    match_reactants = re.findall(r"(\d+(?:\.\d+)?) (mL|ml) min\-\-(.*)", input_str)
+    for m in match_reactants:
+        if "aniline solution" not in m[2]:
+            reactant_A_flow_rate = float(m[0]) * 1.0
+        else:
+            total_flow_rate = float(m[0])
+    
+    # Parse pressure and inner diameter
+    pressure = None
+    inner_diameter = None
+    
+    match_pressure = re.search(r"(\d+) atm", input
+
+{"reaction_summary": {"reaction_type": "one-step dinitration", "reactants": [{"name": "aniline derivatives", "role": "reactant"}], "products": [{"name": "dinitroanilines", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "less than 2 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "microreactors", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{ 
+        "reaction_summary": {  
+            "reaction_type": reaction_type,  
+            "reactants":[{"name":"aromatic amines","role":"reactant"}],  
+            "products": products,
+            "conditions": conditions,
+            "reactor": reactor,
+            "metrics": metrics
+        }
+    }
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "HNO3", "role": "..."}], "products": [], "conditions": [{"type": "temperature", "value": "..."}, {"type": "residence_time", "value": null}], "reactor": {"type": "coil", "inner_diameter": null}, "metrics": {"conversion": 85, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": { 
+    "reaction_type":"...", 
+    "reactants":[{"name":"HNO3","role":"..."}], 
+    "products":[{"name":"pendimethalin", "yield_optimal":null, "unit": null}], 
+    "conditions":[
+        {"type":"temperature","value":null}, 
+        {"type":"residence_time","value":1}
+

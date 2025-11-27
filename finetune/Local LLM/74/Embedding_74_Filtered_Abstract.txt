@@ -1,0 +1,20 @@
+2.5. Experimental Rig. A micromixer/tube reactor rig for continuous flow operation with tailored process flow was constructed, based on off-the-shelf components, as given above. Figure 3 shows the flow-scheme of the experimental setup. Two supply vessels (B1, B2) store the reactants (amines and R,â-unsaturated carbonyl compounds) which are fed by two syringe pumps (P1, P2) (PN 1610 syringe dosing 
+
+Figure 3. Flow scheme of the experimental setup for performing a chemical reaction continuously in a microstructured reactor. B1, B2, supply vessels; P1, P2, syringe pumps; W1, W2, preheating capillaries; R1, microstructured reactor/mixer; B3, tubular reactor; W4, water bath; V1, valve; P001, P002, P003, pressure gages; W3, cooler/heat exchanger; B4, storage vessel.19
+
+microreactor process based on a microstructured mixer/ tubular-reactor setup has been established, optimized, and compared to the corresponding batch processes. Using a batch procedure, good yields (>85%) could be achieved; however, the process takes a very long time, up to 17 to 25 h. The microreactor process accelerated the reaction by orders of magnitude via ensuring fast mixing and efficient, 
+
+Table 5. Comparison of space-time yields for batch processing and continuous-flow processing in microstructured reactors
+
+batch microreactor ratio space-time yield microreactor/batch batch microreactor ratio space-time yield microreactor/batch
+
+These characteristics indicate that the use of a continuous flow rig with microstructured reactors may accelerate the performance of the reaction without losing thermal control as, obviously, rapid mixing of the reactants as well as efficient heat removal have to be ensured. Such capability of this novel approach has been demonstrated many times, even under demanding processing conditions.3-8
+
+flows are then contacted in the mixer/reactor (R1), the SIMM-V2/Ag40 micromixer. For prolongation of residence time, a tube reactor was added as delay loop element. The reaction is thereafter quenched by rapidly cooling the flow via the heat exchanger CRMH (W3) which is connected to an external thermostat. The reaction mixture is then stored in a separate vessel (B4). The preheater capillaries (W1
+
+3.1. Development Target. The figure of merit for the experiments using the microreactor was to find process parameters yielding maximal space-time yields. The most governing parameters were assumed to be temperature, residence time (by total flow rate or by volume of the residence time section), and the molar ratio of amine 1 to R,â-unsaturated compound 2 (in the following, described briefly as mo
+
+These Michael additions were made in smart, glass chip- type devices under electroosmotic flow conditions. Thus, flow rates were very low, in the mL/h range, and the
+
+constant at 30 °C. After 16 h/24 h, respectively, the reaction mixture was analyzed by GC (Table 2). Reactions R2, R3, R5, and R6. An amount of 1.0 mol acrylonitrile (2a)/acrylic acid ethyl ester (2b) was added dropwise under stirring to 1.1 mol amine (1b-c) dissolved in 150 mL of ethanol. The process parameter and the analytical procedure were the same as those used for reactions R1 and R4 (see T
+

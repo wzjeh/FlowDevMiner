@@ -1,0 +1,20 @@
+Fig. 9 Eﬀect of the flow rates on the NB conversion and durability.
+
+Residence time ¼ channel volume/gas flow rate
+
+solid microreactors are still limited by poor durability. Hence, in this work, a method for the preparation
+
+microreactor length because of increased catalyst loading and residence time. The obtained results reveal that the developed gas–liquid–solid microreactor can not only yield high conver- sion but also promote the durability.
+
+durability of the microreactor. The chemical composition and topography characterization of the
+
+The experimental results showed the developed gas–liquid– solid microreactor was able to yield good catalytic activity. However, as one of the key points reecting the performance of the microreactor, the durability of the microreactor fabricated by this method remains unknown. For this reason, particular attention of this work was paid to the evaluation of the dura- bility of the gas–liquid–solid microreactor fabricated by this method under various operation conditions. For comparison, the diﬀerences in the chemical composition and morphology as well as the performance between the catalyst layer without and with further hydrogen reduction under diﬀerent operational conditions were studied.
+
+microreactor prepared by this method exhibited high durability and high nitrobenzene conversion as
+
+To date, numerous studies have been carried out to investi- gate the microreactor technologies for various catalytic reac- tions, such as the catalytic oxidation,12 the catalytic hydrogenation,6 the catalytic combustion,13 etc. It has been found that the property of the prepared catalyst layer inside the microreactor is crucial to aﬀect the microreactor performance. Therefore, a variety of attempts have been made to prepare the
+
+To further evaluate the durability of the fabricated catalyst layer, the eﬀects of the inlet nitrobenzene concentration, the ow rate as well as the length of the microreactor were also investigated in this work. 3.4.1 Inlet nitrobenzene concentration. In this section, the inlet nitrobenzene concentration ranged from 30 mM to 90 mM. The ow rates of the gas and liquid reactants were kept at 0.15 sccm and 15 mL min1, respectively. The length of the micro- reactor was 1.0 m. Note that the supplied hydrogen under this ow rate can ensure the supplied nitrobenzene to be completely converted. Fig. 8 shows the eﬀect of the inlet nitrobenzene concentration on the nitrobenzene conversion over the entire operation period of 40 h. As can be seen, at the 30 mM opera- tion, over the entire operation period, the nitrobenzene conversion was kept stable without obvious decrease and the average nitrobenzene conversion was about 97%. With the inlet nitrobenzene concentration increased to 60 mM, the nitroben- zene conversion was kept stable in the rst 28 h with an average nitrobenzene conversion of about 97% and then gradually declined to about 60% in the next 9 h. And when the inlet
+
+Multiphase catalytic reactions, such as catalytic cracking, cata- lytic reforming, catalytic hydrogenation, etc., have been widely used in the chemical and pharmaceutical industries.1–4 In these applications, to reduce the potential mass transfer resistance between the phases and improve the reaction rate, the pressure or/and temperature are usually increased, which will increase not only the explosion potential but also the processing and manufacturing costs.5 Microreactors have an intrinsically large interfacial area per unit volume and have proven to be able to dramatically enhance heat and mass transfer as well as reduce the explosion potential, making them suitable for multiphase catalytic reactions.6–11
+

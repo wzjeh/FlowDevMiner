@@ -1,0 +1,54 @@
+{ "reaction_summary": {  "reaction_type":"flow-chemistry",  "reactants":[{"name":"2-ethylhexanol","role":"reactant"}, {"name":"cyclohexane","role":"solvent"}],  "products":[    {"name":"ester nitrate","yield_optimal":null,"unit":null}  ],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":"10 min"},    {"type":"flow_rate_reactant_A","value":"0.1 mL/min"}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+Input
+The study focuses on a flow-chemistry process development for the conversion of 2-ethylhexanol (2-EH) to ethylhydroquinone (EHN). The reaction was carried out at varying temperatures between 80 °C and 120 °C, with residence times ranging from 10 min to 30 min. A microreactor with an inner diameter of 1 mm was used for the experiments. The flow rate of reactant A (2-EH) was maintained constant at 0.6 mL/min, while that of reactant B (water) varied between 0.05 and 0.15 mL/min. The total flow rate ranged from 0.65 to 1.75 mL/min. The M-ratio was kept at a value of 1.26 throughout the experiments.
+
+The reaction conditions were optimized for maximum yield, with an optimal temperature of 100 °C, residence time of 20 min, and reactant B flow rate of 0.10 mL/min resulting in a total flow rate of 0.70 mL/min. The pressure was maintained at atmospheric level (1013 mbar). Under these conditions,
+
+- Assume that if a field is not explicitly stated in the input text, it should be left as-is.
+
+Step 1: Preprocess the input string to extract relevant information
+
+
+
+
+    # Extract temperature and residence time (if present)
+    temp_match = re.search(r'(\d+) °C', input_str)
+    if temp_match:
+        temp_value = int(temp_match.group(1))
+    
+    res_time_match = re.search(r'residence time (\d+)', input_str, re.IGNORECASE)
+    if res_time_match:
+        res_time_value = float(res_time_match.group(1))
+
+    # Extract flow rates (if present) and determine total flow rate
+    flow_rate_matches = re.findall(r'(\d+(?:\.\d+)?) mL/min', input_str)
+    flow_rates = [float(rate) for rate in flow_rate_matches]
+    
+    if len(flow_rates) == 1:
+        total_flow_rate = flow_rates[0]
+    elif len(flow_rates) > 1 and 'mixed acid' not in input_str.lower():
+        # If mixed acid is present, assume it's fed by dropping into the reactant
+        total_flow_rate = max(flow_rates)
+
+{ "reaction_summary": {  "reaction_type":"nitration",  "reactants":[{"name":"HNO3","role":"nitrating agent"}, {"name":"acetonitrile","role":"solvent"}
+
+{ "reaction_summary": {  "reaction_type":"nitration",  "reactants":[{"name":"2-EH","role":"reactant"}],  "products":[{"name":"null","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"..."},    {"type":"residence_time","value":"..."},    {"type":"flow_rate_reactant_A","value":"..."},    {"type":"pressure","value":"..."},    {"type":"inner_diameter","value":null}  ],  "reactor":{"type":"microreactors", "inner_diameter":null}
+
+{"name": "EHN", "yield_optimal": 95, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "mixed acid reaction", "reactants": [{"name": "2-EH", "role": "reactant"}, {"name": "mixed acid", "role": "solvent"}], "products": [], "conditions": [{"type": "residence_time", "value": "null"}], "reactor": {"type": "capillary", "inner_diameter": "0.6 mm"}, "metrics": {}}}
+
+{
+            "reactants": [{"name": re.sub(r"and|the", "", r"\w+"), "role":"catalyst"}], 
+            "products": []
+        }
+
+{
+        "reaction_summary": {
+            "reaction_type": reaction_type,
+            "reactants":[],
+            "products":[{"name":"sulfuric acid","yield_optimal":yield_optimal,"unit":"%"}
+

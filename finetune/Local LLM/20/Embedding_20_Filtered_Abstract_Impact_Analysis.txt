@@ -1,0 +1,20 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| Residence Time | Conversion of TFMB | increase |
+| Reaction Temperature | Conversion Rate | increase |
+| Reaction Temperature | Selectivity | decrease |
+| Flow Rates | Yield of Desired Products | decrease |
+| Flow Rates | Clogging Problems | increase |
+| Reaction Time | Conversion | increase |
+| Reaction Time | Selectivity | decrease |
+| Catalyst Amount | Reaction Time | decrease |
+| Catalyst Amount | Conversion Rate | increase |
+| Catalyst Amount | Selectivity | decrease |
+| Pressure | Yield | decrease |
+| Pressure | Conversion Rate | increase |
+| Pressure | Selectivity | decrease |
+| Temperature | Yield | decrease |
+| Temperature | Conversion Rate | increase |
+| Temperature | Selectivity | decrease |

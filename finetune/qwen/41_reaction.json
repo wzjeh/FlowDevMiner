@@ -1,0 +1,52 @@
+{
+  "reaction_type": "steam reforming",
+  "reactants": [
+    {
+      "name": "methane",
+      "role": "reactant"
+    },
+    {
+      "name": "nickel",
+      "role": "catalyst"
+    },
+    {
+      "name": "null",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "hydrogen",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "1073 K"
+    },
+    {
+      "type": "residence_time",
+      "value": "null"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "null"
+    },
+    {
+      "type": "pressure",
+      "value": "atmospheric pressure"
+    }
+  ],
+  "reactor": {
+    "type": "microreactor",
+    "inner_diameter": "null"
+  },
+  "metrics": {
+    "conversion": 72.9,
+    "yield": null,
+    "selectivity": 88.8,
+    "unit": "%"
+  }
+}

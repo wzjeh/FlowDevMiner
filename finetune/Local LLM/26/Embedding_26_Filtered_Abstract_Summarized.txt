@@ -1,0 +1,12 @@
+{"type": "flow_rate_total", "value": f"{float(flow_rate_match)} mL/min"}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [], "products": [{"name": "null", "yield_optimal": null, "unit": "%"}], "conditions": [{"type": "temperature", "value": "null"}], "reactor": {"type": "null", "inner_diameter": "null"}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"name": f"hydrogenated_{reactant_A}", "yield_optimal": 95, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"name": None, "yield_optimal": yield_optimal, "unit": "%"}
+

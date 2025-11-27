@@ -1,0 +1,47 @@
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [{"name": "DR16", "role": "catalyst"}], "products": [], "conditions": [{"type": "pH", "value": "3-4"}, {"type": "Fe2+ concentration", "value": "higher"}, {"type": "H2O2 concentration", "value": "higher"}, {"type": "dye concentration", "value": "lower"}, {"type": "feed flow rate", "value": "lower"}], "reactor": {"type": null, "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+{"reaction_summary": {"reaction_type": "DR16 oxidation", "reactants": [{"name": "H2O2", "role": "solvent"}, {"name": "Fe2+", "role": "catalyst"}], "products": [{"name": "null", "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": 0.1}], "reactor": {"type": "coil", "inner_diameter": "2 mm"}, "metrics": {"conversion": 90, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "Fenton process", "reactants": [{"name": "DR16", "role": "dye"}], "products": [], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "10 min"}], "reactor": {"type": null, "inner_diameter": null}, "metrics": {"conversion": null, "yield": 86, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "FeSO4·7H2O", "role": "catalyst"}], "products": [], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "flow_rate_reactant_B", "value": null}], "reactor": {"type": "microchannel", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+{ "reaction_summary": { 
+"reaction_type":"decolorization", 
+"reactants":[{"name":"DR16","role":"reactant"}, {"name":"H2O2","role":"reactant"}, {"name":"Fe2+","role":"catalyst"}], 
+"products":[], 
+"conditions":[
+{"type":"temperature","value":25 °C}, 
+{"type":"pH","value":3.5}], 
+"reactor":{"type":"microreactor", "inner_diameter":null}, 
+"metrics":{
+"conversion": null, 
+"yield": null, 
+"selectivity": null,
+"unit":"%"}}}
+
+{"type": "temperature", "value": f"{match.group(1)} °C"}
+
+{
+    "reaction_type": null,
+    "reactants": [],
+    "products": [{"name": null, "yield_optimal": 95, "unit": "%"}],
+    "conditions": [
+        {"type":"temperature","value":"80 °C"},
+        {"type":"residence_time","value":"10 min"}
+    ],
+    "reactor":{"type":"microreactor", "inner_diameter":"null"}, 
+    "metrics":{
+        "conversion_optimal":90,
+        "yield_optimal":95,
+        "selectivity_optimal": null, 
+        "unit":"%"
+    }
+}
+
+{value}
+

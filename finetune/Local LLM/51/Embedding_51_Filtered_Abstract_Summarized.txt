@@ -1,0 +1,81 @@
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp_residence = re.search(r"(\d+) (°C|min)", input_str)
+    if match_temp_residence:
+        value, unit = match_temp_residence.groups()
+        if unit == "°C":
+            temp = int(value)
+        elif unit == "min":
+            res_time = float(value)
+
+    # Parse flow rates
+    reactant_A_flow_rate = None
+    reactant_B_flow_rate = None
+    total_flow_rate = None
+    match_flow_rates = re.search(r"(\d+(?:\.\d+)?) (mL/min)", input_str)
+    if match_flow_rates:
+        value, unit = match_flow_rates.groups()
+        flow_rate_value = float(value)  # Normalize to mL/min
+        if total_flow_rate is None:  # Assume single flow rate for now
+            total_flow_rate = flow_rate_value
+
+    # Parse pressure and inner diameter
+    pressure = None
+    inner_diameter = None
+    match_pressure_inner_diameter = re.search(r"(\d+(?:\.\d+)?) (mm)", input_str)
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp_residence = re.search(r"(\d+) (°C|min)", text)
+    if match_temp_residence:
+        value, unit = match_temp_residence.groups()
+        if unit == "°C":
+            temp = int(value)
+        elif unit == "min":
+            res_time = float(value)
+
+    # Parse flow rates
+    gas_flow_rate = None
+    liquid_flow_rate = None
+    total_flow_rate = None
+    match_flow_rates = re.search(r"(\d+(?:\.\d+)?) (mL/min)", text)
+    if match_flow_rates:
+        value, unit = match_flow_rates.groups()
+        flow_rate_value = float(value) * 60.0 # Convert mL/s to mL/min
+        total_flow_rate = flow_rate_value
+
+    # Parse inner diameter and reactor type
+    inner_diameter = None
+    reactor_type = "coil"
+    match_inner_diameter_reactor = re.search(r"(\d+(?:\.\d+)?) (mm) in a (\w+)", text)
+    if match_inner_diameter_reactor:
+
+{
+        "conversion": 90,
+        "yield": 95, 
+        "selectivity": null
+    }
+
+{"type": "coil"}
+
+paragraph = """
+The paragraph describes a flow-chemistry process development for hydrogenation of nitrobenzene using a microreactor with a Pd-PDA catalyst layer. Nitrobenzene is the reactant and aniline is the product. The reactor type is not mentioned, but it seems to be a microreactor based on the context. The key reactants are nitrobenzene and hydrogen (not explicitly stated), while the solvent is not mentioned. The catalyst used is Pd-PDA. The critical conditions include gas flow rate of 0.05 sccm, liquid flow rate of 5 lL/min, inlet nitrobenzene concentration ranging from 30 mm to 90 mm, and outlet aniline concentrations averaging 29.36 mm, 58.31 mm, and 87.93 mm with respect to the inlet nitrobenzene concentration of 30 mm, 60 mm, and 90 mm, respectively. The average nitrobenzene conversions were 97.4%, 97.2%, and 97.5%. The reactor details are not explicitly mentioned, but
+"""
+
+
+conditions = []
+for line in paragraph.split('\n'):
+    if
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"name":product_name, "yield_optimal":float(yield_optimal), "unit":unit}
+
+{"type": "temperature", "value": temp_match.group(1)}
+
+{value}
+

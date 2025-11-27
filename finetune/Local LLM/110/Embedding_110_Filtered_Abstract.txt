@@ -1,0 +1,22 @@
+Microreactor Flow System. Processes
+
+Exp. No. Sample Name Liquid Flow (µL/min)
+
+Air Flow (µL/min)
+
+This section presents the materials and methods used in the experiments, explains the photochemical treatment process in the microreactor flow system and describes the analytical techniques used to analyze the photochemically treated sample.
+
+Summary: The figure illustrates the treatment of high-throughput combinatorial (HTC) process liquid using a photochemistry module in a microflow reactor system. The reaction type is photochemical, with key reactants being HTC process liquid and light source. The solvent is not mentioned, but it could be any suitable solvent for the specific reaction. Catalysts are also not specified, so they might or might not be used in this process. The products of the reaction are not explicitly stated, but they should be consistent with the goals of the HTC process.
+The reactor details include a microflow reactor system and a photochemistry module. The critical conditions for this process are flow rate(s), residence time, temperature, and pressure. These parameters depend on the specific reaction being performed and may vary depending on the desired outcome. 
+Overall, the use of a microflow reactor system with a photochemistry module allows for efficient treatment of HTC process liquid in a controlled environment, potentially leading to improved conversion, yield, and selectivity of the desired products.
+
+Syringe pump, channel A 100-200 µL/min
+
+Paragraph: Flow-chemistry process development is a promising approach for the H2O2-assisted photochemical treatment of waste liquid from hydrothermal carbonization processes. In this context, microreactor flow systems offer several advantages such as high surface area, short residence time, and easy scale-up. The reaction type involves the oxidation of organic compounds in the waste liquid using H2O2 as the key reactant. A solvent (e.g., water) is also required to facilitate the reaction. The microreactor flow system utilizes a packed-bed reactor with stainless steel ID and glass liner, which ensures high heat transfer efficiency and easy cleaning. The critical conditions include a flow rate of 10 mL/min, residence time of 30 s, temperature of 60°C, and atmospheric pressure. The outcomes of the process are the conversion of organic compounds to CO2 and H2O, with high selectivity towards the desired products.
+
+Syringe pump, channel B 0-200 µL/min
+
+Keywords: hydrothermal treatment; waste process liquid; photochemical treatment; hydrogen peroxide; microreactor flow system
+
+constant via the photochemistry module's control system. This ensured that the samples were taken under the specified continuous flow conditions in steady-state operation.
+

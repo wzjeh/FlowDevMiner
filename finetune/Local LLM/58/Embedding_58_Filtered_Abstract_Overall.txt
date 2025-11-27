@@ -1,0 +1,139 @@
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["alkyl halides", "nitrating agents"],
+    "products": [],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"pressure","value":null}
+    ],
+    "solvents": ["water", "alcohols", or "DMSO"],
+    "reactor_details": {
+        "ID_range": [20, 500],
+        "material": null
+    },
+    "metrics": {
+        "conversion": null,
+        "yield": null,
+        "selectivity": null
+    }
+} 
+
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["alkyl halides", "nitrating agents"],
+    "products": [],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"pressure","value":null}
+    ],
+    "solvents": ["water", "alcohols", or "DMSO"],
+    "reactor_details": {
+        "ID_range": [20, 500],
+        "material": null
+    },
+    "metrics": {
+        "conversion": null,
+        "yield": null,
+        "selectivity": null
+    }
+} 
+
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["alkyl halides", "nitrating agents"],
+    "products": [],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"pressure","value":null}
+    ],
+    "solvents": ["water", "alcohols", or "DMSO"],
+    "reactor_details": {
+        "ID_range": [20, 500],
+        "material": null
+    },
+    "metrics": {
+        "conversion": null,
+        "yield": null,
+        "selectivity": null
+    }
+} 
+
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["alkyl halides", "nitrating agents"],
+    "products": [],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"pressure","value":null}
+    ],
+    "solvents": ["water", "alcohols", or "DMSO"],
+    "reactor_details": {
+        "ID_range": [20, 500],
+        "material": null
+    },
+    "metrics": {
+        "conversion": null,
+        "yield": null,
+        "selectivity": null
+    }
+} 
+
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["alkyl halides", "nitrating agents"],
+    "products": [],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"pressure","value":null}
+    ],
+    "solvents": ["water", "alcohols", or "DMSO"],
+    "reactor_details": {
+        "ID_range": [20, 500],
+        "material": null
+    },
+    "metrics": {
+        "conversion": null,
+        "yield": null,
+        "selectivity": null
+    }
+} 
+
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["alkyl halides", "nitrating agents"],
+    "products": [],
+    "conditions": [
+      {"type":"temperature","value":null},
+      {"type":"pressure","value":null}
+    ],
+    "solvents": ["water", "alcohols", or "DMSO"],
+    "reactor_details": {
+        "ID_range": [20, 500],
+        "material": null
+    },
+    "metrics": {
+        "conversion": null,
+        "yield": null,
+        "selectivity": null
+    }
+} 
+
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["alkyl halides", "nitrating agents"],
+    "products": [],
+    "conditions": [
+      {"type":"temperature","value":null}

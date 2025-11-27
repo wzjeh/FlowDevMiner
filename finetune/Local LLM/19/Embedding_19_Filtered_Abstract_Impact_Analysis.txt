@@ -1,0 +1,9 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| reactor_structure | residence_time | - |
+| residence_time | conversion_of_TFMB | - |
+| residence_time | product_selectivity | increase |
+| residence_time | reaction_rate_constant | decrease |
+| residence_time | conversion | decrease |

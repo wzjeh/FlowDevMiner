@@ -1,0 +1,56 @@
+{
+  "reaction_type": "Suzuki–Miyaura Coupling",
+  "reactants": [
+    {
+      "name": "bromobenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "lithium trimethoxy(phenyl)borate",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd catalyst on polymer monolith",
+      "role": "catalyst"
+    },
+    {
+      "name": "THF",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "biphenyl",
+      "yield_optimal": 95.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "80 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "10 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "1.0 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "packed bed",
+    "inner_diameter": "4.6 mm"
+  },
+  "metrics": {
+    "conversion": 98.0,
+    "yield": 95.0,
+    "selectivity": 97.0,
+    "unit": "%"
+  }
+}

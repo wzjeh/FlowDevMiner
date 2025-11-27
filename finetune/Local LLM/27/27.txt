@@ -1,0 +1,677 @@
+Chemical Engineering Science 255 (2022) 117657
+
+Contents lists available at ScienceDirect
+
+Chemical Engineering Science
+
+journal homepage: www.elsevier.com/locate/ces
+
+Continuous flow nitration of 3-[2-chloro-4-(trifluoromethyl) phenoxy] benzoic acid and its chemical kinetics within droplet-based microreactors
+
+Shenfang Li a, Xunli Zhang b, Desheng Ji a, Qingqiang Wang a, Nan Jin a, Yuchao Zhao a,⇑
+
+a Shandong Engineering Research Center of Green Manufacturing for New Chemical Materials, College of Chemistry & Chemical Engineering, Yantai University, Yantai 264005, China b School of Engineering & Institute for Life Sciences, University of Southampton, Southampton SO17 1BJ, UK
+
+h i g h l i g h t s
+
+g r a p h i c a l a b s t r a c t
+
+ The synthesis of Acifluorfen by continuous flow nitration was performed within droplet-based microreactor.
+
+ The effects of operating parameters were characterized by hydrodynamics and thermodynamics.
+
+ The apparent and intrinsic kinetic model was established.
+
+a r t i c l e i n f o
+
+a b s t r a c t
+
+Article history: Received 15 January 2022 Received in revised form 28 March 2022 Accepted 4 April 2022 Available online 9 April 2022
+
+Aromatic nitration still faces unmet technical challenges in relation to being heterogeneous and highly exothermic. In this work, a continuous flow aromatic nitration was developed with mixed acid within droplet-based microreactors. The effects of key operating parameters were characterized on the nitration of 3-[2-chloro-4-(trifluoromethyl)phenoxy] benzoic acid. The optimized reaction temperature, M-ratio and N/S were found to be 308 K, 1.6 and 0.57, respectively. Under these conditions, a conversion of 83.03% and selectivity of 79.52% were achieved. The addition of acetic anhydride improved both the sol- ubility of etherate in the organic phase and the absorbability of water produced from the reaction, leading to increase in conversion, however increased by-products accordingly with reduced selectivity. Pseudo- homogeneous kinetics models were developed of apparent and intrinsic reaction rate constant, support- ing the second-order reaction assumption. The calculated results based on the kinetics model were found to be in good agreement with the experimental results.  2022 Elsevier Ltd. All rights reserved.
+
+Keywords: Microreactors Microchannel Continuous flow Nitration Kinetics Mass transfer
+
+⇑Corresponding author. E-mail address: yczhao@ytu.edu.cn (Y. Zhao).
+
+https://doi.org/10.1016/j.ces.2022.117657 0009-2509/ 2022 Elsevier Ltd. All rights reserved.
+
+S. Li, X. Zhang, D. Ji et al. Chemical Engineering Science 255 (2022) 117657
+
+Nomenclature
+
+A pre-exponential factor, m3/(mols) a activity, molL1
+
+n the thermodynamic parameter defined in Eq.11 Pe Peclet number of the mixed acid phase Q total flow rate, lLmin1
+
+CA concentration of etherate, molL1
+
+C0 A initial concentration of etherate, molL1
+
+Qc flow rate of the continuous phase, lLmin1
+
+CNOþ concentration of the nitronium ion, molL1
+
+Qd flow rate of the dispersed phase, lLmin1
+
+CHNO3 concentration of nitric acid, molL1
+
+Re Reynolds number of the mixed acid phase Sc Schmidt number of mixed acid phase Sh Sherwood number of mixed acid phase T reaction temperature, K
+
+Ct HNO3 total concentration of nitric acid, molL1
+
+CHþ proton concentration in the mixed acid, molL1
+
+CH2SO4 concentration of the sulfuric acid, molL1
+
+D diameter of microchannel, m DEtherate diffusivity of Etherate, m2s1
+
+t reaction time, s mm molecular volume of Etherate at normal boiling point, m3/mol mOrganic flow rates of organic phase, lLmin1 mMixed acid flow rates of mixed acid, lLmin1
+
+d diameter of droplets in microchannel reactor, m Etherate 3-[2-chloro-4-(trifluoromethyl)phenoxy] benzoic acid Ea activation energy, kJmol1
+
+DGHNO3 gibbs free energy of HNO3, kJmol1
+
+w mass fraction of etherate in organic phase xA conversion of etherate
+
+Ha Hatta number kapp apparent reaction rate constant, Lmol1s1
+
+k exp apparent rate constant of the nitronium ion, Lmol1s1
+
+Greek letters qOrganic density of etherate, gml1 q density of sulfuric acid, gml1 cA activity coefficients of etherate cNO þ activity coefficients of NO2 + c activity coefficient of the transition-state intermediate l viscosity, Pas
+
+kL overall mean mass transfer coefficient, ms1
+
+k0 intrinsic reaction rate constant, Lmol1s1
+
+KHNO3 equilibrium constant of nitric acid KNO þ equilibrium constant of nitronium ion M-ratio molar ratio of nitric acid to etherate Mc activity coefficient function N/S molar ratio of nitric acid to sulfuric acid nA the amount of substance of etherate, mol
+
+The submillimeter microscale continuous flow process is particu- larly of significance to fast exothermic and complex reactions, such as polymerization and radical reactions involving unstable inter- mediates or toxic reagents (Kim et al., 2004; Zaborenko et al., 2010). In our series of studies on microreactor technology, we have successfully developed a range of droplet-based microreactors, demonstrating the capability and suitability for effective multi- phase reactions by regulating hydrodynamics, interface character- istics and overall mass transfer (Zhang et al., 2018; Ma et al., 2019; Zhou et al., 2020; Hao et al., 2020; Sun et al., 2021; Jin et al., 2021). Furthermore, microreactors have been shown as a promising plat- form for the characterization of chemical reaction kinetics, mainly due to the high degree of controllability over the multiphase microenvironment (Zaborenko et al., 2010; McMullen and Jensen, 2011; Wang et al., 2011; Su et al., 2015). With the unique characteristics of microreactors, the perfor- mance of high space time yield, short reaction time, low energy consumption, and high selectivity have also been demonstrated for carrying out aromatic nitration (Olah et al., 1989; Jähnisch et al., 2004; Coyle and Oelgemöller, 2008; Illg et al., 2010; Sharma et al., 2015). By using a continuous-mode microreactor, Kulkarni et al. (Kulkarni et al., 2009) realized the nitration of ben- zaldehyde with controllable reaction time, temperature and stoi- chiometric ratios. Yu et al. (Yu et al., 2013) developed a continuous microreactor process for the nitration of p-difluorobenzene with fuming nitric acid achieving a high product yield 98% within 2 min reaction time. Lan et al. (Lan and Lu, 2021) further developed a micropacked-bed reactor for the continuous nitration of o-dichlorobenzene which was impressively completed within 5 s with a selectivity of 89% for the main product. Consider- ing the highly exothermic nature with high risk of explosion, the nitration reaction is normally performed at low temperature, typ- ically around 273 K, which can inevitably increase operating diffi- culties and energy consumption. To address these issues, Wen et al.
+
+1. Introduction
+
+Aromatic nitration is a class of reactions that are widely applied in the synthesis of industrially important chemical intermediates involved in the production of dyes, plastics, herbicides and phar- maceuticals (Vogt et al., 2015). However, technical challenges still remain in further improvement of the industrial process. Firstly, as the nitration reagent is typically a mixture of concentrated nitric and concentrated sulfuric acid, it constitutes a heterogeneous liq- uid–liquid two-phase reaction system (Rahaman et al., 2010). In this heterogeneous system, the reaction can take place either mostly in the aqueous phase or at the two-phase interface where effective mass transfer across interface is essential (Schöfield, 1980; Olah et al., 1989). Secondly, aromatic nitration reactions are mostly highly exothermic with fast reaction rates, where the reaction enthalpy ranges typically from 73 kJmol1 to 253 kJmol1, largely depending on the functional groups on the aromatic ring and their positioning (Sharma et al., 2015; Wen et al., 2017). In addition, the combination of these factors and their interplay add further complexity and challenges to the reaction system for achieving high safety and efficiency. For example, in the most commonly used batch reactors currently, poor mass transfer can result in locally excess nitric acid that, in turn, leads to the formation of localized ‘‘hot spots" and side reactions such as secondary and tertiary nitration for by-products (Sharma et al., 2015). Therefore, there has been much effort in addressing these challenges by developing safer and more efficient reactors for aromatic nitration. Over the last two decades, the development in microreactor technology has demonstrated its unique advantages, compared to conventional macroscale batch reactor systems, owing to its large specific surface area, excellent mass and heat transfer rate (Wang et al., 2011), intrinsic process safety, accurate control over reaction parameters, high integration and scalability (Hessel et al., 2011).
+
+S. Li, X. Zhang, D. Ji et al. Chemical Engineering Science 255 (2022) 117657
+
+thermore, through theoretical analysis a pseudo-homogeneous based on the kinetics model was developed to determine kinetics parameters of the nitration reaction, which was further used to predict the reactant conversion. Finally, the kinetics model was validated by comparing calculated data against experimental results.
+
+(Wen et al., 2018) developed a microreactor for the nitration of tri- fluoromethoxybenzene by mixed acid, where the reaction temper- ature was increased to 271 K (being 8 K higher than that in the conventional batch process). For the nitration of 2-ethylhexanol with the mixed acid in a microreactor, Li et al. (Li et al., 2017) fur- ther raised the reaction temperature to room temperature which was significant compared to the commonly applied temperature range of 263 K to 283 K in batch reactors. In addition, the homoge- neous nitration kinetics of aromatic compounds were well investi- gated by Luo's group (Cui et al., 2021, Song et al., 2022a, 2022b) using a continuous flow microreactor, where each experimental data could be obtained in a few seconds due to the accurate tem- perature control. Among many important aromatic nitration products, fluori- nated diphenyl ethers have been discovered to be effective herbi- cides with high biological activities and photostability, low toxicity to mammals, and low residue (Jiang, 2006), which are widely used agriculturally to control annual broadleaf weeds in crop fields. Acifluorfen, in particular, has been found suitable in fields growing soybeans, peanuts, peas, and rice as these crops nat- urally have a high tolerance to acifluorfen and its salts (Shepherd et al., 2013). Currently, acifluorfen is mostly produced with con- ventional batch reactors through the nitration of 3-[2-chloro-4-(tri fluoromethyl)phenoxy] benzoic acid with mixed nitric and sulfuric acids (Giacobbe and Tsien, 1983), as expressed in Eqs. (1)–(4).
+
+2. Experimental
+
+2.1. Chemicals
+
+Chemicals used in this work mainly included: fuming nitric acid (>98 wt%, Tianjin Kemiou Co., Ltd.), sulfuric acid (concentration > 95 wt%, Sinopharm Chemical Reagent Co., Ltd.), 3-[2-chloro-4-(trifluoromethyl) phenoxy] benzoic acid (>93.3 wt%, Qingdao Hansen Biologic Science Co., Ltd.), 1,2-dichloroethane (>99 wt%, Sinopharm Chemical Reagent Co., Ltd.), acetic anhydride (>99 wt%, Sinopharm Chemical Reagent Co., Ltd.), methanol (HPLC, Merck), acetic acid (HPLC, Sinopharm Chemical Reagent Co., Ltd.), phosphoric acid (HPLC, Sinopharm Chemical Reagent Co., Ltd.). The deionized water was made in-house. All chemicals and reagents were used as received without any further purification.
+
+2.2. Experimental setup and procedure
+
+HNO3 þ 2H2SO4 ! NOþ 2 þ 2HSO 4 þ H3Oþ ð1Þ
+
+The microreactor consisted mainly of a FEP T-mixer (i.d. 0.5 mm, IDEX Health & Science), two inlet PTFE tubes with suffi- cient length for preheating (i.d. 0.5 mm, length 1 m, IDEX Health & Science), and a main reaction circular PTFE channel with selected inner diameter and length (i.d. 0.5, 1.0, or 1.59 mm; length 0.4– 8 m; Nichias Corporation). The microreactor and overall experi- mental setup is schematically shown in Fig. 1. Two precision syringe pumps (Harvard 11 ELITE Single, USA) were used to deliver organic phase and the mixed acid through the respective inlet tube into the T-mixer, and then the main reac- tion channel. All inlet tubes, T-mixer and the reaction channel were placed in a thermostatic water bath (Julabo GmnH CORIO CD-200F, Germany) at preset reaction temperature. The residence time was regulated by the length of the reaction channel and/or flow rate. The M-ratio was controlled by the volumetric flow rate ratio of two phases. The reaction mixture from the outlet of the main reac- tion channel was then quenched in an ice-water bath (Julabo GmnH CORIO CD-200F, Germany). The organic phase was sepa- rated quickly from the quenched reaction mixture, and was subse- quently treated with solvent removal by natural volatilization at room temperature, drying by a baking oven at 333 K, powder grinding to form final fine powder product. A stereo microscope (Olympuss ZX2-ILLK, Japan) coupled with a high-speed camera (Phantom Miro R311, USA) were used to record the droplet length and flow. The imaging frame rates was set as 1000 frames per sec- ond. The length and the distance of the acid droplets were mea- sured by ImageJ.
+
+C14H8ClF3O3 þ NOþ 2 ! C14H8ClF3NO5 þ Hþ ð2Þ
+
+2HSO 4 þ H3Oþ þ Hþ ! 2H2SO4 þ H2O ð3Þ
+
+ð4Þ
+
+In the conventional batch process, the reaction temperature range of 273–278 K is generally selected while the mixed acid has to be added dropwise into the reactor over a lengthy period of feeding time, typically 2–4 h, that is followed by a further >5 h reaction time to complete the reaction (Jiang, 2006). Clearly, these constrains have impact significantly on the space time yield of the reactor and the efficiency of the overall process. Despite the importance of this product commercially and agriculturally, the fundamental drawbacks of macroscale batch reactors together with the remarkable lack of kinetics data for this particular reac- tion still hinder the progress for improving the process towards economically viable and environmentally sustainable manufacturing. The aim of the present research was to develop a continuous flow process for aromatic nitration with mixed acid towards the production of acifluorfen, while gain insights into the chemical kinetics of the reaction, by using droplet-based microreactor tech- nology that has been intensively developed in our previous work. Through selected design of the droplet-based microreactor, the nitration of 3-[2-chloro-4-(trifluoromethyl)phenoxy] benzoic acid with mixed (HNO3/H2SO4) acid was carried out in the continuous flow droplet format. The reaction conditions were optimized by quantifying the effects of a wide range of key operating parame- ters, including reaction temperature, residence time and total flow rate, molar ratio of HNO3 to H2SO4 (namely, N/S), molar ratio of HNO3 to 3-[2-chloro-4-(trifluoromethyl) phenoxy] benzoic acid (namely, M-ratio), and the introduction of acetic anhydride into organic phase (mainly 1,2-dichloroethane) as a solubility promoter and also water absorbent. Three microreactor dimensions were also designed in order to assess the microreactor scalability. Fur-
+
+2.3. Product analysis
+
+For product analysis, the powder product was first dissolved in methanol that was then analyzed with HPLC (Waters e2695, 2998 PDA, Aglilent Eclipse Plus C18-5 lm 4.6  250 mm, UV-254 nm). The mobile phase was made of methanol (70 vol%) + water (30 vol%) + acetic acid (0.3 vol%) + phosphoric acid (0.2 vol%). The column temperature was kept at 308 K and the flow rate was set at 1 mLmin1. The composition of product was quantita- tively analyzed by the external standard method, and the molar concentration of total etherate was determined by the corrected
+
+S. Li, X. Zhang, D. Ji et al. Chemical Engineering Science 255 (2022) 117657
+
+Fig. 1. Schematic overview of the experimental setup and operation flow.
+
+to assist the dispersion of etherate in the organic phase and also act as a water absorbent in the mixed acid during the nitration reaction. In the mixed acid the water content was about 4.04– 4.39 wt%, and the molar ratio of sulfuric acid to nitric acid (S/N) was varied between 0.41 and 0.75. The M-ratio was in the range of 0.9–2.0. Under typical operating conditions, the size of aqueous droplets was in the range of 0.36–0.50 mm long, with a distance of 2.47– 7.51 mm between adjacent droplets at the beginning of droplet formation (as illustrated in Fig. 2). The frequency of droplet gener- ation was typically ranging from 2.07 Hz to 27.03 Hz. Through initial experiments by changing a range of factors, some key operating parameters were identified, including reaction temperature, the residence time, total flow rate, M-ratio, N/S in the mixed acid, and acetic anhydride content in organic phase. The diameter of the reaction channel was found also an important fac- tor affecting reaction results which was also of direct relevance to the production capacity. All these key parameters were subse- quently investigated in more detail.
+
+peak area normalizing method. The conversion of etherate was cal- culated by the following equation:
+
+   100% ð5Þ
+
+xA ¼ 1  cetherate ctotal etherate
+
+where xA is the conversion of etherate and c is the molar concentra- tion of the substances in the sample. The selectivity to acifluorfen was calculated by the following equations:
+
+   100% ð6Þ
+
+S ¼ cacifluorfen ctotal etherate  cetherate
+
+where S is the selectivity to the target product acifluorfen.
+
+3. Results and discussion
+
+3.1. Controllable droplet microfluidics coupled with nitration reaction
+
+By varying total flow rate and flow rate ratio, stable and control- lable droplet-based multiphase microfluidics was achieved, as shown in Fig. 2. Regular droplets were generated of aqueous phase mixed acid which were suspended in the continuous organic phase composed of mainly 1,2-dichloroethane as main carrier, and reac- tant 3-[2-chloro-4-(trifluoromethyl) phenoxy] benzoic acid (or etherate) whose mass fraction in the total mass of two fluid streams was 8.8 wt%. Because the solubility of the reactant in 1,2-dichloroethane is very low, especially as no acetic anhydride exists in the organic phase. In order to stably deliver the feed with- out solid particles, a large amount of solvent must be adopted in microreactor. Although the low content of reactant will reduce the production capacity, it is more important to carry out success- fully the nitration process, control precisely the operating parame- ters and improve the stability of the product quality. Varying amount of acetic anhydride was also added to the organic phase
+
+3.2. Optimization of key operating parameters
+
+3.2.1. Effects of reaction temperature and residence time For the heterogeneous nitration reaction, the reaction tempera- ture and the residence time are important factors that affect the conversion of the reagents and the selectivity of the main product. Their effects were quantified by varying temperature (288–318 K) and residence time (60–660 s) in the reactor while keeping N/S at 0.57 in the mixed acid and an M-ratio of 1.6. The experimental results are depicted in Fig. 3. As shown in Fig. 3(a), the conversion of etherate increased by increasing either residence time or reaction temperature. The former can be attributed to the longer contact time of the two reactant phases and longer reaction time. The latter was mainly due to the higher temperature resulting in higher reaction rate
+
+S. Li, X. Zhang, D. Ji et al. Chemical Engineering Science 255 (2022) 117657
+
+(b)
+
+(a)
+
+T [K]
+
+Selectivity / %
+
+Conversion / %
+
+T [K]
+
+Residence time / s
+
+Residence time / s
+
+Fig. 3. Effects of reaction temperature and residence time on (a) conversion of etherate and, (b) product selectivity in nitrification. Etherate content in organic phase = 8.8 wt %, M-ratio = 1.6, N/S = 0.57, total flow rate = 142 lLmin1.
+
+As can be seen from Fig. 4(a), the conversion of etherate increased with the increase of M-ratio. That was largely due to the supply of more NO2 + ions at higher M-ratios. At the same time, the increase amount of sulfuric acid at higher M-ratios reduced the dilution effect of the reaction produced water during the reac- tion process. It was also observed that raising M-ratio in the feed increased the size of the dispersed acid droplets in the oil phase along the microchannels, causing the two-phase interfacial area to be reduced. The reduction in interfacial area can negatively affect the overall mass transfer performance and, in turn, the apparent reaction rate. However, the results in Fig. 4(a) suggested that under the experimental conditions this transport effect was insignificant on overall conversion where little signs of levelling-off were observed with conversion in the high M-ratio ranges. At a given M-ratio level, overall, lower N/S ratios resulted in higher conversions. This may be attributed to the increased amount of sulfuric acid which acted as a catalyst in the nitration reaction to protonate nitric acid and generate NO2 + ions (Sharma et al., 2015). In addition, the increased amount of sulfuric acid as a water absorbent enhanced the inhibition of dilution effect of water produced from the nitration reaction, that further increased the apparent reaction rate (Ross et al., 1983; Deno et al., 1961). It was observed that, in the lower M-ratio range (<1) the effect of varying M-ratio was insignificant on conversion, as shown in Fig. 4(a). That was likely due to the slow production rate of NO2 +
+
+constants, whilst higher mass transfer rates across the two phases. Fig. 3(b) shows that the selectivity decreased with the increase of either reaction temperature or residence time, indicating the pos- sible side reactions which were accelerated at higher temperatures and prolonged over longer reaction times. As generally understood, the reaction rate coefficient increases with the increase of reaction temperature according to the Arrhe- nius equation. At the same time, the increase in temperature can enhance mass transfer across the multiphase interface, as the molecular diffusion coefficient is proportional to the reaction tem- perature, which can further increase the apparent reaction rate. When the residence time of the reagents in the microreactor was short (<300 s), the reaction was unable to complete, thus showed overall low conversions especially in the low temperature range. On the other hand, when a longer residence time was selected, it gave higher possibility of side reactions reducing the selectivity of the main product, as also observed in other reactions (Zeibi Shirejini and Mohammadi, 2017). For a balanced outcome, temper- atures and residence times in the middle ranges (i.e. 298 K and 220 s) were selected in the subsequent investigations into the effects of other factors.
+
+3.2.2. Effects of M-ratio and N/S in the mixed acid By varying M-ratio (0.9–2.0) and N/S (0.41–0.75) in the mixed acid, their effects on reaction conversion and selectivity were investigated with a fixed temperature of 298 K and a residence time of 220 s. The results are illustrated Fig. 4.
+
+in the mixed acid with low sulfuric acid contents.
+
+(b)
+
+(a)
+
+N/S
+
+N/S
+
+0.41 0.57 0.62 0.75
+
+0.41 0.57 0.62 0.75
+
+Conversion / %
+
+Selectivity / %
+
+0.9 1.2 1.5 1.8 2.1
+
+0.9 1.2 1.5 1.8 2.1
+
+M-ratio
+
+M-ratio
+
+S. Li, X. Zhang, D. Ji et al. Chemical Engineering Science 255 (2022) 117657
+
+The variation of reactant conversion was likely a result of the effect of total flow rate on the flow dynamic behavior of droplet- based microfluidics, such as geometry of dispersed droplets, their possible coalescence along the microchannel and two-phase inter- facial property (Hao et al., 2020; Tang et al., 2013). Generally, at high total flow rates smaller dispersed droplets are formed that increased the interfacial surface area and, in turn, enhanced mass transfer performance leading to higher reaction rates. On the other hand, higher total flow rates can cause the coalescence of the dis- persed acid droplets in microchannels, which can weaken the mass transfer performance. As observed in Fig. 6, the dispersion of the two-phase droplets was uniform and stable when the flow rate was below 426 lLmin1. In that case, the internal circulation in the droplets and the renewal velocity of two-phase phase interface were enhanced with the increase in the total flow rate, where the mass transfer rate from the organic phase to the acid droplets was intensified (Zhao et al., 2007; Antony et al., 2014), resulting in higher conversions. It can be seen in Fig. 6, with further increase in the flow rate, the coalescence of the dispersed droplets occurred causing the decrease of two-phase interfacial area and reduced mass transfer performance, despite the possible chaotic flow of the continuous phase at high flow rates (Husny and Cooper- White, 2006). As shown in Fig. 5, the selectivity of the nitration reaction under these operating conditions remained approximately constant. This was largely due to the residence time, N/S, M-ratio, organic phase concentration and reaction temperature all being kept unchanged, which were considered to be the main factors affecting the selec- tivity of this reaction. Overall, the effect of total flow rate was insignificant on either conversion or selectivity under the experiment conditions, sug- gesting a very wide operating zone which is beneficial for optimiz- ing operation conditions and process scaling-up.
+
+Fig. 4(b) shows that overall the product selectivity decreased slightly with increasing M-ratio, dropping from an average of 81.6% (with M-ratio at 0.9) to about 80% at an M-ratio of 1.95. This can be largely attributed to the side reactions in the nitration pro- cess. The analysis of reaction products indicated that the side reac- tions mainly included carboxyl ortho-, para-position nitration and dinitration. As discussed above, the kinetically positive effects pro- moted both the main reaction and the side reactions simultane- ously with the increase of M-ratio. Generally, carboxyl ortho- and para-position nitration reactions are considered to be parallel side reactions, and their reaction order is the same as the main reaction (Wen et al., 2017). Therefore, the effect of M-ratio on the selectivity became insignificant. At the same time, the dinitra- tion of the etherate is believed to be a consecutive side reaction, which can be affected by M-ratio despite its high reaction activa- tion energy (Chen et al., 2013). That led to the overall slight decrease in selectivity with raising M-ratio, as shown in Fig. 4(b).
+
+3.2.3. Effects of varying total flow rate With a given diameter of the reaction tube, varying total volu- metric flow rate can affect the liquid–liquid two-phase hydrody- namics in the droplet-based reactor that may have potential impact on the reaction performance. This possible effect was examined by varying the total flow rate in a range of 200–1200 l Lmin1. Accordingly, the main reaction tube length was changed in order to keep a constant residence time (83 s), while remaining N/S, M-ratio, organic phase concentration and reaction tempera- ture all as constant. The reactant conversion and product selectiv- ity as a function of total flow rate are depicted in Fig. 5. It was observed that the conversion increased slightly from 65% to 67% with the increase of the total flow rate in the low total flow rate range (<426 lLmin1). That was followed by a slight decrease in conversion from 67% to 61% when the total flow rate was increased from 426 lLmin1 to 580 lLmin1. As the total flow rate was raised further from 580 lLmin1 to 1200 lLmin1, a very slight recovery of conversion was found, from 61% to 64%.
+
+3.2.4. Effects of acetic anhydride content in organic phase To investigate the effect of the addition of acetic anhydride, which has been found beneficial to the solubility of etherate in the organic phase and also acts as the water absorbent during the nitration reaction (Brown and Muxworthy, 1997; Brown et al., 1998; Brown et al., 2004). The addition of acetic anhydride has no other effects on the purification and separation of the prod- uct. During the reaction process, the etherate reacts with the mixed acid, and the product is dissolved in the solvent. The solid product is crystalized out by volatilizing the solvent and the acetic acid. Then, it is washed by soft water to remove the remained acid and other water-soluble impurities. Varying amount of acetic anhydride was introduced in a range of 0–8 wt% to the organic phase. The reactant conversion and product selectivity were mea- sured under the reaction conditions of: 8.8 wt% etherate content in organic phase, 142 lLmin1 total flow rate, N/S 0.57, M-ratio 1.6, and reaction temperature 298 K. The results are illustrated in Fig. 7. It was initially interesting to observe that the conversion firstly decreased to a minimum level with the addition of acetic anhy- dride, dropping from approximate 98% to 77% when the acetic anhydride content was increased from 0 to 3 wt%. With further
+
+Conversion Selectivity
+
+Conversion / %
+
+Selectivity /%
+
+Total flow rate (μL·min -1)
+
+Fig. 5. Effects of the total flow rate and the reactor channel length. Etherate content in organic phase = 8.8 wt%, T = 298 K, residence time = 83 s, M-ratio = 1.6, N/S = 0.57.
+
+S. Li, X. Zhang, D. Ji et al. Chemical Engineering Science 255 (2022) 117657
+
+acetic acid, which is also positive for generating NO2 +. Finally, the existing NO2 + in the mixed acid increases the possibility of dinitra- tion. This was also in line with the observation discussed above in Fig. 4.
+
+Conversion / %
+
+Selectivity / %
+
+Conversion Selectivity
+
+3.3. Scalability study by varying microreactor geometry
+
+To increase the reactor output, one of the commonly used approaches is to scale up the reactor capacity that is the reactor channel diameter in continuous flow microreactors. However, dur- ing the scaling-up of microreactors their unique characteristics need to be kept, such as microfluidic controllability, and mass and heat transfer properties. To understand the scalability of the droplet-base microreactor for the nitration reaction in this work, microreactors with three microchannel diameters (i.e. 0.5, 1.0 and 1.59 mm i.d.) were constructed to investigate the effect of varying reactor channel diameter on reactant conversion with a fixed N/S at 0.57, M-ratio at 1.6, and temperature at 298 K (Fig. 8). As can be seen from Fig. 8(a), where both residence time (t = 333.5 s) and total flow rate (Q = 142 lLmin1) were kept con- stant by changing the reactor length (0.4–4 m) accordingly, the conversion of etherate decreased slightly from 80% to 75.5% with the increase of the inner diameter of the reactor tube from 0.5 mm to 1.59 mm. That was mainly due to the change of flow dynamics. As the residence time and the total flow rate were kept unchanged, the smaller inner diameter resulted in higher flow velocity, leading to more intense chaotic convection and more rapid interface renewal that were beneficial to the apparent reac- tion rate. In addition, the increase of inner diameter was more favorable for the occurrence of coalescence of the dispersed dro- plets, which further reduced the liquid–liquid two-phase interfa- cial area and increased the mass transfer distance.
+
+Content of acetic anhydride / wt%
+
+Fig. 7. Effects of acetic anhydride content in organic phase on nitration reaction.
+
+increase in the acetic anhydride content from 3 wt% the conversion started to bounce back, until again approximate 100% when 8 wt% was added. At the same time, the curve of selectivity vs. acetic anhydride content exhibited an opposite trend to the conversion curve, showing a maximum selectivity of 80% at around 3 wt% acetic anhydride. A closer examination revealed the critical role that acetic anhy- dride played with the solubility of etherate in the organic phase, mainly 1,2-dichloroethane. Without acetic anhydride added, the solubility of etherate was very low in 1,2-dichloroethane at 293– 298 K, where even precipitation took place in the syringe. In this case, the amount of etherate fed into the reactor was in fact far from that expected, i.e. having a much higher M-ratio than the set value. Therefore, an apparent highest conversion close to 100% and a lowest selectivity of 72% were observed, that was in line with the results of the effect of M-ratio on the reaction, as shown in Fig. 4. By adding acetic anhydride the solubility of ether- ate was improved, until fully dissolved in 1,2-dichloroethane with 2.73 wt% of acetic anhydride added, where the minimum and max- imum of conversion and selectivity were reached, respectively. By further increasing the content of acetic anhydride, other roles started to play more significantly by acetic anhydride. The increase in overall conversion resulting from adding more acetic anhydride prompted the side reactions simultaneously, leading to the increase of dinitration by-products as detected from HPLC analysis. On the one hand, acetic anhydride can improve the dehy- dration of sulfuric acid in the mixed acid and the formation of NO2 +
+
+Fig. 8(b) shows that, when both constant residence time (t = 333.5 s) and capillary length were kept constant (4 m) by vary- ing the total flow rate (Q = 142–1448 lLmin1), the conversion decreased from 80% to 58.4% with the increase of the reactor tube diameter from 0.5 mm to 1.59 mm. This was likely related to the increased mass transfer distance between the two phases in larger diameter reactors, again due to the higher probability of coales- cence of the adjacent dispersed droplets. Moreover, the higher total flow rate required for the larger diameter reactor led to more intense droplet coalescence, thus the reduced phase interfacial area further affected negatively the transport efficiency and decrease the overall conversion. Nevertheless, the results were indicative that, under the given experimental conditions, with a slight decrease in reactant conversion (e.g. from 80% to 70%) it
+
+(Brown and Muxworthy, 1997). On the other hand, acetic anhy- dride can react with water from the nitration reaction to form
+
+t =333.5 s Q=142 μL·min -1
+
+t =333.5 s Tube Length=4 m
+
+(a)
+
+(b)
+
+Conversion / %
+
+Conversion / %
+
+0.5mm
+
+0.5mm
+
+1.59mm 1mm Tube inner diameter / mm
+
+1.59mm 1mm Tube inner diameter / mm
+
+S. Li, X. Zhang, D. Ji et al. Chemical Engineering Science 255 (2022) 117657
+
+where C0 A is the initial concentration of etherate, xA is the conversion of etherate, and M is the initial M-ratio. Integrating Eq. (8) yields Eq. (9) for determining product concentration parameter (G) at a given of time (t).
+
+was able to give a fourfold increase in total volumetric flow rate when the reactor channel diameter was doubled (from 0.5 mm to 1.0 mm).
+
+3.4. Chemical kinetics
+
+  ¼ kappt ð9Þ
+
+C0 AðM  1Þ ln M  xA Mð1  xAÞ
+
+G ¼
+
+3.4.1. Apparent reaction rate In the heterogeneous nitration process, the aromatic com- pounds diffuse to the liquid–liquid two-phase interface through the organic phase into the aqueous phase while nitration usually occurs in the interface boundary layer and/or in the aqueous phase (Zaldivar et al., 1995). Although the opposite diffusion of nitric acid and sulfuric acid to organic phase might occur, their solubility in the organic phase was very limited to form nitronium ions for nitration (Schöfield, 1980; Olah et al., 1989). While mass transfer and nitration reaction are difficult to be decoupled, a pseudo- homogeneous phase model has been proposed to cover the cou- pled two processes (Papayannakos and Petrolekas, 1992; Andreozzi et al., 1993). Based on experiment results in homoge- neous nitration reactions, a second-order kinetics was adopted to correlate the reaction rate (r) with the concentration of reactants (Zaldivar et al., 1992; Andreozzi et al., 2006; Di Somma et al., 2012; Mandal et al., 2014), as expressed in Eq. (7).
+
+Eq. (9) suggests that a plot of G vs. t should be linear passing through the origin with a slope equal to kapp under constant reac- tion temperature conditions. The initial concentration of etherate can be calculated with Eq. (10).
+
+C0 A ¼ nA vOrganic þ vMixed acid ¼ vOrganicqOrganicw MAðvOrganic þ vMixed acidÞ ð10Þ
+
+where nA is the amount of substance of etherate; mOrganic and mMixed
+
+acid are the flow rates of organic phase and mixed acid, respectively. MA denotes the relative molecular mass of etherate, and qOrganic, the density of etherate. w is the mass fraction of etherate in organic phase. To determine the apparent reaction rate constant kapp, in this work the kinetic experiments were conducted at four temperature levels (i.e. 288, 298, 308 and 318 K) with four compositions of mixed acid where the sulfuric acid concentration were 11.30, 12.09, 12.42 and 13.53 molL1. The experiments were carried out at high flow rate, and the total flow rate of organic phase and mixed acid phase was set as 845–3380.7 lLmin1. The measured parameters (G) as a function of reaction time (t) are plotted in Fig. 9. It can be seen that the excellent linear relations were obtained under the given operating conditions, supporting the assumption of a second-order reaction.
+
+r ¼ kappCACt HNO3 ð7Þ
+
+where kapp is the apparent reaction rate constant, and CA and Ct HNO3 are the concentration of etherate and nitric acid based on the total volume of mixed fluids, respectively. Eq. (7) can be further arranged as Eq. (8).
+
+dxA dt ¼ kappðC0 AÞ 2ð1  xAÞðM  xAÞ; M–1 ð8Þ
+
+r ¼ C0 A
+
+1.6
+
+(b)
+
+(a)
+
+T [K]
+
+T [K]
+
+1.2
+
+1.2
+
+G / mol/L
+
+G / mol/L
+
+0.8
+
+0.8
+
+0.4
+
+0.4
+
+0.0
+
+0.0
+
+Residence time / s
+
+Residence time / s
+
+2.0
+
+2.4
+
+(c)
+
+(d)
+
+T [K]
+
+T [K]
+
+1.5
+
+1.8
+
+G / mol/L
+
+G / mol/L
+
+1.0
+
+1.2
+
+0.5
+
+0.6
+
+0.0
+
+0.0
+
+Residence time / s
+
+Residence time / s
+
+S. Li, X. Zhang, D. Ji et al. Chemical Engineering Science 255 (2022) 117657
+
+kappCt HNO3 CNO þ ð14Þ
+
+0.4
+
+k  exp ¼
+
+T [K]
+
+0.3
+
+Further, the relation of k0 with kapp can be obtained from Eqs. (11), (13) and (14).
+
+kapp / L/(mol·s)
+
+kappCt HNO3 CNO þ 10nMc ð15Þ
+
+0.2
+
+k0 ¼
+
+·
+
+Then, Eq. (15) is rearranged as Eq. (16).
+
+0.1
+
+log kapp  logðCNO þ =Ct HNO3Þ ¼ logk0  nMc ð16Þ
+
+0.0
+
+According to Eq. (16), a plot of log kapp  logðCNO þ =Ct HNO3Þ
+
+Concentration of sulfuric acid / mol·L -1
+
+vs. -Mc should show a straight line, where n and logk0 can be deter- mined from the slope and the intercept of the straight line, respec- tively. However, to calculate the values of n and k0, Mc and the ratio of CNO þ to Ct HNO3 need to be necessarily determined firstly.
+
+Fig. 10. Variation of experimental values of kapp with different sulfuric acid concentrations in mixed acid at different temperature levels.
+
+According to the values of Mc (298 K) at different sulfuric acid concentrations given by Marziano et al. (1981), an empirical corre- lation between the sulfuric acid concentration in the range of 11– 14 molL1 can be obtained by a polynomial fitting.
+
+Fig. 10 shows the relationship between kapp and sulfuric con- centration of the mixed acid at different temperatures. It can be seen that, kapp increased with the increase of the concentration of the sulfuric acid at each temperature level, and also with the increase of the reaction temperature. This was in agreement with the previous observation for the effects of temperature, M-ratio and N/S on overall reaction performance (Fig. 3&4).
+
+Mcð298 KÞ ¼ 5:552  104C4 H2SO4 þ 1:85  102C3 H2SO4  0:179  C2 H2SO4 þ 1:11  CH2SO4 ð17Þ
+
+For a given mixed acid composition, the values of Mc at different temperatures can be determined by the relationship proposed by Marziano (1998).
+
+3.4.2. Intrinsic reaction rate The rate-determining step of the nitration reaction between the mixed acid and the aromatic compounds in aqueous phase is believed to be the attack of the nitronium ion NO2 + on the aromatic compounds (Albright and Hanson, 1976; Marziano et al., 1984; D'Angelo et al., 2003), where NO2 + is the real nitrating agent instead of HNO3. Therefore, the reaction rate can be further expressed in terms of concentrations of etherate and nitronium ion (Eq. (11)).
+
+McðTÞ ¼ Mcð298 KÞ 200 T þ0:3292   ð18Þ
+
+ðCNO þ =Ct HNO3Þ can be determined from the ionization equilibria
+
+of nitric acid in sulfuric acid (Rahaman et al., 2010). There are two different ionization equilibria for nitric acid coexisting simultane- ously in aqueous sulfuric acid, which are the autoionization of nitric acid and the protonation of nitric acid by sulfuric acid, respectively, as shown in Eqs. (19) & (20).
+
+r ¼ k  expCACNO þ ð11Þ
+
+where k  exp and CNOþ 2 are the apparent rate constant and the concen-
+
+tration of the nitronium ion in the mixed acid phase, respectively. According to the transition-state theory (Olah et al., 1989), the reac- tion rate equation can be expressed as Eq. (12).
+
+HNO3  NO  þH þ ð19Þ
+
+HNO3 þ H þ  NOþ 2 þ H2O ð20Þ
+
+cAcNO þ c ð12Þ
+
+The concentration of nitric acid in the reaction can be expressed as follows.
+
+r ¼ k0CACNO þ
+
+where k0 is the intrinsic reaction rate constant, which only depends on temperature. cA and cNO þ are the activity coefficients of ether-
+
+Ct HNO3 ¼ CNO þ þ CHNO3 þ CNO ð21Þ
+
+ate and NO2 +, respectively. c is the activity coefficient of the transition-state intermediate. Since there has been no accurate experimental data for obtain- ing these activity coefficients, Mc function (activity coefficient function) proposed by Marziano et al. (Marziano and Sampoli, 1983; Marziano et al., 1973; Marziano et al., 1981) was used in this work to describe the relationship between the activity and the sul- furic acid acidity. The rate equation is rewritten as Eq. (13).
+
+The equilibrium constants corresponding to Eqs. (19) & (20) can be written as.
+
+KHNO3 ¼ aNO  aH þ
+
+aHNO3 ¼ CNO  CH þ
+
+CHNO3 10  nHNO3 Mc ð22Þ
+
+KNO þ ¼ aHNO3aH þ aNOþ 2 aH2O ¼ CHNO3CH þ CNOþ 2 CH2O  nNO þ Mc ð23Þ
+
+The values of nHNO3 and nNO þ obtained by Sampoli et al.
+
+r ¼ k0CACNO þ 10nMc ð13Þ
+
+(Sampoli et al., 1985) in the mixed acid are 0.571 and 2.542, respectively. The relationship between the two dissociation equi- librium constants and the reaction temperature can be expressed as Eqs. (24) & (25),
+
+where n is the thermodynamic parameter associated with aromatic compounds, and the value of n is unique for each aromatic com- pound. The sulfuric acid acidity was expressed by Mc function, and the value of Mc was determined only by the concentration of
+
+  ð24Þ
+
+KHNO3 ¼ exp  DGHNO3 RT
+
+!
+
+KNO þ ¼ exp 1:36  104
+
+T  5:935
+
+ð25Þ
+
+S. Li, X. Zhang, D. Ji et al. Chemical Engineering Science 255 (2022) 117657
+
+where DGHNO3 is 80.79 kJmol1, which denotes the Gibbs free energy of HNO3 at 298 K. Zaldivar et al. (Zaldivar et al., 1995) obtained Eq. (24) by correlating the experimental data of Ross et al (Ross et al., 1983). In the mixed acid, it can be generally assumed that the concen- tration of H+ only depends on the sulfuric acid concentration, as the temperature fluctuation range is insignificant. The following empirical function was proposed by Zaldivar et al. (1995), based on the experimental data from Robertson and Dunford (1964), the proton concentration in aqueous sulfuric acid solution in the range of 1–99 wt% was correlated.
+
+-3.6
+
+lnk0 / L/(mol·s)
+
+-4.2
+
+-4.8
+
+-5.4
+
+3.1 3.2 3.3 3.4 3.5 -6.0
+
+CHþ ¼ 1:1757  10 2 þ 1:2406CH2SO4 þ 9:4286  10 2C2 H2SO4 2:5102  10 2C3 H2SO4 þ 2:171  10 3C4 H2SO4 6:917  10 5C5 H2SO4 ð26Þ
+
+1/T×10 3 / K -1
+
+Fig. 12. Arrhenius plot of lnk0 vs. 1/T.
+
+ified Wilke-Chang equation proposed by Perkins and Geankoplis (Schotte, 1992).
+
+According to Eqs. (16), (21), (22) and (23), the following form can be obtained.
+
+DEtherate ¼ 7:4  108T / M  1=2
+
+log Z ¼ log k0  nMc ð27Þ
+
+lv0:6 m ð30Þ
+
+" #
+
+KHNO3 CH þ 10nHNO3 Mc þ CH þ 10 nNO þ Mc
+
+CH2OKNO þ
+
+where l and mm are the viscosity of sulfuric acid and the molecular volume of etherate at normal boiling point, respectively. / M is defined as (Cox and Strachan, 1972):
+
+Z ¼ kapp
+
+CH2OKNO þ þ 1
+
+
+
+CH þ 10 nNO þ Mc
+
+ð28Þ
+
+/ M ¼ Xw/wMW þ XS/SMS ð31Þ
+
+According to Eq. (28), a straight line can be obtained by plotting logZ vs. -Mc, and the value of logk0 can be calculated from the inter- cept, whilst n is the slope of the fitting line. As shown in Fig. 11, the linear relationship well fits the experimental data, where the par- allel lines appear for different temperature, and n is independent of the reaction temperature and determined, being 0.1314. With the value of k0 obtained at different temperatures, the activation energy for the electrophilic attack of nitronium ion on the etherate can be determined by the Arrhenius equation (Eq. (29)).
+
+where the subscript w and s denote water and sulfuric acid, respec- tively. X,/, and M are the mole fraction, the association factor, and the molecular weight, respectively. The diffusivity of etherate at dif- ferent temperatures is presented in Table 1. The value of kL can be estimated using the dimensionless num- ber of Sherwood, Sh (Rahbar-Kelishami and Bahmanyar, 2012) by Eq. (32), and Schmidt number and Reynolds number can be obtained by Sc = l/qDEtherate and Re = qDu/l. D and d are the diam- eters of microchannel and droplets, respectively. The Ha number is further calculated by Eq. (34).
+
+k 0 ¼ Aexpð  Ea=RTÞ ð29Þ
+
+Sh ¼ kLd DEtherate ¼ 0:991  Pe1=3 ð32Þ
+
+By plotting lnk0 vs. 1/T in Fig. 12, the activation energy Ea and A (the pre-exponential factor) can be obtained from the slope and intercept of the straight line. By fitting the data of k0 and t, the acti- vation energy Ea was found to be 37.9 kJmol1, and A = 3.75  104
+
+Pe ¼ Re  Sc ð33Þ
+
+m3/(mols).
+
+3.4.3. Validation of pseudo-homogeneous phase assumption In order to verify the pseudo-homogeneous phase assumption, the Ha number of the reaction process was calculated. The diffusiv- ity of etherate (DEtherate) in sulfuric acid was evaluated by the mod-
+
+Table 1 Diffusivity of etherate in sulfuric acid and Ha number.
+
+T (K) CH2SO4 (molL1) kL  103
+
+(ms1) DEtherate  109
+
+(m2s1) Ha
+
+T [K]
+
+13.53 1.13 0.965 0.02686 12.42 1.095 0.920 0.02590 12.09 1.084 0.906 0.02416 11.30 1.058 0.874 0.02358
+
+-0.5
+
+13.53 1.455 1.41 0.02991 12.42 1.409 1.34 0.02916 12.09 1.395 1.32 0.02899 11.30 1.361 1.28 0.02709
+
+logZ
+
+-1.0
+
+13.53 1.877 2.07 0.03351 12.42 1.817 1.97 0.03214 12.09 1.799 1.94 0.03128 11.30 1.756 1.87 0.03095
+
+-1.5
+
+13.53 2.304 2.81 0.03926 12.42 2.231 2.68 0.03809 12.09 2.209 2.64 0.03644 11.30 2.155 2.54 0.03640
+
+-Mc
+
+M
+
+S. Li, X. Zhang, D. Ji et al. Chemical Engineering Science 255 (2022) 117657
+
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ kappDEtherateCHNO3 p
+
+models are presented in Figs. 13 & 14 (continuous curves) under different reaction conditions with varying temperature, residence time, and sulfuric acid concentration. The experimentally mea- sured results are also included in the figures for comparison. As can be seen from Figs. 13 & 14, the calculated data were reasonably in good agreement with the experimental results, validating the kinetics models developed.
+
+Ha ¼
+
+kL ð34Þ
+
+As shown in Table 1, Ha < 0.3 indicates that the etherate nitra- tion with mixed acid took place in the slow regime and was kinet- ically controlled. The assumption of pseudo-homogeneous phase is reasonable.
+
+3.4.4. Validation of kinetics models Using the intrinsic reaction kinetics data for Ea and A obtained as described above, the values of apparent reaction rate constant kapp and reactant conversion can be computed according to Eq. (13). The calculated kapp and reactant conversions from the kinetics
+
+4. Conclusions
+
+In the present work, the continuous flow nitration reaction of 3- [2-chloro-4-(trifluoromethyl) phenoxy] benzoic acid with a mix- ture of nitric and sulfuric acid was investigated within droplet- based microreactors. A wide range of operating parameters were examined to quantify their effects on the reaction outcome, includ- ing reaction temperature, residence time, M-ratio, N/S, total flow rate, composition of organic phase, and microreactor tube diame- ter. Furthermore, a pseudo-homogeneous based kinetics model was developed to determine the kinetics parameters of the nitra- tion reaction, and the calculated data was validated against exper- imental results.
+
+H2SO4(mol/L)
+
+0.4
+
+11.3 12.09 12.42 13.53
+
+kapp / L/(mol·s)
+
+0.3
+
+0.2
+
+(1) Increasing reaction temperature and M-ratio results in over- all higher reaction rate and conversion, and simultaneously increase in side reaction rate leading to the reduction of pro- duct selectivity, while increasing N/S reduces the conversion but has insignificant effect on product selectivity. The opti- mized reaction temperature, M-ratio and N/S are found to be 308 K, 1.6 and 0.57, respectively. Under optimal reaction conditions, a conversion of 83.03% and selectivity of 79.52% have been achieved in a microreactor (i.d. d= 0.5 mm, L = 4 m).
+
+0.1
+
+0.0
+
+Temperature / K
+
+Fig. 13. Comparison of calculated (continuous lines) and experimental (symbols) results of kapp with varying temperature at different sulfuric acid concentration.
+
+(a)
+
+(b)
+
+H2SO4 12.09 mol/L
+
+T [K]
+
+T [K]
+
+H2SO4 11.30 mol/L
+
+Conversion / %
+
+Conversion / %
+
+Residence time / s
+
+Residence time / s
+
+(d)
+
+(c)
+
+T [K]
+
+H2SO4 13.53 mol/L
+
+T [K]
+
+H2SO4 12.42 mol/L
+
+Conversion / %
+
+Conversion / %
+
+Residence time / s
+
+Residence time /s
+
+Fig. 14. Comparison of calculated (continuous lines) and experimental (symbols) results for the conversion of etherate with varying temperature.
+
+S. Li, X. Zhang, D. Ji et al. Chemical Engineering Science 255 (2022) 117657
+
+(2) The effect of total flow rate was insignificant on either con- version (varying between 61% and 67%) or selectivity (vary- ing between 80% and 81%) under the experiment conditions, suggesting a very wide operating zone which is beneficial for optimizing operation conditions and process scaling-up. (3) The results from three reactor channel geometries (i.d. 0.5, 1.0 and 1.59 mm) were indicative that, under the given experimental conditions, with a slight decrease in reactant conversion (from 80% to 70%) it was able to give a fourfold increase in total volumetric flow rate when the reactor chan- nel diameter was doubled (from 0.5 mm to 1.0 mm). (4) The addition of acetic anhydride content can improve the solubility of etherate in the organic phase (mainly 1,2- dichloroethane) and the absorbability of water produced from the reaction, to inhibit the decrease of sulfuric acid strength while promote the generation of NO2 +, leading to increase in conversion. With the increase of acetic anhydride content, however, the dinitration products increase accord- ingly, resulting in the reduction of the product selectivity. (5) Pseudo-homogeneous based kinetics models have been developed of apparent reaction rate constant and intrinsic reaction rate constant for the reaction of 3-[2-chloro-4- (trifluoromethyl) phenoxy] benzoic acid with nitronium ion. Excellent linear relations are obtained and the apparent reaction rate is in compliance with the second-order reac- tion assumption, at given four temperature levels (i.e. 288, 298, 308 and 318 K) with four mixed acid compositions (concentration of sulfuric acid: 11.3, 12.09, 12.42 and 13.53 molL1). The values of A and Ea in the Arrhenius equa- tion for this reaction are determined to be 3.75  104 m3/(- mols) and 37.9 kJmol1, respectively. The calculated results based on the kinetics model are in good agreement with the experimental results.
+
+Brown, S.M., Gott, B.D., Muxworthy, J.P., 2004. Process for the preparation of diphenyl ether compound: U.S. Patent 6,790,991. Brown, S.M., Muxworthy, J.P., 1997. Process for nitrating diphenyl ether compounds: WO. Patent 9,710,199. 1997-2-4. Brown, S.M., Muxworthy, J.P., Lennon, M., Atherton, J.H., Preistley, I., 1998. Nitration process: WO. Patent 9,819,978. 1998-5-14. Chen, Y.Z., Zhao, Y.C., Han, M., Ye, C.B., Dang, M.H., Chen, G.W., 2013. Safe, efficient and selective synthesis of dinitro herbicides via a multifunctional continuous- flow microreactor: one-step dinitration with nitric acid as agent. Green Chem. 15 (1), 91–94. Coyle, E.E., Oelgemöller, M., 2008. Micro-photochemistry: photochemistry in microstructured reactors. The new photochemistry of the future? Photochem. Photobiol. Sci. 7 (11), 1313–1322. Cox, P.R., Strachan, A.N., 1972. Two-phase nitration of toluene. Part II. Chem. Eng. J. 4 (3), 253–261. Cui, Y.J., Song, J., Du, C.C., Deng, J., Luo, G.S., 2021. Determination of the kinetics of chlorobenzene nitration using a homogeneously continuous microflow. AIChE J. e17564. D'Angelo, F.A., Brunet, L., Cognet, P., Cabassud, M., 2003. Modelling and constraint optimisation of an aromatic nitration in liquid-liquid medium. Chem. Eng. J. 91 (1), 75–84. Deno, N.C., Peterson, H.J., Sacher, E., 1961. Nitric acid equilibria in water-sulfuric acid. J. Chem. Phys. 65 (2), 199–201. Di Somma, I., Marotta, R., Andreozzi, R., Caprio, V., 2012. Kinetic and safety characterization of the nitration process of methyl benzoate in mixed acid. Org. Process Res. Dev. 16 (12), 2001–2007. Giacobbe, T.J., Tsien, G., 1983. Process for recovering and purifying herbicidal phenoxybenzoic acid derivatives: US. Patent 4,405,805. Hao, Y.Y., Jin, N., Wang, Q.Q., Zhou, Y.F., Zhao, Y.C., Zhang, X.L., Lv, H.Y., 2020. Dynamics and controllability of droplet fusion under gas-liquid-liquid three- phase flow in a microfluidic reactor. RSC Adv. 10 (24), 14322–14330. Hessel, V., Cortese, B., De Croon, M., 2011. Novel process windows-concept, proposition and evaluation methodology, and intensified superheated processing. Chem. Eng. Sci. 66 (7), 1426–1448. Husny, J., Cooper-White, J.J., 2006. The effect of elasticity on drop creation in T- shaped microchannels. J. Non-Newton Fluid Mech. 137 (1–3), 121–136. Illg, T., Löb, P., Hessel, V., 2010. Flow chemistry using milli-and microstructured reactors-from conventional to novel process windows. Bioorganic Med. Chem. Lett. 18 (11), 3707–3719. Jähnisch, K., Hessel, V., Löwe, H., Baerns, M., 2004. Chemistry in microstructured reactors. Angew. Chem. Int. Ed. 43 (4), 406–446. Jiang, C.Y., 2006. Synthesis of concentrated technical grade fomesafen. Agrochemicals 2, 99–101. Jin, N., Yue, J., Zhao, Y.C., Lv, H.Y., Wang, C.X., 2021. Experimental study and mass transfer modelling for extractive desulfurization of diesel with ionic liquid in microreactors. Chem. Eng. J. 413, 127419. Kim, D.S., Lee, S.W., Kwon, T.H., Lee, S.S., 2004. A barrier embedded chaotic micromixer. J. Micromech. Microeng. 14 (6), 798–805. Kulkarni, A.A., Kalyani, V.S., Joshi, R.A., Joshi, R.R., 2009. Continuous flow nitration of benzaldehyde. Org. Process Res. Dev. 13 (5), 999–1002. Lan, Z., Lu, Y.C., 2021. Continuous nitration of o-dichlorobenzene in micropacked- bed reactor: process design and modelling. J. Flow Chem. 11 (2), 171–179. Li, L., Yao, C.Q., Jiao, F.J., Han, M., Chen, G.W., 2017. Experimental and kinetic study of the nitration of 2-ethylhexanol in capillary microreactors. Chem. Eng. Process. 117, 179–185. Ma, H.Y., Jin, N., Zhang, P., Zhou, Y.F., Zhao, Y.C., Zhang, X.L., Liu, J., 2019. Dynamic characterization of nanoparticles production in a droplet-based continuous flow microreactor. Chem. Eng. Res. Des. 144, 247–257. Mandal, A.K., Kunjir, G.M., Singh, J., Adhav, S.S., Singh, S.K., Pandey, R.K., Kantam, M.L., 2014. Optimization of ammonium sulfamate nitration for the preparation of ammonium dinitramide. Cent. Eur. J. Energetic Mater. 11 (1), 83–97. Marziano, N.C., Cimino, G.M., Passerini, R.C., 1973. The Mc activity coefficient function for acid-base equilibria. Part I. New methods for estimating pKa values for weak bases. J. Chem. Soc. Perkin Trans. 2, 1915–1922. Marziano, N.C., Tomasin, A., Traverso, P.G., 1981. The Mc activity coefficient function for acid-base equilibria. Part 5. The Mc activity coefficient for a reliable estimate of thermodynamic values. J. Chem. Soc. Perkin Trans. 2, 1070–1075. Marziano, N.C., Sampoli, M., 1983. A simple linear description of rate profiles for the nitration of aromatic compounds in the critical range 80–98 wt% sulphuric acid. J. Chem. Soc. Chem. Commun. 523–524. Marziano, N.C., Sampoli, M., Pinna, F., Passerini, A., 1984. Thermodynamic nitration rates of aromatic compounds. Part 2. Linear description of rate profiles for the nitration of aromatic compounds in the range 40–98 wt% sulphuric acid. J. Chem. Soc. Perkin Trans. 2, 1163–1166. Marziano, N.C., 1998. Thermodynamic nitration rates of aromatic compounds. Part 4. Temperature dependence in sulfuric acid of HNO3? NO2
+
+CRediT authorship contribution statement
+
+Shenfang Li: Conceptualization, Investigation, Writing – origi- nal draft. Xunli Zhang: Methodology, Writing – review & editing. Desheng Ji: Methodology, Writing – review & editing. Qingqiang Wang: Supervision, Writing – review & editing. Nan Jin: Method- ology. Yuchao Zhao: Supervision, Writing – review & editing.
+
+Declaration of Competing Interest
+
+The authors declare that they have no known competing finan- cial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+Acknowledgements
+
+We gratefully acknowledge the financial supports from National Natural Science Foundation of China (Nos. 21978250, 21808194) and Natural Science Foundation of Shandong Province (ZR2020KB013, ZR2020QE211, 2019KJC012).

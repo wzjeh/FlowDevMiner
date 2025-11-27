@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "coupling with amines", "reactants": ["β-sultone (1)", "amine"], "products": ["N-alkylated β-sultones"]}}

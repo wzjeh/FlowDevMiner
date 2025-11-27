@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "toluene",
+      "role": "reactant"
+    },
+    {
+      "name": "nitric acid-acetic anhydride",
+      "role": "catalyst"
+    },
+    {
+      "name": "none",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "mononitrotoluene",
+      "yield_optimal": 99.21,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "40 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "90 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microchannel reactor",
+    "inner_diameter": "0.80 mm"
+  },
+  "metrics": {
+    "conversion": 96.0,
+    "yield": 99.21,
+    "selectivity": 94.0,
+    "unit": "%"
+  }
+}

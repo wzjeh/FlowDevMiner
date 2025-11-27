@@ -1,0 +1,32 @@
+{
+        "reaction_type": None,
+        "reactants": [],
+        "products": []
+    }
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": { 
+    "reaction_type":"nitration", 
+    "reactants":[{"name":"salicylic acid","role":"reactant"}], 
+    "products":[{"name":"mononitro derivatives","yield_optimal":null,"unit":null},{"name":"5-nitrosalicylic acid","yield_optimal":95,"unit":"%"}], 
+    "conditions":[
+        {"type":"residence_time","value":7}, 
+        {"type":"temperature","value":null} , 
+        {"type":"flow_rate_reactant_A","value":null},
+        {"type":"pressure","value":null}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"name": "nitrating agents (acid mixture)", "role": "reactant"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "continuous flow nitration", "reactants": [{"name": "salicylic acid", "role": "reactant"}], "products": [{"name": "5NSA", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "..."}, {"type": "residence_time", "value": "..."}, {"type": "flow_rate_reactant_A", "value": "..."}, {"type": "pressure", "value": "..."}], "reactor": {"type": "tubular", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [{"name": "null", "role": "solvent"}], "products": [{"name": "null", "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": {  "reaction_type":"flow chemistry",  "reactants":[{"name":"sodium acetate","role":"reactant"}
+
+{}
+

@@ -1,0 +1,52 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "furfural",
+      "role": "reactant"
+    },
+    {
+      "name": "Cu/SiO2",
+      "role": "catalyst"
+    },
+    {
+      "name": "isopropanol and ethyl acetate",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "furfuryl alcohol",
+      "yield_optimal": 94.3,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "100 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": "194 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": "0.6 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "micropacked bed",
+    "inner_diameter": "3.87 mm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": 94.3,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

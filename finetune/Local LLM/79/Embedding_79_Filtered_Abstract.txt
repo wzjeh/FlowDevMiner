@@ -1,0 +1,20 @@
+Summary: The flow-chemistry process development involves a continuous ﬂow reactor with a catalyst for the conversion of NB into desired products. Key reactants include NB and solvent, while the catalyst plays a crucial role in enhancing selectivity. The reactor type is not mentioned, but it has an ID. Critical conditions include flow rates that affect both conversion and durability of the catalyst. Temperature and pressure are also important factors to consider. Overall, this process leads to high conversion and yield with improved selectivity.
+
+Residence time ¼ channel volume/gas flow rate
+
+solid microreactors are still limited by poor durability. Hence, in this work, a method for the preparation
+
+microreactor length because of increased catalyst loading and residence time. The obtained results reveal that the developed gas–liquid–solid microreactor can not only yield high conver- sion but also promote the durability.
+
+durability of the microreactor. The chemical composition and topography characterization of the
+
+The experimental results showed the developed gas–liquid– solid microreactor was able to yield good catalytic activity. However, as one of the key points reecting the performance of the microreactor, the durability of the microreactor fabricated by this method remains unknown. For this reason, particular attention of this work was paid to the evaluation of the dura- bility of the gas–liquid–solid
+
+microreactor prepared by this method exhibited high durability and high nitrobenzene conversion as
+
+To date, numerous studies have been carried out to investi- gate the microreactor technologies for various catalytic reac- tions, such as the catalytic oxidation,12 the catalytic hydrogenation,6 the catalytic combustion,13 etc. It has been found that the property of the prepared catalyst layer inside the microreactor is crucial to aﬀect the microreactor performance. Therefore, a variety of attempt
+
+To further evaluate the durability of the fabricated catalyst layer, the eﬀects of the inlet nitrobenzene concentration, the ow rate as well as the length of the microreactor were also investigated in this work. 3.4.1 Inlet nitrobenzene concentration. In this section, the inlet nitrobenzene concentration ranged from 30 mM to 90 mM. The ow rates of the gas and liquid reactants were kept at 0.15 s
+
+Summary: The paragraph discusses multiphase catalytic reactions in the chemical and pharmaceutical industries, such as catalytic cracking, reforming, hydrogenation, etc., which are typically performed under high pressure or temperature conditions. Microreactors have been proposed for these applications due to their ability to enhance heat and mass transfer while reducing explosion potential. The reactor type is not mentioned explicitly; however, it can be assumed that microreactors are the focus of this discussion. Key reactants/solvent/catalyst information is absent as well. Products and critical conditions (flow rate(s), residence time, temperature, pressure) are also undisclosed in the given context. The outcome mentioned is improved reaction rates; however, specific metrics like conversion, yield, or selectivity remain unclear.
+

@@ -1,0 +1,75 @@
+{ "reaction_summary": {  "reaction_type":"null",  "reactants":[],  "products":[{"name":"null","yield_optimal":null,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"null"},    {"type":"residence_time","value":"null"},    {"type":"flow_rate_reactant_A","value":"null"},    {"type":"flow_rate_reactant_B","value":"null"},    {"type":"pressure","value":"null"}  ],  "reactor":{"type":"T-micromixer", "inner_diameter":1.2}
+
+{
+            "reaction_type": None,
+            "reactants": [],
+            "products": [{"name": None, "yield_optimal": 95, "unit": "%"}],
+            "conditions": []
+        }
+
+{ "reaction_summary": {  "reactants":[{"name":"diazotization reagent","role":"catalyst"}],  "products":[{"name":"2,4,5-trifluorobromobenzene","yield_optimal":90.2,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"25 °C"},    {"type":"flow_rate_reactant_A","value":null},    {"type":"pressure","value":null}  ],  "reactor":{"type":"microflow", "inner_diameter":null}
+
+{ "reaction_summary": { 
+    "reactants":[{"name":"2,4,5-trifluoroaniline","role":"reactant"}], 
+    "products":[{"name":"2,4,5-trifluorobromobenzene","yield_optimal":95,"unit":"%"}],
+    "conditions":[
+        {"type":"temperature","value":"80 °C"}, 
+        {"type":"residence_time","value":null}, 
+        {"type":"flow_rate_reactant_A","value":"6.8 mL/min"},
+        {"type":"pressure","value":null}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+    # Extract reaction type
+    if "Gatternann" in text:
+        reaction_type = "Gatternann"
+    else:
+        reaction_type = None
+    
+    # Extract reactants, products, conditions, reactor metrics
+    lines = [line.strip() for line in re.split(r'\n+', text)]
+    
+    reactant_A_name = null
+    reactant_B_name = null
+    product_names = []
+    optimal_product_yield = 0
+    optimal_condition_type = None
+    optimal_condition_value = null
+    
+    # Extract products and their yields
+    for i, line in enumerate(lines):
+        if "yield" in line:
+            match = re.search(r'(\d+)%', line)
+            if match:
+                yield_optimal = int(match.group(0))
+                product_names.append(null)  # No name given; use null
+                
+                # Update optimal product yield
+                if yield_optimal > optimal_product_yield:
+                    optimal_product_yield = yield_optimal
+    
+    # Extract conditions (temperature, residence time, flow rate)
+    for i, line in enumerate(lines):
+        match
+
+paragraph = """
+The paragraph discusses the development of a continuous-flow microreactor system 
+for the Gattermann reaction synthesis of 2,4,5-trifluorobromobenzene from 
+2,4,5-trifluoroaniline with HBr and NaNO2. The reactor type is T-micromixer based 
+microchannel reactors. Key reactants are 2,4,5-trifluoroaniline, HBr, and NaNO2; 
+solvent/catalyst details are not mentioned. Products include the desired product (2,4,5-
+trifluorobromobenzene) along with undesired byproducts due to uncontrolled thermal decomposition in batch reactors.
+Reactor details: T-micromixer based microchannel reactors. Critical conditions: 
+flow rates and residence times are not mentioned; temperature and pressure are controlled for the exothermic diazotization reaction using continuous-flow microreactors.
+Outcomes: The use of continuous-flow microreactors facilitates the Gattermann reaction, offering advantages such as efficient heat and mass transfer, high safety, good reproducibility, and easy scale-up compared to traditional batch reactors."""
+
+
+reaction_type = "
+
+{"name": name, "role": role}
+

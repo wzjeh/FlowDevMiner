@@ -1,0 +1,57 @@
+{
+  "reaction_type": "氢化",
+  "reactants": [
+    {
+      "name": "phenylacetylene",
+      "role": "reactant"
+    },
+    {
+      "name": "[Rh(NBD)(PPh3)2]BF4",
+      "role": "catalyst"
+    },
+    {
+      "name": "dichloromethane",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "styrene",
+      "yield_optimal": 80.0,
+      "unit": "%"
+    },
+    {
+      "name": "ethylbenzene",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "70 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "8−125 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "10 bar"
+    }
+  ],
+  "reactor": {
+    "type": "micro-/millichannels",
+    "inner_diameter": "1.23 mm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": 80.0,
+    "selectivity": 80.0,
+    "unit": "%"
+  }
+}

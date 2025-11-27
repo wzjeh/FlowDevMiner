@@ -1,0 +1,55 @@
+{ "reaction_summary": {  "reaction_type":"null",  "reactants":[{"name":"Reactant A","role":"reactant"}],  "products":[],"conditions":[ {"type":"temperature","value":"80 °C"}, {"type":"residence_time","value":"10 min"}, {"type":"flow_rate_reactant_A","value":"0.5 mL/min"} ],  "reactor":{"type":"stacked", "inner_diameter":null}
+
+{ "reaction_summary": {  "reactants":[{"name":"NB","role":"..."}],  "products":[    {"name":null,"yield_optimal":95,"unit":"%"},    {"type":"temperature","value":null}  ],  "conditions":[    {"type":"flow_rate_reactant_A","value":0.3 mL/min}  ],  "reactor":{"type":null, "inner_diameter":null},  "metrics":{"conversion":95,"yield":null,"selectivity":null,"unit":"%"}}}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r"(\w+)-", text, flags=re.IGNORECASE | re.MULTILINE)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"(?<=\().*(?= \(|\))", text)
+    for i in range(len(matches)):
+        name, role = re.split(r"\s+", matches[i], maxsplit=1)
+        
+        if "catalyst" not in role.lower():
+            reactant_role = 'reactant'
+            
+        elif "solvent" not in role.lower(): 
+            reactant_role = 'catalyst'  
+            
+        else: 
+            reactant_role = 'solvent'
+
+        matches[i] = (name, reactant_role)
+        
+    if len(matches) == 0:
+        reactants = []
+    
+    elif "and" in text or "or" in text:
+        # If multiple conditions appear
+        optimal_condition_index = None
+
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+{"name": "aniline", "yield_optimal": 95, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "catalytic", "reactants": [{"name": "solvent", "role": "solvent"}], "products": [], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "flow_rate_reactant_B", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "three-layer membrane micro-reactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [{"name": "hydrogen", "role": "reactant"}], "products": [{"name": "null", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "flow_rate_reactant_A", "value": "0.9 sccm"}, {"type": "temperature", "value": "null"}], "reactor": {"type": "microchannel", "inner_diameter": "null mm"}, "metrics": {"conversion": 95.9, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": {  "reaction_type":"hydroformylation",  "reactants":[{"name":"alkenes","role":"substrate"}, {"name":"CO","role":"reactant"}],  "products":[{"name":"aldehydes","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":30},    {"type":"flow_rate_reactant_A","value":null},    {"type":"flow_rate_reactant_B","value":15.0,"unit":"mL/min"}
+
+{"reaction_summary": {"reaction_type": "catalytic", "reactants": [{"name": "NB", "role": "reactant"}], "products": [{"name": "null", "yield_optimal": 24, "unit": "%"}], "conditions": [{"type": "temperature", "value": "78 °C"}, {"type": "residence_time", "value": 10}, {"type": "flow_rate_reactant_A", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": "5 mm"}, "metrics": {"conversion": 24, "yield": 24, "selectivity": null, "unit": "%"}}}
+
+{"type": "temperature", "value": temperature_match.group(1) + ' °C'}
+

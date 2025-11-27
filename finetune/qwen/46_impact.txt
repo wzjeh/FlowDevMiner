@@ -1,0 +1,12 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of iso-octanol | increase |
+| flow_rate | average reaction rate | increase |
+| residence_time | conversion of iso-octanol | increase |
+| sulfuric_acid_concentration | conversion of iso-octanol | increase |
+| water_content | conversion of iso-octanol | decrease |
+| HNO3_to_iso_octanol_ratio | conversion of iso-octanol | increase |
+| temperature | product selectivity | increase |
+| temperature | product purity | increase |

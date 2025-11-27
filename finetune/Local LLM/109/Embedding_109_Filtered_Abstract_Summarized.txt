@@ -1,0 +1,53 @@
+{
+        "conversion": None,
+        "selectivity": 90,
+        "yield": 95, 
+        "unit": "%"
+    }
+
+{'name': name, 'role': role}
+
+{"reaction_type": None,
+                        "reactants": [],
+                        "products": [{"name": None, "yield_optimal": 0.0, "unit": "%"}],
+                        "conditions": [],
+                        "reactor": {"type": None, "inner_diameter": None},
+                        "metrics": {"conversion": None, "yield": 0.0, "selectivity": None, "unit": "%" }}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [], "products": [{"name": "null", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "null"}, {"type": "flow_rate_reactant_A", "value": "null"}, {"type": "flow_rate_reactant_B", "value": "null"}, {"type": "pressure", "value": "null"}], "reactor": {"type": "micro-tubular", "inner_diameter": "null"}, "metrics": {}}}
+
+- Assume that if a field is not explicitly stated in the input text, it should be null.
+
+Step 1: Preprocess the paragraph to extract relevant information
+The given paragraph contains several sentences with various pieces of information. We need to identify and separate these into different categories such as reaction type, reactants, products, conditions (temperature, residence time, flow rate), reactor type, inner diameter, metrics (conversion, yield, selectivity). The goal is to extract the most informative data for each category.
+
+Step 2: Identify relevant information
+From the paragraph:
+- "observed mass transport limitations in the present work should be thoroughly addressed in future studies"
+This sentence does not provide any useful information.
+- "to improve the efficacy of the tubular system for efficient activation of persulfate and other oxidants in the presence of various catalysts."
+The relevant information here is that we are dealing with a reaction involving persulfate as an oxidant, but no specific details about reactants or products. The focus seems to be on improving the efficiency of the process.
+- "Additionally, while the present study provides experimental data demonstrating the performance of the micro plug-flow reactor for degrading Safranin O"
+This sentence mentions a product (Safranin O) and a
+
+{"name": "iron-based nanoparticle catalyst supported on carbon black", "role": "catalyst"}
+
+{ "reaction_summary": {  "reaction_type":"persulfate activation",  "reactants":[{"name":"potassium persulfare","role":"reactant"}, {"name":"Safranin O (SO)","role":"reactant"}
+
+{"name": "2-(4-biphenyl)-2-oxazoline derivatives"}
+
+{ "reaction_summary": { 
+    "reaction_type":"null", 
+    "reactants":[{"name":"dye","role":"reactant"}], 
+    "products":[
+        {"name":"SO","yield_optimal":95,"unit":"%"}, 
+        {"name":"O2","yield_optimal":0,"unit":"%"}
+    ], 
+    "conditions":[{
+        "type":"flow_rate_reactant_A",
+        "value":"278 µL/s"
+    },{
+        "type":"temperature",
+        "value":"null °C"
+    }
+

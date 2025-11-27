@@ -1,0 +1,13 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of 1 | increase |
+| temperature | selectivity of mononitration product 2 | decrease |
+| residence_time | conversion of 1 | increase |
+| residence_time | byproducts | decrease |
+| catalyst_loading (FS/F1) | conversion of 1 | decrease |
+| reactant_concentration (H2SO4 wt%) | conversion of 1 | decrease |
+| flow_rate (LHSV) | conversion of 1 | increase |
+| flow_rate (LHSV) | selectivity of mononitration product 2 | decrease |
+| residence_time | reaction time | decrease |

@@ -1,0 +1,46 @@
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+Step 1
+Split input into sentences
+
+"CO2 hydrogenation to methanol synthesis. Due to the limitation of heat transfer in fixed bed reactor, it is always challenging to avoid the hotspot and temperature runaway."
+"The process intensification potential of microreactor has attracted attention in the field of energy technology."
+
+"The specific features of microreactor mainly include: (1) enhanced heat and mass transfer, (2) narrow residence time, (3) high flow rate, (4) small inner diameter."
+
+"It is always challenging to avoid hotspot and temperature runaway due to limitation of heat transfer in fixed bed reactor."
+"Microreactors have the potential for process intensification in energy technology field."
+
+
+
+Step 2
+Identify relevant sentences
+
+"The specific features of microreactor mainly include: (1) enhanced heat and mass transfer, (2) narrow residence time, (3) high flow rate, (4) small inner diameter."
+"It is always challenging to avoid hotspot and temperature runaway due to limitation of heat transfer in fixed bed reactor."
+
+
+
+Step 3
+Extract relevant information
+
+"The specific features of microreactor mainly include: (1) enhanced heat and mass transfer, (2
+
+{"name": name, "role": role}
+
+{"name": name, "role": role}
+
+{ "reaction_summary": {  "reaction_type":"microreactor",  "reactants":[{"name":"CO2","role":"reactant"}],  "products":[{"name":"methanol","yield_optimal":82.7,"unit":"%"}],  "conditions":[    {"type":"temperature","value":null},    {"type":"residence_time","value":null},    {"type":"flow_rate_reactant_A","value":5000},    {"type":"pressure","value":null}
+
+{"name": "CH3OH", "yield_optimal": 95, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "CO2 hydrogenation to methanol", "reactants": [{"name": "CO2", "role": "reactant"}], "products": [{"name": "methanol", "yield_optimal": null, "unit": null}], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+{ "reaction_summary": {  "reaction_type":"CO2 hydrogenation to methanol",  "reactants":[{"name":"H2","role":"reactant"}],  "products":[{"name":"methanol","yield_optimal":95,"unit":"%"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": "weight loss", "yield_optimal": null, "unit": "%"}], "conditions": [{"type": "temperature", "value": null}], "reactor": {"type": "ultrasonic vibrating instrument", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 0.7, "selectivity": null, "unit": "%"}}}
+
+{"name": "propylene", "yield_optimal": 90}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [], "products": [{"name": "null", "yield_optimal": null, "unit": "%"}], "conditions": [{"type": "temperature", "value": "null"}, {"type": "residence_time", "value": "null"}, {"type": "flow_rate_reactant_A", "value": "null"}, {"type": "flow_rate_reactant_B", "value": "null"}, {"type": "pressure", "value": null}], "reactor": {"type": "null", "inner_diameter": "null"}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+

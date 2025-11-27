@@ -1,0 +1,24 @@
+{"type":"flow_rate_total","value":f"{float(flow_rate_match.group(1))} mL/min"}
+
+{ "reaction_summary": {  "reaction_type":"flow-chemistry",  "reactants":[{"name":"H2","role":"reactant"}, {"name":"O2","role":"reactant"}],  "products":[{"name":"H2O2","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"40 °C"},    {"type":"residence_time","value":"36 min"},    {"type":"pressure","value":"atmospheric pressure"}  ],  "reactor":{"type":"CFM", "inner_diameter":0.5}
+
+{ "reaction_summary": {  "reaction_type":"flow-chemistry",  "reactants":[{"name":"Br2","role":"reactant"}, {"name":"H2O + acid","role":"solvent"}],  "products":[{"name":"brominated organic compounds","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"264.58 °C"},    {"type":"residence_time","value":"1 min"}
+
+{ "reaction_summary": {  "reaction_type":"oxidation",  "reactants":[{"name":"alcohols","role":"reactant"}],  "products":[{"name":"aldehydes or ketones","yield_optimal":null,"unit":null}],  "conditions":[    {"type":"temperature","value":"117.59 °C"}
+
+{"type": "temperature", "value": f"{temperature} °C"}
+
+{"type":"residence_time","value":"36 s"}
+
+{"name": "H2", "role":"reactant"}
+
+{ "reaction_summary": {  "reaction_type":"...",  "reactants":[{"name":"hydroxylamine","role":"reactant"}, {"name":"water", "role": null}, {"name":"oxygen", "role": "oxidant"}],  "products":[{"name":"HNO2"}
+
+{"name": "carbon dioxide", "yield_optimal": None, "unit": "%"}
+
+{
+        "conversion": None,
+        "yield": None, 
+        "selectivity": None
+    }
+

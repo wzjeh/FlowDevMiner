@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "nitration", "reactants": ["benzaldehyde", "HNO3"], "products": ["p-nitrobenzaldehyde"], "conditions": [{"type": "temperature", "value": 5}, {"type": "residence_time", "value": 60}], "reactor": {"type": "continuous flow", "inner_diameter": 2}, "metrics": {"conversion": null, "selectivity": null}}}

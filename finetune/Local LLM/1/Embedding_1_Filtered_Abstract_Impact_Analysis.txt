@@ -1,0 +1,20 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| Residence Time | Linear Polymer Formation Step Conversion | increase |
+| Residence Time | Star Formation Step Conversion | increase |
+| Residence Time | Linear Polymer Formation Step Conversion | increase |
+| Residence Time | Star Formation Step Conversion | increase |
+| Residence Time | Linear Polymer Formation Step Conversion | increase |
+| Residence Time | Star Formation Step Conversion | increase |
+| Residence Time | Linear Polymer Formation Step Conversion | increase |
+| Residence Time | Star Formation Step Conversion | increase |
+| Residence Time | Linear Polymer Formation Step Conversion | increase |
+| Residence Time | Star Formation Step Conversion | increase |
+| Residence Time | Linear Polymer Formation Step Conversion | increase |
+| Residence Time | Star Formation Step Conversion | increase |
+| Residence Time | Linear Polymer Formation Step Conversion | increase |
+| Residence Time | Star Formation Step Conversion | increase |
+| Residence Time | Linear Polymer Formation Step Conversion | increase |
+| Residence Time | Star Formation Step Conversion | increase |

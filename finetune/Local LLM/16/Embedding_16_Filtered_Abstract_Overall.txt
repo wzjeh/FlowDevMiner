@@ -1,0 +1,122 @@
+{
+  "reaction_summary": {
+    "reaction_type": "dinitration",
+    "reactants": ["aniline", "HNO3"],
+    "products": ["di-nitro anilines"],
+    "conditions": [
+      {"type":"temperature","value":60},
+      {"type":"LHSV","value":800}
+    ],
+    "reactor":{"type":"microreactor"},
+    "metrics":{
+        "conversion": 100,
+        "yield": null
+    }
+  },
+  "reaction_summary_2": {
+    "reaction_type": "dinitration",
+    "reactants": ["aniline derivatives"],
+    "products": ["di-nitro anilines"],
+    "conditions": [
+      {"type":"temperature","value":70},
+      {"type":"LHSV","value":4200}
+    ],
+    "reactor":{"type":"microreactor"},
+    "metrics":{
+        "conversion": 100,
+        "yield": null
+    }
+  },
+  "reaction_summary_3": {
+    "reaction_type": "dinitration",
+    "reactants": ["aniline derivatives"],
+    "products": ["di-nitro anilines"],
+    "conditions": [
+      {"type":"temperature","value":60},
+      {"type":"LHSV","value":800}
+    ],
+    "reactor":{"type":"microreactor"},
+    "metrics":{
+        "conversion": 100,
+        "yield": null
+    }
+  },
+  "reaction_summary_4": {
+    "reaction_type": "dinitration",
+    "reactants": ["aniline derivatives"],
+    "products": ["di-nitro anilines"],
+    "conditions": [
+      {"type":"temperature","value":70},
+      {"type":"LHSV","value":4200}
+    ],
+    "reactor":{"type":"microreactor"},
+    "metrics":{
+        "conversion": 100,
+        "yield": null
+    }
+  },
+  "reaction_summary_5": {
+    "reaction_type": "dinitration",
+    "reactants": ["aniline derivatives"],
+    "products": ["di-nitro anilines"],
+    "conditions": [
+      {"type":"temperature","value":60},
+      {"type":"LHSV","value":800}
+    ],
+    "reactor":{"type":"microreactor"},
+    "metrics":{
+        "conversion": 100,
+        "yield": null
+    }
+  },
+  "reaction_summary_6": {
+    "reaction_type": "dinitration",
+    "reactants": ["aniline derivatives"],
+    "products": ["di-nitro anilines"],
+    "conditions": [
+      {"type":"temperature","value":70},
+      {"type":"LHSV","value":4200}
+    ],
+    "reactor":{"type":"microreactor"},
+    "metrics":{
+        "conversion": 100,
+        "yield": null
+    }
+  },
+  "reaction_summary_7": {
+    "reaction_type": "dinitration",
+    "reactants": ["aniline derivatives"],
+    "products": ["di-nitro anilines"],
+    "conditions": [
+      {"type":"temperature","value":60},
+      {"type":"LHSV","value":800}
+    ],
+    "reactor":{"type":"microreactor"},
+    "metrics":{
+        "conversion": 100,
+        "yield": null
+    }
+  },
+  "reaction_summary_8": {
+    "reaction_type": "dinitration",
+    "reactants": ["aniline derivatives"],
+    "products": ["di-nitro anilines"],
+    "conditions": [
+      {"type":"temperature","value":70},
+      {"type":"LHSV","value":4200}
+    ],
+     "reactor":{"type":"microreactor"},
+    "metrics":{
+        "conversion": null,
+        "yield": null
+    }
+  },
+  "reaction_summary_9": {
+    "reaction_type": "dinitration",
+    "reactants": ["aniline derivatives"],
+    "products": ["di-nitro anilines"],
+    "conditions": [
+      {"type":"temperature","value":60},
+      {"type":"LHSV","value":800}
+    ],
+    "reactor":{"type":"microreactor"}

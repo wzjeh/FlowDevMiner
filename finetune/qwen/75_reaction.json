@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "benzene",
+      "role": "reactant"
+    },
+    {
+      "name": "mixed acid (H2SO4/HNO3)",
+      "role": "catalyst"
+    },
+    {
+      "name": "not specified",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "nitrobenzene",
+      "yield_optimal": 95.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "50 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "10 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.15 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "capillary",
+    "inner_diameter": "127 μm"
+  },
+  "metrics": {
+    "conversion": 98.0,
+    "yield": 95.0,
+    "selectivity": 97.0,
+    "unit": "%"
+  }
+}

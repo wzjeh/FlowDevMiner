@@ -1,0 +1,11 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| gas_pressure | conversion of benzyl alcohol | increase |
+| gas_pressure | selectivity to benzaldehyde | increase |
+| residence_time | outgassing rate of oxygen | increase |
+| catalyst_contact_time | conversion of benzyl alcohol | increase |
+| catalyst_contact_time | selectivity to benzaldehyde | increase |
+| catalyst_dilution | conversion of benzyl alcohol | increase |
+| catalyst_dilution | selectivity to benzaldehyde | increase |

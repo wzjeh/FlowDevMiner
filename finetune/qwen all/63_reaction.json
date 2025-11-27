@@ -1,0 +1,56 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "CO2",
+      "role": "reactant"
+    },
+    {
+      "name": "H2",
+      "role": "reactant"
+    },
+    {
+      "name": "Cu-Zn/Al foam monolithic catalyst",
+      "role": "catalyst"
+    },
+    {
+      "name": "N2",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "CH3OH",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "250 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "100 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "3 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "microreactor",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": 25.0,
+    "yield": null,
+    "selectivity": 60.0,
+    "unit": "%"
+  }
+}

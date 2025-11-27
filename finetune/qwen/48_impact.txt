@@ -1,0 +1,14 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rate | conversion of 4-chlorophenol | unchanged |
+| flow_rate | sterilization of E. coli | decrease |
+| residence_time | sterilization of E. coli | increase |
+| reactant_concentration | conversion of 4-chlorophenol | increase |
+| reactant_concentration | conversion of 4-chlorophenol | unchanged |
+| 1. “flow_rate | conversion of 4-chlorophenol | unchanged |
+| 2. “flow_rate | sterilization of E. coli | decrease |
+| 3. “residence_time | sterilization of E. coli | increase |
+| 4. “reactant_concentration | conversion of 4-chlorophenol | increase |
+| 5. “reactant_concentration | conversion of 4-chlorophenol | unchanged |

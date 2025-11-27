@@ -1,0 +1,7 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| 1. reactor dimensions | rapid mixing, excellent temperature control | increase |
+| 2. local energy dissipation rate | efficient mixing | increase |
+| 3. length scale for heat transfer | speed of heat removal | increase |

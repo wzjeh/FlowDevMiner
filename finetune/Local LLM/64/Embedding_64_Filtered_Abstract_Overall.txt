@@ -1,0 +1,125 @@
+{
+  "reaction_summary": {
+    "reaction_type": "azo-coupling",
+    "reactants": ["aryl halides", "aromatic amines"],
+    "products": ["azodye"],
+    "conditions": [
+      {"type":"flow_rate","value":2},
+      {"type":"residence_time","value":3},
+      {"type":"temperature","value":60}
+    ],
+    "reactor": {
+      "type": "microreactors",
+      "inner_diameter": 50-100
+    },
+    "metrics": {
+      "conversion": null,
+      "yield": null,
+      "selectivity": ">95%",
+      "unit":"%"
+    }
+  }
+}
+Output:
+{
+  "reaction_summary": {
+    "reaction_type": "azo-coupling",
+    "reactants": ["aryl halides", "aromatic amines"],
+    "products": ["azodye"],
+    "conditions": [
+      {"type":"flow_rate","value":2},
+      {"type":"residence_time","value":3},
+      {"type":"temperature","value":60}
+    ],
+    "reactor": {
+      "type": "microreactors",
+      "inner_diameter": 50-100
+    },
+    "metrics": {
+      "conversion": null,
+      "yield": null,
+      "selectivity": ">95%",
+      "unit":"%"
+    }
+  }
+}
+{
+  "reaction_summary": {
+    "reaction_type": "azo-coupling",
+    "reactants": ["aryl halides", "aromatic amines"],
+    "products": ["azodye"],
+    "conditions": [
+      {"type":"flow_rate","value":2},
+      {"type":"residence_time","value":3},
+      {"type":"temperature","value":60}
+    ],
+    "reactor": {
+      "type": "microreactors",
+      "inner_diameter": 50-100
+    },
+    "metrics": {
+      "conversion": null,
+      "yield": null,
+      "selectivity": ">95%",
+      "unit":"%"
+    }
+  }
+}
+{
+  "reaction_summary": {
+    "reaction_type": "azo-coupling",
+    "reactants": ["aryl halides", "aromatic amines"],
+    "products": ["azodye"],
+    "conditions": [
+      {"type":"flow_rate","value":2},
+      {"type":"residence_time","value":3},
+      {"type":"temperature","value":60}
+    ],
+    "reactor": {
+      "type": "microreactors",
+      "inner_diameter": 50-100
+    },
+    "metrics": {
+      "conversion": null,
+      "yield": null,
+      "selectivity": ">95%",
+      "unit":"%"
+    }
+  }
+}
+{
+  "reaction_summary": {
+    "reaction_type": "azo-coupling",
+    "reactants": ["aryl halides", "aromatic amines"],
+    "products": ["azodye"],
+    "conditions": [
+      {"type":"flow_rate","value":2},
+      {"type":"residence_time","value":3},
+      {"type":"temperature","value":60}
+    ],
+    "reactor": {
+      "type": "microreactors",
+      "inner_diameter": 50-100
+    },
+    "metrics": {
+      "conversion": null,
+      "yield": null,
+      "selectivity": ">95%",
+      "unit":"%"
+    }
+  }
+}
+{
+  "reaction_summary": {
+    "reaction_type": "azo-coupling",
+    "reactants": ["aryl halides", "aromatic amines"],
+    "products": ["azodye"],
+    "conditions": [
+      {"type":"flow_rate","value":2},
+      {"type":"residence_time","value":3},
+      {"type":"temperature","value":60}
+    ],
+    "reactor": {
+      "type": "microreactors",
+      "inner_diameter": 50-100
+    }

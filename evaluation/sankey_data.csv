@@ -1,0 +1,30 @@
+Source (Reaction Type),Target (Reactor Type),Value
+Hydrogenation,Capillary/Coil Reactor,6
+Polymerization,Capillary/Coil Reactor,11
+Hydrogenation,Microchannel/Chip Reactor,10
+Nitration,Tubular Reactor,17
+Nitration,Microchannel/Chip Reactor,25
+Others,Capillary/Coil Reactor,11
+Hydrogenation,Packed Bed/Monolith,29
+Cross-coupling,Capillary/Coil Reactor,5
+Nitration,Packed Bed/Monolith,8
+Hydrogenation,Tubular Reactor,5
+Others,Packed Bed/Monolith,9
+Halogenation,Capillary/Coil Reactor,2
+Others,Microchannel/Chip Reactor,18
+Nitration,Capillary/Coil Reactor,8
+Halogenation,Microchannel/Chip Reactor,3
+Oxidation,Packed Bed/Monolith,2
+Cross-coupling,Tubular Reactor,3
+Hydrogenation,Others,2
+Oxidation,Tubular Reactor,3
+Oxidation,Others,1
+Halogenation,Tubular Reactor,2
+Cross-coupling,Packed Bed/Monolith,1
+Others,Others,15
+Oxidation,Microchannel/Chip Reactor,1
+Others,Tubular Reactor,7
+Cross-coupling,Others,1
+Cross-coupling,Microchannel/Chip Reactor,1
+Polymerization,Tubular Reactor,1
+Polymerization,Packed Bed/Monolith,1

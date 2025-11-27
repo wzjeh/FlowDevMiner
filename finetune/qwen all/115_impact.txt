@@ -1,0 +1,12 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion | increase |
+| residence_time | selectivity of 1-nitronaphthalene | increase |
+| temperature | conversion | increase |
+| temperature | selectivity of 1-nitronaphthalene | decrease |
+| sulfuric_acid_strength | conversion | increase |
+| sulfuric_acid_strength | selectivity of 1-nitronaphthalene | decrease |
+| molar_ratio | conversion | increase |
+| molar_ratio | selectivity of 1-nitronaphthalene | decrease |

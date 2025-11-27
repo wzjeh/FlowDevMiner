@@ -1,0 +1,56 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "4-nitrophenol",
+      "role": "reactant"
+    },
+    {
+      "name": "NaBH4",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd/UiO-66-NH2",
+      "role": "catalyst"
+    },
+    {
+      "name": "water",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "4-aminophenol",
+      "yield_optimal": 100.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "298 K"
+    },
+    {
+      "type": "residence_time",
+      "value": "5.31 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "10 μL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "capillary",
+    "inner_diameter": "530 μm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": 100.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

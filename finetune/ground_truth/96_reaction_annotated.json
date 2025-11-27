@@ -1,0 +1,56 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "m-xylene",
+      "role": "reactant"
+    },
+    {
+      "name": "nitric acid",
+      "role": "reactant"
+    },
+    {
+      "name": "sulfuric acid",
+      "role": "catalyst"
+    },
+    {
+      "name": "dichloromethane",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "mono-nitro products",
+      "yield_optimal": 99.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": null
+    },
+    {
+      "type": "residence_time",
+      "value": "104s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microreactor",
+    "inner_diameter": "1.5 mm"
+  },
+  "metrics": {
+    "conversion": 99.5,
+    "yield": 99.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

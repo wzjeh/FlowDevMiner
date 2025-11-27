@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "nitration", "reactants": ["toluene", "mixed acid (HNO3 + H2SO4)"], "products": [], "conditions": [{"type": "temperature", "value": "60 °C"}, {"type": "temperature", "value": "80 °C"}], "reactor": {"type": "microreactor", "inner_diameter": null, "length": 120}, "metrics": {"conversion": null, "yield": null, "selectivity": null}}}

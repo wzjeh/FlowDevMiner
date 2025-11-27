@@ -1,0 +1,17 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| Cause | Effect | - |
+| residence time | conversion of TFMB | - |
+| longer residence times | higher | increase |
+| better mixing effect | reduced dinitration occurrence | - |
+| faster flow rate | lower | decrease |
+| increased temperature | improved reaction efficiency | - |
+| sufficient residence time | observed product selectivity | - |
+| Cause | Effect | - |
+| Longer residence times | Higher | increase |
+| Better mixing effect | Reduced dinitration occurrence | - |
+| Faster flow rates | Lower | decrease |
+| Increased temperatures | Improved reaction efficiencies | - |
+| Sufficient residence times | Observed product selectivities | - |

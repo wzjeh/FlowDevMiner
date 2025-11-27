@@ -1,0 +1,48 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "4-nitrophenol",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd/UiO-66-NH2",
+      "role": "catalyst"
+    }
+  ],
+  "products": [
+    {
+      "name": "4-aminophenol",
+      "yield_optimal": 100.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": null
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "capillary microreactor",
+    "inner_diameter": "530 μm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": 100.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

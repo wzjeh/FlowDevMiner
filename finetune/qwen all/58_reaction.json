@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "o-xylene",
+      "role": "reactant"
+    },
+    {
+      "name": "fuming nitric acid",
+      "role": "catalyst"
+    },
+    {
+      "name": "dichloromethane",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "1,2-dimethyl-4-nitrobenzene",
+      "yield_optimal": 94.1,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "100 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": "4 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "microchannel",
+    "inner_diameter": "1 mm"
+  },
+  "metrics": {
+    "conversion": 95.5,
+    "yield": 94.1,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

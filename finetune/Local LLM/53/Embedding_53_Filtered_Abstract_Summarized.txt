@@ -1,0 +1,38 @@
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "capillary microreactor", "inner_diameter": "2 mm"}, "metrics": {"conversion": 90, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}, {"name": "..."}], "products": [{"name": "...", "yield_optimal": 99.1, "unit": "%"}], "conditions": [{"type": "flow_rate_reactant_A", "value": "10 μL/min"}, {"type": "temperature", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": 99.1, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "catalytic", "reactants": [{"name": "4-nitrophenol", "role": "reactant"}], "products": [{"name": "unknown product of catalysis", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "298 K"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": "40 μL/min"}, {"type": "pressure", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": "unknown inner diameter"}, "metrics": {"conversion": 95, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {  "reaction_type":"unknown", 
+                                      "reactants":[],  
+                                      "products":[{"name":None,"yield_optimal":0,"unit":"%"}],
+                                      "conditions":[],"reactor":{"type":None, "inner_diameter": None},
+                                      "metrics":{"conversion":None,"yield":0,"selectivity":None,"unit":"%"}}}
+
+{ "reaction_summary": { 
+    "reaction_type":"catalytic",
+    "reactants":[{"name":"Pd-60/UiO-66-NH2","role":"catalyst"},{"name":"4-nitrophenol (4-NP)","role":"reactant"}], 
+    "products":[{"name":"null","yield_optimal":98.5,"unit":"%"}],
+    "conditions":[
+        {"type":"flow_rate_reactant_A","value":"10 μL/min"}, 
+        {"type":"temperature","value":"null"},
+        {"type":"residence_time","value":"null"}
+    ],
+    "reactor":{"type":"microreactor", "inner_diameter": null}
+
+{"reaction_summary": {"reaction_type": "reduction", "reactants": [{"name": "4-nitrophenol", "role": "reactant"}, {"name": "NaBH4", "role": "catalyst"}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "298 K"}, {"type": "residence_time", "value": "null"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}, {"type": "flow_rate_reactant_B", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "film microreactor", "inner_diameter": "null"}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"name": "Pd NPs", "yield_optimal": 95, "unit": "%"}
+
+{
+        "conversion": None,
+        "yield": None,
+        "selectivity": None,
+        "unit": "%"
+    }
+
+{"reaction_summary": {"reaction_type": "reduction", "reactants": [{"name": "4-nitrophenol", "role": "reactant"}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "10 min"}, {"type": "flow_rate_reactant_A", "value": "1 mL/min"}, {"type": "pressure", "value": "3 bar"}], "reactor": {"type": "capillary microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "reduction", "reactants": [{"name": "4-NP", "role": "reactant"}], "products": [], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": 100, "yield": null, "selectivity": null, "unit": "%"}}}
+

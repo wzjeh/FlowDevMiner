@@ -1,0 +1,60 @@
+{
+  "reaction_type": "free radical reaction",
+  "reactants": [
+    {
+      "name": "phenylacetylene",
+      "role": "reactant"
+    },
+    {
+      "name": "carbon tetrabromide",
+      "role": "reactant"
+    },
+    {
+      "name": "potassium persulfate",
+      "role": "catalyst"
+    },
+    {
+      "name": "acetonitrile",
+      "role": "solvent"
+    },
+    {
+      "name": "water",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "gem-dibromoenone",
+      "yield_optimal": 76.15,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "75 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "1.5 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "40 psi"
+    }
+  ],
+  "reactor": {
+    "type": "coiled capillary",
+    "inner_diameter": "1 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 76.15,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

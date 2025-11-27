@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "aerobic oxidation", "reactants": ["benzyl alcohol", "hydrochloric acid"], "products": ["benzaldehyde"], "solvent": "water"}}

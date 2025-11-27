@@ -1,0 +1,20 @@
+Processes 2015, 3 can be continuously varied and monitored in flow systems during catalytic processes, greatly accelerating reaction kinetic studies and process optimization [1,2]. Additionally, flow microreactors have advantages, such as enhanced atom efficiency, selectivity, yield and purity of products, reproducibility, increased turn-over-number (TON), turn-over-frequency (TOF), process safety, shorter development cycles and rapid scale-up from lab to pilot plant [3]. The use of water as the solvent in such reactors is particularly attractive in cutting operating costs.
+
+The continuous flow monolithic microreactor was constructed as follows: The monolith (5 mm × 7 mm) was positioned into a heat shrinkable PTFE tube of 30 mm and 60 mm in length, which was heated to shrink the PTFE tubing until a tight fit to the monolith was produced. An aqueous solution of EO (2.9 µM) and reducing agent NaBH4 (0.018 M) was pumped with a peristaltic pump through the microreactor at a constant flow rate of 2.1 mL/min. The product solution was passed through a UV cuvette flow cell of 4.5 mL capacity to analyze the reduction of EO using a Cary 50 Scan UV-Vis spectrophotometer in the range of 200–800 nm. Calibration experiments showed that the absorbance recorded at 521 nm was linear for concentrations up to 2.9 µM, corresponding to an absorbance of 2.5.
+
+T.V.K. and M.G.B. designed the study and constructed the flow reactor. Y.H. carried out the catalyst preparation and the flow studies. Y.H., T.V.K. and M.G.B. carried out the data analysis and preparation of the manuscript.
+
+Ag/SiO2and Ag/Co3O4-Based Monolithic Flow Microreactors for Hydrogenation of Dyes: Their Activity and Stability
+
+The washing tests of the Ag/SiO2 and Ag/Co3O4 monoliths were carried out in a continuous flow microreactor. The fixed bed of the continuous monolithic microreactor was constructed as mentioned in Section 2.6. Neat hexane was pumped through the microreactor with a peristaltic pump at a constant flow rate of 2.1 mL/min. The quantitative analysis of the washing of Ag from the support was determined by measuring the Ag ion concentration in the effluent using a Perkin Elmer AAnalyst 400 atomic absorption spectrophotometer.
+
+Figure 2. The typical continuous monolithic microreactor used for the hydrogenation of EO.
+
+The continuous monolithic microreactor set-up used is shown in Figure 2 and incorporates a UV-visible spectrophotometer as the detector.
+
+3.2. Hydrogenation of EO in Continuous Monolithic Microreactors
+
+Keywords: catalyst; flow; hydrogenation; microreactor; monolith; nanoparticle
+
+ISSN 2227-9717 www.mdpi.com/journal/processes Article
+

@@ -1,0 +1,118 @@
+{'name': None, 'yield_optimal': value, 'unit': unit}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+from typing import List
+
+
+    # Parse reaction type (if present)
+    match = re.search(r"(\w+)-", input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"(?<=\().*(?= \(or|, )", input_str)
+    reactant_names = [match.strip() for match in matches]
+    
+    # Parse products (if present)
+    product_match = re.search(r"yield (\d+)%\(optimal\)", input_str)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+    else:
+        yield_optimal = None
+    
+    # Parse conditions
+    condition_matches = re.findall(r"(?<=T=|flow rate|pressure )(\d+(?: \w+)?)(?= in)", input_str)
+    
+    # Parse reactor type and inner diameter (if present)
+    match = re.search(r"in a (\w+) with an inner diameter of (\d+\.\d+)
+
+{}
+
+{"name": name, "role": None}
+
+{ "reaction_summary": { 
+    "reaction_type":"chemical", 
+    "reactants":[{"name":"NaOCl","role":"oxidant"},{"name":"6 °C","role":"substrate"}], 
+    "products":[{"name":"1 °C","yield_optimal":95.2,"unit":"%"}], 
+    "conditions":[
+        {"type":"temperature","value":null}, 
+        {"type":"residence_time","value":null},
+        {"type":"flow_rate_reactant_A","value":null},
+        {"type":"flow_rate_reactant_B","value":null},
+        {"type":"pressure","value":null}
+    ], 
+    "reactor":{"type":"micromixer", "inner_diameter":null}
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp_residence = re.search(r"(\d+) °C in a (?:\w+)?(?:for|with) (\d+) min", text)
+    if match_temp_residence:
+        temp, res_time = map(int, match_temp_residence.groups())
+
+    # Parse flow rates and pressure
+    flow_rate_A = None
+    flow_rate_B = None
+    total_flow_rate = None
+    pressure = None
+    match_flows_pressure = re.search(r"Flow rate (\d+) mL/min(?:, T=)?", text)
+    if match_flows_pressure:
+        total_flow_rate = int(match_flows_pressure.group(1))
+    
+    # Parse yield and reaction type (if any)
+    yield_optimal = None
+    reaction_type = None
+    products = []
+    for line in text.split('\n'):
+        match_yield_reaction = re.search(r"yield (\d+)%", line)
+        if match_yield_reaction:
+            yield_optimal = int(match_yield_reaction.group(1))
+        
+        match_reactant_product = re.search(r"(?:reactants|products):
+
+{"name": name.capitalize(), "role": role}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"([A-Za-z0-9]+)", input_str)
+    reactant_names = [match for match in matches]
+    
+    # Parse products (yield optimal)
+    product_match = re.search(r'(\d+)%', input_str)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+        
+    else: 
+        yield_optimal = None
+    
+    # Parse conditions
+    condition_matches = re.findall(r"([A-Za-z0-9]+)=([^;]+)", input_str)
+    
+    optimal_conditions = []
+    for match in condition_matches:
+        if "T=" in match[1]:
+            value, unit = match[1].split("=")[1], '°C'
+            
+        elif "residence_time" in match[1] or "time
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": {  "reaction_summary": {   "reaction_type":"...",    "reactants":[{"name":"...","role":"reactant|catalyst|solvent"}],    "products":[{"name":"...","yield_optimal":95,"unit":"%"}],    "conditions":[     {"type":"temperature","value":"..."},     {"type":"residence_time","value":"..."},     {"type":"flow_rate_reactant_A","value":"6b"},     {"type":"flow_rate_reactant_B","value":"1b"},     {"type":"pressure","value":null}    ],    "reactor":{"type":"...",   "inner_diameter":"..."},    "metrics":{"conversion":...,  "yield":...,  "selectivity":...,  "unit":"%"}}}}
+

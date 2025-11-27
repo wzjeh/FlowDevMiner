@@ -1,0 +1,13 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion | increase |
+| temperature | selectivity | increase |
+| temperature | conversion | decrease |
+| temperature | selectivity | decrease |
+| flow_rate | conversion | increase |
+| flow_rate | selectivity | increase |
+| F2/CO ratio | selectivity | decrease |
+| F2/CO ratio | formation of CF3OF | increase |
+| F2/CO ratio | conversion | increase |

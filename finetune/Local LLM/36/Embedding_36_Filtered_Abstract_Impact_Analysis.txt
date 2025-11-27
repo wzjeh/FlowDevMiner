@@ -1,0 +1,13 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| 1. residence_time | conversion of TFMB | increase |
+| residence_time | product selectivity | decrease |
+| 2. gas_flow_rate | WeGS | decrease |
+| liquid_flow_rate | liquid film thickness | increase |
+| gas_flow_rate, liquid_flow_rate | ratio between them | decrease |
+| residence_time | residence time | increase |
+| 3. MBY concentration | selectivity over Pd/TiO2 | increase |
+| MBY concentration | effect of higher selectivity over other catalysts | - |
+| pattern = r"(\w+)\s+is\s+(an?\s*\w*)\s*(increase | decrease | unchanged |

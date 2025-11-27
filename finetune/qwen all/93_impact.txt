@@ -1,0 +1,11 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | activation energy | unchanged |
+| residence_time | conversion of p-chlorophenol | increase |
+| flow_rate | Peclet number | increase |
+| flow_rate | reactor performance | increase |
+| flow_rate | back_mixing | decrease |
+| catalyst_loading | reaction rate | increase |
+| temperature | chemical kinetic rate constant | increase |

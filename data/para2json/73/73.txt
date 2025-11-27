@@ -1,0 +1,101 @@
+引用格式：主凯,倪泽雨,黄益平,等 .连续流微反应器内蒽醌硝化反应规律研究[J].石油化工高等学校学报,2024,37(1):11-15.
+
+ZHU Kai,NI Zeyu,HUANG Yiping,et al.Study on the Continuous⁃Flow Nitration Process of Anthraquinone in Mi⁃ croreactor[J].Journal of Petrochemical Universities,2024,37(1):11-15.
+
+中图分类号： TQ61 文献标志码： A doi：10.12422/j.issn.1006⁃396X.2024.01.002
+
+Study on the Continuous⁃Flow Nitration Process of Anthraquinone in
+
+（1.China Construction Industrial & Energy Engineering Group Co.，Ltd.，Nanjing Jiangsu 210023，China；
+
+2.Faculty of Chemical Engineering，Huaiyin Institute of Technology，Huai，an Jiangsu 223003，China）
+
+Abstract: Anthraquinone dyes are the second most significant dyes in the dye industry after azo dyes.Nitroanthraquinone prepared
+
+by the nitration of anthraquinone,is one of the important raw materials for the synthesis of various types of anthraquinone dyes.In
+
+this study,a microreactor with excellent heat and mass transfer properties was utilized to investigate the continuous⁃flow nitration
+
+process of anthraquinone.The effects of key process parameters such as reaction temperature,volume flow rate,molar ratio of nitric
+
+acid to anthraquinone, anthraquinone concentration, residence time, and sulfuric acid intensity on the nitration process were
+
+examined.The results showed that the competition between mono⁃ and di⁃nitrification reactions during anthraquinone nitrification
+
+was significant, and the adjustment of process parameters would significantly affect the ratio of mono⁃ and di⁃nitrification products
+
+while promoting the conversion rate of anthraquinone. The full use of the advantages of microreactors to precisely regulate the
+
+process parameters is an effective measure to improve the selectivity of the target nitration product.
+
+Keywords: Microreactor； Anthraquinone； 1⁃Nitroanthraquinone； Nitration
+
+第一作者：主凯(1989⁃)，男，博士，高级工程师，从事微反应技术应用方面的研究；E⁃mail：zkhhit@163.com。
+
+通信作者：黄益平(1985⁃)，男，博士，高级工程师，从事精细化工应用方面的研究；E⁃mail：huangyp@163.com。
+
+Fig.7 Effect of sulfuric acid mass fraction on the nitration
+
+［1］ BIEN H S，STAWITZ J，WUNDERLICH K.Anthraquinone dyes and intermediates［M］.New York：John Wiley & Sons，2000.
+
+［2］ 曹阳，吕春绪，蔡春，等 . 蒽醌混酸硝化与 O3⁃NO2硝化产物分布的理论研究［J］. 化学通报，2002，65（12）：531⁃835.
+
+CAO Y，Lü C X，CAI C，et al.A theoretical study on the product distribution of anthraquinone nitration by mixed acid and by
+
+［3］ 苏晨飞，王进，曹彬，等 . 微反应器内低碳醇水蒸气重整制氢研究进展［J］. 天然气化工（C1 化学与化工），2022，47（1）：1⁃7.
+
+SU C F，WANG J，CAO B，et al.Research progress of hydrogen production by steam reforming of low carbon alcohols in
+
+microreactor［J］.Natural Gas Chemical Industry，2022，47（1）：1⁃7.
+
+LIU G Y，FANG Y C，GUO H J，et al.Development of microreactors［J］.Contemporary Chemical Industry，2010，39（3）：
+
+［5］ 刘江华，甄新平，熊良铨，等 . 克拉玛依稠油减四线馏分微反应器脱酸中试研究［J］. 石油炼制与化工，2012，43（5）：29⁃31.
+
+LIU J H，ZHEN X P，XIONG L Q，et al.Pilot plant test of removing naphthenic acid from 4th vacuum cut of Karamay heavy
+
+crude via microreactor［J］.Petroleum Processing and Petrochemicals，2012，43（5）：29⁃31.
+
+［6］ 杨萍，李有喜，蔡武锋，等 . 双金属 MOF⁃74（MgxNi1⁃x）的制备及其对 CO2/N2的吸附分离性能研究［J］. 辽宁石油化工大学
+
+YANG P，LI Y X，CAI W F，et al. Preparation of bimetallic MOF ⁃ 74（MgxNi1⁃x） and its adsorption and separation
+
+performance for CO2/N2［J］.Journal of Liaoning Petrochemical University，2022，42（6）：1⁃7.
+
+［7］ 辛靖，朱元宝，胡淼，等 . 微化工技术的研究与应用进展［J］. 石油化工高等学校学报，2020，33（5）：8⁃13.
+
+XIN J，ZHU Y B，HU M，et al.Research and application progress of microchemical technology［J］.Journal of Petrochemical
+
+［8］ HARTMAN R L. Flow chemistry remains an opportunity for chemists and chemical engineers［J］. Current Opinion in
+
+CHEN G W，ZHAO Y C，YUE J，et al.Transport phenomena in micro⁃chemical engineering［J］.CIESC Journal，2013，64
+
+［10］ 李光晓，刘塞尔，苏远海 . 微尺度内液⁃液传质及反应过程强化的研究进展［J］. 化工学报，2021，72（1）：452⁃467.
+
+LI G X，LIU S E，SU Y H. Research progress on micro ⁃ scale internal liquid ⁃ liquid mass transfer and reaction process
+
+［11］ TANIMU A，JAENICKE S，ALHOOSHANI K. Heterogeneous catalysis in continuous flow microreactors：A review of
+
+methods and applications［J］.Chemical Engineering Journal，2017，327：792⁃821.
+
+［12］ RUSSO D，TOMAIUOLO G，ANDREOZZI R，et al.Heterogeneous benzaldehyde nitration in batch and continuous flow
+
+microreactor［J］.Chemical Engineering Journal，2019，377：120346.
+
+［13］ YANG A M，YUE J C，ZHENG S Q，et al.Experimental investigation of mononitrotoluene preparation in a continuous⁃flow
+
+microreactor［J］.Research on Chemical Intermediates，2022，48（10）：4373⁃4390.
+
+［14］ LI S F，ZHANG X L，JI D S，et al.Continuous flow nitration of 3⁃［2⁃chloro⁃4⁃（trifluoromethyl） phenoxy］ benzoic acid and
+
+its chemical kinetics within droplet⁃based microreactors［J］.Chemical Engineering Science，2022，255：117657.
+
+［15］ CUI Y J，SONG J，DU C C，et al.Determination of the kinetics of chlorobenzene nitration using a homogeneously continuous
+
+［16］ ZHAO W Y，ZHANG Q，WEI W，et al.Safe，green，and efficient synthesis of m⁃dinitrobenzene via two⁃step nitration in a
+
+continuous⁃flow microreactor［J］.ChemistrySelect，2023，8（14）：e202204997.
+
+［17］ GUO S，CAO J Y，LIU M Q，et al.Intensification and kinetic study of trifluoromethylbenzen nitration with mixed acid in the
+
+microreactor［J］.Chemical Engineering and Processing⁃Process Intensification，2023，183：109239.

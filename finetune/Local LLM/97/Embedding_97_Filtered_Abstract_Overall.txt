@@ -1,0 +1,114 @@
+{
+  "reaction_summary": {
+    "reaction_type": "diazotization",
+    "reactants": ["PNA", "HBF4"],
+    "products": ["4-NBDT", "4-NBP"],
+    "conditions": [
+      {"type":"residence_time","value":13},
+      {"type":"temperature","value":25}
+    ],
+    "reactor":{"type":"capillary microreactor"},
+    "metrics":{
+        "yield_4NBP":99,
+        "conversion":null
+    }
+  },
+  "reaction_summary": {
+    "reaction_type": "Suzuki-Miyaura cross-coupling",
+    "reactants":["IL","Pd(OAc)2"],
+    "products":"product not specified",
+    "conditions":[],
+    "reactor":{"type":"droplet-based microreactor"},
+    "metrics":{
+        "yield":null,
+        "conversion":null
+    }
+  },
+  "reaction_summary": {
+    "reaction_type": "diazotization",
+    "reactants":["PNA", "HBF4"],
+    "products":"product not specified",
+    "conditions":[],
+    "reactor":{"type":"capillary microreactor"},
+    "metrics":{
+        "yield_4NBP":null,
+        "conversion":null
+    }
+  },
+  "reaction_summary": {
+    "reaction_type": "Suzuki-Miyaura cross-coupling",
+    "reactants":["IL","Pd(OAc)2"],
+    "products":"product not specified",
+    "conditions":[],
+    "reactor":{"type":"capillary microreactor"},
+    "metrics":{
+        "yield":null,
+        "conversion":null
+    }
+  },
+  "reaction_summary": {
+    "reaction_type": "Suzuki-Miyaura cross-coupling",
+    "reactants":["IL","Pd(OAc)2"],
+    "products":"product not specified",
+    "conditions":[],
+    "reactor":{"type":"capillary microreactor"},
+    "metrics":{
+        "yield":null,
+        "conversion":null
+    }
+  },
+  "reaction_summary": {
+    "reaction_type": "Suzuki-Miyaura cross-coupling",
+    "reactants":["IL","Pd(OAc)2"],
+    "products":"product not specified",
+    "conditions":[],
+    "reactor":{"type":"capillary microreactor"},
+    "metrics":{
+        "yield":null,
+        "conversion":null
+    }
+  },
+  "reaction_summary": {
+    "reaction_type": "Suzuki-Miyaura cross-coupling",
+    "reactants":["IL","Pd(OAc)2"],
+    "products":"product not specified",
+    "conditions":[],
+    "reactor":{"type":"capillary microreactor"},
+    "metrics":{
+        "yield":null,
+        "conversion":null
+    }
+  },
+  "reaction_summary": {
+    "reaction_type": "Suzuki-Miyaura cross-coupling",
+    "reactants":["IL","Pd(OAc)2"],
+    "products":"product not specified",
+    "conditions":[],
+    "reactor":{"type":"capillary microreactor"},
+    "metrics":{
+        "yield":null,
+        "conversion":null
+    }
+  },
+  "reaction_summary": {
+    "reaction_type": "Suzuki-Miyaura cross-coupling",
+    "reactants":["IL","Pd(OAc)2"],
+    "products":"product not specified",
+    "conditions":[],
+    "reactor":{"type":"capillary microreactor"},
+    "metrics":{
+        "yield":null,
+        "conversion":null
+    }
+  },
+  "reaction_summary": {
+    "reaction_type": "Suzuki-Miyaura cross-coupling",
+    "reactants":["IL","Pd(OAc)2"],
+    "products":"product not specified",
+    "conditions":[],
+    "reactor":{"type":"capillary microreactor"},
+    "metrics":{
+        "yield":null,
+        "conversion":null
+    }
+  }

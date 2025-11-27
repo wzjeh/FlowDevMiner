@@ -1,0 +1,20 @@
+1.1. High pressure reactions in continuous flow microreactors
+
+Table 1 High pressure reactions in continuous flow microreactors.
+
+The advantage of high pressure microreactors compared to their macroscale counterparts is obvious. No excessive wall thick- ness of the reaction channel is needed for mechanical stability and the impact of hazardous failure is drastically reduced since only little quantities of material are involved. Until now only few studies discuss high pressure chemical reactions in continuous flow microreacto
+
+studied. All reactants are brought in contact, mix and react on the chip. In situ phase studies of the reaction mixture and the reac- tion performance were discussed. The phase studies confirmed a single phase reaction mixture at 25 and 50 ◦C during isobaric reaction conditions of 136 bar. The reaction performance increased with temperature whereas with increasing pressure no significant increase 
+
+The Si/glass microreactors are fabricated using standard pho- tolithography, dry etching and anodic bonding techniques. The high pressure microfluidic connections are realized by soldering stain- less steel capillaries directly onto the chip similar to the technique used in [14]. The detailed fabrication process and the high pressure testing of the chip are reported elsewhere [10]. The rectangular
+
+Capillary-based microreactors
+
+A versatile high pressure experimental setup for continuous operation as shown in Fig. 3 is used for the experiments. The setup allows the individual adjustment of the liquid and gas flow rates and of the system pressure. Stainless steel and polyetheretherke- tone (PEEK) capillaries (o.d. = 1.56 mm, i.d. = 0.5 mm) were used as tubing. High pressure PEEK connections (Upchurch Scientific) pro- vide 
+
+Summary: The paragraph describes the development of a flow-chemistry process for hydrogenation reactions using a packed bed microreactor with hydrogen as the reactant gas. The key reactants are not mentioned, but it is implied that they will undergo hydrogenation in the presence of a catalyst to produce desired products. The critical conditions include flow rates (1-5 mL/min), residence times (0.2-3 s), and temperatures between 40-80°C. Pressure details are not provided, but it is mentioned that the reactor has an ID of 6 mm. Outcomes such as conversion, yield, and selectivity will depend on the specific reaction being studied.
+
+shown in Fig. 2 consists of three inlets for the reactants, a meander- ing mixing section, a packed bed and a common outlet. The inlets were designed to primarily generate a stable segmented gas–liquid flow of C6H10 and H2, which is then dissolved by a side inflow of scCO2. The 64.6 mm long mixing section provides the reactants to mix and generate a single phase reaction mixture. The meandering sh
+
+Reference Experiment Dimensions Reactor material microfluidic connection Range Comments
+

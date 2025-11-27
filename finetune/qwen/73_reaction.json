@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "anthraquinone",
+      "role": "reactant"
+    },
+    {
+      "name": "nitric-sulfuric acid mixture",
+      "role": "catalyst"
+    },
+    {
+      "name": "concentrated sulfuric acid",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "1-nitroanthraquinone",
+      "yield_optimal": 79.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "70 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "12.0 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "capillary microreactor",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": 79.0,
+    "yield": 79.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

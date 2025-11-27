@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration/hydrogenation/cyclization",
+  "reactants": [
+    {
+      "name": "2,2-difluoro-2-(3-fluorophenoxy)-N,N-dimethylacetamide",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd/C",
+      "role": "catalyst"
+    },
+    {
+      "name": "toluene/methanol",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "6-amino-2,2,7-trifluoro-4H-benzo-[1,4]-oxazin-3-one",
+      "yield_optimal": 83.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "80 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "1 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "20 bar"
+    }
+  ],
+  "reactor": {
+    "type": "packed bed",
+    "inner_diameter": "4 mm"
+  },
+  "metrics": {
+    "conversion": 99.0,
+    "yield": 83.0,
+    "selectivity": 99.0,
+    "unit": "%"
+  }
+}

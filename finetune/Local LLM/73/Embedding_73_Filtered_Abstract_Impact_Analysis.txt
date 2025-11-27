@@ -1,0 +1,24 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of TFMB | increase |
+| residence_time | product selectivity | unchanged |
+| residence time | improved conversion, yield, selectivity and reduced waste generation | - |
+| - residence time | improved conversion | - |
+| - residence time | improved yield | - |
+| - residence time | improved selectivity | - |
+| - residence time | reduced waste generation | - |
+| residence_time | desired outcome | - |
+| flow rate(s) | reaction type and desired outcome | - |
+| temperature | reaction type and desired outcome | - |
+| pressure | reaction type and desired outcome | - |
+| residence_time | conversion of TFMB | increase |
+| residence_time | product selectivity | unchanged |
+| residence time | improved conversion | - |
+| residence time | improved yield | - |
+| residence time | improved selectivity | - |
+| residence time | reduced waste generation | - |
+| flow rate(s) | reaction type and desired outcome | - |
+| temperature | reaction type and desired outcome | - |
+| pressure | reaction type and desired outcome | - |

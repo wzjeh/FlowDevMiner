@@ -1,0 +1,18 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of o-xylene | increase |
+| temperature | impurity formation | increase |
+| residence_time | conversion of o-xylene | increase |
+| residence_time | impurity formation | increase |
+| catalyst_loading | not mentioned | unchanged |
+| flow_rate | mass transfer coefficient | increase |
+| reactant_concentration (FNA) | conversion of o-xylene | increase |
+| reactant_concentration (FNA) | impurity formation | increase |
+| reactant_concentration (sulfuric acid) | selectivity for 1,2-dimethyl-4-nitrobenzene | increase |
+| reactant_concentration (sulfuric acid) | selectivity for 1,2-dimethyl-3-nitrobenzene | decrease |
+| nitrating_agent (FNA vs nitrating mixture) | selectivity for 1,2-dimethyl-4-nitrobenzene | increase |
+| nitrating_agent (FNA vs nitrating mixture) | impurity formation | decrease |
+| residence_time | conversion of 1,2-dimethyl-3-nitrobenzene | increase |
+| residence_time | impurity formation from 1,2-dimethyl-3-nitrobenzene | increase |

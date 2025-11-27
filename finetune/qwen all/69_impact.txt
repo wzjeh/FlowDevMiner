@@ -1,0 +1,10 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | phenylacetylene conversion | increase |
+| pressure | phenylacetylene conversion | increase |
+| temperature | styrene selectivity | decrease |
+| pressure | styrene selectivity | decrease |
+| temperature | styrene selectivity | increase |
+| H2 pressure | styrene selectivity | decrease |

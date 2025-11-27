@@ -1,0 +1,31 @@
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": { "reaction_type":"nitration", "reactants":[{"name":"FNA","role":"catalyst"},{"name":"water","role":"solvent"}], "products":[ {"name":"oxidative products","yield_optimal":null,"unit":"%"}, {"name":"nitrated product","yield_optimal":2,"unit":"%"}, {"name":"unspecified nitration product","yield_optimal":3,"unit":"%"} ], "conditions":[{"type":"temperature","value":"80 °C"},{"type":"residence_time","value":null}
+
+{ "reaction_summary": {  "reaction_type":"continuous-flow synthesis",  "reactants":[{"name":"o-xylene","role":"reactant"}, {"name":"nitric acid","role":"nitrating agent"}
+
+{"name": f"{product}nitrophenol", "yield_optimal": int(re.findall(r"(\d+)% yield of \w+-\w+phenol", paragraph)[0]), "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "100 min"}], "reactor": {"type": "coil", "inner_diameter": "2 mm"}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{
+        "type": None,
+        "inner_diameter": re.search(r"(\d+) mm", text).group(1) if re.search(r"a (\d+) mm coil", text) else None
+    }
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "reactant|catalyst|solvent"}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": 90, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": { 
+    "reaction_type":"nitration", 
+    "reactants":[{"name":"o-xylene","role":"solvent"}], 
+    "products":[{"name":"...","yield_optimal":null,"unit":"%"}],
+    "conditions":[ {"type":"temperature","value":"80 °C"}, {"type":"flow_rate_total","value":"0.1 mL/min"}
+
+{ "reaction_summary": {  "reaction_type":"...",  "reactants":[{"name":"...","role":"reactant|catalyst|solvent"}],  "products":[{"name":"...","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"..."},    {"type":"residence_time","value":"..."},    {"type":"flow_rate_reactant_A","value":"0.1 mL/min"},    {"type":"pressure","value":null}
+
+{
+    "reaction_summary": {
+        "reaction_type":"continuous-flow nitration",
+        "reactants":[{"name":"o-xylene","role":"reactant"},{"name":"mixed acid (HNO3:H2SO4)","role":"nitrating agent"}],
+        "products":[{"name":"dinitro derivatives","yield_optimal":95,"unit":"%"}
+

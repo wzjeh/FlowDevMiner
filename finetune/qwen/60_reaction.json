@@ -1,0 +1,60 @@
+{
+  "reaction_type": "CO2 hydrogenation",
+  "reactants": [
+    {
+      "name": "CO2",
+      "role": "reactant"
+    },
+    {
+      "name": "H2",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd0.25Zn0.75Ox nanoclusters",
+      "role": "catalyst"
+    },
+    {
+      "name": "SiO2-coated mica",
+      "role": "support"
+    },
+    {
+      "name": "He",
+      "role": "carrier gas"
+    }
+  ],
+  "products": [
+    {
+      "name": "CO",
+      "yield_optimal": 89.5,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "200 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "12 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.5 sccm"
+    },
+    {
+      "type": "pressure",
+      "value": "40 bar"
+    }
+  ],
+  "reactor": {
+    "type": "microchannel",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": 95.0,
+    "yield": 89.5,
+    "selectivity": 94.0,
+    "unit": "%"
+  }
+}

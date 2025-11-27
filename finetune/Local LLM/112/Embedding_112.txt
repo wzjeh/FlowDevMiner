@@ -1,0 +1,20 @@
+Reaction medium Conversion (%) Selectivity (%)
+
+Keywords a-Pinene  F127 micelle  Hydrogenation  Nanoparticle  Microreactor
+
+Metal precursor Average diameter (nm)a Conversion (%) Selectivity (%)
+
+In a typical experiment, 0.2730 g (2 mmol) of a-pinene was added to the catalytic system as described in Sect. 2.1. The reactor was sealed and purged with 1 MPa H2 to remove air. Then the reactor was pressurized to 0.3 MPa H2 and placed in a 40 C water bath. The mixture was stirred for 3 h at a stirring rate of 500 r/min. After the reaction, the remaining products were isolated by liquid– liquid extraction with n-heptane and analyzed using gas chromatography (GC). Under these conditions, the con- version for a-pinene was 99.9 %, and the selectivity for cis-pinane was 99.0 %. For the recycling procedure, the n- heptane remaining in the autoclave was evaporated under vacuum, and the a-pinene charged into the autoclave for subsequent recycling.
+
+In a typical experiment, 2 mL of water and 20 mg of F127 were placed in a stainless steel reactor. The mixture was stirred for 2 h at 25 C, and then 2.1 mg (0.01 mmol Ru) of RuCl3 (vacuum drying before use) was added to the reactor. Stirring was continued for 0.5 h. The reactor was then sealed, and purged with 1 MPa H2 to remove air. Subsequently, the reactor was pressurized to 0.2 MPa H2, and placed in a 40 C water bath at a stirring rate of 500 r/ min. After stirring for 2 h (Fig S1), the reactor was placed in ice water and the gas was released. Finally, the reactor was vented and a homogeneous dark solution of the cata- lyst was obtained. Under these conditions, the obtained Ru nanoparticles were dispersed evenly in the system, as shown in Fig. 3a. The nanoparticles were small, at about 2.0–4.0 nm on average. We also measured the valence state of the obtained Ru nanoparticles, with the results indicating that Ru3? was reduced to zero-valence metallic Ru (Fig S2).The obtained catalyst was used directly for the hydrogenation of a-pinene.
+
+College of Chemical Engineering, Qingdao University of Science and Technology, Qingdao 266042, Shandong, China
+
+Cis-pinane Trans-pinane
+
+Cis-pinane Trans-pinane
+
+Reaction conditions: a-pinene: 0.2730 g; metal precursor: 0.01 mmol; F127: 20 mg; water: 2 mL; stirring rate: 500 r/min; 40 C; 0.3 MPa H2; 2.0 h
+
+conversion selectivity
+

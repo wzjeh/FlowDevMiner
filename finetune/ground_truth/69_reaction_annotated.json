@@ -1,0 +1,52 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "phenylacetylene",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd@UiO-66",
+      "role": "catalyst"
+    },
+    {
+      "name": "methanol",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "styrene",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "45 C"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "packed bed",
+    "inner_diameter": "2.1 mm"
+  },
+  "metrics": {
+    "conversion": 98.9,
+    "yield": null,
+    "selectivity": 70.0,
+    "unit": "%"
+  }
+}

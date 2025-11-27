@@ -1,0 +1,20 @@
+The eﬀects of the residence time on the microreactor STY and the yield of PC are shown in Fig. 4. The experiments are per- formed at 140 °C and 160 °C, HETBAB concentration of 11.09 mol% in PO, pressure of 3.5 MPa, and the molar ratio of CO2/PO of 1.41. The residence time can be defined as the total volume of the micromixer and the capillary reactor divided by the total volumetric flow rate of the
+
+Propylene oxide (PO), methanol, and n-butanol (analytic grade) were purchased from Sinopharm Chemical Reagent Co. Ltd. Ionic liquid catalyst (HETBAB), which can be dissolved in PO, was obtained from Beijing ZhongKe Anyln Technology Co. Ltd. Carbon dioxide with a purity of 99.99% was commercially available. The schematic of the experimental setup is shown in Fig. 2. The microreactor system used in 
+
+liquid catalyst. The microreactor performance is evaluated by studying the eﬀects of diﬀerent operating conditions, including reaction temperature, operating pressure, residence time, molar ratio of CO2/PO,
+
+the micromixer is about 0.31 mL. The spiral capillary reactor located in the oil bath is regarded as the residence time unit for regulating the reaction time. The internal diameter and the length of the spiral capillary reactor are 1.0 mm and 2.5 m, respectively. Thus, the volume of the spiral capillary reactor is about 1.96 mL. The high purity CO2 flows through the gas mass flow con- troller and 
+
+To study the eﬀect of pressure on the yield and STY, exper- iments were carried out in the range of 1.0–4.0 MPa at 11.09 mol% and 4.47 mol% HETBAB in PO. The residence time is maintained at 14 s. The molar ratio of CO2 and PO is kept constant by varying the gas and liquid flow rates at the same time. The actual gas/liquid volume ratios are changed from 65 to 16 for 4.47 mol% and from 52 to 13 for 
+
+The cycloaddition of propylene oxide (PO) and CO2 was investi- gated in a microreactor with an IL catalyst. The microreactor performance was evaluated by studying the eﬀects of diﬀerent operating conditions, such as, the reaction temperature, the operating pressure, the residence time, the molar ratio of CO2/ PO, and the catalyst concentration in PO. The experimental results indicate that the proc
+
+To elucidate the impact of the molar ratio of CO2/PO, the reac- tion tests are conducted over a range of liquid flow rates (0.14–0.60 mL min−1), whereas the gas flow rate is about 200 mL min−1 (STP) in this set of experiments. The reaction temperature is varied in the range of 140–190 °C. The pressure and the catalyst concentration in PO are kept constant. In these experiments, the actual gas–liqu
+
+mass transfer and the intrinsic kinetics perspectives are discussed. The results show that the residence time can be dramatically reduced from several hours in a conventional stirred reactor to about 10 s in a
+
+microreactor. The yield of PC at 3.5 MPa can reach 99.8% at a residence time of 14 s. The turnover fre-
+
+generally performed at very low temperatures (<−50 °C) in batch reactors. Kawaguchi et al. investigated this reaction at temperatures between −20 to 20 °C in a microreactor.31 The results showed that the microreactor yields were much higher than the batch yields (from 20% to 89%) at a very short resi- dence time of 0.01 s. Trachsel et al. found that the reaction rate could be improved from 0.004 m
+

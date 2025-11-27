@@ -1,0 +1,20 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of TFMB | increase |
+| pressure | yield and selectivity | increase |
+| temperature | yield and selectivity | increase |
+| volumetric flow rate | mass transfer performance | increase |
+| interfacial area between the two phases | mass transfer performance | increase |
+| annual production | annual production | increase |
+| reaction conditions (high pressure, temperature) | conversion, yield, and selectivity | increase |
+| catalysts | reaction outcomes | increase |
+| reactants/solvents | reaction outcomes | increase |
+| volumetric flow rate | mass transfer performance | increase |
+| interfacial area between the two phases | mass transfer performance | increase |
+| working year (3000 h) | annual production | - |
+| residence_time | product selectivity | unchanged |
+| pressure | yield and selectivity | decrease |
+| temperature | yield and selectivity | decrease |
+| volumetric flow rate | mass transfer performance | - |

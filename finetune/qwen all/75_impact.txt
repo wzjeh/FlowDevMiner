@@ -1,0 +1,10 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | reaction rate | increase |
+| residence_time | conversion of nitric acid | increase |
+| flow_rate | reaction rate | increase |
+| catalyst_loading (H2SO4 concentration) | reaction rate | increase |
+| residence_time | byproduct formation | decrease |
+| channel diameter | reaction rate | decrease |

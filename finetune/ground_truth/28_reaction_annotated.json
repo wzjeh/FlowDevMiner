@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "toluene",
+      "role": "reactant"
+    },
+    {
+      "name": "mixed acid",
+      "role": "catalyst"
+    },
+    {
+      "name": null,
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "mononitrotoluene",
+      "yield_optimal": 47,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "45 ◦C"
+    },
+    {
+      "type": "residence_time",
+      "value": "12"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "null"
+    },
+    {
+      "type": "pressure",
+      "value": "null"
+    }
+  ],
+  "reactor": {
+    "type": "coil microreactor",
+    "inner_diameter": "null"
+  },
+  "metrics": {
+    "conversion": 99.1,
+    "yield": null,
+    "selectivity": 99,
+    "unit": "%"
+  }
+}

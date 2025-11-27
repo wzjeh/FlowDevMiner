@@ -1,0 +1,28 @@
+bed reactors (TBRs), which exhibit different reaction performance due to the smaller flow channels in μPBRs. The miniaturization in μPBRs enhances mass and heat transfer,38 reduces reaction times,39 and improves control over reaction conditions.40,41 These features lead to higher yields, selectivity, and efficiency compared to conventional systems.42–44
+
+Qmix Total volumetric flow rate of the gas–liquid mixture, mL min−1
+
+Summary: The micro-packed-bed reactor is a flow-chemistry process development for continuous synthesis of organic compounds. It uses hydrogenation as the reaction type with water and methanol as key reactants, palladium on carbon as catalyst, and formaldehyde as product. The reactor is a micro-packed-bed reactor (ID 0.5mm) with a flow rate of 1mL/min, residence time of 360s, temperature of 80°C, and pressure of 2atm. The outcome shows high conversion (97%) and selectivity (>99%).
+
+flowmeter (HORIBA Precision Instruments Beijing Co., Ltd) and a high-pressure syringe pump (Fusion 6000, Chemyx, USA), respectively. After mixing, the two phases flow into the micro-packed- bed reactor which is packed with palladium metal catalyst particles. At the rear end of the μPBR, a gas–liquid separation tank is connected to separate the gas and liquid phases. The upper part of the separatio
+
+Flow-chemistry process development: Hydrogenation reaction in micro-packed bed reactors (μPBRs) using anthraquinone as the starting material with hydrogen as the reducing agent. The reactor type is μPBR and ID is not mentioned. Critical conditions include flow rates, residence time, temperature, and pressure which are not specified. Outcomes such as conversion, yield, and selectivity are not reported in this context.
+
+Summary: The paragraph discusses flow-chemistry process development in a micro-packed-bed reactor for the conversion of CO2 to valuable chemicals using hydrogen as a reducing agent. The reaction occurs under high pressure and temperature conditions with a residence time (t) calculated based on the total volumetric flow rate of the gas–liquid mixture (Qmix) and the reactor's pore volume (VR).
+
+reported a gas agitation method to enhance gas–liquid mass transfer via gas disturbance. Besides, fluidized beds17 have been used to achieve high reaction rates and efficient catalyst utilization in industry. Despite these advancements, these methods often result in increased risks due to the high excessive use of hydrogen and the addition of active equipment. These challenges necessitate the deve
+
+where ΔCH2 is the liquid H2 concentration difference between the micro-packed-bed inlet and outlet; the liquid phase concentration can be predicted from the pressure at the front and rear ends of the μPBR through eqn (6). FL is the liquid flow rate in the μPBR. VR is the pore volume in the μPBR.
+
+Micro-packed-bed reactors have been successfully applied in such hydrogenation reaction systems. For instance, Liu et al.45
+
+Flow-chemistry process development: 
+Reaction type: Conversion of anthraquinone
+Key reactants: Anthraquinone and hydrogen
+Catalyst: Not mentioned
+Products: Not mentioned
+Reactor details: Micro-packed bed reactor (type/ID not specified)
+Critical conditions: Gas–liquid flow rates ranging from 0.6 to 3.1 mm s⁻¹, fixed anthraquinone-to-hydrogen molar ratio of 1:1, and an apparent residence time of only 9 seconds
+Temperature and pressure not mentioned
+Outcomes: A 27% conversion rate is achieved with a hydrogen efficiency of 10.13 g L⁻¹
+

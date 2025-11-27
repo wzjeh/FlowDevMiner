@@ -1,0 +1,36 @@
+{"name": None, "yield_optimal": yield_optimal, "unit": unit}
+
+{ "reaction_summary": {  "reaction_type":"...",  "reactants":[{"name":"...","role":"reactant|catalyst|solvent"}],  "products":[{"name":"...","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"..."}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}, {"name": "...", "role": "..."}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}, {"type": "flow_rate_reactant_B", "value": "0.2 mL/min"}], "reactor": {"type": null, "inner_diameter": null}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+- Assume that if a field is not explicitly stated in the input text, it should be included with its default value.
+
+Step 1: Parse the paragraph to extract relevant information
+The paragraph discusses the effects of varying microchannel length in a reactor on the residence time and pressure drop. It does not provide information about flow-chemistry process development.
+We need to parse this paragraph to identify any relevant keywords or phrases that might indicate what type of reaction is being discussed.
+
+Step 2: Identify key terms related to chemical reactions
+The only term mentioned is "microchannel length", which could be related to a reactor, but it does not provide information about the specific chemicals involved in the process.
+We need to identify any other relevant keywords or phrases that might indicate what type of reaction is being discussed.
+
+Step 3: Extract conditions and metrics from the paragraph
+The paragraph mentions varying microchannel length, residence time, and pressure drop. However, there are no explicit values mentioned for these parameters.
+Since we don't have specific information about flow-chemistry process development or any chemicals involved in this process, our output will be limited to what can be inferred.
+
+Step 4: Determine the type of reactor
+The paragraph mentions "microchannel length", which suggests that a microreactor is being used. However
+
+{"type":"flow_rate_total","value":f"{float(v.split(' ')[0])} mL/min"}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}], "products": [{"name": "benzaldehyde", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [], "products": [{"name": "product", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "10 min"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "tube", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [], "products": [{"name": "null", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "higher"}, {"type": "flow_rate_total", "value": "820 μL/min"}], "reactor": {"type": "coil", "inner_diameter": "null"}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"reaction_type": None, "reactants": [], "products": [{"name": None}], 
+                 "conditions": [], "reactor": {"type": None}, "metrics": {"conversion": None}}
+

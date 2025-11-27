@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "nitration", "reactants": ["furfural"], "products": ["furfuryl alcohol"], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": null, "inner_diameter": null}, "metrics": {"conversion": 95.2, "yield": 89.5, "selectivity": 0.0, "unit": "%"}}}

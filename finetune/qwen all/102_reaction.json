@@ -1,0 +1,52 @@
+{
+  "reaction_type": "hydrodechlorination",
+  "reactants": [
+    {
+      "name": "4-chlorophenol",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd nanoparticles",
+      "role": "catalyst"
+    },
+    {
+      "name": "water",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "phenol",
+      "yield_optimal": 100.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "25 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "2 h"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": "atmospheric pressure"
+    }
+  ],
+  "reactor": {
+    "type": "tubular",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": 100.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

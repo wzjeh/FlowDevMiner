@@ -1,0 +1,1 @@
+{"reaction_summary":{"reaction_type":"nitration","reactants":[{"name":"o-xylene","role":"reactant"},{"name":"nitric acid","role":"reactant"}],"products":[{"name":"1,2-dimethyl-4","yield_optimal":null,"unit":"%"}],"conditions":[],"reactor":{"type":"capillary microreactor","inner_diameter":null},"metrics":{"conversion":87.0,"yield":null,"selectivity":null,"unit":"%"}}}

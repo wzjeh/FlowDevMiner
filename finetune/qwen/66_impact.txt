@@ -1,0 +1,9 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | primary particle size | increase |
+| residence_time | primary particle size | unchanged |
+| flow_rate | primary particle size | unchanged |
+| reactant_concentration | aggregate formation | decrease |
+| temperature | aggregate formation | increase |

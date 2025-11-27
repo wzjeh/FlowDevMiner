@@ -1,0 +1,15 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | yield of PC | increase |
+| temperature | TOF | increase |
+| temperature | STY | increase |
+| temperature | selectivity of PC | unchanged |
+| residence_time | yield of PC | increase |
+| residence_time | STY | decrease |
+| residence_time | selectivity of PC | unchanged |
+| pressure | yield of PC | increase |
+| pressure | STY | increase |
+| catalyst_loading | STY | increase |
+| CO2/PO molar ratio | yield of PC | increase |

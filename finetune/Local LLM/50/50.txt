@@ -1,0 +1,167 @@
+Chemical Engineering Journal 235 (2014) 191–197
+
+Contents lists available at ScienceDirect
+
+Chemical Engineering Journal
+
+journal homepage: www.elsevier.com/locate/cej
+
+Synthesis of ZnO nanoparticles from microemulsions in a flow type microreactor
+
+Yao Wang a,b,⇑, Xiaoli Zhang a, Anjie Wang a,b, Xiang Li a,b, Gang Wang b, Lu Zhao a,b
+
+a State Key Laboratory of Fine Chemicals, Dalian University of Technology, Dalian 116024, PR China b Liaoning Key Laboratory of Petrochemical Technology and Equipments, Dalian University of Technology, Dalian 116024, PR China
+
+h i g h l i g h t s
+
+g r a p h i c a l a b s t r a c t
+
+ ZnO nanoparticles were synthesized from microemulsions in a microreactor.
+
+ The microemulsion approach avoids the deposition of particles in the microchannels.
+
+ Zn(NO3)2 was superior to ZnSO4 and ZnCl2 as the Zn2+ source.
+
+a r t i c l e i n f o
+
+a b s t r a c t
+
+Article history: Received 26 April 2013 Received in revised form 27 August 2013 Accepted 4 September 2013 Available online 12 September 2013
+
+Zinc oxide (ZnO) nanoparticles were synthesized from microemulsions in a microchannel reactor system. The microemulsions provide confined space for the reactants, which is favorable for controllable reaction and nucleation, thus avoiding the formation of large particles. In addition, the microemulsions prevent the deposition of ZnO particles on the wall of the microchannels of the reactor. Three Zn2+ sources (Zn(NO3)2, ZnSO4, and ZnCl2) were tested in the synthesis of ZnO nanoparticles. Among them, Zn(NO3)2 showed best performance, yielding ZnO particles with the smallest average grain size. The effects of Zn2+
+
+Keywords: Microchannel reactor Microemulsion Zinc oxide Nanoparticle
+
+concentration, reaction temperature, and feed flow rate on the average particle size of ZnO nanoparticles were investigated. At optimal conditions, ZnO nanoparticles with average size of 16 nm were obtained. The synthesized ZnO nanoparticles were characterized by scanning electron microscope (SEM), X-ray dif- fraction (XRD), UV–vis absorption spectroscopy, and a laser particle size analyzer.  2013 Elsevier B.V. All rights reserved.
+
+1. Introduction
+
+equipments. Solution-phase approaches are more promising due to the low reaction temperature, low cost, and high efficiency. However, in the later approach, ZnO flowers and whiskers with large size (>100 nm) are often obtained, and the subsequent sedi- mentation or calcination leads to the aggregation of ZnO particles. In addition, the synthesis in a batch reactor is not effective in a large scale production. Therefore, new methods which facilitate the nucleation, growth, and particle size distribution in the synthe- sis of ZnO nanoparticles are highly desirable [9].
+
+ZnO is an important semiconductor material with extensive applications in electronics, photoelectronics, sensors, and optical devices [1–4]. The physical properties of ZnO nanoparticles are strongly dependent on the particle dimensions, including morphol- ogy and grain size distribution. Two types of synthetic approaches, vapor-phase synthesis and solution-phase synthesis, have been developed to fabricate ZnO nanoparticles. The vapor-phase ap- proaches, such as vapor–liquid–solid growth [5], chemical vapor deposition [6], thermal decomposition [7], and thermal evapora- tion [8], have the advantage of simple operation and high-quality products, but generally require high temperatures and expensive
+
+The microemulsion has found great applications in the synthe- sis of nanomaterials [10–12]. In the microemulsion approach, the reactants in aqueous solution are confined in the extremely small droplets, in which a uniform nucleation occurs. Additionally, the microemulsion helps to control the size and shape of the particles, preventing the nanoparticles from aggregation. Nevertheless, the microemulsion method suffers from low yield of nanoparticles and the difficulty of de-emulsification. As a consequence, the
+
+⇑Corresponding author. Address: School of Chemical Engineering, Dalian University of Technology, Dalian 116024, PR China. Tel.: +86 411 84986121. E-mail address: wangyao@dlut.edu.cn (Y. Wang).
+
+Y. Wang et al. / Chemical Engineering Journal 235 (2014) 191–197
+
+Fig. 1. Schematic diagram for the synthesis of nanoparticles by microemulsion in a microreactor.
+
+reactor performance is generally low when the synthesis takes place in a batch reactor.
+
+In the present paper, ZnO nanoparticles were synthesized by mixing the Zn2+-containing water-in-oil microemulsion with the NaOH-containing one in a micromixer followed by subsequent reaction in the relay tube (Fig. 1). The synthesis conditions were optimized, and the obtained ZnO nanoparticles were characterized.
+
+Recently, microchannel reactors have been utilized for produc- ing nano-sized particles, including metals and alloys [13–18], me- tal salts [19,20], metal oxides [21], polymers [22], mesoporous materials [23], and zeolites [24]. The flow type microchannel reac- tors are able to intensify the mass and heat transfers as well as the mixing. The high surface-to-volume ratio in the microchannel reactors is favorable to enhance the response time and maintain isothermal conditions. Because the concentrations of reactants and temperature are homogeneous in the reaction zone, the ob- tained particles are uniform and reproducible.
+
+2. Experimental
+
+2.1. Synthesis
+
+All of the chemicals were of analytical grade, and used without further purification (Tianjin Kermel Chemical Reagent Co. Ltd.). De- ionized water was obtained from a water purification system.
+
+When a single phase is involved, the velocity distribution in a microchannel is substantially broadened along the flow direction. Gunther et al. [25] compared the well mixing efficiency chaotic mixer with a liquid–liquid two phase mixer, and found that, when the fluid was mixed completely (P95%), the length of the channel required for the two-phase flow was 2–3 times shorter than for the single-phase flow. The computational fluid dynamics (CFD) simula- tions indicate that the enhancement of mass transfer can be inter- preted in terms of an internal circulation flow within the plugs. As a consequence, narrow particle size distribution could be obtained in the synthesis of nanoparticles due to the enhanced mixing and the narrow residence time distribution in the segmented liquid–li- quid flow [26]. Another important issue in the synthesis of solid materials in a microchannel is that the formed particles may nucle- ate and deposit on the microchannel walls, leading to runaway growth, clogging, and unstable reactor conditions. Jongen et al. [27] designed a complex liquid–liquid two phase slug-flow mic- roreactor, which included an aqueous phase of the two reactants and an oil phase. The immiscible oil phase isolated the aqueous phase in droplets. Nanoparticles nucleate and grow in the isolated droplets, whereas the droplets will not contact with the micro- channel walls when the oil-to-water volume ratio is carefully ad- justed in a suitable range, preventing the solid particles from depositing on the walls.
+
+The microemulsions were prepared in the following way. N- butanol, cetyltrimethyl ammonium bromide (CTAB), and n-octane were mixed at a mass ratio of 1.0:1.2:4.4 to form an organic phase. CTAB served as the surfactant, whereas n-butanol as the co-surfac- tant. An aqueous solution of Zn2+ (Zn(NO3)2, ZnSO4, and ZnCl2) were prepared by dissolving the salt in water under stirring. The solution of NaOH was prepared in a similar way. The microemul- sion of Zn2+ (denoted as M(Zn2+)) were obtained by adding the aqueous solution of Zn2+ into the above organic phase under vigor- ous stirring with an aqueous mass fraction of 15%, and the mixture was stirred until it became transparent. The microemulsion of NaOH (denoted as M(NaOH)) was prepared by the same procedure with the same aqueous mass fraction.
+
+The microreactor for the synthesis of ZnO nanoparticles is illus- trated in Fig. 2. The micromixer (CPMM-R 300, microchannel size: 300  300 lm, Mainz, Germany) and the relay tube (stainless steel, i.d. 6.35 mm  1.0 m) were immersed in an oil thermostat, whose temperature was adjusted by a temperature controller. M(Zn2+) and M(NaOH) were fed separately to the two inlets of the microm- ixer by two syringe HPLC pumps. At a steady state, a white suspen- sion was obtained at the outlet of the relay tube. The precipitates were collected by centrifugation at 4000 r/min for 10 min, and washed with ethanol, acetone, and water sequentially for three
+
+Fig. 2. The experimental setup for the flow type synthesis of ZnO nanoparticles.
+
+Y. Wang et al. / Chemical Engineering Journal 235 (2014) 191–197
+
+Fig. 3. Synthesis of ZnO precursor by microemulsions dispersed in an oil phase.
+
+times. ZnO nanoparticles were obtained by drying the solid prod- uct at 130 C for 2 h, followed by calcination at 550 C for 3 h.
+
+For comparison, ZnO nanoparticles were synthesized in a flask in a batch operation from M(Zn2+) and M(NaOH). M(Zn2+) was weighed into a flask, and then M(NaOH) was added under vigorous stirring. The resultant white precipitates were separated, dried, and calcined in a similar way.
+
+2.2. Characterization
+
+The morphologies of the synthesized ZnO nanoparticles were observed on a field emission scanning electron microscope (Nova NanoSEM 450, FEI Company, USA, acceleration voltage of 3.0 kV). The average particle sizes were measured by a laser particle size analyzer (Jinan Winner Particles Instruments Co.). The powder X-ray diffraction patterns were recorded on a Rigaku RAD-2X instrument with Cu Ka radiation at 40 kV. The photos of droplets in microemulsions were taken on an optical microscope (EC300, Shanghai Optical Instruments Co.).
+
+3. Results and discussion
+
+In the microchannel reaction system, three phases are involved in the reaction: droplets of M(Zn2+) and droplets of M(NaOH) dis- persed in the organic phase (Fig. 3). A prerequisite in the synthesis reaction is the merging of one droplet of M(Zn2+) with the one of M(NaOH). In the present study, M(Zn2+) and M(NaOH) were pre- pared under identical conditions with the same aqueous solution content. Fig. 4 shows the photos of the aqueous droplets in M(NaOH) and in M(Zn(NO3)2). The droplets in both M(NaOH) and M(Zn(NO3)2) were well dispersed in the oil phases. The diameters of the droplets were measured in the photos, and the average sizes of droplets were calculated. The average size of the droplets in M(NaOH) (1.2 lm) was comparable to that in M(Zn(NO3)2) (1.4 lm). When M(NaOH) and M(Zn(NO3)2) were fed by two sepa- rate syringe pumps, the droplets of M(Zn2+) and M(NaOH) were passed through the microchannels of the micromixer alternatingly in most cases. When the droplet of M(Zn2+) collides with the one of M(NaOH), a merging of the droplets may take place, leading to the formation of a larger droplet. It is in this merged droplet that Zn2+
+
+reacts with OH to generate Zn-containing precipitates, which are the precursor of ZnO nanoparticles. This merged droplet serves as a reaction cell, and, as a result, the synthesis reaction occurs in a con- fined space. Therefore, the synthesis reaction will terminate when no Zn2+ source is available, thus making the fast reaction controlla- ble and preventing the formation of substantially larger particles. Another favorable advantage of this approach is that the resultant precipitates are entrapped in the droplet, which is dispersed in the organic phase, thus avoiding the deposition of solid product on the microchannel walls.
+
+Fig. 4. Photos of the aqueous droplets in M(NaOH) (a) and M(Zn(NO3)2) (b).
+
+3.1. Effect of Zn2+ source
+
+Y. Wang et al. / Chemical Engineering Journal 235 (2014) 191–197
+
+3.2. Effect of Zn2+ concentration
+
+In the precipitation of Zn(OH)2, the reaction rate depends on both the Zn2+ concentration and reaction temperature from the viewpoint of reaction kinetics. The effects of Zn2+ concentration were investigated in the synthesis of ZnO nanoparticles from ZnSO4 and Zn(NO3)2. The reaction conditions were as follows: feed flow rates of M(Zn2+) and M(NaOH), 2.0 mL/min, respectively; tem- perature, 50 C; NaOH/Zn2+ molar ratio, 2.0; pressure, 2.0 MPa. The Zn2+ concentration was varied in the range of 0.3–0.8 mol/L. Fig. 6 illustrates the XRD patterns of ZnO nanoparticles synthesized at various concentrations of ZnSO4 and Zn(NO3)2. Only hexagonal crystalline phase was detectable in each sample, regardless of the Zn2+ sources and their concentrations. The dependence of the aver- age particle size on the Zn2+ source and concentration is illustrated in Fig. 7. As shown in Fig. 5, the Zn2+ source significantly affected the particle size of the obtained ZnO nanoparticles. The average sizes of ZnO nanoparticles synthesized from ZnSO4 were 1.2–1.3 times those of the nanoparticles from Zn(NO3)2 at the same Zn2+
+
+Fig. 5. XRD patterns of ZnO nanparticles synthesized from different Zn2+ sources.
+
+concentrations. The difference may relate to the different rate con- stants of ZnSO4 and Zn(NO3)2 with NaOH. Because the anion va- lence of SO2 is higher than that of NO 3 , the ionic strength of SO2 is larger, resulting in a decline in Zn2+ activity of ZnSO4. It is indicated that the average size of ZnO nanoparticles also depended on the Zn2+ concentration, decreasing with increasing the Zn2+ con- centration for both ZnSO4 and Zn(NO3)2. According to the crystalli- zation kinetics [29], the crystal average size (D) and nucleation rate (B) are determined by:
+
+concentration 1.0 mol/L, Zn2+ concentration 0.5 mol/L. Fig. 5 shows the XRD patterns of the ZnO nanoparticles synthesized from ZnSO4, Zn(NO3)2, and ZnCl2, respectively. Only the diffraction peaks char- acteristic of hexagonal ZnO structure were observed, indicating that pure ZnO crystals were obtained from the different Zn2+
+
+sources. The particle diameter (D) was calculated according to the Debye–Scherrer equation (D = 0.89 k/b cos h). It is found that the crystallite sizes were 13.0, 27.0, and 10.4 nm for ZnCl2, ZnSO4, and Zn(NO3)2, respectively. It suggests that the Zn2+ source mark- edly affects the formation and crystallization of Zn(OH)2 in the microreactor system. Among them, Zn(NO3)2 was the most suitable Zn2+ source in the synthesis of ZnO nanoparticles.
+
+D ¼ 4EsVm mRT ln S ð1Þ
+
+" #
+
+B ¼ Zc exp  16pE3 s V2 mNa 3m2ðRTÞ3ln
+
+ð2Þ
+
+2S
+
+Srikanth and Jeevanandam investigated the effect of anions (Cl, SO2 4 , NO 3 , and CH3COO) on the size and morphology of syn- thesized ZnO particles in urea-induced homogeneous precipitation [28]. They also found that the anion affected the morphology and size of the synthesized ZnO particles. They proposed that the an- ions serve as the surface modifiers, influencing the nucleation and the growth of the crystallites.
+
+where Na is Avogadro's number; R is the gas constant; Zc is the fre- quency factor; Es is the surface energy; S is the supersaturation de- gree; Vm is the molar volume of the molecule; m is the number of particles per molecule of solute. Both D and B are a function of the saturation S, which is linked with the solute concentration. The saturation S of ZnO precursors in the present synthesis system is highly related with the reaction rate of Zn2+ with OH. The reac- tion depends on the concentrations of both Zn2+ and OH. At higher concentrations of Zn2+ and OH, the saturation of ZnO precursors is
+
+Y. Wang et al. / Chemical Engineering Journal 235 (2014) 191–197
+
+more quickly established and the supersaturation degree is higher, leading to faster nucleation and smaller particle size.
+
+particles. Although the formation rate of the precipitates was accelerated at high temperatures, the nucleation rate might not be significantly increased due to the reduced saturation degree. On the other hand, the growth of the particles might be enhanced at high temperatures, leading to larger Zn(OH)2 nanoparticles.
+
+3.3. Effect of temperature
+
+Zn(NO3)2 was used as the Zn2+ source, and the concentrations of Zn(NO3)2 and NaOH were 0.5 and 1.0 mol/L, respectively. The syn- thesis was conducted at a flow rate of 2.0 mL/min and various tem- peratures (40, 50, 60, and 70 C). It is known that high temperature may lead to de-emulsification. To ensure that no de-emulsification occurred in the temperature range, M(NaOH) and M(Zn(NO3)2) were fed separately into the microreactor system at the same flow- rate as in the synthesis runs. No de-emulsification of either M(NaOH) and M(Zn(NO3)2) was observed, indicating that both microemulsions were stable under the synthesis conditions. The XRD patterns of ZnO nanoparticles synthesized at different tem- peratures are shown in Fig. 8. Pure ZnO nanocrystals were obtained in the temperature range investigated. Fig. 9 displays the variation of the average particle size with reaction temperature. A minimum average particle size (10.4 nm) was observed at 50 C when increasing the reaction temperature from 40 to 70 C. At low tem- peratures, the formation rate of the precipitated precursor was low, and thus the supersaturation degree was low, which was unfavorable to the nucleation but favorable to the growth of the
+
+Fig. 10. The average size of ZnO particles as a function of feed flow rate in the synthesis from Zn(NO3)2 at 50 C.
+
+Fig. 8. XRD patterns of ZnO nanoparticles synthesized at different temperatures.
+
+Fig. 11. SEM images of ZnO particles synthesized in the microreactor (a) and in the batch reactor (b).
+
+Y. Wang et al. / Chemical Engineering Journal 235 (2014) 191–197
+
+Fig. 13. UV–visible absorption spectra of ZnO synthesized in different reactors.
+
+the synthesis reaction is substantially fast. However, the reduced residence time at high flow rate might be not long enough for the completion of the precipitate crystallization. The crystalliza- tion might continue to take place in the collection container at the outlet of the reaction system, leading to the formation of larger particles.
+
+3.5. Comparison of the microreactor with a batch reactor
+
+For comparison, a batch reactor was used to synthesize ZnO nanoparticles from the two emulsions. The synthesis reaction con- ditions were as follows: temperature 50 C; Zn(NO3)2 concentra- tion 0.5 mol/L; NaOH concentration 1.0 mol/L, pressure 0.1 MPa, and time 3 h. The synthesis was conducted in a flask under stirring. The post-treatment was the same as that in the microreactor. The obtained ZnO nanoparticles synthesized from different reactors were characterized by means of scanning electron microscopy (SEM) observation, measurement of particle size distribution and UV–visible absorption spectroscopy. Both the SEM images (Fig. 11) and particle size distribution curves (Fig. 12a and b) indi- cated that the ZnO nanoparticles synthesized in the microreactor were smaller and more narrowly distributed in size than those synthesized in the batch reactor. The UV–visible absorption spectra (Fig. 13) indicated that the absorption edge for the ZnO nanoparti- cles synthesized in the microreactor was slightly blue-shifted, compared with those synthesized in a batch reactor, probably due to the size effects [30].
+
+To clarify the role of the micromixer in the synthesis, the micromixer was replaced by a T-joint (inner diameter of the pipes: 2 mm) in the continuous synthesis system. The size distribution of the obtained ZnO nanoparticles was compared with those of the particles synthesized in the microreator and in the batch reactor (Fig. 12). It is apparent that the micromixer significantly reduced the particle size and improved the size distribution of ZnO nanoparticles.
+
+Fig. 12. Size distributions of ZnO nanoparticles synthesized in different reactors. (a) Microreactor. (b) Batch reactor. (c) Mixing by T-joint.
+
+3.4. Effect of feed flow rate
+
+4. Conclusions
+
+ZnO nanoparticles synthesized from microemulsions in a con- tinuous microreactor were smaller in grain size and more narrowly distributed than those in a batch reactor. The microemulsions pro- vide confined space for the reactants, which is favorable for con- trollable reaction and nucleation, avoiding the formation of large particles. In addition, the microemulsions prevent the deposition of ZnO particles on the wall of the microchannels of the reactor,
+
+Y. Wang et al. / Chemical Engineering Journal 235 (2014) 191–197
+
+and no clogging of the microchannels occurred in the investigation. Three Zn2+ sources (Zn(NO3)2, ZnSO4, and ZnCl2) were tested in the synthesis of ZnO nanoparticles. It is found that Zn(NO3)2 showed best performance in the synthesis. Both Zn2+ concentration and reaction temperature significantly affected the average particle sizes of the synthesized ZnO nanoparticles, probably due to their effects on the kinetics of the synthesis reaction and nucleation. The average particle size was reduced with increasing the Zn2+
+
+[11] J. Eastoe, M.J. Hollamby, L. Hudson, Recent advances in nanoparticles synthesis with reversed micelles, Adv. Colloid Interface Sci. 128 (2006) 5–15. [12] C.M. Bender, J.M. Burlitch, D. Barber, C. Pollock, Synthesis and fluorescence of neodymium-doped barium fluoride nanoparticles, Chem. Mater. 12 (2000) 1969–1976. [13] D.V. Ravi Kumar, B.L.V. Prasad, A.A. Kulkarni, Segmented flow synthesis of Ag nanoparticles in spiral microreactor: role of continuous and dispersed phase, Chem. Eng. J. 192 (2012) 357–368. [14] C. Zeng, C. Wang, F. Wang, Y. Zhang, L. Zhang, A novel vapor–liquid segmented flow based on solvent partial vaporization in microstructured reactor for continuous synthesis of nickel nanoparticles, Chem. Eng. J. 204–206 (2012) 48–53. [15] J. Baumgard, A.-M. Vogt, U. Kragl, K. Jähnisch, N. Steinfeldt, Application of microstructured devices for continuous synthesis of tailored platinum nanoparticles, Chem. Eng. J. 227 (2013) 137–144. [16] J. Wagner, T. Kirner, G. Mayer, J. Albert, J.M. Köhler, Generation of metal nanoparticles in a microchannel reactor, Chem. Eng. J. 101 (2004) 251–260. [17] L. Sun, W. Luan, Y. Shan, S. Tu, One-step synthesis of monodisperse Au–Ag alloy nanoparticles in a microreaction system, Chem. Eng. J. 189–190 (2012) 451–455. [18] A. Knauer, A. Thete, S. Li, H. Romanus, A. Csáki, W. Fritzsche, J.M. Köhler, Au/ Ag/Au double shell nanoparticles with narrow size distribution obtained by continuous micro segmented flow synthesis, Chem. Eng. J. 166 (2011) 1164– 1169. [19] D. Jeevarathinam, A.K. Gupta, B. Pitchumani, R. Mohan, Effect of gas and liquid flowrates on the size distribution of barium sulfate nanoparticles precipitated in a two phase flow capillary microreactor, Chem. Eng. J. 173 (2011) 607–611. [20] L. Du, Y.J. Wang, Y.C. Lu, G.S. Luo, Preparation of highly purified b-tricalcium phosphate ceramics with a microdispersion process, Chem. Eng. J. 221 (2013) 55–61. [21] S. Li, S. Meierott, J.M. Köhler, Effect of water content on growth and optical properties of ZnO nanoparticles generated in binary solvent mixtures by micro-continuous flow synthesis, Chem. Eng. J. 165 (2010) 958–965. [22] A.K. Yadav, M.J. Barandiaran, J.C. de la Cal, Synthesis of water-borne polymer nanoparticles in a continuous microreactor, Chem. Eng. J. 198–199 (2012) 191–200. [23] X. Chen, M. Arruebo, K.L. Yeung, Flow-synthesis of mesoporous silicas and their use in the preparation of magnetic catalysts for Knoevenagel condensation reactions, Catal. Today 204 (2013) 140–147. [24] L. Yu, Y. Pan, C. Wang, L. Zhang, A two-phase segmented microfluidic technique for one-step continuous versatile preparation of zeolites, Chem. Eng. J. 219 (2013) 78–85. [25] A. Günther, M. Jhunjhunwala, M. Thalmann, Martin A. Schmidt, Klavs F. Jensen, Micromixing of miscible liquids in segmented gas-liquid flow, Langmuir 21 (2005) 1547–1555. [26] N. Harries, J.R. Burns, D.A. Barrow, C. Ramshaw, A numerical model for segmented flow in a microreactor, Int. J. Heat Mass Transfer 46 (2003) 3313– 3322. [27] N. Jongen, J. Lemairte, P. Bowen, H. Hofmann, Oxalate precipitation using a new tubular plug-flow reactor, in: The proceedings of the 5th world congress of, chemical engineering, 1996, pp. 31–36. [28] C.K. Srikanth, P. Jeevanandam, Effect of anion on the homogeneous precipitation of precursors and their decomposition to zinc oxide, J. Alloys Compd. 486 (2009) 677–684. [29] Y.T. Qian, Introduction to Crystal Chemistry, University of Science and Technology of China Press, Hefei, 2005. [30] X.M. Hou, F. Zhou, W.M. Liu, A facile low-cost synthesis of ZnO nanorods via a solid-state reaction at low temperature, Mater. Lett. 60 (2006) 3786–3788.
+
+concentration, whereas a minimum average particle size was ob- served 50 C when the reaction temperature was increased from 40 to 70 C. The feed flow rate did not affect considerably the aver- age particle size of ZnO nanoparticles. However, at high flow rates, larger particles were obtained, probably because the crystallization might continue after the droplets had left the reaction system. This may imply that the crystallization step was slower that the synthe- sis reaction.
+
+Acknowledgments
+
+This work was financially supported by NSFC (20773020, 20973030, 21173033, U1162203), the ‘‘863'' Project (2008AA030803), NCET (04-0275), The Ph.D. Programs Foundation (MOE, 20100041110016), and the ‘‘111'' Project.

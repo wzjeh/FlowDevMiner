@@ -1,0 +1,13 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | dye purity | increase |
+| temperature | dye purity | decrease |
+| pH of CTN solution | dye purity | increase |
+| pH of CTN solution | dye purity | decrease |
+| total flow_rate | dye purity | unchanged |
+| residence_time | diazotization reaction time | decrease |
+| residence_time | oxidation-reduction step time | decrease |
+| residence_time | coupling reaction time | decrease |
+| residence_time | overall residence time | decrease |

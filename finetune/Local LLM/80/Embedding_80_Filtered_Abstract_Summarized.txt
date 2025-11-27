@@ -1,0 +1,40 @@
+{"temperature": None}
+
+{"conversion": null, "yield": null, "selectivity": null, "unit": "%"}
+
+{"conversion": null, "yield": null, "selectivity": null, "unit": "%"}
+
+{"name": "Arylbromides (Ar1Br)",
+                                "role": "solvent"}
+
+{"name": "Lithium borate", "yield_optimal": 95, "unit": "%"}
+
+{"name": "Lithium borate", "yield_optimal": 95, "unit": "%"}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+The Suzuki–Miyaura coupling reaction was performed using a Pd catalyst supported by a polymer monolith. The microreactor system consisted of two micromixers (M1 and M2) followed by two microtube reactors (R1 and R2). Lithiation, borylation, and the Suzuki-Miyaura coupling reactions were carried out in sequence.
+
+The reaction conditions for each step are as follows:
+
+Lithiation: T=20 °C; residence time 10 min
+Borylation: T=50 °C; flow rate of borane (reactant A) = 0.2 mL/min, total flow rate = 1 mL/min
+
+Suzuki-Miyaura coupling:
+T=80 °C;
+flow rates for reactants A and B are not specified.
+The optimal yield is achieved at a residence time of 10 min.
+
+For the Suzuki–Miyaura reaction, the conversion was found to be 90% with an optimal selectivity of 95%.
+Output
+{
+ "reaction_summary": {
+  "reaction_type":"Suzuki-Miyaura coupling",
+  "reactants":[{"name":"borane
+
+{"reaction_summary": {"reaction_type": "Suzuki–Miyaura coupling", "reactants": [{"name": "Bromobenzene", "role": "solvent"}], "products": [{"name": "1,3-Diphenylbenzene", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "4 mm"}, "metrics": {}}}
+
+{"conversion": None, "yield": None, "selectivity": None}
+
+{"name": name.lower(), "role": role}
+

@@ -1,0 +1,35 @@
+{"reaction_summary": {"reaction_type": "null", "reactants": [], "products": [{"name": "null", "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "1.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"type": "temperature", "value": f"{value} °C"}
+
+{"type": "temperature", "value": value}
+
+{ "reaction_summary": { 
+    "reaction_type":"null", 
+    "reactants":[{"name":"feed gas","role":"reactant"}], 
+    "products":[
+        {"name":"CO","yield_optimal":0,"unit":"%"}
+    ], 
+    "conditions":[{
+        "type":"temperature",
+        "value":"240 °C"
+    },{
+        "type":"flow_rate_reactant_A",
+        "value":"0.5 sccm"
+    },{
+        "type":"pressure",
+        "value":"40 bar"
+    }
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"name": product[0], "yield_optimal": float(product[-1]) if len(product) > 2 else None}
+
+{"type": "flow_rate_total", "value": f"{flow_rate_match.group(1)} mL/min"}
+
+{"name": "product", "yield_optimal": 0, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "30 min"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}, {"type": "pressure", "value": "10 bar"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "catalytic", "reactants": [{"name": "hydrogen", "role": "solvent"}], "products": [{"name": "ethylene", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": 0.5}, {"type": "flow_rate_reactant_A", "value": 1}], "reactor": {"type": "microchannel", "inner_diameter": "48 mm"}, "metrics": {"conversion": 50, "yield": 95, "selectivity": null, "unit": "%"}}}
+

@@ -1,0 +1,56 @@
+{
+  "reaction_type": "ring-opening polymerization",
+  "reactants": [
+    {
+      "name": "ε-caprolactone",
+      "role": "reactant"
+    },
+    {
+      "name": "benzyl alcohol",
+      "role": "reactant"
+    },
+    {
+      "name": "Novozyme 435",
+      "role": "catalyst"
+    },
+    {
+      "name": "toluene-d8",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "poly(ε-caprolactone)",
+      "yield_optimal": 90.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "70 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "120 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "packed bed",
+    "inner_diameter": "1 mm"
+  },
+  "metrics": {
+    "conversion": 90.0,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

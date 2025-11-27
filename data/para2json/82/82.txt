@@ -1,0 +1,81 @@
+CL-210716 Received: November 13, 2021 | Accepted: December 9, 2021 | Web Released: January 12, 2022
+
+Continuous Catalytic Hydrogenation of a Key Intermediate of Riluzole Using a Micropacked-bed Reactor
+
+Yang Si,1 Weixing Ming,1 Song Liu,1 Wei Wei,1 Lu Ji,1 Dangsheng Gong,1 Jing Wang,2
+
+1Shenyang Research Institute of Chemical Industry, 8 East Shen Liao Road, Shenyang 110021, P. R. China 2School of Chemistry and Chemical Engineering, Shandong University of Technology, Zibo 255012, P. R. China
+
+Downloaded from https://academic.oup.com/chemlett/article/51/3/274/7395119 by Hokkaido Daigaku user on 25 October 2025
+
+A continuous selective catalysis of 4-(Trifluoromethoxy)ani- line, a key intermediate in the preparation of riluzole, was studied using a micropacked-bed reactor (¯PBR) packed with Pt/BAC catalysts. The eﬀects of technological parameters such as solvent types, gas flow rates and liquid flow rates were investigated. It was indicated that the continuous hydrogenation process exhibited higher eﬃciency, selectivity and safety with less energy consumption compared to the traditional batch reduction process. The newly developed reactor system demonstrated a sustained and stable catalytic performance after 20 h running.
+
+nitroarene hydrogenation, and were able to maintain a high reaction activity via a ¯PBR fitted with a TPP/Raney Ni catalyst.18 Rahman and co-workers demonstrated that ¯PBR could be operated under continuous flow conditions for synthesizing aromatic nitrobenzoic acids in water, and 100% selectivity of 4-aminobenzoic acid was achieved at a liquid flow rate of 0.5 mL/min.19 Uozumi and coworkers reported polysty- rene­poly(ethylene glycol) resin bound Pt catalyzed continuous- flow hydrogenation of nitrobenzenes. The flow hydrogenation of nitrobenzenes eﬃciently proceeded within 31 s to give the corresponding anilines, respectively, in excellent yields with good eﬃciency and chemoselectivity. Moreover, the long-term continuous-flow hydrogenation of nitrobenzenes was realized, and without significant loss of catalytic activity.20
+
+Keywords: Micropacked-bed reactor | Continuous-flow catalytic hydrogenation | Riluzole
+
+Riluzole (2-Amino-6-(trifluoromethoxy)benzothiazole), de- veloped by Sanofi, is a derivative of benzothiazoles, which is the only drug available for the treatment of motor neuron diseases. It is also the first drug approved by the FDA and EMEA for the treatment of amyotrophic lateral sclerosis (ALS).1,2 At present, the most commonly used process for the preparation of riluzole is shown in Figure 1.3
+
+In this study, a continuous flow system of ¯PBR was developed for fast and eﬃcient selective hydrogenation of 4- TFMNB to prepare 4-TFMA using hydrogen gas as a reductant. The solvents suitable for the reaction were screened, and the eﬀects of gas flow rates, liquid flow rates and their concen- trations were investigated. The objective was to establish a trusted method of continuous production of 4-TFMA with high eﬃciency. Bead-shaped activated carbon (BAC) is a highly spherical activated carbon made from petroleum pitch. Its excellent adsorption capacity, strength and flowability enables wide- ranging uses, especially in catalyst support.21,22 In ¯PBR, BAC would produce a low pressure drop that would make the reactor operation feasible.22 A commercial BAC produced by Kureha Co., Ltd., was used as the support in this study. The range of BAC diameter was 0.60­0.84 mm (0.70 mm in average). Pt/BAC catalyst was prepared using an impregnation method. The catalysts used for ¯PBR were firstly characterized. A TEM image of the Pt/BAC catalyst is shown in Figure 2. It was observed that metal particles with relatively uniform particle size evenly dispersed at the surface of Pt/BAC catalyst. From the size distribution of Pt nanoparticles, the average particle size of Pt nanoparticles was determined to be about 5.3 nm. CO chemisorption and N2 physisorption were conducted to further characterize the catalyst. A summary of detailed physical properties of Pt/BAC catalyst is listed in Table 1. The ¯PBR (H-Flow-S05) equipment was provided by Oushisheng (Beijing) Technology Co., Ltd, and a schematic
+
+A critical step in the above process is the conversion of substituted nitrobenzene (4-(trifluoromethoxy)nitrobenzene, 4-TFMNB) to corresponding aniline (4-(trifluoromethoxy)- aniline, 4-TFMA) via catalytic hydrogenation. Typically, the nitration product 4-TFMNB obtained in industry inevitably contains a certain number of 2-TFMNB isomers. With the concern of feasibility and safety issues, the nitro compounds are generally separated through distillation after hydrogenation in industry. Because of the presence of isomers in the raw materials, the catalytic hydrogenation could be evaluated by comparing the conversion and selectivity of nitro in the raw materials. In the batch process, the problem focuses on the low selectivity and long reaction time when conducting the hydrogenation reaction. Additionally, long reaction time is unfavored because of the incidence of side eﬀects. In the past decade, continuous flow chemistry has attracted great interests in the field of catalytic hydrogenation because of its advantages of greenness and safety in process intensifica- tion.4­7 Consequently, a series of new reactors and devices have been developed, such as micropacked-bed reactors (¯PBR),8­11
+
+catalytic static mixers12­14 and wall-coated microreactors.15
+
+Compared with traditional batch processes, the ¯PBR has advantages of excellent gas­liquid­solid mass transfer and heat transfer, so one can accurately control the reaction parameters such as temperature, pressure and gas and liquid flow rates to modulate the conversion rate and selectivity.16,17 Chen and co-workers improved the selectivity of anilines prepared by
+
+274 | Chem. Lett. 2022, 51, 274–277 | doi:10.1246/cl.210716 © 2022 The Chemical Society of Japan
+
+Table 2. Influence of solvent for the hydrogenation using micropacked-bed reactor.
+
+<image: Separation(DeviceCMYK,Black), width: 1923, height: 1145, bpc: 8>
+
+Entry Solvent Conv. [%] Selec. [%] TOF [mol¢g¹1¢h¹1] STY [g¢L¹1¢h¹1]
+
+Methanol >99.9 98.2 0.751 Ethanol 98.9 90.2 0.744 Ethyl acetate >99.9 97.4 0.751 Tetrahydrofuran 98.8 89.9 0.743 Toluene >99.9 96.1 0.751
+
+Experiment conditions: Concentration = 0.118 M; Reaction temperature = 60 °C; Reaction pressure = 2 MPa; VG = 60 sccm; VL = 1.0 mL/min; Reactor volume = 6.6 mL; VL is the liquid flow rate; VG is the hydrogen flow rate. Conv. is conversion, Conversion ¼ C0�Ca C0 , C0 is the original concen- tration of 4-TFMNB and 2-TFMNB in the reactant, Ca is the concentration of 4-TFMNB and 2-TFMNB in the product. Selec. is selectivity, Selectivity ¼ A4�TFMAþA2�TFMA Ai , A4-TFMA and A2-TFMA are the peak area of 4-TFMA and 2-TFMA in GC, Ai is the total peak area of all products in GC. flow rateSubs (mol h¹1) = (VL/1000) © Concentration © 60 min h¹1; flow rateProd (mol h¹1) = flow rateSubs © (Conversion/100 © Selectivity/100); TOF (molprod gpt¹1 h¹1) = flow rateSubs © (Conversion/100)/mPt; STY (g L¹1 h¹1) = flow rateProd © MWProd/reactor volume.
+
+Surface area m2¢g¹1 BET Pore volume 0.41 mL¢g¹1 BJH model Pore diameter 3.6 nm BJH model Pt loading 0.50 wt % ICP-OES Pt nanoparticle diameter 5.30 nm TEM Pt surface area 2.0 m2¢g¹1 CO Chemisorption
+
+Table 3. Influence of gas-liquid flow rate for the hydrogenation using micropacked-bed reactor
+
+Entry VG [sccm] VL [mL/min] t [min] Conv. [%] Selec. [%] TOF [mol¢g¹1¢h¹1] STY [g¢L¹1¢h¹1]
+
+4.98 >99.9 98.0 0.751 1.5 3.97 >99.9 97.8 1.127 3.40 99.6 95.5 1.498 2.5 3.22 99.3 94.2 1.867 4.81 >99.9 98.0 0.751 1.5 3.55 >99.9 97.8 1.127 3.22 >99.9 96.8 1.502 2.5 2.84 >99.9 95.6 1.878 4.63 >99.9 98.2 0.751 1.5 3.41 >99.9 98.0 1.127 3.05 >99.9 97.3 1.502 2.5 2.63 >99.9 96.7 1.878
+
+Figure 3. Schematic overview of the continuous flow system for hydrogenation. MFC, mass flow controller; BPR, back- pressure regulator; G/L, gas-liquid separator.
+
+overview of the continuous flow system is shown in Figure 3. The ¯PBR was comprised of two sections: a stainless steel pipe and the catalyst. Stainless steel tubes were inert to solvent and catalyst components. In addition, they can work well over a wide range of temperature and pressure. Pictures and detailed parameters of the ¯PBR are provided in Figure S2, Table S2 and Table S3. Solvents have great influence on the hydrogenation, which would aﬀect the solubility of hydrogen and interactions between the reactant and catalyst.23 Eﬀect of some common organic solvents on the conversion and selectivity obtained from GC analysis is listed in Table 2. The concentration of substrate was specified at 0.118 M, and the substrate can dissolve completely in all of the tested solvents. Under the same experimental conditions, the substrate was residual while the solvents were ethanol and tetrahydrofuran. Except for the above two solvents, the conversion of substrate in the other three solvents were >99.9%. Considering the selectivity and environmental protec- tion, methanol was selected as the solvent, which was consistent with the industrial production. The gas-liquid flow rate has a profound importance as it may aﬀect the flow regime and the mixing eﬃciency in the
+
+Experiment conditions: Reaction temperature = 60 °C; Reac- tion pressure = 2 MPa; Concentration = 0.118 M; Solvent is methanol; t is residence time.
+
+system.8 A major objective of the research was to identify the gas-liquid flow rate. Therefore, experiments were carried out under diﬀerent gas flow rates and liquid flow rates. As can be seen from Table 3, when hydrogen flow rate was 20 sccm, >99.9 conversion of substrate and high selectivity of product can be obtained at relatively lower liquid flow rates. The hydrogen flow rate was increased subsequently, and >99.9% conversions was obtained at all of the tested liquid flow rates. To explain the phenomenon, a test on residence time distribution (RTD) experiment was conducted. The mean residence time in the
+
+Chem. Lett. 2022, 51, 274–277 | doi:10.1246/cl.210716 © 2022 The Chemical Society of Japan | 275
+
+Table 4. Influence of solvent and concentration for the hydro- genation using micropacked-bed reactor
+
+Entry Concentration [M] Con. [%] Selec. [%] TOF [mol¢g¹1¢h¹1] STY [g¢L¹1¢h¹1]
+
+0.118 >99.9 98.2 0.751 0.375 98.9 97.8 1.499 1.13 81.4 74.7 3.679 1.5 29.1 47.5 1.740
+
+Experiment conditions: Reaction temperature = 60 °C; Reac- tion pressure = 2 MPa; VG = 60 sccm; VL = 1.0 mL/min; Solvent is methanol.
+
+Figure 4. Eﬀect of gas-liquid flow rate and mean residence times.
+
+Figure 5. Mechanism of catalytic 4-(trifluoromethoxy)nitro- benzene reduction.
+
+active catalyst bed of the ¯PBR was then determined. The results on mean residence time are shown in Table 3 and Figure 4. Detailed experimental methods and further explanations are provided in the Support Information. It was demonstrated that both liquid flow rate and gas flow rate had a certain degree of eﬀect on the residence time, and liquid flow rate was considered as the dominant factor. Under the condition of constant gas flow rate, the increase of liquid flow rate led to a decrease in residence time and relative inadequate hydrogen gas resulting in the incompleteness of reaction. With constant liquid flow rate, selectivity increased with the increase of gas flow rate, which might due to the addition of hydrogen despite the decrease in the residence time of gas flow rate. At the same ratio of gas to liquid rate, selectivity decreased with the increase of liquid flow rate, which was due to the decrease in the residence time. The types and chemical structures of intermediates in the product were identified by GC-MS. The GC-MS spectra are provided in the Support Information. Azoxy and azo compounds were clearly identified in the GC-MS spectra, but no significant nitroso or hydroxylamine compounds were observed. It was indicated that the intermediates of this reaction were mainly azoxy and azo compounds. In addition, a small amount of aniline was observed. A mechanism of the reaction is proposed in Figure 5. Starting from the aromatic nitro compound, reduc- tion reactions were required to get the corresponding aniline, which could be achieved via two routes: the direct route or the condensation route.8,19,24 In the direct route, two steps of sequential fast hydrogenations of the nitro compounds to the nitroso and hydroxylamine compounds would occur before undergoing the slow eventual reduction to the primary amine. In the condensation route, nitroso and hydroxylamine could be condensed into an azoxy compound which can be deoxygenated
+
+and reduced under the action of hydrogen before undergoing a final split to form two monomeric primary amines. Therefore, it was considered that the condensation route was the main route of the reaction, in which azoxy hydrogenation was the rate- controlling step. Furthermore, the primary amine may continue to convert to aniline by overreaction. To investigate the feasibility of industrial applications, the condition of substrate concentration was further studied. When the concentration was 0.375 M (Table 4, Entry 2), the conver- sion can reach >99.9% with the space time yield (STY) of 588 g¢L¹1¢h¹1, but the selectivity slightly declined. When the concentration increased (Table 4, Entries 3­4), the substrate presented in the GC spectra of the product, and the conversion and selectivity decreased significantly. STY was proportional to the concentration, so the STY value was able to be maintained at a higher value at 1.13 M than that at 0.375 M in spite of the fact that the conversion became lower. In the above experiments, high catalytic activity and conversion were obtained in most cases. To further investigate the stability of the catalyst and the continuous flow system for long-time operation, continuous operation was performed under the conditions of 1 mL/min flow rate, 0.375 M 4-TFMNB, 60 sccm hydrogen flow rate, hydrogen pressure of 2 MPa and reaction temperature of 60 °C. From Figure 6, the catalysts exhibited high and stable catalytic activity with no substrate identified in product solution under a 20-h continuous operation. The flow hydrogenation conducted for 20 h provided 1200 mL of the solution of product (0.375 M, 77.6 g).
+
+276 | Chem. Lett. 2022, 51, 274–277 | doi:10.1246/cl.210716 © 2022 The Chemical Society of Japan
+
+Table 5. Comparison of performance of conventional batch and continuous flowa
+
+This work is financially supported by the National Natural Science Foundation of China (U20A20143).
+
+Batch ¯PBR Reaction time 200 min 4.6 min Reaction volume 100 mL 6.6 mL Selectivity 96.9% 98.2% STY [g¢L¹1¢h¹1] 9.6
+
+Supporting Information is available on https://doi.org/ 10.1246/cl.210716.

@@ -1,0 +1,16 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of PA | increase |
+| temperature | yield of gem-DBE | increase |
+| temperature | selectivity of gem-DBE | decrease |
+| residence_time | conversion of PA | increase |
+| residence_time | yield of gem-DBE | increase |
+| residence_time | selectivity of gem-DBE | unchanged |
+| reactant_concentration (K₂S₂O₈) | conversion of PA | increase |
+| reactant_concentration (K₂S₂O₈) | yield of gem-DBE | increase |
+| reactant_concentration (K₂S₂O₈) | selectivity of gem-DBE | decrease |
+| reactant_concentration (CBr₄/PA ratio) | conversion of PA | increase |
+| reactant_concentration (CBr₄/PA ratio) | yield of gem-DBE | increase |
+| reactant_concentration (CBr₄/PA ratio) | selectivity of gem-DBE | unchanged |

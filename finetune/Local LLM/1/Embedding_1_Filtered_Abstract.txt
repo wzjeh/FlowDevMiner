@@ -1,0 +1,20 @@
+intensification technology for a broad range of reaction processes in laboratory and industry. The features of microreactors such as larger surface-to-volume ratio, higher mixing efficiency, faster heat and mass transfer rates, and excellent spatiotemporal control, allow reaction processes to overcome the transport limitation and thus to have better performance (e.g., higher selectivity and yield)
+
+2.2.1. Synthesis of linear polymers in the microreactor Typically, for the synthesis of linear PBA, a homogeneous solution was obtained by adding the monomer BA (2.5 M, 100 eq), the RAFT agent DoPAT(1 eq), the initiator ABVN (0.1 eq) and the solvent DMF into a dried flask sealed with a rubber septum, and then was purged with N2 for 30 min. A capillary microreactor with 1.02 mL inner volume was flu
+
+Summary: Flow-chemistry process development for synthesizing SPA involved mixing l-PACMO with HDDA in a capillary microreactor under molecular diffusion-dominated conditions (low Reynolds numbers) after pre-mixing or using auxiliary equipment to ensure even mixing. The key reactants were purified l-PACMO and HDDA, the solvent was not mentioned, no catalyst was used, and the product was SPA. The reactor details included a capillary microreactor with 4.08 mL inner volume, and critical conditions involved flow rates (not mentioned), residence time (not mentioned), temperature (not mentioned), and pressure (not mentioned). Outcomes were not reported in this context.
+
+feedstocks (both at the flow rate of 0.51 mL/h) mixed with the stream of synthesized linear polymers through two micromixers, so the concen­ trations of reactants were diluted according to their flow rate ratio (Fig. S1). The newly combined stream was delivered into a second capillary microreactor with 4.08 mL for the star formation step, at a residence time τ2 of 2 h (total flow rate of 2.04 mL/h
+
+3.2. Study on the reaction conditions for preparing star polymers in the cascade microreactor system
+
+Table 1 Summary of homoarm star products prepared in the cascade microreactor system.
+
+We first investigated the continuous-flow preparation of linear arms. BA and ACMO were selected as target monomers because their corre­ sponding polymer chains were respectively hydrophobic and hydro­ philic, which could be used to fabricate miktoarm star polymers. The highly active initiator ABVN was selected to ensure fast reaction rates as to avoid long reaction time. By adjusting the feed flow
+
+[20] E. Baeten, J.J. Haven, T. Junkers, RAFT multiblock reactor telescoping: from monomers to tetrablock copolymers in a continuous multistage reactor cascade, Polym. Chem. 8 (2017) 3815–3824. [21] F.A. Leibfarth, J.A. Johnson, T.F. Jamison, Scalable synthesis of sequence-defined, unimolecular macromolecules by Flow-IEG, Proc. Nalt. Acad. Sci. 112 (2015) 10617–10622. [22] Y. Su, Y. Song, L. Xiang,
+
+Accordingly, the GPC trace of the product moved slightly to a high MW region. Similar to Gao's report for preparing star polymers [39], the procedure of linear chains purification was omitted in our cascade microreactor system. Strictly speaking, the core was a copolymer of the cross-linker and the unreacted monomer. Such a structure could decrease the core's steric congestion, hence facilitating 
+
+In this work, through combining the RAFT arm-first approach and microreactor technology, we succeeded in preparing star polymers with varied chain compositions in homemade cascade microreactor systems. First, the polymerization kinetics in the arm formation and star forma­ tion steps were studied. Then, we analyzed the effects (reaction time, mixing performance, and reactant formula) on the star y
+

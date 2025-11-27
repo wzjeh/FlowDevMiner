@@ -1,0 +1,155 @@
+Ag/SiO2and Ag/Co3O4-Based Monolithic Flow Microreactors for Hydrogenation of Dyes: Their Activity and Stability
+
+Department of Chemistry, the University of Alabama, Tuscaloosa, AL 35487-0336, USA; E-Mails: yhakat@crimson.ua.edu (Y.H.); trupti.kotbagi@gmail.com (T.V.K.)
+
+* Author to whom correspondence should be addressed; E-Mail: bakker@ua.edu; Tel.: +1-205-348-9116; Fax: +1-205-348-9104.
+
+Received: 31 December 2014 / Accepted: 9 February 2015 / Published: 16 February 2015
+
+Abstract: Silver nanoparticles supported on hierarchically porous silica and cobalt oxide monoliths have previously been shown to be catalytically active for the hydrogenation of common organic dyes in batch studies. This work presents a detailed investigation of the activity and stability of these monoliths during the hydrogenation of eosin-Y in a continuous flow microreactor. The silver-containing monoliths showed excellent catalytic activity that reached a plateau after a period of approximately 6 h. From SEM particle size distribution studies of the catalysts before and after water and hexane were flowed through them, it was determined that under reaction conditions, silver was removed both by washing off of particles and by dissolution of silver.
+
+Keywords: catalyst; flow; hydrogenation; microreactor; monolith; nanoparticle
+
+Heterogeneous catalysis is an important component in the development of atom and energy-efficient chemical transformations. The design of processes that are highly selective, energy efficient and environmentally benign requires detailed knowledge of the reaction kinetics, thorough evaluation of the catalytic materials and rapid optimization of the reaction conditions. Microreactors enable precise control of reaction parameters (e.g., temperature, pressure), and the reaction conditions
+
+Processes 2015, 3 can be continuously varied and monitored in flow systems during catalytic processes, greatly accelerating reaction kinetic studies and process optimization [1,2]. Additionally, flow microreactors have advantages, such as enhanced atom efficiency, selectivity, yield and purity of products, reproducibility, increased turn-over-number (TON), turn-over-frequency (TOF), process safety, shorter development cycles and rapid scale-up from lab to pilot plant [3]. The use of water as the solvent in such reactors is particularly attractive in cutting operating costs.
+
+The efficiency of heterogeneous catalysts depends on various properties, such as surface area, the pore size of the support and the particle size of the active metals on the support. Hierarchically porous materials have interconnecting pore networks at multiple length scales, making them particularly attractive for reactions that are mass transport limited. When fabricated as monoliths, i.e., as single pieces, they are particularly attractive as continuous flow microreactors, providing superior mass diffusion and increasing the accessibility of the fluids (reactants and products) during organic transformations [4]. A wide variety of hierarchically porous monoliths [5], such as hierarchically porous zeolites (SiO2/Al2O3, aluminophosphate (AlPO), silico-aluminophosphate SAPO) [6], hierarchically porous metal oxides (SiO2 [7–10], Co3O4 [8–10], NiO [8–10], ZnO [11], TiO2 [12]) and hierarchically porous carbon‐based catalysts [13,14], have been studied.
+
+With the recent explosion of work in the synthesis and application of metal nanoparticles, there have been numerous reports of the use of metal nanoparticles as catalysts for various organic transformations, including carbonylation [15,16], hydroformylation [17] and hydrogenation [18,19]. However, during solution phase catalytic reactions, nanoparticles tend to aggregate due to high surface energy and van der Waals forces. This is undesirable in terms of catalytic activity and the longevity of the catalyst. Supporting the nanoparticles on a high surface area support is one step towards overcoming the issue of aggregation. Supporting the catalyst also simplifies the separation of the catalyst from the reaction products. Hierarchically porous monolithic materials, like SiO2, can be used as high surface area supports in which the nanoparticles can be formed or entrapped inside the interconnected channels. The formation of metal nanoparticles on supports to give heterogeneous catalysts is somewhat of an art form that has been studied over many years [20]. However, there is considerably less work on hierarchically porous materials [4,5,21,22], particularly monolithic materials, which have been evaluated in only a handful of flow experiments [23–25].
+
+We have recently shown in batch reactions that silver (Ag) nanoparticles supported on hierarchically porous SiO2 and Co3O4 monoliths (Ag/SiO2 and Ag/Co3O4, respectively) are catalytically active for the hydrogenation of methyl orange (MO) and methylene blue (MB) dyes with rate constants that indicate the potential of studying these reactions in a continuous flow microreactor [26]. Herein, for the first time, we report the hydrogenation of eosin-Y (EO) using Ag/SiO2 and Ag/Co3O4 hierarchically porous monoliths as microreactors in a continuous flow system. The use of a microreactor allows us to assess the stability of these catalysts and explore the origins of the decreases observed in the initial catalytic activities.
+
+All chemicals used were commercially available and used as received. Polyethylene glycol 35000 (PEG 35000), tetraethyl orthosilicate (TEOS, 98%), ammonium hydroxide (NH4OH), cobalt nitrate hexahydrate (Co(NO3)2·6H2O), silver nitrate (AgNO3), 30% nitric acid (HNO3), potassium hydroxide (KOH), eosin-Y (EO) and sodium borohydride (NaBH4) were purchased from Sigma-Aldrich. Octadecyltrimethylammonium bromide (C18TAB) was obtained from Genscript. The assay of all of the chemicals was 99.9%, unless otherwise noted.
+
+The SiO2 template monoliths were synthesized according to the procedure described by Smått et al. [8]. In summary: polyethylene glycol (PEG, MW = 35,000 g/mol), 30% v/v HNO3, tetraethyl orthosilicate (TEOS) and octadecyltrimethylammonium bromide (C18TAB) were mixed with molar ratios of 5.5 × 10−4:2.5 × 10−1:14.5:1:0.12, respectively. This solution was transferred to a mold (96-well plate) and allowed to gel for at least 72 h at 45 °C. To improve the stability of these monoliths, they were aged in 1 M NH4OH at 90 °C for 8 h, followed by neutralization in 0.1 M HNO3, rinsing with deionized water and acetone and drying at 45 °C overnight. Finally, the SiO2 monoliths were calcined at 550 °C for 5 h with a ramp rate of 1 °C/min.
+
+The SiO2 monoliths were used as a template for the synthesis of Co3O4 replica monoliths by nanocasting. Initially, the SiO2 monoliths were degassed under vacuum and filled with a 5 M aqueous solution of Co(NO3)2·6H2O. The infiltrated monoliths were dried at 150 °C overnight under N2 flow. These monoliths were then heated at 250 °C for 4 h to ensure total Co(NO3)2·6H2O salt decomposition to metal oxide, Co3O4. The above procedure was repeated three times to completely fill the mesopores and so giving continuous Co3O4 monoliths. The SiO2 template was then dissolved using 3 M aqueous KOH at room temperature for 24 h. This process was carried out twice to ensure complete SiO2 removal, and the replicas were then rinsed with water until a neutral pH was achieved.
+
+2.4. Synthesis of Ag/SiO2 and Ag/Co3O4 Composite Monoliths by Solution Infiltration
+
+An aqueous solution of 0.1 M AgNO3 was prepared and degassed prior to infiltration into SiO2 and Co3O4. The SiO2 monolith appeared greyish in color after the addition of silver (Ag), while the Co3O4 monolith remained black in color after Ag addition. The infiltrated monoliths were dried overnight at 65 °C. The Ag salt was then reduced using ethylene glycol at 165 °C for 30 min, to give the supported catalysts that will be referred to as Ag/SiO2 for the Ag supported on SiO2 and Ag/Co3O4 for the Ag supported on Co3O4.
+
+Scanning electron microscopy (SEM) on a JEOL-7000 FE SEM equipped with an Oxford energy dispersive spectroscope (EDS) was used for characterization and elemental analysis. X-ray diffraction (XRD) was carried out on a Bruker D8 Discover with General Area Detector Diffraction System (GADDS) X-ray (Co Kα, λ = 1.79 Å). ImageJ (version: 1.48v; National Institutes of Health: Bethesda, MD, USA, 1997) was used to carry out the determination of the particle sizes from the SEM images.
+
+2.6. Catalytic Reduction of EO Using Supported Ag Nanoparticles as Catalyst
+
+The continuous flow monolithic microreactor was constructed as follows: The monolith (5 mm × 7 mm) was positioned into a heat shrinkable PTFE tube of 30 mm and 60 mm in length, which was heated to shrink the PTFE tubing until a tight fit to the monolith was produced. An aqueous solution of EO (2.9 µM) and reducing agent NaBH4 (0.018 M) was pumped with a peristaltic pump through the microreactor at a constant flow rate of 2.1 mL/min. The product solution was passed through a UV cuvette flow cell of 4.5 mL capacity to analyze the reduction of EO using a Cary 50 Scan UV-Vis spectrophotometer in the range of 200–800 nm. Calibration experiments showed that the absorbance recorded at 521 nm was linear for concentrations up to 2.9 µM, corresponding to an absorbance of 2.5.
+
+The washing tests of the Ag/SiO2 and Ag/Co3O4 monoliths were carried out in a continuous flow microreactor. The fixed bed of the continuous monolithic microreactor was constructed as mentioned in Section 2.6. Neat hexane was pumped through the microreactor with a peristaltic pump at a constant flow rate of 2.1 mL/min. The quantitative analysis of the washing of Ag from the support was determined by measuring the Ag ion concentration in the effluent using a Perkin Elmer AAnalyst 400 atomic absorption spectrophotometer.
+
+The detailed characterization of the SiO2, Ag/SiO2, Co3O4 and Ag/Co3O4 monoliths was performed and reported previously [26]. In brief, SiO2 and Co3O4 showed high BET surface areas of 741.1 and 71.7 m2/g, with total pore volumes of 1.26 and 0.34 cm3/g, respectively. The surface area was found to decrease with the addition of Ag for both monoliths. The structure of the monoliths can be seen in the SEM images (Figure 1). Atomic Absorption Spectroscopic AAS analyses showed the amount Ag on SiO2 and Co3O4 to be 1.8 and 2.1 wt%, respectively.
+
+Both SiO2 and Co3O4 monoliths showed the presence of similar network of 10–15 µm macropores, consistent with the replication into Co3O4 of the macropore structure of the SiO2 template. The formation of Ag nanoparticles on the macropore surfaces of the SiO2 and Co3O4 replica monoliths can clearly be seen in Figure 1. These images were taken with a back-scatter detector, so that brighter
+
+Processes 2015, 3 areas correspond to Ag nanoparticles, which have a higher atomic number than the supports. In general, the Ag nanoparticles are <100 nm.
+
+<image: Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1)), width: 4159, height: 4059, bpc: 8>
+
+3.2. Hydrogenation of EO in Continuous Monolithic Microreactors
+
+Hydrogenation of EO dye has been studied to evaluate the activity and stability of these materials in a continuous reactor (Scheme 1).
+
+<image: Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1)), width: 5533, height: 1512, bpc: 8>
+
+Scheme 1. Hydrogenation of eosin (EO)-Y2− to EO-Y3− and EOH-Y3−.
+
+The continuous monolithic microreactor set-up used is shown in Figure 2 and incorporates a UV-visible spectrophotometer as the detector.
+
+<image: Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1)), width: 5120, height: 2448, bpc: 8>
+
+Figure 2. The typical continuous monolithic microreactor used for the hydrogenation of EO.
+
+Careful control experiments were carried out to confirm the stability of the experimental setup. The EO hydrogenation was performed in the absence of the monolithic catalyst using NaBH4 as the reducing agent under flow conditions. The absorbance was recorded at 525 nm, the absorption maximum of EO. The absorbance (A) vs. time (t) plot is shown in Figure 3. No change in the absorbance of the initial EO solution was observed over 600 min. This clearly indicated that the rate of the reaction of EO is negligible in the absence of catalyst.
+
+<image: Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1)), width: 3035, height: 1899, bpc: 8>
+
+Figure 3. Reaction of EO and NaBH4 in the absence of catalyst (absorbance (A) vs. time (t) plot).
+
+In our earlier work on the hydrogenation of dyes under batch conditions, it was observed that SiO2 and Co3O4 were not catalytic for the hydrogenation of either MO or MB and so would not be expected to catalyze the hydrogenation of EO. However, it was observed that both MB and MO adsorb on SiO2 and Co3O4 supports, which significantly complicated the data analysis. Based on the negative surface charges of both SiO2 and Co3O4 at neutral pH, anionic EO was predicted not to significantly adsorb on either support. The adsorption behavior of EO on the SiO2 and Co3O4 monolithic supports was studied under flow conditions in the absence of NaBH4. The results can be seen in Figures 4 and 5, which show no decrease in the absorbance value from the initial EO solution. Previously strong adsorption of MO and MB on Ag nanoparticles supported on SiO2 and Co3O4 was observed, in agreement with other
+
+Processes 2015, 3 reports. Accordingly, the adsorption of EO on Ag nanoparticles supported on SiO2 and Co3O4 was studied as a function of time in the absence of NaBH4. As can be seen in Figures 4 and 5, initially, 100% of the EO is adsorbed on both Ag/SiO2 and Ag/Co3O4 monoliths. The EO was completely absorbed until 105 min for Ag/SiO2 and 150 min in the case of Ag/Co3O4. Subsequently, the absorbance gradually increased and attained a steady-state value less than that of the initial EO solution, indicating continuing adsorption of EO on the Ag nanoparticles. The steady state for Ag/SiO2 was achieved at 345 min with approximately 33% of the EO being adsorbed. The steady state for Ag/Co3O4 was achieved at 345 min with 46% of the EO being adsorbed.
+
+<image: Indexed(1,ICCBased(RGB,Adobe RGB (1998))), width: 3030, height: 1831, bpc: 8>
+
+Figure 4. Absorbance (A) vs. time (t) plots of EO reaction studies using SiO2-based monolithic catalysts.
+
+<image: Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1)), width: 3722, height: 2274, bpc: 8>
+
+Figure 5. Absorbance (A) vs. time (t) plots of EO reaction studies using Co3O4-based monolithic catalysts.
+
+The absence of adsorption on the bare supports indicates clearly that the adsorption of EO is taking place on the Ag nanoparticles.
+
+Figures 4 and 5 also show the absorbance vs. time plots when NaBH4 is added to the EO solution. For Ag/SiO2, complete removal of EO from the solution increases from 100 min in the absence of NaBH4 to 195 min in the presence of NaBH4. For Ag/Co3O4, complete removal of EO increases from
+
+Processes 2015, 3 150 min to 205 min with the addition of NaBH4. Our earlier work with MO and MB confirmed that reaction with NaBH4 directly converted these dyes to their hydrogenation products and did not indicate any changes in the extent of dye adsorption. Similarly, batch studies of EO confirmed the stoichiometric conversion to the products, with no indication of changes in the extent of EO adsorption on Ag. Accordingly, the difference between the amount of EO leaving the microreactor in the absence and presence of NaBH4 can be ascribed to the catalytic reaction and conversion of EO to products.
+
+Figure 6 shows the extent of catalytic conversion of EO to products. For Ag/SiO2, the catalytic conversion reaches a peak of 29% at 210 min and then decreases to a constant efficiency of 16.4%. For Ag/Co3O4, the catalytic conversion reaches an efficiency of 28% at 360 min and then decreases slightly to a constant efficiency of 26.7%. The initial increases in conversion can be readily ascribed to the decrease in the extent of EO adsorption, but in the absence of other factors, the conversion efficiency would be expected to monotonically increase to a steady-state value. That it does not suggests that something is occurring beyond the decrease in the extent of absorption seen in the absence of NaBH4. There are a number of possible causes for this change in catalytic activity, including alterations in the nature of the monolith in terms of the structure and the porosity of the support and changes in the number and size distribution of the Ag nanoparticles.
+
+<image: Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1)), width: 3896, height: 2361, bpc: 8>
+
+Figure 6. Conversion of EO in the presence of NaBH4 using (A) Ag/SiO2 and (B) Ag/Co3O4 as the catalysts.
+
+3.3. Particle Size Distribution and Washing/Leaching Studies
+
+Detailed SEM analysis was carried out on the spent catalysts and compared to that of fresh catalyst. No changes in the structure of the supports were seen. Figure 7 shows SEM images of the fresh and spent Ag/SiO2 monolith at a magnification at which the Ag nanoparticles can be resolved. Particle size distributions for the Ag nanoparticles are also shown in Figure 7. The size distribution of Ag nanoparticles in fresh Ag/SiO2 monoliths is observed to be somewhat bimodal, with a significant number of Ag nanoparticles with a size <35 nm. No Ag nanoparticles in the 36–64 nm range were observed, with the remainder of the Ag nanoparticles falling in the 65–164 nm size range. The spent Ag/SiO2 catalyst showed a decrease in the number of the smallest nanoparticles (from 24 to 12) and an approximately 50% decrease of Ag nanoparticles <84 nm. Agglomerates of Ag nanoparticles in
+
+Processes 2015, 3 the range of 235–270 nm were seen in the spent catalyst. Overall, there is a significant decrease in the number of Ag nanoparticles, accompanied by an increase in average nanoparticle size, as well as the observation of agglomerates for the spent catalyst.
+
+<image: Indexed(15,ICCBased(RGB,Adobe RGB (1998))), width: 3494, height: 3237, bpc: 8>
+
+Figure 7. SEM particle size distributions of (A) fresh; (B) spent Ag/SiO2 monoliths; (C) particle size distribution of fresh and spent Ag/SiO2.
+
+A similar analysis for Ag/Co3O4 is shown in Figure 8. Again, the distribution of Ag nanoparticles is bimodal, even more so than for Ag/SiO2, with a majority of the Ag nanoparticles having diameters <52 nm. Along with the fine Ag nanoparticles, there is also a broad distribution of Ag nanoparticles centered at 106–131 nm, extending out to 368 nm. The number of small (<52 nm) Ag nanoparticles in the spent Ag/Co3O4 was found to decrease to 50% of that in the fresh Ag/Co3O4. Similarly, the average size distribution for the larger Ag nanoparticles was also observed to shift to larger average particle sizes, with some agglomerates in the 369–394 nm range being observed in the spent Ag/Co3O4. The overall number of Ag nanoparticles was also observed to decrease. Ag/Co3O4 shows the same trends as found for Ag/SiO2: fewer, larger, Ag nanoparticles in the spent catalyst compared to fresh catalyst. Ag/Co3O4 shows a larger overall decrease in the number of Ag nanoparticles, which may reflect
+
+Processes 2015, 3 differences in metal-support interactions or could simply be a result of how the initially different particle size distribution changes during the course of the reaction.
+
+<image: Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1)), width: 5320, height: 4783, bpc: 8>
+
+Figure 8. SEM particle size distributions of fresh (A) and spent (B) Ag/Co3O4 monoliths; (C) particle size distribution of fresh and spent Ag/Co3O4.
+
+The extent of the changes in the number and size of the Ag nanoparticles is large enough that this appears likely to explain the changes in the catalytic activity and extent of dye adsorption observed.
+
+The changes in the number and size of the Ag nanoparticles could result from a number of physical mechanisms. The observation of large nanoparticles that are clearly agglomerates suggests that the collision and merging of two or more nanoparticles into an agglomerate (with a smaller surface area) is likely to be occurring. This could be either by the movement of nanoparticles across the surface of the support or by the nanoparticle being dislodged from the support and suspended in the solvent. If the latter is occurring, then some loss of Ag from the monolith would be expected. We will refer to this mechanism as "washing" of the nanoparticles. A second possible mechanism would involve Ostwald ripening. Dissolution/ionization of Ag would occur preferentially from the highest curvature surfaces, and precipitation/reduction would occur preferentially on the Ag surfaces with the lowest surface energy/surface curvature. The formation of Ag ions is believed to play an important role in the bactericidal properties of Ag nanoparticles [27], although the presence of NaBH4 would be expected to
+
+Processes 2015, 3 suppress this ionization by reducing the Ag ions back to Ag. We will refer to this mechanism as "leaching", and it would also be predicted to result in a net loss of Ag from the monolith.
+
+In order to evaluate the relative importance of these possible mechanisms, the amount of Ag lost when different solvents were passed through the column was determined. The use of a non-polar organic solvent, such as hexane, would be expected to substantially reduce or possibly completely suppress any Ag ionization. For such solvents, the "leaching contribution" should be significantly reduced, if not completely eliminated. "Washing" of Ag nanoparticles would be expected to be relatively unaffected by the nature of the solvent. Neat hexane was flowed through fresh Ag/SiO2 and Ag/Co3O4 monoliths at the same constant rate as used in the flow experiments, and the effluent was collected and analyzed using AAS to evaluate the concentration of washed Ag particles. The percent loss and cumulative loss of Ag nanoparticles during the washing with hexane are shown in Figures 9 and 10.
+
+<image: Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1)), width: 2761, height: 1799, bpc: 8>
+
+Figure 9. Percent loss of Ag from Ag/SiO2 under flow conditions using hexane as the solvent.
+
+<image: Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1)), width: 2761, height: 1999, bpc: 8>
+
+Figure 10. Percent loss of Ag from Ag/Co3O4 under flow conditions using hexane as the solvent.
+
+From Figures 9 and 10, it is clear that Ag nanoparticles are being suspended in the hexane and that some fraction is then being washed completely out of the monolith.
+
+The particle size distribution studies of fresh and spent Ag/SiO2 and Ag/Co3O4 for the hexane washing experiments are shown in Figures 11 and 12, respectively. For both Ag/SiO2 and Ag/Co3O4, the particle size distribution shifts markedly towards larger particle sizes. Larger Ag particles in the 300–500-nm range were observed in the spent catalysts, which were not seen in fresh catalysts. In total, 1/6th of the Ag particles were washed from the fresh Ag/SiO2 and 1/4th of the initial Ag particles were washed from the fresh Ag/Co3O4 when hexane was used. This is significantly less than
+
+Processes 2015, 3 seen for aqueous media. This indicates that there is significant leaching/dissolution occurring in water, such that some of the small Ag nanoparticles are not washed off, but rather dissolved completely. The growth of larger agglomerates for the hexane-washed samples suggests that many nanoparticles that might otherwise dissolve are instead washed into contact with other Ag nanoparticles, forming the larger agglomerates observed.
+
+From these observations, it is evident that in aqueous media, the loss of Ag particles is due to the washing of the loosely-bound Ag nanoparticles along with the leaching of Ag ions due to their dissolution in aqueous medium. The contribution of the leaching to Ag loss can be estimated as the difference between the loss of Ag from the aqueous samples and that washed off in hexane. These values are given in Table 1.
+
+Comparison of the data for Ag/SiO2 and Ag/Co3O4 shows that a significantly larger portion of the Ag is leached from the Co3O4 than from Ag/SiO2, suggesting that there is some metal-support interaction.
+
+Table 1. Percentage loss of washed and leached Ag from SiO2 and Co3O4 monolithic supports.
+
+Number of Ag Nanoparticles Lost from Support, % Ag Leached from Support in Aqueous Reaction Medium, %
+
+<image: Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1)), width: 4770, height: 4296, bpc: 8>
+
+Figure 11. Washing studies of Ag/SiO2 in hexane: (A) SEM of fresh Ag/SiO2; (B) SEM of spent Ag/SiO2; (C) particle size distribution of fresh and spent Ag/SiO2.
+
+<image: Indexed(255,ICCBased(RGB,sRGB IEC61966-2.1)), width: 4770, height: 4109, bpc: 8>
+
+Figure 12. Washing studies of Ag/Co3O4 in hexane: (A) SEM of fresh Ag/Co3O4; (B) SEM of spent Ag/Co3O4; (C) particle size distribution of fresh and spent Ag/Co3O4.
+
+From the data, it is clear that for the hierarchically porous catalysts studied, the loss of catalytic activity is caused by both washing and leaching of the Ag nanoparticles. For non-polar solvents where leaching is expected to be much less prevalent, agglomeration may not produce such a large change in metal surface area as it would for aqueous media, since there would be less Ostwald ripening [28]. This would predict that in non-aqueous media, the decrease in catalytic activity would be closer to proportionate to the amount of metal lost. It is also likely that the flow rate could impact the fraction of particles that are washed off, as higher flow rates would be expected to dislodge more strongly-bound particles.
+
+Silica and cobalt oxide monoliths supporting silver nanoparticles were successfully used as continuous flow monolithic microreactors for the hydrogenation of eosin-Y by sodium borohydride. The dye was found to adsorb on silver nanoparticles in the absence of reducing agent. Catalysis and absorption occurred simultaneously on the silver-based monoliths in the presence of reducing agent. Ag/Co3O4 was found to be more active than Ag/SiO2 for the hydrogenation of eosin-Y. A loss of catalytic activity was observed for silver nanoparticles on both silica and cobalt oxide supports in the aqueous reaction media. From the comparison of the particle size distributions of the spent and fresh catalysts and the impact of the solvent, it was concluded that the loss of activity is a result of the loss of silver from the support and of particle size growth due to washing and leaching.
+
+Support by the Research Stimulation Program at The University of Alabama (T.V.K.) is gratefully acknowledged. A seed grant from the Central Analytical Facility at The University of Alabama is acknowledged, the required cost match for which was provided by the Bakker Research Gift fund.
+
+T.V.K. and M.G.B. designed the study and constructed the flow reactor. Y.H. carried out the catalyst preparation and the flow studies. Y.H., T.V.K. and M.G.B. carried out the data analysis and preparation of the manuscript.

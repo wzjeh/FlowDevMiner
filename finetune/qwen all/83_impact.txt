@@ -1,0 +1,18 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of 5-NTIN | increase |
+| gas_flow_rate | conversion of 5-NTIN | increase |
+| gas_flow_rate | selectivity of 5-AIN | increase |
+| gas_flow_rate | selectivity of 5-APHIN | decrease |
+| temperature | yield of 5-ATHIN | increase |
+| hydrogen_pressure | conversion of 5-NTIN | increase |
+| hydrogen_pressure | selectivity of 5-AIN | increase |
+| hydrogen_pressure | selectivity of AZO | decrease |
+| temperature | conversion of 5-NTIN | increase |
+| temperature | selectivity of 5-ATHIN | increase |
+| temperature | selectivity of AZO | decrease |
+| catalyst_loading | conversion of 5-NTIN | increase |
+| catalyst_loading | yield of 5-AIN | increase |
+| catalyst_loading | yield of 5-ATHIN | increase |

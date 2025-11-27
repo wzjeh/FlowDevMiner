@@ -1,0 +1,99 @@
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["acetyl guaiacol", "H2O2"],
+    "products": ["p-nitrophenol"],
+    "conditions": [
+      {"type":"flow_rate","value":3},
+      {"type":"residence_time","value":6},
+      {"type":"temperature","value":40}
+    ],
+    "reactor":{"type":"microreactor", "inner_diameter":500, "working_volume":20},
+    "metrics":{
+        "conversion":98,
+        "yield":null
+    }
+  },
+  "reaction_summary_2": {
+    "reaction_type": "nitration",
+    "reactants": ["acetyl guaiacol"],
+    "products": ["p-nitrophenol"],
+    "conditions": [
+      {"type":"flow_rate","value":3},
+      {"type":"residence_time","value":120},
+      {"type":"temperature","value":45}
+    ],
+    "reactor":{"type":"microreactor", "inner_diameter":500, "working_volume":20},
+    "metrics":{
+        "conversion":98,
+        "yield":null
+    }
+  },
+  "reaction_summary_3": {
+    "reaction_type": "nitration",
+    "reactants": ["acetyl guaiacol"],
+    "products": ["p-nitrophenol"],
+    "conditions": [
+      {"type":"flow_rate","value":3},
+      {"type":"residence_time","value":2},
+      {"type":"temperature","value":null}
+    ],
+    "reactor":{"type":"microreactor", "inner_diameter":500, "working_volume":20},
+    "metrics":{
+        "conversion":90.7,
+        "yield":1.51e4
+    }
+  },
+  "reaction_summary_4": {
+    "reaction_type": "nitration",
+    "reactants": ["acetyl guaiacol"],
+    "products": ["p-nitrophenol"],
+    "conditions": [
+      {"type":"flow_rate","value":3},
+      {"type":"residence_time","value":2.6},
+      {"type":"temperature","value":null}
+    ],
+    "reactor":{"type":"microreactor", "inner_diameter":500, "working_volume":20},
+    "metrics":{
+        "conversion":90.7,
+        "yield":1.51e4
+    }
+  },
+  "reaction_summary_5": {
+    "reaction_type": "nitration",
+    "reactants": ["acetyl guaiacol"],
+    "products": ["p-nitrophenol"],
+    "conditions": [
+      {"type":"flow_rate","value":3},
+      {"type":"residence_time","value":2.6},
+      {"type":"temperature","value":null}
+    ],
+    "reactor":{"type":"microreactor", "inner_diameter":500, "working_volume":20},
+    "metrics":{
+        "conversion":90.7,
+        "yield":1.51e4
+    }
+  },
+  "reaction_summary_6": {
+    "reaction_type": "nitration",
+    "reactants": ["acetyl guaiacol"],
+    "products": ["p-nitrophenol"],
+    "conditions": [
+      {"type":"flow_rate","value":3},
+      {"type":"residence_time","value":2.6},
+      {"type":"temperature","value":null}
+    ],
+    "reactor":{"type":"microreactor", "inner_diameter":500, "working_volume":20},
+    "metrics":{
+        "conversion":90.7,
+        "yield":1.51e4
+    }
+  },
+  "reaction_summary_7": {
+    "reaction_type": "nitration",
+    "reactants": ["acetyl guaiacol"],
+    "products": ["p-nitrophenol"],
+    "conditions": [
+      {"type":"flow_rate","value":3},
+      {"type":"residence_time","value":2.6},
+      {"type":"temperature","value":null}

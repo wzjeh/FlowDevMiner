@@ -1,0 +1,15 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rates | Metric: flow_rate | increase |
+| residence_times | Metric: residence_time | increase |
+| temperatures | Metric: temperature | decrease |
+| pressures | Metric: pressure | decrease |
+| high_conversions | Metric: conversion | increase |
+| yields | Metric: yield | increase |
+| selectivity | Metric: product_selectivity | unchanged |
+| explosion_limits | Metric: explosion_limit | decrease |
+| heat_transfer_rates | Metric: heat_transfer_rate | increase |
+| easy_handling | Metric: handling_ease | increase |
+| temperature_control | Metric: temperature_control_quality | increase |

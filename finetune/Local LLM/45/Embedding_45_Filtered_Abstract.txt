@@ -1,0 +1,20 @@
+Keywords: Microreactor Scale-up Two-phase flow Mass transfer Numerical simulation
+
+Summary: The paragraph discusses the improvement in mass transfer coefficients for liquid-liquid systems in microreactors compared to conventional batch reactors. This is due to the increased interfacial contact area resulting from the small scale of the microreactor.
+
+Continuous-flow chemistry, using reactors with channel dimen­ sions in the microor millimeter regions, is a relatively new field and have found widespread applications in the last couple of years (Gutmann et al., 2015; Anon, 2016; Elvira et al., 2013; Pastre et al., 2013). Microstructured systems efficiently utilize advantages re­ sulting from small scale. In comparison to conventional reactors, o
+
+3.5.1. Effect of volumetric flow rate To investigate the effect of volumetric flow rates on toluene ni­ tration in the meso-scale flow reactor, Tr,0 and molar ratio (C7H8∕HNO3) were controlled at 45∘C and 1:1.2, respectively. Moreover, residence time was kept identical by adopting different numbers of reaction modules for different flow rates. For example, one reaction module was used for the flow
+
+measurement was obtained for the lowest flow rate. It can be seen in Fig. 11a, the highest Tr was always detected by T1 which indicated the reaction was the most violent inside the first two reaction modules. With higher flow rates, the detected overtemperature phenomenon (Tr − Tr,0) was getting increasingly significant and it reached up to 21.3 ∘C for the flow rate of 60 mL/min. Fig. 11b shows th
+
+complete the reaction. Even if excluded the holding time, it was as long as 3000 s. As a contrast, in the meso-scale flow reactor, this time could be shortened to 132 s to achieve similar conversion and better selectivity. Hence, the space time yield as well as the annual production of the flow reactor was much higher than the batch re­ actor. Although the highest value of overtemperature was simi
+
+2.5.1. Experimental setup and procedures An overview of the meso-scale flow reactor system is shown in Fig. 3. The reactor was commercially available in China (Jiangsu Diyuan precision instrument technology Co., Ltd., China). It consisted of nine modules and the channels were made of hastelloy (1/4 in o.d.) while the jackets were made of stainless steel. There were some pulse structures on the cha
+
+sessment in development and operation of modular continuous-flow processes. React. Chem. Eng. 2, 258–280. Kuba, M.G., Prins, R., Pirngruber, G.D., 2007. Batch and continuous nitration of toluene and chlorobenzene with acetyl nitrate over zeolite beta. Appl. Catal. A Gen. 333, 24–29. Kulkarni, A.A., 2014. Continuous flow nitration in miniaturized devices. Beilstein J. Org. Chem. 10. Kulkarni, A.A.,
+
+The main goal of this study was to scale up toluene nitration in a meso-scale flow reactor while considering process safety. The semi batch reaction process in RC1 showed a highest value of over­ temperature of 24.6∘C and the MNT selectivity of 62%. The heat and mass transfer efficiency was low in the batch reactor. A meso-scale reactor system was adopted to scale up toluene nitration in a flow wa
+
+In this study, toluene nitration was scaled up in a meso-scale flow reactor and safety was considered. The exothermic characteristic was demonstrated in a batch calorimeter. Parallel flow was observed in the flow channel and numerical simulation was carried out to show the hydrodynamics. Mass transfer coefficient of the reactor mixer was determined. The effects of flow rates, temperatures and mola
+

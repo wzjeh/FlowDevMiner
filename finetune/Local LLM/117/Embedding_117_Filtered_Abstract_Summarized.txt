@@ -1,0 +1,72 @@
+{"name": reactant_name, "flow_rate": float(flow_rate)}
+
+{ "reaction_summary": { 
+    "reaction_type":"null", 
+    "reactants":[{"name":"null","role":"null"}], 
+    "products":[{"name":"null","yield_optimal":82,"unit":"%"}], 
+    "conditions":[
+        {"type":"temperature","value":"80 °C"}, 
+        {"type":"flow_rate_total","value":"0.1 mL/min"}
+    ], 
+    "reactor":{"type":"coil", "inner_diameter":"0.5 mm"},
+    "metrics":{null:null, null:82, null:null,"unit":"%"}}
+{ "reaction_summary": {  "reaction_type": null, "reactants": [],  "products": [{"name": null, "yield_optimal": 82, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "reactant|catalyst|solvent"}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "100 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": 0.1}, {"type": "pressure", "value": null}], "reactor": {"type": "tubular microreactor", "inner_diameter": "2 mm"}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{
+        "conversion": None,
+        "yield": 95, # Not mentioned in the text
+        "selectivity": None,
+        "unit": "%"
+    }
+
+{ "reaction_summary": { 
+    "reaction_type":"synthesis", 
+    "reactants":[{"name":"silver ions (Ag+)","role":"reactant"}, {"name":"sodium borohydride (NaBH4)","role":"reducing agent"}], 
+    "products":[{"name":"silver nanoparticles","yield_optimal":95,"unit":"%"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"name": "silver nanoparticles", "yield_optimal": 95, "unit": "%"}
+
+{"name": match.group(1), "role":"reactant"}
+
+{
+    "reaction_type": null,
+    "reactants": [],
+    "products": [
+        {
+            "name": "Ag",
+            "yield_optimal": 95,
+            "unit": "%"
+        }
+    ],
+    "conditions": [
+        {
+            "type": "temperature",
+            "value": "120 °C"
+        },
+        {
+            "type": "residence_time",
+            "value": "10 min"
+        },
+        {
+            "type": "flow_rate_reactant_A",
+            "value": null
+        }
+    ],
+    "reactor": {
+        "type": "tubular microreactor",
+        "inner_diameter": 1.0 mm
+    },
+    "metrics": {
+        "conversion": null,
+        "yield": null,
+        "selectivity": null,
+        "unit": "%"
+    }
+}
+
+{"conversion": null, "yield": null, "selectivity": null, "unit": "%"}
+

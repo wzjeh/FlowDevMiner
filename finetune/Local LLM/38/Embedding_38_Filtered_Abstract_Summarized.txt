@@ -1,0 +1,108 @@
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)', text, flags=re.IGNORECASE | re.MULTILINE)
+    if match:
+        reaction_type = match.group(0).lower()
+    
+    # Parse reactants and products
+    matches = re.findall(r"([A-Za-z]+)", text)
+    for i in range(len(matches)):
+        name = matches[i]
+        
+        role = None
+        if "reactant" in text.lower():
+            role = 'reactant'
+        elif "catalyst" in text.lower() and (i == 0 or not re.search(r"\b"+name+r"\b", text, flags=re.IGNORECASE | re.MULTILINE)):
+            role = 'catalyst'
+        else:
+            continue
+        
+        if i < len(matches) - 1: # append to existing reactant/product
+            if "reactants" in locals():
+                for j in range(len(reactants)):
+                    if name == reactants[j]['name']:
+                        reactants[j][role] = role
+                        break
+                else:
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+from typing import List
+
+
+    # Parse reaction type (if present)
+    if "semi-batch" in input_str or "batch reactor" in input_str:
+        reaction_type = "batch"
+    elif "microchannel" in input_str and ("mesoscale flow reactor" not in input_str):
+        reaction_type = "continuous_flow"
+
+    # Parse reactants
+    reactant_names: List[str] = []
+    for word in re.findall(r'\b\w+\b', input_str):
+        if word.lower() == 'reactor':
+            continue  # Ignore the word "reactor"
+        elif word.endswith('A') or word.endswith('B'):
+            reactant_names.append(word[:-1])
+        else:
+            reactant_names.append(word)
+
+    # Parse products
+    product_name = None
+    yield_optimal = None
+    for match in re.finditer(r'(\d+(?:\.\d+)?)%', input_str):
+        if "obtained" not in input_str and "space-time yield of microchannel reactor has improved by almost two orders
+
+{"reaction_summary": {"reaction_type": "toluene_nitration", "reactants": [{"name": "HNO3-AC2O", "role": "solvent"}], "products": [{"name": "nitro_toluene", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "10 min"}], "reactor": {"type": "microchannel", "inner_diameter": "1 mm"}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"reaction_type": match.group(1).capitalize()}
+
+{"reaction_summary": {"reaction_type": "microchannel", "reactants": [], "products": [{"name": null, "role": null, "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "microchannel", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"name": None, "yield_optimal": None, "unit": "%"}
+
+{'value': f'{value}{unit}', 'unit': unit}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [], "products": [{"name": "null", "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+# Extract metrics and conditions
+    yield_match = re.search(r"yield (\d+)%", text)
+    conversion_match = re.search(r"conversion (\d+)%", text)
+
+    if yield_match:
+        optimal_yield = int(yield_match.group(1))
+    else:
+        optimal_yield = None
+
+    if conversion_match:
+        optimal_conversion = float(conversion_match.group(1)) / 100
+    else:
+        optimal_conversion = None
+
+    # Extract conditions
+    temperature_match = re.search(r"T=(\d+) °C", text)
+    residence_time_match = re.search(r"residence time (\d+ min)", text)
+
+    if temperature_match:
+        temp_value = float(temperature_match.group(1))
+    else:
+        temp_value = None
+
+    if residence_time_match:
+        res_time_value = int(residence_time_match.group(1))
+    else:
+        res_time_value = None
+
+    flow_rate_match = re.search(r"flow rate (\d+) mL/min", text)
+    pressure_match = re.search(r"pressure (\d+ bar)", text)
+
+    if flow_rate_match:
+        total_flow_rate = float(flow_rate_match.group(1))  # Assuming single
+
+{ "reaction_summary": {  "reaction_type":"dinitration",  "reactants":[],  "products":[{"name":"nitrobenzene derivatives","yield_optimal":null,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"30.9 °C"},    {"type":"residence_time","value":null},    {"type":"flow_rate_reactant_A","value":null},    {"type":"flow_rate_reactant_B","value":null},    {"type":"pressure","value":null}
+

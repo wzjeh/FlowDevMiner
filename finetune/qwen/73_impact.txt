@@ -1,0 +1,31 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of anthraquinone | increase |
+| temperature | yield of 1-nitroanthraquinone | increase |
+| temperature | yield of 1,8-dinitroanthraquinone | increase |
+| temperature | selectivity of 1-nitroanthraquinone | decrease |
+| flow_rate (anthraquinone volumetric flow rate) | conversion of anthraquinone | decrease |
+| flow_rate (anthraquinone volumetric flow rate) | selectivity of 1-nitroanthraquinone | increase |
+| flow_rate (anthraquinone volumetric flow rate) | yield of 1,8-dinitroanthraquinone | decrease |
+| reactant_concentration (n(HNO3)/n(anthraquinone)) | conversion of anthraquinone | increase |
+| reactant_concentration (n(HNO3)/n(anthraquinone)) | selectivity of 1-nitroanthraquinone | decrease |
+| reactant_concentration (n(HNO3)/n(anthraquinone)) | yield of 1,8-dinitroanthraquinone | increase |
+| reactant_concentration (anthraquinone concentration) | conversion of anthraquinone | increase |
+| reactant_concentration (anthraquinone concentration) | yield of 1-nitroanthraquinone | increase |
+| reactant_concentration (anthraquinone concentration) | yield of 1,8-dinitroanthraquinone | increase |
+| reactant_concentration (anthraquinone concentration) | selectivity of 1-nitroanthraquinone | decrease |
+| residence_time | conversion of anthraquinone | increase |
+| residence_time | yield of 1-nitroanthraquinone | increase |
+| residence_time | selectivity of 1-nitroanthraquinone | increase |
+| residence_time | yield of 1,8-dinitroanthraquinone | increase |
+| pressure | conversion of anthraquinone | unchanged |
+| pressure | yield of 1-nitroanthraquinone | unchanged |
+| pressure | selectivity of 1-nitroanthraquinone | unchanged |
+| catalyst_loading | not mentioned | unchanged |
+| pressure | yield of 1,8-dinitroanthraquinone | unchanged |
+| sulfuric_acid_mass_fraction | conversion of anthraquinone | decrease |
+| sulfuric_acid_mass_fraction | yield of 1-nitroanthraquinone | decrease |
+| sulfuric_acid_mass_fraction | yield of 1,8-dinitroanthraquinone | unchanged |
+| sulfuric_acid_mass_fraction | selectivity of 1-nitroanthraquinone | unchanged |

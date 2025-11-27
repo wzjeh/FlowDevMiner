@@ -1,0 +1,52 @@
+{
+  "reaction_type": "氢化",
+  "reactants": [
+    {
+      "name": "2-amylanthraquinone",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd/γ-Al2O3",
+      "role": "catalyst"
+    },
+    {
+      "name": "TMB/TOP",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "2-amyl-dihydroanthraquinone",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "50 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "9 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": "300 kPa"
+    }
+  ],
+  "reactor": {
+    "type": "packed bed",
+    "inner_diameter": "4.6 mm"
+  },
+  "metrics": {
+    "conversion": 99.9,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

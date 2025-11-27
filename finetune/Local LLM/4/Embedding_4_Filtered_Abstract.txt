@@ -1,0 +1,20 @@
+Keywords: Microchannel Microreactor Multiphase flow Mass transfer Pickering emulsion Oxidation
+
+was mainly a result of the fixed reactor tube length of 5.0 m in the ex­ periments. With the given tube length the residence time of reactants in the microchannel reduced with the increase in gas flow rate, thus total flow rate. It was observed that under these operating conditions, the effects of the reduction in residence time on the yield of benzaldehyde were significantly stronger than that of
+
+where Vm is the reactor volume, Q is the total volume flow rate of gas–liquid phase. To mitigate the impact of unsteady state conditions on reaction performance, the double residence time was implemented for at least one run prior to collecting the sample. The reaction solution at the outlet of the microchannel reactor was collected in a gas–liquid sepa­ rator prior to further chemical analysis. E
+
+Summary: The paragraph discusses the effects of varying microchannel length in a reactor on the residence time and pressure drop. It does not provide information about flow-chemistry process development.
+
+Summary: The paragraph discusses the effects of reactor tube inner diameter on gas-liquid flow dynamics in a microchannel reactor for the production of benzaldehyde from vanillin and hydrochloric acid. The reaction involves an oxidation process using oxygen as the oxidizing agent, with the desired product being benzaldehyde. The reactor is a microchannel with a constant volumetric flow rate and varying inner diameters (1.59 mm to 0.5 mm). The key reactants are vanillin and hydrochloric acid, while oxygen serves as the oxidizing agent. The solvent used is water. The critical conditions include a residence time of approximately 36 s for all cases, with temperature and pressure not mentioned. The conversion and yield of benzaldehyde increase linearly from 14.67% to 35.39% as the inner diameter decreases, due to enhanced mixing in the liquid phase and mass transfer between phases. The reactor type is a microchannel with varying inner diameters.
+
+benzaldehyde. As the tube length increased with longer residence time and further progress of reaction, secondly, more gas phase oxygen was consumed, leading to a decrease in the total volumetric flow rate of the multiphase flow, as shown in Fig. 11(c). Finally, the pressure drop along the reactor microchannel exhibited an increase trend with the increase of tube length as expected. That was advan
+
+[12] L. Sicignano, G. Tomaiuolo, A. Perazzoa, S.P. Nolan, P.L. Maffettone, S. Guido, The effect of shear flow on microreactor clogging, Chem. Eng. J. 341 (2018) 639–647. [13] J. Yue, Multiphase flow processing in microreactors combined with heterogeneous catalysis for efficient and sustainable chemical synthesis, Catal. Today 308 (2018) 3–19. [14] A. Tanimu, S. Jaenicke, K. Alhooshani, Heterogeneo
+
+3.2.5. Effects of total volumetric flow rate With a given residence time and constant tube diameter, a longer tube is needed to achieve a higher total volumetric flow rate. However, varying total volumetric flow rate may have more complicated influence on hydrodynamics, mass transfer and ultimately the reaction. Therefore, this was more closely investigated. Fig. 12 depicts the profiles of product
+
+leveling off at a relatively stable level, with the increase of total volu­ metric flow rate. The critical turning point was around the total volu­ metric flow rate of 820 μL/min in all three profiles. Also, a higher temperature resulted in a higher yield while all three profiles of product yield showed a similar trend. As discussed, in order to keep a constant residence time, different lengths of
+
+Over the past few decades, the microchannel reactor technology has advanced considerably, exhibiting remarkable performance in chemical process intensification [1–3]. Compared to conventional batch or semi batch reactors on a macroscale, microchannel reactors possess numerous advantages, including a considerable specific surface area, rapid heat and mass transfer rates, minimal back-mixing (result
+

@@ -1,0 +1,15 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of AAQ | increase |
+| temperature | conversion of AAQ | increase |
+| pressure | conversion of AAQ | increase |
+| reactant_concentration | conversion of AAQ | decrease |
+| catalyst_loading | effective anthraquinone retention | unchanged |
+| flow_rate | pressure drop | increase |
+| solvent_composition (TMB/TOP ratio) | conversion of AAQ | increase |
+| solvent_composition (TMB/TOP ratio) | pressure drop | increase |
+| residence_time | over-hydrogenation risk | increase |
+| temperature | over-hydrogenation risk | increase |
+| pressure | over-hydrogenation risk | increase |

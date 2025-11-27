@@ -1,0 +1,20 @@
+into appropriate lengths (3.5, 25, 50, 100, and 300 cm). The micromixers and microtube reactors were connected with stainless steel fittings (GL Sciences, 1/16 OUW) to construct the flow microreactor systems. The flow microreactor system was dipped in the bath to control the temperature. The solutions were continuously introduced to the flow microreactor system using syringe pumps, Harvard PHD 200
+
+A flow microreactor system consisting of two T-shaped micromixers (M1 and M2), two microtube reactors (R1 and R2), and three tube precooling units (P1 (inner diameter φ = 1000 µm, length L = 100 cm), P2 (φ = 1000 µm, L = 50 cm), and P3 (φ = 1000 µm, L = 100 cm)) was used for the formation of lithium borate. A solution of bromobenzene (0.10 M in THF) (flow rate: 6.0 mL/min) and a solution of n-BuLi
+
+A flow microreactor system consisting of two T-shaped micromixers (M1 and M2), two microtube reactors (R1 and R2), and three tube precooling units (P1 (inner diameter φ = 1000 µm, length L = 100 cm), P2 (φ = 1000 µm, L = 50 cm), and P3 (φ = 1000 µm, L = 100 cm)) was used for the formation of lithium borate. A solution of bromobenzene (0.10 M in THF) (flow rate: 6.0 mL/min) and a solution of n-BuLi
+
+A flow microreactor system consisting of two T-shaped micromixers (M1 and M2), two microtube reactors (R1 and R2), and three tube precooling units (P1 (inner diameter φ = 1000 µm, length L = 100 cm), P2 (φ = 1000 µm, L = 50 cm), and P3 (φ = 1000 µm, L = 100 cm)) was used for the formation of lithium borate. A solution of arylbromides (Ar1Br) (0.10 M in THF) (flow rate: 6.0 mL/min) and a solution o
+
+A flow microreactor system consisting of two T-shaped micromixers (M1 and M2), two microtube reactors (R1 and R2), and three tube precooling units (P1 (inner diameter φ = 1000 µm, length L = 100 cm), P2 (φ = 1000 µm, L = 50 cm), and P3 (φ = 1000 µm, L = 100 cm)) was used for the formation of lithium borate. A solution of arylbromides (Ar1–Br) (0.10 M in THF) (flow rate: 6.0 mL/min) and a
+
+A flow microreactor system consisting of two T-shaped micromixers (M1 and M2), two microtube reactors (R1 and R2), and three tube precooling units (P1 (inner diameter φ = 1000 µm, length L = 100 cm), P2 (φ = 1000 µm, L = 50 cm), and P3 (φ = 1000 µm, L = 100 cm)) was used for the formation of lithium borate. A solution of 2-(1-Adamantyl)-4-bromoanisole (0.10 M in THF) (flow rate: 6.0 mL/min) and a 
+
+Figure 5. The flow microreactor system for lithiation, borylation, and Suzuki–Miyaura coupling using the Pd catalyst supported by the polymer monolith (micromixers: M1 and M2, microtube reactors: R1 and R2).
+
+Figure 9. The flow microreactor system for Suzuki–Miyaura coupling using a single reactor or multiple reactors connected in series (micromixers: M1 and M2, microtube reactors: R1 and R2).
+
+Summary: The paragraph discusses flow-chemistry process development for increasing productivity in a single flow reactor by optimizing the flow rate while maintaining conversion. Parallel connection of flow reactors is used as a common approach (Figure 8b). However, poor fluid distribution uniformity leads to variations in productivity. Various flow distributors have been developed to address this issue: manifold-, bifurcation-, and split-and-recombine-type flow distributors. The summary does not mention any specific reaction type, key reactants/solvent/catalyst, products, reactor details (type/ID), critical conditions (flow rate(s), residence time, temperature, pressure), or outcomes (conversion/yield/selectivity).
+
+Reactor n (Number of Reactors) Flow Rate (mL/min) Residence Time (min) Pressure Drop (MPa) Yield (%) Productivity (mg/h)
+

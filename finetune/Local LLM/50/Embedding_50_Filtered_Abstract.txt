@@ -1,0 +1,16 @@
+3.5. Comparison of the microreactor with a batch reactor
+
+Recently, microchannel reactors have been utilized for produc- ing nano-sized particles, including metals and alloys [13–18], me- tal salts [19,20], metal oxides [21], polymers [22], mesoporous materials [23], and zeolites [24]. The flow type microchannel reac- tors are able to intensify the mass and heat transfers as well as the mixing. The high surface-to-volume ratio in the microchannel reactor
+
+Summary: The paragraph discusses flow-chemistry process development for synthesis of solid materials in a microchannel reactor. The reaction involves liquid-liquid two phase mixing with immiscible oil as the solvent and catalyst. Nanoparticles are formed within the droplets, which prevents deposition on the channel walls by adjusting the oil-to-water volume ratio. The critical conditions include flow rate(s), residence time, temperature, and pressure. Outcomes mentioned are conversion, yield, and selectivity; however, specific values are not provided in this summary.
+
+Summary: The paragraph discusses the synthesis of ZnO nanoparticles using a continuous flow-chemistry system with a micromixer replaced by a T-joint in order to compare its performance with that of a microreactor and a batch reactor. The size distribution of the obtained nanoparticles was improved, indicating better control over particle size.
+
+The microreactor for the synthesis of ZnO nanoparticles is illus- trated in Fig. 2. The micromixer (CPMM-R 300, microchannel size: 300  300 lm, Mainz, Germany) and the relay tube (stainless steel, i.d. 6.35 mm  1.0 m) were immersed in an oil thermostat, whose temperature was adjusted by a temperature controller. M(Zn2+) and M(NaOH) were fed separately to the two inlets of the microm- ixer by two
+
+Summary: The paragraph discusses the development of a flow-chemistry process for the synthesis of an organic compound using a continuous stirred-tank reactor (CSTR) with a residence time of 6 hours at 25°C and atmospheric pressure. The key reactants are A and B, which form product C through a reaction involving catalyst X. The flow rate is varied between 1 to 3 moles/hour, and the conversion of reactant A increases with increasing flow rate.
+
+Synthesis of ZnO nanoparticles from microemulsions in a flow type microreactor
+
+Keywords: Microchannel reactor Microemulsion Zinc oxide Nanoparticle
+

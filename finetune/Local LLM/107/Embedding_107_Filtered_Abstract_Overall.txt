@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "hydrogenation", "reactants": ["nitrobenzene", "H2"], "products": ["furfuryl alcohol"], "conditions": [{"type": "flow_rate", "value": 0.5}, {"type": "temperature", "value": 50}, {"type": "pressure", "value": 1}], "reactor": {"type": "microreactor", "inner_diameter": 500}, "metrics": {"conversion": null, "yield": null, "selectivity": null}}}

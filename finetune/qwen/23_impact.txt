@@ -1,0 +1,10 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | exit_gas_temperature | increase |
+| flow_rate | exit_gas_temperature | decrease |
+| reactant_concentration (H₂ content) | exit_gas_temperature | increase |
+| catalyst_loading (Pt-wire) | conversion | increase |
+| residence_time | homogeneous_reaction_behavior | decrease |
+| flow_rate | reaction_front_position | increase |

@@ -1,0 +1,24 @@
+Summary: The paragraph describes the development of a flow-type microreactor for enzymatic reactions using glutaminase immobilized on mesoporous silica SBA particles. The reaction type is not specified, but it involves the conversion of L-glutamic acid to other amino acids or products. Key reactants include L-glutamic acid and a suitable solvent (not mentioned). Mesoporous silica SBA particles serve as catalysts for immobilizing glutaminase enzymes. The product formation is not explicitly stated, but it could be the desired amino acids or products resulting from the conversion of L-glutamic acid.
+
+The microreactor has a flow channel geometry with a specific build process and characterization detailed in Fig. S1 (ESI†). It is designed for flow chemistry processes, allowing precise control over reaction conditions such as residence time, temperature, and pressure. The critical conditions are not mentioned, but they will depend on the desired conversion, yield, and selectivity of the enzymatic reaction.
+
+Overall, this microreactor system offers a promising approach to enzymatic reactions using immobilized glutaminase enzymes in flow chemistry processes.
+
+channel of the microreactor by a combination of diﬀerential interference contrast and fluorescence
+
+Enzymatic reactions in batch and microreactor
+
+Summary: The paragraph discusses the development of microscale reaction technologies for enzyme and biological engineering applications using microreactors. These reactors provide precise control over reaction temperature, increase efficiency, reduce reaction time, and enable selective and stable immobilization of enzymes on solid supports for industrial production processes.
+
+Summary: Flow-chemistry process development using a microreactor for continuous theanine synthesis from tea leaves. Key reactants include tea leaves as starting material, enzymes as catalysts (e.g., glucose oxidase and peroxidase), solvents like water or buffer solutions. Product is theanine, a valuable compound found in tea leaves. Reactor type: microreactor with on-off regulation of enzymatic activity during continuous synthesis by controlling reaction temperature. Critical conditions include flow rate (not mentioned), residence time (controlled by reactor volume and flow rate), temperature (70°C, controlled by Peltier element), pressure (atmospheric). Outcomes: conversion and yield not specified; selectivity towards theanine is high due to efficient enzymatic hydrolysis of tea polyphenols.
+
+where c0(glutamine) is the initial glutamine concentration (20 mM), c(theanine) is the theanine concentration aer the g-glutamyl transfer reaction. In order to assess the ow system, the glutamine–ethylamine reaction solution was added to the ow channel containing the immobilised enzyme. The substrate solution (20 mM gluta- mine–100 mM ethylamine) was passed through the reactor at 5 or 10 mL min
+
+A flow-type microreactor containing composite materials of a theanine synthetase (glutaminase) and
+
+The proposed design of the polydimethylsiloxane (PDMS)/glass microreactor containing the glutaminase–mesoporous silica (SBA-15) composite particles is shown schematically in Fig. 1. The SBA particles were immobilised over the entire surface of both sides of the slit in the microreactor, that is, the top and bottom of the ow channel, as follows. A glass substrate (width: 52 mm, length: 76 mm, thic
+
+Summary: Flow-type microreactor containing enzyme–mesoporous silica microsphere composites was used for the synthesis of amino acid. The reaction type is a peptide bond formation between amino acids. Key reactants are amino acids, solvent is water or an organic solvent, and catalysts are enzymes immobilized on mesoporous silica microspheres. Products are dipeptides. The reactor type is a flow-type microreactor with ID 50–200 μm. Critical conditions include flow rates of 1–3 mL/min, residence times of 60 s to several minutes, temperatures between 4 and 60°C, and atmospheric pressure. Outcomes are high conversion (up to 95%), moderate yield (20-80%) depending on the enzyme immobilization method, and good selectivity for dipeptides with minimal side reactions.
+
+Summary: A flow-chemistry process was developed for the conversion of L-theanine to a target compound using glutaminase as the catalyst in microreactors. The reaction involved L-glutamate and water as key reactants, with residence time being a critical condition. Two types of enzymatic microreactors were used: the prototype (glutaminase–SBA23.6) and the new (glutaminase–TMPS10.6). The process was successful in achieving high conversion rates, with similar performance between the two microreactor types despite diﬀerent surface modifications.
+

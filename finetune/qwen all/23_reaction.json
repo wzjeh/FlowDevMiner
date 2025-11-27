@@ -1,0 +1,56 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "hydrogen",
+      "role": "reactant"
+    },
+    {
+      "name": "oxygen",
+      "role": "reactant"
+    },
+    {
+      "name": "platinum",
+      "role": "catalyst"
+    },
+    {
+      "name": "nitrogen",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "water",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "1150 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "50 μs"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.5 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "tubular",
+    "inner_diameter": "0.6 mm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

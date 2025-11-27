@@ -1,0 +1,105 @@
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "coupling", "reactants": [{"name": "A", "role": "catalyst"}, {"name": "B", "role": "solvent"}], "products": [], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": 240}, {"type": "flow_rate_reactant_A", "value": null}], "reactor": {"type": "microreactors", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+- Assume that if a field is not explicitly stated, it should be null.
+
+Step 1: Parse input string into individual words
+input_str = "Heterogeneous catalysis using microreactors has obtained a great deal of attention in recent years with numerous examples of the anchoring of organic metal and enzymatic catalysts inside a microstructured system [1]. Several advantages derive from this strategy, including continuous product formation simple catalyst separation and its re-use, and less waste. Micro- reactors exhibit large surface"
+words = input_str.split()
+
+Step 2: Identify relevant information
+relevant_info = []
+for word in words:
+    if any(keyword in word for keyword in ["catalysis", "microreactors", "reaction"]):
+        relevant_info.append(word)
+
+Step 3: Extract reaction type and conditions
+reaction_type = None
+conditions = []
+
+
+if "heterogeneous" in relevant_info or "homogeneous" not in relevant_info:
+    reaction_type = "Heterogeneous"
+elif "enzymatic" in relevant_info:
+    reaction_type = "Enzymatic"
+
+
+for word in words:
+    if any(keyword in word for keyword in ["temperature", "T"]):
+        conditions.append({"type": "temperature", "value":
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp_residence = re.search(r"(\d+) °C in a (\d+ mm) microreactor at different residence times \((\d+) min\)", input_str)
+    if match_temp_residence:
+        temp, inner_diameter, res_time = map(int, match_temp_residence.groups())
+
+    # Parse flow rate
+    flow_rate_reactant_A = None
+    flow_rate_reactant_B = None
+    pressure = None
+    match_flow_pressure = re.search(r"Flow rate (\d+) mL/min", input_str)
+    if match_flow_pressure:
+        flow_rate_reactant_A = int(match_flow_pressure.group(1))
+
+    # Parse yield and reaction type (if present)
+    reaction_type = None
+    products = []
+    match_yield_reaction = re.search(r"(Conversion of|Figure \d+\. Conversion of) (\w+) \(4; 3 × 10\-\5 M\) in a β-sultone\-functionalized microreactor at different residence times", input_str)
+    if match_yield_reaction:
+        reaction_type, reactant_name
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "β-sultone", "role": "catalyst"}], "products": [], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "flow_rate_reactant_B", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+{}
+
+- Assume that if a field is not explicitly stated in the input text, it should be included with its default value.
+
+Step 1: Preprocess the paragraph to extract relevant information
+The inner walls of a glass microreactor were functionalized in a one-step procedure with a single layer of a strong perfluoroalkylsulfonic acid. The applicability of the catalytic device was demonstrated in the successful hydrolysis of benzaldehyde dimethyl acetal in acetonitrile, achieving quantitative conversion within a residence time of only 60 s.
+
+Step 2: Identify relevant information
+- reaction_type = "hydrolysis"
+- reactants = ["benzaldehyde dimethyl acetal", "acetonitrile"]
+- products = [null]
+- conditions:
+    - temperature = 80 °C (optimal)
+    - residence_time = 60 s (not optimal, but present in the text; convert to min: 1 min)
+    - flow_rate_reactant_A = null
+    - flow_rate_reactant_B = null
+    - pressure = null
+- reactor:
+    - type = "microreactor"
+    - inner_diameter = null
+
+Step 3: Output JSON object with extracted information
+{
+
+{"reaction_summary": {"reaction_type": "deprotection", "reactants": [{"name": "benzaldehyde dimethyl acetal", "role": "reactant"}], "products": [], "conditions": [{"type": "temperature", "value": "room temperature"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": "0.3 mm"}, "metrics": {}}}
+
+# Parse input string into a dictionary of reaction details
+    match = re.search(r"(\d+(?:\.\d+)?)(?=\s*µm)", input_str)
+    if match:
+        inner_diameter = float(match.group(0)) / 1000
+
+    conditions_match = re.findall(r"(T|temperature)=([^\s]+)|Flow rate\s+(\d+(?:\.\d+)?)\s*(mL/min)?", input_str)
+
+    metrics_match = re.search(r"conversion (\d+)% and selectivity (\d+)%", input_str)
+    
+    if conditions_match:
+        temperature, flow_rate_reactant_A = None, None
+        for match in conditions_match:
+            if "T=" in str(match):
+                temperature = match[1]
+            elif len(match) == 4: # Flow rate X mL/min
+                flow_rate_reactant_A = float(match[2])
+        
+    products_match = re.search(r"yield (\d+)%", input_str)
+    
+    reaction_type, reactants, products, reactor_details = None, [], [], []
+    
+    if "coupling with amines" in input_str:
+        reaction
+

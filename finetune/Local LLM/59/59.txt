@@ -1,0 +1,237 @@
+Contents lists available at ScienceDirect
+
+Chemical Engineering Journal
+
+journal homepage: www.elsevier.com/locate/cej
+
+Continuous hydrogenation of N-ethylcarbazole in a micro-packed bed reactor for hydrogen storage
+
+Yiwei Fan , Peixia Wang , Jiahao Zhang , Mengmeng Huang , Wei Liu , Yanlin Xu , Xiaonan Duan , Yingying Li , Jisong Zhang *
+
+State Key Laboratory of Chemical Engineering, Department of Chemical Engineering, Tsinghua University, Beijing 100084, China
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords: Liquid organic hydrogen carrier N-ethylcarbazole hydrogenation Micro-packed bed reactor Continuous flow Kinetics
+
+N-ethylcarbazole is a promising alternative for liquid organic hydrogen carriers. However, due to the high kinetic barriers in N-ethylcarbazole hydrogenation, harsh conditions and high loading of Ru metal are needed. Designing a cost-effective and low-temperature hydrogenation process for liquid organic hydrogen carriers remains a significant challenge. In this work, a continuous hydrogenation process of N-ethylcarbazole in a micropacked bed reactor is reported. The effects of catalysts, temperature, hydrogen pressure, and gas flow rate are evaluated. The results show that 1 wt% Ru/Al2O3 exhibits the best catalytic performance with 100 % conversion of N-ethyl­ carbazole, 99.41 % selectivity to dodecahydro-N-ethylcarbazole and 5.79 wt% mass hydrogen storage capacity under a mild reaction condition of 80 ℃ and 4 MPa. A kinetic model of N-ethylcarbazole hydrogenation is established and the network of stepwise hydrogenation reactions exhibits a good fit for each product. The hy­ drogenation of octahydro-ethylcarbazole is the rate-limiting step. The obtained kinetic model is helpful for process optimization of the continuous N-ethylcarbazole hydrogenation process.
+
+1. Introduction
+
+stability [8,12,13]. Wan et al. achieved fully hydrogenated NEC over 5.16 wt% Ru/γ-Al2O3 with a selectivity up to 98 % (6.0 MPa, 413 K) [13,14]. Shi et al. applied RuNPs supported on N-doped exfoliated Ni-Fe layered double hydroxide nanosheets (5 wt% Ru/Ni-Fe LDH) for NEC hydrogenation. At 120 ℃ and 6 MPa for 80 min, NEC conversation reached 100 % while the selectivity to 12H-NEC was 97.43 % [15]. However, the current hydrogenation process still has some drawbacks, including high loadings of Ru (up to 5 wt%) [13], high reaction tem­ perature (130–230 ℃) [16] and high pressure (5–8 MPa) [8,16,17]. Hence, it is of utmost importance to develop a high-effective, safe, and low-cost hydrogenation process for LOHCs. Currently, most studies on NEC hydrogenation are conducted in batch reactors. They suffer from poor mass and heat transfer efficiency and severe back mixing [18], despite their advantages in terms of simple structures, mature procedures, and ease of operation. Consequently, the hydrogenation reaction in a batch reactor usually needs long reaction time, high temperature, and high pressure, leading to poor economic efficiency and unsafe processes [19]. For gas–liquid-solid hydrogenation reactions, continuous flow technology is a promising option to overcome the restrictions on process control, reactor scale-up, and safe operation. Micro-packed bed reactors have a superior specific surface area [20] and
+
+Hydrogen is considered as an efficient and environmentally friendly energy carrier for the future because of its high mass energy density and clean combustion [1–5]. However, the storage and transportation of hydrogen, which confront challenges such as its low volumetric energy density, low boiling point and flammability, are the major obstacles to the hydrogen economy [6]. An efficient and safe hydrogen storage system is urgently needed. Liquid organic hydrogen carrier (LOHC) is perceived as a potentially economical and secure method for large-scale, long-distance, and long-term storage through reversible hydrogenation and dehydrogenation processes [7–9]. N-ethylcarbazole (NEC), which has a high hydrogen storage capacity and low dehydrogenation temperature, is an appealing alternative for LOHCs [5,7,8]. Eblagon et al. investigated NEC hydrogenation over a wide range of noble metal and nickel supported catalysts. They found that the activity of catalysts was as follows: Ru > Pd > Pt > Ni. Ru catalysts showed the highest catalytic activity for NEC hydrogenation, but suffered from poor selectivity to dodecahydro-N-ethylcarbazole (12H-NEC) [10,11]. Furthermore, various Ru-based catalysts were widely studied for NEC hydrogenation to enhance selectivity and
+
+* Corresponding author. E-mail address: jiszhang@tsinghua.edu.cn (J. Zhang).
+
+https://doi.org/10.1016/j.cej.2024.149404 Received 12 November 2023; Received in revised form 31 January 2024; Accepted 4 February 2024
+
+Available online 5 February 2024 1385-8947/© 2024 Elsevier B.V. All rights reserved.
+
+Fig. 1. Schematic diagram of the continuous flow hydrogenation system based on a micro-packed bed reactor for N-ethylcarbazole hydrogenation.
+
+approximate plug flow [21], thus providing significant advantages in mass and heat transfer efficiency [18] and precise control of reaction conditions. It can improve the selectivity to 12H-NEC and further in­ crease the mass hydrogen storage density. Micro-packed bed reactors have been successfully applied in several hydrogenation reactions, such as reductive amination [22], hydrogenation of heterocyclic nitro­ aromatics [23] and hydrogenolysis [24]. However, little research on the application of continuous flow technology in NEC hydrogenation has been reported as far as we know. Chen et al. reported the NEC hydro­ genation reactions in a stainless-steel tubular reactor (10.0 mm i.d.) with 100 % conversion and 98 % selectivity using Ru/Al2O3 at 180 ℃ and 5 MPa [25]. But the optimization of the hydrogenation process was not performed. Therefore, a more detailed investigation of NEC hydroge­ nation in continuous flow reactors is urgently required. NEC hydrogenation is a complex reaction involving multiple kinet­ ically stable intermediates, thus the study of kinetic networks is essential for reactor design and process optimization. Sun et al. found that the NEC hydrogenation process followed pseudo-first-order kinetics over Raney Ni and the activation energy was 115 kJ/mol [10]. Sotoodeh et al. described the NEC hydrogenation process as a network of stepwise hy­ drogenation reactions containing six substances, assuming that the re­ actions were first-order in the concentration of the heteroaromatic organic compounds and zero-order in hydrogen [26]. These kinetic studies were conducted in batch reactors and often were limited by mass and heat transfer. Continuous flow technology is ideal for kinetic ex­ periments because of its enhanced mass and heat transfer and precise control of residence time [27]. However, to the best of our knowledge, there have been no reports on the kinetics of NEC hydrogenation in a continuous flow reactor. This research established a continuous hydrogenation system for N ethylcarbazole based on a micropacked bed reactor. The effects of cat­ alysts and various reaction parameters (temperature, hydrogen pres­ sure, and gas flow rate) were investigated, and the stability of the hydrogenation system was evaluated. Furthermore, the corresponding kinetic network model was established in micropacked bed reactors. This work can provide a feasible and promising strategy for the continuous hydrogenation of LOHCs.
+
+2. Experimental materials and apparatus
+
+2.1. Chemicals
+
+N-ethylcarbazole (C14H13N, 99 %) was purchased from Shanghai Bidepharm Technology Co., Ltd. Methylcyclohexane (C7H14, 99 %) was purchased from Anhui Zesheng Technology Co., Ltd. Ruthenium(III) chloride (RuCl3, 99.99 %) was provided by J&K Scientific Ltd. Hydrogen (H2, 99.999 %) and nitrogen (N2, 99.9 %) were supplied by Beijing Helium Pubei Branch Gas Industry Co., Ltd. All gases and reagents were used without further purification.
+
+2.2. Catalyst preparation
+
+All catalysts were prepared by a conventional incipient wetness impregnation method. Taking 1 wt% Ru/Al2O3 as an example: before impregnation, the Al2O3 was subjected to hydrothermal treatment at 90 ℃ for 6 h, followed by calcination at 350 ℃ for 1 h. And then, it was impregnated with an aqueous solution of ruthenium chloride. After impregnation, the samples were dried at room temperature for 12 h, followed by oven dried for 2 h at 120 ℃. Finally, the catalysts were reduced in H2 at 300 ℃ for 2 h with a heating rate of 2 ℃/min. More detailed information on catalyst characterization is shown in Support­ ing Information Section 3.
+
+2.3. Experimental setup
+
+A schematic of the continuous hydrogenation system based on a micro-packed bed reactor is shown in Fig. 1. Since NEC is solid at ambient temperature with a melting point of 68 ~ 70 ℃, it is difficult to pump it directly into the reaction system. Hence, it was dissolved into methylcyclohexane for the subsequent hydrogenation process. The liquid substrate was injected into the system via a plunger pump (Ou Shi Sheng Technology Co., Ltd.) and was premixed with the gas in a micromixer before entering the reactor. The gas flow rate was controlled by a mass flow controller (Beijing Sevenstar Electronics Co., Ltd.). The micro-packed bed reactor (Length: 25 cm, inner diameter: 3.87 mm,
+
+Fig. 2. Catalytic performances of different catalysts for NEC continuous hydrogenation. Reaction conditions: NEC concentration 10 wt%, liquid flow rate: 0.2 mL/ min, reaction temperature: 100 ℃, system pressure: 4 MPa, gas flow rate: 20 sccm, residence time: 3.26 min, areaction temperature: 80 ℃. The metal loadings of Ru/ Al2O3, Ru/C, Ru/SiO2, Pd/Al2O3 and Pt/Al2O3 were 1 wt%. The Ni loading capacity of Ni/Al2O3 was 4.5 wt%.
+
+outer diameter: 6.3 mm) was filled with catalysts for the heterogeneous hydrogenation process. The reactor temperature was controlled by an electric heating jacket, while the system pressure was regulated by an outlet pressure regulator. As the pressure difference between the inflow and outflow of the reactor was negligible, the system pressure could be assumed to remain constant during the reaction. The micro-packed bed reactor was initially purged with nitrogen before hydrogen was fed at a fixed flow rate. When the system pressure reached the required pressure and the temperature of the electric heating jacket reached the set value, the substrate was fed at a specific flow rate. After running for at least three times the liquid residence time, the system reached a steady state [23] and samples were collected for analysis. The heating jacket was turned off, and the system was depressurized at the end of the reaction. The solvent and nitrogen were used to substitute the liquid substrate and hydrogen. The catalysts were stored in a nitrogen atmosphere. Based on our previous studies on liquid holdup in a micro-packed bed reactor [21], the liquid residence time (τ) can be calculated by the following equation:
+
+follows: 12H-NEC: 8.703 min, 9.273 min, 9.456 min; 9-ethyl-octahydro­ carbazole (12H-NEC): 12.803 min; 9-ethyl-tetrahydrocarbazole (4H NEC): 14.482 min; NEC: 14.718 min. According to the literatures [15,16], the composition and concentration of the hydrogenation products were determined by the peak area normalization method. The conversion of NEC can be calculated as following:
+
+) × 100 (2)
+
+X (%) = ( 1 - CNEC CNEC0
+
+The selectivity of products is calculated by the formula:
+
+SnH−NEC (%) = CnH−NEC
+
+CNEC0⋅X × 100 (3)
+
+The mass hydrogen storage capacity of the product is defined as the mass of usable hydrogen deliverable to the fuel cell system divided by the total mass of the complete storage system by the Department of Energy (DOE) [28]. And it can be calculated according to the following equation [16]:
+
+Hydrogen capacity (wt%) = X⋅ ( 12 207⋅S12H−NEC + 8 203⋅S8H−NEC
+
+τ = πD2Lεh 4FL
+
+(1)
+
+)/ (4)
+
++ 4 199⋅S4H−NEC
+
+where D (mm) and L (cm) represent the inner diameter and the length of the packed bed; ε represents the bed porosity; h is the liquid holdup, which can be obtained according to the previous study [21]; FL is the liquid flow rate.
+
+where CNEC(mol/L) and CnH-NEC(mol/L) represent the molar concen­ tration of substrate and products in samples; CNEC0(mol/L) represents the initial molar concentration of substrate.
+
+2.4. Analytical method
+
+3. Results and discussion
+
+The collected samples were analyzed by gas chromatography (Agi­ lent, HP 6890 Series) with an FID detector and an Agilent DB-35 capil­ lary column (length: 30 m, diameter: 0.250 mm, film thickness: 0.25 μm). The setting parameters were as follows: injection temperature: 260 ℃; injection volume: 1.0 μL; column temperature: 120 ℃, 3 min; 120–220 ℃, 20 ℃/min; 220 ℃, 5 min; 220–260 ℃, 20 ℃/min; 260 ℃, 5 min; and the detector temperature, 250 ℃. The split ratio was 50:1. The carrier gas was nitrogen, and the flow rate was 38.8 mL/min. Based on this analytical method, the retention times of the substances were as
+
+3.1. Catalyst performance evaluation
+
+The selection of an appropriate catalyst is essential for N-ethyl­ carbazole hydrogenation. Efficient and economically viable catalysts can increase the selectivity of the target product and make more profits with less energy consumption. According to previous researches, sup­ ported noble metal catalysts, especially Ru based catalysts exhibit excellent catalytic activity for NEC hydrogenation [11–14]. Meanwhile,
+
+12H-NEC was only 56.59 %. A large amount of 8H-NEC was found in the product, indicating that the conversion of 8H-NEC to 12H-NEC was the rate-limiting step. Compared to Ru/C and Ru/SiO2, Ru/Al2O3 exhibited the highest hydrogenation activity. At 80 ℃, NEC was completely con­ verted with a selectivity of 99.41 % to 12H-NEC. The hydrogen storage capacity achieved 5.79 wt%, which was close to the theoretical value. SEM and TEM results showed the Ru/Al2O3 had a smaller average par­ ticle size, and the Ru element was uniformly distributed throughout the entire catalyst structure (Fig. S2 and S3). It facilitated the hydrogena­ tion process, particularly the rate-limiting step from 8H-NEC to 12H NEC [31]. To further optimize NEC hydrogenation, the effects of reac­ tion parameters were investigated in a micro-packed bed reactor with Ru/Al2O3.
+
+3.2. Effect of temperature on the hydrogenation of N-ethylcarbazole
+
+To assess the impact of temperature on the hydrogenation reaction, experiments were conducted at a high liquid flow rate, i.e., short resi­ dence time with temperatures ranging from 60 ℃ to 180 ℃. As shown in Fig. 3, N-ethylcarbazole was nearly fully converted above 80 ℃, but the selectivity to dodecahydro-N-ethylcarbazole was significantly influ­ enced by temperature. Results showed that the initial reaction rate accelerated as the temperature increased from 60 ℃ to 140 ℃ and selectivity to 12H-NEC increased from 33.86 % to 90.18 %. The tem­ perature increase from 140 ℃ to 180 ℃ resulted in insignificant changes in conversion and selectivity, and even a decrease in the selectivity to 12H-NEC at 180 ℃. The result may arise from reaction equilibrium. The hydrogenation of N-ethylcarbazole is exothermic, so high temperatures are not conducive to the reaction [17]. Therefore, subsequent experi­ ments were carried out at 140 ℃ to explore the impact of other parameters.
+
+Fig. 3. Effect of reaction temperature on NEC continuous hydrogenation. Re­ action conditions: NEC concentration 10 wt%, liquid flow rate: 0.4 mL/min, system pressure: 4 MPa, gas flow rate: 36 sccm, catalyst loading: 1.8 g Ru/Al2O3.
+
+Ni catalysts, as non-precious metal based catalysts, have also attracted much attention for hydrogenation [10]. Besides, support also affects the catalytic activity and selectivity [8,17,29]. Therefore, to discuss the influences of active metals and supports, we evaluated the catalytic activity and selectivity of Ru/Al2O3, Ru/C, Ru/SiO2, Pd/Al2O3, Pt/ Al2O3, and Ni/Al2O3 for NEC hydrogenation. The results are presented in Fig. 2. Comparing Ru, Pd, Pt, and Ni catalysts dispersed on Al2O3, the cat­ alysts arranged by decreasing catalytic activity are as follows: Ru > Pd > Pt > Ni. Only about 5 % of NEC was converted at 100 ℃ over Ni/ Al2O3, and most of the product was 4H-NEC, indicating insufficient catalyst activity. Notably, full conversion of NEC was achieved at a lower temperature over Ru/Al2O3. The results are consistent well with previous literatures and the influence of active metals on catalytic ac­ tivity can be attributed to their varying ability to adsorb NEC [11,30]. The adsorption of the substrate is determined by the position of the metal d-band center relative to the Fermi level. The substrate chemi­ sorbs onto the surface of the Ru catalyst with an appropriate strength, leading to the highest activity. Ru-based catalysts are generally more active, but the choice of sup­ ports also has a significant impact on the conversion and selectivity. Although the conversion of Ru/C also reached 100 %, the selectivity to
+
+3.3. Effect of hydrogen pressure and gas flow rate
+
+Hydrogen pressure could influence solubility in a solution, signifi­ cantly impacting the reaction rate and selectivity to 12H-NEC [23]. To ensure thorough reaction of N-ethylcarbazole, at least a stoichiometric amount of hydrogen is required for the reaction. Besides, the gas flow rate also affects the residence time and gas–liquid mass transfer [32]. Considering the effect of N-ethylcarbazole flow rate, the molar ratio of hydrogen to N-ethylcarbazole was used instead of the gas flow rate. To assess the effect of hydrogen pressure and gas flow rate on the reaction, the experiments were carried out at 2–4 MPa and 24–42 sccm, i.e., molar ratios of hydrogen to N-ethylcarbazole ranging from 6 to 10.5. As shown in Fig. 4, the conversion of NEC maintained at 100 % and
+
+Fig. 4. Effect of hydrogen pressure (a) and gas flow rate (b). Reaction conditions: NEC concentration 10 wt%, liquid flow rate: 0.4 mL/min, reaction temperature: 140 ℃, catalyst loading: 1.8 g Ru/Al2O3, the molar ratio of hydrogen to N-ethylcarbazole: 7.5 (a), system pressure: 4 MPa (b).
+
+Table 1 shows a comparison of the experimental results with those of previously reported studies. Higher reaction temperature (100 ~ 200 ℃) and pressure (5 ~ 8 MPa) were needed in literatures, regardless of the use of catalysts with higher loadings (up to 5 wt%). In our works, similar or better results were obtained at 80 ℃ and 4 MPa. The residence time was reduced from several hours to a few minutes. Our continuous NEC hydrogenation system exhibits advantages, such as less residence time, higher selectivity, and lower reaction temperatures, due to its high-efficient mass and heat transfer performance.
+
+Table 1 The catalytic activity of different systems for NEC hydrogenation. aSelectivity to 12H-NEC detected by GC; bMass hydrogen storage capacity calculated by GC.
+
+Catalyst Condition τ/min Selectivitya
+
+/% Hydrogen capacityb /wt %
+
+Ref.
+
+Raney Ni 200 ℃ – 5.0 [33] 6 MPa 5 wt% Ru/ Al2O3
+
+150 ℃ 5.7 [30] 7 MPa 5 wt% Ru/AC 130 ℃ – [11] 7 MPa 5 wt% Ru/Ni Fe-LDH 120 ℃ 97.43 5.74 [15] 6 MPa 1.5 wt% Ru Ni1Al2 LDO300
+
+3.4. Long-term stability test
+
+The stability of the catalyst and reaction system is an essential evaluation factor for the large-scale application of LOHCs in industry. A long-term test for NEC continuous hydrogenation was conducted in a micropacked bed reactor. As shown in Fig. 5, the conversion of NEC maintained 100 % and the selectivity to 12H-NEC was above 98 % for more than 140 h. 1.8 g 1 wt% Ru/Al2O3 successfully converted 100 g N ethylcarbazole into dodecahydro-N-ethylcarbazole and the mass hydrogen storage density of the product was higher than 5.7 wt%, which was close to the theoretical hydrogen storage density of N-ethyl­ carbazole and could meet the requirements of the Department of Energy (DOE, 2025) [34]. As a result, the continuous flow hydrogenation sys­ tem for N-ethylcarbazole exhibited excellent catalytic activity and su­ perior stability for at least 140 h, indicating the robustness and durability of the reaction system against deactivation.
+
+150 ℃ 5.80 [8] 8 MPa
+
+0.5 wt% Ru (Na)/Beta 100 ℃ 97.41 5.69 [16] 6 MPa 1 wt% Ru/ Al2O3
+
+80 ℃ 3.26 99.41 5.79 This work 4 MPa
+
+the main byproduct was 8H-NEC at 140 ℃. 4H-NEC was barely detectable. The conversion of NEC to 4H-NEC and 4H-NEC to 8H-NEC occurs quickly, while the conversion of 8H-NEC to 12H-NEC is slow at high temperatures. More detailed information is shown in the kinetic study. Fig. 4(a) indicates that increasing pressure promotes the con­ version of 8H-NEC to 12H-NEC and improves the selectivity to 12H NEC. The selectivity to 12H-NEC reached 90 % at 4 MPa and was not significantly impacted by further increases in pressure, indicating that pressure was no longer a limiting factor for NEC hydrogenation.
+
+3.5. Kinetic study
+
+Fig. 4(b) shows the gas flow rate has an insignificant effect on the reaction. The selectivity to 12H-NEC was consistently close to 90 % when the molar ratio of hydrogen to N-ethylcarbazole increased from 6 to 10.5. Enhanced gas–liquid mass transfer might be responsible for the increase in selectivity to 12H-NEC as the molar ratio increased from 6 to 9. Whereas, the decrease in selectivity at a molar ratio of 10.5 may be attributed to the reduction in liquid residence time caused by exces­ sively high gas velocity. Considering the cost of hydrogen, a molar ratio of 7.5 was chosen.
+
+A kinetic study is of great significance for reactor scale-up, process optimization, and safety management. The reaction rate is often controlled by kinetics or mass transfer. Before establishing the kinetic model, the mass transfer performance should be considered. According to previous research, mass transfer in a gas–liquid-solid catalytic system generally involves three steps: the dissolution of H2 in the liquid, the diffusion of dissolved H2 from the gas–liquid interface to the solid catalyst surface, and intraparticle diffusion to the active catalytic sites [24]. Hence, experiments and calculations were conducted to verify that
+
+Fig. 5. Long-term stability test for N-ethylcarbazole hydrogenation over Ru/Al2O3. Reaction conditions: NEC concentration 10 wt%, reaction temperature: 140 ℃, liquid flow rate: 0.15 mL/min, system pressure: 4 MPa, gas flow rate: 20 sccm, catalyst loading: 1.8 g Ru/Al2O3.
+
+Fig. 6. Effect of liquid superficial velocity on the average reaction rate. Reaction conditions: NEC concentration: 2.5 wt%, system pressure: 1 MPa, gas flow rate: 30 sccm, reaction temperature: 160 ℃.
+
+mass transfer limitation could be neglected in the following experiments.
+
+reaction rate is no longer controlled by the external mass transfer resistance when the liquid superficial velocity exceeds 5.1 cm/min. Subsequent kinetic experiments were carried out on the basis that the external diffusion had been eliminated.
+
+3.5.1. External diffusion In order to investigate the effect of external diffusion, the influence of liquid superficial velocities (liquid flow rate / cross-sectional area of the packed bed) on the reaction rate was explored. The reaction rates at different liquid superficial velocities with the same residence time were obtained by using reactors with the same volume (2.0 mL) but different inner diameters (3.87 mm, 4.3 mm, 4.6 mm).
+
+3.5.2. Internal diffusion The internal mass transfer limitation of porous media can be evalu­ ated by calculating the Weisz modulus (Mw) and the effective diffusion coefficient (Deff), which reflects the efficiency of reactant diffusion within catalysts. The detailed calculation is shown in Supporting In­ formation Section 2. The Weisz modulus of methylcyclohexane and hydrogen (0.177 and 0.045) indicate that the internal mass transfer resistance can be ignored in the following experiments.
+
+Fig. 6 shows that when the liquid superficial velocity exceeds 5.1 cm/min, the average reaction rate does not change dramatically as the liquid superficial velocity increases. The results above indicate that the
+
+Scheme 1. Reaction pathway for N-ethylcarbazole hydrogenation.
+
+Fig. 7. Comparison of predicted and measured concentrations versus time at different reaction temperatures. NEC (blue), 4H-NEC (orange), 8H-NEC (green), 12H NEC (red). Reaction conditions: NEC concentration 2.5 wt%, system pressure: 2 MPa, gas flow rate: 40 sccm, catalyst: Ru/Al2O3. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+
+3.5.3. Kinetic model On the basis of eliminating external and internal diffusion, the compositions of samples with varying residence times were studied at different temperatures. The intermediates and products included 4H NEC, 8H-NEC and 12H-NEC. 6H-NEC and 10H-NEC were rarely detec­ ted. A similar phenomenon was also reported by Ge et al. [16]. It
+
+indicates that 6H-NEC and 10H-NEC are kinetically unstable in­ termediates, which are consumed much faster than they are produced. Based on previous reports and experimental results, a possible reaction pathway (Scheme 1) was proposed for NEC hydrogenation [16,26,29]. NEC can be directly hydrogenated to 8H-NEC, or it can undergo a stepwise conversion from NEC to 4H-NEC and then to 8H-NEC. Further
+
+Table 2 shows the results of activation energies and pre-exponential factors. The corresponding reaction rate constants for NEC hydrogena­ tion at various reaction temperatures are shown in Table 3. According to the results, the value of k2, corresponding to the conversion of NEC to 8H-NEC, is three orders of magnitude smaller than k1. Therefore, the generation of 8H-NEC mainly occurs through a stepwise reaction in which NEC is hydrogenated to produce 4H-NEC, and then 4H-NEC is further hydrogenated. The values of k1 and k3 are almost three times as large as k4, indicating that the conversion of 8H-NEC to 12H-NEC is the rate-limiting step of NEC hydrogenation. A similar phenomenon was also reported by Eblagon et al. and DFT calculation showed that the newly introduced H atoms in 8H-NEC prevented adsorption between the intermediate and the active site of catalyst [31]. 8H-NEC was more likely to desorb than to continue with the reaction. The activation en­ ergy of k1 is 27.8 ± 0.6 kJ mol−1, which is comparable to the values reported in literature ranging from 27 kJ mol−1 to 100 kJ mol−1
+
+Table 2 Estimated activation energies and pre-exponential factors of the kinetic model for NEC hydrogenation.
+
+Reaction rate constant Pre-exponential factor (min−1
+
+MPa−1) Activation energy (kJ/ mol)
+
+k1 1.18 × 104 27.8 ± 0.6 k2 1.22 × 103 45.8 ± 0.0 k3 2.23 × 103 22.6 ± 0.3 k4 2.02 × 103 26.3 ± 0.7
+
+Table 3 Estimated reaction rate constants of the kinetic model for NEC hydrogenation at different reaction temperatures.
+
+Temperature （℃） k1(min−1
+
+MPa−1) k2(min−1
+
+MPa−1) k3(min−1
+
+MPa−1) k4(min−1
+
+MPa−1)
+
+[13,14,17,25,30]. The activation energies of k2, k3 and k4 are much lower than that of the commercial 5 wt% Ru/Al2O3 reported by Sotoo­ deh et al. [25]. Therefore, the Ru/Al2O3 can facilitate the hydrogenation reaction at lower temperatures and exhibit higher activity.
+
+2.39 0.0010 2.22 0.65 2.95 0.0014 2.63 0.79 3.61 0.0020 3.10 0.96 4.37 0.0027 3.62 1.14 5.24 0.0037 4.20 1.36
+
+4. Conclusion
+
+hydrogenation of the 8H-NEC intermediate results in the formation of 12H-NEC.
+
+This study successfully developed a continuous hydrogenation sys­ tem for liquid organic hydrogen carriers using a micropacked bed reactor. The effects of catalysts, temperature, hydrogen pressure, and gas flow rate were evaluated for N-ethylcarbazole hydrogenation. The 1 wt% Ru/Al2O3 prepared by a conventional incipient wetness impreg­ nation method exhibited the best catalytic performance. Full conversion and 99 % selectivity to dodecahydro-N-ethylcarbazole were obtained under a mild condition of 80 ℃ and 4 MPa. Furthermore, a reaction kinetic network was established. N-ethylcarbazole was primarily con­ verted to 9-ethyl-tetrahydrocarbazole which was subsequently con­ verted to 9-ethyl-octahydrocarbazole or it was directly hydrogenated to 9-ethyl-octahydrocarbazole. The 9-ethyl-octahydrocarbazole was hy­ drogenated into dodecahydro-N-ethylcarbazole and this step was the rate-limiting step of the reaction. The corresponding activation energies and pre-exponential factors were determined, providing the basis for process optimization. This work proposes a feasible and promising strategy for high-efficient and safe hydrogenation of liquid organic hydrogen carriers. Nevertheless, further optimization of catalysts is required to decrease reaction temperature and improve stability, thereby reducing energy consumption and enabling process scaling up.
+
+3.5.4. The parameters estimation Sotoodeh et al. assumed that the NEC hydrogenation reaction was first-order for the concentration of the heteroaromatic organic com­ pounds [26]. Wan et al. found that the apparent reaction rate was first order for hydrogen concentration [13]. Combining literature and experimental results, we assume that the reaction is pseudo first order for the concentration of the heteroaromatic organic compounds and hydrogen. The pressure drop between the inlet and outlet of the reactor is negligible, so the hydrogen pressure can be considered constant throughout the reaction. According to the reaction pathway, the kinetic equation can be established as follows.
+
+−dCA
+
+dt = (k1 + k2)CAPH2 (5)
+
+dCB
+
+dt = k1CAPH2 −k3CBPH2 (6)
+
+dCc
+
+dt = k2CAPH2 + k3CBPH2 −k4CCPH2 (7)
+
+CRediT authorship contribution statement
+
+dCD
+
+dt = k4CcPH2 (8)
+
+Yiwei Fan: Writing – review & editing, Writing – original draft, Validation, Methodology, Investigation, Data curation, Conceptualiza­ tion. Peixia Wang: Methodology, Investigation, Data curation. Jiahao Zhang: Writing – original draft. Mengmeng Huang: Methodology, Investigation. Wei Liu: Writing – original draft. Yanlin Xu: Methodol­ ogy. Xiaonan Duan: Methodology. Yingying Li: Methodology. Jisong Zhang: Writing – review & editing, Writing – original draft, Resources, Project administration, Funding acquisition.
+
+k = Ae−Ea RT (9)
+
+CA, CB, CC, and CD represent the concentrations of NEC, 4H-NEC, 8H NEC, and 12H-NEC. PH2 represents the hydrogen pressure. k1, k2, k3 and k4 are the reaction rate constants for the hydrogenation of NEC to 4H NEC, hydrogenation of NEC to 8H-NEC, hydrogenation of 4H-NEC to 8H-NEC, and hydrogenation of 8H-NEC to 12H-NEC. A represents the pre-exponential factor, and Ea represents the activation energy. Samples with varying residence times were obtained by changing the liquid flow rate, and the product composition was determined by GC. The Python software was utilized to estimate the kinetic parameters by applying the least squares method to integrate the concentration curves over the residence time at 120–160 ℃. The experimental results and the model prediction are shown in Fig. 7. The model predictions are in good agreement with the experimental values, especially for shorter residence times. The slight deviation at longer residence times can be attributed to the simplified assumption that certain non-ideal factors, such as dehy­ drogenation, dealkylation side reactions and chemical equilibrium, were ignored in the reaction process.
+
+Declaration of competing interest
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+Data availability
+
+No data was used for the research described in the article.
+
+Acknowledgments
+
+N-ethylcarbazole over Ru/Ni-Fe LDH, Fuel 306 (2021) 121688, https://doi.org/ 10.1016/j.fuel.2021.121688. [16] L. Ge, M. Qiu, Y. Zhu, S. Yang, W. Li, W. Li, Z. Jiang, X. Chen, Synergistic catalysis of Ru single-atoms and zeolite boosts high-efficiency hydrogen storage, Appl. Catal. B 319 (2022) 121958, https://doi.org/10.1016/j.apcatb.2022.121958. [17] M. Yang, Y. Dong, H. Cheng, Hydrogenation Kinetics of N-Ethylcarbaozle as a Heteroaromatic Liquid Organic Hydrogen Carrier, Adv. Mater. Res. 953–954 (2014) 981–984, https://doi.org/10.4028/www.scientific.net/AMR.953-954.981. [18] L. Sang, X. Feng, J. Tu, B. Xie, G. Luo, J. Zhang, Investigation of external mass transfer in micropacked bed reactors, Chem. Eng. J. 393 (2020) 124793, https:// doi.org/10.1016/j.cej.2020.124793. [19] H.P.L. Gemoets, Y. Su, M. Shang, V. Hessel, R. Luque, T. No¨el, Liquid phase oxidation chemistry in continuous-flow microreactors, Chem. Soc. Rev. 45 (2016) 83–117, https://doi.org/10.1039/C5CS00447K. [20] J. Kobayashi, Y. Mori, S. Kobayashi, Multiphase Organic Synthesis in Microchannel Reactors, Chem. – Asian J. 1 (2006) 22–35, https://doi.org/10.1002/ asia.200600058. [21] J. Zhang, A.R. Teixeira, L.T. K¨ogl, L. Yang, K.F. Jensen, Hydrodynamics of gas–liquid flow in micropacked beds: Pressure drop, liquid holdup, and two-phase model, AIChE J. 63 (2017) 4694–4704, https://doi.org/10.1002/aic.15807. [22] J. Zhang, J. Yin, X. Duan, C. Zhang, J. Zhang, Continuous reductive amination to synthesize primary amines with high selectivity in flow, J. Catal. 420 (2023) 89–98, https://doi.org/10.1016/j.jcat.2023.02.017. [23] X. Duan, X. Wang, X. Chen, J. Zhang, Continuous and Selective Hydrogenation of Heterocyclic Nitroaromatics in a Micropacked Bed Reactor, Org. Process Res. Dev. 25 (2021) 2100–2109, https://doi.org/10.1021/acs.oprd.1c00164. [24] J. Tu, L. Sang, H. Cheng, N. Ai, J. Zhang, Continuous Hydrogenolysis of N Diphenylmethyl Groups in a Micropacked-Bed Reactor, Org. Process Res. Dev. 24 (2020) 59–66, https://doi.org/10.1021/acs.oprd.9b00416. [25] B. Chen, B. Hui, Y. Dong, Q. Sheng, X. Li, Q. Hao, C. Liu, Distributions of Ni in MCM-41 for the hydrogenation of N-ethylcarbazole, Fuel 324 (2022) 124405, https://doi.org/10.1016/j.fuel.2022.124405. [26] F. Sotoodeh, K.J. Smith, Kinetics of Hydrogen Uptake and Release from Heteroaromatic Compounds for Hydrogen Storage, Ind. Eng. Chem. Res. 49 (2010) 1018–1026, https://doi.org/10.1021/ie9007002. [27] X. Duan, J. Yin, M. Huang, P. Wang, J. Zhang, Hydrogenation kinetics of halogenated nitroaromatics over Pt/C in a continuous Micro-packed bed reactor, Chem. Eng. Sci. 251 (2022) 117483, https://doi.org/10.1016/j.ces.2022.117483. [28] T. Semelsberger, J. Graetz, A. Sutton, E.C.E. R¨onnebro, Engineering Challenges of Solution and Slurry-Phase Chemical Hydrogen Storage Materials for Automotive Fuel Cell Applications, Molecules 26 (2021) 1722, https://doi.org/10.3390/ molecules26061722. [29] H. Yu, X. Yang, Y. Wu, Y. Guo, S. Li, W. Lin, X. Li, J. Zheng, Bimetallic Ru-Ni/TiO2 catalysts for hydrogenation of N-ethylcarbazole: Role of TiO2 crystal structure, J. Energy Chem. 40 (2020) 188–195, https://doi.org/10.1016/j. jechem.2019.04.009. [30] K.M. Eblagon, D. Rentsch, O. Friedrichs, A. Remhof, A. Zuettel, A.J. Ramirez Cuesta, S.C. Tsang, Hydrogenation of 9-ethylcarbazole as a prototype of a liquid hydrogen carrier, Int. J. Hydrog. Energy 35 (2010) 11609–11621, https://doi.org/ 10.1016/j.ijhydene.2010.03.068. [31] K. Morawa Eblagon, K. Tam, K.M.K. Yu, S.-L. Zhao, X.-Q. Gong, H. He, L. Ye, L.-C. Wang, A.J. Ramirez-Cuesta, S.C. Tsang, Study of Catalytic Sites on Ruthenium For Hydrogenation of N-ethylcarbazole: Implications of Hydrogen Storage via Reversible Catalytic Hydrogenation, J. Phys. Chem. C 114 (2010) 9720–9730. doi: 10.1021/jp908640k. [32] S. Tadepalli, R. Halder, A. Lawal, Catalytic hydrogenation of o-nitroanisole in a microreactor: Reactor performance and kinetic studies, Chem. Eng. Sci. 62 (2007) 2663–2678, https://doi.org/10.1016/j.ces.2006.12.058. [33] X. Ye, Y. An, G. Xu, Kinetics of 9-ethylcarbazole hydrogenation over Raney-Ni catalyst for hydrogen storage, J. Alloys Compd. 509 (2011) 152–156, https://doi. org/10.1016/j.jallcom.2010.09.012. [34] Z. Xu, N. Zhao, S. Hillmansen, C. Roberts, Y. Yan, Techno-Economic Analysis of Hydrogen Storage Technologies for Railway Engineering: A Review, Energies 15 (2022) 6467, https://doi.org/10.3390/en15176467.
+
+We gratefully acknowledge the supports of National Natural Science Foundation of China (21978146, 22022809, 22308188) on this work.
+
+Appendix A. Supplementary data
+
+Supplementary data to this article can be found online at https://doi. org/10.1016/j.cej.2024.149404.

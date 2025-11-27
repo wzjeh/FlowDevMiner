@@ -1,0 +1,38 @@
+{"name": re.search(r"Pd catalyst", input_str).group(), "role":"catalyst"}
+
+{"reaction_summary": {"reaction_type": "catalytic hydrogenation", "reactants": [{"name": "2-chlorophenol", "role": "reactant"}, {"name": "NaOH", "role": "solvent"}, {"name": "Pd catalyst", "role": "catalyst"}], "products": [], "conditions": [{"type": "temperature", "value": 25}, {"type": "pressure", "value": "atmospheric"}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": { 
+    "reaction_type":"catalytic HDC", 
+    "reactants":[{"name":"4-chlorophenol","role":"reactant"}], 
+    "products":[{"name":"product","yield_optimal":95,"unit":"%"}], 
+    "conditions":[
+        {"type":"temperature","value":"null"}, 
+        {"type":"residence_time","value":5}, 
+        {"type":"flow_rate_reactant_A","value":null} , 
+        {"type":"pressure","value":null}
+
+{}
+
+{"name":"PdCl2","role":"catalyst"}
+
+{ "reaction_summary": { 
+    "reaction_type":"catalytic HDC", 
+    "reactants":[{"name":"water","role":"solvent"},{"name":"4-chlorophenol","role":"reactant"}], 
+    "products":[{"name":"benzene","yield_optimal":95,"unit":"%"}, {"name":"chloride ion","yield_optimal":5,"unit":"%"}], 
+    "conditions":[
+        {"type":"temperature","value":"room temperature °C"},
+        {"type":"residence_time","value":null},
+        {"type":"flow_rate_reactant_A","value":0.1, "unit":"mL/min"},  # water flow rate
+        {"type":"pressure","value":"atmospheric pressure"}
+    ], 
+    "reactor":{"type":"microreactor", "inner_diameter": null}
+
+{ "reaction_summary": {  "reaction_type":"catalytic hydrodechlorination",  "reactants":[{"name":"hydrogen","role":"reactant"},{"name":"water","role":"solvent"}],  "products":[{"name":"phenol","yield_optimal":94,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"50 °C"}
+
+{"name": "phenol", "yield_optimal": 95, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "polymerization", "reactants": [{"name": "PAM", "role": "solvent"}, {"name": "PS-co-PAEMA", "role": "catalyst"}], "products": [], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+{ "reaction_summary": {  "reaction_type":"hydrogenation",  "reactants":[{"name":"olefins","role":"reactant"},{"name":"catalyst","role":"catalyst"}],  "products":[{"name":"hydrocarbons","yield_optimal":null,"unit":null}],  "conditions":[    {"type":"temperature","value":"60 °C"}
+

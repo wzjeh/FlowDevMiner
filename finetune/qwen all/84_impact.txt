@@ -1,0 +1,11 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rate | yield | increase |
+| flow_rate | yield | unchanged |
+| temperature | yield | increase |
+| temperature | yield | decrease |
+| catalyst_loading | yield | increase |
+| reactant_concentration | yield | increase |
+| reactant_concentration | mass transfer coefficient | decrease |

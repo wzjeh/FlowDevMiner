@@ -1,0 +1,14 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| gas_flow_rate | aniline concentration | increase |
+| gas_flow_rate | nitrobenzene conversion | increase |
+| gas_flow_rate | aniline concentration | unchanged |
+| gas_flow_rate | nitrobenzene conversion | unchanged |
+| liquid_flow_rate | aniline concentration | unchanged |
+| liquid_flow_rate | nitrobenzene conversion | unchanged |
+| liquid_flow_rate | aniline concentration | decrease |
+| liquid_flow_rate | nitrobenzene conversion | decrease |
+| liquid_flow_rate | excess ratio | decrease |
+| reactant_concentration | excess ratio | decrease |

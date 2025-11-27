@@ -1,0 +1,8 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of diphenylamine | increase |
+| catalyst_loading | conversion of diphenylamine | increase |
+| temperature | conversion of diphenylamine | increase |
+| flow_rate | conversion of diphenylamine | decrease |

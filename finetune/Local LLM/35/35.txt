@@ -1,0 +1,171 @@
+Contents lists available at ScienceDirect
+
+Chemical Engineering & Processing: Process Intensification
+
+journal homepage: www.elsevier.com/locate/cep
+
+Continuous-flow synthesis of azo dyes in a microreactor system
+
+T
+
+Fajun Wang, Jinpei Huang, Jianhong Xu⁎
+
+The State Key Lab of Chemical Engineering, Department of Chemical Engineering, Tsinghua University, Beijing, 100084, China
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Azo dye is a kind of synthetic dye containing azo group (Ar-N=N-Ar). In this paper, an eﬃcient process in- tensification for the continuous synthesis of azo dye is developed by using a microreactor system. Firstly, the reaction conditions of azo-coupling reaction were optimized and a microreactor was utilized as the mixing and reacting unit. 1(4sulfonicphenyl) -3methyl -5pyrazolone was the coupling component and aniline was the diazo component. The results show that the yield of azo-coupling reaction was higher than 96% under optimized condition. Then, the reaction conditions of diazotization were optimized by orthogonal experiments in a mi- croreactor system. Combined with the optimization of azo-coupling reaction conditions, the optimal conditions of continuous-flow synthesis of azo dyes in microreactoras were determined. Then, four model azo dyes were synthesized by the continuous method in microreactors. The yields of No. 1, No. 2 and No. 4 azo dyes were above 96% and the yield of No. 3 azo dye was above 90%. Finally, the commercial azo dyes were synthesized con- tinuously in microreactors and the yields were above 94%. The continuous-flow synthesis of azo dyes in a microreactor system has great potential in industrial applications.
+
+Keywords: Azo dye Microreactor Continuous synthesis Process optimization
+
+compounds with a good yield was reported by Rossi et al. [5] They found the nitrosonium ion source HNO3(aq)/HCl(g) was the best and compared with traditional synthesis, azo compounds synthesized in acetonitrile gave very good yields and free of by-products. They de- monstrated that this method produced less amount of waste compared with traditional methods. Nanomagnetic-supported sulfonic acid was used by Kolvari et al. [6] for conversion of several types of aromatic amine, containing electron-withdrawing groups and electron-donating groups. The corresponding azo dyes were formed in excellent yields. There are some advantages of this methods, such as short reaction time, mild reaction conditions, avoidance of harmful acids. What is more, aryldiazonium salts supported on magnetic nanoparticles were suﬃ- ciently stable to be kept at room temperature. Additionally, many other methods for the preparation of azo compounds have been described in the literatures [7–10]. Up to now, the above examples focused on modifying the reaction process of diazotization and azo-coupling re- action. Using diﬀerent compounds that made the reaction process greener and environment friendly. They have accomplished some goals such as short reaction time and less energy required for the process, high yields and low amount of waste generated. On the other hand, process equipment can also be changed to achieve the green benefits and advantages mentioned above. In industry, azo dyes are generally prepared in the batch reactor. The advantages of the method of batch synthesis are simple operation and low cost of the equipment. However, the facts that the resident time
+
+1. Introduction
+
+Azo dye is a kind of synthetic dye containing azo groups (Ar-N=N- Ar). It accounts for more than 70% of all kinds of dyes. Compared with other dyes, azo dyes have the advantages of low raw material cost, short technological process, simple synthesis method etc. During the synthesis process, azo dyes are formed through a two- step reaction: diazotization and azo-coupling reaction (Scheme 1). The production of azo dye is one controversial sector of the fine chemical industry, and there are some environmental pollution problems during process of azo dyes formed in industry. At present, though some dye degradation techniques [1] have been used in waste water treatment, it is still found that there are a certain proportion of dyes in the water. The residual components of these dyes have a negative impact on mammals [2,3] and aquatic organisms. Therefore, it is important to develop alternative cleaner methods for the synthesis of azo dyes. Recently, a number of methods have been developed for the green synthesis of azo compounds. For example, Radivoy et al. [4] found a new method for the synthesis of aromatic azo compounds with a mild, eﬃcient and economical procedure. They used excess lithium powder and a catalytic amount of 4,4′-di-tert-butylbiphenyl (DTBB,5 mol%) in THF, at room temperature, which led to a good yield of the corre- sponding symmetrically substituted azo compounds, reducing the by- products formed. An eﬃcient and green method for the synthesis of azo
+
+⁎ Corresponding author. E-mail address: xujianhong@tsinghua.edu.cn (J. Xu).
+
+https://doi.org/10.1016/j.cep.2018.03.014 Received 29 November 2017; Received in revised form 23 February 2018; Accepted 15 March 2018
+
+Available online 16 March 2018 0255-2701/ © 2018 Elsevier B.V. All rights reserved.
+
+Scheme 1. Diazotization and azo-coupling reaction.
+
+scale up in industry than a small flow rate used in the literatures. It is also important to study the eﬀects of diﬀerent factors of diazotization and azo-coupling reaction respectively in the synthesis of azo dyes in a microreactor system. This paper takes the micromixer system as the core of the mixed reaction unit, and takes four model azo dyes as the reaction system. Firstly, the conditions of diazotization and azo-coupling reaction were explored and optimized with the flow rate varied from 10 ml/min to 70 ml/min, and four model azo dyes were synthesized by continuous- flow method. Although various groups have investigated similar reac- tions in microreactors, there is no detailed research about optimizing the diﬀerent influencing factors of diazotization and azo-coupling re- action respectively in a microreactor system. So we systematically discussed the optimized conditions of the continuous-flow synthesis of azo dyes in the microreactor system. Then, the commercial azo dyes (Methyl Orange and Orange II) were synthesized with the reaction conditions of the model azo dyes. This research provides a practical and feasible technological scheme for the synthesis of high-quality azo dyes.
+
+of the reactants in the batch reactor are too long and the mixing of reactants are non-uniformity, resulting in low reaction yields, poor se- lectivity and the diﬀerent chromatic light between diﬀerent batches. In addition, the diazotization and azo-coupling reaction are exothermic reactions and isolated diazonium salts are known to be hazardous due to their explosive and unstable nature. Therefore, it is necessary to apply the ice bath as a cooling device. Generally, the ice bath is used to control the temperature of the reactions between 0 ∼5 ℃. However, heat transfer and mass transfer are not uniform in the batch reactor, which leads to decomposition and self-coupling reaction of the diazo- nium salts. In recent years, the development of the microreactor technology has gradually become an important method in the synthesis of azo dyes. The microreactor technology makes it possible to safely perform reac- tions with unstable intermediates [11] as well as those that give rise to explosive [12] and hazardous products [13]. It can also reduce the amount of raw materials and waste generated by increasing the atom eﬃciency of reactions. Because of this, the application of microreactor technology in the synthesis of azo dye is a green chemical process. Hisamoto et al. [14] used microchip technology to carry out a phase transfer azo-coupling reaction. The reactants, ethyl acetate containing 5-methylresorcinol and an aqueous phase containing 4-ni- trobenzenediazonium tetrafluoroborate, were introduced into the two inlets of the microchip in a biphasic laminar flow reaction system. Compared with macroscale reaction with strong stirring and no stirring conditions, the specific interfacial area of microscale reactions had a larger value. Because of increasing the atom economy in the reaction, the amount of waste generated was reduced at the end. A reaction conversion of almost 100% was attained in 2.3 s. Azo dyes were syn- thesized in a micro-reactor system for the first time by De Mello et al. [11] Three azo dye products were formed with primary aromatic amine as diazo component, β-naphthol as azo coupling component. The yields ranged from 9%–52%. Although the yields were not high, it provided a new way about the continuous-flow synthesis of azo dyes. Yellow pig- ment 12 was synthesized by Pennemann et al. [15] using a microreactor system. The comparison of the results with the batch synthesis of the pigment aﬃrmed the fact that mixing is an important unit operation in the synthesis of azo pigments. Because of the fast mixing in the mi- croreactors, the glossiness (73%) and tinctorial strength (66%) of the yellow pigment were improved and yielded a good quality product. The Sudan II azo dye was formed as a model to optimize the synthesis of azo compounds in a microreactor system by Akwi et al. [16] At optimal azo- coupling reaction temperature and pH, an investigation of the optimal flow rate of the reactants for diazotization and azo-coupling reactions in a microreactor system was performed. Eventually a conversion of 98% was achieved in approximately 2.4 min. The scaled up synthesis of azo compounds in PTFE tube was also studied and the conversion ranged from 66–91%. Then, the authors [17] studied the use of phase transfer catalyst for the non-water-soluble coupling reaction. Under the optimal conditions, a rapid and easy optimization process was established, which yielded a 99%, 22% and 33% conversion of diphenylamine, carbazole and triphenylamine. From literatures mentioned above and other references [18–23], the benefits of microreactor technology were well documented, we know it is feasible and eﬃcient to synthesize azo dyes in microreactors. Therefore, it is valuable to achieve the continuous-flow synthesis of azo dyes in a microreactor system with a high flow rate, which is easier to
+
+2. Experimental
+
+2.1. Reagents
+
+The aniline, p-nitroaniline, sodium nitrite, sodium hydroxide, con- centrated hydrochloric acid (mass fraction 37%), sulfamic acid, H-acid monosodium salt, 1-(4-sulfonicphenyl)-3-methyl-5-pyrazolone, β- naphthol, potassium acetate, 4-Dimethylamino-benzaldehyde, N,N-di- methyl formamide were supplied by Shanghai aladdin Biochemical Technology Co., Ltd., Beijing Modern East Technology Development Co., Ltd.. Concentrated hydrochloric acid (mass fraction 37%) was in- dustrial grade, all the other reagents were analytical grade.
+
+2.2. Apparatus
+
+2.2.1. The experimental set-up for azo-coupling reaction The experimental set-up for azo-coupling reaction is shown in Fig. 1. Using two constant flow pumps and stainless steel coils of 2.0 mm in- ternal diameter, the solution A (diazonium salt (0.1 mol/L)) and the solution B (coupling component solution (0.1 mol/L)) were fed to a micromixer for fast mixing and reaction in stainless steel coils. The microreactor system was dipped into a water bath and the azo-coupling reaction was carried out in the coils and the azo dyes were synthesized. At the exit, we got azo dyes products.
+
+2.2.2. The experimental set-up for continuous-flow synthesis of azo dyes in a microreactor system The experimental set-up for continuous-flow synthesis of azo dyes in a microreactor system is shown in Fig. 2. The solution A (flow rate: 30 mL/min, concentration: 0.2 mol/L) and the solution B (flow rate: 30 mL/min, concentration: 0.2 mol/L) were mixed in the first micro- mixer. Then, the diazotization was carried out in the first coil and the diazonium salts were synthesized. The formed diazonium salts and the solution C (coupling components, flow rate: 60 mL/min, concentration: 0.1 mol/L) were mixed in the second micromixer. The azo-coupling reaction was carried out in the second coil and the azo dyes were formed. At the exit, we obtained azo dyes products.
+
+Fig. 1. The experimental set-up for azo-coupling reaction and the micromixer. 1-reactants A tank; 2-reactions B tank; 3,4-constant flow pump; 5-micromixer; 6-coil; 7-products tank.
+
+ethanol (50 mL). The solution was then made up to a volume (100 mL) with distilled water. The pH of the solution was adjusted to 9.95–10.05 with 10% aqueous NaOH.
+
+2.3. Preparation of reactant solutions
+
+2.3.1. Preparation of reactant solutions for azo-coupling reactions
+
+(1) Solution A: Diazotized aniline solutions: Aniline (0.930 g) was dissolved in approximately 2.5 mL of concentrated 37% HCl and cooled at 0–3 ℃. To this cooled solution, 10 mL of sodium nitrite solution (0.759 g in 10 mL of distilled water) was added drop wise until the potassium starch iodide paper test was positive, after which the solution was made up to a volume (100 mL) with distilled water. Diazotized p-nitroaniline solutions: p-nitroaniline (1.380 g) was dissolved in approximately 3.0 mL of concentrated 37% HCl and heated to 70 ℃in a water bath to dissolve p-nitroaniline com- pletely. Then, some small ices were added to the beaker quickly and the beaker was put in the ice bath to control temperature conditions of 0–3 ℃. At this time, the crystalline product was precipitated and the color of mixture was yellow. Then, 10 mL of sodium nitrite solution (1.035 g in 10 mL of distilled water) was added drop wise until the potassium starch iodide paper test was positive. Precipitations were filtered, after which the solution was made up to a volume (100 mL) with distilled water. (2) solution B: (4sulfonicphenyl) -3methyl -5pyrazolone, H-acid monosodium salt, 1-(4-sulfonicphenyl)-3-methyl-5-pyr- azolone : Couplers (3.413 g, 2.543 g) were dissolved in 10% aqueous NaOH (10 mL). The solution was then made up to a volume (100 mL) with distilled water. The pH of the solution was adjusted to 9.95∼10.05 with 10% aqueous NaOH. β-naphthol: β-naphthol (1.442 g) was dissolved in anhydrous
+
+2.3.2. Preparation of reactant solutions for continuous-flow synthesis of azo dyes in a microreactor system
+
+(1) Solution A (amine + HCl solution): aniline (0.930 g) or p-ni- troaniline(1.380 g) was dissolved in 2.5 mL of concentrated 37% HCl. DMF (15 mL) was added to this, after which the solution was made up to a volume (50 mL) with distilled water. (2) Solution B (sodium nitrite solution): the sodium nitrite was dis- solved in DMF (15 mL) and made up to a volume (50 mL) with distilled water. (3) Solution C (coupler): 1-(4-sulfonicphenyl)-3-methyl-5-pyrazolone, H-acid monosodium salt: couplers (3.413 g, 2.543 g) were dissolved in 10% aqueous NaOH (10 mL) to which DMF (30 mL) was added. The solution was then made up to a volume (100 mL) with distilled water. The pH of the solution was adjusted to 9.95–10.05 with 10% aqueous NaOH. β-naphthol: β-naphthol (1.442 g) was dissolved in anhydrous ethanol (50 mL) to which DMF (30 mL) was added. The solution was then made up to a volume (100 mL) with distilled water. The pH of the solution was adjusted to 9.95–10.05 with 10% aqueous NaOH.
+
+2.4. Molecular structural formula of synthetic azo dyes
+
+The molecular structural formula of No. 1 to No. 4 model azo dyes and commercial azo dyes (Orange II, Methyl Orange) are shown in Table 1.
+
+Fig. 2. The experimental set-up for continuous-flow synthesis of azo dyes in a microreactor system. 1-reactants tank: solution A; 2-reactants tank: solution B; 3-reactant tank: solution C; 4,5,7-constant flow pump; 6, 9-micromixer; 8,10-coil; 11-products tank.
+
+of azo-coupling reaction.
+
+Table 1 The molecular structural formula of azo dyes.
+
+3.1.1. Eﬀects of flow rate of reaction solution on the yield of azo-coupling reaction The 1(4sulfonicphenyl) -3methyl -5pyrazolone and aniline were selected as the azo coupling component and the diazo component respectively as a model reaction system. The flow rates of the reactants became the main factor aﬀecting the mixing when other reaction con- ditions were determined. As shown in Fig. 4, it can be seen that the yields increased when the flow rates of the reactants increased from 10 mL/min to 60 mL/min. When the flow rates reached 50 mL/min–60 mL/min, the yield reached the highest. However, the yields declined with the flow rates increasing over 60 mL/min continuously. The reason for this phenomenon is that when the flow rates increase, the mixing performance increase in the micro-mixer and the secondary flow is enhanced in the coils. The stronger the secondary flows are, the greater the contact area of the fluids are, which maintains excellent mixing, mass and heat transfer. When the flow rate reaches 60 ml/min or more (mixing rate 2 m/s or more), the residence time of the reactants in the coil becomes shorter due to the increase of the flow rates, resulting in the reaction being incomplete and the yields decline.
+
+Azo dye The molecular structural formula
+
+NO.1
+
+NO.2
+
+NO.3
+
+NO.4
+
+Orange II
+
+Methyl Orange
+
+3.1.2. Eﬀects of reaction temperature on the yield of azo-coupling reaction As shown in Fig. 5, it can be seen that when the temperature ranged from 10 ℃to 21 ℃, there was no significant change on the yields. The yields decreased significantly when the temperature ranged from 21 ℃ to 41 ℃. The reason for this phenomenon is that when the temperature increases, because of the instability of diazonium salt, it decomposes and releases nitrogen, resulting in the concentration of diazonium salt decreasing and the reaction rate decreasing. In order to ensure that diazonium salt does not decompose as far as possible and reduce the consumption of energy, the azo-coupling reaction is carried out at room temperature (21 ℃) generally.
+
+2.5. Quantitative analysis method of the azo dyes -the standard working curve method
+
+Under the maximum absorption wavelength, the abscissa is the concentration value of the azo dyes and the ordinate is the absorbance value measured. The standard working curve of the azo dyes and the linear equation of the azo dye products (Table 2) are obtained. Ac- cording to the linear equation, we can calculate the concentration of the azo dyes from the absorbance value which can be measured by UV Vis Spectroscopy. The standard working curves of azo dyes are shown in Fig. 3.
+
+3.1.3. Eﬀects of initial pH of azo coupling component on the yields of azo- coupling reaction
+
+Fig. 6 shows that pH aﬀected the yields significantly. The yield of azo-coupling reaction increased with pH increasing from 7 to 10. When the pH reached 10, the yields decreased with pH increasing. For the No. 1 model azo dye, pyrazolone is the coupling component. With the pH increasing, the concentration of pyrazolone anion increases and the yield increases. When the initial pH of the azo coupling component is higher than 10, the diazonium salt becomes the non-coupling capable trans diazonium salt, resulting in a subsequent decrease on the yields of the azo-coupling reaction.
+
+3. Experimental results and discussion
+
+3.1. Eﬀects of diﬀerent reaction conditions on the yield of azo-coupling reaction
+
+Four model azo dyes selected in this paper are all in the alkaline conditions for azo-coupling reaction. Based on the references, we find that apart from the diﬀerent residence time of azo coupling reaction, other reaction conditions are basically the same. In order to save the experiment time and improve the experimental eﬃciency, we just need to discuss only one of the model azo dyes about the eﬀects of diﬀerent reaction conditions on the yields of azo-coupling reaction and discuss all four model azo dyes about the eﬀects of residence time on the yields
+
+3.1.4. Eﬀects of residence time on the yields of diﬀerent systems As is shown in Fig. 7, it can be seen that when the residence time of No. 1 azo dye was more than 8 s, the yield reached more than 90% ; for the No. 2 azo dye, when the residence time was more than 3 s, the yield reached more than 95%; for the No. 3 azo dye, when the residence time was more than 6 s, the yield reached more than 85% ; for the No. 4 azo dye, when the residence time was more than 1 s, the yield reached more than 95%. The residence time of No.1 azo dye is longer than other azo dyes, it is possible that pyrazolone anion is formed from Pyrazolone in alkaline solution. Pyrazolone anion has keto form and enol form tautomerism, leading to a longer residence time. The No. 4 azo dye is compared with the No. 1 azo dye, diazo component varies from aniline to p-nitroani- line. Because diazonium salts act as electrophilic reagents, the stronger the positive electrical property of the azo group is, the more beneficial to the coupling reaction. Therefore, if the benzene ring of diazonium salt has electron withdrawing groups, the coupling reaction rate can be increased, accordingly, the residence time of the No. 4 azo dye is shorter than the No.1 azo dye. For the No. 3 azo dye, there are not
+
+Table 2 The linear equations of the azo dye.
+
+Azo dye linear equation R2
+
+No.1 Y = 53.950X + 0.0188 0.9993 No.2 Y = 44.521X −0.0349 0.9998 No.3 Y = 38.108X −0.0112 0.9988 No.4 Y = 61.847X −0.0412 0.9998 Orange II Y = 46.087X + 0.0365 0.9988 Methyl Orange Y = 57.922X + 0.0044 0.9986
+
+Note: Y is the absorbance, X is the concentration (g/L).
+
+Fig. 3. The Standard Working Curve Method.
+
+Fig. 4. Flow rates of the reactants profile plot at diﬀerent reaction temperature. Reactants flow rate U = 60 mL/min, pH(coupling component) = 9.95, T (diazonium salt) = 0– 4 ℃, C (diazonium salt) = C (coupling component) = 0.1 mol/L, coil length = 5.0 m, coil internal diameter = 2.0 mm.
+
+Fig. 6. Eﬀects of initial pH of azo coupling component on the yields of azo-coupling reaction. Reactants flow rate U = 60 mL/min, pH(coupling component) = 9.95, T (diazonium salt) = 0–4 ℃, C (diazonium salt) = C (coupling component) = 0.1 mol / L, coil internal diameter = 2.0 mm.
+
+Fig. 5. Eﬀects of reaction temperature on the yield of azo-coupling reaction. Reactants flow rate U = 60 mL/min, T (diazonium salt) = 0– 4 ℃, C (diazonium salt) = C (coupling component) = 0.1 mol/L, coil length = 5.0 m, coil internal dia- meter = 2.0 mm.
+
+Fig. 7. The eﬀect of resident time on production yield for four diﬀerent azo dyes. Reactants flow rate U = 60 mL/min, pH(coupling component) = 9.95, T (diazonium salt) = 0–4 ℃, C (diazonium salt) = C (coupling component) = 0.1 mol/L, coil internal diameter = 2.0 mm.
+
+water-soluble groups in the azo dye molecules, and some azo dye mo- lecules may be precipitated from aqueous solution during the coupling reaction, which aﬀectes the reaction rate, resulting in a long residence time. The No. 2 azo dye is compared with the No. 1 azo dye, their diazonium salts are both aniline diazonium salts, but their coupling
+
+components are diﬀerent. The coupling component of the No. 2 azo dye is 1-amino-8-naphthol-3,6-disulfonic acid monosodium salt, which contains two kinds of electron donating groups, hydroxyl and amino.
+
+Table 3 The results of Orthogonal Test.
+
+Table 4 The yields of diﬀerent azo dyes under optimal conditions.
+
+No. A B C Yield/% Feed temperature/ ℃ Resident time/s The molar ratio of sodium nitrite and aniline
+
+Azo dye Yield(%)
+
+NO.1 98.73 NO.2 98.86 NO.3 90.24 NO.4 96.71 Orange II 94.74 Methyl Orange 95.01
+
+63.35 1.02 93.85 1.06 86.58 1.1 95.68 1.02 89.21 81.22 1.1 83.68 1.06 96.09 1.1 90.08 1.06 97.70 1.02 94.72 89.69 1.06 92.16 1.1 72.45 89.94 1.02 76.45 K1 339.48 334.80 324.20 K2 350.20 345.24 354.24 K3 372.20 354.92 372.52 K4 331.00 357.92 342.88 k1 84.87 83.70 81.05 k2 87.55 86.31 88.56 k3 93.05 88.73 93.13 k4 82.75 89.48 85.72 R 10.30 5.78 12.08
+
+3.2.2. The analysis of the eﬀect curves As is shown in Fig. 8, the optimized reaction conditions can be obtained. The molar ratio of sodium nitrite and aniline is 1.06: 1 and the feed temperature is 25 ℃. According to the eﬀect curves, we are not sure if the optimal resident time is 10 s. Therefore, the No. 1 azo dye was synthesized with resident time at 10 s and 12 s respectively and the two yields were compared. When the residence time was 12 s and 10 s, the yields were 98.73% and 98.10% respectively. Because yields were basically not changed, we considered the optimal residence time was 10 s.
+
+3.3. The continuous-flow synthesis of four model azo dyes and Orange II, Methyl Orange under optimal conditions
+
+The optimal conditions are as follows: ①sodium nitrite solution and aniline solution: the feed temperature is 25 ℃; the molar ratio of so- dium nitrite and aniline is 1.06: 1; the flow rates of reactants are 30 mL/ min. the diazotization resident time is 10 s. ②coupling components: the feed temperature is 21 ℃; the initial pH of coupling component is 10; the flow rate is 60 mL/min. As is shown in Table 4, the continuous-flow synthesis of four model azo dyes was carried out under the optimized conditions in a micro- reactor system. The yields of No. 1, No. 2 and No. 4 azo dyes could reach more than 96%. The yield of the No. 3 azo dye was more than 90%.Two kinds of the commercial azo dyes were synthesized in the microreactor system under the optimized conditions we have obtained. The yields could reach more than 94%. It indicates that the optimized conditions are suitable for the azo-coupling reaction under weakly al- kaline conditions using the aniline and its derivatives as azo compo- nents.
+
+Note: K: the sum of the 1–4 levels of experimental results f, respectively. k: the average value of each level of each factor. R: the diﬀerence between the average values of the factors.
+
+The electron donating groups can boost the coupling reaction, so the residence time of the No. 2 azo dye is shorter than the No. 1 azo dye.
+
+3.2. The continuous-flow synthesis of azo dyes in a microreactor system: coupling of diazotization and azo-coupling reaction
+
+3.2.1. The results of orthogonal test Three influencing factors, including the feed temperature and the residence time, the molar ratio of sodium nitrite and aniline were stu- died to optimize the diazotization process. Herein, the orthogonal test of three factors at four levels was designed (L16 (4 3)). The orthogonal test results are shown in Table 3. From Table 3, it can be seen that the relative size of the range (R): Factor C > Factor A > Factor B. Therefore, the main factor aﬀecting the reaction yield is the molar ratio of sodium nitrite and aniline, the secondary factor is the feed temperature and the last factor is the re- sidence time of diazotization.
+
+4. Conclusion
+
+In this paper, the continuous-flow synthesis of azo dyes in a mi- croreactor system was developed. The reactions of 1-(4-sulfophenyl)-3- methyl-5-pyrazolone and aniline were used as an example to optimize the flow rates of reactants, the reaction temperature, the initial pH of coupling components and the reaction residence time. The reaction yields could reach more than 96% under the optimized conditions.
+
+Fig. 8. The eﬀect curves of three factors.
+
+When the residence time is 8 s or more, the yields of the four model dyes were basically able to reach a relatively high level. According to the orthogonal test, the eﬀects of three factors on the synthesis process of the azo dyes were obtained. The main factor af- fecting the reaction yields was the molar ratio of sodium nitrite and aniline. The secondary factor was the feed temperature and the last factor was the residence time of diazotization. Combined with the op- timization of azo-coupling reaction conditions, the optimal conditions of continuous-flow synthesis of azo dyes in microreactoras were de- termined as follows: 1) sodium nitrite solution and aniline solution: the feed temperature is 25 ℃, the molar ratio of sodium nitrite and aniline is 1.06:1, the flow rate is 30 mL/min, the residence time is 10 s. 2) coupling components: the feed temperature is 21 ℃, the initial pH value of the coupling component is 10, the flow rate is 60 mL/min, and the residence time is 8 s or more. The continuous-flow synthesis of four model azo dyes and the commercial azo dyes was carried out under the optimized conditions in a microreactor system. The yields of No. 1, No. 2 and No. 4 azo dyes could reach more than 96%. The yield of the No.3 azo dye was more than 90% and the yields of the Orange II, and Methyl Orange were more than 94% under the optimized conditions. The results in this paper show that the continuous-flow synthesis of azo dyes in a microreactor system with a higher flow rate than that of other literatures can also reach a higher yield, compared with the re- actions in the batch reactor. In addition, the continuous-flow synthesis of the azo dyes from the diazotization to the azo-coupling reaction in a microreactor system has not only applied for the synthesis of model azo dyes, but also it applies for the commercial azo dyes. This method also follows the principles of green chemistry, such as less hazardous che- mical synthesis, eﬃcient atom economy, reduction of waste produced for the environmental pollution problems, so this methodology has a very good industrial value.
+
+Technol. 35 (2005) 219–238. [2] K.-T. Chung, Mutagenicity and carcinogenicity of aromatic amines metabolically produced from azo dyes, J. Environ. Sci. Health. C. 18 (2000) 51–74. [3] C. Wang, A. Yediler, D. Lienert, Z. Wang, A. Kettrup, Toxicity evaluation of reactive dyestuﬀs, auxiliaries and selected eﬄuents in textile finishing industry to lumi- nescent bacteria Vibrio fischeri, Chemosphere. 46 (2002) 339–344. [4] Y. Moglie, C. Vitale, G. Radivoy, Synthesis of azo compounds by nanosized iron- promoted reductive coupling of aromatic nitro compounds, Tetrahedron Lett. 49 (2008) 1828–1831. [5] M.I. Velasco, C.O. Kinen, R.H. De Rossi, L.I. Rossi, A green alternative to synthetize azo compounds, Dyes. Pigm. 90 (2011) 259–264. [6] N. Koukabi, S. Otokesh, E. Kolvari, A. Amoozadeh, Convenient and rapid diazoti- zation and diazo coupling reaction via aryl diazonium nanomagnetic sulfate under solvent-free conditions at room temperature, Dyes. Pigm. 124 (2016) 12–17. [7] Bi Bi, Fatemeh Mirjalilia, A. Bamonirib, A. Akbaria, BF3.SiO2: An eﬃcient catalyst for the synthesis of azo dyes at room temperature, Curr. Chem. Lett. 1 (2012) 109–114. [8] R. Mohammad, E. Hossein, S. Ali, G. Zohreh, Fe(HSO4)3 as an eﬃcient catalyst for diazotization and diazo coupling reactions, J. Korean Chem. Soc. 6 (2012) 716–719. [9] M. Caldarelli, I.R. Baxendaleb, S.V. Ley, Clean and eﬃcient synthesis of azo dyes using polymer-supported reagents, Green Chem. 2 (2000) 43–46. [10] A. Grirrane, A. Corma, H. García, Gold-catalyzed synthesis of aromatic azo com- pounds from anilines and nitroaromatics, Science. 322 (2008) 1661–1664. [11] R.C.R. Wootton, R. Fortt, A.J. De Mello, On-chip generation and reaction of un- stable intermediates-monolithic nanoreactors for diazonium chemistry: azo dyes, Lab Chip. 2 (2002) 5–7. [12] M.M.E. Delville, P.J. Nieuwland, P. Janssen, K. Koch, Continuous flow azide for- mation: Optimization and scale-up, Chem. Eng. J. 167 (2011) 556–559. [13] M. Struempel, B. Ondruschka, R. Dauteb, A. Stark, Making diazomethane accessible for R&D and industry: Generation and direct conversion in a continuous micro- reactor set-up, Green Chem. 10 (2008) 41–43. [14] D. De Zani, M. Colombo, Phase-transfer catalysis under continuous flow conditions: An alternative approach to the biphasic liquid/liquid o-alkylation of phenols, J. Flow Chem. 1 (2012) 5–7. [15] H. Pennemann, S. Forster, J. Kinkel, V. Hessel, H. Lӧwe, Wu Li, Improvement of dye properties of the azo pigment yellow 12 using a micromixer-based process, Org. Process Res. Dev. 9 (2005) 188–192. [16] F.M. Akwi, C. Bosma, P. Watts, A facile optimization of diazotization and phase transfer catalyzed azo-coupling reactions in microreactors, J. Flow Chem. 6 (2016) 73–79. [17] F.M. Akwi, P. Watts, Study on the scale-up of phase-transfer-catalyzed azo coupling reactions in flow reactors, Chem. Heterocycl. Compd. 52 (2016) 943–947. [18] Ch. Wille, H.-P. Gabski, Th. Haller, H. Kim, L. Unverdorben, R. Winter, Synthesis of pigments in a three-stage microreactor pilot plant-an experimental technical report, Chem. Eng. J. 101 (2004) 179–185. [19] M. Günther, F. Möller, T. Henkel, J. Michael Kӧhler, A.G. Groβ, Formation of monomeric and novolak azo dyes in nanofluid segments by use of a double injector chip reactor, Chem. Eng.Technol 28 (2005) 520–527. [20] N.G. Anderson, Using continuous processes to increase production, Org. Process Res. Dev. 16 (2012) 852–869. [21] R. Singh, H.-J. Lee, A.K. Singh, D.-P. Kim, Recent advances for serial processes of hazardous chemicals in fully integrated microfluidic systems, Korean J. Chem. Eng. 33 (2016) 2253–2267. [22] S.G. Newman, K.F. Jensen, The role of flow in green chemistry and engineering, Green Chem. 15 (2013) 1456–1472. [23] A.A. Kulkarni, Continuous flow nitration in miniaturized devices, Beilstein J. Org. Chem. 10 (2014) 405–424.
+
+Acknowledgements
+
+The authors gratefully acknowledge the supports of the National Natural Science Foundation of China (21476121), National Safety Academy Foundation (Grant No. U1530107), Beijing Natural Science Foundation (2162020) and Tsinghua University Initiative Scientific Research Program (2014z21026) for this work.

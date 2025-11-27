@@ -1,0 +1,56 @@
+{
+  "reaction_type": "cycloaddition",
+  "reactants": [
+    {
+      "name": "propylene oxide",
+      "role": "reactant"
+    },
+    {
+      "name": "CO2",
+      "role": "reactant"
+    },
+    {
+      "name": "HETBAB",
+      "role": "catalyst"
+    },
+    {
+      "name": "null",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "propylene carbonate",
+      "yield_optimal": 99.8,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "180 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "14 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "null"
+    },
+    {
+      "type": "pressure",
+      "value": "3.5 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "spiral capillary",
+    "inner_diameter": "1.0 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 99.8,
+    "selectivity": 99.5,
+    "unit": "%"
+  }
+}

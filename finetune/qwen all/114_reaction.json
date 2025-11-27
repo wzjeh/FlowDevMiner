@@ -1,0 +1,52 @@
+{
+  "reaction_type": "氢化",
+  "reactants": [
+    {
+      "name": "硝基苯",
+      "role": "reactant"
+    },
+    {
+      "name": "钯纳米催化剂",
+      "role": "catalyst"
+    },
+    {
+      "name": "乙醇水溶液",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "苯胺",
+      "yield_optimal": 90.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "25 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "5 μL/min (liquid), 0.9 sccm (gas)"
+    },
+    {
+      "type": "pressure",
+      "value": "atmospheric"
+    }
+  ],
+  "reactor": {
+    "type": "stacked catalytic membrane microreactor",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": 90.0,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

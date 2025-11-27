@@ -1,0 +1,10 @@
+{"reaction_summary": {"reaction_type": "membrane dispersion", "reactants": [{"name": "solution A", "role": "dispersed phase"}], "products": [], "conditions": [{"type": "temperature", "value": "null"}, {"type": "residence_time", "value": "null"}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "flow_rate_reactant_B", "value": "continuous flow"}, {"type": "pressure", "value": "null"}], "reactor": {"type": "membrane dispersion microreactor", "inner_diameter": "stainless steel material"}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"name": None, "yield_optimal": yield_optimal, "unit": "%"}
+
+{ "reaction_summary": {  "reaction_type":"diazotization",  "reactants":[{"name":"azide sources","role":"reactant"},{"name":"solvents like water or alcohols","role":"solvent"}, {"name":"catalysts such as transition metal complexes","role":"catalyst"}
+
+{ "reaction_summary": {  "reaction_type":"...",  "reactants":[{"name":"...","role":"reactant|catalyst|solvent"}],  "products":[{"name":"...","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"..."},    {"type":"residence_time","value":"..."},    {"type":"flow_rate_reactant_A","value":"0.1 mL/min"},    {"type":"pressure","value":"..."},    {"type":null,"value":null}
+
+{"name": "chiral secondary amine precursor", "role": re.match(r'reactant|catalyst|solvent', v).group()}
+

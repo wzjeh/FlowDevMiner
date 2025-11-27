@@ -1,0 +1,43 @@
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+Table 2 shows the comparison between batch and continu­ous flow reactions. Hence, the space-time yield of the micro­ reactor was two orders of magnitude higher than the batch reactor. Reaction temperatures in microreactors are lower than in batch reactors, and the duration in flow systems is much shorter. Moreover, the total inventory of reactants in the microreactor was smaller than that in the
+
+batch reactor.
+
+The space-time yield for a continuous reaction is defined as YST = (C_A0 - C_A) \* v / V, where C_A0 and C_A are the initial and final concentrations of A respectively. The residence time τ is given by τ = V / Q, where V is the volume of the reactor and Q is the flow rate.
+
+The microreactor has an inner diameter of 1 mm and a length of 10 cm. The reaction temperature in the batch reactor was 100 °C while that in the continuous system was 80 °C. The residence time for the continuous process was 5 min, which is much shorter than the duration required by the batch process.
+
+The flow rate of reactant A in the microreactor was
+
+{"type":"temperature","value":f"{float(value)} °C"}
+
+{ "reaction_summary": {  "reaction_type":"nitration",  "reactants":[{"name":"m-xylene","role":"reactant"}, {"name":"dichloromethane","role":"solvent"}],  "products":[{"name":"2,4-dinitrotoluene","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":"null"}
+
+{"type": "flow_rate_reactant_B", "value": f"{value} mL/min"}
+
+{ "reaction_summary": { 
+    "reaction_type":"nitrating",
+    "reactants":[{"name":"m-xylene","role":"reactant"}], 
+    "products":[{
+        "name":"null", 
+        "yield_optimal":95,
+        "unit":"%"
+    }],
+    "conditions":[
+      {"type":"temperature","value":"null"}, 
+      {"type":"residence_time","value":"104 s"},
+      {"type":"flow_rate_reactant_A","value":"1 kg/h"}
+    ],
+    "reactor":{"type":"microreactor", "inner_diameter": null}
+
+{"reaction_summary": {"reaction_type": "batch|continuous", "reactants": [{"name": "A", "role": "reactant"}], "products": [{"name": null, "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "10 min"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}, {"type": "pressure", "value": null}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"conversion": None, "yield": None, "selectivity": None}
+
+{"name": "Nitrobenzene derivatives", "yield_optimal": 95, "unit": "%"}
+
+{'name':product_name,'yield_optimal':value,'unit':'%'}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+

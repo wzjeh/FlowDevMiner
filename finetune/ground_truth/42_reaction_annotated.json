@@ -1,0 +1,52 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "cyclohexene",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd/Al2O3",
+      "role": "catalyst"
+    },
+    {
+      "name": "supercritical CO2",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "cyclohexane",
+      "yield_optimal": 89.5,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "70 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": "0.5 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "23 uL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "150 bar"
+    }
+  ],
+  "reactor": {
+    "type": "packed bed",
+    "inner_diameter": "0.05 mm"
+  },
+  "metrics": {
+    "conversion": 93.0,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

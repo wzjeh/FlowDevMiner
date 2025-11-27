@@ -1,0 +1,106 @@
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["2-ethylhexanol", "HNO3"],
+    "products": ["2-ethylhexyl nitrate", "water"],
+    "conditions": [
+      {"type":"flow_rate","value":1},
+      {"type":"residence_time","value":36},
+      {"type":"temperature","value":40}
+    ],
+    "reactor":{"type":"capillary microreactors","inner_diameter":"50 µm"},
+    "metrics":{
+        "conversion":98,
+        "yield":97
+    }
+  },
+  "reaction_summary_2": {
+    "reaction_type": "nitration",
+    "reactants": ["2-ethylhexanol", "HNO3"],
+    "products": ["2-ethylhexyl nitrate","water"],
+    "conditions": [
+      {"type":"flow_rate","value":1},
+      {"type":"residence_time","value":null},
+      {"type":"temperature","value":40}
+    ],
+    "reactor":{"type":"microchannel reactor"},
+    "metrics":{
+        "conversion":98,
+        "yield":97
+    }
+  },
+  "reaction_summary_3": {
+    "reaction_type": "nitration",
+    "reactants": ["2-ethylhexanol", "HNO3"],
+    "products": ["ethyhydroquinone","water"],
+    "conditions": [
+      {"type":"flow_rate","value":1.2},
+      {"type":"residence_time","value":null},
+      {"type":"temperature","value":40}
+    ],
+    "reactor":{"type":"microchannel reactor"},
+    "metrics":{
+        "conversion":98,
+        "yield":97
+    }
+  },
+  "reaction_summary_4": {
+    "reaction_type": "nitration",
+    "reactants": ["2-ethylhexanol", "HNO3"],
+    "products": ["ethyhydroquinone","water"],
+    "conditions": [
+      {"type":"flow_rate","value":1.2},
+      {"type":"residence_time","value":null},
+      {"type":"temperature","value":40}
+    ],
+    "reactor":{"type":"microchannel reactor"},
+    "metrics":{
+        "conversion":98,
+        "yield":97
+    }
+  },
+  "reaction_summary_5": {
+    "reaction_type": "nitration",
+    "reactants": ["2-ethylhexanol", "HNO3"],
+    "products": ["ethyhydroquinone","water"],
+    "conditions": [
+      {"type":"flow_rate","value":1.2},
+      {"type":"residence_time","value":null},
+      {"type":"temperature","value":40}
+    ],
+    "reactor":{"type":"microchannel reactor"},
+    "metrics":{
+        "conversion":98,
+        "yield":97
+    }
+  },
+  "reaction_summary_6": {
+    "reaction_type": "nitration",
+    "reactants": ["2-ethylhexanol", "HNO3"],
+    "products": ["ethyhydroquinone","water"],
+    "conditions": [
+      {"type":"flow_rate","value":1.2},
+      {"type":"residence_time","value":null},
+      {"type":"temperature","value":40}
+    ],
+    "reactor":{"type":"microchannel reactor"},
+    "metrics":{
+        "conversion":98,
+        "yield":97
+    }
+  },
+  "reaction_summary_7": {
+    "reaction_type": "nitration",
+    "reactants": ["2-ethylhexanol", "HNO3"],
+    "products": ["ethyhydroquinone","water"],
+    "conditions": [
+      {"type":"flow_rate","value":1.2},
+      {"type":"residence_time","value":null},
+      {"type":"temperature","value":40}
+    ],
+    "reactor":{"type":"microchannel reactor"},
+    "metrics":{
+        "conversion":98,
+        "yield":97
+    }
+  }

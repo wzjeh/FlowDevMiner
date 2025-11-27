@@ -1,0 +1,36 @@
+*.gguf
+__pycache__/
+*.pyc
+.DS_Store
+
+# Environment variables and API keys (Important!)
+.env
+.api_key
+*.key
+config_local.yaml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Output directories (Avoid committing large generated files)
+evaluation/result/
+data/output/
+data/results/
+
+# Models (Ignore large weights, keep folder structure/Modelfiles)
+models/*.gguf
+models/*.bin
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Legacy/Backup files
+QWEN_SETUP_COMPLETE.md
+NOTEBOOK_STEP5_DUAL_MODE.py
+双模式使用说明.txt

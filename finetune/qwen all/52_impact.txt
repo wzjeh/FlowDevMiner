@@ -1,0 +1,9 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| mole_ratio_of_HBr_to_2,4,5-trifluoroaniline | yield | unchanged |
+| flow_rate | yield | increase |
+| residence_time | yield | increase |
+| temperature_of_diazotization | yield | decrease |
+| catalyst_loading (Cu powder) | yield | decrease |

@@ -1,0 +1,60 @@
+{
+  "reaction_type": "polymerization",
+  "reactants": [
+    {
+      "name": "butyl acrylate",
+      "role": "reactant"
+    },
+    {
+      "name": "divinylbenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "dodecanethiol",
+      "role": "catalyst"
+    },
+    {
+      "name": "2,2′-azobisisobutyronitrile",
+      "role": "catalyst"
+    },
+    {
+      "name": "toluene",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "branched poly(butyl acrylate)",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "80 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "20 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.5 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "40 psi"
+    }
+  ],
+  "reactor": {
+    "type": "capillary",
+    "inner_diameter": "1 mm"
+  },
+  "metrics": {
+    "conversion": 58.0,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

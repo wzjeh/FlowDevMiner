@@ -1,0 +1,52 @@
+{
+  "reaction_type": "C-H chlorination",
+  "reactants": [
+    {
+      "name": "ethylene carbonate",
+      "role": "reactant"
+    },
+    {
+      "name": "benzoyl peroxide",
+      "role": "catalyst"
+    },
+    {
+      "name": "liquid chlorine",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "chloroethylene carbonate",
+      "yield_optimal": 84.1,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "85 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "18.5 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "110.7 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "0.8 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "coil",
+    "inner_diameter": "2 mm"
+  },
+  "metrics": {
+    "conversion": 99.5,
+    "yield": 84.1,
+    "selectivity": 84.5,
+    "unit": "%"
+  }
+}

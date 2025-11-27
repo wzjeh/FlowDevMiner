@@ -1,0 +1,20 @@
+Diazotization reactions in micro-reactors Diazotization reac- tions were carried out in a microreactor shown in Fig. 8a, which was assembled with an interdigital channel configura- tion micro-mixer (SIMM-V2, IMM, Germany) connected with a Φ1/16″ T-connector through a stainless steel tube by the way of the co-axial dual pipe, with the T-connector con- nected with a FEP tube (1.0 mm ID) as residence
+
+Abstract We design a new continuous diazotization microreaction process in which concentrated acid and sodium nitrite solutions are used. We form oil in water (O/W) microdroplets by mixing amine with sodium nitrite aqueous solution, which react with mineral acid to make the diazotization. In this way, the formed particles are dispersed in the aqueous phase, which can flow with the main stream, and
+
+Effect of the total flow rate The total flow rate of o- ethylaniline and sodium nitrite has important influence on the mixing and the productivity.
+
+Figure 6 presents the effect of the total flow rate in the range of 2.44 to 14.64 mL/min. Clearly, the conversion of o- ethylaniline is almost unchanged at 99%, while the yield of o- ethyl iodide gradually increases from 78.5 to 83.9%. This may be ascribed to the formation of more uniform-sized microdroplets at higher total flow rate. By considering the length the delay loop and the pressure drop 
+
+Analysis The flow pattern of the mixed stream was taken as movies by using an inverted microscope (Leica DMi8) equipped with a CCD camera. The GC analysis was carried out on Agilent 7890B equipped with a HP-5 capillary column (30 m × 0.32 mm × 0.25 μm) and a flame ionization detector. The column temperature was started at 60 °C for 1 min, then increased to 280 °C at a rate of 10 °C /min. The tempe
+
+Journal of Flow Chemistry (2018) 8:139–146 https://doi.org/10.1007/s41981-018-0018-1
+
+diazonium intermediate, amount of waste,the low efficiency and poor mixing in large vessel that leads to undesired byproducts [5–7]. Over past years, an explosion on continuous flow syntheses has appeared in chemical literatures. Compared to traditional batch vessels, flow reactors have many advantages such as better thermal and mass transfer; more accurate control of reaction parameters and ease 
+
+when conducting the diazotization reactions. This poses a problem to conduct such reaction in microreactor resulting from the formation of solids after mixing amine with acid. To this end, we propose a process of conducting continuous diazotization reaction which is carried out by mixing liquid amine with a sodium nitrite aqueous solution to form O/W microdroplets, followed by contacting with mine
+
+Summary: The paragraph describes the development of a flow-chemistry process for diazotization using a co-axial dual pipe assembly in a T-connector reactor. The reaction involves nitrogen gas (N2) and aniline as key reactants, with water as solvent. A catalyst is not mentioned. The product is 4-aminophenol. The reactor type is microreactor, identified by its ID number in the figure. Critical conditions include a flow rate of nitrogen gas (10 mL/min), residence time of 360 seconds, and temperature of 25°C. Pressure is not mentioned. Outcomes are conversion and yield, but selectivity is not specified.
+
+Continuous operation is arguably the most appropriate method to produce large volumes of a product uniformly, consistently, and reliably. A fully continuous flow process has been described to utilize concentrated acid and sodium nitrite solutions in a in-house designed microreactor, which was carried out by first mixing amine with a sodi- um nitrite aqueous solution in a micromixer to form O/W mic
+

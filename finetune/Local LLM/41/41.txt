@@ -1,0 +1,275 @@
+Available online at www.sciencedirect.com
+
+journal homepage: www.elsevier.com/locate/he
+
+Hydrogen production from methane and natural gas steam reforming in conventional and microreactor reaction systems
+
+U. Izquierdo a,*, V.L. Barrio a, J.F. Cambra a, J. Requies a, M.B. Gu¨emez a, P.L. Arias a, G. Kolb b, R. Zapf b, A.M. Gutie´rrez c, J.R. Arraibi c
+
+a Faculty of Engineering, University of the Basque Country (UPV/EHU), C/Alda. Urquijo s/n, 48013 Bilbao, Spain b Institut fu¨r Mikrotechnik Mainz GmbH, Carl-Zeiss-Str. 18-20, 55129 Mainz, Germany c Naturgas Energı´a Distribucio´n, Plz. Pio Baroja 3, 48001 Bilbao, Spain
+
+a r t i c l e i n f o
+
+a b s t r a c t
+
+Ni-based (over MgO and Al2O3) and noble metal-based (Pd and Pt over Al2O3) catalysts were
+
+Article history:
+
+prepared by wet impregnation method and thereafter impregnated in microreactors. The
+
+Received 5 September 2011
+
+catalytic activity was measured at several temperatures, atmospheric pressure and
+
+Received in revised form
+
+different steam to carbon, S/C, ratios. These conditions were the same for conventional,
+
+20 October 2011
+
+fixed bed reactor system, and microreactors. Weight hourly space velocity, WHSV, was
+
+Accepted 4 November 2011
+
+maintained equal in order to compare the activity results from both reaction systems. For
+
+Available online 9 December 2011
+
+microreactor systems, similar activities of Ni-based catalyst were measured in the steam
+
+methane reforming (SMR) activity tests, but not in the case of natural gas steam reforming
+
+Keywords:
+
+tests. When noble metal-based catalysts were used in the conventional reaction system no
+
+Hydrogen
+
+significant activity was measured but all catalysts showed some activity when they were
+
+Microreactor
+
+tested in the microreactor systems. The analysis by SEM and TEM revealed a carbon-free
+
+Natural gas
+
+surface for Ni-based catalyst as well as carbon filaments growth in case of noble metal-
+
+Methane
+
+based catalysts.
+
+Steam reforming
+
+Copyright ª 2011, Hydrogen Energy Publications, LLC. Published by Elsevier Ltd. All rights
+
+reserved.
+
+1. Introduction
+
+contribute to meet the targets of European public policy for energy security, air quality, greenhouse gases reduction and industrial competitiveness [6]. The main characteristic of hydrogen gas is that it is a clean energy vector: it releases the chemical energy stored in the HeH bond when combined with oxygen, producing only water vapour as reaction product. Thus, the attractiveness of hydrogen has led to increase the interest for this gas among companies, scientists and policy makers. Hydrogen is commonly produced by means of steam methane reforming (SMR), although it is also produced by steam reforming of naphtha, heavy oil fractions, methanol or coal. The SMR technology is very well known and it is the one
+
+Europe needs a clean, safe and reliable energy supply that can ensure a high and sustainable quality of life. Natural gas, as a global energy source, has been gaining widespread use in recent years as a result of high oil prices, the need for energy diversification and supply security, and the growing global awareness of environmental issues. These are also the reasons for considering hydrogen as a future energy vector [1e5]. In this context, the production of hydrogen from fossil fuels could allow a smooth transition between fossil to renewable energy systems. In addition, hydrogen can be used to produce electricity in fuel cells, which can significantly
+
+* Corresponding author. Tel.: þ34 655718821. E-mail address: urko.izquierdo@ehu.es (U. Izquierdo).
+
+0360-3199/$ e see front matter Copyright ª 2011, Hydrogen Energy Publications, LLC. Published by Elsevier Ltd. All rights reserved. doi:10.1016/j.ijhydene.2011.11.048
+
+commonly used in industry. The process involves several catalytic steps: S-removal, pre-reforming, reforming, high and low temperature water gas-shift (WGS) reactions, methana- tion and NOx removal. The most important reactions are the following:
+
+present high activity, their high cost limits their industrial application. The much lower cost of Ni-catalysts makes them good candidates for methane reforming reactions. In this work, both noble and non-noble metals were studied in order to compare their performance.
+
+SMR : CH4 þ H2O/CO þ 3H2  DH  ¼ 206 kJ=mol 
+
+WGS : CO þ H2O/CO2 þ H2  DH  ¼ 41 kJ=mol 
+
+2. Experimental
+
+2.1. Activity measurements
+
+While the cost of natural gas and other fossil fuels remains at a moderate level, the SMR will be the technology chosen for large scale of synthesis gas and hydrogen production. However, the miniaturization of this process is still a techno- logical challenge [7,8]. Apart from this, it is necessary to increase the efficiency for remote or off-shore applications. Process intensification could be a way for it, in order to obtain hydrogen from fossil fuels or biomass [9]. The need of distributed and portable power generation systems is clear nowadays [10]. The aim of this work is the study of hydrogen production by steam methane reforming using microreactors. These advanced reaction systems can be used for hydrogen decentralized production from natural gas. Thus, these system include microreactors and active, selec- tive, stable and/or cheap catalytic formulations. Indeed, process intensification would allow better heat transfer which plays a key role in this process [11e13]. Different catalysts for methane steam reforming have been studied, especially Ni-based catalyst and noble metal-based catalysts like ruthenium, rhodium and platinum, amongst others [14,15]. Although the noble metal-based catalysts
+
+Steam methane reforming reactions were carried out to test all the catalysts. A standard feed mixture consisted of CH4:H2O:N2 ¼ 1:1:1.88 (molar ratio) was fed into both reaction systems at atmospheric pressure. In addition, tests at 1.5 and 2.0 steam to carbon ratios were also carried out in order to obtain higher conversions and minimize the coke formation. The temperature was varied between 973 K and 1073 K, raising it 50 K after each previous experiment. The activity processing different feeds was compared running natural gas steam reforming reactions. The used natural gas contains 87% methane, 8% ethane, 2% propane, 0.5% butane, 2% nitrogen and 0.5% carbon dioxide (vol.). With the objective of comparing the results, the same volume of methane was feed in all different tested feeds. A bench-scale Microactivity plant (PID Eng&Tech), was used for activity tests (Fig. 1). The feed mixture gases flows were adjusted by electronic controllers and a HPLC-Gilson liquid pump was used for the desionizated water injection. Both reactors were electrically heated in a furnace.
+
+Fig. 1 e Scheme of the Microactivity plant.
+
+The effluent stream was cooled down with a partial condenser. The condensed water was collected and weighted, and the gas phase was analyzed by a Gas Chromatograph (GC 6890 N) equipped with FID and TCD detectors. Two columns, HP Plot Q and HP Molsiv, were used in a series/bypass arrangement for the complete separation of hydrogen, carbon monoxide, carbon dioxide, nitrogen, methane, ethane, propane and butane. Before running the activity tests, each catalyst was reduced at 1073 K, using 360 NmL/min of a 3:1 N2:H2 mixture, during 4 h for all the reaction systems. The measured parameters were defined as:
+
+Methane conversion : XCH4ð%Þ ¼  VCH4 in  VCH4 out. VCH4 in
+
+Ethane conversion : XC2H6ð%Þ ¼  VC2H6 in  VC2H6 out. VC2H6 in
+
+Propane conversion : X C3H8ð%Þ ¼  VC3H8 in  VC3H8 out. VC3H8 in
+
+Fig. 2 e The microreactor.
+
+Butane conversion : XC4H10ð%Þ ¼  VC4H10 in  VC4H10 out. VC4H10 in
+
+a. Catalyst preparation: An IKA mill was used for the reduc- tion of the catalysts particle size. Once powdered the catalysts were sieved with a 75-mm sieve. b. Microreactor preparation: The microreactors were intro- duced in an ultrasonic bath with isopropanol during 10 min for channel cleaning. After drying, they were calcined at 1273 K during 4 h. c. Catalyst impregnation: A liquid phase suspension which ensures a perfect adhesion between catalysts and micro- channels was prepared for the impregnation. Catalysts were manually impregnated filling microchannels with suspension and removing the excess. d. Conditioning of catalyst and microreactor: After impreg- nation, the catalysts were calcined at 1073 K during 2 h under oxidative conditions. Finally, the platelets were welded and the microreactors conditioned for using them in the activity tests.
+
+Hydrogen yield : H2out=CH4out  molar ratio  ¼ VH2 out=VCH4 in
+
+Carbonmonoxideselectivity: SCOð%Þ¼VCO out=  VCO out þVCO2 out
+
+Where: Vi in corresponds to the volumetric flow-rate of reactant i (NmL/min). Vi out corresponds to the volumetric flow-rate of product i (NmL/min).
+
+2.2. Reactors
+
+2.2.1. The microreactor A reactor for hydrogen production from natural gas was designed focussing on avoiding internal and external mass-transfer resistances. As it can be observed in Fig. 2, the platelets are composed by 14 microchannels which were fabricated with 500 mm  250 mm (width  depth) dimensions. The microreactors were made of stainless-steel with the next composition: 53.22% Fe, 24.21% Cr, 19.09% Ni, 1.97% Si, 1.43% Mn, 0.05% C, 0.02% Pb and 0.001% S (wt.). The impregnated catalyst particle size must be small enough for the deposition and fixing in the channels as well as for the reduction of internal mass-transfer resistance. The external mass-transfer resistance was studied trough Mears criteria [16]. Moreover, the microreactors were modelled using Aspen Plus commercial software for the process analysis. All the experimental conditions were analyzed and simulated before the operation in the laboratory [17,18].
+
+Through this process several catalysts were prepared and impregnated in the innovative reaction systems: two Ni-based catalysts (over MgO and Al2O3) and two noble metal-based catalysts (Pd and Pt over Al2O3). Once the catalyst amount impregnated was known, the same quantity was used in the fixed bed reactor. Therefore, using the same feed flow and the same weight of catalyst, the WHSV values were kept equal in both reaction systems. In Table 1 the catalysts amount used is compiled in the third column. In the following columns, the WHSV values for the SMR and natural gas SR are presented. As it can be seen, there are some differences between the WHSV values used. For Pt/Al2O3 catalyst, as the amount of impregnated catalyst amount was higher the WHSV decreased one order of magnitude. In addition, for the SMR and natural gas SR experiments the WHSV values changed. As the methane feed flow remained equal in both cases, and natural gas contained other compounds, the feed flow was slightly higher for the natural gas SR increasing the WHSV.
+
+2.2.1.1. Deposition of micro-nanoparticles on the reactor microchannels. The next procedure was carried out for the deposition of the micro-nanoparticles on the reactors micro- channels [19,20]:
+
+Table 1 e Nominal and experimental chemical composition of calcined catalysts, weight used of catalyst in all the reaction systems and WHSV values for SMR and Natural Gas SR experiments at different S/C ratios.
+
+Catalysts Nominal (wt%) Experimmental (wt%) Weight (g) SMR Natural Gas SR
+
+S/C ¼ 1.0 S/C ¼ 1.5 S/C ¼ 2.0 S/C ¼ 1.0 S/C ¼ 2.0
+
+Ni/MgO 20 (Ni) (17.02) Ni 0.01889 1534.3 1693.1 1851.9 1614.2 1931.8 Ni/Al2O3 Commerciala 0.02367 1224.4 1351.3 1477.9 1288.2 1541.7 Pd/Al2O3 1 (Pd) 0.31 (Pd) 0.01247 2324.1 2564.7 2805.3 2445.2 2926.4 Pt/Al2O3 1 (Pt) 0.79 (Pt) 0.14352 201.9 222.8 243.7 212.5 254.3
+
+a Commercial catalysts composition: 18 wt% of NiO.
+
+for the determination of the metallic elements in the cata- lysts. The catalysts were properly dissolved using a digester and thereafter, analyzed by ICP-AES instrument. A solution that consisted of HCl, HNO3 and HF was used for Ni, Pt and Pd solution previous to their quantification. These results are summarized in Table 1. The experimental contents measured for all the catalytic systems were slightly lower than the nominal ones.
+
+2.2.2. Fixed bed reactor As a traditional reactor system a stainless-steel fixed bed reactor (1.15 cm i.d. and 30 cm length) was used. The same amount of catalyst than in the microreactors was used.
+
+2.2.2.1. Fixed bed reactor preparation. The reactor was filled with inert, silicon carbide, CSi, particles (1.0e1.5 mm diameter particle size), from the bottom until the thermocouple was reached. Then, the needed catalyst amount (0.42e0.50 mm diameter particle size) was diluted with CSi at 1:9 w/w (0.5e1.0 mm diameter particle size) in order to avoid temperature gradients in the bed. Finally the reactor was totally filled with another bed of the same CSi particles and closed. This higher size was used in order to separate satis- factorily CSi and tested catalysts after activity experiments.
+
+3.2. Experiments in microreactors
+
+3.2.1. Microreactor 1: Ni/MgO catalyst Experiments at different temperatures confirmed that as SMR reaction is endothermic, the lowest activity was measured at the lowest temperature, 973 K, (about 35% of methane conversion). Increasing the reaction temperature higher methane conversion was reached. During these experiments no significant deactivation of the catalyst was observed for the time on stream. Results of the activity tests at 1073 K and different S/C ratios are shown in Fig. 3 for the Ni/MgO catalyst. The S/C ratio of 1.0 corresponds to the stoichiometric feed for the SMR reaction. Experiments in which more water was added than the required for this stoichiometric reaction were carried out at S/C ¼ 1.5 and 2.0. For the Ni/MgO catalyst at 1073 K, and S/C ratio of 1.0, the methane conversion was about 55%. When the ratio of S/C was increased from 1 to 1.5 methane conversions grew from a 55.00% to a 60.52% increasing also the hydrogen yield. In the
+
+3. Results and discussion
+
+All the activity tests started after the system was stabilized (lasted 480 min) and the reported measurements values correspond to the mean of the last two analyses. All catalysts were tested at the same conditions and the same analysis procedure was carried out for all of them.
+
+3.1. Calcined catalysts chemical composition
+
+An inductively coupled plasma atomic emission spectroscopy (ICP-AES) instrument, model 2000-DV (Perkin Elmer) was used
+
+S/C=1.0 S/C=1.5 S/C=2.0
+
+6.0
+
+5.0
+
+Molar ratio
+
+4.0
+
+%
+
+3.0
+
+2.0
+
+1.0
+
+0.0
+
+Time (min)
+
+X CH4 (%) X CH4 equilibrium (%) S CO equilibrium (%)
+
+S CO (%) H2out / CH4in ratio H2out / CH4in ratio equilibrium
+
+Fig. 3 e SMR activity test results for Ni/MgO catalyst at 1073 K and different S/C ratios.
+
+. = C / S . = C / S
+
+3.2
+
+2.4
+
+Molar ratio
+
+%
+
+1.6
+
+0.8
+
+0.0
+
+Time (min)
+
+X CH4 (%) X C2H6 (%) X C3H8 (%) X C4H10 (%) S CO (%) H2out/(CnHm)in ratio
+
+Fig. 4 e Natural gas SR activity results for Ni/MgO catalyst at 1073 K and different S/C ratios.
+
+case of increasing the S/C ratio from 1.5 to 2.0, it can be observed that methane conversion remained with similar values for the first hours (marked with a circle) and after that, the methane conversion lowered to 54.02%. In these first hours, the CO selectivity decreased from a 71% to a 59% and also the hydrogen yield. As methane conversion did not change, this effect could be explained through the promotion of the WGS reaction. For these experiments, significant deactivation of the catalysts was not observed. As a summary, it could be affirm that increasing the S/C ratio the conversion and hydrogen yield improved, for the S/C from 1.0 to 1.5, and as it should be expected. Nevertheless, for the highest ratio, S/ C ¼ 2.0, the activity did not improve. Natural gas SR activity tests were also carried out using the Ni/MgO catalyst. As it can be observed in Fig. 4, the measured conversion for hydrocarbons was higher than for methane. The conversion of this latter remained almost constant when the S/C ratio was increased up to 2, but it was lower for ethane, propane and butane. However, hydrogen generation remained constant because of WGS reaction. In these exper- iments catalyst did not suffer deactivation.
+
+was therefore produced. In addition, increasing the S/C ratio up to 2.0, no significant catalytic improvements were measured. As it can be observed in Fig. 5, this catalyst suffered quick deactivation in the first 4 h when natural gas was used in SR experiments. As for the Ni/MgO catalyst, the conversion of methane was lower than for the rest of hydrocarbons. This effect could be attributed to the heavier than methane hydrocarbons present in natural was. This fact and the high operating temperatures could contribute to the carbon generation and the consequent deactivation of the catalyst. In addition, due to the apparently carbon-free surface presented by this catalyst (see Fig. 6) this effect could also be attributed to the possible cracking process suffered by higher hydrocarbons which could increase the quantity of methane present in the atmosphere and hence reduce methane conversion.
+
+3.2.3. Microreactor 3&4: Pd and Pt/Al2O3 catalysts For Pt/Al2O3 and Pd/Al2O3 catalysts, methane and natural gas SR activity tests were also carried out at 1073 K and S/C ¼ 1.0. Unfortunately, no significant conversion (under 5%) was measured for methane. For the other hydrocarbons less than 5% of conversion was also reached, which means that for those catalysts hydrogen production was really low.
+
+3.2.2. Microreactor 2: Ni/Al2O3 catalyst Activity results for Ni/Al2O3 catalyst at S/C ¼ 1.0 and different temperatures are presented in Table 2. As it might be ex- pected, all the measured parameters increased with reaction temperature. Activity results at different S/C ratios are also gathered in the same table. When the S/C ratio was increased, from 1.0 to 1.5 less methane was converted and less hydrogen
+
+3.3. Experiments in fixed bed reactors
+
+Finally, a fixed bed reaction system at the same WHSV values was used for activity tests. For all catalysts and all
+
+Table 2 e SMR activity results for Ni/Al2O3 catalyst at S/C 1.0 and different temperatures and at 1073 K and different S/C ratios.
+
+Ni/Al2O3 Temperature (K) S/C ratio
+
+1.5 2.0
+
+X CH4 (%) 30.7 (79.5) 46.3 (80.9) 72.9 (89.1) 62.5 (99.0) 62.50 (99.6) H2out/CH4in (molar ratio) 1.0 (2.5) 1.6 (2.7) 2.4 (2.8) 2.0 (3.1) 2.05 (3.2) S CO (%) 59.4 (91.6) 76.5 (96.0) 88.8 (98.0) 74.3 (88.0) 69.63 (78.8)
+
+Values in parentheses are equilibrium values.
+
+. = C / S . = C / S
+
+4.0
+
+3.2
+
+Molar ratio
+
+2.4
+
+%
+
+1.6
+
+0.8
+
+0.0
+
+Time (min)
+
+X CH4 (%) X C2H6 (%) X C3H8 (%) X C4H10 (%) S CO (%) Ratio H2out/(CnHm)in
+
+Fig. 5 e Natural gas SR activity results for Ni/Al2O3 catalyst at 1073 K and different S/C ratios.
+
+experimental conditions really low conversions were ach- ieved; for every S/C ratios the achieved methane conversion was under 5%. The results of conversion for natural gas SR were also insignificant, only hydrocarbons like propane and butane had high conversions. As a summary, conversions far from the maximum equilibrium values were obtained operating with micro- reactors and no significant conversions were obtained in the fixed bed reaction system. This difference indicates the advantages of microreactor systems. For all catalysts and both reaction systems the calculated element balances errors were small and as a result coking rates were quite low.
+
+The microreactor system improved some of the fixed bed deficiencies as low heat transfer rates [11]. Furthermore, the WHSV values used were appropriate for the microreactor system but no for the fixed bed reactor system. Considering that the dilution also affected the microreactors, the measured conversions were much higher than the ones measured in the fixed bed reactor.
+
+3.4. Catalysts characterization by SEM
+
+The structure formed on the microchannels was character- ized with an electronic microscope. SEM micrographs of tested catalysts were obtained using a JEOL JSM-7000-F
+
+Fig. 6 e Surface SEM backscattered micrographs for Ni/MgO (a) and Ni/Al2O3 catalysts (b) and morphology micrographs for Pt/Al2O3 (c) and Pd/Al2O3 catalysts (d).
+
+r e f e r e n c e s
+
+scanning electron microscope, equipped with a Schottky field emission cathode. Composition was studied by combination of backscattered electron imaging and Energy Dispersive X- Ray Spectroscopy (EDX) using an Oxford Instruments Inca Energy 350 spectrometer installed in the same microscope. Comparing the behaviour of the different impregnated catalysts, a homogeneous distribution and small particle size was reached for the Ni/MgO and Ni/Al2O3 catalysts. For these two catalysts (see Fig. 6a and b, respectively) evidence of nickel particles distribution can be observed as well as the catalytic surface which is free of carbon. The presence of Ni particles in the catalytic surface of these two micrographs was confirmed by backscattered electron imaging. Moreover, in the case of Ni/MgO catalyst, a smallest particle size (15e60 nm) was measured [21] if compared with the Ni/Al2O3. In addition, for the Ni/MgO catalyst deactivation by sintering was not detected as the original particle size was 28.5 nm (measured by XRD [22]). For Pt/Al2O3 and Pd/Al2O3 catalysts, SEM images were taken from secondary electron detectors in order to study surface morphology. In both catalysts (Fig. 6c and d respec- tively) carbon filaments growth can be observed on Pd/Al2O3 and Pt/Al2O3 surfaces [23e25]. Therefore, the low activity measured for both noble metals catalysts can be attributed to the carbon filaments growth covering the catalytic surface.
+
+[1] Orecchini F. The era of energy vectors. Int J Hydrogen Energy 2006;31:1951e4. [2] Momirlan M, Veziroglu TN. The properties of hydrogen as fuel tomorrow in sustainable energy system for a cleaner planet. Int J Hydrogen Energy 2005;30:795e802. [3] Turton H, Barreto L. Long-term security of energy supply and climate change. Energ Policy 2006;34:2232e50. [4] Ball M, Wietschel M. The future of hydrogen e opportunities and challenges. Int J Hydrogen Energy 2009;34:615e27. [5] Momirlan M, Veziroglu T. Recent directions of world hydrogen production. Renew Sust Energ Rev 1999;3:219e31. [6] Bleischwitz R, Bader N. Policies for the transition towards a hydrogen economy: the EU case. Energ Policy 2010;38: 5388e98. [7] Castelo Branco DA, Szklo AS, Schaeffer R. CO2e emissions abatement costs of reducing natural gas flaring in Brazil by investing in offshore GTL plants producing premium diesel. J Energy 2010;35:158e67. [8] Men Y, Kolb G, Zapf R, Pennemann H, Hessel V. Total combustion of propane in a catalytic microchannel combustor. Chem Eng Res Des 2009;87:91e6. [9] O'Connell M, Kolb G, Zapf R, Men Y, Hessel V. Bimetallic catalysts for the catalytic combustion of methane using microreactor technology. Catal Today 2009;144:306e11. [10] Zhai X, Ding S, Cheng Y, Jin Y, Cheng Y. CFD simulation with detailed chemistry of steam reforming of methane for hydrogen production in an integrated micro-reactor. Int J Hydrogen Energy 2010;35:5383e92. [11] Kolb G, Hessel V. Micro-structured reactors for gas phase reactions. Chem Eng J 2004;98:1e38. [12] Delsman ER, Laarhoven BJPF, De Croon MHJM, Kramer GJ, Schouten JC. Comparison between conventional fixed-bed and microreactor technology for a portable hydrogen production case. Chem Eng Res Des 2005;83:1063e75. [13] Conant T, Karim A, Datye A. Coating of steam reforming catalysts in non-porous multi-channeled microreactors. Catal Today 2007;125:11e5. [14] Zhai X, Ding S, Liu Z, Jin Y, Cheng Y. Catalytic performance of Ni catalysts for steam reforming of methane at high space velocity. Int J Hydrogen Energy 2011;36:482e9. [15] Acha E, Requies J, Barrio VL, Cambra JF, Gu¨ emez MB, Arias PL. Water effect in hydrogen production from methane. Int J Hydrogen Energy 2010;35:11525e32. [16] Scott Fogler H. Elements of chemical reaction engineering. 3rd ed. Englewood Cliffs: Prentice-Hall PTR; 1999. [17] Thormann J, Pfeifer P, Schubert K, Kunz U. Reforming of diesel fuel in a micro reactor for APU systems. Chem Eng J 2008;135:S74e81. [18] Huang J, Weinstein J, Besser RS. Particle loading in a catalyst- trap microreactor: experiment vs. simulation. Chem Eng J 2009;155:388e95. [19] Hessel V, Lo¨we H, Mu¨ ller A, Kolb G. Chemical micro process engineering. 1st ed. Weinheim: KGaA; 2005. [20] Germani G, Stefanescu A, Schuurman Y, Van Veen AC. Preparation and characterization of porous alumina-based catalyst coatings in microchannels. Chem Eng Sci 2007;62: 5084e91. [21] Zhang L, Wang X, Tan B, Ozkan US. Effect of preparation method on structural characteristics and propane steam reforming performance of Ni-Al2O3 catalysts. J Mol Catal 2009;297:26e34. [22] Requies J, Cabrero MA, Barrio VL, Gu¨ emez MB, Cambra JF, Arias PL, et al. Partial oxidation of methane to syngas over Ni/MgO and Ni/La2O3 catalysts. Appl Catal A-Gen 2005;298: 214e23.
+
+4. Conclusions
+
+Hydrogen production from methane and natural gas steam reforming process was studied by two different reaction systems at the same conditions. Higher methane (or NG) conversion was reached at higher temperatures but it does not improve significantly operating at higher steam to carbon ratios. In the case of the Ni/Al2O3 catalyst, high methane and natural gas conversions were ob- tained despite of its quick deactivation. On the contrary, Ni/ MgO catalyst did not suffer apparent deactivation and it reached the highest hydrogen production at 1073 K and S/C of 1.5 for SMR reaction. In this case, the Water Gas Shift reaction is also promoted. For Pt/Al2O3 and Pd/Al2O3 catalysts, the ob- tained low catalytic activity might be due to the bad impreg- nation and the carbon filaments growth. For all the catalysts, lower conversion was reached in a fixed bed reactor at the same WHSV. Thus, higher hydro- carbons conversions and higher hydrogen yields were ach- ieved in the microreactors. As a result, decentralized hydrogen production from NG SR through process intensification (heat and mass transfer) seems to be a promising technology. In a near future, these systems could be used together with other renewable feeds, such as biogas and bioalcohols, for the production of either chemicals or fuels with high added value.
+
+Acknowledgements
+
+This work has been supported by the Basque Government EJ/GV (UE 09þ/27) and the Ministry of Science and Innova- tion (ENE2010-21198-C04-03).
+
+catalysts for the dry reforming of methane. J Catal 2010;274: 11e20. [25] Garcı´a-Die´guez M, Pieta IS, Herrera MC, Larrubia MA, Alemany LJ. Nanostructured Ptand Ni-based catalysts for CO2-reforming of methane. J Catal 2010;270:136e45.
+
+[23] Pashaa AM, Shafiekhanib A, Vesaghia MA. Hot filament CVD of Fe-Cr catalyst for thermal CVD carbon nanotube growth from liquid petroleum gas. Appl Surf Sci 2009;256:1365e71. [24] Garcı´a-Die´guez M, Finocchio E, Larrubia MA, Alemany L. Characterization of alumina-supported Pt, Ni and PtNi alloy

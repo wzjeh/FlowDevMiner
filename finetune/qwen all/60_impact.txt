@@ -1,0 +1,9 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of CO2 | increase |
+| pressure | conversion of CO2 | unchanged |
+| residence_time | conversion of CO2 | increase |
+| flow_rate | conversion of CO2 | decrease |
+| catalyst_loading | conversion of CO2 | increase |

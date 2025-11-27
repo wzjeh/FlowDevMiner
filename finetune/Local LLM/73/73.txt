@@ -1,0 +1,673 @@
+第 37 卷 第1 期
+
+Vol.37 No.1
+
+石 油 化 工 高 等 学 校 学 报
+
+2024 年2 月
+
+Feb. 2024
+
+JOURNAL OF PETROCHEMICAL UNIVERSITIES
+
+引用格式：主凯,倪泽雨,黄益平,等.连续流微反应器内蒽醌硝化反应规律研究[J].石油化工高等学校学报,2024,37(1):11-15.
+
+ZHU Kai,NI Zeyu,HUANG Yiping,et al.Study on the Continuous⁃Flow Nitration Process of Anthraquinone in Mi⁃ croreactor[J].Journal of Petrochemical Universities,2024,37(1):11-15.
+
+连续流微反应器内蒽醌硝化反应规律研究
+
+1， 倪泽雨
+
+1， 黄益平
+
+1， 黄晶晶
+
+1， 蔡 磊
+
+2， 周 峰
+
+2， 胡 猛
+
+主 凯
+
+（1. 中建安装集团有限公司，江苏 南京 210023；2. 淮阴工学院 化工学院，江苏 淮安 223003）
+
+摘 要： 蒽醌类染料是染料行业用量仅次于偶氮染料的第二大类染料，通过蒽醌硝化反应制备的硝基蒽醌
+
+是合成各类蒽醌类染料的重要原料之一。采用热质传递性能优异的微反应器，研究了蒽醌连续硝化反应过程中反
+
+应温度、蒽醌体积流量、n（HNO3）/n（蒽醌）、蒽醌浓度、停留时间及硫酸质量分数等关键工艺参数对蒽醌硝化反应
+
+的影响。结果表明，在蒽醌硝化反应过程中，一硝化和二硝化反应竞争显著；调节过程工艺参数，在促进蒽醌转化
+
+率的同时，会显著影响一硝化和二硝化产物的比例。充分利用微反应器的优势精确调控过程参数，是提高单一硝
+
+化产物选择性的有效措施。
+
+关键词： 微反应器； 蒽醌； 1⁃硝基蒽醌； 硝化
+
+中图分类号： TQ61 文献标志码： A doi：10.12422/j.issn.1006⁃396X.2024.01.002
+
+Study on the Continuous⁃Flow Nitration Process of Anthraquinone in
+
+Microreactor
+
+ZHU Kai
+
+1， NI Zeyu
+
+1， HUANG Yiping
+
+1， HUANG Jingjing
+
+1， CAI Lei
+
+2， ZHOU Feng
+
+2， HU Meng
+
+（1.China Construction Industrial & Energy Engineering Group Co.，Ltd.，Nanjing Jiangsu 210023，China；
+
+2.Faculty of Chemical Engineering，Huaiyin Institute of Technology，Huai，an Jiangsu 223003，China）
+
+Abstract: Anthraquinone dyes are the second most significant dyes in the dye industry after azo dyes.Nitroanthraquinone prepared
+
+by the nitration of anthraquinone,is one of the important raw materials for the synthesis of various types of anthraquinone dyes.In
+
+this study,a microreactor with excellent heat and mass transfer properties was utilized to investigate the continuous⁃flow nitration
+
+process of anthraquinone.The effects of key process parameters such as reaction temperature,volume flow rate,molar ratio of nitric
+
+acid to anthraquinone, anthraquinone concentration, residence time, and sulfuric acid intensity on the nitration process were
+
+examined.The results showed that the competition between mono⁃ and di⁃nitrification reactions during anthraquinone nitrification
+
+was significant, and the adjustment of process parameters would significantly affect the ratio of mono⁃ and di⁃nitrification products
+
+while promoting the conversion rate of anthraquinone. The full use of the advantages of microreactors to precisely regulate the
+
+process parameters is an effective measure to improve the selectivity of the target nitration product.
+
+Keywords: Microreactor； Anthraquinone； 1⁃Nitroanthraquinone； Nitration
+
+蒽醌类染料是用量仅次于偶氮染料的第二大
+
+硝化反应是工业中最古老的反应之一，且工业上已
+
+类染料，通常用于需要极端性能和色牢度、特殊颜
+
+有蒽醌硝化反应的成熟方法。但是，由于其反应路
+
+[1]。通过蒽醌硝化反应制备的硝基蒽醌是
+
+色的场合
+
+径复杂，且传统釜式硝化反应存在固有缺陷，对蒽
+
+生产各类蒽醌类染料的重要原料之一，但蒽醌的硝
+
+醌硝化反应过程规律的研究仍然有限。
+
+化反应路径较多，反应过程中一硝化和二硝化反应
+
+硝化反应是反应速率较快且强放热的过程，釜
+
+同时发生，会生成2 种一硝化异构体和6 种二硝化
+
+式滴加方式是当前硝化反应的常规操作。但是，釜
+
+[2]，因此必须经
+
+异构体，单一硝化产物的选择性较低
+
+式反应器热质传递能力相对低效、持液量高，导致
+
+过繁琐的分离纯化步骤才能获得单一的硝化产物。
+
+不易对硝化反应过程进行有效调控。微反应技术
+
+收稿日期：2023⁃09⁃05 修回日期：2023⁃12⁃09
+
+基金项目：中建股份科技研发项目(CSCEC⁃2021⁃Z⁃51)；建设系统科技计划项目(Ks2253)。
+
+第一作者：主凯(1989⁃)，男，博士，高级工程师，从事微反应技术应用方面的研究；E⁃mail：zkhhit@163.com。
+
+通信作者：黄益平(1985⁃)，男，博士，高级工程师，从事精细化工应用方面的研究；E⁃mail：huangyp@163.com。
+
+石油化工高等学校学报 第37 卷
+
+[3⁃7]，为实现安全
+
+已经在合成化学中得到广泛的研究
+
+选择性，连续微反应器的产率是传统间歇反应器的
+
+800 倍。S.GUO 等
+
+[17]将被动式微反应器用于硝化反
+
+可控的硝化反应工艺开发及反应规律的有效探索
+
+应，成功改善了混酸硝化反应体系的混合、传质和反
+
+提供了良好契机。以微尺度为特征的微反应技术
+
+应性能；讨论了三氟甲苯的硝化反应动力学过程特
+
+有效利用了反应器内比表面积极高的优势，可实现
+
+征并获得了相关动力学数据。
+
+良好的热质传递及过程参数的精确调控，反应过程
+
+本文以蒽醌为底物、经典的硝硫混酸为硝化试
+
+[8⁃9]，因而具有解决当前
+
+易于放大且可实现本质安全
+
+剂，研究了连续流条件下硝化反应过程的反应特
+
+化工生产过程中存在的安全风险高、能耗大、反应
+
+性，系统考察并讨论了反应温度、蒽醌体积流量、
+
+[10⁃11]。
+
+效率低、环境污染重等问题的潜力
+
+n（HNO3）/n（蒽醌）、蒽醌浓度、停留时间、硫酸质量
+
+近年来，微反应技术已被广泛应用于硝化反应
+
+分数等参数对硝化反应的影响规律，以期为后续蒽
+
+过程的开发及硝化反应行为的研究。D.RUSSO
+
+醌在微反应器中的连续硝化反应工艺开发提供参
+
+[12]详细研究了混酸硝化苯甲醛反应的过程，并对
+
+等
+
+考依据。
+
+实验室规模间歇反应器和商业微型反应器性能进行
+
+实验部分
+
+了系统比较。结果表明，在苯甲醛硝化反应中采用
+
+具有嵌入式静态混合器的微反应器的反应结果优于
+
+1.1 试剂及仪器
+
+按比例放大的间歇反应器，产物收率可达到在动力
+
+试剂：蒽醌、N⁃甲基吡咯烷酮、NaHCO3，分析
+
+学控制的理论极限值。A.M.YANG 等
+
+[13]以硝硫混
+
+纯，上海毕得医药科技股份有限公司；浓硫酸（质量
+
+酸为硝化试剂,研究了甲苯在连续流微反应器中的
+
+分数为95.0%~98.0%），分析纯，南京奥佳化工有
+
+硝化特性，为染料中间体的合成提供了一种安全有
+
+限公司；浓硝酸（质量分数为65.0%~68.0%），分析
+
+效的方法。S.F.LI 等
+
+[14]开发了一种在液滴微反应器
+
+纯，南京化学试剂股份有限公司；1⁃硝基蒽醌，分析
+
+中用混酸进行连续流芳香族硝化的方法，系统考察
+
+纯，上海笛柏生物科技有限公司；1,8⁃二硝基蒽醌，
+
+了关键操作参数对硝化反应的影响，并在连续流条
+
+分析纯，上海迈瑞尔生化科技有限公司；甲醇，
+
+件下建立了表观和本征反应速率常数的拟均相动力
+
+HPLC，上海玻尔化学试剂有限公司。
+
+学模型。Y.J.CUI 等
+
+[15]针对硝酸在硫酸水溶液中的
+
+仪器：AUY220 电子天平，日本岛津公司；2PB⁃
+
+平衡过程，提出了一种新的估算方法；由硝鎓离子浓
+
+1040Ⅸ平流泵，北京星达科技发展有限公司；DHC⁃
+
+度和活化能参数计算了反应速率常数，利用微反应
+
+3005⁃AW 恒温水浴，杭州齐威仪器有限公司；TG16⁃
+
+W 离心机，湖南湘仪实验室仪器开发有限公司；
+
+技术实验研究了氯苯混酸硝化反应的动力学行为，
+
+建立了预测硝化反应速率常数的通用模型。W.Y.
+
+Eclassical 3100 高效液相色谱仪，大连依利特分析仪
+
+ZHAO 等
+
+[16]在微反应器中将苯硝化反应和单硝基苯
+
+器有限公司。
+
+1.2 实验流程
+
+硝化反应串联，开发了两步连续流硝化反应过程，整
+
+个过程几乎不消耗硫酸且在最佳条件下可获得大于
+
+基于毛细管式微反应器构建了蒽醌硝化反应
+
+99.0% 的二硝基苯收率和大于91.0% 的间二硝基苯
+
+连续流反应系统，如图1 所示。
+
+图1 实验流程图
+
+Fig.1 Schematic diagram of the experimental setup
+
+口处反应液以淬灭反应，再用饱和NaHCO3除酸，并
+
+以浓硫酸为溶剂配制一定浓度的蒽醌溶液与
+
+调节终止液至中性；通过离心机（转速为13 000 r/
+
+硝硫混酸溶液，分别通过活塞平流泵输送至预热盘
+
+管，经预热盘管预热到设定反应温度后通过T 型混
+
+min，离心时间为10 min）离心分离获得固体；以N⁃
+
+合方式实现有效混合；混合后的反应液进入毛细管
+
+甲基吡咯烷酮为溶剂定容后，通过高效液相色谱仪
+
+定量分析固体中蒽醌、1⁃硝基蒽醌及1,8⁃二硝基蒽
+
+式微反应器进行硝化反应，用大量去离子水稀释出
+
+第1 期 主 凯等. 连续流微反应器内蒽醌硝化反应规律研究
+
+加，1⁃硝基蒽醌选择性增加，1,8⁃二硝基蒽醌收率减
+
+醌的浓度。
+
+少。由此可见，硝化反应过程中需要选择合适的蒽
+
+结果与讨论
+
+醌流量以确保蒽醌有效转化的同时保持较高的目
+
+2.1 反应温度的影响
+
+标产物选择性。
+
+在停留时间为12.0 min、n（HNO3）/n（蒽醌）为
+
+2.0、蒽醌浓度为0.2 mol/L、硫酸质量分数（硝硫混
+
+酸中硫酸的质量分数，下同）为95.0% 的条件下，考
+
+察了反应温度对蒽醌转化率、1⁃硝基蒽醌（目标产
+
+物）收率、1,8⁃二硝基蒽醌（重要副产物）收率、1⁃硝
+
+基蒽醌选择性的影响规律，结果如图2 所示。由图2
+
+可知，当反应温度由20 ℃增加到70 ℃时，蒽醌转化
+
+率从3.7% 升高到79.0%，增加幅度显著，可见反应
+
+温度可有效促进硝化反应的进行；随着反应温度的
+
+升高，1⁃硝基蒽醌的收率呈先增加后降低的趋势，而
+
+图3 蒽醌体积流量对蒽醌硝化反应的影响
+
+1,8⁃二硝基蒽醌收率逐渐增大。以上结果表明，在
+
+Fig.3 Effect of volumetric flow rate of anthraquinone on
+
+硝化反应过程中升高反应温度可以加速硝化反应
+
+the nitration of anthraquinone
+
+的进行，但同时也容易加剧生成二硝化产物的反
+
+2.3 n（HNO3）/n（蒽醌）的影响
+
+应。因此，反应温度需要控制在一定范围，以有效
+
+n（HNO3）/n（蒽醌）直接影响硝化反应体系中
+
+调控一硝化和二硝化反应的发生程度。
+
+硝酰阳离子的浓度，进而改变蒽醌硝化反应速率。
+
+在反应温度为60 ℃、停留时间为12.0 min、蒽醌浓度
+
+为0.2 mol/L、硫酸质量分数为95.0% 的条件下，考
+
+察了n（HNO3）/n（蒽醌）对蒽醌转化率、1⁃硝基蒽醌
+
+收率、1,8⁃二硝基蒽醌收率、1⁃硝基蒽醌选择性的影
+
+响规律，结果如图4所示。
+
+图2 反应温度对蒽醌硝化反应的影响
+
+Fig.2 Effect of reaction temperature on the nitration of
+
+anthraquinone in microreactor
+
+2.2 蒽醌体积流量的影响
+
+在连续流硝化反应过程中，控制管长一定，蒽
+
+醌体积流量的变化会改变反应停留时间和反应体
+
+图4 n（HNO3）/n（蒽醌）对蒽醌硝化反应的影响
+
+系中各反应物的混合效果。在反应温度为60 ℃、停
+
+Fig.4 Effect of molar ratio of nitric acid to anthraquinone
+
+留时间为5.6~12.0 min、n（HNO3）/n（蒽醌）为2.0、
+
+on the nitration of anthraquinone
+
+蒽醌浓度为0.2 mol/L、硫酸质量分数为95.0% 的条
+
+件下，考察了蒽醌体积流量对蒽醌转化率、1⁃硝基蒽
+
+由图4 可知，随着n（HNO3）/n（蒽醌）的增大，蒽
+
+醌收率、1,8⁃二硝基蒽醌收率、1⁃硝基蒽醌选择性的
+
+醌转化率呈先增大后略微降低再增大的趋势。虽
+
+影响规律，结果如图3 所示。由图3 可知，随着蒽醌
+
+然n（HNO3）/n（蒽醌）的增大可提供更多的硝酰阳
+
+体积流量的增加，蒽醌转化率从65.4% 降低到
+
+离子，从而促进蒽醌转化，但增大n（HNO3）/n（蒽
+
+44.2%，虽然蒽醌体积流量的增加可改善硝化反应
+
+醌）需改变物料流量以确保停留时间不变，随之引
+
+过程中各反应物的混合效果，促进蒽醌转化率，但
+
+起混合效果的变化，导致蒽醌转化率略微降低。由
+
+图4 还可知，随着n（HNO3）/n（蒽醌）的增大，1⁃硝基
+
+是蒽醌体积流量变化带来的停留时间的改变对蒽
+
+蒽醌选择性降低，1,8⁃二硝基蒽醌收率增大。以上
+
+醌转化率的影响更为显著；随着蒽醌体积流量的增
+
+石油化工高等学校学报 第37 卷
+
+结果表明，二硝化副反应的发生是导致1⁃硝基蒽醌
+
+选择性降低的主要原因。
+
+2.4 蒽醌浓度的影响
+
+根据反应动力学原理，反应速率除了受反应温
+
+度显著影响外，与反应原料的浓度直接相关。在反
+
+应温度为60 ℃、停留时间为2.4 min，n（HNO3）/
+
+n（蒽醌）为2.0、硫酸质量分数为95.0% 的条件下，
+
+考察了蒽醌浓度对蒽醌转化率、1⁃硝基蒽醌收率、
+
+1,8⁃二硝基蒽醌收率、1⁃硝基蒽醌选择性的影响规
+
+律，结果如图5 所示。
+
+图6 停留时间对蒽醌硝化反应的影响
+
+Fig.6 Effect of residence time on the nitration of anthra⁃
+
+quinone
+
+2.6 硫酸质量分数的影响
+
+在以硝硫混酸为硝化试剂的传统硝化反应过
+
+程中，硫酸质量分数直接影响硝酰阳离子的生成及
+
+其与反应底物相互作用的效果。在反应温度为
+
+60 ℃、停留时间为12.0 min、n（HNO3）/n（蒽醌）为
+
+2.0、蒽醌浓度为0.2 mol/L 的条件下，考察了硫酸质
+
+量分数对蒽醌转化率、1⁃硝基蒽醌收率、1,8⁃二硝基
+
+图5 蒽醌浓度对蒽醌硝化反应的影响
+
+蒽醌收率、1⁃硝基蒽醌选择性的影响规律，结果如图
+
+Fig.5 Effect of concentration of anthraquinone on the
+
+7 所示。
+
+nitration of anthraquinone
+
+由图5 可知，随着蒽醌浓度的增加，蒽醌转化
+
+率、1⁃硝基蒽醌收率及1,8⁃二硝基蒽醌收率均呈先
+
+增加后降低的趋势，1⁃硝基蒽醌选择性则出现先降
+
+低后趋于平缓的现象。这是因为：随着蒽醌浓度的
+
+增加，一方面本征反应速率加快，另一方面反应原
+
+料的流量发生变化进而引起混合效果的变化，在这
+
+两方面的共同作用下导致蒽醌转化率、1⁃硝基蒽醌
+
+收率、1, 8 ⁃ 二硝基蒽醌收率呈先增加后降低的
+
+趋势。
+
+2.5 停留时间的影响
+
+图7 硫酸质量分数对蒽醌硝化反应的影响
+
+停留时间是影响硝化反应的重要因素，为了排
+
+Fig.7 Effect of sulfuric acid mass fraction on the nitration
+
+除混合对反应的影响，停留时间的改变通过改变管
+
+of anthraquinone
+
+长来控制。在反应温度60 ℃、n（HNO3）/n（蒽醌）
+
+由图7 可知，随着硫酸质量分数由85.0% 增加
+
+为2.0、蒽醌浓度为0.2 mol/L、硫酸质量分数为
+
+至95.0%，蒽醌转化率和1⁃硝基蒽醌收率均呈现总
+
+95.0% 的条件下，考察了停留时间对蒽醌转化率、
+
+体下降的趋势，而1,8⁃二硝基蒽醌收率和1⁃硝基蒽
+
+1⁃硝基蒽醌收率、1,8⁃二硝基蒽醌收率、1⁃硝基蒽醌
+
+醌选择性则分别维持在14.0%、39.0% 附近。硫酸
+
+选择性的影响规律，结果如图6 所示。
+
+由图6 可知，蒽醌转化率随停留时间的增加先
+
+质量分数的降低，一方面会导致硝酰阳离子的显著
+
+显著升高后略有下降，1⁃硝基蒽醌的收率呈现先逐
+
+减少，从而使硝化反应速率降低；另一方面会使反
+
+应体系黏度降低，从而反过来促进硝化反应中的传
+
+渐增加后略有下降的趋势，而选择性先下降后略有
+
+升高，1,8⁃二硝基蒽醌收率随停留时间的增加，先
+
+质过程，加快硝化反应的进行。因此，以上两方面
+
+因素的共同作用导致硝化反应过程中蒽醌转化率
+
+逐渐增加后略有下降。因此，在蒽醌硝化反应过程
+
+和1⁃硝基蒽醌收率随硫酸质量分数的增大呈现总
+
+中选择合适的停留时间并及时终止硝化反应，有益
+
+于获得较高收率的目标产物1⁃硝基蒽醌。
+
+体下降的变化趋势。
+
+第1 期 主 凯等. 连续流微反应器内蒽醌硝化反应规律研究
+
+结 论
+
+观反应动力学。微反应器作为一种高效的新型反
+
+应平台，为精确调控硝化反应工艺参数提供了有效
+
+基于微反应器，探究了蒽醌混酸硝化反应工艺
+
+手段，从而在一定程度上操控目标产物的选择性并
+
+参数对硝化反应的影响规律。结果表明，在蒽醌硝
+
+有效抑制二硝化产物的生成。本研究借助微反应
+
+化反应过程中，一硝化和二硝化反应之间竞争显
+
+器实现了对反应条件的优化，从而提高了目标产物
+
+著，直接影响目标产物的选择性；硝化反应时间的
+
+的选择性和收率。研究结果对合成化学中硝化反
+
+精确调控有利于提高目标产物1⁃硝基蒽醌的收率。
+
+应的研究和工业应用具有重要意义。
+
+硝化反应工艺参数直接影响物料的混合特性和表
+
+参 考 文 献
+
+［1］ BIEN H S，STAWITZ J，WUNDERLICH K.Anthraquinone dyes and intermediates［M］.New York：John Wiley & Sons，2000.
+
+［2］ 曹阳，吕春绪，蔡春，等. 蒽醌混酸硝化与O3⁃NO2硝化产物分布的理论研究［J］. 化学通报，2002，65（12）：531⁃835.
+
+CAO Y，Lü C X，CAI C，et al.A theoretical study on the product distribution of anthraquinone nitration by mixed acid and by
+
+O3⁃NO2 system［J］.Chemistry，2002，65（12）：531⁃835.
+
+［3］ 苏晨飞，王进，曹彬，等. 微反应器内低碳醇水蒸气重整制氢研究进展［J］. 天然气化工（C1 化学与化工），2022，47（1）：1⁃7.
+
+SU C F，WANG J，CAO B，et al.Research progress of hydrogen production by steam reforming of low carbon alcohols in
+
+microreactor［J］.Natural Gas Chemical Industry，2022，47（1）：1⁃7.
+
+［4］ 刘冠颖，方玉诚，郭辉进，等. 微反应器发展概况［J］. 当代化工，2010，39（3）：315⁃318.
+
+LIU G Y，FANG Y C，GUO H J，et al.Development of microreactors［J］.Contemporary Chemical Industry，2010，39（3）：
+
+315⁃318.
+
+［5］ 刘江华，甄新平，熊良铨，等. 克拉玛依稠油减四线馏分微反应器脱酸中试研究［J］. 石油炼制与化工，2012，43（5）：29⁃31.
+
+LIU J H，ZHEN X P，XIONG L Q，et al.Pilot plant test of removing naphthenic acid from 4th vacuum cut of Karamay heavy
+
+crude via microreactor［J］.Petroleum Processing and Petrochemicals，2012，43（5）：29⁃31.
+
+［6］ 杨萍，李有喜，蔡武锋，等. 双金属MOF⁃74（MgxNi1⁃x）的制备及其对CO2/N2的吸附分离性能研究［J］. 辽宁石油化工大学
+
+学报，2022，42（6）：1⁃7.
+
+YANG P，LI Y X，CAI W F，et al. Preparation of bimetallic MOF ⁃ 74（MgxNi1⁃x） and its adsorption and separation
+
+performance for CO2/N2［J］.Journal of Liaoning Petrochemical University，2022，42（6）：1⁃7.
+
+［7］ 辛靖，朱元宝，胡淼，等. 微化工技术的研究与应用进展［J］. 石油化工高等学校学报，2020，33（5）：8⁃13.
+
+XIN J，ZHU Y B，HU M，et al.Research and application progress of microchemical technology［J］.Journal of Petrochemical
+
+Universities，2020，33（5）：8⁃13.
+
+［8］ HARTMAN R L. Flow chemistry remains an opportunity for chemists and chemical engineers［J］. Current Opinion in
+
+Chemical Engineering，2020，29：42⁃50.
+
+［9］ 陈光文，赵玉潮，乐军，等. 微化工过程中的传递现象［J］. 化工学报，2013，64（1）：63⁃75.
+
+CHEN G W，ZHAO Y C，YUE J，et al.Transport phenomena in micro⁃chemical engineering［J］.CIESC Journal，2013，64
+
+（1）：63⁃75.
+
+［10］李光晓，刘塞尔，苏远海. 微尺度内液⁃液传质及反应过程强化的研究进展［J］. 化工学报，2021，72（1）：452⁃467.
+
+LI G X，LIU S E，SU Y H. Research progress on micro ⁃ scale internal liquid ⁃ liquid mass transfer and reaction process
+
+enhancement［J］.CIESC Journal，2021，72（1）：452⁃467.
+
+［11］TANIMU A，JAENICKE S，ALHOOSHANI K. Heterogeneous catalysis in continuous flow microreactors：A review of
+
+methods and applications［J］.Chemical Engineering Journal，2017，327：792⁃821.
+
+［12］RUSSO D，TOMAIUOLO G，ANDREOZZI R，et al.Heterogeneous benzaldehyde nitration in batch and continuous flow
+
+microreactor［J］.Chemical Engineering Journal，2019，377：120346.
+
+［13］YANG A M，YUE J C，ZHENG S Q，et al.Experimental investigation of mononitrotoluene preparation in a continuous⁃flow
+
+microreactor［J］.Research on Chemical Intermediates，2022，48（10）：4373⁃4390.
+
+［14］LI S F，ZHANG X L，JI D S，et al.Continuous flow nitration of 3⁃［2⁃chloro⁃4⁃（trifluoromethyl） phenoxy］ benzoic acid and
+
+its chemical kinetics within droplet⁃based microreactors［J］.Chemical Engineering Science，2022，255：117657.
+
+［15］CUI Y J，SONG J，DU C C，et al.Determination of the kinetics of chlorobenzene nitration using a homogeneously continuous
+
+microflow［J］.AIChE Journal，2022，68（4）：e17564.
+
+［16］ZHAO W Y，ZHANG Q，WEI W，et al.Safe，green，and efficient synthesis of m⁃dinitrobenzene via two⁃step nitration in a
+
+continuous⁃flow microreactor［J］.ChemistrySelect，2023，8（14）：e202204997.
+
+［17］GUO S，CAO J Y，LIU M Q，et al.Intensification and kinetic study of trifluoromethylbenzen nitration with mixed acid in the
+
+microreactor［J］.Chemical Engineering and Processing⁃Process Intensification，2023，183：109239.
+
+（编辑 闫玉玲）

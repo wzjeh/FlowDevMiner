@@ -1,0 +1,21 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| reactor_length | conversion_rate | increase |
+| residence_time | product_selectivity | decrease |
+| residence_time | conversion_rates | decrease |
+| temperature | stability_of_reaction_mixture | decrease |
+| H2O2_flow_rate | conversion_efficiency | decrease |
+| reactor_length | product_selectivity | increase |
+| temperature | reaction_rates | decrease |
+| initial_dye_concentration | conversion_efficiency | decrease |
+| residence_time | stability | increase |
+| temperature | reaction_rates | decrease |
+| H2O2_flow_rate | conversion_efficiency | decrease |
+| H2O2_flow_rate | product_selectivity | decrease |
+| initial_PI_concentration | stability | increase |
+| initial_PI_concentration | reaction_rates | decrease |
+| reactor_length | product_selectivity | increase |
+| reactor_length | conversion_efficiency | decrease |
+| temperature | reaction_rates | decrease |

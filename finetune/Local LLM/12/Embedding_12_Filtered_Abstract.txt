@@ -1,0 +1,18 @@
+nitroaromatic compound in toluene) seems to be the rate-de- termining step of the process. At higher flow rates of H2 (30 mLmin¢1), the conversion of nitroaromatic compound and selectivity for hydrogenation of a nitro group are inde- pendent of the gas velocity, which indicates that, under these conditions, external mass-transfer limitations are absent. Sub- sequently, all catalytic tests were pe
+
+Figure 3. a) Conversion of 3-VNB over the 1.9% Au/Al2O3 catalyst as a func- tion of residence time for different temperatures. The symbols represent the experimental data, whereas the lines represent the model fit to the experi- mental data. b) Arrhenius plot of the rate constant (k, s¢1) of 3-VNB hydroge- nation. Reaction conditions: a packed-bed flow reactor; [3-VNB]inlet=0.05m; solvent: toluene
+
+The time-on stream performance of the Au/Al2O3 catalyst under the conditions of liquid-phase hydrogenation of substi- tuted nitrobenzenes in a packed-bed flow reactor was studied at 808C and the hydrogen pressure of 10 bar for up to 2 h of continuous operation. During this period, liquid samples of the reaction flow were taken every 20 min at the reactor outlet and analyzed by GC. As a result, smo
+
+Table 1 presents the results obtained with the 1.9%Au/Al2O3 catalyst for the liquid-phase hydrogenation of isomeric CNBs in a packed-bed flow reactor at 70–1108C, with a H2 flow rate of 60 mLmin¢1 (p(H2)=10 bar) and flow rate of a solution of CNB
+
+[a] Reaction conditions: [4-ANB]inlet=0.05m; solvent: toluene; p(H2)= 10 bar; mass of the catalyst: 0.185 g; flow rates of the liquid phase and H2: 0.5 and 60 mLmin¢1, respectively (inlet H2/4-ANB molar ratio=107); reaction time=30–38 min. 4-AAN=4-acetylaniline, 4-VAN=4-vinylaniline, 4–EAN=4-ethylaniline, n.d.=not detected.
+
+[a] Reaction conditions: [3-VNB]inlet=0.05m; solvent: toluene; p(H2)= 10 bar, mass of the catalyst: 0.185 g; flow rates of the liquid phase and H2: 0.5 and 60 mLmin¢1, respectively (inlet H2/3-VNB molar ratio=107); reaction time=30–38 min. 3-VNSB=3-vinylnitrosobenzene, 3-EAN=3- ethylaniline.
+
+To date, hydrogenation of aromatic nitro compounds was performed in either liquid-phase batch reactors[5–8] or gas- phase flow reactors[4,9,10] and, to the best of our knowledge, has never been examined under continuous liquid-phase flow conditions. Meanwhile, the last decade has witnessed rapid
+
+[a] Reaction conditions: [CNB]inlet=0.05m; solvent: toluene; p(H2)= 10 bar; mass of the catalyst: 0.185 g; flow rates of the liquid phase and H2: 0.5 and 60 mLmin¢1, respectively (inlet H2/CNB molar ratio=107); re- action time=30–38 min. [b] Tested at p(H2)=40 bar. CAN=chloroaniline, CNSB=chloronitrosobenzene, n.d.=not detected.
+
+Summary: The paragraph describes a flow-chemistry process development for the conversion of 3-vinylbenzene (3-VNB) over an Au/Al2O3 catalyst in a fixed-bed reactor under varying reaction temperatures and constant H2 flow rate. The key reactants are 3-VNB, solvent is not mentioned, and the catalyst is Au/Al2O3. The products are not specified. The reactor type is a fixed-bed reactor with an inlet H2/3-VNB molar ratio>35 to avoid external mass-transfer limitations. Critical conditions include varying reaction temperatures (not mentioned), constant H2 flow rate of 60 mLmin¢1, and residence time t (fixed at different values for each temperature). The outcomes are displayed in Figure 3a as the conversion of 3-VNB measured 30–38 min after the start of the experiment.
+

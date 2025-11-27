@@ -1,0 +1,105 @@
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["trifluoromethoxybenzene (TFMB)", "fuming nitric acid", "sulfuric acid"],
+    "products": ["p-nitro trifluoromethyl benzene (p-NB)"],
+    "conditions": [
+      {"type": "temperature", "value": 273 K},
+      {"type": "residence_time", "value": 2.8 min}
+    ],
+    "reactor": {
+      "type": "packed tubular",
+      "inner_diameter": null
+    },
+    "metrics": {
+      "conversion": 99.6,
+      "yield": 89.75,
+      "selectivity": null,
+      "unit": "%"
+    }
+  }
+}
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["trifluoromethoxybenzene (TFMB)", "fuming nitric acid", "sulfuric acid"],
+    "products": ["p-nitro trifluoromethyl benzene (p-NB)"],
+    "conditions": [
+      {"type": "temperature", "value": 278 K},
+      {"type": "residence_time", "value": null}
+    ],
+    "reactor": {
+      "type": "microchannel",
+      "inner_diameter": null
+    },
+    "metrics": {
+      "conversion": null,
+      "yield": null,
+      "selectivity": null,
+      "unit": "%"
+    }
+  }
+}
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["trifluoromethoxybenzene (TFMB)", "fuming nitric acid", "sulfuric acid"],
+    "products": ["p-nitro trifluoromethyl benzene (p-NB)"],
+    "conditions": [
+      {"type": "temperature", "value": 273 K},
+      {"type": "residence_time", "value": null}
+    ],
+    "reactor": {
+      "type": "microchannel",
+      "inner_diameter": null
+    },
+    "metrics": {
+      "conversion": null,
+      "yield": null,
+      "selectivity": 94.7,
+      "unit": "%"
+    }
+  }
+}
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["trifluoromethoxybenzene (TFMB)", "fuming nitric acid", "sulfuric acid"],
+    "products": ["p-nitro trifluoromethyl benzene (p-NB)"],
+    "conditions": [
+      {"type": "temperature", "value": 273 K},
+      {"type": "residence_time", "value": null}
+    ],
+    "reactor": {
+      "type": "microchannel",
+      "inner_diameter": null
+    },
+    "metrics": {
+      "conversion": 99.6,
+      "yield": 89.75,
+      "selectivity": 94.7,
+      "unit": "%"
+    }
+  }
+}
+{
+  "reaction_summary": {
+    "reaction_type": "nitration",
+    "reactants": ["trifluoromethoxybenzene (TFMB)", "fuming nitric acid", "sulfuric acid"],
+    "products": ["p-nitro trifluoromethyl benzene (p-NB)"],
+    "conditions": [
+      {"type": "temperature", "value": 273 K},
+      {"type": "residence_time", "value": null}
+    ],
+    "reactor": {
+      "type": "microchannel",
+      "inner_diameter": null
+    },
+    "metrics": {
+      "conversion": 99.6,
+      "yield": 89.75,
+      "selectivity": 94.7,
+      "unit": "%"
+    }
+  }
+}

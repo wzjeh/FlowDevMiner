@@ -1,0 +1,20 @@
+In recent years, microchannel reactor technology has demonstrated considerable potential in chemical synthesis. Compared to conventional batch reactors [21,22], continuous-flow microchannel reactors offer distinct advantages, including a high surface area-to-volume ratio,
+
+The continuous-flow microreactor (Model KX-P3-Pro) incorporated
+
+Fig. 1. Fig. caption. (a) The continuous-flow microchannel reactor consists of three independent components: the microreactor, the LED illumination module, and the heating module.(b) The microreactor is composed of five modules, including a premixing module.(c) The mixing and reaction module is a coil-type reactor.
+
+As illustrated in Fig. 1, the continuous-flow microreactor system comprises three core subsystems: a modular microreactor assembly, an LED illumination unit, and a temperature control module (Fig. 1(a)).The microreactor assembly integrates five functional segments: a premixing module (Fig. 1(b)) followed by four coiled FEP reaction modules (Fig. 1 (c)). Each reaction module has a coil configuratio
+
+As depicted in Fig. 2, Solution A was preheated to 70◦C via a ther­ mostatted plunger pump and fed into the reaction system. Simulta­ neously, Gas B (Cl₂) was delivered from a high-pressure cylinder regulated by a pressure-reducing valve and mass flow controller. The two streams underwent premixing before entering the microchannel reactor. Reaction progression occurred under controlled temperature
+
+millimeter-scale channels to establish plug flow with minimal back mixing, enabling efficient thermal management and precise regulation of reaction conditions.
+
+Summary: The paragraph discusses flow-chemistry process development using a microchannel reactor for precise control of reaction feedstocks in a confined space. The system efficiently dissipates excess process heat and establishes stable external conditions that enhance product purity while significantly improving target product yield and selectivity. This approach accelerates chlorination kinetics and partially mitigates safety concerns associated with liquid chlorine. No specific reaction type, key reactants/solvent/catalyst, products, reactor details (type/ID), critical conditions (flow rate(s), residence time, temperature, pressure), or outcomes (conversion/yield/selectivity) are mentioned in the context of flow-chemistry process development.
+
+The sharp increase in EC conversion at 12.5 min may be attributed to homogeneous gas-liquid mixing within the microchannel reactor, which forms a gas-in-liquid dispersion favorable for interfacial reactions. In contrast, the significant decline in EC conversion at residence times beyond 25 min is likely due to the transition to a liquid-in-gas disper­ sion, where uneven mixing reduces mass transfe
+
+enhanced heat and mass transfer efficiency, operational flexibility, enhanced safety, and minimal by-product formation. These features enable precise control of reaction conditions, leading to high selectivity and simplified scalability. Consequently, continuous-flow microchannel reactors have found broad application in photocatalytic chemistry, encompassing photocatalytic halogenation of benzyl c
+
+Summary: The paragraph discusses a flow-chemistry process development involving a photo­ catalytic reaction in a microchannel reactor system. The key reactants are ethylene (EC) and chlorine (Cl₂), with the molar ratio of EC:Cl₂ being 1:0.48. The products formed are not mentioned. The reactor type is a microchannel reactor, but its ID is not specified. The critical conditions include a temperature of 85°C and residence times ranging from 12.5 to 25 min. The reaction is monitored by measuring the conversion of EC, which initially increases with residence time before peaking at 38.9% at 18.5 min and then declining significantly at 25 min.
+

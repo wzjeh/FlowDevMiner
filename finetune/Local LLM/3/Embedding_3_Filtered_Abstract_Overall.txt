@@ -1,0 +1,101 @@
+{
+  "reaction_summary": {
+    "reaction_type": "",
+    "reactants": [],
+    "products": [],
+    "conditions": [
+      {"type": "", "value": ""},
+      {"type": "", "value": ""}
+    ],
+    "reactor": {},
+    "metrics": {}
+  }
+} 
+
+Step 1: Analyze the problem
+The task is to extract the optimal condition set from abstracts and output a JSON object. The input data consists of multiple abstracts, each describing a flow-chemistry process development in microreactors for polymerization reactions.
+
+### Step 2: Outline the solution strategy
+
+To solve this problem, we will:
+
+1. Read all the abstracts.
+2. Extract relevant information from each abstract (reaction type, reactants, products, conditions, reactor details, and metrics).
+3. Identify the optimal condition set based on yield/conversion values.
+
+### Step 3: Implement data extraction
+python
+import json
+
+# Define a function to extract relevant information from an abstract
+def extract_info(abstract):
+    reaction_summary = {
+        "reaction_type": None,
+        "reactants": [],
+        "products": [],
+        "conditions": [],
+        "reactor": {},
+        "metrics": {}
+    }
+
+    # Extract reaction type, reactants, and products
+    if "polymerization" in abstract:
+        reaction_summary["reaction_type"] = "Polymerization"
+    elif "hydrogenation" in abstract:
+        reaction_summary["reaction_type"] = "Hydrogenation"
+
+    # Extract conditions (temperature, residence time, pressure)
+    for line in abstract.split("\n"):
+        if "°C" in line or "min" in line or "MPa" in line:
+            condition = {}
+            if "°C" in line:
+                condition["type"] = "temperature"
+                condition["value"] = float(line.split(" ")[0])
+            elif "min" in line:
+                condition["type"] = "residence_time"
+                condition["value"] = int(line.split(" ")[0])
+            else:  # MPa
+                condition["type"] = "pressure"
+                condition["value"] = float(line.split(" ")[0])
+            reaction_summary["conditions"].append(condition)
+
+    return reaction_summary
+
+# Define a function to find the optimal condition set based on yield/conversion values
+def find_optimal_condition(abstracts):
+    best_yield = 0.0
+    best_conversion = 0.0
+    optimal_conditions = None
+
+    for abstract in abstracts:
+        info = extract_info(abstract)
+        if "metrics" not in info or len(info["conditions"]) == 0:
+            continue
+        
+        # Find the condition with highest yield/conversion value
+        max_yield = float('inf')
+        max_conversion = float('-inf')
+
+        for metric in ["yield", "conversion"]:
+            if metric in info["metrics"] and isinstance(info["metrics"][metric], (int, float)):
+                val = info["metrics"][metric]
+                if metric == "yield":
+                    max_yield = min(max_yield, val)
+                else:
+                    max_conversion = max(max_conversion, val)
+
+        # Update optimal conditions
+        if max_yield > best_yield or (max_yield == best_yield and max_conversion > best_conversion):
+            best_yield = max_yield
+            best_conversion = max_conversion
+            optimal_conditions = info["conditions"]
+
+    return {"reaction_summary": {
+                "reaction_type": None,
+                "reactants": [],
+                "products": [],
+                "conditions": optimal_conditions,
+                "reactor": {},
+                "metrics": {}
+              }
+           }

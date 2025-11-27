@@ -1,0 +1,52 @@
+{
+  "reaction_type": "oxidative polymerization",
+  "reactants": [
+    {
+      "name": "aniline",
+      "role": "reactant"
+    },
+    {
+      "name": "ammonium persulfate",
+      "role": "catalyst"
+    },
+    {
+      "name": "hydrochloric acid",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "polyaniline",
+      "yield_optimal": 82.1,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "40 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "95 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "capillary microreactor",
+    "inner_diameter": "1.0 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 82.1,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

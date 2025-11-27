@@ -1,0 +1,49 @@
+{
+            "reaction_summary": {
+                "reaction_type": reaction_type,
+                "reactants": [{"name": name, "role": role}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"name": name, "role": role}
+
+{"name": name, "role": role}
+
+{"conversion": None, "yield": None, "selectivity": None}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mm"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp = re.search(r"(\d+) °C", text)
+    if match_temp:
+        temp = int(match_temp.group(1))
+    
+    match_res_time = re.search(r"in (\d+ min)", text)
+    if match_res_time:
+        res_time = float(match_res_time.group(1))
+
+    # Parse flow rates
+    reactant_A_flow_rate = None
+    reactant_B_flow_rate = None
+    total_flow_rate = None
+    
+    match_reactant_A_flow_rate = re.search(r"(\d+) mL/min", text)
+    if match_reactant_A_flow_rate:
+        reactant_A_flow_rate = float(match_reactant_A_flow_rate.group(1))
+    
+    match_reactant_B_flow_rate = re.search(r"A (\d+) mL/min, B (\d+) mL/min", text)
+    if match_reactant_B_flow_rate:
+        reactant_A_flow_rate = float(match_reactant_B_flow_rate.group(1))
+        total_flow_rate = float(match_reactant_B_flow_rate.group(2))
+
+    # Parse pressure
+    pressure
+
+{"name": name, "role": role}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mm"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+

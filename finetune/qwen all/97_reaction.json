@@ -1,0 +1,56 @@
+{
+  "reaction_type": "Suzuki-Miyaura cross-coupling",
+  "reactants": [
+    {
+      "name": "4-nitrobenzene diazonium tetrafluoroborate",
+      "role": "reactant"
+    },
+    {
+      "name": "phenylboronic acid",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd(OAc)2",
+      "role": "catalyst"
+    },
+    {
+      "name": "MeOH",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "4-nitrobiphenyl",
+      "yield_optimal": 99.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "25 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "13 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "capillary microreactor",
+    "inner_diameter": "1.0 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 99.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

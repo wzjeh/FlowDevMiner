@@ -1,0 +1,10 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | selectivity to MBE | decrease |
+| flow_rate | conversion of MBY | decrease |
+| temperature | conversion of MBY | increase |
+| hydrogen_partial_pressure | selectivity to MBE | decrease |
+| reactant_concentration | conversion of MBY | increase |
+| catalyst_loading | activity | increase |

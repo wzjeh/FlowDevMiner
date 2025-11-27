@@ -1,0 +1,52 @@
+{
+  "reaction_type": "free radical polymerization",
+  "reactants": [
+    {
+      "name": "butyl acrylate",
+      "role": "reactant"
+    },
+    {
+      "name": "2,2-azobis(isobutyronitrile)",
+      "role": "catalyst"
+    },
+    {
+      "name": "water",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "poly(butyl acrylate)",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "100 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "5 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "550 μL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "coaxial capillary",
+    "inner_diameter": "0.53 mm"
+  },
+  "metrics": {
+    "conversion": 95.0,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

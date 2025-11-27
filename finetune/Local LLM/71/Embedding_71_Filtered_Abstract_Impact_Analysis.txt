@@ -1,0 +1,11 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rate | bulk_conversion | decrease |
+| flow_rate | yield | decrease |
+| bulk_conversion | recovery_of_starting_material | increase |
+| current_density | conversion_of_TFMB | increase |
+| flow_rate | recovery_of_starting_material | decrease |
+| residence_time | conversion_of_TFMB | increase |
+| residence_time | product_selectivity | unchanged |

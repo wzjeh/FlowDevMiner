@@ -1,0 +1,32 @@
+{ "reaction_summary": {  "reaction_type":"nitration",  "reactants":[{"name":"organic substrates","role":"reactant"}, {"name":"concentrated HNO3 or NO2-","role":"nitrating agent"}],  "products":[    {"name":"various nitro compounds","yield_optimal":95,"unit":"%"}
+
+{
+        "reaction_summary": {
+            "reaction_type": reaction_type,
+            "reactants": [{"name": "etherate", "role": "solvent"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": {  "reaction_type":"null",  "reactants":[],  "products":[{"name":"null","yield_optimal":82,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"80 °C"}
+
+{"name": 'Nitroated Organic Compound', "yield_optimal":optimal_yield,"unit":"%"}
+
+{
+        "conversion": None,
+        "yield": None,
+        "selectivity": None,
+        "unit": "%"
+    }
+
+{ "reaction_summary": { 
+"reaction_type":"multiphase microfluidics", 
+"reactants":[{"name":"mixed acid","role":"solvent"},{"name":"3-[2-chloro-4-(trifluoromethyl) phenoxy] benzoic acid (or etherate)","role":"reactant"}], 
+"products":[], 
+"conditions": [ {"type":"flow_rate_total","value":"0.1 mL/min"}, {"type":"temperature","value":"80 °C"}
+
+{ "reaction_summary": {  "reaction_type":"hydrogenation",  "reactants":[{"name":"organic substrate","role":"reactant"}, {"name":"hydrogen gas","role":"reactant"}],  "products":[{"name":"desired organic product","yield_optimal":95,"unit":"%"},{"name":"water","yield_optimal":5,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"... °C"},    {"type":"residence_time","value":"13.8 min"}
+
+{"name": name, "yield_optimal": 95 - (100 * selectivity), "unit": "%"}
+
+{"name": name, "role": role}
+

@@ -1,0 +1,401 @@
+Contents lists available at ScienceDirect
+
+Process Safety and Environmental Protection
+
+journal homepage: www.elsevier.com/locate/psep
+
+Scale-up and safety of toluene nitration in a meso-scale flow reactor
+
+]]]] ]]]]]]
+
+Gang Fua, Lei Nia,⁎, Dan Weia, Juncheng Jianga,b,⁎, Zhiquan Chena, Yong Pana
+
+a College of Safety Science and Engineering, Nanjing Tech University, 211816 Nanjing, PR China b School of Environmental and Safety Engineering, Changzhou University, 213159 Changzhou, PR China
+
+a r t i c l e i n f o
+
+a b s t r a c t
+
+Article history: Received 1 November 2021 Received in revised form 15 February 2022 Accepted 15 February 2022 Available online 18 February 2022
+
+In this study, toluene nitration was scaled up in a meso-scale flow reactor and safety was considered. The exothermic characteristic was demonstrated in a batch calorimeter. Parallel flow was observed in the flow channel and numerical simulation was carried out to show the hydrodynamics. Mass transfer coefficient of the reactor mixer was determined. The effects of flow rates, temperatures and molar ratios on toluene nitration in the flow reactor were analyzed. The conversion of toluene increased from 26% to 86% with the increase of flow rates while the impacts of temperatures and molar ratios were comparatively small. A productivity of 2572 kg/a could be achieved by this meso-scale flow reactor but the highest over­ temperature inside the channel was more than 21.3 ∘C. A comparison between performances of the batch calorimeter and the flow reactor was also presented. The finding of this study can serve as a reference to design inherently safer meso-scale flow reactors for kinetically fast and highly-exothermic reactions. © 2022 Institution of Chemical Engineers. Published by Elsevier Ltd. All rights reserved.
+
+Keywords: Microreactor Scale-up Two-phase flow Mass transfer Numerical simulation
+
+1. Introduction
+
+Continuous-flow chemistry, using reactors with channel dimen­ sions in the microor millimeter regions, is a relatively new field and have found widespread applications in the last couple of years (Gutmann et al., 2015; Anon, 2016; Elvira et al., 2013; Pastre et al., 2013). Microstructured systems efficiently utilize advantages re­ sulting from small scale. In comparison to conventional reactors, one of the main features of microreactors is the high surface-to-volume ratio (Kulkarni et al., 2009; Cherkasov et al., 2016). Their specific surface areas can reach up to 50000 m2∕m3, which is two or three orders of magnitude higher than conventional reactors (Jähnisch et al., 2004; Hu et al., 2019). Owing to this, heat transfer rate of microstructures is significantly improved and reactions can be car­ ried out under nearly isothermal conditions with exactly defined residence times. On account of the high heat removal efficiency and continuous operation mode, local hot spots which serve as ignitions for explosions are minimized (Newman and Jensen, 2013; Kockmann et al., 2017). On the other hand, as the dimensions of micro­ structured reactors are extremely small, the total inventory of ha­ zardous reactants in the reactors is quite little. The power of an explosion is proportional to the mass of explosives, thus the severity of a potential explosion in microstructures is low (Anon, 2016; Kockmann et al., 2017). Further, mixing time in microreactors can be shortened to several milliseconds due to the small dimensions of pathways. Therefore, microreactors are quite suitable for inherently safer re-design of fast and highly exothermic reactions (Hartman et al., 2011; Srinivasan and Natarajan, 2012).
+
+Nitration is one of the oldest reactions in industry and remains indispensable for the synthesis of fine chemicals, pharmaceuticals, pigments and energetic materials (Antes et al., 2003; Kulkarni, 2014). Generally, nitration is kinetically fast and highly exothermic. Conventional nitration was usually carried out in a batch or semi batch way. Insufficient heat removal efficiency of these reactors will potentially leads to heat accumulation and marked warming, which not only will lower the selectivity and yield of the products but also increase the reaction risk (Yasukouchi et al., 2018; Chen et al., 2020; Kuba et al., 2007; Saada et al., 2015). The safety issue of nitration has long been concerned due to the frequently happened accidents. The hazards of nitration stems from the exothermic nature of these re­ actions as well as the massive corrosive acids used in the process. In China, nitration reactions need key supervision according to gov­ ernment policy. Moreover, majority nitration is heterogeneous re­ actions typically containing organic and water phases (Kulkarni, 2014). Under conventional conditions in stirred batch reactors, ni­ tration rate is controlled both by mass transfer and reaction kinetics (Sreedhar et al., 2013; Gattrell and Louie, 2013; Milligan, 1986). As a result, the reaction time is prolonged and the products may differ from batch to batch.
+
+⁎ Corresponding authors at: College of Safety Science and Engineering, Nanjing Tech University, 211816 Nanjing, PR China.
+
+E-mail addresses: lei_ni@163.com (L. Ni), jcjiang_njtech@163.com (J. Jiang).
+
+https://doi.org/10.1016/j.psep.2022.02.036 0957-5820/© 2022 Institution of Chemical Engineers. Published by Elsevier Ltd. All rights reserved.
+
+Liquid nitration, a typical liquid-liquid two phase reaction which is easy to be conducted in microreactors, has been widely studied in recent years. Halder et al. (2007) carried out toluene nitration in a microreactor and the effects of residence time, solid acids, etc., were studied. The results showed that the reaction proceeded rapidly and no side products formed. Pelleter and Renaud (2009) developed a versatile and inexpensive microreactor unit to conduct nitration and bromination. It was demonstrated that the hazards of these reac­ tions could be lowered via the microfluidic technology. Chen et al. (2013) conducted a one-step dinitration to synthesize herbicides in a multifunctional continuous-flow microreactor. Solvent-free condi­ tion was employed and the effort to separate intermediates was saved. Cantillo et al. (2014) developed a continuous-flow protocol for the preparation of triaminophloroglucinol based on the sequential nitration/reduction of phloroglucinol and avoided the handling of a highly explosive intermediate. Li et al. (2017) studied the nitration process of 2-ethylhexanol and proposed its kinetic model. Wen et al. (2018) investigated the nitration of trifluoromethoxybenzene in a microchannel reactor and a quasi-homogeneous reaction kinetic model was proposed. However, most of these studies were carried out in bench-scale microreactors with low throughput, which did not match up to industrial demand. Brocklehurst et al. (2011) de­ monstrated the scale up of three homogeneous exothermic nitration reactions using commercially available equipment at high produc­ tion rates. Gage et al. (2012) designed a flow reactor, consisting of a 45 m long tube with 15 mm inner diameter, for scaling up an exo­ thermic nitration reaction on production scale. Yu et al. (2013) de­ veloped a green and practical continuous heterogeneous nitration process of p-difluorobenzene and excellent yield was achieved. Sharma et al. (2015) studied the continuous-flow nitration of o-xy­ lene with different nitrating agents and presented an economic feasibility analysis. It showed that numbering-up was a more eco­ nomical approach for higher production capacity and a combination of largeand small-sized tubes would achieve more profit. Russo et al. (2019) conducted benzaldehyde nitration in batch and a commercially available microreactor with embedded static mixer. A previously developed kinetic model under homogeneous conditions was extended and validated under heterogeneous conditions. Köckinger et al. (2020) described the development and scale-up of a continuous flow protocol for the preparation of N-(4-fluoro-2 methoxy-5-nitrophenyl) acetamide by a two-step telescoped acet­ ylation/nitration. Three different nitration strategies were evaluated and successfully transferred to pilot scale by using a larger-scale flow reactor. In these studies, scale-up was considered and high throughput was achieved. However, the main focus of these re­ searches was mass transfer efficiency or production capacity while heat management was usually ignored and safety issue was not taken seriously. Generally, scale-up of processes from laboratory scale to a pilot or full-scale is always a challenging task as the processing conditions of small scale is not compatible with large scale. For continuous-flow reactors, several key scale-up strategies can be distinguished: (a) longer operation times and higher flow rates, (b) parallel num­ bering-up by placing several devices in series, and (c) scale-out by a dimension-enlarging strategy (Anon, 2016; Zhang et al., 2017; Karan and Khan, 2019; Hessel et al., 2013). In the infancy of microfluidic technology, researchers often claimed that microreactors can be scaled up easily by numbering up (Elvira et al., 2013; Mason et al., 2007; Haswell and Watts, 2003). But this statement has been over­ ruled in recent years as it become evident that it is technologically far from easy to achieve (Anon, 2016; Chaudhuri et al., 2020; Rossetti and Compagnoni, 2016; Su et al., 2016; Zhao et al., 2018). By adopting higher flow rates to increase throughput needs longer re­ actor lengths and is limited by pressure loss (Hessel et al., 2013). As an alternate, dimension-enlarge seems a more feasible strategy (Russo et al., 2019; Nagy et al., 2012). Meanwhile, process safety
+
+should draw more attention as the enlarged reactor may not be in­ herent safe anymore (Liebner et al., 2012). Temperature and pressure are essential in scaling-up study for safety concerns. The main objective of this work was to scale up toluene nitration in a meso-scale flow reactor system by dimension enlarging strategy while considering process safety. To address this, the reaction was firstly carried out in a batch calorimeter using a semi-batch approach and the exothermic characteristic was de­ monstrated. Then a flow reactor with an outer diameter of 1/4 in. was adopted. The flow pattern of reactants inside the channel was determined experimentally and its hydrodynamic characteristics were shown using computational fluid dynamics (CFD) metho­ dology. Reactants temperatures and pressures were recorded by sensors. Mass and heat transfer were evaluated as well which were two significant parts for scaling-up. The effects of reactants flow rates, temperatures and molar ratios on toluene nitration were analyzed. A comparison between semi-batch and continuous reac­ tion modes was conducted to identify safety issues.
+
+2. Experimental and numerical simulation
+
+2.1. Reagents
+
+Succinic acid (≥99.5%) and acetonitrile (HPLC) were purchased from Aladdin. Nitric acid (95%), 1-butanol (≥99.5%) and sodium hy­ droxide (≥96.0%) were obtained from Sinopharm Chemical Reagent Co., Ltd. Toluene (≥99.5%) and sulfuric acid (98%) were supplied by Yonghua Chemical Co., Ltd. Sudan III and phenolphthalein were purchased from Macklin. Deionized water was also used in this work. All reagents were used without further purification.
+
+2.2. Nitration in the batch reactor
+
+In this study, a reaction calorimeter (RC1e, Mettler Toledo, Switzerland) consisting of a 1.8 L glass reactor and a four-pitched blade stirrer was employed to carry out toluene nitration in a semi batch way. A refrigerated-heating circulator (FP-52, Julabo, Germany) was connected to the reactor for temperature control. Nitric acid and sulfuric acid was used as the nitrating agents and the experimental procedure was as follows: Firstly, water, sulfuric acid and nitric acid (mass ratio 13/66/21) were loaded into the reactor in sequence. This composition remained unchanged in the study. Then the mixed acid was heated to 45∘C and the stirring rate was set at 350 rpm. After the reactants temperature (Tr) stabilized, 250 g to­ luene was dosed by a pump at a rate of 5 g/min while the jacket temperature (Tj) was kept at 45∘C. To fully complete the reaction, the condition was maintained for another hour after dosing. Finally, the reactants were cooled down and samples were taken for analysis. The temperatures of Tr and Tj during the whole process were re­ corded by the sensors.
+
+2.3. Flow pattern and CFD simulation in the Y-micromixer
+
+2.3.1. Experimental setting A Y-micromixer (Hastelloy) with a polytetrafluoroethylene (PTFE) channel connected at the end was used to investigate the flow pattern. The outer diameter of the channel was 1/4 in. and the wall thickness was 1 mm. During the process, the mixer was put on the table horizontally and the two inlets were at the same level. Toluene and mixed acid were pumped in by two metering pumps (Xingda, 2PB-10005III; Tauto, TBP-1H02SF, China), respectively. A small amount of Sudan III was added into toluene for better observation. The molar ratio of toluene/nitric-acid ranged from 1:1–1:1.4 and the total volumetric flow rate varied from 10 mL/min to 60 mL/min. The flow pattern was recorded by a camera.
+
+Table 1 Material properties of fluids used in simulation.
+
+Fluid Phase Density (kg/m3) Viscosity (Pa ⋅ s) Interfacial tension (N/m)
+
+Toluene primary 0.0005 0.0317 Mixed acid secondary 0.0047
+
+2.3.2. Numerical model and boundary conditions The flow of toluene and mixed acid was invisible inside the Y mixer as the material was opaque. To better understand the for­ mation of the flow regime, a 2D simulation was carried out. Toluene and mixed acid are considered as working fluids and their properties are summarized in Table 1. Volume of Fluid (VOF) model was used to track the liquid-liquid interface. Pressure velocity coupling was done by PISO method and "PRESTO!" scheme was utilized for the pressure interpolation (Bordbar et al., 2020; Gregorc, 2021). Two inlets were prescribed as velocity-inlets while atmospheric pressure was su­ perimposed to the outlet. The volume fraction of toluene was set to one to initialize the transient simulation.
+
+Fig. 2. Schematic diagram of the experimental setup for mass transfer character­ ization.
+
+[C7H8]∕[HNO3] = 1:1.2, the volumetric flow rate ratio of the aqueous phase to the organic phase was kept at 3.5. A separating funnel was placed at the outlet of the mixer to collect samples with different sampling time. The aqueous phase was removed from the bottom of the funnel and the amount of succinic acid was determined via ti­ tration method with standard sodium hydroxie solution ([NaOH] = 0.02 mol/L) and phenolphthalein. To accurately quantify mass transfer in the Y-micromixer, the time-extrapolation method, which was employed and verified in several studies before, was adopted to eliminate the effect of sampling (Jovanović et al., 2012; Li et al., 2018, 2019; Wang et al., 2020; Zhao et al., 2007). The experiments were repeated at least three cycles for each condition to check the con­ sistency.
+
+2.3.3. Mesh independence To assess mesh independence, five different meshes were con­ structed with the same meshing strategy and an identical setting was used for computation. The maximum velocity within the com­ putational domain was selected as the variable parameter. As is shown in Fig. 1, the relative discrepancy between the finest two meshes was 4.2%. Hence, considering the restriction of computation resources, mesh independence was considered to be reached and the finest mesh was adopted.
+
+2.4.2. Parameter definition and calculation The Weber number (We) and Bond number (Bo) of the im­ miscible liquids are calculated as follows:
+
+2.4. Mass transfer coefficient determination
+
+2.4.1. Experimental procedures Mass transfer between immiscible liquids in the mixer was characterized by a liquid-liquid extraction system (i.e., 1-butanol succinic acid-water) which was recommended by the European Federation of Chemical Engineering (EFCE) (Misek et al., 1985). Fig. 2 shows the schematic diagram of the experimental setup. In order to make sure succinic acid was the only mass-transfer component, deionized water and n-butanol were saturated by each other before the experiment. The physical properties of the working system are shown in Table 2 (G. Li et al., 2018; L. Li et al., 2018; Tang et al., 2013). Succinic acid was then added into the organic phase with a con­ centration of 2.1 wt%. The organic and aqueous phases were injected into the Y-micromixer respectively. In order to simulate mass transfer of toluene nitration under the condition of
+
+= We u d
+
+(1)
+
+= Bo gd ( ) aq or
+
+(2)
+
+The Reynolds number (Re) can be expressed by the following equation based on the pseudo-homogeneous model (Li et al., 2018, 2019; Zhao et al., 2007):
+
+µ = Re du
+
+(3)
+
+Here the variables are defined as follows:
+
+= + u Q Q
+
+aq or
+
+(4)
+
+A
+
+= + 1 or
+
+or
+
+(5)
+
+or
+
+aq
+
+µ µ µ = + 1 or
+
+or
+
+(6)
+
+or
+
+aq
+
+= + Q Q Q or or
+
+or aq (7)
+
+= A d
+
+(8)
+
+= q Q
+
+aq
+
+Q
+
+or (9)
+
+where γ is the interfacial tension between the aqueous and organic phases. d represents the hydrodynamic diameter of the reactor
+
+Fig. 1. Mesh independence validation.
+
+Table 2 Physical properties of the working system.
+
+Working system Density (kg/m3) Viscosity (Pa ⋅ s) Interfacial tension (N/m)
+
+n-butanol saturated with deionized water 837.01 0.00344 0.025 deionized water saturated with n-butanol 981.69 0.00144
+
+channel. Qaq, Qor, ρaq, ρor, μaq and μor are the volumetric flow rates of the aqueous and organic phases, the densities of the aqueous and organic phases, the viscosities of the aqueous and organic phases, respectively. q represents the volumetric flow rate ratio of the aqu­ eous phase to the organic phase. The overall volumetric mass transfer coefficient (ka) with respect to the aqueous phase is defined by the following equation:
+
+and pressure transmitters were mounted on the junction channels between two modules, see Fig. 3c and 3d. Thermocouples and pressure transmitters were used to measure temperature and pres­ sure inside the reaction channel while valves were installed for easy sampling. During the experiments, nitration samples were collected directly at the outlet and quenched immediately by ice water only when the system was stable. In general, there is a temperature difference between reactants inside the channel and the oil in the jacket due to insufficient heat transfer. Thereto, the setting point of the thermostat (Tset) can not represent the reaction temperature. To carry out toluene nitration under different reaction temperatures, a pre-test was conducted to determine the corresponding setting temperatures. The volumetric flow rate ratio of mixed acid to toluene exceeded 3, hence the mixed acid was adopted as the medium solely in this test to avoid the in­ fluence of reaction heat. A part of the testing result is shown in Table 3. For instance, if the volumetric flow rate of reactants inside the channel (Q) was 30 mL/min and the reactants did not release heat, Tset was 55 ∘C, then Tr would be 45 ∘C. This Tr was recorded as Tr,0, which was referred to reaction temperature in this study. The overall heat transfer process between the oil in the jacket and the reactants inside the channel includes three procedures. The first is the heat convection between oil and outer surface of the channel. The second is the heat conduction inside the channel wall. The third is the heat convection between inner surface of the channel and the reactants. This can be described by Newton's law of cooling, as follows:
+
+= ka C C
+
+aq aq
+
+,1 ,0
+
+( * ) ( * )
+
+C C C C
+
+aq aq aq aq
+
+,0 ,0 ,1 ,1
+
+t
+
+ln[( * ) ( * )]
+
+C C C C
+
+,0 ,0 ,1 ,1 (10)
+
+aq aq aq aq
+
+where Caq,i represents the molar concentration of succinic acid in the aqueous phase. The subscripts 0 and 1 refer to the inlet and the outlet. The equilibrium concentration C*aq i, can be calculated as follows:
+
+= C C *aq i or i , ,
+
+(11)
+
+where λ = 1.17 is the partition coefficient of succinic acid between the organic and aqueous phases (Misek et al., 1985). The concentration of succinic acid in the organic phase Cor,i can be determined according to the mass-balance equation:
+
++ = + Q C Q C Q C Q C or or aq aq or or aq aq ,0 ,0 ,1 ,1 (12)
+
+namely,
+
+= = q Q
+
+Q C C C C
+
+aq
+
+or or
+
+,0 ,1
+
+,1 ,0 (13)
+
+or
+
+aq aq
+
+= Q T R*
+
+LM
+
+Then the overall volumetric mass transfer coefficient can be further simplified as:
+
+(16)
+
+= + + = + + R R R R h A b A h A * * * * in wall out in in LM out out (17)
+
+C C
+
+C C ln *
+
+aq aq ,0 ,0
+
+aq aq
+
+= + ka t q
+
+*
+
+,1 ,1 (14)
+
+where Q is the rate of heat transfer, ΔTLM is the logarithmic mean temperature difference, R* is the overall thermal resistance and R*in, R*wall, R*out is the thermal resistance between reactants and the inner surface of the channel, thermal resistance of the channel wall, thermal resistance between the outer surface of the channel and oil in the jacket, respectively. hin and hout are the inner and outer heat transfer coefficients, Ain and Aout are the inner and outer heat transfer surface area of the wall, b is the wall thickness, λ is the thermal conductivity of the wall, ALM is the logarithmic mean surface area. For different Q, the flow of the oil in the jacket was identical. Hence, R*out remained unchanged as well as R*wall. However, with the increasing of Q, the heat convection between reactants and the inner surface of the channel was enhanced, namely hin was bigger and R*in was smaller for higher flow rates. As a result, a bigger driving force for heat transfer was needed for lower flow rates to obtain a same Tr,0. Thus, the Tset was bigger for lower flow rates. The setting of Tset was completely repeatable.
+
+The superficial residence time of the aqueous phase is given as follows:
+
+= + t V Q Q aq or (15)
+
+where V is the internal volume of the Y-mixer.
+
+2.5. Nitration in the meso-scale flow reactor
+
+2.5.1. Experimental setup and procedures An overview of the meso-scale flow reactor system is shown in Fig. 3. The reactor was commercially available in China (Jiangsu Diyuan precision instrument technology Co., Ltd., China). It consisted of nine modules and the channels were made of hastelloy (1/4 in o.d.) while the jackets were made of stainless steel. There were some pulse structures on the channel (not shown in the figure) to enhance mass transfer. Mixed acid and toluene were delivered into the re­ actor by two metering pumps respectively. The first two modules of the reactor were used to control the temperature of reactants before reaction. In this experiment, reactants were all pre-heated to 30 ± 1 ∘C. Then two reactants mix through the Y-micromixer at the third module whose structure is shown in Fig. 3b. The following modules, whose hold-up volume was 22 mL each, were all reaction modules. A thermostat (Jiangsu Haisi Temperature Control Equip­ ment Co., Ltd., China) consisting of two independent systems were employed for temperature control. Besides, valves, thermocouples
+
+2.5.2. Sample analysis The collected samples were separated into two phases by a funnel. The organic phase was mainly composed of unreacted to­ luene and mononitrotoluene (MNT) while the aqueous phase was mainly mixed acid. The dissolved organic products in aqueous phase was neglected. Then the organic phase was diluted by acetonitrile and analyzed by gas chromatograph (GC-7890B, Agilent) equipped with a flame ionization detector under the following conditions: HP
+
+Fig. 3. Schematic overview of the meso-scale continuous-flow reactor system (a)diagram of the system; (b)internal structure schematic of the first reaction module; (c)photo of the reactor, 1/4 in. outer diameter and 1 mm wall thickness of reaction channels; (d)valve, thermocouple and pressure transmitter.
+
+Halder et al., 2007). Fig. 4 shows the reaction steps according to Ingold-Hughes mechanism (Antes et al., 2003; Domingo et al., 2021). In this process, sulfuric acid both plays as catalyst and water binder, promoting the reaction to complete (Sreedhar et al., 2013).
+
+Table 3 Temperature setting of thermostat for the target reaction temperature (partial).
+
+Tr,0 (∘C) Q (mL/min) Tset (∘C)
+
+Fig. 5 shows the reaction process in the batch calorimeter. With the dosing of toluene, the color of reactants changed from yellow to orange. And when dosing was finished, it turned cherry-red im­ mediately. At the holding stage, the color turned darker gradually. The temperature variation of the whole nitration process is shown in Fig. 6. Tr increased dramatically at the beginning of dosing and reached the peak at about 930 s. In this period, the reaction was the most intense and heat transfer was far from enough. Then Tr gradually dropped to 55.7 ∘C at 3000 s (the end of dosing). During this time, with the generation of water and decreasing of nitric acid concentration, the reaction slowed down and heat transfer rate was greater than heat generation rate. At the moment when dosing was stopped, a remarkable cooling of reactants was observed. Thereafter, Tr was stabilized at 45 ∘C which meant heat removal efficiency was enough or the reaction was finished. Under the condition of this semi-batch reaction, Tr was 10 ∘C above the setting temperature for about 2800 s (accounted for more than 93% of dosing time) and the maximum deviation reached 24.6 ∘C.
+
+5 column (30 m × 0.32 mm × 0.25 μm); injection temperature, 290 ∘C; nitrogen, 1.5 mL/min; oven temperature program, initial 60 ∘C held for 4 mins, heated to 90 ∘C with 10 ∘C/min ramp and held for 2 mins, heated to 104 ∘C with 2 ∘C/min ramp, heated to 180 ∘C with 10 ∘C/min ramp; detector temperature, 250 ∘C. The injection volume was kept at 1 μL. The conversion of toluene C, selectivity S and yield Y of MNT can be calculated by the following equations:
+
+= × C w m m tol or
+
+tol,0 (18)
+
+Fig. 7 shows the result of sample analysis. The conversion of toluene was about 86% while the selectivity of 2-nitrotoluene (2-NT) and 4-nitrotoluene (4-NT) was only 36% and 26%, respectively. Though excess nitric acid was added, the conversion of toluene was still incomplete. This was because dinitration happened and much dinitrotoluene (DNT) was generated. Consequently, there was not enough nitric acid to react with toluene, resulting in a low conver­ sion of toluene and selectivity of MNT. Generally, the reaction con­ dition for dinitration was more demanding. However, the severe overtemperature inside the reactor made it happen.
+
+= × × S w m M C m M
+
+MNT or MNT
+
+tol tol ,0 (19)
+
+= × Y w m M m M
+
+MNT or MNT
+
+tol tol ,0 (20)
+
+where wtol is the mass fraction of toluene in the organic phase, mor is the mass of the organic phase, mtol,0 is the feeding mass of toluene, wMNT is the mass fraction of MNT, MMNT is the molar mass of MNT, Mtol is the molar mass of toluene.
+
+3. Results and discussion
+
+3.2. Flow pattern in the channel
+
+3.1. Reaction in the batch calorimeter
+
+To observe the flow pattern inside the channel, a small length of transparent PTFE tube was connected at the end of the metal mixer. Though hastelloy was hydrophilic while PTFE was hydrophobic, no pattern transition happened at the junction of two channels. Hence,
+
+Toluene nitration is a typical electrophilic substitution process (Kulkarni, 2014). Toluene is assumed to dissolve in the acid and ni­ tration takes place in the acid phase (Gattrell and Louie, 2013;
+
+Fig. 4. Toluene nitration steps according to Ingold-Hughes mechanism.
+
+Fig. 5. Reaction process in the batch reactor.
+
+Fig. 7. Conversion, selectivity and yield of toluene nitration in the batch reactor.
+
+Fig. 6. Temperature variation of the nitration process in the batch reactor.
+
+it was reasonable to believe the flow pattern was the same inside these two materials. In this experiment, only parallel flow is ob­ served, which is shown in Fig. 8. Weber number is a measure of the relative importance of inertia compared to surface tension and often used to analyze flow patterns. Under the present setting, Wetol
+
+Fig. 8. Flow pattern inside the channel, Q = 10 mL/min, molar ratio (C7H8∕HNO3) = 1:1 (a)Front view; (b)top view.
+
+Fig. 9. Flow field inside the Y-mixer, Q = 60 mL/min, molar ratio (C7H8∕HNO3) = 1:1.2 (a)phases and velocity vector; (b)velocity contour.
+
+ranged from 0.001 ~ 0.028 while Weacid ranged from 0.018 ~ 0.606. According to the flow pattern map proposed by Wang et al., 2020, parallel flow should appear which is in agreement with the experi­ mental results. Bond number was used to measure the importance of gravita­ tional forces compared to surface tension forces. In this study, Bo was 4.23 which was larger than 1. As a result, the effect of gravity can not be ignored in this meso-scale channel (Wang et al., 2020; Yao et al., 2021; Zhang et al., 2017). This can also be seen from Fig. 8, where toluene is always in the upper part of the channel while acid in the lower part though they are pumped in at the same level.
+
+3.3. Two-phase flow simulation inside the Y-mixer
+
+In the present study, as parallel flow was the only flow regime, it was reasonable to believe its formation process was similar under different flow rates. Thus, only one condition was simulated, namely, Q = 60 mL/min and molar ratio (C7H8∕HNO3) was 1:1.2. Fig. 9 shows the potential flow field inside the mixer. In the junction zone, to­ luene and mixed acid collided and the velocity reached the max­ imum. The sudden enlargement of the channel caused vortexes, which may further enhance mass transfer. In the channel after the junction zone, parallel flow formed and the interface became smooth, which was in agreement with the experiment. At this stage, the flow was stable and the velocity vectors were all in the same direction.
+
+Fig. 10. Overall volumetric mass transfer coefficient in the Y-mixer.
+
+contact area and surface renewal rate. With higher velocities, the kinetic energy carried by the two phases were larger. As a result, the collision would be more intense and this would further enhance mass transfer (Wang et al., 2020). However, when parallel flow formed, the lack of turbulence makes mass transfer highly depen­ dent on diffusion (Nagy et al., 2012). The mass transfer driving force and the specific energy dissipation in the channel was much lower compared to the junction zone (Li et al., 2018; Wang et al., 2020).
+
+3.4. Mass transfer in the Y-mixer
+
+3.5. Reaction in the continuous flow reactor
+
+In conventional laboratory-scale batch reactors, the overall vo­ lumetric mass transfer coefficient of liquid-liquid systems ranges from 0.001 ~ 0.02 s−1. In the microreactor, interfacial contact area between phases has been significantly enlarged owing to its small scale. Consequently, ka of microreactors is consistently two or three orders of magnitude larger than the conventional reactors, usually in the range of 0.05 ~ 15 s−1 (Hartman et al., 2011; Wang et al., 2020).
+
+3.5.1. Effect of volumetric flow rate To investigate the effect of volumetric flow rates on toluene ni­ tration in the meso-scale flow reactor, Tr,0 and molar ratio (C7H8∕HNO3) were controlled at 45∘C and 1:1.2, respectively. Moreover, residence time was kept identical by adopting different numbers of reaction modules for different flow rates. For example, one reaction module was used for the flow rate of 10 mL/min while six modules were employed for the rate of 60 mL/min.
+
+Fig. 10 shows the effect of flow rates on mass transfer in the present setting. With the increasing of Re, ka increased linearly ap­ proximately. However, the value of overall mass transfer coefficient was small due to the dimension-enlarge. Generally, mass transfer is related to two aspects. One is the interfacial area between two phases and the other is the diffusion distance and surface renewal rate (Zhao et al., 2010). As is shown in Fig. 9, toluene and mixed acid collided in the junction zone, which would lead to an increase of
+
+Fig. 11 shows the temperature and pressure of the reaction under different volumetric flow rates. Thermocouple index refers to its location. For instance, T1 is at the outlet of the first reaction module. The same is the pressure transmitter while P0 is at the inlet of the first reaction module. Due to the setting of the experiments, more temperatures were measured for higher flow rates while only one
+
+Fig. 11. The effect of volumetric flow rates on (a)temperature; (b)pressure.
+
+measurement was obtained for the lowest flow rate. It can be seen in Fig. 11a, the highest Tr was always detected by T1 which indicated the reaction was the most violent inside the first two reaction modules. With higher flow rates, the detected overtemperature phenomenon (Tr − Tr,0) was getting increasingly significant and it reached up to 21.3 ∘C for the flow rate of 60 mL/min. Fig. 11b shows the pressure under different flow rates. The outlet of the module was connected to atmosphere. With the increasing of flow velocity, more reaction modules were adopted to keep the residence time identical. The longer reaction channel together with higher velocity caused the increase of inlet pressure. Besides, it can be seen the pressure de­ creased approximately linearly along the channel. A single reaction module was used for the flow rate of 10 mL/min and very few exothermicity was observed at the outlet. It can be inferred that the exothermicity entirely occurred inside the module. An analysis of temperature variation inside the channel is made based on the reaction process and experimental data, shown in Fig. 12. Reactants were pre-heated to Ti and the reaction began when the two streams of fluids collided at the Y-junction. The concentra­ tions of reactants were high at the beginning, leading to fast reaction rate and high heat generation rate. Besides, the oil in the jacket acted as a heating source at this stage. As a result, Tr increased dramatically at the beginning. When Tr exceeded Tr,0, the oil transferred to a cooling source and the heat removal rate gradually increased with the increasing temperature difference between the fluids inside the channel and the oil, according to Eq. 16. Additionally, reaction rate slowed down due to the generation of water and decrease of re­ actants concentration. However, heat generation rate was still higher than heat removal rate at this stage. Thus, Tr rose at a gradually slowing rate. When the rate of heat generation equalled to heat removal, Tr reached the highest, namely Tmax. Thereafter, as reactants continue to flow, Tr gradually got closer to Tr,0. Furthermore, the temperature of T1 was assumed between Tc and Tmax (Fig. 12a, area
+
+Fig. 12. Temperature variation inside the channel (a)schematic of temperature pro­ file; (b)fitting of cooling curve.
+
+III). As the temperature of T2 was lower than T1, temperatures of T2 to T6 were all at the cooling curve. However, the exact position of T1 cannot be determined at the temperature profile in Fig. 12a, nor can the value of Tmax at the present setting. In addition, the five tem­ perature values under the flow rate of 60 mL/min (T2 to T6) are used to fit the cooling curve, shown in Fig. 12b. The temperature values under other flow rates were also presented and they agreed well with the fitting curve, indicting a similar cooling process.
+
+Fig. 13. Conversion and selectivity of toluene nitration with different flow rates.
+
+Fig. 14. Yield of 2-NT and 4-NT with different flow rates.
+
+Fig. 13 and Fig. 14 shows the toluene conversion, selectivity and yield of 2-NT and 4-NT with different reagents flow rates. The con­ version rose with the increasing of flow rates due to the enhance­ ment of mass transfer. Meanwhile, volumetric flow rate also had an impact on selectivity. As the flow rate increased, selectivity rose first and then remained unchanged. Generally, overtemperature will lead to side reactions and side products will be generated, namely, a drop of selectivity should be detected. This was proved by the reaction in the batch reactor. Interestingly, in this meso-scale flow reactor under the flow rate of 60 mL/min, though the biggest temperature varia­ tion was more than 21.3 ∘C, the selectivity was still as high as 95%. This could be attributed to the excellent mass transfer performance of the reactor. The major side-products detected in batch reaction was DNT, so dinitration was the main side reaction, which was more difficult to take place than mononitration. Although the apparent overtemperature phenomenon was similar in the batch and the flow reactor, mass transfer efficiency was quite different. Due to the in time transfer of toluene into aqueous phase in the flow reactor, nitric acid was more likely to react with toluene rather than mono­ nitrotoluene. While in the batch reactor, nitric acid could only react with mononitrotoluene as toluene had not been transferred in. In other words, the excellent mass transfer performance in the flow reactor reduced side reactions and led to a high selectivity. More­ over, due to the high heat removal efficiency of the flow reactor, the reactants temperature was cooled down quickly which further avoided the dinitration.
+
+Fig. 15. The effect of reaction temperature on (a)temperature; (b)pressure.
+
+Table 4 The effect of reaction temperature on toluene nitration.
+
+Reaction temperature (∘C) Conversion (%) Selectivity (%) Yield (%)
+
+Table 4 shows the conversion, selectivity and yield under dif­ ferent Tr,0. As can be seen, the conversion of toluene rose slightly from 68% to 78% by increasing the temperature from 40∘C to 60∘C. It's well known that the reaction rate can be accelerated dramatically by increasing the reaction temperature according to Arrhenius equation (Deng et al., 2019). However, the conversion did not change much under different temperatures. Combining the similar over­ temperature phenomenon in Fig. 15a, it could be further deduced that this was a mass-transfer controlled reaction. And the increase of conversion were more likely to stem from the decrease of viscosity, which enhanced mass transfer efficiency by increasing surface re­ newal rate. In addition, a downtrend of selectivity was observed with the increasing of Tr,0. This could be explained as follows. At lower reaction temperatures, the reaction rate was relatively slow and the mass transfer rate was high enough. Hence, mononitration was favored and much dinitration could be avoided. However, when the reaction temperature rose, the reaction rate increased ex­ ponentially. Though the mass transfer rate may increased a little as well, it was hard to catch up the increasing speed of reaction rate. Therefore, nitric acid in the aqueous phase did not have enough toluene to react with and could only react with MNT. Then, dini­ tration happened and selectivity of MNT dropped. Besides, the oc­ currence of dinitration demanded a higher temperature, hence it could be further inhibited under low temperature.
+
+3.5.2. Effect of reaction temperature To study the effect of reaction temperatures on toluene nitration, molar ratio (C7H8∕HNO3) was still controlled at 1:1.2. The volumetric flow rate was kept at 30 mL/min and seven reaction modules were employed. Therefore, the residence time was 5.1 min. Four different reaction temperatures were selected, including 40 ∘C, 45 ∘C, 50 ∘C and 60 ∘C.
+
+Fig. 15 a shows the Tr at the outlets of every reaction module. Similarly, with the flow of reactants, the reactants temperatures got closer to Tr,0. Moreover, the detected highest temperature was still at the outlet of the first module. The maximum value of over­ temperature was about 11 ∘C for all four situations. Besides, the overtemperature phenomenon is quite similar which may indicate a similar reaction process. The pressure at different locations is shown in Fig. 15b. The increasing of Tr,0 caused a decrease in pressure which resulted from the reduction of reactants viscosity.
+
+complete the reaction. Even if excluded the holding time, it was as long as 3000 s. As a contrast, in the meso-scale flow reactor, this time could be shortened to 132 s to achieve similar conversion and better selectivity. Hence, the space time yield as well as the annual production of the flow reactor was much higher than the batch re­ actor. Although the highest value of overtemperature was similar in the two reactors, its duration time was much shorter in the flow system. But meanwhile, this indicated a more dramatic temperature change inside the flow reactor, which may put forward extra re­ quirement on the reactor material. Further, by employing flow mode, the reaction environment was converted from an open system to a pressurized system. Due to the long and narrow channel, the inlet pressure could be as high as 1.1 MPa. Therefore, sealing was more demanding in the flow reactor to avoid rupture and leakage. This could be deemed as a kind of risk transfer in flow mode (Zhang et al., 2016). Moreover, the total inventory of reactants in the flow reactor was one order of magnitude smaller than that in the batch reactor. This was the crucial point making flow reactor inherently safer. For exothermic reactions, heat release rate related closely to re­ action rate. For a typical chemical reaction aA + bB ⟶ pP + qQ, the reaction rate is often of the form (Wang et al., 2020; Zhang et al., 2020)
+
+Fig. 16. The effect of molar ratio on pressure.
+
+Table 5 The effect of molar ratio on toluene nitration.
+
+Molar ratio (C7H8/HNO3) Conversion (%) Selectivity (%) Yield (%)
+
+= r k A B [ ] [ ] n m (21)
+
+1:1 1:1.2 1:1.4
+
+= k k e E RT a (22)
+
+3.5.3. Effect of molar ratio The effect of molar ratios on toluene nitration was investigated. The Tr,0 was set at 45 ∘C and the volumetric flow rate was 30 mL/min. Seven reaction modules were adopted. The experimental results are summarized in Fig. 16 and Table 5. Tr along the reactor was not shown here as it was same for these three conditions. The viscosity of toluene and the mixed acid were 0.59 mPa ⋅ s and 4.70 mPa ⋅ s (20 ∘C), respectively. Therefore, there was a slight increase of pres­ sure with the rise of molar ratio. By raising the ratio of mixed acid, the conversion increased from 61% to 73% and meanwhile the se­ lectivity stayed unchanged. As this is a mass-transfer controlled re­ action, dinitration may happen under high concentration of nitric acid. However, dinitration required a high temperature. Owing to the high heat removal efficiency of this meso-scale flow reactor, the value of overtemperature was not too high and the time of over­ temperature was short. Consequently, the selectivity did not drop with the increasing of molar ratio.
+
+where r is reaction rate, k is the rate constant, [X] denotes the con­ centration of the substance, n and m are reaction orders, k0 is the pre-exponential factor, Ea is the activation energy, R is the universal gas constant, T is the absolute temperature. For a batch reaction, T and [X] change with the reaction process or time. And at a specific time node, there is always a corresponding reaction rate. Therefore, for this batch reaction process, reaction rate can be expressed as a function of time (t), namely r = f(t). However, in the flow reactor, T and [X] vary along the reactor channel which means they are de­ pendent on the location. Hence, the reaction rate in the flow reactor can be expressed as a function of the length from inlet (z), namely r = f(z). By transferring the reaction process from batch to flow, the reaction rate is transferred from a time variable to a space variable as well (Morin et al., 2021). Obviously, it is much easier to handle a space variable. For example, to prevent thermal runaway and reduce side reactions of toluene nitration, the heat removal efficiency at the beginning should be the largest. In the flow reactor, this can easily be achieved by using a cooler heat transfer medium solely for channel with a certain length after the inlet and the rest channel will not be affected. While in the batch reactor, this is more difficult to be achieved, especially in industry. Therefore, compared to batch re­ actors, flow reactors are safer and more efficient. Further, by comparing the products from these two reaction modes, it is found that there are two approaches to improve the selectivity of MNT. One is to enhance the heat removal capacity and carry out the reaction under a suitable and stable temperature. Dinitration can not happen under low temperature. The other way is to increase mass transfer efficiency. This is because when the reac­ tion condition of mononitration and dinitration are reached si­ multaneously, mononitration happens first if there are enough toluene dissolved in the acid phase. There are numerous kinds of microreactors or meso-scale re­ actors. Their structures, channel diameters and cross sections, heat exchange modes, etc., are quite different. Thus, the optimal toluene nitration condition was not determined here. For each kind of flow reactor, the optimum reaction condition needs to be studied in­ dividually. Methodologies such as orthogonal and response surface can be adopted to reduce workload and improve efficiency
+
+3.6. Comparison of batch and flow reaction
+
+Table 6 shows the comparison between semi-batch and con­ tinuous reaction modes. In the batch reactor, it took 6600 s to
+
+Table 6 Comparison between semi-batch and continuous reaction modes.
+
+Semi batch mode Continuous modea
+
+Reaction time (s) Space time yield (g ⋅ L−1 ⋅ s−1) 0.02 1.36 Highest overtemperature (∘C)b 24.6 > 21.3 Time duration of overtemperature (s) < 66
+
+Pressure (MPa) 1.1 Total inventory in the reactor (mL) Annual production (kg/a)c
+
+a Data from: Tr,0 = 45∘C, molar ratio 1:1.2, volumetric flow rate 60 mL/min, re­ sidence time 2.2 mins.
+
+b 10∘C above the setting temperature was taken as overtemperature.
+
+c 3000 working hours per year.
+
+(Bawornruttanaboonya et al., 2017; Sarafraz et al., 2019; Zhang et al., 2016; Zou et al., 2020).
+
+Bordbar, A., Kheirandish, S., Taassob, A., Kamali, R., Ebrahimi, A., 2020. High-viscosity liquid mixing in a slug-flow micromixer: a numerical study. J. Flow. Chem. 10, 449–459. Brocklehurst, C.E., Lehmann, H., La Vecchia, L., 2011. Nitration chemistry in continuous flow using fuming nitric acid in a commercially available flow reactor. Org. Process Res. Dev. 15, 1447–1453. Cantillo, D., Damm, M., Dallinger, D., Bauser, M., Berger, M., Kappe, C.O., 2014. Sequential nitration/hydrogenation protocol for the synthesis of triaminophlor­ oglucinol: safe generation and use of an explosive intermediate under con­ tinuous-flow conditions. Org. Process Res. Dev. 18, 1360–1366. Chaudhuri, A., Kuijpers, K.P.L., Hendrix, R.B.J., Shivaprasad, P., Hacking, J.A., Emanuelsson, E.A.C., Noël, T., van der Schaaf, J., 2020. Process intensification of a photochemical oxidation reaction using a rotor-stator spinning disk reactor: a strategy for scale up. Chem. Eng. J. 400, 125875. Chen, P., Shen, C., Qiu, M., Wu, J., Bai, Y., Su, Y., 2020. Synthesis of 5-fluoro-2-ni­
+
+4. Conclusion
+
+The main goal of this study was to scale up toluene nitration in a meso-scale flow reactor while considering process safety. The semi batch reaction process in RC1 showed a highest value of over­ temperature of 24.6∘C and the MNT selectivity of 62%. The heat and mass transfer efficiency was low in the batch reactor. A meso-scale reactor system was adopted to scale up toluene nitration in a flow way. Parallel flow regime was observed in the channel and Bo was bigger than 1, indicating the effect of gravity can not be ignored. CFD simulation demonstrated the hydrodynamic characteristics of the two reactants flowing inside the Y-mixer. Overall mass transfer coefficient was determined by n-butanol-succinic acid-water system. With the increasing of Re, ka increased linearly which was in the range of 0.01 ~ 0.07 s−1. Volumetric flow rate had a significant influence on toluene nitration. Experimental results showed that toluene conversion increased from 26% to 86% while MNT selectivity increased from 73% to 95% with the increasing of flow rates from 10 mL/min to 60 mL/min. However, reaction temperatures and molar ratios had no significant impact on toluene conversion. Meanwhile, increasing the reaction temperature would lower the MNT se­ lectivity. A comparison between semi-batch and continuous reaction modes was also presented. It showed that overtemperature phe­ nomenon was still remarkable in the flow reactor, which meant the present heat removal capacity was far from enough. By adopting flow reaction mode, the reaction environment was converted from an open system to a pressurized system, which can be deemed as risk transfer.The productivity of the flow reactor could reach up to 2572 kg/a, which was much higher than the bench-scale batch re­ actor. In this study, it can be seen that the decrease of heat and mass transfer efficiency is inevitable in direct dimension-enlarge of channels. In this 1/4 in. meso-scale flow reactor, overtemperature phenomenon was notable. It will not only lead to side reactions, but also cause potential hazards. It must be stressed that safety in scale up process of microreactors should not be ignored. A systematic evaluation method to assess the safety level of flow reactors may be developed, which is seldom reported at present.
+
+trobenzotrifluoride in a continuous-flow millireactor with a safe and efficient protocol. J. Flow. Chem. 10, 207–218. Chen, Y., Zhao, Y., Han, M., Ye, C., Dang, M., Chen, G., 2013. Safe, efficient and selective synthesis of dinitro herbicides via a multifunctional continuous-flow micro­ reactor: one-step dinitration with nitric acid as agent. Green. Chem. 15, 91–94. Cherkasov, N., m. Al-Rawashdeh, M., Ibhadon, A.O., Rebrov, E.V., 2016. Scale up study of capillary microreactors in solvent-free semihydrogenation of 2-methyl-3 butyn-2-ol. Catal. Today 273, 205–212. Deng, J., Zhang, J., Wang, K., Luo, G., 2019. Microreaction technology for synthetic chemistry. Chin. J. Chem. 37, 161–170. Domingo, L.R., Seif, A., Mazarei, E., Zahedi, E., Ahmadi, T.S., 2021. Quasi-RRHO ap­
+
+proximation and DFT study for understanding the mechanism and kinetics of nitration reaction of benzonitrile with nitronium ion. Comput. Theor. Chem. 1199, 113209. Elvira, K.S., i Solvas, X.C., Wootton, R.C.R., deMello, A.J., 2013. The past, present and potential for microfluidic reactor technology in chemical synthesis. Nat. Chem. 5, 905–915. Gage, J.R., Guo, X., Tao, J., Zheng, C., 2012. High output continuous nitration. Org. Process Res. Dev. 16, 930–933. M., Gattrell, B., Louie, Adiabatic nitration for mononitrotoluene (MNT) production, in: Chemistry, Process Design, and Safety for the Nitration Industry, volume 1155 of, American Chemical Society, 2013, 27–48.10.1021/bk-2013–1155.ch003. Gregorc, J., 2021. Numerical prediction of maldistribution in a series of T-junctions. Chem. Eng. Sci. 239, 116647. Gutmann, B., Cantillo, D., Kappe, C.O., 2015. Continuous-flow technology–a tool for the safe manufacturing of active pharmaceutical ingredients. Angew. Chem. Int. Ed. 54, 6688–6728. Halder, R., Lawal, A., Damavarapu, R., 2007. Nitration of toluene in a microreactor. Catal. Today 125, 74–80. Hartman, R.L., McMullen, J.P., Jensen, K.F., 2011. Deciding whether to go with the flow: evaluating the merits of flow reactors for synthesis. Angew. Chem. Int. Ed. 50, 7502–7519. Haswell, S.J., Watts, P., 2003. Green chemistry: synthesis in micro reactors. Green. Chem. 5, 240–249. Hessel, V., Kralisch, D., Kockmann, N., Noël, T., Wang, Q., 2013. Novel process windows for enabling, accelerating, and uplifting flow chemistry. ChemSusChem 6, 746–789. Hu, J., Tian, J., Wang, K., Deng, J., Luo, G., 2019. Continuous synthesis of tetraethyl thiuram disulfide with CO2 as acid agent in a gas-liquid microdispersion system. J. Flow. Chem. 9, 211–220. Jähnisch, K., Hessel, V., Löwe, H., Baerns, M., 2004. Chemistry in microstructured re­
+
+actors. Angew. Chem. Int. Ed. 43, 406–446. Jovanović, J., Rebrov, E.V., Nijhuis, T.A.X., Kreutzer, M.T., Hessel, V., Schouten, J.C., 2012. Liquid-liquid flow in a capillary microreactor: hydrodynamic flow patterns and extraction performance. Ind. Eng. Chem. Res. 51, 1015–1026. Karan, D., Khan, S.A., 2019. Mesoscale triphasic flow reactors for metal catalyzed gas liquid reactions. React. Chem. Eng. 4, 1331–1340. Köckinger, M., Wyler, B., Aellig, C., Roberge, D.M., Hone, C.A., Kappe, C.O., 2020. Optimization and scale-up of the continuous flow acetylation and nitration of 4 fluoro-2-methoxyaniline to prepare a key building block of osimertinib. Org. Process Res. Dev. 24, 2217–2227. Kockmann, N., Thenée, P., Fleischer-Trebes, C., Laudadio, G., Noël, T., 2017. Safety as­
+
+Declaration of Competing Interest
+
+The authors declare that they have no known competing fi­ nancial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+Acknowledgments
+
+The authors gratefully acknowledge the financial support from National Natural Science Foundation of China [grant number 51904157, 21927815], Jiangsu Province 333 High-Level Personnel Training Project and Postgraduate Research & Practice Innovation Program of Jiangsu Province [grant number KYCX20_1037].
+
+sessment in development and operation of modular continuous-flow processes. React. Chem. Eng. 2, 258–280. Kuba, M.G., Prins, R., Pirngruber, G.D., 2007. Batch and continuous nitration of toluene and chlorobenzene with acetyl nitrate over zeolite beta. Appl. Catal. A Gen. 333, 24–29. Kulkarni, A.A., 2014. Continuous flow nitration in miniaturized devices. Beilstein J. Org. Chem. 10. Kulkarni, A.A., Kalyani, V.S., Joshi, R.A., Joshi, R.R., 2009. Continuous flow nitration of benzaldehyde. Org. Process Res. Dev. 13, 999–1002. Li, G., Shang, M., Song, Y., Su, Y., 2018. Characterization of liquid-liquid mass transfer performance in a capillary microreactor system. AIChE J. 64, 1106–1116. Li, G., Pu, X., Shang, M., Zha, L., Su, Y., 2019. Intensification of liquid-liquid two-phase mass transfer in a capillary microreactor system. AIChE J. 65, 334–346. Li, L., Yao, C., Jiao, F., Han, M., Chen, G., 2017. Experimental and kinetic study of the nitration of 2-ethylhexanol in capillary microreactors. Chem. Eng. Process. 117, 179–185. Li, L., Zhang, J., Du, C., Luo, G., 2018. Determination of the liquid/liquid mass transfer coefficient for each phase in microchannels. Ind. Eng. Chem. Res. 57, 9028–9036.

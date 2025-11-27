@@ -1,0 +1,159 @@
+Contents lists available at ScienceDirect
+
+Chemical Engineering Journal
+
+journal homepage: www.elsevier.com/locate/cej
+
+Heterogeneous benzaldehyde nitration in batch and continuous flow microreactor
+
+T
+
+Danilo Russoa,b, Giovanna Tomaiuolob, Roberto Andreozzia, Stefano Guidoa, Alexei A. Lapkinb, Ilaria Di Sommac,⁎
+
+a Dipartimento di Ingegneria Chimica, dei Materiali e della Produzione Industriale, Università di Napoli "Federico II", Italy b Department of Chemical Engineering and Biotechnology, University of Cambridge, UK c Istituto di Ricerche sulla Combustione (CNR), Napoli, Italy
+
+H I G H L I G H T S
+
+G R A P H I C A L A B S T R A C T
+
+• Benzaldehyde nitration kinetic model was extended under heterogeneous conditions. • Batch and continuous flow reactor performances were compared. • Enhancement of mass transfer was observed in continuous flow static mixer. • Well designed microreactors can ap- proximate kinetic regime behaviour.
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Orthoand meta-nitrobenzaldehydes are two important intermediates in the chemical industry. They are the main products of benzaldehyde nitration by mixed acid, which is a hazardous chemical process since reaction rates are very sensitive to variations of the operating conditions. In the present investigation, a previously developed kinetic model under homogeneous conditions is validated and extended for heterogeneous liquid- liquid systems. A comparison between performances of a lab-scale batch reactor and a commercial microreactor is also presented. The results show that microreactors with embedded static mixer can outperform scaled-up batch reactors, achieving the theoretical limit of conversion/yield attainable under kinetic control.
+
+Keywords: Nitration Mixed acid Benzaldehyde Heterogeneous Microreactor Immiscible liquids
+
+1. Introduction
+
+has been recently highlighted [2]. Important products synthesised starting from m-nitrobenzaldehyde are 3-hydroxybenzaldeide, 3-ni- trobenzoic acid, and rosoxacin, an antigonorrheal agent [3]. 2-Ni- trobenzaldehyde is involved in pharmaceutical and dyes industries, and is also used as a photo-removable protecting group for several func- tional groups, as well as in the synthesis of non-linear optical materials [1,4–8]. Important industrial intermediated prepared starting from o- nitrobenzaldehyde are 2-aminobenzaldehyde, 4-4′-dicholoindingo, and
+
+Nitrobenzaldehydes are important intermediates involved in the synthesis of many fine chemicals products. Thus, 3-nitrobenzaldehyde is used in the production of pharmaceuticals, plastic additives, fran- grances, flavourings, dyes and sector-specific products for galvano- metry and X-ray contrast media [1]. The possibility of synthesizing important intermediates for Nicardipine and Pranidipine production
+
+⁎ Corresponding author. E-mail address: i.disomma@irc.cnr.it (I. Di Somma).
+
+https://doi.org/10.1016/j.cej.2018.11.044
+
+Available online 08 November 2018 1385-8947/ © 2018 Elsevier B.V. All rights reserved.
+
+2H-indazole derivatives [3]. Both isomers are also involved in the preparation of benzodiazepines and other cardiovascular drugs [1]. Nitrobenzaldehydes are both products of nitration of benzaldehyde by means of concentrated mixture of nitric acid, sulfuric acid and water, also called ‘mixed acid'. This reaction is among the most hazardous industrial processes [9,10]. It meets all the requirements for the onset of a thermal explosion: (i) high exothermicity, with a heat of reaction ranging from −73 to −253 kJ∙mol−1 [11], (ii) reaction rate being very sensitive to small variations in the acid mixture composition and op- erating temperature, and (iii) several secondary exothermic reactions can be triggered as a result of a deviation from the design operating conditions. Traditional benzaldehyde nitration under heterogeneous conditions is carried out in batch or fed-batch reactors, slowly adding the nitrating agent to the organic substrate or vice versa. To prevent the runaway of the system, the process is usually carried out at temperature between −5 °C and 15 °C and reaction times up to 6 h, which is eco- nomically inconvenient and makes it impossible to control the yield of the two isomers [1,3]. Ideally, for such systems, experimental in- vestigations should be devoted to a complete thermo-kinetic char- acterization both, under normal operating conditions and as a result of a deviation from the optimum design conditions. In this regard, several works were published about by-products identification [12], dynamic processes evolution [13], kinetics characterization [14,15], thermal decomposition, and calorimetric investigations [16–20]. Following this rationale, in a previous paper a kinetic model was developed to predict benzaldehyde nitration in mixed acid under homogeneous conditions, that is using an organic concentration lower than its solubility. This allowed to estimate intrinsic kinetic parameters, preventing them from being affected by mass transfer limitations. The model was successfully used to investigate benzaldehyde nitration in a commercial micro- reactor [21]. In fact, for all the above-mentioned reasons, microreactor technology naturally suits the nitration processes management re- quirements, especially for highly priced and low-throughput materials production or niche technology applications. However, most nitration processes in mixed acid are carried out in heterogeneous liquid-liquid systems. In fact, organic substrates, as well as reaction products, are often poorly soluble in the aqueous acidic phase where the reaction occurs. The resulting higher complexity of the process requires simultaneous analysis of multiple process hierarchy levels, according to the theoretical framework proposed by Lapkin et al. [22]. Therefore, a first investigation to safely carry out the reaction at higher temperature was reported in the literature by Kulkarni et al. [1]. In this study the experiments were carried out both in batch and con- tinuous mode at temperature, nitric acid to benzaldehyde molar ratio and nitric acid to sulfuric acid molar ration varying in the ranges 5–25 °C, 1.18–3.5, and 0.3–0.6, respectively. Under these conditions, the reactive system is always in immiscible liquid-liquid heterogeneous conditions. The two important aspects highlighted in this study are (i) the need of a good mixing between the two immiscible phase and (ii) the increase in the ratio of the orthoto the meta-isomer at higher temperature and nitric to sulfuric acid ratios. Accordingly, in the first part of this work, an extension and vali- dation of the previous model for heterogeneous systems is presented. The experimental validation was carried out in a lab-scale batch reactor under kinetic regime. The developed model provided important in- formation about products partition and the maximum obtainable con- version in the absence of mass transfer limitations. In the second part, the performance of a microreactor with em- bedded static mixer (passive mixing techniques) at different conditions was compared. In fact, it has been recently highlighted [14] that mi- croreactor technology importance has been soon acknowledged by the industry both as a useful tool for pilot plant investigations and as a productive unit for specific applications. Microreactors are typically characterized by enhanced heat and mass transfer, which enable precise control of temperature, a great variety of internal structures due to flexibility of modern manufacturing methods, but a relatively low
+
+productivity [23]. For these reasons, this technology naturally suits the requirements of nitration processes, especially for manufacture of ex- pensive and low-volume materials. As a result, most nitrations reported in the literature were carried out in microreactors with diameters ranging from hundreds of micrometers to a few millimiters, the latter combining the advantages of micro-scale reactor with higher pro- ductivities. As a result, several examples of nitration in microreactors can be found in the literature [1,11,21,24–30]. However, typical lab- scale setups consist of of preheating channels connected to separate pumps to feed organics and nitrating mixtures to a mixing device [25–27,31]. Innovative devices have embedded mixers and heat ex- changer to reduce the experimental complexity and achieve higher compactness. Most of the reported processes are carried out in capillary microreactors, under heterogeneous liquid-liquid conditions, with the formation of slugs of organic and acidic aqueous phase. As a general result, increasing the flow rate, an enhancement of mass transfer be- tween the slugs is reported, which is corroborated by CFD calculations [24]. However, meso-scale continuous flow microreactors, as the one adopted in the present investigation, are still poorly investigated, de- spite the promising results in terms of enhanced productivity. Even though the flow pattern of immiscible liquids in micro-channels has been widely investigated, the results are often reported for simple geometries of the open micro-channel [24,32,33], whereas only a few studies were reported for complex static mixers structures in the reactor [34]. In microchannels with constant internal section, different flow patterns were observed as a result of the competition between shear forces and surface tension. They can be summarized as threading, jet- ting, dripping, tubing and displacement [35] and they can be related to the capillary dimensionless number, which is related to the ratio be- tween viscous forces and interfacial tension. In the case of passive embedded mixing, the channel of the reactor is internally shaped to continuously mix the phases in order to enhance mass transfer and, as a result, increase the observed reaction rate using a ribbon like structure with contractions, expansions, and obstacles. In this work, we in- vestigate for the first time benzaldehyde nitration in such a commer- cially available and scaled-up compact system highlighting the possi- bility to achieve outstanding performances, close the ones under kinetic regime, without the adoption of active micro-mixer devices and starting from relatively low flow rates. The observations were supported by the kinetic model validated in the first part of the work.
+
+2. Materials and methods
+
+2.1. Materials
+
+All reagents (acetonitrile ≥99.9%; methanol ≥99.9%; phosphoric acid 85 wt% in H2O; benzaldehyde ≥99%; 2-nitrobenzaldehyde 98%; 3-nitrobenzaldehyde 99%; 4-nitrobenzaldehyde 98%; benzoic acid ≥99.5%; 2-nitrobenzoic acid 95%; 3-nitrobenzoic acid 99%; 4- nitrobenzoic acid 98%; nitric acid fuming ≥99%; sulfuric acid 99.999%; urea 99%) were purchased by Sigma-Aldrich and used as received. Bi-distilled water was used to prepare mixed acid solutions.
+
+2.2. Procedures
+
+Experiments were carried out in a glass jacketed reactor (cooling fluid: water) of 10 mL connected to a Julabo F32 refrigerated/heated circulator. The reactor was magnetically stirred (1100 rpm) and equipped with a thermocouple to guarantee isothermal conditions. Proper relative amounts of nitric acid, sulfuric acid, and water were weighted and mixed under continuous cooling in an ice bath and then added in the reactor and heated at the desired temperature. A proper amount of benzaldehyde was then added. At each experimental time, the whole content of the reactor was quenched by dilution (1:10) with a cold solution of urea in acetonitrile (4 g∙L−1) in which both phases are highly soluble. The samples were further diluted (1:100) in acetonitrile
+
+Zeiss), equipped with a high-speed video camera (Phantom 4.3, capable to record up to 10,000 frames∙s−1) and a low magnification objective (10×) was used. The recorded images (600–800 frames∙s−1) were analyzed off-line by a commercial software (Image Pro Plus 6.0). The adoption of a glass Micronit chip was necessary to collect in-line images at the outlet port of the reactor since the dimensions of the reactor itself did not allow to place it under the microscope objective (Supplementary Information SI). To evaluate solubility of organics in mixed acid in the neighborhood of the adopted conditions, poorly reactive or non-reactive acidic solu- tions were chosen in the neighborhood of the mixed acid compositions adopted for this work. The adoption of poorly reactive solutions was needed to evaluate the solubility of the organics preventing the ex- perimental measurements to be affected by the occurring reactions. Organics were added to the solutions at higher concentrations than their solubility and vigorously mixed for two hours in the batch reactor. Mixing was then stopped for one hour, phases were separated and the acidic aqueous phase was collected, diluted with acetonitrile and ana- lyzed by HPLC. When using solid substrates (2- and 3-ni- trobenzaldehyde), the collected samples of the acidic aqueous phase were rapidly filtered using acid resistant filters.
+
+2.3. Analytical methods
+
+Fig. 1. Exploded view of the adopted commercial microreactor and its em- bedded static mixer.
+
+Collected samples were analyzed by HPLC Agilent 1100, equipped with a Phenomenex Synergi polar RP/80A column thermostated at 30 °C, and a UV DAD detector. The mobile phase (1.0 mL∙min−1) was constituted of eluent (A) (buffer solution: CH3OH 5% v/v; H3PO4 0.4% v/v; H2O 94.6% v/v) and eluent (B) (acetonitrile). The gradient was as follows: 15% B for 8 min, increased to 25% B in 10 min, and succes- sively decreased to 15% B in 5 min. The signals were acquired at wa- velength of 230, 250, and 265 nm.
+
+and analyzed by HPLC. It was experimentally impossible to sample the two phases separately. Continuous flow experiments were carried out in a commercially available microreactor (Little Things Factory XXL-ST-04) with em- bedded static mixer. The experimental setup was already described elsewhere [21], and a scheme of the reactor is reproduced for con- venience in the Supporting Information. Specifically, the microreactor channel is internally shaped to continuously mix the phases. In other words, the embedded static mixer consists of a holding line embedded in the reactor to create local turbulence and mixing along the length of the channel. The internal cross-section of the reactor is square (l = 2.2 mm), partially occupied by the mixer holding line (V = 8.0 mL, L = 3.0 m), Fig. 1. Reagents were separately fed by means of syringe pumps, samples were collected at the outlet of the reactor, quenched and diluted as previously described and analyzed by HPLC. Each experimental run was carried out in triplicate. To collect microscopy images, a glass Micronit microchip (1000 × 50 μm) was connected to the outlet of the microreactor and placed under an inverted, transmittion light microscop (Axio 100,
+
+3. Results and discussion
+
+3.1. Model extension and validation
+
+The result of a standard batch experiment is shown in Fig. 2 to- gether with a concentration profile under homogeneous conditions. As a general result, in the neighbourhood of the standard mixed acid composition (20% wt. HNO3, 60% wt. H2SO4, 20% wt. H2O), which is normally employed for nitrations in the industry, the only observed nitration products are 2- and 3-nitrobenzaldehyde. 4-Ni- trobenzaldehyde, together with the oxidized by products, were not detected or detected only at trace levels. This is in agreement with the previously published data for the homogeneous systems [36–38]. As previously mentioned in Section 2.2, under heterogeneous
+
+Fig. 2. Experimental batch nitration of benzaldehyde under (a) heterogeneous conditions Vorg/Vmixed acid = 0.136; (b) homogeneous conditions C0 = 50 mmol·L−1. [HNO3]0 = 5.01 mol∙L−1; [H2SO4]0 = 10.43 mol∙L−1. T = 35 °C.
+
+conditions it was impossible to separately analyse the aqueous and organic immiscible phases. As a result, the total number of moles of each organic in the reactor is the only available experimental result (total volume in the reactor = 1 mL), whereas the actual concentration is reported in the case of homogeneous conditions. As expected, as a first qualitative result, the reaction time to convert a higher amount of benzaldehyde increased significantly, under the same operating con- ditions, i.e. temperature and acids concentrations. The previously de- veloped kinetic model [38] consisted of a set of differential equations; the formation or consume rate of each organic compound can be cal- culated according to Eqs. (1) and (2)
+
+= = + + r k exp E RT NO Ar V k exp E RT NO n [ ][ ] [ ] N i N i aN i i aq aq N i aN i Ar i aq , , , , , ,
+
+(4)
+
+where Ar [ ] i aq is the concentration of the aromatic species i in the aqu- eous acidic phase and V aq is the volume of the aqueous acidic phase. Eqs. (3) and (4) take into account the overall number of moles ni consumed which is controlled by reaction kinetics in the acidic phase, where the reactions occur. The volume of the aqueous acidic phase and the solubility of organics changed during the reaction as nitric acid is consumed, whereas water is formed. In fact, in this case, for each mole of nitrated organic substrate one mole of nitric acid is consumed and one mole of water is formed according to the previously published re- action mechanism [38]. As a result + NO [ ] varies during time. Moreover, dissolved organics can contribute to variations in the volume of the acidic mixture. Even though in most cases the organic concentration in the acidic phase was negligible with respect to the total molar con- centration of water and acids, the additive volumes simplifying hy- pothesis was adopted for dissolved benzaldehyde, together with dis- solved nitrobenzaldehydes according to Eq. (5).
+
+= dc dt r i i N i, (1)
+
+= + r k exp E RT NO Ar [ ][ ] N i N i aN i i , , , (2)
+
+where rN i, is the i-th nitration rate in the previously reported reaction mechanism, ci is the concentration of the species i, kN i, and EaN i, the pre- esponential factor and the activation energy, respectively, Ar [ ] i the concentration of the aromatic species i, and + NO [ ] the concentration of nitronium ion in the nitrating mixture. Nitronium ion concentration was evaluated in agreement with the previously reported empirical and semi-empirical equations [38,39]. Its concentration is the equilibrium concentration and it is a known function of the acidic aqueous phase composition. Under homogeneous conditions, the concentration of the aromatics is negligible with respect to the one of nitric acid. As a result the changes in the acid phase composition during the reaction are not significant and the reaction profile is pseudo-first-order-like. On the contrary, under heterogeneous conditions, + NO [ ] in Eq (2) changes as nitric acid is consumed, and no pseudo-first order kinetic law could fit the data. The previously developed kinetic model was modified assuming kinetic control of the reaction rate under heterogeneous conditions. The assumption was experimentally verified by comparing the rate of con- sumption of benzaldehyde and formation of nitrobenzaldehydes at varying stirrer rates. Under the normally adopted conditions for nitra- tion in the lab-scale batch reactor, the experimentally observed reaction rates reached a plateau for magnetic stirrer rates higher than 700 rpm (data not shown). Under these conditions there are no mass transfer limitations and organics are rapidly dissolved in the nitrating mixture up to their solubility thermodynamic limit. For this reason, batch experiments were carried out at 1100 rpm to guarantee the kinetic control of the reaction and to avoid the in- troduction of new adjustable parameters in the model. The previously published reaction rates of nitration were modified according to Eqs. (3) and (4) to take into account the actual concentration of organics in the acidic phase.
+
+= + V t V t V t ( ) ( ) ( ) aq mix diss Ar (5)
+
+Ar i aq i
+
+= V t n MW ( ) diss Ar i
+
+,
+
+(6)
+
+i
+
+where V mix is the volume of the nitrating mixture, Vdiss Ar the volume of the dissolved organics, V t( ) aq the total volume of the aqueous acidic phase, and MWi and i the molar weight and density of the i-th species, re- spectively. In Eq. (6), nAr i aq , are equal to the maximum dissolved moles of the organic species i, according to its solubility in the mixture, as long as the amount of the organic in the reactor is higher than its solubility, and becomes equal to the total moles of the species i in the system once its amount drops below the solubility value. Solubility of the organics in mixed acid at varying composition and temperature where separately investigated through independent ex- periments. Their values were found to be independent of the presence of the other organics in the system at the adopted concentrations. The logarithm of the organic molar fraction was linearly dependent on the reciprocal of the absolute temperature as shown for some experimental runs in Fig. 3. This is in agreement with previous observations about the solubility of organics in concentrated acid mixtures [40]. At a fixed temperature, empirical linear and quadratic correlations were found between the logarithm of the i-th organic species molar fraction and the total molar acid concentration, in the neighborhood of the investigated conditions for reaction kinetics. The empirical ex- pressions can be summarized as follows:
+
+ln 0.593 ([ ] [ ]) 0.0108 16.771 [ ]
+
+X HNO H SO T if HNO
+
+= + +
+
+Be
+
+(7)
+
++ >
+
+[ ] 12.9
+
+H SO mol L
+
+= dn dt r i i N i, (3)
+
+= + + X HNO H SO T ln 0.030 ([ ] [ ]) 0.0428 20.729 NBe (8)
+
+Fig. 3. Solubility dependence on temperature for (a) benzaldehyde, HNO [ ] 3 = 6.60 mol·L−1, H SO [ ] 4 = 6.76 mol·L−1; (b) 3-nitrobenzaldehyde, HNO [ ] 3 = 3.79 mol·L−1, H SO [ ] 4 = 11.32 mol·L−1; (c) 2-nitrobenzaldehyde, HNO [ ] 3 = 1.90 mol·L−1, H SO [ ] 4 = 10.25 mol·L−1.
+
+Fig. 4. Comparison between experimental and calculated data. Experimental conditions are summarized in Table 1. (○) benzaldehyde; (□) 2-nitrobenzaldehyde; (Δ) 3-nitrobenzaldehyde.
+
+= + + X HNO H SO T ln 0.403 ([ ] [ ]) 0.0492 23.961 NBe (9)
+
+heterogeneous liquid-liquid conditions. The calculated and experi- mental data were compared in Fig. 4 for some of the adopted experi- mental conditions. As shown, the model was capable of predicting the experimental consumption and formation rates without any further adjustment of the previously estimated intrinsic kinetic parameters [38] (See Table 1).
+
+where X and [i] is the molar fraction and the molar concentration of the species i, respectively, and T the absolute temperature in K. It is worth noting that solubilities of the 2and 3-nitrobenzaldehydes is 1–2 orders of magnitude higher than that of benzaldehyde. The above Eqs. (3)–(9) were simultaneously solved to predict the molar consumption of benzaldehyde and formation of 2and 3-nitrobenzaldehydes under
+
+three representative frames at a fixed flow rate. The aim of this pre- liminary investigation is to show that significantly different flow pat- terns can be achieved in microreactors as the one adopted in this in- vestigation, even for small changes in the flow rate. The result is relevant if one considers that using tubular reactors at the same flow rates only parallel flow or slugs were observed in the literature de- pending on the internal diameter of the channels [11,43,44]. As shown, a threading stable flow pattern is observed, under the adopted conditions, at a flow rate of 20 μL∙min−1 with a liquid core formation of the organic phase surrounded by the aqueous acidic phase, Fig. 5a. Increasing the flow rate, the organic thread becomes thinner with the occasional formation of big organic droplets with diameters comparable with the internal diameter of the channel, Fig. 5b. The thread thinning is enhanced at higher flow rates with the first occa- sional instability of the organic thread observed at 60 μL∙min−1, under the adopted conditions, Fig. 5c. The instability is associated with the formation of a large number of smaller droplets. An increasingly marked instability effects is observed at 80 μL∙min−1 with the occa- sional reformation of an unstable organic thread. Two unstable threads are finally observed at 100 μL∙min−1. As already reported, as a general qualitative result, the mass transfer between the phases is enhanced at higher flow rates. However, it must be noted that, as a result of the presence of an embedded static mixer, small increments in the flow rate can result in completely different flow patterns with a higher predicted conversion.
+
+Table 1 Adopted experimental conditions for the runs presented in Fig. 4.
+
+Run T/°C HNO3 wt% H2SO4 wt% Vorg/Vmixed acid
+
+a 23.02 62.85 0.167 b 22.73 62.05 0.333 c 20.13 58.52 0.099 d 23.26 59.74 0.122 e 20.85 58.52 0.047 f 22.36 63.21 0.205 g 20.97 63.61 0.136 h 20.37 58.43 0.111
+
+3.2. Enhancement of mass transfer in microreactor with embedded static mixer
+
+According to Taminu et al. [41], for two immiscible phases the most common flow patterns are parallel flow, segmented flow, annular flow and dispersed flow. It is worth noting that for channels without em- bedded static mixer, the transition between the different regimes is determined by variations of about one order of magnitude in the flow rate [42]. Preliminary images collected at the outlet of a liquid-liquid micro- reactor with embedded static mixer are reported in Fig. 5 at different flow rates, but similar reaction times. In Fig. 5, in each row are reported
+
+Fig. 5. Flow patterns at different flow rates at the outlet of the static mixer of the microreactor. T = 20 °C; 20% wt. HNO3, 60% wt. H2SO4. Q = Qorganic = Qmixed acid. In each row are shown significant frames at the reported flow rate. Channel dimension = 1000 μm.
+
+conversion in well-designed microreactor devices.
+
+4. Conclusions
+
+In the present investigation, a previously developed kinetic model for benzaldehyde nitration under homogeneous conditions was ex- tended and validated under heterogeneous conditions. The model pre- diction were in agreement with experimental results, without any fur- ther adjustment of the previously estimated kinetic parameters. The same liquid-liquid heterogeneous reaction was carried out in a com- mercially available microreactor with embedded static mixer. The re- sults showed that microreactors with embedded static mixer are pro- mising alternatives to scaled-up batch reactors to carry out nitrations and can achieve kinetic regime at relatively low flow-rates. The con- clusions were supported by preliminary microscopic observations, which demonstrated a significant change in the flow pattern for small variations in the adopted flow rate in such designed systems. Further investigation will be devoted to identify and map different regimes at varying experimental conditions.
+
+Fig. 6. The comparison between the performances of small-scale batch reactor and microreactor with embedded static mixer at different flow rates. T = 35 °C; [HNO3] = 5.0 mol∙L−1, [H2SO4] = 10.4 mol∙L−1; τ = 3.6 min.
+
+3.3. Lab-scale batch reactor vs. microreactor with embedded static mixer
+
+Appendix A. Supplementary data
+
+The qualitative preliminary results presented in Section 3.2 were confirmed by the analytical results. In all the previously reported ni- trations in microreactos [11], although the observed reaction rate was found to increase in microreactors, there is no direct proof that the adopted devices are working under kinetic control. A few more detailed studies [43,44] carried out using simple tubular section reactors, quasi- kinetic regime is suggested to be achieved at LHSV values higher than 2000 h−1, corresponding to very low residence times and, hence, to relatively high values of flow rates. A comparison between perfor- mances of a lab-scale batch reactor and a continuous flow microreactor with embedded static mixer at varying flow-rate is reported in Fig. 6, in terms of benzaldehyde conversion and nitrobenzaldehydes yields at a fixed reaction time/residence time (τ). There was no significant difference in the products partition under all the investigated conditions, which suggests a good mixing within each of the phases. However, a significantly different benzaldehyde conversion was observed. As expected, higher conversion is achieved at higher flow rates, even though always lower than in a lab-scale batch reactor under kinetic regime. Performances very similar to those at- tained under kinetic control of the reaction were achieved at a flow rate of 1.25 mL/min. It must be noted that in the scaled-up batch reactors, mixing conditions that allow to reach kinetic control of a reaction are very unlikely and, in most cases, impossible to be achieved. Therefore, the results suggest that well-designed microreactors with embedded static mixers can achieve targets similar to those achieved under kinetic regime, which is a further process intensification in combination with the previously reported benefits in terms of yield and selectivity [21] and the advantage of using meso-scale reactors, which provide high productivity. It must be stressed that the significant enhancement of mass transfer between the phases allows to attain the theoretical limit of conversion/yield at the shortest residence time. In order to prove this point, experimental runs were carried out using higher flow rates up to 10 mL∙min−1, and the results were compared with those predicted by the batch model for the same reaction time. Harsher conditions, that are highly acidic media, were used to carry out experiments at higher flow rates to achieve high conversion at short residence times. As an ex- ample, an experimental benzaldehyde conversion of 97% was achieved in the microreactor adopting the following conditions: Qtot = 9.22 mL∙min−1, Qmixed acid/Qorganic = 4.94, T = 25 °C, [HNO3] = 6.03 mol∙L−1, [H2SO4] = 12.09 mol∙L−1. In the same con- ditions, benzaldehyde conversion of 99% was predicted by the model for the batch reactor under kinetic regime. Therefore, the kinetic model developed in Section 3.1 can be a useful tool to predict products partition and maximum achievable
+
+Supplementary data to this article can be found online at https:// doi.org/10.1016/j.cej.2018.11.044.

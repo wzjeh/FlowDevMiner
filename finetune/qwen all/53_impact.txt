@@ -1,0 +1,7 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of 4-nitrophenol | decrease |
+| flow_rate | conversion of 4-nitrophenol | increase |
+| catalyst_loading | conversion of 4-nitrophenol | increase |

@@ -1,0 +1,13 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rate | yield of gold nanoparticles | increase |
+| flow_rate | mean particle diameter | decrease |
+| flow_rate | size distribution half width | unchanged |
+| concentration ratio of ascorbic acid to gold ions | mean particle diameter | decrease |
+| concentration ratio of ascorbic acid to gold ions | size distribution half width | decrease |
+| pH | mean particle diameter | decrease |
+| pH | size distribution half width | decrease |
+| PVP concentration | mean particle diameter | decrease |
+| PVP concentration | size distribution half width | unchanged |

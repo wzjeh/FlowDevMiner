@@ -1,0 +1,38 @@
+{"name": "product", "yield_optimal": 0, "unit": "%"}
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp_residence = re.search(r"(\d+) (min|°C)", input_str)
+    if match_temp_residence:
+        value, unit = match_temp_residence.groups()
+        if unit == "min":
+            res_time = int(value)
+        else:
+            temp = float(value)
+
+    # Parse flow rates
+    flow_rates = []
+    matches_flow_rate = re.findall(r"(\d+\.\d+) (mL/min)", input_str)
+    for match in matches_flow_rate:
+        value, unit = match.groups()
+        flow_rates.append(float(value))
+
+    # Parse inner diameter and reactor type
+    inner_diameter = None
+    reactor_type = None
+    match_reactor_inner_diameter = re.search(r"(\d+\.\d+) (mm) in a (.*)", input_str)
+    if match_reactor_inner_diameter:
+        value, unit, reactor_type = match_reactor_inner_diameter.groups()
+        inner_diameter = float(value)
+
+    # Parse yield
+    yield_optimal = None
+    matches_yield = re.findall(r"(\d+)%",
+
+{"reaction_summary": {"reaction_type": "microreactor", "reactants": [], "products": [{"name": "nano drug crystals", "yield_optimal": null, "unit": null}], "conditions": [{"type": "temperature_control", "value": "+/-1 °C"}], "reactor": {"type": "microractor"}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+{"type":"temperature","value":temp_match.group(1) + "°C"}
+
+{"reaction_summary": {"reaction_type": "laminar", "reactants": [{"name": "solvent", "role": "..."}], "products": [{"name": null, "yield_optimal": 95.0, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": 10}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "2 mm"}, "metrics": {"conversion": null, "yield": 95.0, "selectivity": null, "unit": "%"}}}
+

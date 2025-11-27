@@ -1,0 +1,76 @@
+{ "reaction_summary": {  "reaction_type":"diazotization",  "reactants":[{"name":"nitrosobenzene","role":"catalyst"}],  "products":[{"name":"benzene diazonium salt","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":0.5},    {"type":"flow_rate_reactant_A","value":1}  ],  "reactor":{"type":"micro-mixer", "inner_diameter":"1 mm"}
+
+{"reaction_summary": {"reaction_type": "diazotization", "reactants": [{"name": "amine", "role": "solvent"}], "products": [{"name": "oil in water (O/W) microdroplets", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": 0.1}, {"type": "pressure", "value": null}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+# Parse temperature and residence time
+    temp_match = re.search(r'T=(\d+) \D*(°C)', input_str)
+    if temp_match:
+        temp_value = int(temp_match.group(1))
+    
+    res_time_match = re.search(r'residence time (\d+\.?\d*) min', input_str, re.IGNORECASE)
+    if res_time_match:
+        residence_time = float(res_time_match.group(1))
+
+    # Parse flow rate
+    flow_rate_match = re.search(r'flow rate (.*?)\D*(mL/min)', input_str, re.IGNORECASE)
+    if flow_rate_match:
+        flow_rates = [float(x) for x in flow_rate_match.group(1).split(',')]
+    
+    inner_diameter_match = re.search(r'in a (\d+\.?\d*) mm', input_str)
+    if inner_diameter_match:
+        inner_diameter = float(inner_diameter_match.group(1))
+
+    # Parse yield
+    yield_match = re.search(r'yield (.*?)\D*(%)', input_str, re.IGNORECASE)
+    if yield_match:
+        optimal_yield = int(yield_match.group(1))
+    
+    reaction_type = None
+
+{ "reaction_summary": { 
+    "reaction_type":"...", 
+    "reactants":[{"name":"o- ethylaniline","role":"..."}], 
+    "products":[{"name":"o- ethyl iodide", "yield_optimal":83.9, "unit":"%"}, {"name":"o- ethyaniline", "yield_optimal":99, "unit":"%"}], 
+    "conditions":[
+        {"type":"flow_rate_total","value":"14.64 mL/min"}
+    ], 
+    "reactor":{"type":"...", "inner_diameter":null}
+
+{"reaction_summary": {"reaction_type": "GC analysis", "reactants": [], "products": [{"name": "", "yield_optimal": null, "unit": ""}], "conditions": [{"type": "temperature", "value": "280 °C"}], "reactor": {"type": "capillary column", "inner_diameter": "0.32 mm"}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": ""}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+- Assume that if a field is not explicitly stated in the input text, it should be left as-is.
+
+Step 1: Preprocess the input string to extract relevant information
+
+
+
+
+    # Extract reaction type (if any)
+    match = re.search(r'(\w+)', input_str)
+    if match:
+        reaction_type = match.group()
+    
+    # Split into conditions and metrics
+    conditions, metrics = [], []
+    for line in input_str.split(';'):
+        if 'T=' in line or 'temperature' in line.lower():
+            conditions.append(re.search(r'T=([0-9]+) °C', line).group(1))
+        elif re.search(r'\d+\.\d+ mL/min', line):
+            metrics.append(re.search(r'(\d+\.\d+) mL/min', line).group(1))
+
+    # Extract reactor type and inner diameter
+    match = re.search(r'in a (\w+)\s*(\d+(?:\.\d+)?) mm', input_str)
+    if match:
+        reactor_type, inner_diameter = match.group(1), float(match.group(2))
+    
+    # Extract products (yield) and reactants (if any)
+    product_match
+
+{"name": None, "yield_optimal": yield_optimal, "unit": "%"}
+
+{"name": "4-aminophenol"}
+
+{ "reaction_summary": {  "reaction_type":"continuous",  "reactants":[{"name":"amine","role":"solvent"}, {"name":"sodium nitrite","role":"catalyst"}],  "products":[{"name":"O/W micelle","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":"10 min"},    {"type":"flow_rate_reactant_A","value":"0.1 mL/min"},    {"type":"flow_rate_reactant_B","value":null},    {"type":"pressure","value":null}
+

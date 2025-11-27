@@ -1,0 +1,199 @@
+Contents lists available at ScienceDirect
+
+Chemical Engineering Journal
+
+journal homepage: www.elsevier.com/locate/cej
+
+Rapid synthesis of polyimide precursors by solution polymerization using Continuous-flow microreactors
+
+T
+
+Wenhua Xua, Yuanhai Sua,b,⁎, Minjing Shanga, Xueming Lua, Qinghua Lua,c,⁎
+
+a School of Chemistry and Chemical Engineering, Frontiers Science Center for Transformative Molecules, Shanghai Jiao Tong University, Shanghai 200240, PR China b Key Laboratory of Thin Film and Microfabrication (Ministry of Education), Shanghai Jiao Tong University, Shanghai 200240, PR China c School of Chemical Science and Engineering, Tongji University, Shanghai 200092 200240, PR China
+
+H I G H L I G H T S
+
+G R A P H I C A L A B S T R A C T
+
+• A continuous-flow strategy for pre- paration of polyimide precursors was proposed. • Microreactors largely reduced the polymerization time compared to batch reactors. • Parameters of PAA preparation were optimized and reaction kinetics was discussed. • Excellent PI films were obtained after the imidization of PAAs synthesized in flow. • Various commercial dianhydrides could be applied to synthesize PAAs in microreactors.
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Preparation method is of importance for development and application of polymers. Herein, we proposed a continuous-flow strategy for the preparation of polyimide precursors through solution polymerization in mi- croreactors for the first time. The polymerization time was significantly reduced from several hours in a batch reactor to twenty minutes in a microreactor. Lower temperature, more appropriate molar ratio of monomers and longer residence time in the polymerization process resulted in poly(amic acid)s with higher molecular weights. Moreover, the relationship between the molecular weight and the residence time was used to discuss the polymerization kinetics. Meanwhile, the rapid preparation of poly(amic acid)s from pyromellitic dianhydride (PMDA), 4,4′-(hexafluoroisopropylidene)diphthalic anhydride (6FDA), benzophenone-3,3′,4,4′- tetracarboxylic dianhydride (BTDA), 4,4′ - oxydiphthalic dianhydride (ODPA), or cyclobutane tetracarboxylic dianhydride (CBDA) was achieved in the microreactor. In particular, the number-average molecular weight of the PAA prepared by BTDA and 2,2′-bis(trifluoromethyl)-4,4′-diaminodiphenyl ether (6FODA) reached 36.3 kg / mol at the polymerization time of 19.6 min. This work demonstrated that microreactors would provide a promising and eﬃcient pathway to prepare polyimide precursors with high molecular weights.
+
+Keywords: Microreactor Continuous-flow synthesis Polyimide Molecular weight Thermal properties
+
+⁎ Corresponding authors at: School of Chemistry and Chemical Engineering, Frontiers Science Center for Transformative Molecules, Shanghai Jiao Tong University, Shanghai 200240, PR China.. E-mail addresses: y.su@sjtu.edu.cn (Y. Su), qhlu@sjtu.edu.cn (Q. Lu).
+
+https://doi.org/10.1016/j.cej.2020.125361 Received 15 January 2020; Received in revised form 27 April 2020; Accepted 4 May 2020
+
+Available online 06 May 2020 1385-8947/ © 2020 Elsevier B.V. All rights reserved.
+
+preparation of high-performance polyimide films. Various factors such as polymerization temperature, molar ratio of dianhydride to diamine and residence time on the polymerization performance were in- vestigated. Under optimal operational conditions, poly(amic acid)s with desired molecular weights could be eﬃciently synthesized in the microreactor at a short residence time (e.g., 19.6 min), and then could be successfully used to prepare polyimide films. Moreover, reaction kinetics in the microreactor was analyzed in order to understand the polymerization mechanism. Such a strategy was extended to the rapid synthesis of PAAs regarding the dianhydrides scope such as pyromellitic dianhydride (PMDA), 4,4′-(hexafluoroisopropylidene)diphthalic anhy- dride (6FDA), benzophenone-3,3′,4,4′- tetracarboxylic dianhydride (BTDA), 4,4′ - oxydiphthalic dianhydride (ODPA), and cyclobutane tetracarboxylic dianhydride (CBDA).
+
+1. Introduction
+
+In recent years, the application of polyimides (PIs) on various en- gineering fields has attracted considerable attention due to its excellent combined properties, such as superior electrical/insulating properties, outstanding thermostability and great mechanical performance [1-7]. Many researchers have reported PI films with potential applications on flexible thin-film solar cells, flexible display devices, and transparent flexible printed circuit board [8-12]. The most common method for synthesizing polyimides is to prepare polyimide precursors poly(amic acid)s (PAAs) by the polymerization of dianhydride with diamine in an aprotic polar solvent at low temperatures, and then to imidize PAAs by heating or chemical dehydration to obtain polyimides. In 1965, Sroog et al. reported for the first time the preparation of PAAs by poly- merization of pyromellitic dianhydride (PMDA) with 4,4-diaminodi- phenyl ether (ODA) in N,N-dimethyl acetamide (DMAc) [13]. The polyimide can be directly synthesized by heating and polycondensing dianhydride and diamine in a high boiling solvent such as m-cresol [14]. Nosova et al. synthesized PAAs with high molecular weights in the presence of a tertiary amine and triphenylphosphite by direct poly- condensation of aromatic amino dicarboxylic acids in amide solvents [15]. They studied the eﬀects of monomer concentration, polymeriza- tion temperature and catalyst concentration on the molecular weights of polyimides. Kim et al. developed a low-temperature process for the synthesis of polyimides, and they found that the enhanced reactivity of a novel dianhydride functionality could be used to produce a PMDA- ODA poly(amic acid) analog, which underwent partial spontaneous conversion to polyimides at room temperature in a homogeneous so- lution [16]. However, drawbacks are associated with the conventional batch processing for the preparation of polyimides or other polymers, such as obvious temperature and concentration gradients existing and the diﬃculty of control over the molecular weight distribution in the batch reactor. In particular, insuﬃcient heat and mass transfer rates in batch reactors may lead to local temperature rise, occurrence of ex- plosive polymerization and even runaway for some polymerization processes which are highly exothermic. Microreactor technology exhibits great potential in organic synth- esis [17-22], nanoparticle preparation [23-25] and material science [26-31], which has experienced rapid development in both academia and industry [32-34]. As strong platforms for process intensification, microreactors possess various advantages such as higher mixing eﬃ- ciency, faster heat and mass transfer rates, more precise control over process parameters, higher selectivity and yield, etc., resulting from its extremely larger surface-to-volume ratio and shorter characteristic transport distance as compared with conventional batch reactors [35- 37]. Microreactors have been widely applied for many polymerization processes, and its benefits regarding the control over molecular weight distributions, structures and functionalities of polymers have been well demonstrated. Ishizaka et al. reported the continuous preparation of polyimide nanoparticles using a system combining a micromixer and a micro heat exchanger, which controlled the particle size by varying the concentration of poly(amic acid) within 10 s of the short residence time [38]. Song et al. reported the non-living free radical polymerization of acrylamide in capillary microreactors. They found that the volumetric flow rate and the reaction temperature increased the polymerization rate of acrylamide at a constant residence time [39]. Tonhauser et al. reviewed recent developments in synthetic strategies and reactor design for the homogeneous synthesis of polymers in microreactor systems, and emphasized future challenges and promises for applications [40]. Recently, Su et al. clearly summarized engineering principles related to polymerization processes in microreactors, and gave an overview of application examples [41]. In this work, we proposed a continuous-flow strategy for the synthesis of polyimide precursors with high molecular weights through solution polymerization in microreactors for the first time, which could be considered as an important part of a promising platform for the
+
+2. Experimental section
+
+2.1. Materials and device
+
+PMDA, BTDA, ODPA, 6FDA, ODA and 6FODA were purchased from ChinaTech Chemical Co., Ltd (Tianjin, China). CBDA was obtained from Wuxi Bohai Chemical Products Co., Ltd. (China). N, N- Dimethylacetamide (DMAc) was purchased from J&K Scientific (China) and used without further purification. The dianhydride was re- crystallized from acetic anhydride and dried under vacuum at 135 °C for 24 h. The diamine was recrystallized with the use of ethanol and dried under vacuum at 80 °C for 24 h. The microreactor system was fabricated by assembling a polyetheretherketone (PEEK) T-micromixer (o.d.1/16″, ANPEL Laboratory Technologies Inc., Shanghai) and fluorinated ethylene propylene (FEP) tubing (i.d. 1 mm and o.d. 1/16″, ANPEL Laboratory Technologies Inc., Shanghai).
+
+2.2. Synthesis of PAAs in the microreactor and preparation of PI films
+
+When conducting the polymerization in the microreactor, the molar ratio (r) of the dianhydride 6FDA to the diamine ODA or 6FODA was maintained at 1:1, and the solid content (S) of the reaction mixture did not excess 15%. 6FDA (1.28 mmol, 5.698 g) and ODA (1.28 mmol, 2.566 g) were dissolved in DMAc (25 ml), respectively. DMAc is one of the most widely utilized solvents to prepare PIs because it has good solubility for various monomers [42,43]. The dianhydride solution and the diamine solution were delivered into the microreactor system at the same volumetric flow rate of 0.2 ml/min by two syringe pumps (NE- 1800, New Era Pump System, Inc., United States). The whole micro- reactor system was immersed inside a water bath to maintain the set temperature (T) of 20 °C for the polymerization process. In particular, two pieces of enough long tubing as the feeding lines connecting to the T-micromixer were also immersed inside the water bath for preheating. The reaction mixture was collected after the polymerization in the microreactor and coated on a clean and dried glass plate with a 500 μm depth blade. The residual solvent was removed by heating the collected product at 60, 100, and 120 °C for 1 h at each temperature. PI films could be formed after the thermal imidization of PAAs in a muﬄe with a curing program of 150 °C for 1 h, 180 °C for 1 h, 220 °C for 1 h, 250 °C for 1 h and 270 °C for 4 h at a heating rate of 5 °C.
+
+2.3. Characterization
+
+The number-average (Mn) and weight-average (Mw) molecular weights of poly(amic acid)s were estimated by using a polystyrene standard calibration curve through gel permeation chromatograph (GPC) in a Perkin-Elmer Series 200. Polymer dispersity index (PDI) was calculated as the ratio of Mw to Mn. The calibration standard of GPC analysis was polystyrene in dimethyl formamide (DMF) eluent that contained 0.03 mol/L LiBr and 0.03 mol/L H3PO4 with the flow rate of 0.6 ml/min at 40 °C [44,45]. Attenuated Total Reflection-Fourier-
+
+transform infrared (ATR-FTIR) spectroscopies of PI films were obtained in a Spectrum 100 FT-IR spectrometer of a Perkin Elmer in order to assess the degree of imidization. Thermogravimetric analysis (TGA) was conducted to characterize the thermal stability of PI films, with the aid of a Pyris 1 TGA of Perkin Eimer under the nitrogen atmosphere with 3–5 mg samples at the heating rate of 10 °C/min. The decomposition temperature of 5% weight loss (Td5%) was chosen as a benchmark for the thermogravimetric analysis. Glass transition temperature (Tg) of a PI film was investigated by dynamic mechanical analysis (DMA) with a Q800 DMA of TA Instrument (TA Instruments, New Castle, PA, USA) at the heating rate of 5 °C min−1. The peak of the loss factor (tan θ) in the DMA curve was taken as the glass transition temperature. Mechanical properties of PI films were tested by tensile testing with an Instron 4465 testing machine (Instron Corp., Norwood, Massachusetts, USA) at room temperature. Optical properties of PI films were measured by a UV/ visible spectrophotometer (UV-1800, Shimadzu, Japan).
+
+absorption peaks of the symmetric and asymmetric stretching vibration for the carbonyl group (C = O) in the imide ring appeared at 1783 and 1726 cm−1, respectively. The peak of 1374 cm−1 corresponding to the C–N stretching vibration and the peak of 1238 cm−1 attributed to the C–O stretching vibration were observed. These ATR-FTIR results in- dicated that the high imidization degree of PI films was obtained [50] . TGA, DMA, UV/visible spectrophotometer and tensile testing were used to investigate the thermal, optical and mechanical properties of the PI films (PI-1 and PI-2). The TGA curves of PI films are illustrated in Fig. 2b. Both these two PI films showed a similar decomposition be- havior that was characterized by a 5% weight loss in the temperature range of 505 °C-509 °C. No weight loss below 300 °C could be found, further indicating that the precursor PAA was fully imidized. As the temperature exceeded 500 °C, the amide bonds fractured and its polymer chains broken down. The glass-transition temperatures (Tg) of the PI films examined by DMA (Fig. 2c) are listed in Table 1. Tg values of PI-1 and PI-2 were respectively 286 °C and 308 °C, which demon- strated the ensured thermal stability of these two films. Moreover, both PI-1 and PI-2 exhibited good optical transparency with the cut-oﬀ wavelength below 400 nm and the transmittance of greater than 85% above 500 nm (Fig. 2d), which were comparable to other PI films re- ported in literature [51,52]. Mechanical properties of PI films are influenced by many factors, such as chemical structure, molecular weight, aggregation structure, preparation procedure, and so on. In general, polyimides exhibit a tensile strength of 70–100 MPa and the elongation at breakage ranges from 2% to 15% [53]. As shown in Table 1, both PI-1 and PI-2 exhibited the tensile strength from 85.18 to 101.93 MPa and the elongation at breakage from 5.52% to 6.71%. Such a method for the polyimide pre- cursor preparation in microreactors was reported in the first time, which could eﬃciently intensify the key step for the synthesis of polyimides with excellent comprehensive performance at short poly- merization time. Moreover, these PI films with desired molecular weights and comprehensive properties obtained in this current work indicated the great application potential of microreactors on the fab- rication of high-performance materials constructed by polyimides.
+
+3. Results and discussion
+
+3.1. Characterization of PAAs and PI films
+
+Fig. 1a shows a schematic diagram of the continuous-flow micro- reactor system for the preparation of PAAs through the solution poly- merization. The molecular weights of PAAs were measured by GPC, which are summarized in Table 1. When the residence time (t) in the microreactor reached 19.6 min, it was found that the number-average molecular weight of the PAA prepared from 6FDA-ODA (PI-1) or 6FDA- 6FODA (PI-2) reached 13.0 k g/mol or 14.9 k g/mol. The molecular weight of PI-2 was slightly higher than that of PI-1. This result was primarily due to the higher fluorine content of 6FODA which is bene- ficial for the formation of poly(amic acid)s with higher molecular weights [46]. The desired molecular weight obtained in such a short polymerization time indicated a high polymerization rate, which was mainly due to the fast mixing of monomers and the high heat transfer rate resulting from the extremely confined diﬀusion distance of the microreactor [47-49]. Poly(amic acid)s with such molecular weights can be applied for fabrication of polyimide films and photoresists. Then, the as-prepared PAA solution was imidized to prepare a PI film. Fig. 1b shows the photos of two PI films (PI-1 and PI-2) respectively obtained from the combinations of 6FDA-ODA and 6FDA-6FODA. PI-2 seemed to be more transparent and even colorless than PI-1 because its stronger electron-withdrawing eﬀect resulting from trifluoromethyl groups (-CF3) prohibited the formation of charge-transfer complexes (CTC) in the intraand intermolecular chains. ATR-FTIR spectra of the PI films were recorded to assess the degree of imidization, as shown in Fig. 2a. The characteristic peaks of the carboxyl and amide linkages at 3500 cm−1 (–COOH and –NH–), 1660 cm−1 (CO–NH), and 1550 cm−1 (C–NH) disappeared, while the
+
+3.2. Eﬀects of the temperature and molar ratio on the polymerization performance in the microreactor
+
+In conventional batch reactors, the temperature and the con- centrations of monomers and polymers are hard to reach homogenous mainly due to the large amount of heat released during the poly- merization process and the insuﬃcient transport properties of the batch reactors. Microreactors typically possess specific surface area at the order of magnitude of 103 m2 m−3, resulting in superior mass and heat transfer rates and thus precise control over the temperature and the concentration [54].
+
+Fig. 1. (a) Schematic diagram of the continuous-flow microreactor system for the preparation of PAAs through the solution polymerization, (b) photos of polyimide films (PI-1 and PI-2).
+
+Table 1 Molecular weights of the PAAs prepared in the microreactor and the thermal, optical and mechanical properties of PI films.
+
+Mn (k g/mol) Mw (k g/mol) PDI Td5% (oC) Tg (oC) TCut oﬀ(nm) Tensile stress (MPa) Elongation at breakage (%)
+
+PI-1 13.0 29.5 2.28 101.93 ± 8.38 6.71 ± 0.56 PI-2 14.9 35.5 2.37 85.18 ± 7.98 5.52 ± 0.86
+
+parameters in continuous-flow synthesis using microreactors, which can be controlled easily by changing the flow rate of reaction mixture, or the length and inner diameters of microreactors. The following equation (Equation (1)) is usually used to calculate the residence time in capillary microreactors:
+
+Fig. 3a shows the number-average molecular weights and polymer distribution indexes of PAAs prepared in the microreactor at diﬀerent polymerization temperatures. Mn of PAAs increased with the decrease of the polymerization temperature, while PDI was nearly unchanged with its value in the range of 2.15 to 2.28. As the polymerization temperature decreased from 80 °C to 20 °C, Mn of PAAs increased from 6. 2 k g/mol to 13.0 k g/mol. The polymerization between dianhydride and diamine was an exothermic reaction, and thus a lower temperature was beneficial for the formation of polymers with higher molecular weights [55,56]. As compared with the polymer dispersity index ob- tained in a batch reactor (2.7–4.5), a lower value could be obtained for PAAs prepared in the microreactor [57-59]. This was because the mi- croreactor provided more precise control over the concentration and temperature fields compared with the batch reactor. Fig. 3b shows the number-average molecular weight of PAAs at diﬀerent molar ratios of molar ratio of the dianhydride (6FDA) to the diamine (ODA). When the molar ratio of 6FDA to ODA was close to 1, the progress of the poly- merization process was facilitated. Since PAAs were in equilibrium with the dianhydride and the diamine, a slight excess of either monomer resulted in an eﬀective oﬀset in stoichiometry limiting the increase of the molecular weight of the polymer [60].
+
+= = t V V π d L V ·( /2) ·
+
+i
+
+(1)
+
+C
+
+C
+
+where V is the volume of the microreactor, and VC is the total vo- lumetric flow rate of the reaction mixture, L is the length of the capil- lary microreactor, and di is the inner diameter of the microreactor. In this work, the variation of the polymerization time was realized by changing the length of the capillary microreactor while maintaining the same total volumetric flow rate (0.4 ml/min).
+
+Fig. 4 shows the molecular weights of PAAs prepared in the mi- croreactor at diﬀerent residence times. Mn of PAAs increased re- markably with the increase of the residence time. It reached 18.72 kg mol−1 with the residence time of 38.2 min. Accordingly, the value of PDI was in the range of 2.11–2.34 when the residence time was varied from 9.6 to 38.2 min. The reaction time for obtaining PAAs with high molecular weights in a conventional reactor was reported to be 6–48 h [44,45,61]. In this work, the desired molecular weight was obtained in such a short polymerization time mainly due to the fast mixing of monomers and the high heat transfer rate resulting from the extremely confined diﬀusion distance of the microreactor. It should be noticed that the relationship between the molecular
+
+3.3. Eﬀect of the residence time on the polymerization performance in the microreactor
+
+The residence time (t) is one of the most important process
+
+Fig. 2. (a) ATR-FTIR, (b) TGA spectra of the weight loss, (c) the loss factor versus the temperature and (d) UV–visible spectra of the polyimide films (PI-1 and PI-2).
+
+assumes that the formation of PAAs accelerates the polymerization process and thus renders the reaction order higher. Therefore, both the second-order and third-order autocatalytic kinetics models for mono- ners transformation were used to study the PAA polymerization in the microreactor, and the reaction equation is simplified as follows [67]:
+
+k
+
++ A B C k
+
++ ⇌ −
+
+(2)
+
+where A, B, and C represent the monomeric dianhydride, the monomeric diamine, and poly(amic acid), + k and k - represent the reaction rate constants of forward and backward reactions for the poly (amic acid) formation, respectively. According to literature, it can be known that the solvent typically aﬀects the reaction rate because of the presence of hydrogen bond [55,68]. However, the mechanism of the solution polymerization for the preparation of polyimide precursors with the use of dianhydrides and diamines in various solvents has not been confirmed so far. The concentration of the dianhydride to the diamine was maintained at 1:1. Since the rate constant of the backward reaction ( = × k s (0.5~1) 10 - - 7 - 1) is much lower than that of the forward reaction [69,70], the second-order kinetics equation can be applied for the monomers transformation as shown in the following:
+
+− = = dc dt k c c k c A A B A
+
+(3)
+
+− = c c k t
+
+A A0 (4)
+
+where cA represents the concentration of the monomeric dianhy- dride, cB represents the concentration of the monomeric diamine, cA0 represents the initial concentration of the monomeric dianhydride, and k1 is the apparent rate constant of the second-order kinetics for the polymerization process. For the polymerization system with the equi- molar dianhydride and diamine, Equations 5–7 can be derived.
+
+= − c c P (1 ) A A0 (5)
+
+Fig. 3. Molecular weights and molecular weight distribution indexes of PAAs derived from 6FDA-ODA in the microreactor (a) at diﬀerent temperatures (r = 1, S = 15% and t = 19.6 min), (b) at diﬀerent molar ratios (T = 20 °C, S = 15% and t = 19.6 min).
+
+= ∗ + M M X M n es n (6)
+
+= − X P 1/(1 ) n (7)
+
+where Xn is the number-average degree of polymerization, and P is the monomer conversion. In particular, Xn is the statistical average number of repeat units in polymer chains, which can be calculated from the number-average molecular weight. M0 and Mes are the molecular masses of the repeated unit and the end group, respectively. The second-order reaction kinetics can be converted to an equation with the integration of the number-average degree of polymerization:
+
+= + X c k t n A0 1 (8)
+
+Similarly, the following equation (Equation (9)) can be obtained for the third-order reaction kinetics:
+
+= + X c k t n A (9)
+
+where k2 is the apparent rate constant of the third-order reaction kinetics for the polymerization process. The complexity of this polymerization process makes the diﬃculty to have good correlation coeﬃcients when carrying out kinetics para- meters fitting based on experimental data, which have been reported in the range of 0.9586 to 0.9838 in the batch reactor [71]. Fig. 5 shows the parameters fitting for the second-order and third-order reaction kinetics based on the experimental data of this polymerization process in the microreactor. The correlation coeﬃcient for the second-order reaction kinetics is 0.9419 (Fig. 5a), while its value for the third-order reaction kinetics is obviously higher (i.e., 0.9825 as shown in Fig. 5b). Therefore, it can be deduced that this polymerization conducted in the microreactor tended to follow the third-order reaction kinetics for the mononers transformation. Moreover, the reaction rate constant was estimated to be 3.95 L2(mol−1)2 s−1,which can be seen from Fig. 5b. The enhancement of the PAA preparation in the microreactor could be
+
+Fig. 4. Eﬀect of the residence time on the molecular weights of PAAs derived from 6FDA-ODA in the microreactor (T = 20 °C, r = 1 and S = 15%).
+
+weight and the reaction time can be used to discuss the polymerization kinetics. The reaction kinetics for the formation of poly(amic acid)s is rather complex and still controversial, which has been seldom reported so far. Some ones thought that this polymerization is a reversible second-order reaction [62-64], while the other thought that it follows a reversible third-order autocatalytic kinetics [65,66]. Compared to the second-order reaction kinetics, the third-order reaction kinetics
+
+Table 2 The solid contents for five commercial dianhydrides in the polymerization process with the application of the microreactor.
+
+(a)
+
+Xn Xn = 1+ 1.03 t
+
+dianhydride 6FDA ODPA BTDA PMDA CBDA
+
+R2 = 0.9419
+
+solid content 15% 15% 15% 10% 10%
+
+Xn
+
+reaction time (min)
+
+(b)
+
+X2 n
+
+X2 n= 1 + 31.24 t
+
+R2 = 0.9825
+
+X2 n
+
+Reaction time (min)
+
+Fig. 5. Parameters fitting for the second-order (a) and third-order (b) reaction kinetics based on the experimental data of the polymerization process in the microreactor.
+
+Fig. 6. (a) Molecular weights of PAAs with the use of diﬀerent dianhydrides (T = 20 °C, r = 1 and t = 19.6 min), (b) molecular weights and molecular weight distribution indexes of PAAs derived from 6FDA-ODA with diﬀerent solid contents in the microreactor (T = 20 °C, r = 1 and t = 19.6 min).
+
+elaborated with the apparent reaction rate constant of the poly- merization. Moreover, a large reaction rate constant indicated the rapid mononers transformation and preparation of PAAs with high molecular weights in the continuous-flow microreactor. According to a possible polymerization mechanism, PAAs with low molecular weights were produced at the first, and then the presence of the carboxylic acid moieties of these oligomers would accelerate the polymerization rate during the reaction progress [66]. The third-order reaction kinetics obtained in this current work accorded with the autocatalytic poly- merization mechanism to a certain extent.
+
+the temperature of 20 °C. What needs to be explained here is that the solid contents of two PAAs were reduced due to the poor solubilities of PMDA and CBDA. The number-average molecular weights of the PAAs synthesized in the microreactor with diﬀerent dianhydrides at the temperature of 20 °C are shown in Fig. 6a. Mn of PAAs varied in the range of 6.7–36.3 kg / mol, and PDI ranged from 1.65 to 2.55 at the residence time of 19.6 min. The molecular weights of PAAs were mainly related to the reactivity of dianhydrides. The larger the electron aﬃnity (Ea) of dianhydride, the higher the reactivity and the higher the molecular weights of PAAs. Interestingly, the molecular weight of the PAA pre- pared from BTDA with the electron aﬃnity of 1.55 eV reached 36.3 kg / mol, which was higher compared with that prepared from PMDA (1.90 eV). This was mainly because the solid content of BTDA (15%) was higher than that of PMDA (10%) in the polymerization process. This indicated that the molecular weight of the poly(amic acid) syn- thesized in the microreactor was strongly related to the solid content. In fact, higher solid content was found to result in higher molecular weights of PAAs when using the same dianhydride (6FDA) for the polymerization process (Fig. 6b).
+
+3.4. Preparation of PAA in the microreactor using various commercial dianhydrides.
+
+As is known, the prerequisite for the continuous-flow operation is that reactants can be well dissolved or dispersed in solvents in order to prohibit the channel clogging. We realized the rapid synthesis of poly (amic acid)s and the stable operation for the solution polymerization in the microreactor through controlling the solid content and the tem- perature. Table 2 lists the applied solid contents for five commercial dianhydrides in this polymerization process using the microreactor at
+
+The aforementioned research proved that for the continuous-flow polymerization in the microreactor system applied in this work, a proper reaction temperature (20 °C), a relatively long residence time (greater than19.6 min), and an appropriate molar ratio of dianhydride to diamine (1: 1) were conducive to the preparation of PAA with a relatively high molecular weight (greater than13.0 kg / mol) and a narrow molecular weight distribution (2.11–2.34). In addition, the re- activity of monomers and its solubility in the solvent directly aﬀect the polymerization degree of PAA, and the solubility is even more im- portant, which should be paid much attention to when carrying out the polymerization in a microreactor.
+
+substrates, Adv. Mater. 14 (2002) 1275–1279. [3] K.I. Min, T.H. Lee, C.P. Park, Z.Y. Wu, H.H. Girault, I. Ryu, T. Fukuyama, Y. Mukai, D.P. Kim, Monolithic and Flexible Polyimide Film Microreactors for Organic Microchemical Applications Fabricated by Laser Ablation, Angew. Chem. Int. Edit. 49 (2010) 7063–7067. [4] D.H. Kim, J.H. Ahn, W.M. Choi, H.S. Kim, T.H. Kim, J. Song, Y.Y. Huang, Z. Liu, C. Lu, J.A. Rogers, Stretchable and foldable silicon integrated circuits, Science 320 (2008) 507–511. [5] D. Ji, T. Li, W. Hu, H. Fuchs, Recent Progress in Aromatic Polyimide Dielectrics for Organic Electronic Devices and Circuits, Adv. Mater. 31 (2019) 1806070–1806089. [6] I. Gouzman, E. Grossman, R. Verker, N. Atar, A. Bolker, N. Eliaz, Advances in Polyimide-Based Materials for Space Applications, Adv. Mater. 31 (2019) 1807738–1807742. [7] D. Ji, T. Li, Y. Zou, M. Chu, K. Zhou, J. Liu, G. Tian, Z. Zhang, X. Zhang, L. Li, D. Wu, H. Dong, Q. Miao, H. Fuchs, W. Hu, Copolymer dielectrics with balanced chain- packing density and surface polarity for high-performance flexible organic elec- tronics, Nat. Commun. 9 (2018) 2339–2347. [8] J.C. Ho, Y.Y. Chang, C.M. Leu, G. Chen, C.P. Kung, H.C. Cheng, J.Y. Yan, S.T. Yeh, L.Y. Jiang, Y.H. Chien, H.L. Pan, C.C. Lee, 43.3: A Novel Flexible AMOLED with Touch Based on Flexible Universal Plane for Display Technology, SID Symposium Digest of Technical, Papers 42 (2011) 625–628. [9] K. Shimeno, T. Ito, T. Aoyama, A. Nishimoto, S. Nagata, T. Kurita, Polyamideimide resin, as well as a colorless and transparent flexible metal-clad laminate and circuit board obtained therefrom, Google Patents (2007). [10] X. Mathew, J.P. Enriquez, A. Romeo, A.N. Tiwari, CdTe/CdS solar cells on flexible substrates, Sol. Energy. 77 (2004) 831–838. [11] M. Aliyu, M. Islam, N. Hamzah, M. Karim, M. Matin, K. Sopian, N. Amin, Recent developments of flexible CdTe solar cells on metallic substrates: issues and pro- spects, Int. J. Photoenergy. 2012 (2012) 1–10. [12] S.H. Lee, Y.C. Bae, Thermal stress analysis for polyimide thin film and a substrate layer system, Macromol. Chem. Phys. 201 (2000) 1286–1291. [13] C.E. Sroog, A.L. Endrey, S.V. Abramo, C.E. Berr, W.M. Edwards, K.L. Olivier, Aromatic polypyromellitimides from aromatic polyamic acids, J. Polym. Sci. Pol. Chem. 3 (1965) 1373–1390. [14] L. Yi, C. Li, W. Huang, D. Yan, Soluble polyimides from 4,4′-diaminodiphenyl ether with one or two tert-butyl pedant groups, Polymer 80 (2015) 67–75. [15] G. Nosova, T. Zhukova, M. Koton, L. Lauis, Y.N. Sazanov, Synthesis of aromatic polyimides from aromatic aminodicarboxylic acids, Polym. Sci. USSR. 26 (1984) 1113–1118. [16] J.H. Kim, J. Moore, A low-temperature route to polyimides, Macromolecules 26 (1993) 3510–3513. [17] K.S. Elvira, X. Casadevall i Solvas, R.C. Wootton, A.J. deMello,, The past, present and potential for microfluidic reactor technology in chemical synthesis, Nat. Chem. 5 (2013) 905–915. [18] C. Wiles, P. Watts, Continuous flow reactors: a perspective, Green Chem. 14 (2012) 38–54. [19] V. Hessel, H. Löwe, Organic synthesis with microstructured reactors, Chem. Eng. Technol. 28 (2005) 267–284. [20] B.P. Mason, K.E. Price, J.L. Steinbacher, A.R. Bogdan, D.T. McQuade, Greener ap- proaches to organic synthesis using microreactor technology, Chem. Rev. 107 (2007) 2300–2318. [21] D.M. Ratner, E.R. Murphy, M. Jhunjhunwala, D.A. Snyder, K.F. Jensen, P.H. Seeberger, Microreactor-based reaction optimization in organic chemistry- glycosylation as a challenge, Chem. Commun. 578–580 (2005). [22] W. Xu, Y. Su, Y. Song, M. Shang, L. Zha, Q. Lu, Process Analysis on Preparation of Cyclobutanetetracarboxylic Dianhydride in a Photomicroreactor within Gas-Liquid Taylor Flow, Ind. Eng. Chem. Res. 57 (2018) 2476–2485. [23] S. Ceylan, C. Friese, C. Lammel, K. Mazac, A. Kirschning, Inductive heating for organic synthesis by using functionalized magnetic nanoparticles inside micro- reactors, Angew. Chem. Int. Edit. 47 (2008) 8950–8953. [24] J. Baek, P.M. Allen, M.G. Bawendi, K.F. Jensen, Investigation of indium phosphide nanocrystal synthesis using a high-temperature and high-pressure continuous flow microreactor, Angew. Chem. Int. Edit. 50 (2011) 627–630. [25] L. Frenz, A. El Harrak, M. Pauly, S. Bégin-Colin, A.D. Griﬃths, J.C. Baret, Droplet- based microreactors for the synthesis of magnetic iron oxide nanoparticles, Angew. Chem. Int. Edit. 47 (2008) 6817–6820. [26] J.P. Knowles, L.D. Elliott, K.I. Booker-Milburn, Flow photochemistry: Old light through new windows, Beilstein J. Org. Chem. 8 (2012) 2025–2052. [27] A. Melker, B.P. Fors, C.J. Hawker, J.E. Poelma, Continuous flow synthesis of poly (methyl methacrylate) via a light-mediated controlled radical polymerization, J. Polym. Sci. Polym. Chem. 53 (2015) 2693–2698. [28] O. Eckardt, B. Wenn, P. Biehl, T. Junkers, F.H. Schacher, Facile photo-flow synthesis of branched poly(butyl acrylate)s, React. Chem. Eng. 2 (2017) 479–486. [29] J. Xu, S. Shanmugam, H.T. Duong, C. Boyer, Organo-photocatalysts for photo- induced electron transfer-reversible addition–fragmentation chain transfer (PET- RAFT) polymerization, Polym. Chem. 6 (2015) 5615–5624. [30] N. Corrigan, D. Rosli, J.W.J. Jones, J. Xu, C. Boyer, Oxygen Tolerance in Living Radical Polymerization: Investigation of Mechanism and Implementation in Continuous Flow Polymerization, Macromolecules 49 (2016) 6779–6789. [31] W.S. Choi, J.H. Park, H.Y. Koo, J.Y. Kim, B. Cho, D.Y. Kim, "Grafting-From" Polymerization inside a Polyelectrolyte Hollow-Capsule Microreactor, Angew. Chem. Int. Edit. 44 (2005) 1096–1101. [32] Y. Song, J. Song, M. Shang, W. Xu, S. Liu, B. Wang, Q. Lu, Y. Su, Hydrodynamics and mass transfer performance during the chemical oxidative polymerization of aniline in microreactors, Chem. Eng. J. 353 (2018) 769–780. [33] N. Kockmann, M. Gottsponer, D.M. Roberge, Scale-up concept of single-channel
+
+4. Conclusion
+
+In summary, we proposed a simple and highly eﬃcient strategy to prepare polyimide precursors in continuous-flow microreactors. The number-average molecular weights of poly(amic acid)s from the two combinations of 6FDA-ODA and 6FDA-6FODA in the microreactor with the residence time of 19.6 min reached 13.0 kg / mol and 14.9 kg / mol, respectively. A PI film from 6FDA-ODA with Tg of 300 °C, Td5% more than 500 °C, the average transparency higher than 85% and the elon- gation at the breakage more than 6% was prepared. For this poly- merization in the microreactor, lower temperature, an optimal molar ratio of monomers and longer residence time were beneficial for the synthesis of PAAs with higher molecular weights. PAAs prepared in the microreactor showed comparable properties (e.g., desired molecular weights and controllable PDI) as those prepared with the batch pro- cessing, but the polymerization time could be significantly reduced from dozens of hours in batch reactors even to about 20 min in mi- croreactors. Reaction kinetics was discussed based on the relationship between the molecular weight and the residence time, and the poly- merization in the microreactor was found to follow the third-order re- action kinetics for the mononers transformation. The improvement of the PAA preparation in the microreactor could be further elaborated with the apparent reaction rate constant. Moreover, the third-order reaction kinetics was considered to be associated with the autocatalytic polymerization mechanism to some extent. Furthermore, this continuous-flow strategy for the rapid preparation of PAAs was extended with the use of various commercial dianhydrides including PMDA, 6FDA, BTDA, ODPA and CBDA. In particular, the number-average molecular weight of the PAA prepared by the combi- nation of BTDA and 6FODA could even reach 36.3 kg / mol at the re- sidence time of 19.6 min in the microreactor. This work demonstrated that microreactor technology could provide a promising platform to prepare polyimide precursors with high molecular weights and poly- imides with good properties.
+
+Declaration of Competing Interest
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influ- ence the work reported in this paper.
+
+Acknowledgement
+
+This work was supported financially by the National Natural Science Foundation of China (Nos. 51733007, 21676164 and 21706157), the Shanghai key project of basic research (16JC1403900) and the Shanghai Jiao Tong University Scientific and Technological Innovation Funds (No: 2019QYB06).

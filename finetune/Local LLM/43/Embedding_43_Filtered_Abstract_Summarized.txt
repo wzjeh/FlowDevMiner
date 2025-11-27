@@ -1,0 +1,90 @@
+{"name": name.capitalize(), "role": role.lower()}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', paragraph)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    # Parse reactants, products, and conditions
+    lines = [line.strip() for line in paragraph.split(';')]
+    data = []
+    for line in lines:
+        fields = re.findall(r'(\w+)\s*=\s*(\S+)', line)
+        if not fields:  continue
+        
+        field_name, value = fields[0]
+        
+        # Parse conditions
+        if 'T=' in value or '=' in value and ',' in value:
+            match = re.search(r'T=(\d+) °C', value) 
+            temperature_value = None
+            residence_time_value = None
+            flow_rate_total_value = None
+            
+            if match:  temperature_value = int(match.group(1))
+            
+            # Parse total flow rate (if present)
+            match = re.search(r'(\d+(?:\.\d+)?) mL/min', value) 
+            if match:
+                flow
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "12 mm"}, "metrics": {"conversion": 90, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": { "reaction_type": match.group(1).lower() }}
+
+- Temperature is in °C
+- Residence time is in min
+- Flow rate is in mL/min
+- Inner diameter is in mm
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)', input_str, flags=re.IGNORECASE)
+    if match:
+        reaction_type = match.group(0).lower()
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"([A-Za-z]+)", input_str)
+    reactant_names = [match for match in matches]
+    
+    # Parse products (yield optimal)
+    product_match = re.search(r'(\d+)%', input_str, flags=re.IGNORECASE)
+    if product_match:
+        yield_optimal = int(product_match.group(0))
+    else:
+        yield_optimal = None
+    
+    # Parse conditions
+    temperature_match = re.search(r'T=([0-9]+) °C', input_str, flags=re.IGNORECASE)
+    residence_time_match = re.search(r'residence time ([0-9.]+)', input_str, flags=re.IGNORECASE)
+    
+    if temperature_match:
+        temp_value = temperature_match.group(1)
+    else
+
+{
+        "conversion": None,
+        "yield": None,
+        "selectivity": None,
+        "unit": "%"
+    }
+
+{"name": None, "yield_optimal": float(match.group(2)), "unit": match.group(3)}
+
+{[A-Za-z_]}
+
+{"type": "temperature", "value": f"{int(re.search(r'([0-9]+)', line).group(1))} °C"}
+

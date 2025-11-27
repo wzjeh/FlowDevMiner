@@ -1,0 +1,56 @@
+{
+  "reaction_type": "还原反应",
+  "reactants": [
+    {
+      "name": "HAuCl4",
+      "role": "reactant"
+    },
+    {
+      "name": "ascorbic acid",
+      "role": "reducing agent"
+    },
+    {
+      "name": "PVP",
+      "role": "stabilizer"
+    },
+    {
+      "name": "deionized ultrapure water",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "gold nanoparticles",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "ambient temperature"
+    },
+    {
+      "type": "residence_time",
+      "value": "0.06 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "8000 µL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microreactor",
+    "inner_diameter": "160 µm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

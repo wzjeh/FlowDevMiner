@@ -1,0 +1,18 @@
+this study,a microreactor with excellent heat and mass transfer properties was utilized to investigate the continuous⁃flow nitration
+
+continuous⁃flow microreactor［J］.ChemistrySelect，2023，8（14）：e202204997.
+
+Summary
+ Flow-chemistry process development is a promising approach for microreactor technology in chemical engineering and processing. The focus is on continuous flow reactors with high shear rates, enabling precise control over reaction conditions such as temperature, pressure, residence time distribution, and mixing. This leads to improved conversion, yield, selectivity, and reduced waste generation compared to batch processes. Microreactors offer advantages in terms of heat and mass transfer, allowing for the use of a wide range of reactants, solvents, catalysts, and products. The choice of reactor type (e.g., plug flow or continuous stirred-tank) depends on the reaction type and desired outcome. Critical conditions include flow rate(s), residence time, temperature, and pressure, which can be optimized for specific applications. Overall, microreactors offer a versatile platform for process intensification in chemical engineering and processing.
+
+LIU G Y，FANG Y C，GUO H J，et al.Development of microreactors［J］.Contemporary Chemical Industry，2010，39（3）：
+
+microreactor［J］.Chemical Engineering Journal，2019，377：120346.
+
+Summary
+Flow-chemistry process development in heterogeneous catalysis has been reviewed for continuous flow microreactors by Tanimu et al. The reaction type is not specified. Key reactants, solvents and catalysts are mentioned but specific examples are not given. Products are also not mentioned. Reactor details include the type (microreactors) and ID (continuous flow). Critical conditions include flow rates, residence time, temperature and pressure which vary depending on the reaction being studied. Outcomes such as conversion, yield and selectivity depend on the specific reaction being investigated.
+
+Microreactor
+
+microreactor［J］.Natural Gas Chemical Industry，2022，47（1）：1⁃7.
+

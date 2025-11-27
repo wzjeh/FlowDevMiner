@@ -1,0 +1,28 @@
+Summary: The paragraph describes a flow-chemistry process development involving the mixing of two chemical solutions at different flow rates in a microreactor with a static mixer. The reaction type is not mentioned, but it involves the mixing of 20% wt. HNO3 and 60% wt. H2SO4. The key reactants/solvent/catalyst are also not specified. However, the products formed during this process are not mentioned either.
+
+The microreactor used in this study has a channel dimension of 1000 μm and is equipped with a static mixer at its outlet. The flow rate of the mixed acid solution (Qmixed acid) is varied, and the resulting flow patterns are observed at different flow rates.
+
+The critical conditions mentioned in the paragraph include the temperature (T = 20 °C), the flow rate of the organic phase (Qorganic), and the residence time of the reactants within the microreactor. The pressure is not specified, but it can be assumed to be atmospheric pressure since no mention of a pressurized system is made.
+
+The outcomes mentioned in the paragraph are the flow patterns observed at different flow rates, which indicate how the reactants mix and interact within the microreactor
+
+The qualitative preliminary results presented in Section 3.2 were confirmed by the analytical results. In all the previously reported ni- trations in microreactos [11], although the observed reaction rate was found to increase in microreactors, there is no direct proof that the adopted devices are working under kinetic control. A few more detailed studies [43,44] carried out using simple tubular s
+
+Summary: The paragraph discusses a flow-chemistry process development for the synthesis of 2,4,6-triphenyl-1,3,5-triazine (TPT) using a small-scale batch reactor and microreactor with an embedded static mixer. The reaction involves the nitrobenzene oxidation to TPT using hydrogen peroxide as the oxidant in sulfuric acid medium. The key reactants are nitrobenzene, hydrogen peroxide, and sulfuric acid; solvent is not mentioned. The catalyst is also not specified. The products are 2,4,6-triphenyl-1,3,5-triazine (TPT) and byproducts.
+The small-scale batch reactor shows lower conversion compared to the microreactor with an embedded static mixer due to its longer residence time of 3.6 min at a temperature of 35 °C. The flow rates are not mentioned, but it is implied that they were varied in the study.
+The outcomes include the comparison of the performances of the two reactors, highlighting the advantages of using microreactors with embedded static mixers for improved conversion and potentially higher yields/selectivity.
+
+Summary: The paragraph discusses flow-chemistry process development for nitration reactions in microreactors. Nitration is a widely used reaction type that involves key reactants like organic compounds and nitrating mixtures of acids. Products include various nitro derivatives depending on the substrate. Reactor details mentioned are lab-scale setups with preheating channels, separate pumps for organics and nitrating mixtures, and innovative devices with embedded mixers and heat exchangers. Critical conditions reported in the literature include flow rates, residence time, temperature, and pressure. Outcomes of these processes include conversion, yield, and selectivity.
+
+Response: The paragraph discusses liquid-liquid micro-reactors with embedded static mixers for flow chemistry process development. It mentions that the reactor type is not specified in the given reference, and the key reactants, solvents, and catalysts are also not mentioned. However, it reports on preliminary images of products collected at the outlet of the micro-reactor with embedded static mixer at different flow rates but similar reaction times. The critical conditions mentioned include variations in flow rate by about one order of magnitude, which determines the transition between different flow patterns such as parallel flow, segmented flow, annular flow, and dispersed flow. The outcomes reported are not specified.
+
+and analyzed by HPLC. It was experimentally impossible to sample the two phases separately. Continuous flow experiments were carried out in a commercially available microreactor (Little Things Factory XXL-ST-04) with em- bedded static mixer. The experimental setup was already described elsewhere [21], and a scheme of the reactor is reproduced for con- venience in the Supporting Information. Specif
+
+Heterogeneous benzaldehyde nitration in batch and continuous flow microreactor
+
+conversion in well-designed microreactor devices.
+
+• Benzaldehyde nitration kinetic model was extended under heterogeneous conditions. • Batch and continuous flow reactor performances were compared. • Enhancement of mass transfer was observed in continuous flow static mixer. • Well designed microreactors can ap- proximate kinetic regime behaviour.
+
+Summary: The paragraph discusses a flow-chemistry process development using microreactors with a fixed flow rate of 20 μL∙min−1 for the investigation of different flow patterns in a threading stable flow regime. The reaction involves an organic phase surrounded by an aqueous acidic phase, and the key reactants are not mentioned. The products are also unknown. The reactor is a microreactor with unspecified dimensions. The critical conditions include a fixed flow rate of 20 μL∙min−1, residence time, temperature, and pressure that are not specified. The outcome focuses on the observation of significantly different flow patterns in terms of thread thinning, occasional instability, and formation of big organic droplets with diameters comparable to the internal diameter of the channel at higher flow rates.
+

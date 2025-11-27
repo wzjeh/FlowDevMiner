@@ -1,0 +1,49 @@
+{"name": match["name"], "role": match.get("role", None)}
+
+- Assume that if a field is not explicitly stated in the input paragraph, it should be left as-is.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"([A-Za-z]+)", input_str)
+    reactant_names = [match for match in matches if not any(word in match.lower() for word in ["yield", "flow rate", "t=", "in a", "coil"])]
+    
+    # Parse products (if present)
+    product_match = re.search(r"(\d+)% yield", input_str)
+    if product_match:
+        optimal_yield = int(product_match.group(1))
+        
+    else: 
+        optimal_yield = None
+    
+    # Parse conditions
+    flow_rate_match = re.search(r"flow rate (\d+) mL/min", input_str)
+    
+    temp_match = re.search(r"T=(\d+)", input_str)
+    
+    residence_time_match = re.search(r"in a (.*) mm coil", input_str)
+
+{"conversion":None, "yield":None,"selectivity":None}
+
+{"reaction_summary": { "reaction_type": match.group(0) }}
+
+{"reaction_summary": {"reaction_type": "continuous-flow", "reactants": [{"name": "nitrobenzene", "role": "reactant"}], "products": [{"name": "aniline", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "10 min"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "nitroaromatics", "reactants": [{"name": "A", "role": "reactant"}], "products": [{"name": null, "yield_optimal": 82.0, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": 10}, {"type": "flow_rate_reactant_A", "value": 0.1}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82.0, "selectivity": null, "unit": "%"}}}
+
+{"name": word, "role": "reactant"}
+
+{"name": "product", "yield_optimal": yield_optimal, "unit":"%"}
+
+{"reaction_summary": {"reaction_type": "hydrogenation", "reactants": [{"name": "nitro compounds", "role": "reactant"}], "products": [], "conditions": [{"type": "temperature", "value": "null"}, {"type": "residence_time", "value": "null"}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "pressure", "value": "null"}], "reactor": {"type": "continuous flow reactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+

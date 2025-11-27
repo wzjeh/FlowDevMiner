@@ -1,0 +1,44 @@
+{"name": "Unknown", "yield_optimal": null, "unit": "%"}
+
+{value}
+
+{"reaction_summary": {"reactants": [{"name": "TFB", "role": "reactant"}], "products": [], "conditions": [{"type": "temperature", "value": "same"}], "reactor": {"type": "piston_pumps", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null}}}
+
+{"name": "trifluoromethylbenzen nitrate", "yield_optimal": 95}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": null, "unit": "%"}, {"name": null, "role": null}], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": null, "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "nitration", "reactants": [{"name": "TFB", "role": "reactant"}], "products": [{"name": "null", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": 2}, {"type": "flow_rate_reactant_A", "value": 0.1}], "reactor": {"type": "Heart-type micromixer", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}, {"name": "H2SO4", "role": "catalyst"}], "products": [{"name": "nitration product", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}, {"type": "pressure", "value": "..."}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {}}}
+
+# Parse text into key-value pairs
+    kv_pairs = []
+    words = text.split()
+    i = 0
+    while i < len(words):
+        if words[i] == "in":
+            reactant_A, flow_rate_reactant_A = None, None
+            for j in range(i+1, len(words)):
+                if words[j].endswith("mL/min"):
+                    flow_rate_reactant_A = float(words[j][:-6])
+                    i = j + 2 # Skip "a", "coil"
+                    break
+        elif words[i] == "of":
+            reactant_B, flow_rate_reactant_B = None, None
+            for j in range(i+1, len(words)):
+                if words[j].endswith("mL/min"):
+                    flow_rate_reactant_B = float(words[j][:-6])
+                    i = j + 2 # Skip "a", "coil"
+                    break
+        elif words[i] == "at":
+            temperature = None
+            for j in range(i+1, len(words)):
+                if words[j].endswith("°C"):
+                    temperature = float(words[j][:-3])
+                    i = j +
+
+{"type": "temperature", "value": f"{temperature_value} °C"}
+
+{"reaction_summary": {"reaction_type": "batch", "reactants": [], "products": [{"name": null, "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": 80}, {"type": "residence_time", "value": 10}], "reactor": {"type": "batch reactor", "inner_diameter": null}, "metrics": {"conversion": null, "selectivity": null, "yield": 95, "unit": "%"}}}
+

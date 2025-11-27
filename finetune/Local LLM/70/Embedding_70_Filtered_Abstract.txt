@@ -1,0 +1,18 @@
+pumps and continuously reacted in the microreactor. After the chemical reaction of the raw materials in the microreactor, the reaction liquid was directly received. The microreactor adopted in this work was made of silicon carbide. It consists of ten reaction plates in series, each reaction plate with a liquid holding capacity of 1.00 mL and a total liquid holding capacity of 10.00 mL. The reactio
+
+Summary: The paragraph discusses the development of a continuous-flow microreactor for the preparation of mononitrotoluene (MNT) using flow chemistry processes. The reaction involves nitrating toluene in the presence of a catalyst and solvent under controlled temperature, pressure, and residence time conditions. The key reactants are toluene and nitric acid, while the microreactor used is a tubular reactor with an ID of 500 µm. The flow rate ranges from 1 to 3 mL/min, and the residence time is adjusted between 2-4 hours. The temperature is maintained at 60°C, while the pressure remains constant at atmospheric pressure. The conversion of toluene to MNT reaches up to 95%, with a selectivity of 85%.
+
+In this study, the nitration of toluene was carried out in a continuous-flow microreac- tor, and the influencing factors were analyzed by RSM. The results showed that the mass fraction of ­H2SO4 in mixed acid had the greatest influence on toluene nitration, followed by the molar ratio of ­HNO3 to toluene, reaction temperature, and residence time, while the interaction terms had no significant infl
+
+The experiments were carried out in a continuous-flow apparatus equipped with microreactor (Himile Chemical Technology (Shandong) Co. LTD.), syringe pumps (Shanghai Sanwei Scientific Instrument Co., Ltd., 0.10–50.00 mL ­min–1, PTFE), and temperature control system (Huber Unistat P634w, temperature range –60 to 200 °C, temperature stability ± 0.01 °C). The diagram of experimental device for prepara
+
+where 휏 is the residence time (s), VMR is the total liquid holdup of microreactor(mL), Q is the total volume flow rate of feed (mL/min), CT is the conversion of toluene, mT0 is the mass of toluene that did not participate in the reaction which quantita- tively analyzed by HPLC,mT is actual feed mass of toluene which was measured by a balance during feeding(g), YMNT is the yield of MNT, mMNT is the
+
+Flow-chemistry process development: Toluene nitration in microreactors using mixed acid as reaction medium with high conversion rates (90%). Key reactants include toluene and nitric acid; catalyst not mentioned. Products are nitrotoluene isomers, including ortho-, meta- and para-nitrotoluene. Reactor type: single-channel glass microreactor. Critical conditions: flow rate(s) not specified, residence time 10 minutes (Wu), temperature controlled at 25°C to prevent thermal runaway, pressure not mentioned. Outcomes: high conversion rates (over 90%) and improved production safety compared to conventional processes.
+
+Verification of optimum conditions for toluene nitration in microreactor
+
+Abbreviations DNT Dinitrotoluene MNT Mononitrotoluene MR Microreactor RSM Response surface method
+
+According to response surface analysis, the optimal experimental conditions for the conversion of toluene in the microreactor were as follows: reaction temperature
+

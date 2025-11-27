@@ -1,0 +1,11 @@
+{"optimal_condition_set":
+    {"reaction_type": "C.I. Reactive Red 195 dye synthesis",
+     "reactants": ["NADA", "hydrochloric acid", "sodium nitrite", "sulfamic acid", "CTN solution"],
+     "products": ["C.I. Reactive Red 195 dye"],
+     "conditions": [{"type":"temperature","value":20},{"type":"pump start times","value":null},{"type":"flow rates","value":1000}],
+     "reactor": {"type": "tubular reactor"},
+     "metrics": {
+        "conversion": null,
+        "yield": null,
+        "selectivity": null
+    }}}

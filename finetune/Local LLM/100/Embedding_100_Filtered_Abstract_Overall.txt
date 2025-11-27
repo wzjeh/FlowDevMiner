@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "nitration", "reactants": ["sulfuric acid", "nitric acid"], "products": ["nitro compound"], "conditions": [{"type": "molar ratio", "value": "1:4"}, {"type": "flow rate ratio", "value": "6:12.8"}], "reactor": {"type": "micropacked-bed", "packing size": "0.177–0.250 mm"}, "metrics": {"conversion": 90, "yield": null}}}

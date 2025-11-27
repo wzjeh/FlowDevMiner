@@ -1,0 +1,52 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "biphenyl",
+      "role": "reactant"
+    },
+    {
+      "name": "Pt-Pd/Al2O3",
+      "role": "catalyst"
+    },
+    {
+      "name": "tetradecane",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "cyclohexylbenzene",
+      "yield_optimal": 95.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "140 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "null"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "null"
+    },
+    {
+      "type": "pressure",
+      "value": "5 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "packed bed",
+    "inner_diameter": "2.2 mm"
+  },
+  "metrics": {
+    "conversion": 95.0,
+    "yield": 95.0,
+    "selectivity": 100.0,
+    "unit": "%"
+  }
+}

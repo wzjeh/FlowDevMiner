@@ -1,0 +1,13 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | formation of by-product 1e | decrease |
+| HNO3_concentration | molar ratio of 1a : 1b | increase |
+| HNO3_concentration | conversion of aniline 1 | increase |
+| aniline_concentration | conversion of aniline 1 | increase |
+| LHSV | conversion of aniline 1 | increase |
+| LHSV | molar ratio of 1a : 1b | decrease |
+| temperature | conversion of aniline 1 | unchanged |
+| temperature | molar ratio of 1a : 1b | decrease |
+| HNO3 : aniline_1_molar_ratio | conversion of aniline 1 | increase |

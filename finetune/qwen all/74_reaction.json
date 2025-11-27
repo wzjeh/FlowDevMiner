@@ -1,0 +1,52 @@
+{
+  "reaction_type": "Michael addition",
+  "reactants": [
+    {
+      "name": "dimethylamine",
+      "role": "reactant"
+    },
+    {
+      "name": "acrylonitrile",
+      "role": "reactant"
+    },
+    {
+      "name": "water",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "3-dimethylaminopropionitrile",
+      "yield_optimal": 95.6,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "30 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "0.1 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microstructured reactor",
+    "inner_diameter": "40 µm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 95.6,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

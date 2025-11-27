@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "diazotization", "reactants": ["amine", "sodium nitrite aqueous solution"], "products": ["4-aminophenol"], "conditions": [{"type": "flow_rate", "value": 10}, {"type": "residence_time", "value": 360, "unit": "seconds"}, {"type": "temperature", "value": 25}], "metrics": {"conversion": 99.0, "yield": 83.9}}}

@@ -1,0 +1,19 @@
+eﬃcient and safe continuous-flow microreaction process for mononitration, which achieves high yield
+
+Summary: The research focuses on developing a continuous-flow microreaction process for the mononitration of aromatic compounds using nitrosonium tetrafluoroborate (NOBF4) as the nitrating agent in a solvent mixture of dimethyl sulfoxide (DMSO) and water. The reaction is carried out in a microreactor with a residence time of 10-60 minutes, temperature range of 25-80°C, and atmospheric pressure. The process demonstrates high selectivity and yield for the desired mononitro products.
+
+Furthermore, this process generates substantial amounts of waste acid, which, if not properly treated, can lead to severe environmental contamination, such as acidication of water bodies and soil degradation. Lastly, traditional nitration methods suﬀer from limitations in reaction selectivity and yield. The inability to precisely control reaction parameters oen results in inconsistent selectivit
+
+Fig. 2 Continuous-flow reactor setup for condition optimization.
+
+mononitration selectivity. By optimizing the molar ratio of acid to substrate, the number of microreactor modules was reduced to ve, shortening the reaction time from 90 seconds to 29 seconds. This adjustment signicantly lowered xed costs associated with industrial implementation while enhancing process feasibility. Furthermore, integrating a waste acid recy- cling strategy eﬀectively mitigated
+
+Summary
+ The paragraph discusses the optimization of nitration in a continuous-flow process using H2SO4 and HNO3 as reactants. The focus is on understanding the influence of various factors such as temperature, mole ratio of H2SO4 and HNO3, concentration of H2SO4, and mole ratio of HNO3 and p-xylene. The goal is to optimize the process for improved conversion, yield, and selectivity.
+
+p-Xylene, an important chemical feedstock,8,38 is widely utilized in the synthesis of dyes, plastics, pharmaceuticals, and pesti- cides. In this study, p-xylene was chosen as a model substrate for optimizing reaction conditions. First, 98% concentrated H2SO4 was diluted with water to the desired concentration and mixed with 97% concentrated HNO3 at a specic molar ratio to prepare the mixed acid. 
+
+Summary: The paragraph discusses the development of a continuous-ow nitration process for o-xylene using microreactor technology. The reaction involves double-stage nitration over solid acid catalysts in the presence of HNO3. Key products include mononitro-o- xylene, with 94.1% yield and improved substrate selectivity. Reactor details consist of ten microreaction modules arranged in series, which prolong reaction times and increase xed capital costs due to multiple modules. The double-stage nitration step introduces procedural complexity and elevated waste acid generation, limiting industrial scalability.
+
+overabundance of nitronium ions (NO2 +), promoting the formation of unwanted polynitro by-products. Optimization experiments showed that a H2SO4 concentration of 70% provided the best selectivity (Fig. 3c). Despite these optimizations, substrate conversion remained suboptimal, primarily due to the short residence time in the continuous-ow reactor, which limited reaction completion. Increasing the
+

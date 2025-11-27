@@ -1,0 +1,52 @@
+{"role": match.group("match"), "name": match.group("name")}
+
+{ "reaction_summary": {  "reaction_type":"hydrogenation",  "reactants":[{"name":"a-Pinene","role":"reactant"}, {"name":"H2","role":"reactant"}],  "products":[{"name":"corresponding alcohol","yield_optimal":null,"unit":null}],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":"10 min"},    {"type":"flow_rate_reactant_A","value":null},    {"type":"pressure","value":"atmospheric"}  ],  "reactor":{"type":"microreactor", "inner_diameter":null}
+
+{"name": "Metal precursor", "role": "precursor"}
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp_residence = re.search(r"(\d+) (°C|min)", input_str)
+    if match_temp_residence:
+        value, unit = match_temp_residence.groups()
+        if unit == "°C":
+            temp = int(value)
+        elif unit == "min":
+            res_time = float(value)
+
+    # Parse flow rates
+    reactant_A_flow_rate = None
+    reactant_B_flow_rate = None
+    total_flow_rate = None
+    match_flow_rates = re.search(r"(\d+(?:\.\d+)?) (mL/min)", input_str)
+    if match_flow_rates:
+        value, unit = match_flow_rates.groups()
+        flow_rate_value = float(value)  # Normalize to mL/min
+        if "A" in input_str or "reactant A" in input_str.lower():
+            reactant_A_flow_rate = flow_rate_value
+        elif "B" in input_str or "reactant B" in input_str.lower():
+            react_output = re.search(r"(?:\d+(?:\.\d+)?) (mL/min)", input
+
+{ "reaction_summary": { 
+"reaction_type":"...", 
+"reactants":[{"name":"F127","role":"solvent"}, {"name":"RuCl3", "role": "catalyst"}], 
+"products":[], 
+"conditions":[{
+"type":"temperature","value":"25 C"},
+{"type":"residence_time","value":"2.5 h"}
+],
+"reactor":{"type":"stainless steel reactor", "inner_diameter":null}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}, {"name": "...", "role": "..."}, {"name": "...", "role": "solvent"}], "products": [], "conditions": [], "reactor": {"type": "...", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+{
+        "reaction_type": None,
+        "reactants": [],
+        "products": [{"name": None, "yield_optimal": yield_optimal, "unit": "%"}],
+        "conditions": [
+            {"type":"temperature","value":f"{temperature} °C"},
+            {"type":"flow_rate_total","value":f"{flow_rate_total} mL/min"}
+        ],
+        "reactor":{"type":"coil", "inner_diameter":f"{inner_diameter} mm"}
+

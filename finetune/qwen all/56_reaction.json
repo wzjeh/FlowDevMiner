@@ -1,0 +1,57 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "benzaldehyde",
+      "role": "reactant"
+    },
+    {
+      "name": "mixed acid",
+      "role": "catalyst"
+    },
+    {
+      "name": "water",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "2-nitrobenzaldehyde",
+      "yield_optimal": 45.0,
+      "unit": "%"
+    },
+    {
+      "name": "3-nitrobenzaldehyde",
+      "yield_optimal": 48.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "35 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "5 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.5 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microreactor with embedded static mixer",
+    "inner_diameter": "2.2 mm"
+  },
+  "metrics": {
+    "conversion": 98.0,
+    "yield": 93.0,
+    "selectivity": 94.9,
+    "unit": "%"
+  }
+}

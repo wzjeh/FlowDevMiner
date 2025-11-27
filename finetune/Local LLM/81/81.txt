@@ -1,0 +1,297 @@
+catalysts
+
+Communication Continuous-Flow Synthesis of β-Amino Acid Esters by Lipase-Catalyzed Michael Addition of Aromatic Amines
+
+Li-Hua Du 1,*, Rui-Jie Long 1, Miao Xue 1, Ping-Feng Chen 1, Meng-Jie Yang 1 and Xi-Ping Luo 2,*
+
+College of Pharmaceutical Science, ZheJiang University of Technology, Hangzhou 310014, China; longruijie@zjut.edu.cn (R.-J.L.); xuemiao@zjut.edu.cn (M.X.); chenpingfeng@zjut.edu.cn (P.-F.C.); yangmj1002@126.com (M.-J.Y.) Zhejiang Provincial Key Laboratory of Chemical Utilization of Forestry Biomass, Zhejiang A&F University, Hangzhou, 311300, China * Correspondence: orgdlh@zjut.edu.cn (L.-H.D.); luoxiping@zafu.edu.cn (X.-P.L.); Tel.: +86-571-8832-0903 (X.-P.L.)
+
+ 
+
+Received: 16 March 2020; Accepted: 14 April 2020; Published: 16 April 2020
+
+Abstract: A continuous-flow procedure for the synthesis of β-amino acid esters has been developed via lipase-catalyzed Michael reaction of various aromatic amines with acrylates. Lipase TL IM from Thermomyces lanuginosus was first used to catalyze Michael addition reaction of aromatic amines. Compared with other methods, the salient features of this work include green reaction conditions (methanol as reaction medium), short residence time (30 min), readily available catalyst and a reaction process that is easy to control. This enzymatic synthesis of β-amino acid esters performed in continuous-flow microreactors is an innovation that provides a new strategy for the fast biotransformation of β-amino acid esters.
+
+Keywords: enzymatic synthesis; β-amino acid esters; microreactor; aromatic amines; Michael addition
+
+1. Introduction
+
+β-Amino acid ester derivatives have been widely found in biologically active molecules, many of which possess useful biological activities (e.g., anticancer, antiviral, antibacterial, antifungal, antipsychotics) [1–6]. β-Amino acid esters have also been used to construct peptidomimetic oligomers, which are of high interest in medicinal chemistry [7,8]. In particular, β-amino acid esters based on aromatic amines are important intermediates for the eﬀective synthesis of urease inhibitors, which can be used in the treatment of Helicobacter pylori infection [9]. Due to these widespread applications in pharmacy and materials science, the development of synthesis methods of β-amino acid esters has become a hot topic in the chemical field. Michael addition is one of the simplest and most eﬀective strategies to prepare β-amino acid esters. Recently, Ahmed has reported the Michael addition of aromatic amines mediated by KOtBu [10]; HOTf (trifluoromethylsulfonic acid) was also used to catalyze the Michael addition of aromatic amines, and good yields were obtained within 4 h [11]. However, the use of acids and alkalis has brought challenges to the environment. In order to avoid such problems, various transition-metal catalysts have been developed and used to eﬃciently catalyze the Michael addition to synthesize β-amino acid esters [12–17]. Although desired results were obtained, the use of metal catalysts and expensive ligands are still shortcomings for the practical utility. Enzymes are versatile catalysts of biological origin that can catalyze reactions with great specificity and high eﬃciency under the benign environmental conditions [18–20]. In the past few years, several works about the synthesis of β-amino esters by enzymatic Michael addition reaction were
+
+Catalysts 2020, 10, 432 2 of 14
+
+reported [21–23]. However, there are few reports on the preparation of β-amino acid esters by the enzymatic Michael addition of aromatic amines. Bhanage reported that immobilized HMC:PFL (lipase from Pseudomonas fluorescence immobilized on hydroxypropyl methyl cellulose) could be used to catalyze the Michael addition of aromatic amines in toluene, although only 33%–40% yields could be obtained in 3 h [24]. Lipase CAL-B (lipase B from Candida antarctica) has also been used to catalyze the Michael addition of aromatic amines, but it requires a long reaction time (72 h) to achieve desired results [25]. Our attention is focused on finding a more eﬃcient and green synthesis method of β-amino acid esters based on aromatic amines. In recent years, more and more reports have been published on enzymatic reactions in continuous-flow microreactors due to their advantages of improving process eﬃciency and material transfer [26–28]. The small size of the continuous-flow microreactors facilitates control of the reaction parameters, which can reduce waste generation and increase productivities [29–31]. In the interest of developing an eﬃcient and green synthesis method for β-amino acid esters based on aromatic amines, we employed a continuous flow technology for the synthesis of β-amino acid esters. Lipase TL IM from Thermomyces lanuginosus was first used to catalyze the Michael addition reaction of aromatic amines with acrylates in continuous-flow microreactors, and 17 β-amino acid esters (3a–3r) were obtained with excellent yields in 30 min (Scheme 1). Eﬀects of diﬀerent reaction parameters including reaction solvent, temperature, enzyme, substrate ratio, residence time and aromatic amine structure on the reaction were studied.
+
+Scheme 1. Synthesis of β-amino acid esters by enzymatic Michael reaction of aromatic amines in continuous-flow microreactors.
+
+2. Results and Discussion
+
+2.1. Eﬀect of Reaction Media
+
+The solvent plays an important role in enzymatic reaction by promoting the dissolution of the substrates and controlling the reaction chemo-selectivity [32]. Therefore, we first studied the eﬀect of reaction media on β-amino acid ester synthesis in continuous-flow microreactors (Figure 1). We chose aniline (1a) and methyl acrylate (2a) as the model reaction; several solvents, including tert-amyl alcohol, acetonitrile, toluene, DCM (dichloromethane), ethanol and methanol, were tested. As shown in Figure 1, the reaction did not proceed in acetonitrile, and only 5.2% of the desired product was obtained in tert-amyl alcohol. Further solvent screening disclosed that methanol was the best solvent. Aromatic amines are a class of poor nucleophiles whose nucleophilicity is highly related to solvents. Research has shown that polar solvents can promote Michael addition of aromatic amines [33].
+
+Figure 1. The eﬀect of reaction media on enzymatic synthesis of β-amino acid esters in continuous-flow microreactors.
+
+Catalysts 2020, 10, 432 3 of 14
+
+2.2. Eﬀect of Reaction Temperature
+
+Temperature plays significant functions, such as improving the interaction between the substrate and catalyst and aﬀecting the stability of enzyme [34]. Therefore, we investigated the eﬀect of reaction temperature on the synthesis of β-amino acid esters; the results are shown in Figure 2. We performed the reactions from 30 to 55 ◦C and found that the best yield (80.3%) can be achieved at 35 ◦C. After that, as the reaction temperature continued to increase, the yield was not improved. The higher temperature may cause a decrease in the selectivity of enzymatic reaction, which favors the double Michael product formation. Therefore, the optimal reaction temperature for the synthesis of β-amino acid esters is 35 ◦C.
+
+Figure 2. The eﬀect of reaction temperature on enzymatic synthesis of β-amino acid esters in continuous- flow microreactors.
+
+2.3. Catalyst Screening
+
+We tested the eﬃciency of three enzymes in catalyzing β-amino acid ester synthesis (Figure 3). Further screening of enzymes showed that lipozyme TL IM was the best catalyst. In the absence of lipozyme TL IM, a group of blank tests was performed, and it was found that the reaction did not occur. This indicated that lipozyme TL IM played a key role in the synthesis of β-amino acid esters.
+
+Figure 3. The catalyst screening on enzymatic synthesis of β-amino acid esters in continuous-flow microreactors.
+
+2.4. Eﬀect of Substrate Ratio
+
+Another important factor that aﬀects the synthesis of β-amino acid ester is the molar ratio of aniline to methyl acrylate. The influence of molar ratio (aniline/methyl acrylate) was investigated from 1:1 to 1:6. According to the Figure 4, the best reaction yield 80.3% was obtained when the molecular ratio of aniline (1a) and methyl acrylate (2a) reached 1:4. As the content of methyl acrylate continued to increase, the yield of target product 3a was decreased. This occurred since a higher amount of
+
+Catalysts 2020, 10, 432 4 of 14
+
+methyl acrylate favored the double Michael product, which reduced the yield of the target product 3a. Therefore, we decided to choose aniline/methyl acrylate = 1:4 as the optimum substrate ratio.
+
+Figure 4. The eﬀect of substrate ratio on enzymatic synthesis of β-amino acid esters in continuous-flow microreactors.
+
+2.5. Eﬀect of Residence Time
+
+It is well known that prolonged reactions can promote the formation of impurities and reduce the selectivity of products. In addition, in the case of Michael reaction, the long-term reaction facilitates the accumulation of double Michael products [33]. In view of this, we performed the reaction from 20 to 40 min to investigate the eﬀect of residence time/flow rate on the reaction; the results are shown in Figure 5. The best yield was reached in 30 min with a flow rate of 20.8 µL min−1. As we continued to extend residence time, the yield of 3a was decreased slightly. Detection found that with the increase of time, the target product underwent a second Michael addition reaction, which reduced the yield of the target product. Thus, we chose 30 min as the optimum residence time for the following experiment.
+
+Figure 5. The eﬀect of residence time on enzymatic synthesis of β-amino acid esters in continuous-flow microreactors.
+
+2.6. The Eﬀect of Aromatic Amine Structure on the Reaction
+
+After identifying the optimum reaction conditions, we continued to investigate the eﬀect of aromatic amine structure on the enzymatic β-amino acid ester synthesis reaction under continuous-flow microreactors. As shown in Figure 6, the reaction yields were 80.3%, 92.4%, 43.7% and 36.3% for aniline (1a), 4-toluidine (1b), 2-aminopyridine (1g) and 4-chloroaniline (1e), respectively. Experimental results showed that aromatic amines with electron-donating functional groups exhibited high reactivity in the enzymatic Michael addition reaction. The electron-donating groups increased the nucleophilicity of aniline, making the conjugated addition easier. In contrast, aromatic amines containing electron-withdrawing groups had lower yields in the enzymatic Michael addition reaction.
+
+Catalysts 2020, 10, 432 5 of 14
+
+Figure 6. The eﬀect of aromatic amine structure on enzymatic synthesis of β-amino acid esters in continuous-flow microreactors.
+
+2.7. Enzymatic Synthesis of β-Amino Acid Ester in Continuous-Flow Microreactor and Batch Bioreactor
+
+Due to high surface-to-volume ratio, better heat exchange and eﬃcient mixing, continuous-flow microreactor technology has become increasingly popular as an alternative to conventional batch chemistry synthesis. In order to investigate the eﬀects of enzymatic reactions in diﬀerent reactors, we performed the enzymatic Michael addition of aniline to synthesize β-amino acid ester in the continuous-flow microreactor and in a batch bioreactor (Table 1). We detected the reaction process in the batch bioreactor and found that it took about 24 h to achieve the ideal yield (method B). However, in the continuous-flow microreactor, we could get better yield in 30 min (method A). Experiments showed that the continuous-flow microreactor can improve the eﬃciency of enzymatic synthesis of β-amino acid esters.
+
+Table 1. Enzymatic Michael addition of aniline in the continuous-flow reactor or batch bioreactor. a
+
+Entry Method Yield b (%)
+
+A 80.3 ± 1.5 B 62.3 ± 2.5
+
+a General reaction conditions: Method A: Continuous-flow microreactor, feed A. (5.0 mmol aniline in 10 mL methanol), feed B (20.0 mmol methyl acrylate in 10 mL methanol), residence time: 30 min, flow rate: 20.8 µL min−1, 35 ◦C, lipozyme TL IM 870 mg. Method B: Batch bioreactor, 5.0 mmol aniline, 20.0 mmol methyl acrylate and 20 mL methanol in a 50 mL conical flask, 200 r·min−1, lipozyme TL IM 870 mg, 35 ◦C, 24 h. b Yield of 3a. Yield: 100× (actual received quality/ideal calculated quality). The data are presented as average ± SD of triplicate experiments.
+
+2.8. Combined Eﬀects of Process Parameters
+
+Lipase-catalyzed synthesis of β-amino acid ester by Michael addition between aniline and methyl acrylate in continuous-flow microreactors was studied, and the optimum conditions for the Michael addition were investigated. The results are shown in Tables 2 and 3.
+
+Catalysts 2020, 10, 432 6 of 14
+
+Table 2. Solvent, temperature and enzyme screening for enzymatic synthesis of β-amino acid esters. a
+
+Entry Catalyst Solvent T (◦C) Yield b (%)
+
+Lipozyme TL IM Tert-amyl alcohol 5.2 ± 0.7 Lipozyme TL IM Acetonitrile n.d. Lipozyme TL IM Toluene 62.0 ± 1.2 Lipozyme TL IM DCM 68.3 ± 1.9 Lipozyme TL IM Ethanol 58.2 ± 2.3 Lipozyme TL IM Methanol 75.1 ± 0.9 Lipozyme TL IM Methanol 66.5 ± 2.1 Lipozyme TL IM Methanol 80.3 ± 1.5 Lipozyme TL IM Methanol 77.4 ± 2.5 Lipozyme TL IM Methanol 73.1 ± 2.6 Lipozyme TL IM Methanol 70.0 ± 1.7 Subtilisin Methanol n.d. Novozym 435 Methanol 23.2 ± 0.9 None Methanol n.d.
+
+a Experimental conditions: feed A, 5.0 mmol aniline (1a) was dissolved in 10 mL solvent, feed B, 20.0 mmol methyl acrylate (2a) was dissolved in 10 mL solvent, enzyme 870 mg, 30 min. b Yield of 3a. n.d. means no reaction was found. Yield: 100× (actual received quality/ideal calculated quality). The data are presented as average ± SD of triplicate experiments.
+
+Table 3. Eﬀects of substrate ratio and residence time on enzymatic synthesis of β-amino acid esters. a
+
+Entry n1a:n2a Time/Min Flow Rate/µL min−1 Yield b (%)
+
+1:1 20.8 62.6 ± 2.3 1:2 20.8 68.1 ± 1.6 1:4 20.8 80.3 ± 1.5 1:6 20.8 77.4 ± 2.8 1:4 31.2 58.7 ± 2.2 1:4 25.0 69.0 ± 0.9 1:4 17.8 80.1 ± 1.6 1:4 15.6 78.0 ± 1.2
+
+a Experimental conditions: feed A, 5.0 mmol aniline (1a) was dissolved in 10 mL methanol, feed B, methyl acrylate (2a) was dissolved in 10 mL methanol, lipozyme TL IM 870 mg, 35 ◦C. b Yield of 3a. Yield: 100× (actual received quality/ideal calculated quality). The data are presented as average ± SD of triplicate experiments.
+
+For enzymatic reactions, the reaction medium and temperature are important influencing factors which aﬀect the enzyme activity and process of the reaction. Preliminary experiments showed that the best reaction yield can be achieved when the reaction was catalyzed by lipozyme TL IM in methanol at 35 ◦C (Entry 8, Table 2). As we continued to increase the reaction temperature, the yield was not improved. Higher temperature may decrease the selectivity of enzymatic reactions, which increases the by-product formation. Residence time and substrate ratio are also important factors aﬀecting the synthesis of β-amino acid esters. With the increase of residence time or methyl acrylate, the target product 3a underwent a second Michael addition reaction, which reduced the yield of the target product.
+
+2.9. The Scope and Limitation for the β-Amino Acid Ester Synthesis Methodology
+
+Finally, we explored the scope and limitation of this continuous flow methodology for β-amino acid ester synthesis catalyzed by lipase TL IM from Thermomyces lanuginosus. Nine aromatic amines (aniline (1a), 4-toluidine (1b), 4-tert-butylaniline (1c), 4-methoxyaniline (1d), 4-chloroaniline (1e), 4-bromoaniline (1f), 2-aminopyridine (1g), 3,4-(methylenedioxy)aniline (1h) and 2-naphthylamine (1i))
+
+Catalysts 2020, 10, 432 7 of 14
+
+and two acrylates (methyl acrylate (2a) and tert-butyl acrylate (2b)) were subjected to the optimal reaction conditions, using continuous-flow microreactors. Seventeen β-amino acid esters (3a–3r) were synthesized after 30 min residence time in excellent yields (Table 4).
+
+Table 4. Continuous-flow synthesis of β-amino acid esters by enzymatic Michael addition of aromatic amines. a
+
+Entry Aromatic Amine Product Yield b (%)
+
+3a 80.3 ± 1.5
+
+aniline (1a)
+
+3b 75.1 ± 1.9
+
+aniline (1a)
+
+3c 92.4 ± 0.8
+
+4-toluidine (1b)
+
+3d 81.2 ± 1.7
+
+4-toluidine (1b)
+
+83.6 ± 2.1
+
+4-tert-butylaniline (1c)
+
+3e
+
+87.7 ± 2.9
+
+4-tert-butylaniline (1c)
+
+3f
+
+3g 85.0 ± 2.7
+
+4-methoxyaniline (1d)
+
+3h 82.1 ± 2.6
+
+4-methoxyaniline (1d)
+
+3i 36.3 ± 1.2
+
+4-chloroaniline (1e)
+
+3j 48.5 ± 3.1
+
+4-chloroaniline (1e)
+
+3k 42.4 ± 1.5
+
+4-bromoaniline (1f)
+
+3l 47.3 ± 1.1
+
+4-bromoaniline (1f)
+
+3m 43.7 ± 2.4
+
+2-aminopyridine (1g)
+
+2-aminopyridine (1g)
+
+3n trace
+
+Catalysts 2020, 10, 432 8 of 14
+
+Table 4. Cont.
+
+Entry Aromatic Amine Product Yield b (%)
+
+3o 88.1 ± 2.2
+
+3,4-(methylenedioxy)aniline (1h)
+
+3p 85.4 ± 1.7
+
+3,4-(methylenedioxy)aniline (1h)
+
+3q 74.0 ± 1.4
+
+2-naphthylamine (1i)
+
+3r 72.1 ± 1.2
+
+2-naphthylamine (1i)
+
+a Experimental conditions: feed A, 5.0 mmol aromatic amine was dissolved in 10 mL methanol, feed B, 20.0 mmol acrylic ester was dissolved in 10 mL methanol, lipozyme TL IM 870 mg, 30 min, 35 ◦C. b Yield of β-amino acid esters. Yield: 100× (actual received quality/ideal calculated quality). The data are presented as average ± SD of triplicate experiments.
+
+The results showed that this continuous-flow enzymatic method has a broad applicability. Most aromatic amines showed good reactivity, except the halogen-substituted anilines and 2-aminopyridine (Entries 9–14, Table 4). The electronic eﬀects of substrates have some impacts on additions. The introduction of electron-donating groups increased the nucleophilicity of aniline, making the conjugated addition easier, which was consistent with previous reports [25]. In addition, our studies have shown that Michael addition of aromatic amines catalyzed by lipase in continuous-flow microreactors was markedly influenced by the reaction parameters. The lipozyme TL IM catalyzed the Michael addition of aromatic amines with acrylates in methanol, which could eﬀectively achieve the synthesis of β-amino acid esters. The selectivity of enzymatic reaction decreased with high reaction temperature or long residence time, which led to the increase of by-products. Compared with conventional batch bioreactor, continuous-flow microreactor improved the eﬃciency of enzymatic synthesis, which realized the rapid conversion of β-amino acid esters.
+
+3. Materials and Methods
+
+3.1. Materials
+
+Unless otherwise stated, all chemicals were obtained from commercial sources and used without further purification. Lipozyme TL IM from Thermomyces lanuginosus was purchased from Novo Nordisk (Copenhagen, Denmark), and 4-tert-butylaniline, 4-methoxyaniline, 3,4-(methylenedioxy)aniline, 2-aminopyridine, 2-naphthylamine were purchased from Energy Chemical (Shanghai, China). Aniline, 4-toluidine, 4-chloroaniline, 4-bromoaniline, methyl acrylate and tert-butyl acrylate were purchased from Aladdin (Shanghai, China). Harvard Apparatus PHD 2000 syringe pumps were purchased from Harvard (Holliston, MA, USA). Bruker-ADNANCE III 500 MHz NMR spectrometer (Billerica, MA, USA) and Liquid Chromatography/Mass Spectrometer Detector (Agilent LC1290-MS6530, Santa Clara, CA, USA) were used in this study.
+
+3.2. β-Amino Acid Ester Synthesis Operating Conditions
+
+3.2.1. Experimental Setup
+
+The equipment configuration that was used for synthesis of β-amino acid esters via lipase-catalyzed Michael reaction of aromatic amines with acrylates is described in Figure 7. The continuous-flow
+
+Catalysts 2020, 10, 432 9 of 14
+
+microreactor was composed of a syringe pump (Harvard Apparatus PHD 2000), reactant injectors, Y-shaped mixer (Φ = 1.8 mm; M), microchannel reactor and product collector. Syringe pump was used to deliver reagents from reactant injectors to the Y-shaped mixer and then to the microchannel reactor. Reagent feed A (10 mL) with aromatic amines in methanol solution and reagent feed B (10 mL) with acrylates in methanol solution were fully mixed in the Y-shaped mixer. The microchannel reactor consists of a PFA reactor coil (inner diameter ID = 2.0 mm, length = 100 cm) filled with lipozyme TL IM (catalyst reactivity: 250 IUN g−1). The microchannel reactor was immersed into a thermostatic apparatus (water bath) to control the temperature. The final solution was collected in a product collector connected to the microchannel reactor. The residence time was controlled by setting the flow rates of feed A and feed B.
+
+Figure 7. Experimental setup for the synthesis of β-amino acid esters.
+
+3.2.2. General Procedure for β-Amino Acid Ester Synthesis in Continuous Flow Microreactor
+
+Here, 5.0 mmol of aromatic amines were dissolved in 10 mL methanol (feed A, ~0.5 M), and 20.0 mmol acrylates were dissolved in 10 mL methanol (feed B, ~2.0 M). Lipozyme TL IM (870 mg) was added to the PFA reactor coil (inner diameter ID = 2.0 mm, length = 100 cm). Streams A and B were mixed together at a flow rate of 10.4 µL min−1 in a Y-mixer at 35 ◦C, and the resulting stream (20.8 µL min−1) was connected to a sample vial which was used to collect the final mixture. The final mixture was then evaporated, and the residue was submitted to column chromatography on silica gel (200–300 mesh). The crude product was purified by silica gel flash chromatography with a petroleum ether/ethyl acetate gradient from 20:1 to 5:1. The purification was monitored by TLC. The fractions containing the main products were pooled, and the solvent was evaporated. The residue was analyzed by 1H NMR, 13C NMR and ESI-MS.
+
+3.3. Analytical Methods
+
+3.3.1. Thin-Layer Chromatography
+
+Thin-layer chromatography analysis was conducted on silica gel plates with ethyl acetate/ petroleum ether (1:5, by vol) as the eluent. Spots were detected by ultraviolet irradiation at 254 nm.
+
+3.3.2. High-Performance Liquid Chromatography (HPLC)
+
+The reaction was monitored by HPLC analysis using a Shim-Pack VP-ODS column (4.6 × 150 mm) and a UV detector (285 nm). Hexane/2-propanol solution 90/10 (v/v) was used as the mobile phase (flow rate: 1.0 mL min−1).
+
+Catalysts 2020, 10, 432 10 of 14
+
+3.3.3. Nuclear Magnetic Resonance (NMR) and Electrospray Ionization Mass Spectrometry (ESI/MS) Analysis
+
+After purification of the synthesized products by column chromatography, the chemical structures of β-amino acid esters were determined by 1H NMR, 13C NMR and ESI-MS. 1H (500 MHz) and 13C (126 MHz) NMR spectra were acquired on a Bruker-ADNANCE III 500 MHz NMR spectrometer. The sample temperature was 22 ◦C and using CDCl3 or DMSO-d6 as solvent. ESI-MS was measured on a Liquid Chromatography/Mass Spectrometer Detector (Agilent LC1290-MS6530). Evaporated samples were dissolved in methanol. The injection volume was 10 µL. Reaction mixtures were injected and infused into the electrospray ion source at 0.2 mL min−1. The spectrometer was operated in the positive ionization mode with the capillary voltage set to +3.5 kV. The sheath gas flow rate was 11 L min−1, and the sheath gas temperature was 300 ◦C.
+
+Methyl 3-(phenylamino)propanoate (3a). White solid. 1H NMR (500 MHz, CDCl3) δ 7.23 (dd, J = 8.6, 7.3 Hz, 2H), 6.77 (tt, J = 7.3, 1.1 Hz, 1H), 6.67 (dd, J = 8.7, 1.1 Hz, 2H), 3.74 (s, 3H), 3.49 (t, J = 6.4 Hz, 2H), 2.66 (t, J = 6.4 Hz, 2H); 13C NMR (126 MHz, CDCl3) δ 172.83, 147.59, 129.35, 117.77, 113.09, 51.76, 39.47, 33.73. HRMS (ESI): calcd for C10H14NO2 [M + H]+: 180.1016, found: 180.1018.
+
+Tert-butyl 3-(phenylamino)propanoate (3b). White powder. 1H NMR (500 MHz, CDCl3) δ 7.21 (dd, J = 8.6, 7.3 Hz, 2H), 6.75 (tt, J = 7.3, 1.1 Hz, 1H), 6.65 (dd, J = 8.6, 1.2 Hz, 2H), 3.43 (t, J = 6.4 Hz, 2H), 2.55 (t, J = 6.4 Hz, 2H), 1.49 (s, 9H); 13C NMR (126 MHz, CDCl3) δ 171.72, 147.73, 129.25, 117.60, 113.06, 80.83, 39.65, 35.08, 28.10. HRMS (ESI): calcd for C14H16NO2 [M + H]+: 222.1489, found: 222.1491.
+
+Methyl 3-(p-tolylamino)propanoate (3c). White solid. 1H NMR (500 MHz, DMSO-d6) δ 6.84–6.96 (m, 2H), 6.48 (d, J = 8.4 Hz, 2H), 5.37 (t, J = 6.0 Hz, 1H), 3.61 (s, 3H), 3.24 (q, J = 6.6 Hz, 2H), 2.55 (t, J = 6.8 Hz, 2H), 2.14 (s, 3H); 13C NMR (126 MHz, DMSO) δ 172.18, 146.17, 129.39, 124.31, 112.29, 51.36, 39.77, 33.56, 20.09. HRMS (ESI): calcd for C11H16NO2 [M + H]+: 194.1176, found: 194.1177.
+
+Tert-butyl 3-(p-tolylamino)propanoate (3d). White solid. 1H NMR (500 MHz, CDCl3) δ 7.07 (d, J = 7.8 Hz, 2H), 6.63 (d, J = 8.4 Hz, 2H), 3.44 (t, J = 6.4 Hz, 2H), 2.58 (t, J = 6.4 Hz, 2H), 2.33 (s, 3H), 1.54 (s, 9H); 13C NMR (126 MHz, CDCl3) δ 171.59, 145.38, 129.58, 126.51, 113.12, 80.49, 39.85, 34.92, 27.93, 20.21. HRMS (ESI): calcd for C14H22NO2 [M + H]+: 236.1643, found: 236.1646.
+
+Methyl 3-((p-(tert-butyl)phenyl)amino)propanoate (3e). White powder. 1H NMR (500 MHz, DMSO-d6) δ 6.91–7.24 (m, 2H), 6.66 – 6.18 (m, 2H), 5.41 (t, J = 6.0 Hz, 1H), 3.61 (s, 3H), 3.25 (q, J = 6.6 Hz, 2H), 2.56 (t, J = 6.8 Hz, 2H), 1.21 (s, 9H); 13C NMR (126 MHz, DMSO) δ 172.19, 146.03, 138.17, 125.53, 111.90, 51.36, 38.98, 33.61, 33.46, 31.49. HRMS (ESI): calcd for C14H22NO2 [M + H]+: 236.1643, found: 236.1645.
+
+Tert-butyl 3-((p-(tert-butyl)phenyl)amino)propanoate (3f). Yellow oil. 1H NMR (500 MHz, CDCl3) δ 7.17–7.38 (m, 2H), 6.48–6.77 (m, 2H), 3.45 (t, J = 6.4 Hz, 2H), 2.58 (t, J = 6.4 Hz, 2H), 1.52 (s, 9H), 1.35 (s, 9H); 13C NMR (126 MHz, CDCl3) δ 171.72, 145.36, 140.25, 125.95, 112.76, 80.66, 39.85, 35.18, 33.77, 31.50, 28.06. HRMS (ESI): calcd for C17H28NO2 [M + H]+: 278.2112, found: 278.2113.
+
+Methyl 3-((p-methoxyphenyl)amino)propanoate (3g). Light yellow solid. 1H NMR (500 MHz, DMSO-d6) δ 6.68–6.80 (m, 2H), 6.65 – 6.45 (m, 2H), 5.14 (t, J = 6.1 Hz, 1H), 3.65 (s, 3H), 3.63 (s, 3H), 3.26 (q, J = 6.6 Hz, 2H), 2.58 (t, J = 6.8 Hz, 2H); 13C NMR (126 MHz, DMSO) δ 172.10, 150.86, 142.53, 114.47, 113.21, 55.09, 51.13, 39.54, 33.50. HRMS (ESI): calcd for C11H16NO3 [M + H]+: 210.1124, found: 210.1127.
+
+Tert-butyl 3-((p-methoxyphenyl)amino)propanoate (3h). Yellow oil. 1H NMR (500 MHz, CDCl3) δ 6.71–6.96 (m, 2H), 6.38–6.73 (m, 2H), 3.76 (s, 3H), 3.36 (t, J = 6.4 Hz, 2H), 2.52 (t, J = 6.4 Hz, 2H), 1.47 (s, 9H); 13C NMR (126 MHz, CDCl3) δ 171.76, 152.29, 141.90, 114.84, 114.57, 55.69, 40.74, 35.06, 28.06. HRMS (ESI): calcd for C14H22NO3 [M + H]+: 252.1596, found: 252.1595.
+
+Methyl 3-((4-chlorophenyl)amino)propanoate (3i). White powder. 1H NMR (500 MHz, CDCl3) δ 7.06–7.19 (m, 2H), 6.50–6.58 (m, 2H), 3.71 (s, 3H), 3.42 (t, J = 6.4 Hz, 2H), 2.62 (t, J = 6.3 Hz, 2H); 13C NMR
+
+Catalysts 2020, 10, 432 11 of 14
+
+(126 MHz, CDCl3) δ 172.63, 146.10, 129.05, 122.16, 114.03, 51.75, 39.44, 33.46. HRMS (ESI): calcd for C10H13ClNO2 [M + H]+: 214.0628, found: 214.0630.
+
+Tert-butyl 3-((4-chlorophenyl)amino)propanoate (3j). Yellow oil. 1H NMR (500 MHz, CDCl3) δ 6.98–7.20 (m, 2H), 6.35–6.66 (m, 2H), 3.38 (t, J = 6.3 Hz, 2H), 2.53 (t, J = 6.3 Hz, 2H), 1.47 (s, 9H); 13C NMR (126 MHz, CDCl3) δ 171.61, 146.20, 129.12, 122.37, 114.28, 81.06, 39.91, 34.85, 28.12. HRMS (ESI): calcd for C13H19ClNO2 [M + H]+: 256.1096, found: 256.1098.
+
+Methyl 3-((4-bromophenyl)amino)propanoate (3k). White powder. 1H NMR (500 MHz, CDCl3) δ 7.02–7.64 (m, 2H), 6.00–6.82 (m, 2H), 3.71 (s, 3H), 3.42 (t, J = 6.3 Hz, 2H), 2.62 (t, J = 6.3 Hz, 2H); 13C NMR (126 MHz, CDCl3) δ 171.61, 146.20, 129.12, 122.37, 114.28, 81.06, 39.91, 34.85, 28.12. HRMS (ESI): calcd for C10H13BrNO2 [M + H]+: 258.0124, found:258.0126.
+
+Tert-butyl 3-((4-bromophenyl)amino)propanoate (3l). Clear oil. 1H NMR (500 MHz, CDCl3) δ 7.06–7.42 (m, 2H), 6.36–6.65 (m, 2H), 3.37 (t, J = 6.3 Hz, 2H), 2.53 (t, J = 6.3 Hz, 2H), 1.46 (s, 9H); 13C NMR (126 MHz, CDCl3) δ 171.60, 146.63, 131.98, 114.74, 109.35, 81.07, 39.77, 34.82, 28.12. HRMS (ESI): calcd for C13H19BrNO2 [M + H]+: 300.0593, found:300.0595.
+
+Methyl 3-(pyridin-2-ylamino)propanoate (3m). White solid, 1H NMR (500 MHz, CDCl3) δ 8.04 (ddd, J = 5.1, 1.9, 0.9 Hz, 1H), 7.34 (ddd, J = 8.4, 7.1, 1.9 Hz, 1H), 6.51 (ddd, J = 7.1, 5.1, 1.0 Hz, 1H), 6.35 (dt, J = 8.4, 1.0 Hz, 1H), 5.04 (t, J = 6.3 Hz, 1H), 3.64 (s, 3H), 3.60 (q, J = 6.3 Hz, 2H), 2.61 (t, J = 6.3 Hz, 2H); 13C NMR (126 MHz, CDCl3) δ 172.85, 158.12, 147.85, 137.11, 112.76, 107.50, 51.52, 37.19, 33.87. HRMS (ESI): calcd for C9H13N2O2 [M + H]+: 181.0972, found: 181.0975.
+
+Methyl 3-(benzo[d][1,3]dioxol-5-ylamino)propanoate (3o). Light yellow solid. 1H NMR (500 MHz, CDCl3) δ 6.64 (d, J = 8.3 Hz, 1H), 6.25 (d, J = 2.3 Hz, 1H), 6.04 (dd, J = 8.3, 2.3 Hz, 1H), 5.82 (d, J = 0.8 Hz, 2H), 3.68 (d, J = 0.7 Hz, 3H), 3.35 (t, J = 6.4 Hz, 2H), 2.58 (t, J = 6.4 Hz, 2H); 13C NMR (126 MHz, CDCl3) δ 172.59, 148.19, 143.15, 139.62, 108.40, 104.51, 100.38, 96.10, 51.48, 40.24, 33.41. HRMS (ESI): calcd for C11H14NO4 [M + H]+: 224.0918, found: 224.0919.
+
+Tert-butyl 3-(benzo[d][1,3]dioxol-5-ylamino)propanoate (3p). Light yellow oil. 1H NMR (500 MHz, CDCl3) δ 6.66 (d, J = 8.3 Hz, 1H), 6.27 (d, J = 2.4 Hz, 1H), 6.07 (dd, J = 8.3, 2.3 Hz, 1H), 5.86 (s, 2H), 3.33 (t, J = 6.3 Hz, 2H), 2.51 (t, J = 6.3 Hz, 2H), 1.47 (s, 9H); 13C NMR (126 MHz, CDCl3) δ 171.73, 148.34, 143.48, 139.81, 108.59, 104.90, 100.55, 96.38, 80.84, 40.76, 34.96, 28.09. HRMS (ESI): calcd for C14H20NO4 [M + H]+: 266.1385, found: 266.1386.
+
+Methyl 3-(naphthalen-2-ylamino)propanoate (3q). Pink powder. 1H NMR (500 MHz, CDCl3) δ 7.70 (d, J = 8.6 Hz, 1H), 7.66 (d, J = 5.8 Hz, 1H), 7.64 (d, J = 5.5 Hz, 1H), 7.39 (ddd, J = 8.2, 6.8, 1.3 Hz, 1H), 7.23 (ddd, J = 8.1, 6.8, 1.2 Hz, 1H), 6.90 (dd, J = 8.8, 2.4 Hz, 1H), 6.85 (d, J = 2.3 Hz, 1H), 3.74 (s, 3H), 3.59 (t, J = 6.4 Hz, 2H), 2.72 (t, J = 6.3 Hz, 2H); 13C NMR (126 MHz, CDCl3) δ 172.85, 145.18, 135.11, 129.06, 127.67, 127.63, 126.37, 125.94, 122.16, 118.11, 104.66, 51.81, 39.41, 33.52. HRMS (ESI): calcd for C14H16NO2 [M + H]+: 230.1176, found: 230.1181.
+
+Tert-butyl 3-(naphthalen-2-ylamino)propanoate (3r). Pale violet powder. 1H NMR (500 MHz, CDCl3) δ 7.69 (d, J =8.10 Hz, 1H), 7.66 (d, J =6.25 Hz, 1H), 7.64 (d, J =5..45 Hz, 1H), 7.37–7.40 (m, 1H), 7.21–7.24 (m, 1H), 6.92 (dd, J =8.8, 2.3 Hz, 1H), 6.87 (d, J =2.0 Hz, 1H), 3.53 (t, J =6.3 Hz, 2H), 2.63 (t, J =6.3 Hz, 2H), 1.48 (s, 9H); 13C NMR (126 MHz, CDCl3) δ 171.72, 147.73, 129.25, 117.60, 113.06, 80.83, 39.65, 35.08, 28.10. HRMS (ESI): calcd for C17H22NO2 [M + H]+: 272.1645, found: 272.1649.
+
+4. Conclusions
+
+In summary, we have developed an eﬀective and environmentally friendly methodology for the synthesis of β-amino acid esters based on aromatic amines catalyzed by lipase TL IM from Thermomyces lanuginosus under continuous-flow microreactors. Lipase TL IM from Thermomyces lanuginosus was first used to catalyze Michael addition reaction of aromatic amines with acrylates. We studied the eﬀects of various reaction parameters including the reaction medium, reaction temperature, enzyme, substrate
+
+Catalysts 2020, 10, 432 12 of 14
+
+molar ratio, residence time/flow rate and substrate structure on the reaction. Through this technique, 17 β-amino acid esters were rapidly synthesized. Compared with traditional methods, the salient features of this method include green reaction solvent (methanol), mild reaction condition (35 ◦C), short residence time (30 min) and high yield. These features make our methodology an attractive alternative to the current synthesis of β-amino acid esters. Our studies highlight the importance of selecting a reaction system for a specific biotransformation and show that enzymatic reactions can benefit greatly from the continuous-flow microreactor. Our results provide direction for the exploration of new enzyme catalysis processes.
+
+Author Contributions: Research design, R.-J.L., L.-H.D. and X.-P.L.; data curation, M.X., P.-F.C. and M.-J.Y.; writing—original draft, R.-J.L.; supervision, R.-J.L., L.-H.D. and P.-F.C.; writing—review and editing, L.-H.D., R.-J.L., M.X., P.-F.C., M.-J.Y. and X.-P.L. All authors have read and agreed to the published version of the manuscript.
+
+Funding: This research was funded by the Natural Science Foundation of Zhejiang Province grant number [LGN20C200020], the Key Research & Development Projects of Zhejiang Province grant number [2020C03090], the International Cooperation Project 948 grant number [2014-4-29], the National Science and Technology Support Project grant number [2015BAD14B0305], the National Natural Science Foundation of China grant number [2130617], the Science and Technology Research Program of Zhejiang Province grant number [2014C32094] and the APC was funded by the Natural Science Foundation of Zhejiang University of Technology grant number [116004029].
+
+Acknowledgments: The authors would like to thank the Natural Science Foundation of Zhejiang Province and Key Research & Development Projects of Zhejiang Province (LGN20C200020 and 2020C03090), the International Cooperation Project 948 (2014–4-29), the National Science and Technology Support Project (2015BAD14B0305), the National Natural Science Foundation of China (21306172), the Science and Technology Research Program of Zhejiang Province (2014C32094) as well as the Natural Science Foundation of Zhejiang University of Technology (116004029) for financial support.
+
+Conflicts of Interest: The authors declare no conflict of interest.

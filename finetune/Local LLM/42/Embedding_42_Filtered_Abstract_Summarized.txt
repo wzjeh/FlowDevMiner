@@ -1,0 +1,20 @@
+{"name": None, "yield_optimal": int(re.search(r'(\d+)%', input_text).group(0)), "unit": "%"}
+
+{"name":None,"yield_optimal":yield_optimal,"unit":"%"}
+
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "single_phase", "reactants": [], "products": [], "conditions": [{"type": "temperature", "value": "50 °C"}, {"type": "pressure", "value": "136 bar"}], "reactor": {"type": "chip"}, "metrics": {}}}
+
+{"name": name, "yield_optimal": None, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [{"name": "null", "role": "null"}], "products": [{"name": "null", "yield_optimal": 0, "unit": "%"}], "conditions": [], "reactor": {"type": "coil", "inner_diameter": "1.56 mm"}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": {  "reaction_type":"hydrogenation",  "reactants":[{"name":"key reactant","role":"reactant"}],  "products":[],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":"3 s"},    {"type":"flow_rate_reactant_A","value":null},    {"type":"pressure","value":null}  ],  "reactor":{"type":"packed bed microreactor", "inner_diameter":"6 mm"}
+
+{ "reaction_summary": {  "reaction_type":"gas-liquid",  "reactants":[{"name":"C6H10","role":"reactant"}, {"name":"H2","role":"catalyst"}],  "products":[    {"name":"scCO2","yield_optimal":95,"unit":"%"}  ],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":"10 min"},    {"type":"flow_rate_reactant_A","value":"0.1 mL/min"},    {"type":"pressure","value":"null"}  ],  "reactor":{"type":"packed bed", "inner_diameter":64.6}
+
+{'name':product_name,'yield_optimal':value,'unit':'%'}
+

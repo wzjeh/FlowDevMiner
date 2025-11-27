@@ -1,0 +1,56 @@
+{
+  "reaction_type": "氢化",
+  "reactants": [
+    {
+      "name": "eosin-Y",
+      "role": "reactant"
+    },
+    {
+      "name": "NaBH4",
+      "role": "reactant"
+    },
+    {
+      "name": "Ag/SiO2",
+      "role": "catalyst"
+    },
+    {
+      "name": "水",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "EO-Y3− 和 EOH-Y3−",
+      "yield_optimal": 26.7,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "未明确提及"
+    },
+    {
+      "type": "residence_time",
+      "value": "未明确提及"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "2.1 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "未明确提及"
+    }
+  ],
+  "reactor": {
+    "type": "monolithic microreactor",
+    "inner_diameter": "未明确提及"
+  },
+  "metrics": {
+    "conversion": 26.7,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

@@ -1,0 +1,267 @@
+Article pubs.acs.org/OPRD
+
+Scale-Up and Development of Synthesis 2‑Ethylhexyl Nitrate in Microreactor Using the Box−Behnken Design
+
+Published as part of the Organic Process Research & Development joint virtual special issue "Process Safety from Bench to Pilot to Plant" in collaboration with ACS Chemical Health & Safety and Journal of Loss Prevention in the Process Industries.
+
+Shuai Guo, Le-wu Zhan,* Guang-kai Zhu, Xin-guang Wu, and Bin-dong Li*
+
+Cite This: Org. Process Res. Dev. 2022, 26, 174−182 Read Online
+
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+ACCESS Metrics & More Article Recommendations
+
+Downloaded via HOKKAIDO UNIV on October 25, 2025 at 02:49:52 (UTC).
+
+ABSTRACT: In this study, kilogram-scale synthesis of 2-ethylhexyl nitrate in a microreactor was reported. Using Box−Behnken experimental design, the eﬀects of process parameters such as temperature, molar ratio, total flow rate, and mass fraction of sulfuric acid on the yield of the target product were systematically investigated. The experimental design was studied at four factors and three levels. The results revealed that the sulfuric acid mass fraction and temperature significantly aﬀected the yield of the product. There was a good agreement between the experimental results and predicted results by the proposed regression model. Subsequently, the mixing eﬀect of the liquid−liquid heterogeneous system in microreactor was simulated by using computational fluid dynamics. The results provide solid evidence that the microreactor has excellent mixing eﬃciency in mass and heat transfer compared with the conventional reactor. Consequently, based on the results of process parameter optimization, an enlarged microreactor was designed to intensify the preparation of 2-ethylhexyl nitrate by a throughput of 16 kg/h. KEYWORDS: 2-ethylhexyl nitrate, microreactor, Box−Behnken model, computational fluid dynamics
+
+1. INTRODUCTION
+
+a 98.2% conversion rate of 2-ethyl-1-hexanol was obtained. Chen20 et al. reported the influence of the molar ratio on the reaction. When the molar ratio of nitric acid to sulfuric acid is 1:2 and the molar ratio of nitric acid to 2-ethyl-1-hexanol is 1:1, the mass fraction of sulfuric acid is 98% and the selectivity of 2-ethylhexyl nitric acid reaches 99.1%. Liu et al.21 reported the synthesis of 2-ethylhexyl nitrate in a microreactor at 25 °C. The concentration of sulfuric acid is 98%; the residence time, 78 s; and the molar ratio of nitric acid to sulfuric acid, 1:2.5, with a yield of 97.8% and a purity of 99.5%. Although the microreactor process for synthesizing 2-ethylhexyl nitrate described in the literature has high conversion and yield, it also has disadvantages such as a large amount of mixed acid and a long reaction residence time. According to reports, acid has a significant eﬀect on the thermal stability of certain substances. Chou et al.22 investigated the stability of tert-butyl hydroperoxide with HNO3 and H2SO4, both of which have a significant influence on TBHP. Grewer et al.5 pointed out that the decomposition temperature of many energy-containing materials in sulfuric acid solutions decreases. Hsueh et al.23
+
+2-Ethylhexyl nitrate is used primarily as a diesel additive to increase the diesel cetane number, improve combustion performance, reduce ignition delay time, and improve engine power performance.1−4 Yet to date, the industrial production of 2-ethylhexyl nitrate is usually based on the nitration of 2- ethyl-1-hexanol with mixed acid in batch reactors, which is highly exothermic. Generally speaking, 2-ethylhexyl nitrate is a heat-sensitive and high-energy substance, and temperature control during the reaction is essential. However, the reaction time in the stirred reactor is lengthy, and the eﬃciency of the process is low, which is a typical liquid−liquid two-phase reaction controlled by mass transfer. The synthesis of 2- ethylhexyl nitrate in a conventional batch reactor is a high explosion hazard and low eﬃciency.5,6 Therefore, it is critical to developing a promising approach to reduce these risks and improve productivity and process safety. As a typical process intensification technology, microreactors have opened new paths for academia and industry. Compared with the traditional batch reactor, the microreactor has a higher surface area to volume ratio in the submillimeter range, which improves the mass and heat transfer rate and precisely controls the reaction parameters. It significantly reduces the reactor danger of local overheating. It has been proved that it is feasible to prepare 2-ethylhexyl nitrate in the microreactor.7−18
+
+found that the 1,1-bis-tert-butylperoxycyclohexane is unstable
+
+Received: October 13, 2021 Published: December 22, 2021
+
+For example, Shen19 et al. reported that 2-ethyl-1-hexanol is reacted with mixed acid at 25−40 °C to synthesize 2- ethylhexyl nitrate, the mass fraction of sulfuric acid is 98%, and
+
+in highly concentrated nitric acid solutions readily decom- posed. Chen et al.24 investigated the eﬀect of mixed acids on the thermal stability of 2-ethylhexyl nitrate. They pointed out that 2-ethylhexyl nitrate is unstable in mixed acid solutions and decomposes more easily. Yang et al.25 studied the thermal stability of 2-ethylhexyl nitrate in a mixture of acids. They pointed out that the decomposition temperature of 2- ethylhexyl nitrate in nitric acid or sulfuric acid solutions was reduced, with sulfuric acid being more pronounced, and the initial decomposition temperature of 2-ethylhexyl nitrate was 149 °C. In contrast, the initial decomposition temperature of 2-ethylhexyl nitrate in sulfuric acid was 67 °C. Therefore, the molar ratio of mixed acid, reaction temperature, and sulfuric acid mass fraction are the most important conditions for synthesizing 2-ethylhexyl nitric acid. Sulfuric acid plays a critical role in the decomposing of 2-ethylhexyl nitrate when heat runaway occurs during the production process. However, few detailed reports in the literature reported above describe the actual implementation of nitrification in a single-pass reactor in large-scale production. Therefore, it is essential to safely design a safe route with high purity, low mass fraction mixed acid, and a mild reaction temperature to produce 2- ethylhexyl nitrate. Herein, the continuous synthesis process of 2-ethylhexyl nitrate in a microreactor was investigated in detail. The Box− Behnken design model in the response surface method was used to optimize and analyze the four factors aﬀecting the reaction process, namely, the reaction temperature, the mass fraction of sulfuric acid, the molar ratio of nitric acid to 2-ethyl- 1-hexanol under the fixed mass fraction of water, and the total flow rate. The model of the relationship between multiple factors and product yield was established, and experimental design obtained the optimum experimental conditions to optimize product yield. The results confirmed the lowest sulfuric acid mass fraction with the highest purity reported to date. Subsequently, an enlarged microreactor was proposed based on the process development results, and kilogram-level production was carried out in the microreactor.
+
+Figure 1. Schematic overview of experimental setup. 1, pump; 2, micromixer; 3, temperature sensor; 4, temperature indicator; 5, cooling circulation system.
+
+divergent sections to increase the mass transfer rate. The internal volume of the microchannel is 30 mL with 10 channel units. The residence time was changed by varying the number of plates. The flow rate of the target reaction layer is 0−100 mL/min, and the operating temperature and pressure are −30 to 200 °C and 0−20 bar, respectively. The model with a precise high-pressure pump is Sanotac-MPF0502C. The cooling circulation system is supplied by the refrigerated/ heated circulation unit (GDSZ-50L/−30 °C, Zhengzhou Ruihan Instrument Co., Ltd., China). The reaction temper- ature was monitored and recorded using a multichannel temperature logger. For accurate acquisition of reaction temperature data, temperature sensors are evenly distributed in the microreactor channels. The experimental setup is shown in Figure 1. 2.3. Experimental Procedures. Before starting the flow process, the flow rate of the plunger pump must be calibrated to provide an accurate flow rate. The channel must be cleaned with a dichloromethane solution to ensure that it contains no impurities. The experimental configuration for 2-ethylhexyl nitrate synthesis is illustrated in Figure 1. 2-Ethyl-1-hexanol (23.8 mL/min, 3.044 mol·L−1·min−1) and HNO3/H2SO4 mixed acid (26.2 mL/min, 3.96 mol·L−1·min−1) were introduced to the microchannel by plunger pumps, at a temperature of 15 °C, a total flow rate of 50 mL/min, and a residence time of 20 s. The residence time was controlled by changing the number of the channel plates. The reaction was quenched with ice water at the end of the response. The acid in the organic phase was neutralized with saturated aqueous sodium bicarbonate, and finally, the organic phase was washed with water until it was neutral. The liquid sample was collected from the organic phase. 2-Ethylhexyl nitrate had a purity of more than 99.6% through high-performance gas chromatog- raphy. 2.4. Materials. 2-Ethyl-1-hexanol (99.5% purity) was purchased from NanJing JuYou Technology Co., Ltd., China. Sulfuric acid (98 wt %) and fuming nitric acid (95 wt %) were purchased from NanJing University Science and Technology, China. Dichloromethane and ethanol were purchased from NanJing JuYou Technology Co., Ltd., China. All chemicals were used without further purification. 2.5. Sample Analysis. When the microreactor system is in a stable continuous reaction state, the sample is collected directly at the reactor outlet and quenched in ice water. The organic layer was removed with dichloromethane, neutralized with a saturated solution of sodium bicarbonate, and diluted neutrally. To avoid the deviation caused by the sample storage, the GC sample was immediately measured by a high-
+
+2. EXPERIMENTAL SECTION
+
+2.1. Synthetic Route. Synthesis of 2-ethylhexyl nitrate uses H2SO4 to catalyze the generation of NO2 + from HNO3, which reacts with 2-ethyl-1-hexanol. The synthetic route of 2- ethylhexyl nitrate is shown in the reaction in Scheme 1.
+
+Scheme 1. Synthetic Route of 2-Ethylhexyl Nitrate
+
+2.2. Experimental Step. The microreactor adopted in this work was made of Hartz alloy. It consists of three layers: the heat transfer layers are at the top and bottom, and the reaction layer is in the middle. The reaction layer consists of many heart-shaped cells. Each heart-shaped unit has a diﬀerent cross- section and internal obstacles, a cylindrical column, and a U- shaped structure, see Figure 1, forming a series of convergent-
+
+performance gas chromatography. The initial temperature was 100 °C, then raised to 150 °C by 2 °C/min, and then maintained for 5 min. The nitrogen flow rate as the carrier gas was 1.0 mL/min with a split ratio of 30:1; the injector and FID detector temperatures were set to 230 and 300 °C, respectively. The selectivity is calculated by the following eq 1:
+
+Table 1. Codes and Levels of Factors Chosen for Experiment
+
+independent variable coded variable levels
+
+factor units code −1 temperature °C A molar ratio B 1.1 1.2 1.3 total flow rate mL/min C sulfuric wt % D 90.5
+
+C C C selectivity MP
+
+MP SP = + (1)
+
+where CMP is the concentration of the main product in the collected samples, mol/mL; CSP is the concentration of side product in the collected samples, mol/mL. The side product is mainly isooctane. To avoid errors caused by sampling measurements, a standard deviation was introduced to measure the extent to which the data values deviated from the arithmetic mean, as follows in eq 2:
+
+designed by Design-Expert 8.0.6 software, and the exper- imental conditions and results are listed in Table 2. According
+
+Table 2. Design Experiment Matrix and Results Based on Box−Behnken
+
+run A (T) °C B (M) C (F) mL/min D (C) % actual % predicted %
+
+N
+
+1.2 90.5 99.05 99.04 1.3 99.26 99.18 1.2 99.45 99.4 1.3 99.16 99.14 1.3 90.5 99.26 99.22 1.1 90.5 98.41 98.44 1.1 90.5 98.2 98.22 1.2 90.5 99.3 99.26 1.2 99.5 99.44 1.1 98.87 98.88 1.1 97.51 97.54 1.2 90.5 98.92 98.95 1.2 98.9 1.2 90.5 99.26 99.3 1.2 98.77 98.75 1.1 90.5 98.06 98.02 1.2 98.5 98.51 1.1 90.5 98.61 98.56 1.2 90.5 99.24 99.26 1.2 99.1 99.13 1.2 99.46 99.52 1.2 99.3 99.34 1.3 90.5 99.46 99.32 1.3 90.5 99.26 99.27 1.2 90.5 99.32 99.3 1.3 90.5 99.2 99.16 1.2 90.5 99.6 99.62
+
+S N X x ( )
+
+∑ = − − ̅= (2)
+
+i
+
+i
+
+where S is standard deviation, N is number of samples, x is average value of the samples, the number of samples in this paper is 3, and the standard deviation is required to be less than 1. 2.6. Experimental Design of Response Surface Methodology. The response surface method is an exper- imental design method that uses various quadratic regression equations to analyze the regression equation through the functional relationship between the experimental data relevant factor and the response value to find the best process parameters. It is widely used in many fields.26−30 Compared with single-factor design and orthogonal design, it has the advantages of a shorter design time, a shorter period, and a higher accuracy of a regression equation. There are many design schemes in experimental RSM design, among which the Box−Behnken design and the central composite design are the most common design models. Compared with the central composite design model, the experimental design time of the BBD model is shorter, and the results obtained are accurate. Therefore, this work chooses the BBD model to design the practical plan and uses a quadratic polynomial model to fit the functional relationship between each factor and the response value, following eq 3.
+
+k
+
+k
+
+∑ ∑ ∑ β βχ β χ β χ χ = + + + +
+
+Y e
+
+to the experimental results, the multiple regression equation between the yield and the temperature, the mole ratio, total flow rate, and the mass fraction of sulfuric acid were calculated accoding to eq 4.
+
+ii i i j ij i j
+
+i i i
+
+= = < (3)
+
+i
+
+where Y is the predicted response value, β0 is the constant term, χi and χj are the coding values of independent variables, βi is the linear coeﬃcient, βii and βij are the coeﬃcient of the quadratic term, K is the factor number, and e is the random error. This work used the Box−Behnken model with four factors and three levels for experimental design. This experiment is designed for the individual and interaction eﬀects of temper- ature, molar ratio, total flow rate, and mass fraction of sulfuric on the yield of 2-ethylhexyl nitrate. The test factors and level design plan are shown in Table 1.
+
+= + + − + − − − + −
+
+Y 99.27 0.2A 0.5B 0.0484C 0.3D 0.072AB 0.069AC 0.11AD 0.036BC
+
++ − − − −
+
+0.37BD 0.029CD 0.028A 0.44B 0.013C 0.12
+
+(4) Table 3 presents the result of the analysis of variance and the significance test of the model. The "F" in the regression equation is to verify the strength of the eﬀect of the variable on the factor. The smaller the p value, the higher the significance of the impact of the variable on the factor. From the size of the P value in Table 3, it can clearly see that the P values of A, B, and D are all less than 0.0001, which indicates that A, B, and D
+
+3. RESULTS AND DISCUSSION
+
+3.1. Model Establishment and Variance Analysis. As can be seen from Table 1, there are 27 experimental schemes
+
+Table 3. ANOVA Analysis for Regression of eq 2
+
+source sum of squares degree of freedom mean square F value p value prob > F
+
+model 6.53 0.47 229.07 <0.0001a
+
+A 0.46 0.46 224.28 <0.0001 B 2.91 2.91 1429.65 <0.0001 C 0.024 0.024 11.56 0.0047 D 1.078 1.078 529.18 <0.0001 AB 0.021 0.021 10.32 0.0068 AC 0.046 0.046 22.79 0.0004 AD 0.048 0.048 23.76 0.0003 BC 0.013 0.013 6.22 0.0269 BD 0.53 0.53 261.63 <0.0001 CD 0.0081 0.0081 3.98 0.0674 A2 0.0047 0.0047 2.29 0.1537 B2 1.18 1.18 577.87 <0.0001 C2 0.0038 0.0038 1.84 0.1978 D2 0.079 0.079 39.24 <0.0001 residual 0.026 0.0020 lack of fit 0.025 0.0025 3.88 0.1458b
+
+Figure 3. Normal probability plot of residuals.
+
+residual distribution between −2 and 2 obeys the normal distribution, and most of the data points are on a straight line. The simulation data show that the model is standard. 3.2. Experimental Factor Analysis. The response surface is a three-dimensional surface graph composed of response value and design experimental factors, which can intuitively reflect the influence of various experimental factors and the influence of their interaction on the response value to obtain the optimal process parameters. Export-Design 8.0.6 software was used to design and draw a three-dimensional surface diagram of the eﬀect of two-factor interaction on product yield, as shown in Figure 4. When the other two factors are constant values, the degree of interaction between the two factors is diﬀerent, and the value of the product performance response is not linear. 3.3. Eﬀect of Reaction Temperature. As we all know, the nitration reaction is a highly exothermic reaction, which is likely to cause the decomposition of 2-ethylhexyl nitrate and nitric acid at the high reaction temperatures. Intrinsic reaction kinetics have a stronger dependence on temperature than mass transfer. If the reaction process cannot be eﬀectively controlled, an excessively high reaction temperature will cause an explosion. Therefore, the temperature is the main factor influencing the nitration reaction. It can be seen in Figure 4a, when the mass fraction of sulfuric acid is 90.5%, and the total flow rate is 50 mL/min, that the yield of 2-ethylhexyl nitrate increases with increasing temperature. Increasing reaction temperature can speed up the reaction rate and promote the conversion of 2-ethyl-1-hexanol. According to Figure 4b and c, the increase of reaction temperature is conducive to increasing product yield. Due to the large specific surface of the microreactor, it is beneficial for mass and heat transfer. The nitrification reaction releases a large amount of heat, which facilitates even heat distribution, avoids side reactions caused by local overheating of the tank reactor, and thus increases the output. 3.4. Eﬀect of Molar Ratio. The material molar ratio promotes the conversion of the reaction and improves the selectivity of the target product and simplifies the postprocess- ing procedures and reduces waste. It can be clearly seen from Figure 4e that when the reaction temperature is 10 °C, the total flow rate is 50 mL/min. The molar ratio response surface of the materials presents a curved shape. As the molar ratio increases, the yield of 2-ethylhexyl nitrate tends to increase first and then decrease. At the same time, Figure 4a and d also have
+
+pure error 0.0019 0.00063
+
+cor total 6.56 aSignificant. bNot significant. Note: R2 = 0.9959, adjusted R2 = 0.9916, predicted R2 = 0.9729, adequate precision = 63.08.
+
+are highly significant in the main item. The cross-terms of BD are also substantial. The quadratic times of B2 and D2 are incredibly substantial, and C, AB, AC, and AD are substantial. Variance is a step to measure the degree of dispersion of random variables or data sets, and ANOVA is a standard for determining the degree of model fit. The values of F and P indicate that the model is hugely significant. The loss of fit term P is greater than 0.05, suggesting that it is not substantial. Therefore, the model is relatively reliable. The coeﬃcient of determination R2 in the regression equation is another critical parameter for evaluating the degree of fit between the model prediction results and the experimental results. The value of R2 is preferably close to 1. The regression coeﬃcient of the model R2 = 0.9959, demonstrating that the model has strong predictability. It can be seen from Figure 2 that the experimental value and the predicted value are in a straight line, and there is no abnormal point. At the same time, the average residual probability in Figure 3 clearly shows that the
+
+Figure 2. Comparison of actual and predicted values of yield.
+
+molar ratio is 1.2, the yield of 2-ethylhexyl nitrate gradually increases with the increase of sulfuric acid mass fraction. Figure 4f shows the same trend. From the reaction mechanism, sulfuric acid acts as a catalyst in the reaction process and absorbs the water produced by the reaction. However, the resulting water dilutes the concentration of sulfuric acid and weakens the ability of nitric acid to produce ammonium nitrate. Therefore, increasing the concentration of sulfuric acid is conducive to the progress of the reaction. 3.7. Simulation Computational Fluid Dynamics. 3.7.1. Mesh. The computational domain of the entire microreactor was discretized in a 2D-structured mesh composed of 75 946 hexahedral cells, as shown in Figure 5.
+
+Figure 4. 3D surface plots of eﬀects of binary interactions among factors on response value yield of 2-ethylhexyl nitrate. (a) Total flow rate, 50 mL/min; sulfuric acid mass fraction, 90.5%. (b) Molar ratio of nitric acid to 2-ethyl-1-hexanol, 1.2; sulfuric acid mass fraction, 90.5%. (c) Total flow rate, 50 mL/min; molar ratio of nitric acid to 2-ethyl-1- hexanol, 1.2. (d) Temperature, 10 °C; sulfuric acid mass fraction, 90.5%. (e) Temperature, 10 °C; total flow rate, 50 mL/min. (f) Temperature, 10 °C; molar ratio of nitric acid to 2-ethyl-1-hexanol, 1.2.
+
+Figure 5. Structured 3D mesh.
+
+The mesh was built using the software Pointwise V.17. The structured mesh provides more eﬃciency, faster convergence, and better resolution as compared to unstructured mesh. In order to better verify the mesh independence, three points in the structure in Figure 6 were selected for mesh independence detection, with refining sizes ranging from 0.1 mm to 0.5 mm, respectively. All of the data obtained are listed in Table 4.
+
+the same shape. The main reason is that excessive nitric acid easily causes the side reaction of 2-ethyl-1-hexanol to oxidize to isooctane. The yield of product decreases as the molar ratio of nitric acid increases. Therefore, it is vital to choose the best molar ratio to increase the product yield. 3.5. Eﬀect of Flow Rate. The flow rate is an essential parameter for the nitration reaction in the microreactor. According to the reaction mechanism, the synthesis of 2- ethylhexyl nitrate is a heterogeneous liquid−liquid reaction. The heterogeneous liquid−liquid response is controlled by mass transfer in a conventional batch reactor, and the stirring eﬀect is the primary means to break the mass transfer resistance. Therefore, it is necessary to study the influence of the mixing eﬀect of the reaction in the microreactor. In a microreactor, changing the flow rate is the most common method to improve mixing eﬃciency. It can be seen from Figure 4f that when the temperature is 10 °C, and the molar ratio is 1.2, the yield of 2-ethylhexyl nitrate does not increase significantly with the increase of the flow rate. It can be seen from Figure 4b and d that the flow rate has almost no eﬀect on the product yield. It may be due to the small size and large specific surface area of the microreactor, which promotes two- phase diﬀusion and improves the mass transfer eﬃciency. Therefore, to verify this conjecture, this work uses computa- tional fluid dynamics software to simulate the mass transfer and mixing eﬃciency of the microreactor.31−33
+
+Figure 6. Eﬀect of diﬀerent mesh sizes on the opposite velocity.
+
+3.6. Eﬀect of Sulfuric Acid Mass Fraction. It is known from the reaction mechanism that sulfuric acid acts as a catalyst in the reaction, and the sulfuric acid solution has a significant eﬀect on the stability of 2-ethylhexyl nitrate. Therefore, a detailed and systematic study of the impact of sulfuric acid strength on the reaction is necessary. Figure 4c depicts that when the total flow rate is 50 mL/min, and the
+
+In theory, the smaller the mesh density, the better the results of computation convergence, but it is too much burden on the computer and time cost, so it becomes sparse in some places. When the mesh is light, it tends to diverge and distort and can only be thickened where the conditions of the large blocks are similar. This feature is determined by the mathematical model
+
+The path lines show that the fluid meets the first obstacle and splits into two streams with the same velocity, as shown in Figure 7. After the fluid flows through the U-shaped obstacle, the two streams travel along the channel wall, thus causing the velocity near the channel wall to be greater than the velocity between the U-shaped structure and the center. After passing through the U-shaped obstacle, the two streams of fluid converge again. The velocity field is almost symmetrical in the cardioid cell. As shown in Figure 8, each stream travels at
+
+Table 4. Cell Information of the Structure
+
+mesh size unit node quality of unit deviation
+
+0.5 0.76901 0.10988 0.4 0.77084 0.11320 0.3 0.7964 0.10967 0.2 0.84385 0.09266 0.1 0.87256 0.098424
+
+at the core of the computing software, that is the stability of the mathematical equations. To ensure the convergence of the results, the space step size has a range limit. On the basis of the above, the mesh size is 0.2 mm, and the quality of mesh achieves 0.84385. 3.7.2. Parameter Settings. In this paper, Solid-works 2020 was used to draw the 3D mixer model, and Hyper-Mesh 2019 was used for hexahedral meshing. The model was simulated in ANSYS Fluent 2020 software. As the pressure discretization, the pressure solver chosen was PRESTO! The simulations are computed using a pressure−velocity coupling algorithm.34
+
+Figure 8. Path lines for 2-ethyl-1-hexanol/mixed acid using fluent for diﬀerent total flow rates: (a) 10 mL/min; (b) 30 mL/min; (c) 50 mL/min; (d) 60 mL/min; (e) 80 mL/min.
+
+Since the flow state of the reaction in the microchannel is laminar, a laminar flow model was used. And the species transport model without response was set during mixing. The mass fraction was placed at one order upwind, and the velocity convergence was set to 10−6. 3.7.3. Validation of Mixed Eﬃciency. In order to better understand the flow conditions and two-phase flow rate distribution in the microreactor and determine the total pressure drop of the microreactor, CFD simulation is a necessary means of prediction and evaluation. Figure 7 shows
+
+approximately half the speed near the channel wall, thus resulting in a low-velocity zone between the two barriers. Recirculation zones are formed between these two obstacles, increasing the amplitude with rising flow rates, especially obvious under a flow rate reaching 30 mL/min. Several authors obtained the same simulation results, such as Nieves-Remacha et al.36 and Wu et al.37 According to the surface renewal theory, the vortex can increase the mass transfer area between the two phases, but not the more significant the flow rate. The larger, the better the increase of the flow rate will also lead to increased pressure drop, so it is essential to choose the right flow rate. According to eq 5 and an Re ranging from 20 to 160 in a microchannel with a hydrodynamic diameter of 1.4 mm, a laminar flow behavior is studied. The main control factor of the mass transfer in laminar flow of a heterogeneous two-phase liquid−liquid flow in a microreactor is diﬀusion. Diﬀusion mixing eﬃciency is usually expressed in terms of Fourier number (F0), which is defined as eq 7:
+
+Figure 7. Velocity profiles for 3D meshes in the microreactor. Velocity profiles are nondimensionalized by the maximum velocity (red), where Vmin = 0 (blue) for all cases and Vmax (red) varies with the total flow rate, accordingly (m/s): (a) 10 mL/min; (b) 30 mL/ min; (c) 50 mL/min; (d) 60 mL/min; (e) 80 mL/min.
+
+F D t L / AB = · (7)
+
+where DAB is the diﬀusion coeﬃcient, cm2/s; t is the contact time of the liquid−liquid phase, s; L is the hydrodynamic diameter of the channel, cm. The Wilke−Chang formula was used to estimate the diﬀusion coeﬃcient for the diluted nonelectrolyte solution, which is defined as eq 8:
+
+the velocity profiles within each cardioid cell at flow rates ranging from 10 mL/min to 80 mL/min. Reynolds numbers were calculated at the inlet of the heart with a flow rate ranging from 10 mL/min to 80 mL/min. The Reynolds number is calculated using a parameter at the inlet of the cardioid, which is defined as eq 5.35
+
+V 7.4 ( ) AB B 0.5
+
+B A 0.6 ϕ
+
+D T M
+
+μ = × −
+
+(8)
+
+Re UL ρ μ =
+
+where T is the temperature of the solution, K; μB is the viscosity of solvent B, pa/s; MB is the molar mass of solvent B, kg/kmol; φ is the association parameters of solvent; VA is a molecular volume of solvent A at its normal boiling point, cm3/mol; and VA is used to estimate by the methods of Tyn− Calus, which is expressed as follows eq 9:
+
+(5)
+
+where ρ is the flow density, g/cm3; U is the velocity of flow at the inlet, m/s; L is the hydrodynamic diameter of the channel, m; μ is the dynamic viscosity, pa/s; and L is expressed as follows eq 6:
+
+V V 0.285 C 1.048 = (9)
+
+L A P
+
+W =
+
+(6)
+
+where VC is critical volume of a substance, cm3/mol.
+
+Table 5 shows model parameters for the simulation of the base case. According to eqs 7−9, the value of F0 is 0.607; when
+
+Table 5. Model Parameters for the Simulation of the Base Case
+
+serial no. parameter value
+
+density of 2-ethyl-1-hexanol 0.833 g/cm3
+
+density of mixed acid 1.7 g/cm3
+
+dynamic viscosity of 2-ethyl-1-hexanol 9.8 × 10−3 pa/s dynamic viscosity of mixed acid 15.61 × 10−3 pa/s width 1.5 mm height 1.3 mm temperature 293 K contact time of liquid−liquid phase 20 s molar mass of solvent B 80.5 kg/kmol φ critical volume of 2-Ethyl-1-hexanol 158.4 cm3/mol
+
+Figure 10. Pressure drop in microreactor at diﬀerent Reynolds numbers.
+
+F0 > 0.1, it means that the mixed eﬃciency of the liquid−liquid phase is excellent. 3.7.4. Pressure Fields. Figure 9 shows the pressure drop cloud diagram of the microreactor used to check the pressure
+
+Table 6. Observed and Predicted Results for Yield under Optimum Points Identified by RSM
+
+T (°C) M F (mL/min) C (wt %)a predicted selectivity (%) actual selectivity (%)
+
+1.3 90.55 99.63 99.6 aC (%) is mass fraction of sulfuric acid.
+
+the experimental parameters, under the same conditions, the practical yield of 2-ethylhexyl nitrate is 99.6%, and the error between the practical value and the predicted value is only 0.03%. Therefore, the accuracy of the quadratic polynomial model obtained by the response surface method can be proved. Under the best experimental conditions, the purity of 2- ethylhexyl nitrate is higher than the traditional batch reactor17
+
+Figure 9. Cloud map of pressure drop: total flow rate 10 mL/min.
+
+change in the cardioid unit. It can be seen that the pressure gradually decreases from the inlet to the outlet and circulates in the cardioid group, forming a convergence/convergence section, forming a negative pressure zone, and finally recovering the pressure. This design is beneficial to increasing the remixing between the two-phase system, increasing the specific surface area, and improving the mass transfer. It is well-known that the Hagen Poiseuille equation (eq 10) illustrates that the pressure drop of a liquid in laminar flow is linearly proportional to the flow rate or Reynolds number.
+
+and microreactor technology16,18 reported in the literature. The consumption of mixed acid is much lower than the molar ratio of sulfuric acid to nitric acid in the literature of 2−2.5:1. The mass fraction of sulfuric acid is 8% lower than that in the literature. Many documents show that 2-ethylhexyl nitrate is unstable and quickly decomposes into mixed acids. To improve the intrinsic safety of the nitration reaction, the content and mass fraction of sulfuric acid must therefore be reduced. Decreasing the concentration and content of sulfuric acid can also improve economic eﬃciency and lower the processing cost of waste acid recovery. 3.9. Scale-up of the 2-Ethyl-1-hexanol Nitration. As mentioned above, various reaction parameters of the 2-ethyl-1- hexanol nitrification process have been studied. On the basis of the optimized conditions, the kilogram-scale scale-up setup was designed to synthesize 2-ethylhexyl nitrate by numbering up size. Figure 11 shows the structure of the enlarged micro- reactor of 2-ethyl-1-hexanol continuous flow nitrification. Figure 12 shows the scale-up experimental setup for the continuous flow nitrification process. Before performing the scale-up experimental work, the heat transfer capability of the device must be tested. Temperature measurement of the individual channel plates and the amplification device is carried out using temperature sensors, respectively. The temperatures of the hot and cold fluids were 70 and 10 °C, respectively; the average of the results was taken for three experiments with the same experimental parameters, in which the outlet temperature of the single-channel plate was 26.2 °C. In contrast, the outlet
+
+P LQ r μ π Δ = (10)
+
+In combination with eq 5, the pressure drop and Reynolds number can be obtained by eq 11:
+
+P r Re 8 2
+
+μ πρ Δ =
+
+(11)
+
+where r is the diameter of the inlet, 1.4 mm. We get the Reynolds numbers at the channel of the heart cells in the microreactor range from 20 to 160; therefore the behavior of the laminar flow is studied. The nonlinear relationship between the pressure drop and Reynolds number is depicted in Figure 10. The power-law ΔP = 0.0245Re1.4739 suggests that the significant friction on small scales is related to surface roughness or obstacles in the flow path. 3.8. Verification of the Model. Expert Design software was used to optimize the product yield, and the optimal experimental parameters are listed in Table 6. On the basis of
+
+calculations, the parameters of the best practice plan were obtained; it can be carried out safely and stably. The purity of 2-ethylhexyl nitrate can reach 99.6%, and the yield is 99%. Computational fluid dynamic simulations are carried out in the microreactor. Results showed an excellent mixed eﬀect with a flow rate range of 10 mL/min to 80 mL/min. The path lines of 2-ethyl-1-hexanol/mixed acid show that the total flow rate starts from 30 mL/min between the two obstacles within the heart-shaped reactor generating recirculation zones. Compared with the traditional batch reactor, the excellent mixing eﬀect of the microreactor breaks the mass transfer resistance, and the heat generated by the nitration reaction can be evenly distributed, eﬀectively reducing the generation of side reactions. Encouraged by laboratory-scale results, we directly scaled up the size of the microreactor and performed reaction experi- ments under the same conditions. With these results, the scale- up equipment has also been demonstrated to successfully conduct a kilogram-scale synthesis of 2-ethylhexyl nitrate. This study provides a rapid and straightforward method for the continuous synthesis of 2-ethylhexyl nitrate for kilogram-scale with a high yield and high selectivity and provides an essential model for the kilogram-scale synthesis nitration reaction of alcohol. ■AUTHOR INFORMATION
+
+Figure 11. Microreactor Structure diagram of the scale up of the continuous flow nitration of 2-ethyl-1-hexanol. (a) Reaction delay mixed channel structure: groove depth, 5 mm; liquid volume, 100 mL. (b) Mixed channel structure: groove depth, 5 mm; liquid volume, 100 mL. (c) Heat transfer channel structure: groove depth, 5 mm; liquid volume, 140 mL. (d) Assembly diagram of microreactor.
+
+Corresponding Authors Bin-dong Li −School of Chemical Engineering, Nanjing University of Science and Technology, Nanjing 210094, China; orcid.org/0000-0003-3771-7649; Email: libindong@njust.edu.cn Le-wu Zhan −School of Chemical Engineering, Nanjing University of Science and Technology, Nanjing 210094, China; Email: zhanlewu@sina.com
+
+Figure 12. Design and physical diagram of the scale up of the continuous flow nitration of 2-ethyl-1-hexanol: (a) Design diagram; (b) Physical diagram.
+
+Authors Shuai Guo −School of Chemical Engineering, Nanjing University of Science and Technology, Nanjing 210094, China; orcid.org/0000-0002-5248-7047 Guang-kai Zhu −School of Chemical Engineering, Nanjing University of Science and Technology, Nanjing 210094, China Xin-guang Wu −Xi‘an North Huian Chemical Industry Co., Ltd., Xi‘an 710000, China Complete contact information is available at: https://pubs.acs.org/10.1021/acs.oprd.1c00388
+
+temperature of the amplification device was only 24.0 °C. Three experiments were performed with the same exper- imental parameters, and the average of the results was taken, where the outlet temperature of the single-channel plate was 26.2 °C, and the outlet temperature of the amplification device was only 24.0 °C. The test results show that the heat transfer capability of the amplification device has met the design requirements. Two scale-up experiments were carried out in the above scale-up unit. Based on the average of the results of the two experiments, the conversion of 2-ethyl-1-hexanol is 100%. The purity of 2-ethylhexyl nitrate is 99.3% in 30 min. The yield of 2-ethylhexyl nitrate is 98%, at T = 288 K; the molar ratio of nitric acid to 2-ethyl-1-hexanol, 1.3:1; the total flow rate, 500 mL/min; the sulfuric acid mass fraction, 90.55%; the mixed acid molar ratio of sulfuric acid to nitric acid, 1.43:1; and the productivity of 2-ethylhexyl nitrate, 16 kg/h. The results show that the amplified microreactor can carry out the continuous flow nitration reaction of 2-ethyl-1-hexanol well and has good performance.
+
+Author Contributions S.G. and L.Z. contributed equally.
+
+Notes The authors declare no competing financial interest. ■NOMENCLATURE
+
+S, standard deviation; Re, Reynolds numbers; ρ, flow density g/cm3; U, velocity of flow m/s; L, hydrodynamic diameter of the channel m; μ, dynamic viscosity pa/s; F0, Fourier number; DAB, diﬀusion coeﬃcient cm2/s; T, temperature of the solution K; MB, molar mass of solvent kg/kmol; φ, association parameters of solvent; VA, a molecular volume of solvent A at its normal boiling point cm3/mol; VC, critical volume of a substance cm3/mol; ΔP, pressure drop pa
+
+4. CONCLUSION In summary, through the design of the Box−Behnken response surface method, a quadratic correlation model between four factors and production was established. The results show that the model can predict the output of 2-ethylhexyl nitrate within the four factors of the experimental design. According to
+
+■REFERENCES
+
+butyl hydroperoxide Mixed with Four Acids Using Calorimetric Approaches. J. Therm. Anal. Calorim. 2014, 117 (2), 851−855. (23) Hsueh, K. H.; Chen, W. T.; Chu, Y. C.; Tsai, L. C.; Shu, C. M. Thermal Reactive Hazards of 1,1-bis (tert-butylperoxy) cyclohexane with Nitric Acid Contaminants by DSC. J. Therm. Anal. Calorim. 2012, 109 (3), 1253−1260. (24) Chen, Y. L.; Chou, Y. P.; Hou, H. Y.; I, Y. P.; Shu, C. M. Reaction Hazard Analysis for Cumene Hydroperoxide with Sodium Hydroxide or Sulfuric Acid. J. Therm. Anal. Calorim. 2009, 95 (2), 535−539. (25) Yang, T.; Chen, L.; Chen, W.; Zhou, Y.; Gao, H.; Zhong, T. Thermal Stability of 2-ethylhexyl Nitrate with Acid. J. Therm. Anal. Calorim. 2015, 119 (1), 205−212. (26) Guo, M.; Hu, X.; Yang, F.; Jiao, S.; Wang, Y.; Zhao, H.; Yu, H.; Luo, G. S. Mixing Performance and Application of a Three- Dimensional Serpentine Microchannel Reactor with a Periodic Vortex-Inducing Structure. Ind. Eng. Chem. Res. 2019, 58, 13357− 13365. (27) Lam, K. Y.; Nelieu, S.; Benoit, P.; Passeport, E. Optimizing Constructed Wetlands for Safe Removal of Triclosan: A Box-Behnken Approach. Environ. Sci. Technol. 2020, 54, 225−234. (28) Agbovi, H. K.; Wilson, L. D. Flocculation Optimization of Orthophosphate with FeCl3 and Alginate Using the Box-Behnken Response Surface Methodology. Ind. Eng. Chem. Res. 2017, 56 (12), 3145−3155. (29) Gadomska-Gajadhur, A.; Wrzecionek, M.; Matyszczak, G.; Pietowski, P.; Wieclaw, M.; Ruskowski, P. Optimization of Poly- (glycerol sebacate) Synthesis for Biomedical Purposes with the Design of Experiments. Org. Process Res. Dev. 2018, 22, 1793−1800. (30) Neethu, B.; Tholia, V.; Ghangrekar, M. M. Optimizing Performance of a Microbial Carbon-Capture Cell using Box-Behnken Design. Process Biochem. 2020, 95, 99−107. (31) Fu, G.; Jiang, J. C.; Ni, L. Research-scale Three-phase jet foam Generator Design and Foaming Condition Optimization Based on Box-Behnken Design. Process Saf. Environ. Prot. 2020, 134, 217−225. (32) Karpov, A. G.; Vasilishin, M. S.; Kukhlenko, A. A.; Ivanov, O. S.; Ivanova, D. B.; Orlov, S. E.; Lailov, S. V.; Belyaev, V. N.; Grigorenko, A. P. Effect of Temperature on 2-Ethylhexanol Nitration Process in a Unit with a Centrifugal Mass Transfer Apparatus. Chem. Pet. Eng. 2021, 56 (11−12), 889−893. (33) Shi, X.; Xiang, Y.; Wen, L. X.; Chen, J. F. CFD Analysis of Flow Patterns and Micromixing Efficiency in a Y-Type Microchannel Reactor. Ind. Eng. Chem. Res. 2012, 51 (43), 13944−13952. (34) Gu, R.; Cheng, K. P.; Wen, L. Application of the Engulfment Model in Assessing Micromixing Time of a Micro-impinging Stream Reactor Based on the Determination of Impinging Zone with CFD. Chem. Eng. J. 2021, 409, 128248. (35) Shi, H. H.; Nie, K.; Dong, B.; Chao, L.; Gao, F.; Ma, M.; Long, M. Q.; Liu, Z. C. Mixing Enhancement via a Serpentine Micromixer for Real-time Activation of Carboxyl. Chem. Eng. J. 2020, 392, 123642. (36) Nieves-Remacha, M. J.; Kulkarni, A. A.; Jensen, K. F. Open- FOAM Computational Fluid Dynamic Simulations of Single-Phase Flows in an Advanced-Flow Reactor. Ind. Eng. Chem. Res. 2015, 54 (30), 7543−7553. (37) Wu, K. J.; Nappo, V.; Kuhn, S. Hydrodynamic Study of Single- and Two-Phase Flow in an Advanced Flow Reactor. Ind. Eng. Chem. Res. 2015, 54 (30), 7554−7564.
+
+(1) Zharkov, M. N.; Arabadzhi, S. S.; Kuchurov, L. V.; Zlotin, S. G. Continuous Nitration of Alcohols in a Freon Flow. React. Chem. Eng. 2019, 4, 1303. (2) An, J.; Liu, P.; Si, M.; Li, W.; He, P.; Yang, B.; Yang, G. Practical Catalytic Nitration Directly with Commercial Nitric Acid for the Preparation of Aliphatic Nitroesters. Org. Biomol. Chem. 2020, 18, 6612. (3) Gage, J. R.; Guo, X. W.; Tao, J.; Zheng, C. S. High Output Continuous Nitration. Org. Process Res. Dev. 2012, 16 (5), 930−933. (4) Sharma, Y.; Joshi, R. A.; Kulkarni, A. A. Continuous-Flow Nitration of O-xylene: Effect of Nitrating Agent and Feasibility of Tubular Reactors for Scale-Up. Org. Process Res. Dev. 2015, 19 (9), 1138−1147. (5) Grewer, T.; Frurip, D. J; Keith Harrison, B Prediction of Thermal Hazards of Chemical Reactions. J. Loss. Prevent. Proc. 1999, 12 (5), 391−398. (6) Zhou, Y. S.; Chen, L. P.; Chen, W. H.; Yang, T. Effect of Nitric- Sulfuric Acid on Thermal Stability of Nitrotoluene. Chinese. J. Energ. Mater. 2014, 22, 503−508. (7) Van Woezik, B. A. A.; Westerterp, K. R. Runaway Behavior and Thermally Safe Operation of Multiple Liquid-Liquid Reactions in the Semi-batch Reactor. Chem. Eng. Process. 2002, 41 (1), 59−77. (8) Wen, Z. H.; Jiao, F.; Yang, M.; Zhao, S. N.; Zhou, F.; Chen, G. W. Process Development and Scale-up of the Continuous Flow Nitration of Trifluoromethoxybenzene. Org. Process Res. Dev. 2017, 21 (11), 1843−1850. (9) Li, X. G.; Liu, S. E.; Su, Y. H. Research Progress on Micro-scale Internal Liquid-Liquid Mass Transfer and Vreaction Process Enhancement. CIESC. J. 2021, 72 (1), 452−467. (10) Yan, Z. F.; Tian, J. X.; Wang, K.; Nigam, K. D. P.; Luo, G. S. Micro-reaction Processes for Synthesis and Utilization of Epoxides: a Review. Chem. Eng. Sci. 2021, 229, 116071. (11) Zhou, F.; Liu, H. C.; Wang, K. J.; Wen, Z. H.; Chen, G. W. Preparation of Simple Imidazoles in Continuous-flow Microreactor. CIESC. J. 2018, 69 (6), 2481−2487. (12) Lou, F. Y.; Yin, J. B.; Duan, X. N.; Wang, Q. N.; Ai, N.; Zhang, J. S. Application of Continuous Micro-reaction Hydrogenation Technology in Deprotection Reaction. CIESC. J. 2021, 72 (2), 761−771. (13) Ding, Y. C.; Wang, F. J.; Ai, N.; Xu, J. H. Research Progress on Continuous Diazotization/azo-coupling Reaction in Microreactors. CIESC. J. 2018, 69 (11), 4542−4552. (14) Li, L.; Zhou, F.; Yao, C. Q.; Chen, G. W. Synthesis Process of 4-(6-hydroxyhexyloxy)phenol in Microreactor. CIESC. J. 2017, 68 (6), 2336−2343. (15) Chao, X.; Xu, F.; Yao, C.; Liu, T.; Chen, G. CFD Simulation of Internal Flow and Mixing within Droplets in a T-Junction Microchannel. Eng. Chem. Res. 2021, 60 (16), 6038−6047. (16) Kulkarni, A. A. Continuous Flow Nitration in Miniaturized Devices. Beilstein J. Org. Chem. 2014, 10, 405−424. (17) Russo, D.; Di Somma, I.; Marotta, R.; Tomaiuolo, G.; Andreozzi, R.; Guido, S.; Lapkin, A. A. Intensification of Nitro- benzaldehydes Synthesis from Benzyl Alcohol in a Microreactor. Org. Process Res. Dev. 2017, 21 (3), 357−364. (18) Russo, D.; Tomaiuolo, G.; Andreozzi, R.; Guido, S.; Lapkin, A. A.; Di Somma, I. Heterogeneous Benzaldehyde Nitration in Batch and Continuous Flow Microreactor. Chem. Eng. J. 2019, 377, 120346. (19) Shen, J. N.; Zhao, Y. C.; Yuan, Q.; Chen, G. W. Investigation of Nitration Processes of iso-Octanol with Mixed Acid in a Microreactor. Chin. J. Chem. Eng. 2009, 17 (3), 412−418. (20) Chen, X. C.; Yang, Y.; Yin, F. H.; Xu, R.; Wang, L. Y. Experimental Research of the 2-ethylhexyl Nitrate with Microchannel Reaction Production Technology. Adv. Mater. Res. 2014, 997, 16−19. (21) Chao, X.; Xu, F.; Yao, C.; Liu, T.; Chen, G. CFD Simulation of Internal Flow and Mixing within Droplets in a T-Junction Microchannel. Ind. Eng. Chem. Res. 2021, 60 (16), 6038−6047. (22) Chou, H. C.; Chen, N. C.; Hsu, S. T.; Wang, C. H.; Wu, S. H.; Wen, I. J.; Shen, S. J.; Shu, C. M. Thermal Hazard Evaluation of Tert-

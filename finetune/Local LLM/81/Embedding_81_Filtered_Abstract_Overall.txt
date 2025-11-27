@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "enzymatic synthesis", "reactants": ["amine", "carboxylic acid"], "products": ["β-amino acid ester"]}}

@@ -1,0 +1,20 @@
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "catalyst"}], "products": [], "conditions": [], "reactor": {"type": "microchannel", "inner_diameter": null}, "metrics": {}}}
+
+{"type":"temperature","value":f"{temperature} °C"}
+
+{ "reaction_summary": {  "reaction_type":"Hydrogen production from ammonia",  "reactants":[{"name":"Ammonia","role":"reactant"}],  "products":[    {"name":"Water", "yield_optimal":null,"unit":"%"},    {"name":"Unreacted Ammonia", "yield_optimal":null, "unit":"%"},    {"name":"Hydrogen", "yield_optimal":null, "unit":"%"}],  "conditions":[    {"type":"pressure","value":null}
+
+{"type":"flow_rate_total","value":f"{flow_rate_reactant_A}mL/min"}
+
+{}
+
+{"name": name.lower(), "role": role}
+
+{"name": "dechlorination", "yield_optimal": 95, "unit": "%"}
+
+{"name": "p-chlorophenol", "yield_optimal": None}
+
+{}
+
+{"reaction_summary": {"reaction_type": "null"}}
+

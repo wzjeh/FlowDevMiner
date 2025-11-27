@@ -1,0 +1,44 @@
+{"name": 2, "yield_optimal": 95, "unit": "%"}
+
+{
+        "conversion": None, 
+        "yield": None,
+        "selectivity": None
+    }
+
+{"reaction_summary": {"reaction_type": "isothermal_nitration", "reactants": [{"name": "commercial nitric acid", "role": "nitrating_agent"}], "products": [], "conditions": [{"type": "temperature", "value": "..."}, {"type": "residence_time", "value": "..."}, {"type": "flow_rate_reactant_A", "value": null}], "reactor": {"type": "coil", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"name": "1-methyl-4-(methylsulfonyl)benzene (1)", "yield_optimal": 95, "unit": "%"}
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp = re.search(r"(\d+) °C", text)
+    if match_temp:
+        temp = int(match_temp.group(1))
+    
+    match_res_time = re.search(r"in (\d+ min)", text)
+    if match_res_time:
+        res_time = float(match_res_time.group(1))
+
+    # Parse flow rates
+    fs_flow_rate = None
+    fn_flow_rate = None
+    match_fs_flow_rate = re.search(r"FS/F\d+: (\d+) mL/min", text)
+    if match_fs_flow_rate:
+        fs_flow_rate = int(match_fs_flow_rate.group(1))
+    
+    match_fn_flow_rate = re.search(r"FN: (\d+) mL/min", text)
+    if match_fn_flow_rate:
+        fn_flow_rate = int(match_fn_flow_rate.group(1))
+
+    # Parse reactor type and inner diameter
+    reactor_type = None
+    inner_diameter = None
+    match_reactor_type = re.search(r"a (10 m tube length)", text)  # Assuming this is the most informative data
+    if not match_reactor_type:
+
+{"type": "flow_rate_total", "value": f"{float(flow_rate_value)} mL/min"}
+
+{"reaction_summary": {"reaction_type": "nitration", "reactants": [{"name": "sulfuric acid solution", "role": "solvent"}, {"name": "nitric acid", "role": "reactant"}], "products": [{"name": "unknown product", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": 11.2}, {"type": "flow_rate_reactant_B", "value": 60.4}, {"type": "pressure", "value": null}], "reactor": {"type": "coil", "inner_diameter": "10 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+

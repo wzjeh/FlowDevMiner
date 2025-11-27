@@ -1,0 +1,20 @@
+The gas flow rate of hydrogen affects the gas–liquid–solid mass transfer performance and mean residence time for the hydrogenation process in the microreactor.40 As can be seen in Fig. 5(a) and (b), the increase in the gas flow rate leads to
+
+G Gas flow rate, sccm h Liquid holdup of the micropacked bed reactor k′ Reaction rate constant in eqn (7), mol0.73 L−0.73
+
+Effect of the liquid flow rate
+
+of conventional stirred tank reactors and packed bed reactors. Furthermore, the intrinsic reaction kinetics is
+
+where D is the inner diameter of the reactor, L is the length of the reactor, ε is the porosity of the μPBR and its value is 0.37, h is the liquid holdup, which can be determined from the literature,48 and Q is the liquid flow rate. Table 5 shows the catalytic performance and STY of FUR hydrogenation to FA in the conventional stirred tank reactor (STR), packed bed reactor (PBR), H-Cube mini reacto
+
+Fig. 6 Effect of the liquid flow rate on the conversion and yield. Reaction conditions: 0.2 mol L−1 FUR, 80 °C, 20 sccm, (a) isopropanol, 0.1 MPa, (b) isopropanol, 0.6 MPa, and (c) ethyl acetate, 0.6 MPa.
+
+D Inner diameter of the micropacked bed reactor, m Deff Hydrogen effective diffusion coefficient in the catalyst, m2 s−1
+
+Fig. 5 Effect of the gas flow rate on the conversion and yield. Reaction conditions: 0.2 mol L−1 FUR, 80 °C, 0.2 mL min−1, (a) isopropanol, 0.1 MPa and (b) ethyl acetate, 0.6 MPa.
+
+a decrease in the FA yield, in particular at a high gas flow rate. It is mainly attributed that an increase in the gas flow rate decreases the mean residence time, leading to the insufficient contact among the gas–liquid–solid catalysts. Based on the experimental results, a gas flow rate of 20 sccm was chosen as the optimized condition for the subsequent experiments.
+
+The liquid flow rate affects the hydrodynamics and gas– liquid–solid interaction, and thus the hydrogenation performance of the reactor.41 The effect of the liquid flow rate on the hydrogenation performance of FUR is summarized in Fig. 6. From Fig. 6(a), it was concluded that the yield of FA gradually decreased with the increase of the liquid flow rate. When FUR is not completely hydrogenated, a l
+

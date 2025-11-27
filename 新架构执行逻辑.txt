@@ -1,0 +1,291 @@
+# FCPDExtractor 新架构执行逻辑文档
+
+## 架构概览
+
+```
+FCPDExtractor/
+├── main.py                     # CLI入口（argparse参数解析与流程协调）
+├── config.yaml                 # 配置文件（引擎选择、模型参数、路径）
+├── core/                       # 核心处理逻辑
+│   ├── __init__.py
+│   ├── processor.py            # Gemini在线路径（流程编排）
+│   ├── local_pipeline.py       # 本地LLM路径（分阶段模型）
+│   ├── text_utils.py           # PDF blocks级抽取与清洗
+│   ├── embedding.py            # 嵌入相似度Top-N筛选
+│   ├── pdf_structured.py       # 结构化PDF解析（other输出）
+│   └── models/                 # 模型抽象层
+│       ├── __init__.py
+│       ├── base_llm.py         # 抽象接口（generate方法）
+│       └── gemini_llm.py       # Gemini API实现
+├── evaluation/                 # 评估模块
+│   ├── __init__.py
+│   └── metrics.py              # Precision/Recall/F1计算
+├── data/                       # 数据目录
+│   ├── papers/                 # 输入：原始PDF
+│   ├── gemini/                 # Gemini引擎产出
+│   ├── local llm/              # 本地引擎产出
+│   └── ground_truth/           # 人工标注JSON（用于评估）
+├── models/                     # 本地GGUF模型文件
+├── OSSExtractor_Debug.ipynb    # 调试Notebook
+└── requirement.txt             # 依赖包
+
+
+## 引擎与模型
+
+### 本地引擎（分阶段模型）
+- 过滤/抽象：nous-hermes-llama2-13b.Q4_0.gguf
+- 总结/Overall/Impact：meta-llama-3.1-8b-instruct-q4_k_m-2.gguf
+- 优势：完全离线；分阶段模型择优；2048窗口裁剪与重试
+- 配置：config.yaml中local_model段
+
+### 在线引擎（Gemini API）
+- 单模型：gemini-1.5-flash（可配置）
+- API Key：环境变量GOOGLE_API_KEY
+- 优势：更大上下文窗口；更稳定输出
+- 配置：config.yaml中gemini_api段
+
+
+## 完整处理流程（5步）
+
+### 步骤1：PDF → 文本（blocks级清洗）
+- 输入：data/papers/<paper>.pdf
+- 处理：
+  - PyMuPDF blocks级抽取
+  - 去页眉/页脚（页面前后5%区域）
+  - 去页码纯数字行
+  - References截断（可选，匹配"references:"后截断）
+  - 连字符断行修复（"-\n" → ""）
+  - 连字/引号归一化（ﬁ→fi, ﬂ→fl, ""→""）
+  - 多空白压缩为单空格
+  - 段落分割：非空行累积，空行flush；最小长度≥60字符；去重（按前200字符）
+- 输出：
+  - data/<engine>/<paper>/<paper>.txt
+  - data/<engine>/<paper>/<paper>_other.txt（结构化解析可选）
+
+### 步骤2：文本预处理
+- 已整合到步骤1，无独立步骤
+
+### 步骤3：嵌入与相似度筛选（Top-N）
+- 输入：<paper>.txt
+- 处理：
+  - SentenceTransformer("all-MiniLM-L6-v2")计算段落嵌入
+  - 参考关键词集合：flow chemistry/residence time/flow rate/reactor/ID/temperature/pressure/conversion/yield/selectivity及变体
+  - 余弦相似度排序，保留Top-N=10（可用FCPD_TOP_N覆盖）
+- 输出：data/<engine>/<paper>/Embedding_<paper>.txt
+
+### 步骤4：LLM内容过滤（Yes/No）
+- 输入：Embedding_<paper>.txt
+- 处理：
+  - 关键词直通（含flow/reactor/residence/mL/min/°C等则直接Yes）
+  - LLM判定：Is the paragraph about flow chemistry/process development with concrete experimental details? Yes or No
+  - 参数：temp=0.0, max_tokens=5
+  - 解析：首词startswith('yes')视为Yes
+- 输出：data/<engine>/<paper>/Embedding_<paper>_Filtered.txt
+
+### 步骤5：抽象、逐段总结、整篇汇总、影响因素
+
+#### 5.1 段落抽象（Abstract）
+- 输入：Embedding_<paper>_Filtered.txt
+- 提示词：
+  - 强调反应类型/试剂/反应器/关键条件（flow/residence time/temperature/pressure）/结果
+  - 简洁忠实，无推测
+- 参数：temp=0.0, max_tokens=280~300
+- 本地额外：上下文裁剪≈2000字符，失败降参重试
+- 输出：data/<engine>/<paper>/Embedding_<paper>_Filtered_Abstract.txt
+
+#### 5.2 逐段总结（Summarize）
+- 输入：Embedding_<paper>_Filtered_Abstract.txt（优先）或Filtered.txt
+- 提示词：
+  - 旧项目严格JSON Schema（reaction_summary/reactants/products/conditions/reactor/metrics）
+  - 含示例IO（flow rate/T/coil/yield）
+  - 仅输出JSON，不跨段推断，单位规范（°C/min/mL/min/mm）
+  - 规则：若多组条件/结果，择优保留单一最优（显式optimal优先，否则最高yield，其次conversion）
+- 参数：temp=0.0, max_tokens=260~300
+- 清洗：
+  - 去```json/```围栏
+  - 抽取最大完整{...}块
+  - 去注释/尾逗号
+  - 数值化（"82"→82）
+  - _keep_best_only：仅保留最佳产品与一致metrics
+  - 失败降参重试一次
+- 本地额外：上下文裁剪≈2200字符，_safe_generate重试
+- 输出：data/<engine>/<paper>/Embedding_<paper>_Filtered_Abstract_Summarized.txt（多行JSON）
+
+#### 5.3 整篇汇总（Overall）
+- 输入：Embedding_<paper>_Filtered_Abstract.txt的抽象段落
+- 提示词：
+  - 整合所有抽象为单一JSON
+  - 格式同逐段Schema，择优合并
+- 参数：temp=0.05, max_tokens=900~1200
+- 清洗：
+  - 去围栏、去对话/说明文本行（Note:/Please/Let me/Here/等）
+  - 仅保留首个完整{...}块
+  - 清洗与数值化
+- 输出：data/<engine>/<paper>/Embedding_<paper>_Filtered_Abstract_Overall.txt（单一JSON）
+
+#### 5.4 影响因素分析（Impact）
+- 输入：抽象段落（同Overall输入）
+- 提示词：
+  - Few-shot示例（residence_time → conversion/selectivity, increase/unchanged）
+  - 输出格式：Factor | Metric | Direction（三列表格）
+  - Direction限定：increase/decrease/unchanged
+- 参数：temp=0.1, max_tokens=500
+- 清洗：跳过表头行与空因素行
+- 输出：data/<engine>/<paper>/Embedding_<paper>_Filtered_Abstract_Impact_Analysis.txt
+
+
+## 运行方式
+
+### CLI（推荐生产环境）
+
+1. 安装依赖
+   pip install -r requirement.txt
+
+2. 设置环境变量（Gemini）
+   export GOOGLE_API_KEY=你的密钥
+
+3. 运行（Gemini）
+   python main.py --engine gemini --input_dir data/papers --output_dir data --mode comprehensive --limit 5
+
+4. 运行（本地）
+   python main.py --engine local --input_dir data/papers --output_dir data --mode comprehensive --limit 5
+
+5. 评估（需先准备ground_truth）
+   python main.py --mode evaluate --output_dir data
+
+
+### Notebook（推荐调试）
+
+1. 打开OSSExtractor_Debug.ipynb
+
+2. 切换引擎（可选，默认读config.yaml）
+   import os
+   os.environ['NB_ENGINE'] = 'local'  # 或 'gemini'
+
+3. 运行"引擎初始化（单次）"单元
+
+4. 从上到下依次执行各单元
+
+
+## 配置文件（config.yaml）
+
+```yaml
+engine: gemini  # 或 local
+
+gemini_api:
+  api_key_env_var: GOOGLE_API_KEY
+  model_name: gemini-1.5-flash
+
+local_model:
+  filter: nous-hermes-llama2-13b.Q4_0.gguf
+  abstract: nous-hermes-llama2-13b.Q4_0.gguf
+  summarize: meta-llama-3.1-8b-instruct-q4_k_m-2.gguf
+  path: models/
+
+paths:
+  papers_dir: data/papers
+  output_dir: data
+  ground_truth_dir: data/ground_truth
+
+evaluation:
+  metrics: [precision, recall, f1]
+```
+
+
+## 输出文件说明
+
+每篇论文<paper>的完整产出（按引擎归档到data/gemini或data/local llm）：
+
+1. <paper>.txt                                           # PDF转文本（blocks级清洗）
+2. Embedding_<paper>.txt                                 # 嵌入Top-N=10
+3. Embedding_<paper>_Filtered.txt                        # LLM过滤
+4. Embedding_<paper>_Filtered_Abstract.txt               # 段落抽象
+5. Embedding_<paper>_Filtered_Abstract_Summarized.txt    # 逐段JSON（多行）
+6. Embedding_<paper>_Filtered_Abstract_Overall.txt       # 整篇单一JSON
+7. Embedding_<paper>_Filtered_Abstract_Impact_Analysis.txt # 三列因素表
+
+
+## 关键参数与优化点
+
+### 可调环境变量
+- FCPD_TOP_N：嵌入Top-N（默认10）
+- FCPD_IMPACT_TOPK：影响因素候选段落数（默认12）
+
+### 本地引擎优化
+- 分阶段模型（filter/abstract用小模型，summarize用大模型）
+- 上下文窗口裁剪（filter≈1200/abstract≈2000/summarize≈2200字符）
+- 安全重试（失败时降参/裁剪prompt重试）
+
+### Gemini引擎优化
+- 更大上下文窗口，无需裁剪
+- 确定性参数（temp=0.0），降低随机性
+- 失败一次重试（降低max_tokens）
+
+
+## 评估流程
+
+1. 准备标准答案（人工标注）
+   - 在data/ground_truth/<paper>.json放入标准JSON
+   - 格式同Overall输出
+
+2. 运行评估
+   python main.py --mode evaluate --output_dir data
+
+3. 输出指标
+   - Precision/Recall/F1（按字段逐一比对）
+
+
+## 与旧项目的对齐
+
+### 完全保留的功能
+- PDF→文本清洗（blocks级+去噪）
+- 嵌入相似度Top-N筛选（all-MiniLM-L6-v2）
+- LLM过滤（关键词直通+Yes/No判定）
+- 段落抽象（强调反应/试剂/条件/结果）
+- 逐段JSON总结（严格Schema+示例+择优单一）
+- 整篇Overall汇总（单一JSON）
+- 影响因素提取（三列表+few-shot）
+
+### 新增功能
+- 引擎并行（本地LLM vs Gemini，同任务对比）
+- 分阶段模型支持（本地引擎可按步骤切换模型）
+- 自动归档（按引擎分目录data/gemini与data/local llm）
+- 评估模块（ground_truth对比与P/R/F1计算）
+- CLI参数化（--engine/--mode/--limit等）
+
+
+## 故障排查
+
+### Overall仍有多余文本
+- 已加入"Note:/Please/Let me"等对话关键词过滤
+- 若仍有残留，可在config.yaml或代码中扩展过滤关键词列表
+
+### Impact表头重复或提取不全
+- 已跳过"factor/metric"关键词行与空因素行
+- 若候选段落不足，可增加FCPD_IMPACT_TOPK环境变量（默认12）
+
+### 本地模型窗口溢出
+- 已加入上下文裁剪（filter/abstract/summarize分别限定长度）
+- 已加入_safe_generate重试机制（失败降参/裁剪prompt）
+
+### 逐段JSON格式混乱
+- 已加入去围栏+最大花括号块抽取+数值化+择优单一
+- 若仍有边缘情况，可进一步收紧清洗规则
+
+
+## 运行时长与优化
+
+- 单篇论文预估：本地引擎约10-15分钟，Gemini引擎约3-5分钟
+- 优化建议：
+  - 批处理多篇时复用模型实例（已实现）
+  - 减少Top-N或限制抽象输入段落（降低LLM调用次数）
+  - 使用更快的本地模型（如Phi-3-mini，但可能质量下降）
+
+
+## 最终产物对比（本地 vs Gemini）
+
+本地与Gemini使用相同提示词与清洗规则，便于输出质量对比：
+- 同名文件格式一致
+- 归档目录分离（data/local llm vs data/gemini）
+- 可用evaluation模块评估两者与ground_truth的差异
+

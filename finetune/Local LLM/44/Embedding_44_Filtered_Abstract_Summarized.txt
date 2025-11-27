@@ -1,0 +1,72 @@
+{"name": name, "yield_optimal": None, "unit": "%"}
+
+{"name": name, "role": role}
+
+{"role": match[1], "name": match[0]}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "10 min"}, {"type": "pressure", "value": "100 kPa"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    if "hydrogenation" in input_str:
+        reaction_type = "hydrogenation"
+    else: 
+        reaction_type = None
+    
+    # Parse reactants, products, conditions and metrics from the string
+    match = re.search(r'(\w+) over a (\w+)/\w+ catalyst',input_str)
+    
+    if match:
+        reactant_A_name = match.group(1).capitalize()
+        reactant_B_name = "H2"
+        
+        # Parse reaction products (if present) 
+        product_match = re.search(r'to obtain (.*) yield \d+', input_str)
+        if product_match:  
+            product_names = [name.capitalize() for name in product_match.group(1).split(',')]
+            
+    else:
+        reactant_A_name,reactant_B_name,product_names = None,None,[]
+    
+    # Parse conditions
+    condition_matches = re.findall(r'(\d+ °C|T=\d+ °C|\w+\s\d+(?:\.\d+)?\smin|Flow rate \
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+from typing import List
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str, re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).lower()
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r'\b\w+\s?(\d*\.?\d*)\s?(?:mL/min|mmol/h)\b', input_str)
+    if not matches:  # No flow rates found, assume no reactants
+        reactants = []
+    else:
+        reactant_A_flow_rate = float(matches[0])
+        reactant_B_flow_rate = None
+        for match in re.finditer(r'\b\w+\s?(\d*\.?\d*)\s?(?:mL/min|mmol/h)\b', input_str):
+            if 'B' not in str(match.group(1)):
+                continue  # Ignore non-A flow rates
+            reactant_B_flow_rate = float(match.group(1))
+        react
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "90 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "2.2 mm"}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"name": name, "role": role}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"name": product_match.group(), "yield_optimal": yield_optimal, "unit": "%"}
+

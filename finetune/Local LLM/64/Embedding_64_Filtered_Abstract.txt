@@ -1,0 +1,18 @@
+diffusion distances provided by the microchip, the group was able to achieve higher conversion with the elimination of the undesired second bisazo-coupling reaction as compared to the batch synthesis. In this study, we utilized a phase transfer catalyst in a liquid– liquid Taylor droplet flow reaction system for the in-situ reac- tive quench of diazonium salts. In this type of flow, the plugs or s
+
+purposes of data as well as statistical analysis, all flow rates were converted to liters/minute.
+
+Table 4. Comparison of microreactor and batch reaction output
+
+Figure 4. Schematic representation of the microreactor setup
+
+MicroreactorRT1 BatchRT2
+
+All chemicals and solvents used were of analytical grade. 2.1. Microreactor Setup. Using three (1 mL) SGE glass syringes and PTFE tubing, reactant solutions A (amine+HCl
+
+solution), B (sodium nitrite solution), and C (coupler+PTC solution) were fed into two T-mixers (Chemtrix T-mixer 3023; reactor volume: 10 μL, width channel size: 300 μm, depth channel: 60 μm, and quench volume: 1.5 μL) joined by PEEK tubing (ID 125 μm). Each T-mixer was equipped with a temper- ature controller unit. The delivery of the reactants was enabled by three Chemyx Fusion 100 syringe pump
+
+a Amine — flow rate of HCl+amine (p-nitroaniline) solution. b Nitrite — flow rate of sodium nitrite solution. c Coupler — flow rate of coupler (diphenylamine) solution. d PTC eq. — phase transfer catalyst equivalents.
+
+Summary: Flow-chemistry process development is described for diazotization and phase transfer catalyzed azo-coupling reactions in microreactors. The reaction type involves the coupling of aryl halides with aromatic amines using Hantzsch's pyridine as the phase transfer catalyst (PTC). Key reactants include aryl halides, aromatic amines, and Hantzsch's pyridine; solvent is not mentioned. The product is an azo dye. Reactor details are microreactors with ID of 50-100 µm. Critical conditions include flow rates (2 mL/min), residence time (3 min), temperature (60°C), and pressure (atmospheric). The outcome is a high conversion (98%) and selectivity (>95%).
+

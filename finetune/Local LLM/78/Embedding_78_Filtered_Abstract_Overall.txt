@@ -1,0 +1,30 @@
+{
+        "reaction_summary": {"reaction_type": "semihydrogenation", "reactants": ["MBY"], "products": [], "conditions": [{"type": "temperature", "value": 335}, {"type": "flow_rate", "value": 42.5}], "reactor": {"type": "capillary microreactor"}, "metrics": {}},
+        "text": """A high long term stability is required for industrial appli- cations of the microreactor. The catalyst stability was studied at 335 K using an MBY solution flow rate of 42.5 μL min−1"""
+    },
+    {
+        "reaction_summary": {"reaction_type": None, "reactants": [], "products": [], "conditions": {}, "reactor": {"type": None}, "metrics": {}},
+        "text": """Flow-chemistry process development involves microreactors for heterogeneous catalytic reactions with packed-bed reactors as a convenient laboratory practice."""
+    },
+    {
+        "reaction_summary": {"reaction_type": "semihydrogenation", "reactants": ["MBY"], "products": [], "conditions": [{"type": "temperature", "value": 335}, {"type": "flow_rate", "value": 42.5}], "reactor": {"type": "capillary microreactor"}, "metrics": {}},
+        "text": """The paragraph describes a flow-chemistry process development for the semihydrogenation of MBY using a capillary microreactor with Pd–Bi/TiO2 catalyst under controlled conditions (flow rate, temperature, pressure). The reaction type is semihydrogenation. Key reactants are 1200 mol m−3 MBY in hexane as solvent and H2 flow at 42.5 μL min−1. The product is not mentioned."""
+    },
+    {
+        "reaction_summary": {"reaction_type": None, "reactants": [], "products": [], "conditions": {}, "reactor": {"type": None}, "metrics": {}},
+        "text": """Flow-chemistry process development using mesoporous metal oxide coatings as catalysts or catalyst supports in microreactors is discussed for applications such as photocatalysis and gas chromatography."""
+    },
+    {
+        "reaction_summary": {"reaction_type": "semihydrogenation", "reactants": ["MBY"], "products": [], "conditions": [{"type": "temperature", "value": 335}, {"type": "flow_rate", "value": 42.5}], "reactor": {"type": "capillary microreactor"}, "metrics": {}},
+        "text": """The paragraph discusses the development of a flow-chemistry process for semihydrogenation of methylbenzyl ylamine (MBY) using a capillary microreactor with Pd–Bi/TiO2 catalyst under varying temperature conditions."""
+    },
+    {
+        "reaction_summary": {"reaction_type": None, "reactants": [], "products": [], "conditions": {}, "reactor": {"type": None}, "metrics": {}},
+        "text": """Flow-chemistry process development for a metal-organic framework synthesis using a microreactor with a hydrogen flow of 10 mL min⁻¹ for 100 hours."""
+    },
+    {
+        "reaction_summary": {"reaction_type": None, "reactants": [], "products": [], "conditions": {}, "reactor": {"type": None}, "metrics": {}},
+        "text": """parameter optimisation, the solution flow rate was varied in the interval of 30–50 μL min−1 at a constant hydrogen gas flow rate of 10 mL min−1 (STP), which corresponded to super- ficial flow velocities of 2–4 mm s−1 for liquid and 0.75 m s−1"""
+    },
+    {
+        "reaction_summary": {"reaction_type": None, "reactants": [], "products": [], "conditions": {}, "reactor": {"type": None}, "metrics": {}}

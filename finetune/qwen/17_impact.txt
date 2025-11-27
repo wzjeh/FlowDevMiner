@@ -1,0 +1,16 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of benzaldehyde | increase |
+| temperature | ortho isomer formation | increase |
+| temperature | meta isomer formation | increase |
+| temperature | m:o isomer ratio | decrease |
+| residence_time | conversion of benzaldehyde | increase |
+| residence_time | m:o isomer ratio | decrease |
+| HNO3 concentration | o:m isomer ratio | increase |
+| catalyst_loading (H2SO4 amount) | o:m isomer ratio | decrease |
+| flow_rate | mixing efficiency | decrease |
+| mixing efficiency | byproduct formation | decrease |
+| mixing efficiency | conversion of benzaldehyde | increase |
+| mixing efficiency | selectivity | increase |

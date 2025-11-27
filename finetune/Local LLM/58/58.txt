@@ -1,0 +1,509 @@
+Contents lists available at ScienceDirect
+
+Chemical Engineering Journal
+
+journal homepage: www.elsevier.com/locate/cej
+
+Nitration of o-xylene in the microreactor: Reaction kinetics and process intensification
+
+Shuai Guo, Le-wu Zhan *, Bin-dong Li *
+
+College of Chemical Engineering, Nanjing University of Science and Technology, Nanjing 210094, China
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords: Nitration Microreactor Kinetics Mass transfer
+
+Nitration reactions are extensively studied in organic synthesis despite their notorious dangers, high reaction rates, and heterogeneous reaction systems. To date, most industrial nitration reactions rely on conventional batch reactors characterized by low mass transfer rates and limited reaction conditions. In contrast, microreactors represent a valuable technology for intensifying such nitration reactions. In this work, we established a continuous flow system of o-xylene nitration and determined the kinetics and mass transfer. The effects of mixing performance, nitric acid concentration, molar ratio, reaction temperature, and residence time on the process safety were investigated separately. The experimental data is supported by dimensionless number calculations, providing a more comprehensive understanding of the nitration reaction's transport and reaction performance in a heart-shaped microreactor. Remarkably, the residence time of the heart-shaped microreactor was reduced by an order of magnitude, while the volumetric mass transfer coefficient was improved by several orders of magnitude compared to conventional stirred tank reactors. Moreover, the spent nitric acid could be efficiently recovered and reused after concentration, further enhancing the sustainability and cost-effectiveness of the process. Our findings demonstrate the significant potential of microreactors for intensifying nitration reactions and paving the way for the design and optimization of more efficient and safer synthetic processes.
+
+literature, as evidenced by the vast number of studies summarized in Table 1 [12–19]. Despite more than seven decades of research, the development of effective and sustainable methods for the nitration of o xylene remains a critical area of investigation. Attempts to address this challenge have led to the emergence of novel nitration agents, such as polyphosphoric acid, H-Y zeolite catalyst, carbon molecular sieve, nat­ ural kaolinite clay, and sodium dodecyl sulfate. Although these methods have demonstrated high selectivity by using fuming nitric acid as a nitration agent and replacing waste sulfuric acid, they are time consuming (12 to 24 h) and unsuitable for industrial-scale production. Microreactor technology offers a new approach to enhancing the effi­ ciency of the chemical synthesis process through its high specific surface area and small reaction volume, which boost heat and mass transfer in liquid–liquid systems. [20–22]. Microreactor technology has been proven to be an effective approach for nitration reactions in numerous studies. Sharma et al. reported continuous-flow nitration of o‑xylene. The effects of fuming nitric acid and mixed acids as nitration agents on the nitration reaction of o-xylene were investigated separately in a tubular reactor and the feasibility of process scale-up was analyzed. The findings indicated that the content of poly-nitro impurities was higher when sulfuric acid was present, while the yield of 1,2-dimethyl-4
+
+1. Introduction
+
+Nitroaromatic compounds are widely used as intermediates to pre­ pare dyes, explosives, and pharmaceuticals and are integral to organic synthesis [1,2]. The most economical nitric acid is usually selected as the nitration agent for industrial aromatic compound nitration reactions and is usually used in the presence of a strong acid catalyst [3]. However, the conventional nitration method suffers from drawbacks such as large amounts of spent acid, equipment corrosion, low product selectivity, multiple nitration and oxidation side reactions, and prolonged reaction time. These issues can be attributed to the high exothermic heat, fast reaction rate, and large sulfuric acid consumption of the nitration re­ action [4–6]. Therefore, the nitration reaction process often occurs in thermal runaway, resulting in a decrease in product quality and even causing an explosion. Therefore, nitration reactions are regarded as one of the most hazardous reactions. [7,8]. Nitro-o-xylenes are the key raw material for the synthesis of phar­ maceuticals and pesticides, including riboflavin, herbicide pendime­ thalin, and cardiovascular drug tolvaptan [9–11]. As a result, the nitration reaction of o-xylene has received significant attention in the
+
+* Corresponding authors. E-mail addresses: zhanlewu@sina.com (L.-w. Zhan), libindong@njust.edu.cn (B.-d. Li).
+
+https://doi.org/10.1016/j.cej.2023.143468 Received 7 December 2022; Received in revised form 5 May 2023; Accepted 9 May 2023
+
+Available online 19 May 2023 1385-8947/© 2023 Elsevier B.V. All rights reserved.
+
+Nomenclature
+
+DaII Second Damk¨ohler number th characteristic heat transfer time, s D Dispersion coefficient, m2⋅s−1
+
+u Superficial velocity, m⋅s−1
+
+Q Volumetric feed flow rate, mL⋅min−1
+
+MHNO3 Molecular weight of HNO3, g⋅mol−1
+
+Mo−xylene Molecular weight of o-xylene, g⋅mol−1
+
+dH Hydraulic diameter of the microchannel inlet, m q Volumetric flow rate ratio of organic liquid to aqueous solution VR Volume of the microchannel internal, mL C0 A Fluid-phase inlet reactant concentration, mol⋅L-1
+
+Vo−xylene Molar volume of o-xylene at its normal boiling point, cm3⋅mol−1
+
+Vc critical volume, cm3⋅mol−1, cm3⋅mol−1
+
+F0 o−xylene Initial mass flow rate of o-xylene, g⋅s−1
+
+nA Amount of substance A, mol A Channel inlet cross-sectional area, mm2
+
+Greek symbols τ Reaction time, s τD Diffusion time, s τr Characteristic reaction time, s σ Fluid interfacial tension, kg⋅s−2
+
+h Channel height, mm w Channel width, mm Re Reynolds number Ca Capillary number De Dean number R Radius of curvature, mm KLa Volumetric mass transfer coefficient, s−1
+
+α Heat transfer coefficient, W⋅m−2⋅K−1
+
+λf Heat conductivity of the microreactor, W⋅m−1⋅K−1
+
+β Order of the reaction ρM average density of the two immiscible liquid phases, kg⋅m−3
+
+ΔCm Logarithmic mean concentration, mol⋅L-1
+
+C* or.in Equilibrium concentration of o-xylene in the nitric acid phase at the inlet, mol⋅L-1
+
+φ Volumetric flowrate ratio of organic liquid to total liquid μM Average viscosity of the two immiscible liquid phases, Pa⋅s ΦHNO3 Association factor of HNO3 η Space-time yield, g⋅cm−3⋅h−1
+
+Cor.in Concentration of o-xylene in the nitric acid phase at the inlet, mol⋅L-1
+
+x o-xylene conversion, % ΔrHθ m Standard molar reaction enthalpies of formation, kJ⋅mol−1
+
+Subscripts aq Aqueous phase or Organic phase in Inlet of the reactor out Outlet of the reactor
+
+ΔfHθ m Standard molar enthalpy of formation, kJ⋅mol−1
+
+ΔTad Adiabatic temperature rise, K Cpm Average specific heat capacity, kJ⋅kg−1⋅K−1
+
+m Mass of reacting substances, g Nu Nusselt number
+
+reactors to directly react with o-xylene for industrial production. Sec­ ondly, the development of green chemical methods by employing various nitration agents. Thirdly, the utilization of continuous flow reactor technology enhances the fundamental safety of the nitration reaction process. In summary, the microreactor technology is effective and feasible for the intensification of the o-xylene nitration process and the study on the process of nitration reaction is relatively sufficient. However, the lack of theoretical studies on the nitration process of o xylene and the absence of reliable methods to accurately determine ki­ netic data in microreactors present challenges in guiding industrial production. Therefore, there is an urgent need to improve the theoretical understanding of the process and develop a greener and more economical synthesis route. Meeting these challenges will be crucial to providing a better understanding of the parameters governing the re­ action and enabling the development of more efficient and reliable ways to produce o-xylene. The mixing mode of the fluid in the reactor plays an important role in determining the success of the liquid–liquid reaction. For two reaction materials to successfully react, they must first come into contact with one another at a molecular scale. Therefore, the quality of mixing and fluid flow in the reactor has a direct impact on the degree to which materials can interact [23,24]. This is particularly important in fast nitration reactions. When the micro-mixing time of the liquid phase exceeds the characteristic reaction time, poor micro-mixing can lead to a situation in which the chemical reaction occurs before the materials have been fully mixed and homogenized [25]. The study by Song et al. focuses on the influence of mixing performance on the polymerization of acrylamide in capillary microreactors. The experiment showed that while a monomer conversion of 87 % was achieved within the capillary length, the characteristic mixing time calculation indicates that the re­ action process did not reach a uniform mixing state. To mitigate the
+
+Table 1 Literature on o-xylene nitration.
+
+Authors T (℃) Nitration agent Conversion (%) 3-NO2 (%)f
+
+4-NO2 (%)g
+
+Kobe[12] HNO3/H2SO4 Sengupta[13] 50a FNA – Tang[14] NO2 + BiCl3 71.3 14.5 56.8 Bharadwaj[15] HNO3 + Al (H2PO4)3
+
+Yadav[16] 30b HNO3 Wang[17] 50c HNO3/H2SO4 99.2 27.2 71.1 Sharma[18] 20d HNO3/H2SO4 40d FNA Song[19] 100e HNO3/H2SO4 95.5 54.3 45.7
+
+a H-Y zeolite catalyst, 115 % H3PO4, FNA. bCarbon molecular sieve and nat­ ural kaolinite clay. cSodium dodecyl sulfate. d,eContinuous-flow nitration of o‑xylene. f3-NO2 is 1,2-dimethyl-3-nitrobenzene. g4-NO2 is 1,2-dimethyl-4 nitrobenzene.
+
+nitrobenzene was consistently lower than that of fuming nitric acid alone [18]. In another study, Song et al. successfully performed an efficient nitration process of o-xylene at a pilot scale using the Corning Advanced-Flow Reactor G1. The study utilized an H2SO4 concentration of 70 % at 100 ℃, with a molar ratio of H2SO4 to HNO3 of 3 and a molar ratio of HNO3 to o-xylene of 1.2, resulting in a product yield of 94.1 % and a throughput of 800 g/h. In comparison to the batch process, the study achieved a significant reduction of phenolic impurities. These findings demonstrated the efficiency and effectiveness of the Advanced Flow Reactor G1 in enabling chemical processes at a pilot scale [19]. At present, the research on the process of o-xylene nitration reaction fo­ cuses on three aspects: First, classical mixed acid is utilized in batch
+
+impact of inadequate mixing during polymerization, the researchers enhanced the mixing process by incorporating a premier into the reac­ tion [26]. Yang et al. investigated the effect of advanced flow reactor mixing performance on the continuous production of nanomaterials. The results have shown that the variation of the flow rate ratio affects the initial concentration distribution profile, resulting in different mix­ ing properties. With increased total flow rates, micro-mixing efficiency was found to also increase and subsequently led to a narrowing of the Particle Size Distribution (PSD) of Ag NPs [27]. While there is ample evidence in the literature that microreactor systems can effectively intensify mixing and mass transfer in chemical reactions, detailed theoretical studies on how these factors impact the nitration process of o-xylene have yet to be conducted. Microreactor technology provides an efficient method for nitration reactions, but its effectiveness is hindered by limited liquid mixing within the reactor, which primarily relies on intermolecular diffusion to facilitate liquid–liquid heterogeneous nitra­ tion reactions. As such, there are several obstacles to overcome for the successful implementation of microreactor technology in this process [28]. Dimensionless numbers are useful to determine or compare the importance of physical or chemical processes in a system [29,30]. By considering these factors, it becomes possible to gain a better under­ standing of how the interaction between hydrodynamics, mass transport and reaction performance influences the nitration reaction process in microreactors. In addition, the precise temperature control performance provides a basis for revealing the characteristics and mechanism of nitration reactions. For this reason, it is necessary to study the influence of mixing and mass transfer properties on the reaction. In this work, the effects of mixing performance and mass transfer for liquid–liquid systems intensification on the reaction process in the microreactor were systematically investigated by using the nitration reaction of o-xylene as a probe reaction. Firstly, the safety of the nitra­ tion process was assessed by calculating the adiabatic temperature rise. Secondly, the effects of microreactor mixing and mass transfer on the nitration reaction process, such as flow rate, residence time, reaction temperature, and molar rate were investigated in detail. Finally, a ki­ netic model was established to guide the nitration process of o-xylene in the microreactor.
+
+2. Experimental section
+
+2.1. Material preparation
+
+All reagents (o-xylene ≥99 %; Sulfuric acid ≥98 %; Fuming nitric acid ≥98 %; dichloromethane ≥99 %; NaOH; Na2SO4) purchased from Shanghai Aladdin Bio-Chem Technology Co., Ltd. All aqueous solutions used in the experiments were deionized water. Different concentrations of nitric acid and sulfuric acid were obtained by dilution with deionized water. All chemicals were used without further purification.
+
+2.2. Micro-reaction system
+
+A schematic diagram of the micro-reaction system set-up for the o xylene nitration reaction is shown in Fig. 1. The micro-reaction system is made up of four primary units: feed unit, reaction unit, quenching unit, and separation unit. The o-xylene solution and nitric acid solution in the feeding unit were introduced into the microchannel reaction unit as the dispersed phase and the continuous phase, respectively, using two high precision metering pumps (Sanotac-MPF0502C, Shanghai, China; flow rate, 0–100.00 mL⋅min−1; pressure range, 0–4 MPa). Subsequently, the o-xylene and nitric acid solutions passed through the pre-cooling coil (PTFE, inner diameter: 1 mm) into the microreactor for rapid mixing and reaction, respectively. The reaction unit consisted of a set of micro­ channel plates with a heart cell structure, as shown in Fig. 2 (Shandong Weijing Chemical Technology Co., Ltd.; total internal volume: 30 mL; material: Hastelloy). The temperature control of the reaction unit was maintained by high and low-temperature circulation equipment (GDSZ 50L/-30 ◦C, Zhengzhou Ruihan Instrument Co., Ltd., China) to keep the temperature of the reaction process stable. The residence time was ob­ tained by varying the flow rate or increasing the number of channel plates. After the reaction, an aqueous solution was introduced at the outlet of the microchannel plate for the quenching reaction by a high precision metering pump, and the entire quenching unit (PTFE, length: 2 m; inner diameter: 1 mm) was submerged in an ice-water bath. Finally, the quenched mixture enters the separation unit for static sep­ aration. The organic phase is located in the upper layer containing nitro compounds and o-xylene, and the lower layer is the aqueous phase of nitric acid. The organic layer is washed with NaOH aqueous solution and deionized water, separately, and then dried with Na2SO4 to obtain the
+
+Fig. 1. Schematic diagram of the experimental set-up.
+
+Fig. 2. Schematic diagram of the microchannel structure.
+
+products. The aqueous phase is concentrated to obtain a concentration of 82–84 % nitric acid as shown in Fig. 3.
+
+τ = VR Qor + Qaq
+
+(4)
+
+2.3. Sample analyses
+
+C0 A = nA Qor + Qaq
+
+(5)
+
+The organic phase mixtures were diluted with dichloromethane so­ lution and analyzed by gas chromatography (Bruker 450-GC; column: AESE-54; 30 m × 0.32 mm × 0.5 µm). The column temperature was maintained at 70 ℃ for 2 min, then increased to 150 ℃ by 15 ℃⋅min−1, and held for 2 min, then increased to 300 ◦C by 20 ◦C⋅min−1, and then held for 3 min. The injector and FID detector temperatures were set to 280 ℃ and 300 ℃. The nitrogen flow rate as the carrier gas was 1.0 mL⋅min−1 with a split ratio of 30:1. Calculated product concentration using the area normalization method.
+
+dH = 4A 2(h + w) (6)
+
+ρM = (φor
+
+)−1
+
++ 1 −φor
+
+(7)
+
+ρor
+
+ρaq
+
+)−1
+
+(
+
++ 1 −φor
+
+φor μor
+
+(8)
+
+μM =
+
+μaq
+
+2.4. Definitions of relevant parameters
+
+φ = Qor Qor + Qaq
+
+(9)
+
+The superficial velocity of HNO3 (uaq), superficial velocity of o xylene (uor), the O/W ratio q (volumetric flow rate ratio of o-xylene to HNO3) in the experiment is defined as follows:
+
+where C0 A, ρM, μM, φ and nA, are the fluid-phase inlet reactant concen­ tration, the average density of the two immiscible liquid phases, the average viscosity of the two immiscible liquid phases, the volume frac­ tion, and the amount of substance. dH is equivalent diameter of the microchannel inlet, 1.13 × 10-3 m; VR is microchannel total internal volume, 30 mL. The fluid properties of o-xylene and nitric acid param­ eters were presented in Table 2. The dimensionless number of Reynolds number (Re), Capillary number (Ca), and Dean number (De) describing the flow behavior and mass transfer behavior of the two-phase liquid in the microchannel are expressed as follows [31]:
+
+uaq = 4Qaq
+
+(1)
+
+πd2 H
+
+uor = 4Qor
+
+(2)
+
+πd2 H
+
+q = Qor
+
+(3)
+
+Qaq
+
+The residence time (τ) is calculated by the volume of the channel (VR) and the volumetric flow rates of the aqueous phase (Qaq) and organic phase (Qor):
+
+Re = ρMdHuM
+
+(10)
+
+μM
+
+Ca = μMuM
+
+σ (11)
+
+̅̅̅̅̅̅ dH 2R
+
+√
+
+(12)
+
+De = Re
+
+In this work, the ranges of dimensionless numbers are shown Table 3.
+
+Table 2 Fluid Properties of o-xylene and nitric acid at 20 ◦C [19].
+
+Fluid Density (kg⋅m−3) Viscosity (Pa⋅s) Specific Heat Capacity (kJ⋅kg−1⋅K−1)
+
+o-xylene 0.92 × 10-3 1.26 Nitric acid 0.89 × 10-3
+
+Fig. 3. Experimental diagram of spent nitric acid concentration in the sepa­ ration unit. (a) Separation unit (b) Spent nitric acid (c) Concentrated nitric acid (d) Fuming nitric acid.
+
+Table 3 Dimensionless numbers values of the experiment.
+
+Dimensionless numbers Value ranges
+
+Re 212–1276 Ca × 102 0.4–2.2 De 119–715
+
+2.5. Volumetric mass transfer coefficient
+
+In order to understand the mass transfer performance of the micro­ reactor, a mathematical model for calculating the volumetric mass transfer coefficient was established. The mass balance of the o-xylene nitration reaction in the microreactor can be expressed as Eq. (13) [32,33].
+
+Scheme 1. Nitration of fuming nitric acid with o-xylene. (1) o-xylene (2) 1,2 dimethyl-3-nitrobenzene (3) 1,2-dimethyl-4-nitrobenzene (4) poly nitro impurities.
+
+Qor(Cor.out −Cor.in) = KLaVRΔCm (13)
+
+where ΔCm is expressed as follows Eq. (14).
+
+ΔCm = (C* or.in + Cor.in) −(C* or.out + Cor.out)
+
+C* or.in−Cor.in C* or.out−Cor.out) (14)
+
+Table 4 Nitration of fuming nitric acid with o-xylene.
+
+ln(
+
+Temperature (K) o-xylene (%) Mono-nitro compounds (%) Poly-nitro impurities (%)
+
+nitration is a rapid reaction, so C* or.in = C* or.out = 0. From Eq. (13) and Eq. (14), the volumetric mass transfer coefficient KLa is expressed as follows Eq. (15).
+
+89.2 10.8 – 75.4 24.6 – 64.8 35.2 – 55.5 43.9 0.6 45.2 53.5 1.5
+
+KLa = Qor
+
+ln( Cor.in
+
+) (15)
+
+VR
+
+Cor.out
+
+Integrating Eq. (9) and Eq. (15), the relationship between o-xylene concentration and residence time can be deduced in Eq. (16).
+
+The molar ratio HNO3 (98 %) to o-xylene is 1, the total flow rate is 30 mL⋅min-1, τ is 1 min.
+
+KLa = φ
+
+τ ln( Cor.in
+
+) (16)
+
+Cor.out
+
+temperature of mononitration which is at 283 K, the poly-nitration is prone to initiate when subjected to adiabatic conditions, simultaneously triggering the decomposition of fuming nitric acid as illustrated in Fig. 4. The adiabatic circumstances surrounding the nitration reaction process pose a hazardous outcome, thus emphasizing the need for a detailed heat transfer analysis for the nitration reaction in the microreactor. The Nusselt number for a fully-developed laminar flow in a circular pipe under constant temperature boundary conditions is 3.66 [37]. The constant value for other channel forms may differ and, in the secondary flow regime, the Nusselt number increases with the Re. In this work, the operational flow velocity range of 10–60 mL⋅min−1, Re is calculated to
+
+Replacing the concentration with the conversion can obtain Eq. (17).
+
+KLaτ = φln( 1 −x) (17)
+
+3. Results and discussion
+
+3.1. Safety assessment of the nitration reaction process in the microreactor
+
+As the temperature is a key factor in the nitration reaction process, it is critical to evaluate potential safety hazards associated with it. Tem­ perature increases can cause poly-nitro compounds or oxidative side reactions, and even thermal runaway events [34]. On this basis, it is necessary to conduct a safety evaluation of the nitration reaction pro­ cess. First, a preliminary experiment was carried out on the nitration of o-xylene in the microreactor with fuming nitric acid at 283–323 K (Scheme 1). The experimental results are listed in Table 4. The experi­ mental results show that the mononitration reaction starts at 283 K and the poly-nitration reaction starts at about 313 K, which is consistent with existing literature [18]. Aiming to gain a better understanding of the reaction hazards, the adiabatic temperature rise was calculated. The exothermic heat of the o-xylene mononitration reaction was estimated by empirical equation (Eq. (18), and then the data under adiabatic conditions were obtained by classical Eq.19 [35,36].
+
+ΔrHθ m = Δf Hθ m(C8H9NO2) + Δf Hθ m(H2O) −Δf Hθ m(C8H10) −Δf Hθ m(HNO3)
+
+= −97 kJ⋅mol−1
+
+(18)
+
+ΔTad = nΔH mCpm
+
+= 284 K (19)
+
+Fig. 4. Comparison between the starting temperatures and generated heats for the considered reaction: mononitration and dinitration.
+
+Based on the calculations conducted, it is clear that given the process
+
+be 212.67–1267, indicating that laminar flow can be obtained within the channel. For computational convenience, we assume that heat transfer can be characterized with a constant Nusslet number at a constant wall temperature.
+
+reaction of o-xylene is a liquid–liquid heterogeneous reaction system, and the mixing performance directly affects the reaction process. The flow pattern for the two-phase liquids in the microreactor was calculated to be laminar flow based on the calculation of Re, suggesting radial diffusion as the primary mixing mechanism. The effect of flow rate on the reaction was explicitly examined in Fig. 6. Results indicate that an increase in conversion rate and a decrease in ploy-nitro impurities content are observed with increasing flow rate. When the volume flow rate exceeded 40 mL/min, the conversion trend weakened, indicating that increasing the flow rate further would not result in higher conver­ sion. When the volume flow rate increases, the content of poly-nitro impurities in the nitration process of o-xylene decreases. This phenom­ enon is attributed to the fast and highly exothermic nature of the het­ erogeneous liquid–liquid reaction system. When the two-phase fluid is poorly mixed, temperature and concentration gradients are created, which can cause poly-nitration at a high molar ratio of nitric acid to o xylene. The solution of o-xylene and nitric acid mixture first passes through the nozzle and collides with the U-shaped obstacle, which bi­ furcates the mixed stream into two sub-streams. The collision causes lateral movement, thus increasing the interface area for diffusion, resulting in improved mixing performance [41]. This is similar to the conclusions reported in the literature when the flow rate reaches 40 mL/ min, there is a recirculation zone adjacent to near the U-shaped obstacle in the microchannel, and a Dean vortex is formed in the region of the heart-shaped bend area [42]. The centrifugal gradient in the channel cross-section generates a transverse advection or Dean vortex that en­ hances the mixing process by facilitating a stretching and folding mechanism and ultimately improves the mixing performance and con­ version rate [43,44].
+
+Nu = αdH
+
+= 3.66 (20)
+
+λf
+
+where α is the heat transfer coefficient, and λf is the heat conductivity of the microreactor, 9.8 W⋅m−1⋅K−1. The heat transfer characteristic time can be obtained from the heat transfer coefficient α calculated by Eq. (20) and substituted into Eq. (21) [38].
+
+th = ρMCpmdH
+
+4α (21)
+
+According to Kockmann et al. and Schwolow et al., it is possible to compare the characteristic reaction time with the characteristic heat transfer time to have a rough estimation. The calculated th is 0.02 s, which indicates that the reactants can be heated to the temperature set by the reaction in a very short time (0.02 s is negligible compared to the average residence time) [39,40]. However, it is important to note that the calculated th value may underestimate the actual value because of the thermal resistances that exist between the utility fluid and the pro­ cess fluid. Including the thermal resistance of the metal further reduces the estimated value. Similarly, kinetic data from the experiment can roughly estimate the distribution of reaction temperatures as shown in Fig. 5. The simulated experimental parameters are shown in Supplementary Materials Table S1. Along the axial position of the microchannel, a "hot spot" is generated near the entrance as a result of the nitration reaction taking place predominantly in the front section of the microreactor. The o xylene conversion undergoes only a minor change with longer residence times, leading to a lower heat production rate, the reaction temperature subsequently decreases and becomes stable, and the temperature dif­ ference between the maximum temperature and the reaction tempera­ ture is approximately 8 K. Specifically, as the residence time increases, the temperature of the reactive mixture becomes more stable due to better heat dissipation. The results of the experiments have demon­ strated that this temperature rise does not result in poly-nitration reactions.
+
+3.3. Effect of nitric acid concentration on the reaction
+
+The concentration of nitric acid serves as a critical factor that not only affects the conversion rate of the reaction but also underlies the propensity for the occurrence of a poly-nitration reaction. The effect of nitric acid concentration on the reaction is shown in Fig. 7. It is observed that the conversion rate of the reaction increases as the nitric acid concentration goes up from 88 % to 98 %. The results showed that when the nitric acid concentration was only 98 %, the content of poly-nitro impurities was 1.8 %. Furthermore, Furthermore, by conducting linear fittings of the experimental data, it is evident that there exists a linear correlation (R2 = 0.99) between the nitric acid concentration and the
+
+3.2. Mixing in the nitration process in the microreactor
+
+In microreactors, the flow rate is an important factor in controlling the flow pattern and influencing the mixing efficiency. The nitration
+
+Fig. 5. Simulation of temperature profiles in the one-dimensional micro­ channel axial.
+
+Fig. 6. Effect of flow rate on the reaction (concentration HNO3 = 98 %, molar ratio of nitric acid to o-xylene = 2, temperature = 303 K, τ = 30 s).
+
+resulting in a gradual increase in the shear rate of the continuous phase. The droplet size of the organic phase decreases with the increase of the shear rate of the continuous phase (HNO3), and the smaller the droplet size, the larger the interfacial area, which is conducive to the improve­ ment of conversion rate [45]. The content of poly-nitro impurities in­ creases with the increase of molar ratio and nitric acid concentration. When the molar ratio is less than 3, almost no poly-nitro impurities were produced at nitric acid concentrations of 90 % to 94 %. Continuing to increase the molar ratio, the impurities increase dramatically. At 303 K, the nitric acid concentrations were 94 % and 96 %, respectively, and the conversion rate was close to 100 % at a molar ratio of 4. In order to ensure product quality, the optimal nitric acid concentration was determined to be 94 %.
+
+x
+
+3.5. Kinetic model of the reaction
+
+R
+
+The conversion curves of o-xylene with residence time at different temperatures are shown in Fig. 9. When the temperature increases to 323 K, the conversion rate greatly improves and the reaction is completed in 9 s. The results demonstrate the high temperature
+
+Fig. 7. Effect of nitric acid concentration on the reaction (molar ratio of nitric acid to o-xylene = 1.2, temperature = 313 K, total flow rate = 60 mL⋅min−1, τ = 30 s).
+
+conversion rate. By fitting, it was calculated that the reaction would not continue when the nitric acid concentration is below 70 %. Based on this result, this result enables one to derive the aqueous flow rate necessary for quenching. On the grounds of the result, one can safely quench the nitric acid concentration at the outlet of the microreactor by diluting it below 70 % under low-temperature conditions. This improvisation bolsters the safety of the nitration reaction, curbing the occurrence of secondary reactions.
+
+3.4. Effect of molar rate of nitric acid to o-xylene on the reaction
+
+Fig. 8 exhibits the effect of the molar ratio of nitric acid to o-xylene on the reaction. As the molar ratio increases, the NO2 + concentration in the system increased, and the effective chance of collision between NO2 +
+
+and o-xylene increased, increasing conversion. The experimental results demonstrate that the higher the concentration of nitric acid, the higher the conversion. This is due to the increase in the water content of concentrated nitric acid, which leads to a sharp decrease in NO2 + con­ centration and therefore the nitration capacity of nitric acid. At the same total flow rate, q gradually decreases with the increase of molar ratio,
+
+Fig. 9. The plot of conversion of o-xylene versus residence time at different temperatures (concentration HNO3 = 94 %, molar ratio of nitric acid to o xylene = 3.6, total flow rate = 60 mL⋅min−1).
+
+o o
+
+Fig. 8. Effect of molar ratio of nitric acid to o-xylene on the reaction. (total flow rate = 60 mL⋅min−1, temperature = 303 K, τ = 30 s).
+
+sensitivity of the reaction rate, which accelerates with increasing temperature. In the experiment, when the concentration of nitric acid is 94 %, almost no poly-nitro impurities are present when the temperature is between 283 K and 323 K. Therefore, we consider that the reaction process occurs only occurs during the nitration of o-xylene. According to the mechanism of nitration reaction, it is known that NO2 + is an active substance in aromatic nitration reaction, which can be obtained by this method [46]:
+
+k
+
+2HNO3→NO− 3 + NO+ 2 + H2O
+
+The content of NO2 + has a linear relationship with the concentration of fuming nitric acid. It has been demonstrated in the literature that the nitration reactions of aromatics in large amounts of fuming nitric acid follow first-order reactions [47]. Therefore, the reaction rate can be expressed as:
+
+x
+
+R
+
+r = −dCo−xylene
+
+dτ = kCo−xyleneCHNO3 (22)
+
+Because nitric acid was in excess in the experiment, we assume that the concentration of nitric acid is constant. Eq. (22) can be expressed as:
+
+Fig. 11. The fitting of lnk versus 1/T for kinetic parameters.
+
+r = −dCo−xylene
+
+dτ = kCo−xyleneC0 HNO3 (23)
+
+exponential factor can be calculated as the slope and intercept of the straight line. The value of Ea and A was found to be 53.05 kJ⋅mol−1 and 1.94 × 107 L⋅mol−1⋅s−1, respectively.
+
+where k is the reaction rate constant, Co−xylene and C0 HNO3 can be replaced by the conversion rate of o-xylene as Eq. (24).
+
+lnk = lnA − Ea RT (26)
+
+dx dτ = kC0 HNO3(1 −x) (24)
+
+where Ea and A is the activation energy and pre-exponential factor. R is the molar gas constant. The kinetic parameters for o-xylene nitration obtained in this work are compared with the values reported in the literature, as shown in Table 5. The nitration rates of toluene, benzene, chlorobenzene, and nitrobenzene decreased in order. Methyl is the electron-donating group, which increases the electron cloud density of the benzene ring and speeds up the reaction rate. Chlorine and nitro are both electron withdrawing groups, so the reaction rate is lower. The rate constant of NO2 + is dependent on the concentration of sulfuric acid. In this work, nitric acid was used as the nitration agent, resulting in a lower rate of NO2 + production compared to the mixed acid. Consequently, the reaction rate in this scenario proved to be lower than the rate constant exhibited by the reaction between toluene and the mixed acid.
+
+Eq. (24) is integrated to obtain Eq. (25).
+
+ln(1 −x) C0 HNO3
+
+= kτ (25)
+
+Therefore, a plot of ln(1−x) C0 HNO3 versus τ is a straight line, and k can be
+
+determined from the slope. The results are shown in Fig. 10. All the correlation coefficients R2 are above 0.97. The results proved that there
+
+is an excellent linear relationship between ln(1−x) C0 HNO3 and τ. This is proof that
+
+the nitration reaction of o-xylene with nitric acid follows a primary re­ action trend, under the high excess of nitric acid. Calculating kinetic parameters at 283–323 K and based on Arrhenius equation as Eq. (26) [48]. As shown in Fig. 11, the curve of lnk versus 1/ T is fitted as a straight line, and the activation energy and the pre
+
+3.6. Mass transfer in the nitration process in the microreactor
+
+Fig. 12 shows the effect of the total Re and q on the volumetric mass transfer coefficient. For the same q, the volumetric mass transfer coef­ ficient increases with the increase of Re. It can be seen from Eq. (10), Re is proportional to the flow velocity, and the increase in the surface flow velocity of the two-phase fluid leads to the increase of the turbulence at the interface of the two phases, which increases the volumetric mass transfer coefficient. CFD numerical simulations once again show that with the increase of Re, Dean vortex and recirculation zones appear in the two-phase fluid, resulting in faster renewal at the liquid–liquid two phase interface [31]. The volumetric mass transfer coefficient increases with the decrease of q. This phenomenon can be explained by the reduction in dispersed phase droplet size as the continuous phase flow increases, consequently increasing the interface area and internal cir­ culation rate [53]. According to Eq. (17), the curve of the conversion amount with residence time is a straight line through the origin, and the slope of the fit is the volumetric mass transfer coefficient, as shown in Fig. 13. The conversion rate increases with the increase of reaction temperature, and when the reaction temperature reaches 323 K, the conversion rate reaches 99.2 %, and the residence time is only 6 s. The volumetric mass transfer coefficient is 0.33219 s−1.
+
+x
+
+Fig. 10. Curve fitting of ln(1−x) C0 HNO3 versus τ.
+
+Table 5 The measured kinetics parameters compared with literature values.
+
+Author Reactant Temperature (K) Nitrating agent H2SO4 [HNO3] (wt%) kobs at 298 K (L⋅mol−1⋅s−1) Ea (kJ⋅mol−1)
+
+Cox[49] Toluene 288–308 Mixed acid 70.2 4.31 67.4 Schofield[50] Benzene 298–317 Mixed acid 67.1 2.02 × 10-2 75.3 Tselinskii[51] Chlorobenzene 298–360 Nitric acid 90.5 1.13 × 10-4 98.6 Cui[52] Chlorobenzene 273–298 Mixed acid 3.64 × 10-2 39.9 Song[48] p-Nitrotoluene 288–303 Mixed acid 0.82 50.2 This work o-xylene 283–323 Nitric acid 0.0102 53.05
+
+where τD is the diffusion time, τr is the characteristic reaction time. k is the specific reaction rate. β is the reaction order and its value is 1, and co−xylene is the initial concentration of o-xylene [55]. Do−xylene can be expressed by the following equations [56]:
+
+Do−xylene = 7.4 × 10−8T ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ΦHNO3MHNO3 √
+
+(30)
+
+μHNO3V0.6 o−xylene
+
+Therefore, increasing the reaction temperature is conducive to improving the mass transport and reaction performance of the reaction. Vo−xylene is the molar volume of o-xylene at its normal boiling point, it is used to estimate as follows:
+
+K
+
+Vo−xylene = 0.285V1.048 c (31)
+
+According to Eq. (27), the value of Dall calculated in this work is in the range of (0.16–11) × 10-5. The value of Da is much less than 1, which once again indicated that the conversion was only limited by the reac­ tion rate, and the mass transport limitation was negligible, which further confirmed the accuracy of kinetic data in the microreactor.
+
+Re Re
+
+Fig. 12. Effect of Re and q on the mass transfer (temperature = 303 K).
+
+Table 6 presents effective interfacial areas and volumetric mass transfer coefficients in typical liquid–liquid contactors. Heart-shaped reactors and impinging jet reactors have a higher specific surface area
+
+Second Damk¨ohler number (DaII) is often used to express the time scale ratio of the mass transfer rate to the chemical reaction rate [54]. It can be presented as follows Eq. (27):
+
+Table 6 Comparison of mass transfer coefficients in liquid-liquid contactors.
+
+DaII = τD
+
+(27)
+
+τr
+
+Contactor type a (m2•m−3) KLa(s−1)
+
+τD = d2 H 4Do−xylene
+
+Agitated contactora 32–311 (48–83) × 10-3
+
+(28)
+
+Pack bed columna 80–450 (3.4–5) × 10-3
+
+RTL extractora 90–140 (0.6–1.3) × 10-3
+
+Two imping jet reactorsa 1000–3400 0.28 Heart-shaped (This work) 1000-3000b 0.33
+
+τr = kcβ−1 o−xylene
+
+(29)
+
+a studies cited in ref [57]; bstudies cited in ref [53].
+
+x
+
+K
+
+Fig. 13. Effect of temperature and residence time on the mass transfer (concentration HNO3 = 94 %, the molar ratio of nitric acid to o-xylene = 3.6, total flow rate = 60 mL⋅min−1).
+
+and therefore higher volumetric mass transfer coefficients compared to agitated contactors, packed-bed columns, and RTL extractors. Although the impinging jet reactor and heart-shaped reactor are comparable in their ability to produce specific surface area, the volumetric mass transfer coefficient in the heart-shaped reactor is higher due to the smaller droplet size and higher holding rate values. Heart-shaped re­ actors exhibit superior efficiency compared to other liquid–liquid con­ tactors in generating interfacial area. This efficiency can be attributed to their unique divergent/convergent internal structure, which promotes increased interfacial area through the heart-shaped cells, requiring only energy input for pumping the fluids.
+
+Table 7 Comparison of o-xylene nitration reaction processes in the microreactor.
+
+Authors T (℃) Nitration agent
+
+τ(s) Conversion (%) Impurities (%)
+
+Sharma[18] HNO3/H2SO4 FNA Song[19] HNO3/H2SO4 95.5 0.1 This work HNO3
+
+Declaration of Competing Interest
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+3.7. Comparison of o-xylene nitration reaction processes in the microreactor
+
+Table 7 lists the processes reported in the literature for the nitration of o-xylene in the microreactor. Compared to other processes, this work shows an order of magnitude reduction in residence time and a signifi­ cant advantage in product quality. This is attributed to the high mass transfer rate and the mild nitration reaction process. Space-time yield is one of the important parameters to evaluate the performance of microreactors. It is calculated by Eq. (32).
+
+Data availability
+
+No data was used for the research described in the article.
+
+Acknowledgments
+
+The authors would like to acknowledge the National Natural Science Foundation of China (No. 21875109) for providing funds for conducting experiments.
+
+F0 o−xyleneX VR
+
+η = 3600 × Mnitro o−xylene
+
+= 63.08 (g⋅cm−3⋅h−1) (32)
+
+Mo−xylene
+
+Appendix A. Supplementary data
+
+3.8. Analysis of utilization of spent nitric acid
+
+Supplementary data to this article can be found online at https://doi. org/10.1016/j.cej.2023.143468.
+
+The concentration of nitric acid solution after reaction quenching was about 70 %, and no impurities were detected. The concentration of spent acid after concentration treatment is about 83 %, and then it is prepared with fuming nitric acid (98 %) to make 94 % nitric acid for further reuse, without affecting the nitration reaction process. There­ fore, all the spent nitric acid generated is recycled. Therefore, the new process has the advantages of environmental friendliness and high yield compared to the production processes reported in the literature.

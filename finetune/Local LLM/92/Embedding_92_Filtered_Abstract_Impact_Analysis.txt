@@ -1,0 +1,16 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| miniaturization | mass transfer | increase |
+| miniaturization | heat transfer | increase |
+| fluidized beds | reaction rates | increase |
+| fluidized beds | catalyst utilization efficiency | increase |
+| excessive use of hydrogen | risks | increase |
+| addition of active equipment | risks | increase |
+| miniaturization | mass transfer | increase |
+| miniaturization | heat transfer | increase |
+| fluidized beds | reaction rates | increase |
+| fluidized beds | catalyst utilization efficiency | increase |
+| excessive use of hydrogen | risks | increase |
+| addition of active equipment | risks | increase |

@@ -1,0 +1,53 @@
+{"reaction_type": None, "reactants": [], "products": [{"name": None}], 
+                 "conditions": [], "reactor": {"type": None, "inner_diameter": None}, 
+                 "metrics": {"conversion": None, "yield": None, "selectivity": None}}
+
+{"name": "nitrobenzaldehyde", "yield_optimal": 95}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}, {"name": "...", "role": "..."}, {"name": "...", "role": "solvent"}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"yield": 95}}}
+
+{
+        "reaction_type": null,
+        "reactants": [],
+        "products": [{"name": None, "yield_optimal": yield_val, "unit": "%"}
+
+- Temperature is in °C; residence_time is in min; flow_rate is in mL/min; inner_diameter is in mm.
+
+Flow rate 0.1 mL/min, T=80 °C in a 0.5 mm coil; yield 82%.
+phase was extracted in diethyl ether and the samples were subjected to analysis.
+The reaction composition was varied by changing the flow ratio at the inlet and the composition of the nitrating mixture,
+while the temperature was changed by changing the bulk temperature in the thermostat.
+
+Flow rate 0.2 mL/min, T=90 °C; yield 85%.
+phase was extracted in diethyl ether and the samples were subjected to analysis.
+The reaction composition was varied by changing the flow ratio at the inlet and the composition of the nitrating mixture,
+while the temperature was changed by changing the bulk temperature in the thermostat.
+
+Flow rate 0.3 mL/min, T=100 °C; yield 88%.
+phase was extracted in diethyl ether and the samples were subjected to analysis.
+The reaction composition was varied by changing the flow ratio at the inlet and the composition of the nitrating mixture,
+while the temperature was changed by changing the bulk temperature in the thermostat.
+
+Flow rate 0.4 mL/min, T
+
+{"name": match.group(1), "role": match.group(2)}
+
+{"conversion": None, "yield": None, "selectivity": None}
+
+{
+        "conversion": 98,
+        "yield": None, # Not specified in the paragraph
+        "selectivity": 97,
+        "unit": "%"
+    }
+
+{ "reaction_summary": { 
+    "reaction_type":"nitration", 
+    "reactants":[{"name":"nitric acid","role":"catalyst"}], 
+    "products":[{"name":"trinitrotoluene","yield_optimal":95,"unit":"%"}],
+    "conditions":[
+        {"type":"temperature","value":"5 °C"}, 
+        {"type":"residence_time","value":null}, 
+        {"type":"flow_rate_reactant_A","value":0.1},
+        {"type":"pressure","value":null}
+

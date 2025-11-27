@@ -1,0 +1,20 @@
+{"reaction_summary": {"reactants": [{"name": "liquid", "role": "solvent"}], "products": [], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}, {"type": "pressure", "value": "100 sccm"}], "reactor": {"type": "micropacked bed reactor", "inner_diameter": "5.5 mm"}, "metrics": {}}}
+
+{"reaction_summary": {"reaction_type": "continuous", "reactants": [], "products": [{"name": null, "yield_optimal": null, "unit": null}], "conditions": [{"type": "temperature", "value": "60 °C"}, {"type": "residence_time", "value": 61.8}, {"type": "flow_rate_total", "value": "99.7 mL/min"}], "reactor": {"type": "batch", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+{"name": name, "role": role}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "3,4-DCNB", "role": "reactant"}], "products": [], "conditions": [{"type": "pressure", "value": "..."}], "reactor": {"type": "micropacked bed", "inner_diameter": null}, "metrics": {}}}
+
+{"reaction_type": match.group(1).lower()}
+
+{"name": null, "yield_optimal": 95, "unit": "%"}
+
+{"name": null, "yield_optimal": 95, "unit": "%"}
+
+{"name": null, "yield_optimal": 95, "unit": "%"}
+
+{"name": null, "yield_optimal": 95, "unit": "%"}
+
+{"name": null, "yield_optimal": 95, "unit": "%"}
+

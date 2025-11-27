@@ -1,0 +1,18 @@
+The flow rate of the liquid plays an important role in the mass transfer within the microreactor. In a 2-mm ID capillary, increasing the liquid feed rate from 0.2 to 1.0 mL/h resulted in an increase in the productivity of hydrogen peroxide from 0.24 to 0.46 mol/h gPd (Table 4). However, the hydrogen peroxide concentration de- creased from 409 mM to 160 mM due to dilution by a larger vol- ume of liquid. Bercic and Pintar [42] found that the gas–liquid mass transfer in a methane/water system under Taylor flow condi- tions is well described by the relation
+
+3.5. Influence of microreactor diameter
+
+3.4. Flow rate of the liquid phase
+
+The length of one unit cell refers to the length of one liquid plug plus one gas plug. Due to the slow pumping speed used in the experiment, only one liquid plug was observed within the microre- actor at any one time. Subsequent liquid plugs appeared after the first liquid plug has passed through the microreactor. Therefore, the velocity of the liquid plug can be determined from the time re- quired for a liquid plug to pass through the microreactor. The time required for the subsequent liquid plugs to appear was also mea- sured. As the length of the microreactor is known, the distance be- tween two liquid plugs can be estimated.
+
+The long-term behavior of the microreactor for the continuous production of hydrogen peroxide was investigated (Fig. 4). A
+
+Table 4 Effect of liquid pumping speed in a 2-mm ID capillary reactor.
+
+3.7. Lifetime of the catalyst in the microreactor
+
+A wall-coated catalytic capillary microreactor for the direct formation of hydrogen peroxide
+
+In this equation a, b, and c are constants, and LUC is the length of one ‘‘unit cell", i.e., of one gas bubble and the liquid plug separating it from the next gas bubble, eg is the volume fraction of the gas bubbles, and u is the flow velocity of the unit cell. Inspection of this equation shows that an increase of the flow velocity u or a decrease of the unit cell length LUC will have the strongest impact on the mass transfer coefficient KLa. The numerical value for exponent c in our experiments was calculated to be 0.56. The flow velocity u remains essentially the same if the liquid feed rate is varied at constant gas flow rate because under our experimental conditions, the volume flow rate of the gas is very much higher than that of the liquid. Therefore, the main parameter affected by a change in liquid feed rate is the length of the unit cell. At a higher liquid feed rate, the length of the unit cell becomes
+

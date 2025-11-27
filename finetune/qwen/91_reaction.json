@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "p-xylene",
+      "role": "reactant"
+    },
+    {
+      "name": "HNO3",
+      "role": "catalyst"
+    },
+    {
+      "name": "H2SO4",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "mononitro-p-xylene",
+      "yield_optimal": 94.6,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "60 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "29 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microreactor",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": 99.9,
+    "yield": 94.6,
+    "selectivity": 97.7,
+    "unit": "%"
+  }
+}

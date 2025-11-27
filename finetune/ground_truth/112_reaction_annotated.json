@@ -1,0 +1,56 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "a-Pinene",
+      "role": "reactant"
+    },
+    {
+      "name": "hydrogen",
+      "role": "reactant"
+    },
+    {
+      "name": "F127-Ru micellar",
+      "role": "catalyst"
+    },
+    {
+      "name": "n-heptane",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "cis-pinane",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "40 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": "0.3 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "microreactor",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": 99.9,
+    "yield": null,
+    "selectivity": 99.0,
+    "unit": "%"
+  }
+}

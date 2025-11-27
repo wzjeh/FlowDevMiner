@@ -1,0 +1,12 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| pH | conversion | increase |
+| pH | conversion | decrease |
+| temperature | conversion | unchanged |
+| flow_rate | conversion | unchanged |
+| pH | conversion | increase |
+| pH | conversion | decrease |
+| temperature | conversion | unchanged |
+| flow_rate | conversion | unchanged |

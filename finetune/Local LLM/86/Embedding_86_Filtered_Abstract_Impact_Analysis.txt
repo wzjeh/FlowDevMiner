@@ -1,0 +1,8 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| Flow rate(s) | Residence time | increase |
+| Residence time | Conversion | increase |
+| Flow rate(s) | Residence time | increase |
+| Residence time | Conversion | increase |

@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "photocatalytic halogenation", "reactants": ["benzyl chloride", "chlorine"], "products": [null], "conditions": [{"type": "temperature", "value": 85}, {"type": "residence_time", "value": 12.5}], "reactor": {"type": "microchannel reactor", "inner_diameter": null}, "metrics": {"conversion": 0, "yield": null, "selectivity": null, "unit": "%"}}}

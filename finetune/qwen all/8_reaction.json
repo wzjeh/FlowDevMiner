@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "trifluoromethoxybenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "mixed acid",
+      "role": "catalyst"
+    },
+    {
+      "name": "sulfuric acid",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "p-nitro-trifluoromethoxybenzene",
+      "yield_optimal": 91.08,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "-2 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "2.4 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "34.2 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "packed tubular",
+    "inner_diameter": "6 mm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": 91.08,
+    "selectivity": 98.13,
+    "unit": "%"
+  }
+}

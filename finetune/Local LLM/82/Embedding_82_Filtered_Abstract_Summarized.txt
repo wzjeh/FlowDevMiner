@@ -1,0 +1,67 @@
+{'name':product_name,'yield_optimal':value,'unit':'%'}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mm"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "hydrogen", "role": "gas"}], "products": [{"name": "product", "yield_optimal": null, "unit": null}], "conditions": [{"type": "flow_rate_reactant_A", "value": "20 sccm"}, {"type": "pressure", "value": null}], "reactor": {"type": null, "inner_diameter": null}, "metrics": {"conversion": 99.9, "yield": null, "selectivity": null, "unit": null}}}
+
+- Normalize units when present; otherwise keep original units.
+
+
+
+
+
+    # Parse reaction type and reactants/products
+    match = re.search(r"(\w+)-hydrogenation", input_str)
+    if match:
+        reaction_type = "hydrogenation"
+    else:
+        reaction_type = None
+    
+    # Extract products (yield_optimal) from the string
+    product_match = re.search(r"(?P<name>\w+)\s*\(?(?:(\d+)%?)?\)?", input_str)
+    
+    if product_match.group('name'):
+        name = product_match.group('name')
+        
+        yield_optimal = int(product_match.group(2)) if product_match.group(2) else None
+        unit = "%" if yield_optimal is not None else "null"
+    else:
+        name = None
+        yield_optimal = 95 # default value for unknown products
+        
+    # Extract conditions (temperature, residence_time, flow_rate)
+    condition_matches = re.findall(r"(\d+°C|T=\d+ °C|\d+\.\d+ min|Flow rate (\d+(?:\.\d+)?) mL/min)", input_str)
+
+    temperature_match = None
+
+{"name": re.search(r'\b\w+\b', line).group(), 
+                              "role": re.search(r'reactant|catalyst', line).group()}
+
+{"conversion": null, "yield": null, "selectivity": null, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "catalyst"}], "products": [{"name": "null", "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}], "reactor": {"type": "pipe", "inner_diameter": "..."}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{
+    "reaction_type": null,
+    "reactants": [
+        {"name": "catalyst_A", "role": "catalyst"},
+        {"name": "catalyst_B", "role": "catalyst"}
+    ],
+    "products": [{"name": "product_C", "yield_optimal": 95, "unit": "%"}],
+    "conditions": [
+        {"type":"temperature","value":"80 °C"}, 
+        {"type":"flow_rate_reactant_A","value":"0.1 mL/min"},
+        {"type":"inner_diameter","value":"2.5 cm"}
+    ],
+    "reactor":{"type":"coil", "inner_diameter":"..."},
+    "metrics": {
+        "conversion": null,
+        "yield": 95, 
+        "selectivity": null
+    }
+}
+
+{match.group(1)}
+

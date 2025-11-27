@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "iso-octanol",
+      "role": "reactant"
+    },
+    {
+      "name": "HNO3-H2SO4 mixed acid",
+      "role": "catalyst"
+    },
+    {
+      "name": "null",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "2-ethylhexyl nitrate",
+      "yield_optimal": 98.2,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "40 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "0.36 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "null"
+    },
+    {
+      "type": "pressure",
+      "value": "null"
+    }
+  ],
+  "reactor": {
+    "type": "microchannel",
+    "inner_diameter": "0.5 mm"
+  },
+  "metrics": {
+    "conversion": 98.2,
+    "yield": 98.2,
+    "selectivity": 100.0,
+    "unit": "%"
+  }
+}

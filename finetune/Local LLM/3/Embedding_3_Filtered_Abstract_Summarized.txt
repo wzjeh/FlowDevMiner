@@ -1,0 +1,66 @@
+# Parse temperature and residence time
+    temp_match = re.search(r"(\d+) °C", input_str)
+    if temp_match:
+        temp_value = int(temp_match.group(1))
+    
+    res_time_match = re.search(r"in a (\d+ mm) coil|residence time of (\d+) min", input_str)
+    if res_time_match:
+        inner_diameter = float(res_time_match.group(1)) if "coil" in input_str else None
+        residence_time = int(res_time_match.group(2)) if "min" in input_str else None
+
+    # Parse flow rates and pressure
+    flow_rate_reactant_A, flow_rate_reactant_B, total_flow_rate, pressure = 0.0, 0.0, 0.0, 0.0
+    
+    for match in re.finditer(r"(\d+(?:\.\d+)?)(?= mL/min)", input_str):
+        if "reactant A" in input_str:
+            flow_rate_reactant_A = float(match.group(1))
+        elif "total" in input_str or not "A" in input_str:
+            total_flow_rate = float(match.group(
+
+{ "reaction_summary": { 
+    "reaction_type":"polymerization", 
+    "reactants":[{"name":"monomer A","role":"reactant"},{"name":"monomer B","role":"reactant"}], 
+    "products":[], 
+    "conditions":[{
+        "type":"flow_rate_reactant_A",
+        "value":0.4
+    },{
+        "type":"flow_rate_reactant_B",
+        "value":0.2
+    }], 
+    "reactor":{"type":"microreactor","inner_diameter":null}
+
+{ "reaction_summary": { 
+    "reaction_type":"solution polymerization", 
+    "reactants":[{"name":"poly (amic acid)","role":"solvent"}], 
+    "products":[{"name":"poly (amic acid) ","yield_optimal":95,"unit":"%"}], 
+    "conditions":[
+        {"type":"temperature","value":"80 °C"}, 
+        {"type":"residence_time","value":null}, 
+        {"type":"flow_rate_reactant_A","value":0.1},
+        {"type":"pressure","value":null}
+    ], 
+    "reactor":{"type":"microreactor", "inner_diameter":null}
+
+{"reaction_summary": {"reaction_type": "microreactor", "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": 90, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": { 
+    "reaction_type":"continuous-flow polymerization", 
+    "reactants":[{"name":"dianhydride","role":"reactant"}, {"name":"diamine","role":"reactant"}], 
+    "products":[{"name":"PAA","yield_optimal":95,"unit":"%"}], 
+    "conditions":[
+        {"type":"temperature","value":"20 °C"},
+        {"type":"residence_time","value":19.6},
+        {"type":"flow_rate_reactant_A","value":null}, # unknown flow rate for reactants A and B
+        {"type":"pressure","value":null}
+
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+{"role": role, "name": f"{r_type}({name})"}
+
+{"name": reactant_A_name.replace("mmol", "").replace("g", ""), "role":"reactant"}
+
+{"name": "polylactic acid homopolymers","yield_optimal": 92, "unit": "%"}
+
+{ "reaction_summary": {  "reaction_type":"polyimide synthesis",  "reactants":[{"name":"6FDA-ODA","role":"monomer"}],  "products":[{"name":"PI film from 6FDA-ODA","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"300 °C"},    {"type":"residence_time","value":"19.6 min"},    {"type":"flow_rate_reactant_A","value":null},    {"type":"pressure","value":null}  ],  "reactor":{"type":"microreactor", "inner_diameter":"1 mm"},  "metrics":{"conversion":13,"yield":95,"selectivity":14.9,"unit":"kg/mol"}} { "reaction_summary": {  "reaction_type":"polyimide synthesis",  "reactants":[{"name":"6FDA-ODA","role":"monomer"}],  "products":[{"name":"PI film from 6FDA-ODA","yield_optimal":95,"unit":"%"}, {"name":"poly(amic acid)","yield_optimal":null,"unit":"%"}
+

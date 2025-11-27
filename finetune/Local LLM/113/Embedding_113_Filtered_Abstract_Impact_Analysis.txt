@@ -1,0 +1,14 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of TFMB | increase |
+| flow_rate | yield | decrease |
+| purity | 99.6% | unchanged |
+| yield | 99% | unchanged |
+| internal_volume | residence time | increase |
+| number_of_plates | residence time | - |
+| flow_rate | amplitude | increase |
+| velocity_near_channel_wall | velocity near channel wall | decrease |
+| catalyst | product selectivity | increase |
+| simulation_results | same results | unchanged |

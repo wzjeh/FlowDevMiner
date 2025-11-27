@@ -1,0 +1,83 @@
+{"type": "flow_rate_reactant_A", "value": f"{flow_rate} mL/min"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+Flow rate 0.1 mL/min, T=80 °C in a 0.5 mm coil; yield 82%.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    reactant_names = []
+    for word in input_str.split():
+        if 'react-' in word or 'catalyst' in word.lower() or 'solvent' in word:
+            reactant_names.append(word)
+            
+    # Parse products (yield optimal)
+    match = re.search(r'yield (\d+)%', input_str)
+    yield_optimal = int(match.group(1))
+    
+    # Parse conditions
+    temperature_match = re.search(r'T=([0-9]+) °C', input_str)
+    if temperature_match:
+        temp_value = temperature_match.group(1)
+        
+    else: 
+        temp_value = None
+        
+    residence_time_match = re.search(r're
+
+{"conversion": None, "yield": None}
+
+{"name": None, "yield_optimal": int(re.search(r'\d+', word).group()), "unit": "%"}
+
+- Temperature is in °C; residence_time is in min; flow_rate is in mL/min; inner_diameter is in mm.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"([A-Z][a-z]+)", input_str)
+    reactant_names = [match for match in matches]
+    
+    # Parse products (if present)
+    product_match = re.search(r'yield (\d+)%', input_str)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+        
+    else: 
+        yield_optimal = None
+    
+    # Parse conditions
+    temperature_match = re.search(r'T=([0-9]+) °C', input_str)
+    
+    residence_time_match = re.search(r'residence time ([0-9.]+)', input_str)
+    
+    flow_rate_reactant_A_match = re.search(r'flow rate reactant A (\d+\.\d+) mL/min', input_str)
+
+{}
+
+{"type": "temperature", "value": f"{int(value.split('=')[1])} °C"}
+
+{"name": None, "role": role}
+

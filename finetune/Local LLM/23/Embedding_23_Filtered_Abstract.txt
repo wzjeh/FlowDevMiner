@@ -1,0 +1,18 @@
+Microreactors, i.e. chemical reactors with typical di- mensions (such as reactor diameter) in the sub-millimetre range, have become the topic of intense research due to the many interesting novel possibilities they o!er. The potential of microreactors in the development of novel chemical process routes has been stressed repeatedly and in some cases also demonstrated in the past few years (Lerou et
+
+Summary: Flow-chemistry process development involves the use of microreactors for continuous flow synthesis. The reactor design allows precise control over reaction conditions such as temperature, pressure, and residence time. A key advantage is the ability to perform multiple parallel reactions in a single device, enabling high throughput screening and optimization. Microreactors can be used with various catalysts, solvents, and reactants depending on the desired outcome. The critical conditions for microreactor-based flow synthesis include flow rates, residence times, temperatures, and pressures. Outcomes of these processes may involve high conversions, yields, and selectivity.
+
+Fig. 5. Comparison between the previous silicon-based microreactor (circles) and the present glass reactor (diamonds): gas exit temperatures with increasing H content in air. An air #ow of 1 slpm was used in the previous reactor, while only 0.5 slpm were used in the present one.
+
+A sample and #exible quartz-glass-based microreactor design is presented for high-temperature catalytic gas-phase reactions. The reactor was tested with the platinum-catalysed hydrogen oxidation reaction, withstanding extremely high reaction temperatures in excess of 10003C without any signs of degradation. Experimental results are compared to those from a previous, alternative microreactor con"gu
+
+The reactor used in the present investigation is a fur- ther development of a previous microreactor with the intent to increase the applicability of the reactor towards even higher temperatures, thus rendering the study of high-temperature catalytic reactions possible. In doing this, the major design guidelines of the previous reactor development were maintained which were: an easy hand- ling of t
+
+at the reactor walls. This wall-induced chain termination could lead to a suppression of chain branching and thus explosive behaviour in a microreactor.
+
+Keywords: Microreactor design; Catalytic high-temperature reactions; Hydrogen oxidation; Explosion limits
+
+Fig. 8 shows a comparison between the calculated thermal and kinetic explosion limits for a `macroscopica reactor (d"1 m) and a microreactor (d"300 m). Since the reactor wall temperature is necessary for the heat loss calculations, two limiting cases for the thermal explosion limit are shown, with the reactor walls assum- ing the reaction temperature (triangles) and the reactor walls remaining at
+
+range of feed and reaction conditions. A theoretical anal- ysis of the explosion limits in the homogeneous H/O- system con"rmed that the suppression of the explosive reaction behaviour in these microreactors can indeed be traced to a kinetic quenching of the radical chain mecha- nism rather than a thermal quenching due to increased heat transfer rates. It could be shown that microreactors with c
+

@@ -1,0 +1,11 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of H2 | decrease |
+| residence_time | selectivity of H2O2 | increase |
+| reactant_concentration | concentration of H2O2 | increase |
+| catalyst_loading | productivity of H2O2 | increase |
+| temperature | conversion of H2 | unchanged |
+| pressure | concentration of H2O2 | unchanged |
+| reactant_concentration | selectivity of H2O2 | increase |

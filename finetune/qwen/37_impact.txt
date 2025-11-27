@@ -1,0 +1,8 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of TFB | increase |
+| temperature | conversion of TFB | increase |
+| sulfuric_acid_concentration | conversion of TFB | increase |
+| molar_ratio | conversion of TFB | increase |

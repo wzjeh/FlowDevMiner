@@ -1,0 +1,263 @@
+CATALYSIS, KINETICS AND REACTORS Chinese Journal of Chemical Engineering, 17(3) 412ü418 (2009)
+
+Investigation of Nitration Processes of iso-Octanol with Mixed Acid in a Microreactor*
+
+SHEN Jiani (ಋޤઠ)1,2, ZHAO Yuchao (ვံж)1, CHEN Guangwen (чڛำ)1,** and YUAN Quan (၏௣)1
+
+1 Dalian National Laboratory for Clean Energy, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian 116023, China 2 Graduate University, Chinese Academy of Sciences, Beijing 100049, China
+
+Abstract In this paper, the nitration characteristic of alcohols with mixed acid for the synthesis of energetic mate- rials in a stainless steel microreactor was investigated experimentally. The nitration of iso-octanol with HNO3-H2SO4 mixed acid was chosen as a typical model reaction which involved fast and strong exothermic liquid-liquid heterogeneous reaction process. The influences of mixed acid composition, flow rate, organic/aqueous flow ratio and reaction temperature have been investigated. The results indicated that the reaction could be con- ducted safely and stably in the microreactor at 2540°C, which are enhanced compared to 15°C or below for safe operating conditions in the conventional reactors. Moreover, the 98.2% conversion of iso-octanol could be obtained and no by-products were detected in all cases. Keywords nitration, 2-ethylhexyl nitrate, microchannel, micromixer, microfluidic
+
+increases the high operational safety to handle the syntheses of energetic materials and to investigate their chemical behaviours [6, 12]. The published lit- eratures on nitration processes in the microreactor have demonstrated the safety characteristic of micro- reactor and the possibility of optimizing reactions by studying the effect of dependent parameters on reac- tion rates [9, 1315]. Ramshaw et al. [12] and Dum- mann et al. [6] investigated the mechanism of en- hanced mass transfer rate, and Halder et al. [15] testi- fied that nitration of toluene can be controlled within intrinsic kinetics regime in the microreactor. In this paper, synthesis of 2-ethylhexyl nitrate (2-EHN) was identified as a typical temperature sensi- tive model reaction to demonstrate the characteristic of the nitration process of alcohols with HNO3-H2SO4 mixed acid for the synthesis of energetic materials in the stainless steel microreactors, which involves the fast and highly exothermic liquid-liquid heterogene- ous reaction process. In fact, 2-EHN is also an impor- tant cetane number improver of diesel fuel which can reduce hydrocarbon emissions and NO formation, smooth engine operation and improve cold start [16]. The reaction is usually conducted with alkoxyalcohol as the additives in huge cooler systems to reduce the accumulation of heat and avoid the temperature run- away in conventional batch process. However, the additives bring more by-products, which lower the purity and increase the load in subsequent refining steps. For the mixed acid nitration, besides the main reaction [Eqs. (1) and (2)], the strong oxidizing ability of mixed acid may lead to the product degradation. Also, the high activity of sulfuric acid can cause the hydrolysis of product [Eq. (3)], resulting in the low
+
+1 INTRODUCTION
+
+Many energetic material syntheses involve fast and highly exothermic liquid-liquid heterogeneous reaction process and have explosive potential in con- ventional reactors, such as nitration of alcohols. They are generally temperature sensitive and have to be considered as inhibited reactions. The nitrates can eas- ily volatilize and undergo a self-sustaining decompo- sition with an intensive heat release. Once the dissipa- tion of heat is out of control, the temperature runaway and even explosion of the energetic materials can be induced [1]. As the highly efficient mixing and excel- lent heat control are difficult to be performed in the conventional reactors [2], the nitration of alcohols with HNO3-H2SO4 mixed acid is restricted within lower temperature and slow reaction regime due to its criti- cal safety. Even so, the accidents still occur due to highly explosion of the reaction mixture. Moreover, slow heat and mass transfer rates can lead to the for- mation of undesirable by-products and the low pro- ductivity [3]. One way to increase the process safety and effi- ciency of fast highly exothermic reaction is to minia- turize the internal volume of reactor systems by em- ploying the microreactor technology [48]. Because of the flow structures in sub-millimeter dimensions in- side the microreactor, the mass and heat transfer can be greatly intensified compared to the conventional batch reactor, and this can offer the possibility to carry out reactions under isothermal conditions, such as ni- tration [9], sulphonation [10] and oxidation [11], etc. In addition, the smaller hold-up volume of microreactor
+
+Received 2009-01-23, accepted 2009-04-13. * Supported by the National Natural Science Foundation of China (20490208), the National High Technology Research and Development Program of China (2007AA030206), and the Open Fund of State Key Laboratory of Explosion Science and Technology, BIT (KFJJ06-1). ** To whom correspondence should be addressed. E-mail: gwchen@dicp.ac.cn
+
+Chin. J. Chem. Eng., Vol. 17, No. 3, June 2009
+
+conversion [3].
+
+HNO H SO NO HSO H O      ZZX YZZ (1)
+
+C H OH NO C H ONO H     ZZX YZZ (2)
+
+C H ONO H O C H OH HNO H      ZZX YZZ
+
+Figure 2 Schematic diagram of experimental setup 1üorganic phase tank; 2üaqueous phase tank; 3üHPLC pump; 4ücheck valve; 5ümicroreactor; 6üproduct collection tank; 7üthermocouple
+
+(3) Considering the advantages of the microreactor, the direct nitration of iso-octanol with mixed acid was conducted at or above room temperature (25°C) in our study to investigate the potential of the microreactor from both process efficiency and safety point of view.
+
+reactor, respectively. The flow rate and composition of mixed acid were regulated to optimize the operating conditions. Short Teflon tubes with an inner diameter of 3 mm were used to connect all modules. Following the reaction section, there was a cold trap in which the reacting liquid-liquid mixtures were rapidly diluted and cooled to 0°C with ice-water mixture to terminate the reaction instantaneously. Moreover, organic aqueous two phases were separated quickly. The or- ganic phase was washed by water and Na2CO3 (AR, Tianjin Kermel Chemical Reagent Co., Ltd.) solution up to neutralization. The composition of organic phase was identified and quantified by gas chromatograph (GC) with nitrogen as the carrier gas, and a flame ionization detector (FID), an OV-101 capillary column (0.25 ȝm film thickness, 0.25×50 m) were used. An internal standardization method was used following the procedure given by Grob [17]. Fig. 3 showed the graph of the gas chromatograph. The concentration of the unreacted iso-octanol was calculated from the concentration of 2-ethylhexyl nitrate since no other products or by-products were found to be formed in this process as shown in Fig. 3. The conversion of iso-octanol was calculated as the following equation.
+
+2 EXPERIMENTAL
+
+The structure of the stainless steel microreactors used in this experiment is shown in Fig. 1. Etched plate had the same inlet configuration on both sides between point 1/point 2 and point 3 [see Fig. 1 (b)]. Parent channel was divided equally into two arc shaped sub-channels stage by stage until 16 parallel channels were generated. Organic compound and mixed acid were fed at point 1 and point 2, respec- tively. The two flows passed through each inlet zone independently and converged at orifices (point 3) on one side of microreactor plate. Reactants mixed and reacted along the microchannels between point 3 and point 4 with the dimension of every microchannel of 0.5 mm×0.5 mm×78 mm. In this reaction process, the total microreactor system was heated by electric heating method. The mixture of reaction product ef- fused the microreactor at point 4.
+
+§ ·  u ¨ ¸ ¨ ¸  u ¨ ¸ © ¹
+
+w X M w w M
+
+100% iso
+
+-octanol
+
+(4)
+
+iso iso
+
+-octanol -octanol 2-EHN 2-EHN
+
+where X is the conversion (%, by mass) of iso-octanol; Miso-octanol and M2-EHN are the molecular weight of iso-octanol and 2-EHN, respectively; wiso-octanol and w2-EHN are the mass fraction of iso-octanol and 2-EHN in the product organic phase, respectively.
+
+(a) Top view of the etched microreactor plate 1, 2üinlet; 3ümixing points; 4üoutlet
+
+(b) Lateral view of the inlets configuration of the microreactor
+
+Figure 1 Structure of microreactor
+
+Figure 2 shows a schematic diagram of the ex- perimental setup. Two HPLC pumps were used to feed iso-octanol (AR, Tianjin Damao Chemical Reagent Factory) and mixed acid (both sulfuric acid and nitric acid are AR, Shenyang chemical reagent factory) through two inlets (points 1 and 2) into the microchannel
+
+Figure 3 Graph of the gas chromatograph
+
+Liquid hourly space velocity (LHSV) can be de- fined in terms of Eq. (5):
+
+Chin. J. Chem. Eng., Vol. 17, No. 3, June 2009
+
+3 RESULTS AND DISCUSSION
+
+ (5)
+
+R LHSV v v
+
+aq or
+
+V
+
+In the nitration of iso-octanol with mixed acid, chemical reaction and mass transfer are simultane- ously carried out and both affected by the mixed acid composition. In order to investigate the nitration process of iso-octanol in the microreactor, a series of experiments were performed with different operating conditions.
+
+Residence time can be calculated based on LHSV as following Eq. (6):
+
+LHSV t (6)
+
+where vaq and vor are the aqueous flow velocity and the organic flow velocity, respectively, m3·s ˉ1; VR is the microreactor volume, m3; t denotes the residence time of organic and aqueous two phases in microreactor, s. Zaldivar et al. [18, 19] has indicated that the nitra- tion of aromatics falls into the fast reaction regime at H2SO4 strengths of 70%80% (by mass) in mixed acid. However, the H2SO4 strengths of mixed acid are larger than 80% (by mass) in our experiments. In addition, alcohols are more easily nitrated by mixed acid under the same conditions compared to the aromatics. Thus, in the iso-octanol nitration liquid-liquid heterogeneous process with HNO3-H2SO4 mixed acid, the reaction rate can be calculated by an interfacial nitration model aimed at fast reaction regimes, and the average reac- tion rate is adopted in this paper. This model assumes that organic nitration occurs in the aqueous phase close to the interface and is controlled by mass trans- fer of organic phase across the interface of liquid-liquid two phases, and the reaction occurs within the mixed acid phase. The average reaction rate based on the volume of the microreactor can be written as:
+
+3.1 Effect of sulfuric acid concentration in the mixed acid
+
+To study the influence of sulfuric acid concentra- tion, the nitration process of iso-octanol was investi- gated at room temperature with 2% and 15% H2O (by mass) in the mixed acid, respectively. In this part, the mole ratio of nitric acid to iso-octanol and LHSV were fixed to 1.0 and 1000 h ˉ1, respectively. The experi- mental results in Fig. 4 show that the conversion of iso-octanol gradually increased with sulfuric acid concentration in the mixed acid for 15% H2O (by mass) within the same residence time. However, this effect was reduced when the content of water decreases to 2% (by mass) especially for the sulfuric acid con- centration in the range of 67% to 86% (by mass).
+
+> @ > @
+
+ 
+
+HNO HNO
+
+V R t V
+
+R
+
+t
+
+aq
+
+> @ > @
+
+ 
+
+V iso iso t V
+
+- octanol - octanol
+
+R
+
+t
+
+or
+
+  (7)
+
+iso X V t V
+
+[ - octanol]
+
+R
+
+t
+
+or
+
+where [HNO3] and [iso-octanol] are the molar con- centrations of nitric acid and iso-octanol based on the volumes of the microreactor, respectively; the sub- script t denotes the initial time; Vor and Vaq are the volume of organic and aqueous phase in the microre- actor, respectively. On the assumption that compressibility of iso-octanol and mixed acid are identical,
+
+Figure 4 Effect of sulfuric acid concentration of mixed acid (HNO3/C8H17OH 1.0, LHSV 1000 h ˉ1)
+
+ƺ15% H2O;ƶ2% H2O
+
+The mechanism of nitration of organic compounds using HNO3-H2SO4 mixed acid is a well-established process for the production of nitrated compounds [20]. The basic mechanism is using H2SO4 to catalyze the generation of NO from HNO3. Thus, the sulfuric acid concentration in the mixed acid phase plays an important role in the nitration process of alcohols be- cause it not only affects the reaction rate but also the distribution of the products. Actually, the sulfuric acid strength (mass percentage of sulfuric acid in the total mass of sulfuric acid and water) is generally used to determine the type of reaction developed, enabling operation in the controlling regimes of kinetic or mass transfer, when the remaining parameters are kept con- stant [21]. Data from Table 1 shows the variation of
+
+[ - octanol]t iso and Vor can be calculated from the following equations:
+
+iso v t M V U   (8)
+
+[ - octanol]t iso
+
+or -octanol
+
+iso
+
+-octanol R
+
+v V V v v  (9)
+
+or or R or aq
+
+where ȡiso-octanol is the density of iso-octanol, kg·m ˉ3. Combining Eqs. (7), (8) and (9), Eq. (10) can be deduced:
+
+U   (10)
+
+-octanol LHSV iso
+
+-octanol
+
+iso R X M
+
+Chin. J. Chem. Eng., Vol. 17, No. 3, June 2009
+
+3.3 Effect of LHSV
+
+Table 1 Sulfuric acid strength of mixed acid before and after reaction
+
+H2SO4 mass concentration of mixed acid before reaction/%
+
+H2SO4 strength before reaction/% (by mass)
+
+H2SO4 strength after reaction/% (by mass)
+
+In order to investigate the effect of LHSV on the nitration process of iso-octanol, the experiments were carried out using two kinds of typical mixed acid composition at room temperature. Their mass compo- sition was 58% H2SO4 and 26% HNO3, and 74% H2SO4 and 24% HNO3, respectively. The average re- action rate is plotted against LHSV in Figs. 6 and 7. It could be seen that the average reaction rate was di- rectly proportional to LHSV for both reaction systems, implicating these nitration processes were still limited by mass transfer in the microreactor. In fact, the effect of LHSV was more remarkable in the mixed acid with higher sulfuric acid strength because the reaction rate was faster and the nitration process was more greatly limited by mass transfer performance of liquid-liquid immiscible two phases. According to our previous research [24], the flow regimes selected for the present investigation are mainly the parallel flow with smooth interface, the parallel flow with wavy interface, and even the chaotic thin striations flow in this microreac- tor. The hydrodynamic characteristics of mass transfer in these flow regimes have been systematically inves- tigated. The overall volumetric mass transfer coeffi- cients obtained are more than two or three orders of
+
+15% H2O (by mass) 58.6 79.6 79.2
+
+64.3 81.1 80.6
+
+71.2 82.6 82.1
+
+79.9 84.0 83.8
+
+2% H2O (by mass) 59.7 96.8 87.6
+
+67.6 97.1 90.1
+
+74.2 97.4 92.2
+
+86.8 97.7 95.7
+
+sulfuric acid strength before and after reaction. The sulfuric acid strength after reaction was still higher for the mixed acid with 2% H2O (by mass), even higher than the initiative sulfuric acid strength for the mixed acid with 15% H2O (by mass), leading to the higher conversion.
+
+3.2 Effect of water content in the mixed acid
+
+Water content in the mixed acid has strong influ- ence on the nitration reaction process [22]. The effect of water was investigated when LHSV was 1000 h ˉ1, HNO3/C8H17OH was 1.0 and HNO3/H2SO4 was 0.5. As shown in Fig. 5, it was observed that the conver- sion of iso-octanol rapidly decreased with the increase of water content in the mixed acid, especially for it from 2% to 10% H2O (by mass). The presence of wa- ter lead to the falling of sulfuric acid strength in the mixed acid and lowered the generation rate of NO available for the reaction [23]. Ultimately, the nitration reaction rate of iso-octanol was greatly decreased. This could be in good accordance with the decreasing of conversion of iso-octanol.
+
+Figure 6 Effect of LHSV on average reaction rate of iso-octanol at room temperature (H2SO4 58%, HNO3 26%, HNO3/C8H17OH 1.0)
+
+Figure 7 Effect of LHSV on average reaction rate of iso-octanol at room temperature (H2SO4 74%, HNO3 24%, HNO3/C8H17OH 1.0)
+
+Figure 5 Effect of water content in mixed acid on conver- sion at room temperature (HNO3/H2SO4 0.5, HNO3/C8H17OH 1.0, LHSV 1000 h ˉ1)
+
+Chin. J. Chem. Eng., Vol. 17, No. 3, June 2009
+
+magnitude higher than those in traditional liquid-liquid large scaled contactors [25]. The interfacial area be- tween two immiscible fluids stretches, deforms, and folds with the increase of LHSV, as well as the surface renewal velocity is enhanced, making the interphase mass transfer more effective, which significantly in- tensifies mass transfer process and increases the over- all volumetric mean mass transfer coefficient. There- fore, the average reaction rate increased with the ve- locity in the mass transfer controlled systems. Obvi- ously, this effect on the mass transfer was relatively severe in the mixed acid system with higher sulfuric acid strength. Moreover, when LHSV was high enough, the reaction would be controlled by kinetics rather than mass transfer, so average reaction rate achieved limit value as shown in Fig. 6. In fact, the higher iso-octanol conversion could be obtained with lower LHSV in these reaction systems due to the longer residence time in the microreactor.
+
+responding traditional iso-octanol nitration reaction process.
+
+3.5 Effect of HNO3/C8H17OH mole ratio
+
+The effect of HNO3/C8H17OH on the conversion of iso-octanol is shown in Fig. 9. As expected, the conversion of iso-octanol within the same residence time was increased with HNO3/C8H17OH mole ratio as the proportion of NO available was enhanced. Fur- thermore, no other products were observed with the higher HNO3/C8H17OH mole ratio. The efficient mass transfer performance allowed to the suppression of concentration gradients which generated the side reac- tion such as further nitration and oxidation caused by nitric acid.
+
+3.4 Effect of reaction temperature
+
+To ensure the safety of the nitration process of iso-octanol, the reaction temperature is usually main- tained below 15°C in common commercial process [26]. In this part, the experiment was carried out in typically fast reaction regime with the mass composi- tion of 74% H2SO4 and 24% HNO3, and the microre- actor temperatures were varied from 25°C to 40°C as shown in Fig. 8. It was observed that the conversion of iso-octanol increased with the reaction temperature due to the increase of the generation rate of nitronium ion. Moreover, the overall nitration reaction process performed safely and stably, and no other by-products were found, whereas oxidation occurred even at lower temperature in the conventional reactor. The faster heat transfer rate coupled with smaller internal reac- tion volumes of the microreactor increased the ability of temperature control, which not only ensured the safety at higher temperatures, but also prevented tem- perature-induced side reactions and thermal decompo- sition of 2-ethylhexyl nitrate. Ultimately, the selectiv- ity and the purity were increased compared to the cor-
+
+Figure 9 Effect of HNO3/C8H17OH mole ratio on conver- sion at room temperature (H2SO4 74%, HNO3 24%, LHSV 1000 h ˉ1)
+
+3.6 The optimization of reaction conditions
+
+On the basis of studying the effect of independent parameters on synthesis of 2-EHN in the microreactor, a series of experiments were carried out to optimize the reaction conditions to offer more information for industrialisation. The products from the microreactor with or without cold trap section were respectively collected to compare quantitatively the conversion of the iso-octanol under same reaction conditions, as shown in Table 2. It was shown that the conversion of the iso-octanol in the microreactor without cold trap section was higher than with cold trap section due to the longer reaction time, indicating the tube connected to the output or the long channels of the microreactor were in favor of enhancing the conversion of the iso-octanol. In fact, it is observed that the reaction is still mainly accomplished in the microreactor system, ensuring the safety of reaction process and the purity of product. It can be seen that the conversion reached 98.2% in the microreactor without cold crap when the reaction temperature was 35°C, the residence time was 7.2 s, and the HNO3/C8H17OH mole ratio was 1.5. So the nitration of iso-octanol can be carried out in the microreactor efficiently and safely.
+
+Figure 8 Effect of reaction temperature on conversion (H2SO4 74%, HNO3 24%, HNO3/C8H17OH 1.0, LHSV 1000 h ˉ1)
+
+Chin. J. Chem. Eng., Vol. 17, No. 3, June 2009
+
+Table 2 The conversion of iso-octanol under different reaction conditions
+
+LHSV/h ˉ1 Residence time/s Reaction section temperature/°C HNO3ΉC8H17OH/mol·mol ˉ1 Cold trap section iso-Octanol conversion/%
+
+3.6 1.6 Yes 78.3
+
+No 92.1
+
+7.2 1.0 Yes 84.5
+
+No 94.3
+
+7.2 1.5 Yes 97.2
+
+No 98.2
+
+4 CONCLUSIONS
+
+REFERRENCES
+
+The main objective of this paper is to demon- strate the feasibility and safety of the 2-ethylhexyl nitrate synthesis in the microreactor system, which is proposed to carried out fast exothermic liquid-liquid reaction for energetic material synthesis. The nitration of iso-octanol with mixed acid exhibits the typical features of the fast highly exothermic reaction, even potentially explosion or side reactions associated. The characteristics of the nitration process were investigated by studying the effect of mixed acid composition and operating conditions on the conver- sion of iso-octanol and the average reaction rate. The results showed that the reaction could be almost com- pleted in the microreactor system under some particu- lar reaction conditions. Also, the reaction could be conducted safely and stably in the microreactor at 2540°C, which are enhanced compared to 15°C or below for safe operating conditions in the conven- tional reactors. Moreover, no by-product was formed and 98.2% of the conversion of iso-octanol could be obtained. Microreactors with enhanced heat and mass transfer combined with small internal channel dimen- sions offer an excellent tool to reduce overall effort to commercial processes for fast exothermic liquid-liquid heterogeneous phase reaction. Based on the advanta- geous mentioned above, it can be accepted that the microreactor is one of the most suitable research and industrial instruments for fast exothermic liquid-liquid reaction.
+
+ATC, "2-Ethylhexyl nitrate best practices manual", http://www.atc-europe.org/publications.asp Document 79 (2004). van Woezik, B.A.A., Westerterp, K.R., "Runaway behavior and thermally safe operation of multiple liquid-liquid reactions in the semi-batch reactorüThe nitric acid oxidation of 2-octanol", Chem. Eng. Process, 41, 5977 (2002). Suppes, G.J., Dasari, M.A., "Synthesis and evaluation of alkyl ni- trates from triglycerides as cetane improvers", Ind. Eng. Chem. Res., 42, 50425053 (2003). Haswell, S.J., Middleton, R.J., O'Sullivan, B., Skelton, V., Watts, P., Styring, P., "The application of micro reactors to synthetic chemis- try", Chem. Commun., 5, 391398 (2001). Dummann, G., Quittmann, U., Gröschel, L., Agar, D.W., Wörz, O., Morgenschweis, K., "The capillary-microreactor: A new reactor concept for the intensification of heat and mass transfer in liq- uid-liquid reactions", Catal. Today, 79/80, 433439 (2003). Jähnisch, K., Hessel, V., Löwe, H., Baerns, M., "Chemistry in mi- crostructured reactors", Angew. Chem. Int. Ed., 43, 406446 (2004). Panke, G., Schwalbe, T., Stirner, W., Taghavi-Moghadam, S., Wille, G., "A practical approach of continuous processing to high energetic nitration reactions in microreactors", Synthesis-Stuttgart, 18, 28272830 (2003). Chen, G.W., Yuan, Q., Li, H.Q., Li, S.L., "CO selective oxidation in a microchannel reactor for PEM fuel cell", Chem. Eng. J., 101, 101106 (2004). Burns, J.R., Ramshaw, C., "A microreactor for the nitration of ben- zene and toluene", Chem. Eng. Commun., 189, 16111628 (2002). Müller, A., Cominos, V., Hessel, V., Horn, B., Schürer, J., Ziogas, A., Jähnisch, K., Hillmann, V., Großer, V., Jam, K.A., Bazzanella, A., Rinke, G., Kraut, M., "Fluidic bus system for chemical process en- gineering in the laboratory and for small-scale production", Chem. Eng. J., 107, 205214 (2005). van Woezik, B.A.A., Westerterp, K.R., "The nitric acid oxidation of 2-octanol. A model reaction for multiple heterogeneous liquid-liquid reactions", Chem. Eng. Process., 39, 521537 (2000). Brivio, M., Verboom, W., Reinhoudt, D.N., "Miniaturized continu- ous flow reaction vessels: Influence on chemical reactions", Lab on a Chip, 6, 329344 ( 2006). Ducry, L., Roberge, D.M., "Controlled autocatalytic nitration of phenol in a microreactor", Angew. Chem. Int. Ed., 44, 79727975 (2005). Henke, L., Winterbauer, H., "A modular microreactor for mixed acid nitration", Chem. Eng. Technol., 28, 749752 (2005). Halder, R., Lawal, A., Damavarapu, R., "Nitration of toluene in a microreactor", Catal. Today, 125, 7480 (2007). Suppes, G.J., Rui, Y., Rome, A.C., Chen, Z., "Cetane-improver analysis and impact of activation energy on the relative performance
+
+NOMENCLATURE
+
+LHSV liquid hourly space velocity, h ˉ1 M molecular weight, g·mol ˉ1 t residence time, s V volume, m3 v flow velocity, m3·s ˉ1 w mass fraction in the product organic phase, % X mass conversion of iso-octanol, % ȡ density, g·m ˉ3 Subscripts aq aqueous or organic R reactor
+
+Chin. J. Chem. Eng., Vol. 17, No. 3, June 2009
+
+of 2-ethylhexyl nitrate and tetraethylene glycol dinitrate", Ind. Eng. Chem. Res., 36, 43674404 (1997). Grob, R.L., Modern Practice in Gas Chromatography, JohnWiley and Sons, New York, 181184 (1977). Zaldivar, J.M., Molgab, E., Ahos, M.A., Hernhndez, H., Westerterpc, K.R., "Aromatic nitrations by mixed acid. Slow liquid-liquid reac- tion regime", Chem. Eng. Process., 34, 543559 (1995). Zaldivar, J.M., Molgab, E., Ahos, M.A., Hernhndez, H., Westerterpc, K.R., "Aromatic nitrations by mixed acid. Fast liquid-liquid reaction regime", Chem. Eng. Process., 35, 91105 (1996). Schofield, K., Aromatic Nitration, Cambridge University Press (1980). Cox, P.R., Strachan, A.N., "Two-phase nitration of toluene (part II)",
+
+Chem. Eng. J., 4, 253261 (1972). Albright, L.F., Hanson, C., "Industrial and laboratory nitrations", ACS Symp. Ser., 178181 (1975). Quadros, P.A., Oliveira, N.M.C., Baptista, C.M.S.G., "Continuous adiabatic industrial benzene nitration with mixed acid at a pilot plant scale", Chem. Eng. J., 108, 111 (2005). Zhao, Y., Chen, G., Yuan, Q., "Liquid-liquid two-phase flow patterns in a rectangular microchannel", AIChE J., 52, 40524060 (2006). Zhao, Y., Chen, G., Yuan, Q., "Liquid-liquid two-phase mass transfer in the T-junction microchannels", AIChE J., 53, 30423053 (2007). Knapp, G.G., Baylerian, M.S., Seemuth, P.D., "Nitration process", US Pat., 4479905 (1983).

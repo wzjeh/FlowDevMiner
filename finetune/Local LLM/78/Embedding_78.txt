@@ -1,0 +1,20 @@
+A high long term stability is required for industrial appli- cations of the microreactor. The catalyst stability was studied at 335 K using an MBY solution flow rate of 42.5 μL min−1
+
+Fig. 8 Summary of the performance of the capillary microreactor with Pd–Bi/TiO2 in MBY semihydrogenation (1200 mol m−3 MBY in hexane, 10 mL min−1 (STP) H2 flow, (a) 310 K and (b) 335 K). Selectivity is calculated towards MBE.
+
+In heterogeneous catalytic reactions however, the advan- tages of microreactors are offset by the problem of catalyst introduction into the reactor. A convenient laboratory prac- tice to use packed-bed reactors, i.e. fill the microreactor with
+
+Fig. 9 Long-term stability of the capillary microreactor with Pd–Bi/ TiO2 in MBY semihydrogenation (1200 mol m−3 MBY in hexane flow 42.5 μL min−1, 10 mL min−1 (STP) H2 flow, 335 K).
+
+Mesoporous metal oxide coatings have many applications in photocatalysis, gas chromatography, electronics and many other areas.1–7 In particular, they play an important role as catalysts or catalyst supports for microfluidic applications where a reaction is performed in a microreactor with the volume smaller than a millilitre. Microreactors have many advantages over traditional large-scale chemical reactors: the small dimensions of microreactors facilitate massand heat- transfer, small reaction volume allows the handling of hazard- ous or expensive chemicals safely and high-pressure reactions to be carried out with inexpensive equipment, hence signifi- cant process intensification is possible with microreactor technology.8–14
+
+Table 1 Comparison of the microreactor performance in semihydrogenation
+
+and a hydrogen flow of 10 mL min−1 for 100 hours. Fig. 9 shows that the MBE yield was 93 ± 1.5% with neither deacti- vation nor decrease in selectivity observed. However, there were some fluctuations in the product yield, also observed during the parametric study (Fig. 8). These are likely related to minor fluctuations in the flow rates, the thermostat tem- perature (about ±0.5 K), and the pressure drop in the reactor due to hydrodynamic reasons.53
+
+parameter optimisation, the solution flow rate was varied in the interval of 30–50 μL min−1 at a constant hydrogen gas flow rate of 10 mL min−1 (STP), which corresponded to super- ficial flow velocities of 2–4 mm s−1 for liquid and 0.75 m s−1
+
+Catalysis in microreactors allows reactions to be performed in a very small volume, reducing the environmental problems and greatly intensifying the processes through easy pressure control and the
+
+stepper motor), which allows deposition from concentrated and viscous sols without channel clogging. A capillary microreactor wall-coated with titania supported Bi-poisoned Pd catalyst was obtained using the
+

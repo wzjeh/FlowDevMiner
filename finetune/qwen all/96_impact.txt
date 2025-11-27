@@ -1,0 +1,14 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of m-xylene | increase |
+| temperature | yield of mono-nitro products | increase |
+| temperature | yield of poly-nitro impurities | increase |
+| temperature | selectivity | decrease |
+| sulfuric_acid_mass_fraction | conversion of m-xylene | increase |
+| sulfuric_acid_mass_fraction | yield of poly-nitro impurities | increase |
+| sulfuric_acid_mass_fraction | selectivity | decrease |
+| molar_ratio_HNO3_m-xylene | conversion of m-xylene | increase |
+| molar_ratio_HNO3_m-xylene | yield of poly-nitro impurities | increase |
+| molar_ratio_HNO3_m-xylene | yield of mono-nitro products | decrease |

@@ -1,0 +1,87 @@
+- Temperature is in °C; residence_time is in min; flow_rate is in mL/min; inner_diameter is in mm.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"([A-Z][a-z]+)", input_str)
+    reactant_names = [match for match in matches]
+    
+    # Parse products (if present)
+    product_match = re.search(r'yield (\d+)%', input_str)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+        
+    else: 
+        yield_optimal = None
+    
+    # Parse conditions
+    temperature_match = re.search(r'T=([0-9]+) °C', input_str)
+    
+    residence_time_match = re.search(r'residence time ([0-9.]+)', input_str)
+    
+    flow_rate_A_match = re.search(r'flow rate reactant A (\d+\.\d+) mL/min', input_str)
+    if not
+
+{
+        "type": re.search(r"in a (\w+) coil", text).group(1),
+        "inner_diameter":re.search(r"a (\d+\.\d+ mm) coil",text).group(1)
+    }
+
+{"name": match.group(0), "role": "reactant"}
+
+{}
+
+{"type": "residence_time", "value": float(residence_time_info.group())}
+
+{"reaction_summary": {"reaction_type": "o xylene nitration", "reactants": [{"name": "nitric acid", "role": "continuous phase"}], "products": [], "conditions": [{"type": "temperature", "value": "..."}, {"type": "residence_time", "value": "..."}, {"type": "flow_rate_reactant_A", "value": null}], "reactor": {"type": "microchannel", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {
+            "reaction_type": match.group(1).lower(),
+            "reactants": [],
+            "products": [{"name": None, "yield_optimal": 0, "unit": "%"}],
+            "conditions": [], 
+            "reactor":{"type":"coil", "inner_diameter":None},
+            "metrics":{"conversion":None,"yield":0,"selectivity":None,"unit":"%"}}}
+
+{"name": match["name"], "role": match["role"]}
+
+# Parse temperature and residence time
+    temp_match = re.search(r"(\d+) °C", reaction_string)
+    if temp_match:
+        temp_value = int(temp_match.group(1))
+    
+    res_time_match = re.search(r"in (\d+ min)", reaction_string)
+    if res_time_match:
+        res_time_value = float(res_time_match.group(1))
+
+    # Parse flow rates
+    flows_match = re.findall(r"(\d+(?:\.\d+)?) mL/min", reaction_string)
+    flows_values = [float(flow) for flow in flows_matches]
+
+    # Parse inner diameter and reactor type
+    diameters_match = re.findall(r"(\d+(?:\.\d+)?) mm", reaction_string)
+    if len(diameters_match) > 0:
+        inner_diameter_value = float(diameters_match[0])
+    
+    reactors_match = re.search(r"in a (\w+)", reaction_string)
+    if reactors_match:
+        reactor_type_value = reactors_match.group(1)
+
+    # Parse yield
+    yields_match = re.findall(r"(\d+(?:\.\d+)?)%", reaction_string)
+    optimal_yield_value = max
+
+{ "reaction_summary": {  "reaction_type":"nitration",  "reactants":[{"name":"alkyl halides","role":"reactant"}, {"name":"concentrated HNO3 or N2O4","role":"nitrating agent"}],  "products":[    {"name":"...", "yield_optimal":95, "unit":"%"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+

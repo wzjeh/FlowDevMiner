@@ -1,0 +1,14 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rate of H2O2 | degradation efficiency | increase |
+| catalyst_loading of PI | degradation efficiency | increase |
+| reactant_concentration of dye | degradation efficiency | decrease |
+| temperature | process performance | decrease |
+| organic_additives (surfactants) | dye oxidation | decrease |
+| organic_compounds (sucrose, glucose) | dye oxidation | decrease |
+| water_matrix (river water) | process efficiency | decrease |
+| water_matrix (SEWWTP) | process efficiency | decrease |
+| water_matrix (tap water) | process efficiency | unchanged |
+| water_matrix (seawater) | dye degradation | unchanged |

@@ -1,0 +1,18 @@
+entry flow rate (mL min−1) pressure (bar)
+
+Figure 5. Continuous flow setup for the continuous dinitration process using an increased throughput of 1 mmol min−1.
+
+This is due to the fact that the packed bed reactors (CatCarts) have fixed dimensions (70 × 4 mm, 0.8 mL internal volume). Thus, the flow rate and throughput (mmol h−1) of the overall
+
+the continuous mixing in the flow reactor is not at adequate concentration gradients, inhomogeneous mixtures will be produced along the tubing, resulting in a nonconstant composition of the crude reaction mixture obtained over time. Notably, an improved conversion profile was obtained when the T-mixer was sonicated during processing (Figure 3). Gratifyingly, excellent and constant conversion and p
+
+Figure 7. Schematic diagram of the setup used for the combined flow dinitration/liquid−liquid extraction process. For a photograph of the continuous flow setup see Figure S7 in the Supporting Information.
+
+Summary: Flow-chemistry process development for the dinitration of FPAA using a continuous flow reactor with a mixing method. Key reactants include FPAA and nitronium ion (NO2+), solvent is THF, catalyst is BPh3. Reaction type is electrophilic aromatic substitution. Products are dinitro-FPAA. Critical conditions: flow rate of 1 mL/min, residence time of 60 min, temperature of 50°C, and pressure of atmospheric pressure. Outcomes include conversion profiles for different mixing methods (e.g., static mixer, micromixer).
+
+Figure 8. Schematic diagram of the setup used for the continuous hydrogenation/cyclization process. BPR: back pressure regulator. For a photograph of the experimental flow setup see Figure S10 in the Supporting Information.
+
+purpose, the output of the liquid−liquid membrane separator was connected to a T-mixer where the stream was mixed with methanol, and then fed to the input pump of the H-Cube Pro (Figure 9) (for a picture of the complete flow setup for the sequential process see Figure S11 in the Supporting Information). All 6 feeds in the continuous flow setup were started, setting all reaction parameters as state
+
+Table 2. Results Obtained for the Sequential Hydrogenation/Cyclization Continuous Flow Process
+

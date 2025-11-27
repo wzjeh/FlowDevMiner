@@ -1,0 +1,20 @@
+after the microchannel cavity of reactants which can realize the continuous flow reaction and chemical production. The characteristic size of the internal channel is generally between 10 and 1000 μm, therefore, the low flow velocity can maintain a laminar flow, and the large specific surface area facilitates the high heat and mass transfer efficiency, avoiding local overheating (Masoni et al., 202
+
+frequently used configuration although the energy consumption is extremely high, and cause adverse consequence for production amplification. Meanwhile, the reaction channels and heat supply side channels of the zigzag-shaped microreactor of internal numbering-up type are identical semicircular cross-sections of radius 0.75 mm, and the zigzag angle is 30. The liquid holdup volume and cross-section 
+
+3.2. The mixing and mass transfer mechanisms in three microreactors
+
+In this study, three Hastelloy microreactors with different geomet­ rical characteristics, namely the heart-shaped, the diamond-shaped, and the zigzag-shaped reaction channels are designed and fabricated. The channel structures for the three microreactors are illustrated in Fig. 2. The dimension of each reaction sheet is 270 mm × 150 mm (length × width), and each sheet consists of three series rea
+
+the three microreactors are in a parallel layout. The experimental test system for TOL and CB nitrification is equip­ ped with two PTFE metering pumps, PTFE connection pipes, a high and low-temperature circulation device, a thermal oil gear pump, and a quenching and sampling module. The diagram and the picture of the microreactor test apparatus part are shown in Fig. 4. The general experimental pr
+
+heart-shaped, diamond-shaped, and zigzag-shaped microreactors, are designed and fabricated, effects of temperature, residence time, and molar ratio, on TOL and CB nitrification are investigated, and the orthogonal experiments are further conducted to determine the opti­ mum reaction conditions. Due to the excellent heat transfer performance and temperature control property of microreactors, the ch
+
+The mixing and mass transfer mechanisms of Aromatic nitrification which has been extensively investigated and reported in previous liter­ ature(Cox, 1971; Song et al., 2022). The liquid-liquid two-phase nitri­ fication reaction of TOL and CB occurs in the mixed acid phase, therefore, the interphase mass transfer effect determines the reaction rate of the nitrification process. The channel dimensio
+
+the three microreactors. As can be inferred from Fig. 5a, the τ has a positive effect on the X for three microreactors, which is consistent with that observed by (Jin et al., 2023; Yang et al., 2022a), and the heart-shaped and diamond-shaped microreactors are superior to the zigzag-shaped microreactor for the comparison of Xs. Moreover, in the range of 60–70 s, the rate of variation decreases for 
+
+conditions and test numbers are shown in Table 1. The orthogonal optimization experiments are carried out for the three microreactors. Through the orthogonal experimental results and mean value anal­ ysis of the MNT and NCB selectivity, the optimum process conditions of the three microreactors are listed in Table 2. According to the above results, the MNT/NCB preparation perfor­ mance and repeatab
+
+Table 3 The optimum MNT/NCB preparation performance for three microreactors.
+

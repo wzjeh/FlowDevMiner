@@ -1,0 +1,15 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| micromixer_count | - | increase |
+| diameter_of_slits | - | decrease |
+| aperture_diameter | - | decrease |
+| mixing_volume | - | increase |
+| number_of_micromixers | number_of_micromixers | increase |
+| conversion | conversion | increase |
+| flow_rate | flow_rate | - |
+| micromixer_design | - | - |
+| slit_angle | - | - |
+| aperture_diameter | - | - |
+| mixing_volume | mixing_volume | increase |

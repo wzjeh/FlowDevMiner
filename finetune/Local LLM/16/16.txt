@@ -1,0 +1,95 @@
+Green Chemistry
+
+View Article Online
+
+COMMUNICATION
+
+View Journal | View Issue
+
+Safe, eﬃcient and selective synthesis of dinitro herbicides via a multifunctional continuous-flow microreactor: one-step dinitration with nitric acid as agent†
+
+Cite this: Green Chem., 2013, 15, 91
+
+Received 18th October 2012, Accepted 13th November 2012
+
+Published on 13 November 2012. Downloaded on 10/20/2025 10:58:15 AM.
+
+Yizheng Chen,a,b Yuchao Zhao,a Mei Han,a Chunbo Ye,a,b Minhui Danga,b and Guangwen Chen*a
+
+DOI: 10.1039/c2gc36652e
+
+www.rsc.org/greenchem
+
+The broad applications of dinitroaniline herbicides provide enormous impetus for extensive study of nitration reactions. The well-established mechanisms for nitration of reactive species, such as aniline and phenol compounds, include both electrophilic and charge-transfer processes.6 Recently, one solution complementary to the conventional batch or semi- batch mode is to employ a continuous and selective nitration mode. The continuous process can oﬀer much small reaction volume and relatively large surface-to-volume ratio; thus process safety is improved and both temperature and residence time can be precisely controlled, which may improve selectivity by suppression of side reactions.7 Microreactors have been demonstrated as an eﬀective tool in continuous processes for mononitration of some aromatic compounds, for instance benzene, toluene and chlorobenzene.8 Beneficial for its charac- teristic submillimeter dimensions, microreactors have much short diﬀusion paths and large surface-to-volume ratios com- pared with batch reactors, which are beneficial to realize excel- lent heat and mass transfer. So far, most academic and industrial attention has been focused on mononitration pro- cesses, and the straightforward one-step dinitration in con- tinuous-flow reactors has been rarely reported. To envisage that one-step dinitration of aniline derivatives may be carried out in a safe, eﬃcient and selective way, a con- tinuous-flow microreactor has been employed in this study. At the start of our investigation, we proposed the following criteria as the essential requirements of our microreaction system and method: one-step dinitration in a continuous-flow approach, precise reaction temperature control (the variation between reaction temperature and the fluid outlet temperature is less than 2 °C), avoidance of any pre-protection of the amino groups of aniline derivatives, obviation of sulfuric acid (this approach is beneficial to the downstream purification process), residence time <10 s, minimal solvent or solvent-free conditions, minimal HNO3 : aniline derivative molar ratio (although nitric acid can be separated by simple phase sepa- ration and reused after concentration). Other features include easily assembled and less-expensive peripherals,9 and a multi- †Electronic supplementary information (ESI) available. See DOI: 10.1039/ c2gc36652e
+
+A continuous and selective method for synthesis of dinitro herbi-
+
+cides through one-step dinitration approach has been successfully
+
+developed in microreactor systems. Compared to a conventional two-step batch process, reaction can be conducted without the
+
+need to separate intermediates and much less solvent or solvent-
+
+free condition has been employed.
+
+Dinitroaniline derivatives are an important class of com- pounds with wide applications in herbicides and pesticides.1
+
+For example, pendimethalin, N-(1-ethylpropyl)-3,4-dimethyl- 2,6-dinitroaniline, is a widely-used selective herbicide in agri- cultural industry.2 Dinitroaniline derivatives are generally pro- duced by nitration of aniline derivatives. These nitration reactions are extremely hazardous due to highly exothermic thermodynamics as well as possible decomposition and explosion of nitro compounds.3 The reaction heat of direct dinitration can be twice as much as that of mononitration. In the chemical industry, to carry out the reaction in a mild way, a two-step process is generally conducted, in which one mono- nitration step is followed by subsequent mononitration.4 More- over, large quantities of solvents or diluents are used in each nitration step since nitration reactions are usually fast for reac- tive species such as phenol and aniline derivatives. Thus, it requires long reaction time and large amounts of waste sol- vents. Also, selectivity is not satisfying due to easy oxidation or over-nitration of aniline derivatives when reagents and pro- ducts are exposed to the reaction conditions over a long resi- dence time, and protection of the amino group by acetylation may be required prior to nitration.5 Still, the safety risk is not eliminated owing to mass and heat transfer limitations in con- ventional batch reactors.
+
+aDalian National Laboratory for Clean Energy, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, 116023, China. E-mail: gwchen@dicp.ac.cn; Fax: +86-411-84379327; Tel: +86-411-84379031 bUniversity of Chinese Academy of Sciences, Beijing, 100049, China
+
+out the reaction. Benefiting from the short residence time, 1e was not determined in all cases (Table 1), and the fluid outlet temperatures were almost the same as the reaction tempera- ture, the variations of temperature were always within 2 °C. We observed that 85% conversion was obtained with 98% HNO3, while only 24% conversion was achieved with 65% HNO3 (entries 1–3, Table 1). Bearing in mind that increase in sub- strate concentration in microreactors may result in improved conversion, the concentration of aniline 1 was increased to 80% (entries 4–6, Table 1). We found complete conversion was achieved with a residence time of 9 s and temperature of 60 °C (entry 6, Table 1). However, the molar ratio of 1a : 1b in the products distribution was very low, which meant that large amounts of 1b were required to be converted into 1a in the downstream process. When the concentration of nitric acid was changed to 65%, 100% conversion and 98% selectivity were obtained and the molar ratio of 1a : 1b was as high as 3.6 (entry 7, Table 1). The success with 65% nitric acid and 80% aniline 1 solu- tion prompted us to study the influence of other process para- meters, such as LHSV (liquid hourly space velocity), temperature and initial HNO3 : aniline 1 molar ratio. Fig. 1 demonstrates that the conversion of aniline 1 first increased with the increase of LHSV (600–1800 h−1), then a stable conver- sion of 100% could be obtained when LHSV was higher than 1800 h−1 at a temperature of 60 °C. This phenomenon was a direct evidence that the reaction was controlled by mass trans- fer, for an increase in LHSV could lead to an increase in Rey- nolds numbers, which finally improved the mass transport on the reaction process.12 This trend became less apparent when temperature was raised to 70 °C and 80 °C, for the conversion of aniline 1 was slightly changed.
+
+functional microreactor integrated with mixing, heat exchange and reaction (see ESI†). The total reaction volume of the micro- reactor is ca. 0.2 ml. The heat transfer coeﬃcient has been tested in the magnitude of 10 kW m−2 K−1 and mass transfer coeﬃcient in the magnitude of 10 s−1 in the microreactor, which are two orders larger than those in a reported conven- tional reactor.10
+
+N-Alkylated anilines 1–4 have been prepared prior to use (see ESI†). Dinitration of aniline 1 in a microreactor has been chosen as a model reaction. Nitric acid acts as the nitrating agent and acid catalyst. The desired dinitrated product shown in Scheme 1 is pendimethalin (N-(1-ethylpropyl)-3,4-dimethyl- 2,6-dinitroaniline, 1a). Another less-desired product is N- nitroso-pendimethalin (1b) which can be readily and quantitat- ively converted to pendimethalin 1a (see ESI†). It is a liquid– liquid biphasic reaction in which the reaction takes place in acid phase. In the industrial batch production of pendimethalin in chlorinated solvent, the aniline solution (30 wt%) is treated with dilute nitric acid as the first step. After separation of the organic phase and spent acid phase, the organic phase is treated with more concentrated nitric acid as the second step, obtaining 89% yield of 1a and 1b with a molar ratio for 1a : 1b of 7 : 3. The total reaction time is 4 h, and 1e is usually pro- duced in a significant amount since 1b can be further con- verted into 1e11 under long reaction time (Scheme 2). The batch method threw some light on the development of our one-step dinitration process. From the beginning of our investigation, 1,2-dichloroethane was selected as solvent and concentration of aniline 1 was fixed at 30 wt% in the organic tank. Two commercial nitric acids, 65 wt% and 98 wt% HNO3, were prepared in the acid tank. Then the organic stream and the acid stream were pumped into the microreactor to carry
+
+Published on 13 November 2012. Downloaded on 10/20/2025 10:58:15 AM.
+
+Scheme 1 One-step dinitration of N-(1-ethylpropyl)-3,4-xylidine (1) in a con- tinuous-flow microreactor system.
+
+Scheme 2 Conventional two-step dinitration of N-(1-ethylpropyl)-3,4-xylidine (1) in the batch system.
+
+Table 1 Optimization of one-step dinitration of aniline 1 in a continuous-flow microreactora
+
+Entry T (°C) tb (s) LHSV (103 h−1) [Aniline 1] (wt%) [HNO3] (wt%) HNO3 : 1 (mol/mol) Conv.c (%) Sel.c (%) 1a : 1bd (wt/wt)
+
+6.1 0.6 3.0 1.1 9.0 0.4 3.0 0.4 0.1 3.0 0.3 7.2 0.5 3.1 0.5 7.2 0.5 3.1 0.4 9.0 0.4 4.3 0.2 6.1 0.6 3.9 3.6 0.8 4.1 3.0 4.2
+
+a See ESI. b Residence time. c Determined by HPLC. d In all cases, 1e was not determined.
+
+Table 2 One-step dinitration of aniline derivatives using the continuous-flow microreactor
+
+Aniline derivative T (°C) Conc. (wt%.) ta (s) Conv.b (%) Sel.c (%)
+
+0.8
+
+1.3
+
+1.5
+
+Fig. 1 The influence of LHSV on the conversion of aniline 1 at diﬀerent reac- tion temperatures. HNO3 : aniline 1 = 3.9 (mol/mol). Concentration of HNO3, 65 wt%; concentration of aniline 1, 80 wt%.
+
+0.9
+
+Published on 13 November 2012. Downloaded on 10/20/2025 10:58:15 AM.
+
+a Residence time. b Determined by HPLC. c Determined by HPLC. The a : b ratios for anilines 1–4 are 4.2, 1.1, 2.8 and 1.5, respectively.
+
+that at LHSV of 800–4200 h−1 and temperature of 70 °C, quantitative conversion was achieved at a molar ratio of 3.1 or 3.5, while <90% conversion was obtained with a low molar ratio of 2.7. Based on study of the process parameters, the reaction con- ditions were finally selected as HNO3 : aniline 1 molar ratio of 3.0 (HNO3: 6.0 ml min−1, aniline solution: 7.8 ml min−1), temperature of 60 °C and LHSV of 4100 h−1, and 100% conver- sion and 97% were obtained (entry 8, Table 1). To test the stability of our microreactor system under these conditions, the flow process was run continuously for 1 h, obtaining 0.54 kg of target products of 1a and 1b in 97% yield as expected (isolated yield). This corresponds to an output of 12.96 kg per day or 4.32 t per year (considering 8000 h running time in a year) for the target products. Besides, the reaction proceeded smoothly without evaporation of solvent or clogging of channels. Scale-up can be realized13 by a factor of 100 (plate to stack, see in ESI†), which corresponds to an output of 432 t per year, thus approaching factory-scale. Actually, the 16-channel microreactor in this study can be considered as 16× scale-up compared with a single-channel microreactor. Two other N-alkyl-substituted derivatives underwent com- plete conversion and high selectivity even under solvent-free conditions (entries 2 and 3, Table 2). The reaction temperature for anilines 2 and 3 must be increased to 90 °C and 80 °C, respectively; presumably anilines 2 and 3 are less reactive than aniline 1. One sterically hindered aniline 4 was also tested and its initial concentration was limited by its solubility in 1,2-dichloroethane. However, its conversion was slightly reduced (entry 4, Table 2). In conclusion, one-step dinitration method has been suc- cessfully developed in a continuous-flow microreactor system without the need for separation of intermediates. The risks associated with highly exothermic dinitration are eliminated. Pendimethalin and two other dinitro herbicides were syn- thesized in high yields when the residence time was less than 2 seconds, and no pre-protection of the amino group is needed. The undesired by-product 1e has been eliminated by
+
+Fig. 2 The influence of LHSV on the molar ratio of 1a : 1b at diﬀerent reaction temperatures. HNO3 : aniline 1 = 3.9 (mol/mol). Concentration of HNO3, 65 wt%; concentration of aniline 1, 80 wt%.
+
+Fig. 3 The influence of LHSV on the conversion of aniline 1 at diﬀerent initial HNO3 : aniline 1 molar ratios. T = 70 °C. Concentration of HNO3, 65 wt%; con- centration of aniline 1, 80 wt%.
+
+Fig. 2 shows the variation of molar ratio of 1a : 1b with LHSV and temperature. Surprisingly, the molar ratio of 1a : 1b turned out to be 1.4–5 with 65 wt% nitric acid, whereas it was 0–0.5 with 98 wt% nitric acid in the previous study. Thus, 65 wt% nitric acid was advantageous over 98 wt% nitric acid. The results indicated both low temperature and low LHSV were advantageous to obtain a high molar ratio of 1a : 1b. However, low temperature or LHSV may lead to an incomplete conversion of aniline 1 as profiled in Fig. 1. Based on the total eﬀect of reaction temperature and LHSV, temperature of 70 °C or 60 °C and LHSV > 1800 h−1 were appropriate. Further eﬀort was concentrated on studying the influence of initial molar ratio of HNO3 : aniline 1 to choose an optimal value so as to minimize the quantities of spent acid. Fig. 3 demonstrates
+
+5 (a) J. B. Tingle and F. Blanck, J. Am. Chem. Soc., 1908, 30, 1395–1412; (b) E. R. Riegel, H. W. Post and E. E. Reid, J. Am. Chem. Soc., 1929, 51, 505–508; (c) L. C. Raiford and J. N. Wickert, J. Am. Chem. Soc., 1931, 53, 3143–3147; (d) B. Gigante, A. O. Prazeres, M. J. Marcelo-Curto, A. Cornelis and P. Laszlo, J. Org. Chem., 1995, 60, 3445–3447. 6 (a) J. Ridd, Chem. Soc. Rev., 1991, 20, 149–165; (b) R. N. Loeppky, S. P. Singh, S. Elomari, R. Hastings and T. E. Theiss, J. Am. Chem. Soc., 1998, 120, 5193–5202; (c) M. Tanaka, E. Muro, H. Ando, Q. Xu, M. Fujiwara, Y. Souma and Y. Yamaguchi, J. Org. Chem., 2000, 65, 2972– 2978; (d) S. R. Gwaltney, S. V. Rosokha, M. Head-Gordon and J. K. Kochi, J. Am. Chem. Soc., 2003, 125, 3273–3283. 7 (a) K. Jahnisch, V. Hessel, H. Lowe and M. Baerns, Angew. Chem., 2004, 116, 410–451; K. Jahnisch, V. Hessel, H. Lowe and M. Baerns, Angew. Chem., Int. Ed., 2004, 43, 406–446; (b) D. R. J. Acke and C. V. Stevens, Green Chem., 2007, 9, 386; (c) T. H. Yoon, S. H. Park, K. I. Min, X. Zhang, S. J. Haswell and D. P. Kim, Lab Chip, 2008, 8, 1454–1459; (d) F. E. Valera, M. Quaranta, A. Moran, J. Blacker, A. Armstrong, J. T. Cabral and D. G. Blackmond, Angew. Chem., 2010, 122, 2530–2537; F. E. Valera, M. Quaranta, A. Moran, J. Blacker, A. Armstrong, J. T. Cabral and D. G. Blackmond, Angew. Chem., Int. Ed., 2010, 49, 2478– 2485; (e) R. A. Maurya, C. P. Park, J. H. Lee and D. P. Kim, Angew. Chem., 2011, 123, 6074–6077; R. A. Maurya, C. P. Park, J. H. Lee and D. P. Kim, Angew. Chem., Int. Ed., 2011, 50, 5952–5955; (f) J. Wegner, S. Ceylan and A. Kirschning, Chem. Commun., 2011, 47, 4583–4592; (g) A. Nagaki, K. Imai, H. Kim and J.-i. Yoshida, RSC Adv., 2011, 1, 758–760; (h) T. Illg, V. Hessel, J. C. Schouten and P. Loeb, Green Chem., 2012, 14, 1420–1433. 8 (a) J. R. Burns and C. Ramshaw, Chem. Eng. Commun., 2002, 189, 1611–1628; (b) R. Halder, A. Lawal and R. Damavarapu, Catal. Today, 2007, 125, 74–80. 9 P. B. Palde and T. F. Jamison, Angew. Chem., 2011, 123, 3587–3590; P. B. Palde and T. F. Jamison, Angew. Chem., Int. Ed., 2011, 50, 3525–3528. 10 (a) Y. C. Zhao, G. W. Chen and Q. Yuan, AIChE J., 2007, 53, 3042–3053; (b) H. S. Cao, G. W. Chen and Q. Yuan, Ind. Eng. Chem. Res., 2009, 48, 4535–4541; (c) H. S. Cao, G. W. Chen and Q. Yuan, Ind. Eng. Chem. Res., 2010, 49, 6215–6220; (d) Y. H. Su, Y. C. Zhao, G. W. Chen and Q. Yuan, Chem. Eng. Sci., 2010, 65, 3947–3956. 11 G. R. Clemo and J. M. Smith, J. Chem. Soc., 1928, 2414–2422. 12 Y. Z. Chen, Y. H. Su, F. J. Jiao and G. W. Chen, RSC Adv., 2012, 2, 5637–5644. 13 (a) R. Schenk, V. Hessel, C. Hofmann, J. Kiss, H. Löwe and A. Ziogas, Chem. Eng. J., 2004, 101, 421–429; (b) V. Hessel, D. Kralisch and U. Krtschil, Energy Environ. Sci., 2008, 1, 467–478.
+
+virtue of short residence time. When the HNO3 concentration is changed from 98% to 65%, the molar ratio of 1a : 1b in the products can switch from 0.2 to 4.2, which greatly benefit downstream processing. It is worth noting that pendimethalin can be produced at 4.32 t per year via this microreactor, and industrial-scale production can be realized by numbering-up principle. Finally, it should be emphasized that the most important features of this method (high yield, high output, seconds-level residence time, HNO3 as the only agent, no pre-protection of amino group) are collectively possible only because the micro- reactor has very eﬀective heat and mass transfer rate and the reaction temperature and aniline concentration have been improved to 60–90 °C and over 80%, respectively. A batch reactor performing one-step dinitration under identical con- ditions would be impossible or very hazardous because of its low heat and mass transfer ability and relatively large reaction volume. Microreactors thus oﬀer great opportunities for one- step dinitration of aniline derivatives in a continuous and selective way. Studies on one-step dinitration of more aniline compounds and other aromatics are under way. The work reported in this article was financially supported by research grants from the National Natural Science Foun- dation of China (No. 21225627), Ministry of Science and Tech- nology of China (Nos. 2009CB219903, 2012BAA08B02), and the frame work of the Sino-French project MIGALI via the National Natural Science Foundation of China (No. 20911130358).
+
+Published on 13 November 2012. Downloaded on 10/20/2025 10:58:15 AM.
+
+Notes and references
+
+1 (a) D. Moreland, F. Farmer and G. Hussey, Pestic. Biochem. Physiol., 1972, 2, 342–353; (b) S. Traore and J. J. Aaron, Analyst, 1989, 114, 609–613; (c) J. W. Benbow, E. L. Bernberg, A. Korda and J. R. Mead, Antimicrob. Agents Chemother., 1998, 42, 339–343. 2 (a) A. Walker and W. Bond, Pestic. Sci., 1977, 8, 359–365; (b) S. Piutti, A. L. Marchand, B. Lagacherie, F. Martin- Laurent and G. Soulas, Pest Manage. Sci., 2002, 58, 303–312. 3 (a) C. Bunton, E. Hughes, G. Minkoﬀand R. Reed, Nature, 1946, 158, 514–515; (b) D. E. O'Reilly and E. M. Peterson, J. Chem. Phys., 1972, 56, 2262; (c) J. Antes, D. Boskovic, H. Krause, S. Loebbecke, N. Lutz, T. Tuercke and W. Schweikert, Chem. Eng. Res. Des., 2003, 81, 760–765; (d) L. Ducry and D. M. Roberge, Angew. Chem., 2005, 117, 8186–8189; L. Ducry and D. M. Roberge, Angew. Chem., Int. Ed., 2005, 44, 7972–7975; (e) R. Andreozzi, V. Caprio, I. Di Somma and R. Sanchirico, J. Hazard. Mater., 2006, 134, 1–7; (f) J. N. Shen, Y. C. Zhao, G. W. Chen and Q. Yuan, Chin. J. Chem. Eng., 2009, 17, 412–418. 4 L. A. Daniel, US 4621157, 1986.

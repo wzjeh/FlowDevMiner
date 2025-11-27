@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "nitration", "reactants": ["toluene", "HNO3"], "products": ["MNT"], "conditions": [{"type": "temperature", "value": 25}, {"type": "residence_time", "value": 10}], "reactor": {"type": "single-channel glass microreactor", "inner_diameter": null}, "metrics": {"conversion": 90, "yield": 85.5, "selectivity": 92.1, "unit": "%"}}}

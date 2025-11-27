@@ -1,0 +1,18 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rate | selectivity of 1a | increase |
+| flow_rate | sulfone impurity 7a | decrease |
+| flow_rate | conversion of 1c | increase |
+| flow_rate | conversion of 1c | increase |
+| residence_time | formation of sulfone impurity 7a | increase |
+| residence_time | formation of sulfone impurity 7a | decrease |
+| catalyst_loading | not mentioned | unchanged |
+| reactant_concentration | mole ratio of NaOCl to substrate | - |
+| reactant_concentration | mole ratio of NaOCl to substrate | - |
+| reactant_concentration | over-oxidation impurity 7a | increase |
+| reactant_concentration | over-oxidation impurities 7b and 7c | increase |
+| number of micromixers | conversion of 1c | increase |
+| temperature | not explicitly varied | unchanged |
+| pressure | not mentioned | unchanged |

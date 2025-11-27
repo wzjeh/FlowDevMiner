@@ -1,0 +1,20 @@
+In recent years, flow chemistry technique has revolutionized the research and application of fluoroalkylation. This advancement is largely attributed to the use of microreactor, which has small channel diameter and high specific surface area. These characteristics enable precise control of reaction condition, thereby greatly improving mass and heat transfer performance. Meanwhile, microreactors co
+
+Keywords: Difluoroalkylation Microreactor Continuous flow Reaction kinetics
+
+Furthermore, a conventional batch reaction was utilized to perform comparative experiment to assess the performance of the microreactor used. Each substance with a concentration corresponding to the optimal reaction conditions of the microreactor (nEBFA: nST = 1.5, nCuI: nST = 0.06, nPMDETA: nST = 1.5) was respectively added to the reaction tube and dissolved in DMSO, with total amount of 2 mL. Th
+
+Difluoroalkylation of styrene in the continuous-flow microreactor: Process performance and Reaction kinetics
+
+The microreaction system setup is shown in Fig. 1, it consists of three main units: feed unit, reaction unit and quenching unit. The two re­ actants ST and EBFA were fed separately. Given that EBFA could un­ dergo transformation in alkaline conditions (Wang et al., 2017), ST, catalyst CuI and the alkaline ligand PMDETA were dissolved in DMSO and stirred by a magnetic stirring device (WM-1, INNOTEG
+
+The volume flow rate of the reaction tube is calculated by Eq. (2):
+
+3.2.1. Effect of flow rate on mixing performance
+
+Summary: The paragraph discusses the difluoroalkylation reaction of styrene in a microreactor using a flow-chemistry process development approach. Styrene is reacted with a difluoromethane source under controlled conditions (flow rate, residence time, temperature, and pressure) to produce fluorinated products. The reactor type is not mentioned, but the ID suggests it might be an internal diameter microreactor. The critical condition for this process is a flow rate of 0.3 mL/min, with a residence time that ensures sufficient mixing for ideal reaction kinetics. Temperature and pressure are not specified in the text. The conversion, yield, and selectivity of the styrene difluoroalkylation reaction are not mentioned as outcomes.
+
+To obtain accurate kinetic results, the conversion rates of ST were measured at various temperatures and residence times in the micro­ reactor, as shown in Fig. 7. By substituting the conversion data into Eq. (16), the relationship between f(x) and τ at different temperatures could be obtained, as shown in Fig. 8(a). The slope (k) of the curve is the value of the reaction rate constant k at differ
+
+As shown in Fig. 11(a), the predicted conversion rate is in good agreement with the experimental data (δ ≤2.0 %), indicating the reli­ ability of the kinetic model and the accuracy of the extensive experi­ mental data obtained from the microreactor. As is well known, the reaction kinetic model is critically important for tailoring a desirable reactor, as it could predict the concentration change o
+

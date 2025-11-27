@@ -1,0 +1,100 @@
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+- Assume that if a field is not explicitly stated in the input text, it should be included with default values.
+
+Step 1: Preprocess the paragraph to extract relevant information
+The paragraph discusses the importance of flow rate in controlling mixing performance in micromixers and microreactors. Due to their small dimensions and low volumetric flow rates, microstructured devices typically operate within the laminar flow regime. Engler et al.'s study on T-micromixers revealed three flow regimes: stratified flow, vortex flow, and engulfment flow with a Reynolds number below 200. Increasing flow rate leads to higher mixing quality due to increased vorticity and disturbance inside the T-junction of the micromixer.
+
+Step 2: Identify relevant information for each field in the output JSON object
+- reaction_type: null (no explicit mention)
+- reactants: none mentioned, so an empty list is used.
+- products: yield_optimal = 95% (from "increasing flow rate leads to higher mixing quality")
+- conditions:
+    - temperature: not explicitly stated, but implied as a condition for the study
+    - residence_time: null (no explicit mention)
+    - flow_rate_reactant_A and B: none mentioned, so use total flow rate
+
+# Parse input string into a dictionary of reaction parameters
+    match = re.search(r"Flow rate (\d+(?:\.\d+)?) mL/min", input_str)
+    if match:
+        flow_rate_total = float(match.group(1))
+    
+    match = re.search(r"T=(\d+°C)", input_str)
+    if match:
+        temperature = int(match.group(1))
+
+    match = re.findall(r"yield (\d+(?:\.\d+)?)%", input_str)
+    yield_optimal = max(map(float, match), default=None)
+
+    # Parse reactor information
+    match = re.search(r"in a (.+?);", input_str)
+    if match:
+        reactor_type = match.group(1).strip()
+    
+    match = re.findall(r"(\d+(?:\.\d+)?) mm", input_str)
+    inner_diameter = max(map(float, match), default=None)
+
+    # Parse reactants and products
+    match = re.search(r"(?<=reactant|catalyst|solvent): (.+)", input_str)
+    if match:
+        name_role = [match.group(1)]
+    
+    match = re.findall(r"(\d+(
+
+{"type": "temperature", "value": f"{temperature_value} °C"}
+
+paragraph = """
+The paragraph describes a flow-chemistry process development for the synthesis of polymers using capillary microreactors. The reaction type is not mentioned explicitly but it involves the polymerization of monomers (Mn and PDI are properties of the resulting polymer). Key reactants/solvent/catalyst: Monomers, solvent (not specified), catalyst (also not specified). Products: Polymers. Reactor details: Capillary microreactors with an inner diameter of 1.016 mm. Critical conditions: Volumetric flow rate = 1.00 mL/min, polymerization temperature = 50 °C, and polymerization time = 7 min. Outcomes: The effect of pre-mixing time on Mn (molecular weight) and PDI (polydispersity index) is studied but no information about conversion, yield or selectivity is provided.
+"""
+
+
+
+
+
+    # Extract conditions
+    flow_rate = float(re.search(r'Volumetric flow rate\s*=\s*(\d+\.\d+)\s*mL/min', paragraph).group(1))
+    temperature = int(re.search(r'temperature\s*=\s*(-?\d+)',
+
+{
+        "reaction_summary": {
+            "reaction_type": reaction_type,
+            "reactants": [{"name": c, "role": "reactant"} for c in compounds],
+            "products": [{"name": p, "yield_optimal": yield_val} 
+                         if (p := re.search(r"(\w+) \((\d+)%\)", input_string).group(1)) else
+                         {"name": None, "yield_optimal": 0}
+
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+# Parse temperature and residence time
+    temp_match = re.search(r"(\d+) °C", input_str)
+    if temp_match:
+        temp_value = int(temp_match.group(1))
+    
+    res_time_match = re.search(r"in (\d+ min)", input_str)
+    if res_time_match:
+        res_time_value = float(res_time_match.group(1))
+
+    # Parse flow rate
+    flow_rate_match = re.search(r"(\d+) mL/min", input_str)
+    if flow_rate_match:
+        flow_rate_value = int(flow_rate_match.group(1))
+    
+    inner_diameter_match = re.search(r"in (\d+ mm)", input_str)
+    if inner_diameter_match:
+        inner_diameter_value = float(inner_diameter_match.group(1))
+
+    # Parse reaction type
+    reaction_type = None
+
+    # Parse reactants and products
+    product_yield_match = re.search(r"yield (\d+)%", input_str)
+    if product_yield_match:
+        yield_optimal = int(product_yield_match.group(1))
+    
+    # Parse conditions (temperature, residence time, flow rate, pressure)
+    temp_condition = {"type": "temperature", "value": f
+
+{"reaction_summary": {"reaction_type": "polymerization", "reactants": [{"name": "monomer", "role": "solvent"}], "products": [{"name": "polymers", "yield_optimal": null, "unit": null}], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": 10}], "reactor": {"type": "microreactor", "inner_diameter": "1.548 mm"}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+{}
+

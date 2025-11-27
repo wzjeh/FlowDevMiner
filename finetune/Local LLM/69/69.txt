@@ -1,0 +1,241 @@
+www.chemistryselect.org
+
+Packed-Bed Microreactor Under Taylor Flow for MOFs Catalyst Testing Demonstrated on Phenylacetylene Hydrogenation
+
+Anchu Ashok+,[a] Wenmiao Chen+,[b] Abdulla Zaza,[a] Sherzod Madrahimov,*[b] and Ma'moun Al-Rawashdeh*[a]
+
+Metal-Organic Frameworks (MOFs) represent a highly promising class of materials with diverse applications, particularly as catalytic materials. However, their synthesis typically yields powders available only at laboratory-scale quantities, usually in the gram range or less. This study addresses the challenge of testing limited amounts of MOF catalysts for demanding applications, such as multiphase gas-liquid-solid reactions in flow, utilizing a packed-bed microreactor. Specifically, we investigate the performance of a nanoparticle (NP) -immobilized Pd@UiO-66 MOF catalyst in the selective semi-hydrogenation of phenylacetylene to styrene, serving as a model reaction. Maintaining the Taylor flow regime upstream of the catalyst bed was crucial to ensure reproducible and reliable experimen- tal results. We conducted 88 experiments at varying liquid flow rates, temperatures ranging from 15 to 45°C, and relative
+
+pressures spanning 0.28 to 8 bar. Styrene selectivity within the range of 80–92.3% was achieved at phenylacetylene conver- sions below 20%. Notably, the optimal condition for styrene selectivity (70%) was attained at 98.9% phenylacetylene conversion under the lowest H2 pressure and highest temper- ature, demonstrating the significance of low H2 concentration for achieving optimal styrene selectivity. Remarkably, the catalyst exhibited stable activity and selectivity over a 20 h testing period, indicating its robust performance under pro- longed reaction conditions. This study demonstrates the potential of the proposed catalyst testing system as a rapid and efficient approach for early-stage exploration studies, particu- larly when limited quantities of catalyst, typically in the gram scale or less, are available.
+
+1. Introduction
+
+advanced catalytic applications can be achieved like electro- catalysis, photocatalysis and tandem catalysis.[14,15] However, the vast array of MOFs necessitates a rapid and efficient method for screening and identifying promising catalysts. Most MOF catalyst testing is currently performed in batch or semi-batch stirred reactors due to their operational simplicity and suitability for testing catalysts available in limited quantities.[16] However, flow reactors offer distinct advantages over batch systems for catalyst testing.[17,18] Microreactors, in particular, have emerged as powerful tools for laboratory experimentation, requiring only milligram quantities of catalysts and enabling rapid and precise screening of various conditions, thus facilitating early-stage exploration studies.[19] Although loading catalysts as powders in fixed packed beds is a straightforward option in microreactors, it poses challenges such as pressure drop limitations and uneven flow distribution.[20,21] Addressing these challenges through additive manufacturing or catalyst coating on channel walls is less viable for early-stage exploration due to the need for substantial material quantities to optimize synthesis recipes, thus making packed bed microreactors the preferred option. While catalyst testing in packed-bed reactors with diameters larger than 4 mm is well-established, significant differences in testing results are observed in reactors with smaller channel diameters, particularly micro-packed-bed reactors, especially in multiphase flow systems.[22–24] Among various flow regimes in microreactors, Taylor flow stands out due to its well-controlled interface, enhanced mixing and heating, and minimized back
+
+Metal-organic frameworks (MOFs) gained momentum in the late 1990's and early 2000's as an emerging class of porous materials with tunable organic linkers and inorganic clusters.[1–4]
+
+According to the Cambridge Structural Database, more than 99,000 different structures of MOFs have been introduced before 2020 showing the significant interest and potential of this material[5–8] MOFs are attractive for many applications such as separation, drug delivery, sensors, separation, and adsorption.[9,10] Thanks to the controllable and modifiable pore space accessible to the substrate, they are also excellent catalysts or catalyst support platforms.[11–13] Through rational design and arrangement of functional ligands and metal nodes,
+
+[a] A. Ashok,+ A. Zaza, M.'m. Al-Rawashdeh Chemical Engineering Department, Texas A&M University at Qatar, Doha, Qatar E-mail: mamoun.al-rawashdeh@qatar.tamu.edu
+
+[b] W. Chen,+ S. Madrahimov Division of Arts and Sciences, Texas A&M University at Qatar, Doha, Qatar E-mail: sherzod.madrahimov@qatar.tamu.edu
+
+[+] Both authors contributed equally to this work
+
+Supporting information for this article is available on the WWW under https://doi.org/10.1002/slct.202400978
+
+© 2024 The Authors. ChemistrySelect published by Wiley-VCH GmbH. This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.
+
+ChemistrySelect 2024, 9, e202400978 (1 of 12) © 2024 The Authors. ChemistrySelect published by Wiley-VCH GmbH
+
+2. Methods and Procedures
+
+mixing and axial dispersion, offering consistent measurements during catalyst testing.[25] Annular flow represents another promising regime for this purpose. Selective hydrogenation of alkynes to alkenes is a critical class of reactions with widespread industrial applications. Supported Pd NPs are commonly employed for selective hydrogenation, although unmodified Pd NPs exhibit high activity for alkyne conversion with low selectivity towards alkenes due to over-hydrogenation.[26–29] Modification of the Pd catalyst or its chemical environment can enhance selectivity towards desired intermediate products.[30,31] MOFs, with their ordered structure and tunable pores,[31,32] serve as excellent supzports for NPs with controlled sizes.[33–36] For instance, when Pd was deposited on MOF-5 by the incipient wetness method to form Pd-MOF-5, the material showed higher activity for the hydrogenation of styrene than conventional Pd/C catalysts.[37]
+
+2.1. Synthesis of UiO-66
+
+To accommodate larger size of metal nano particles in the final catalyst, defective UiO-66 is synthesized with hierarchical porosity in this work. UiO-66 was synthesized according to previously reported procedures by the direct sonication of 0.227 mmol (0.053 g) of ZrCl4, 26.5 mL, 340 mmol of N,N‘- dimethylformamide (DMF) and 0.227 mmol (0.038 g) of 1,4- benzenedicarboxylic acid (H2BDC) in a 100 mL Schott glass bottle for 20 min sonication at room temperature.[41,55] The obtained mixture was sealed with screw tape to proceed with the crystallization and kept in an oven with a pre-heating temperature of 120°C for 24 h. After cooling at room temper- ature, the dried particles were filtered and washed subse- quently with DMF and ethanol to remove the residuals. The collected particles were dried at room temperature until the water vapor evaporated to obtain UiO-66.
+
+Due to the pore confinement effect, metal NPs are embedded in the MOFs pore with controllable sizes,[36] which leads to improved activity and selectivity in oxidation and hydrogena- tion applications.[38–40] One of the MOF types that received significant attention as a catalytic material is Zirconium-based MOFs such as UiO-66 due to their good chemical and mechanical stability.[9,41] It has been successfully used as a catalytic material for a variety of reactions such as Suzuki coupling,[42,43] carbon dioxide hydrogenation,[44] methanation,[45]
+
+2.2. Synthesis of Pd@UiO-66
+
+3 wt% Pd over UiO-66 was synthesized by the conventional wetness impregnation method of loading UiO-66 with aqueous PdCl2.[56,57] A 250 mg of freshly grounded UiO-66 was placed in a vial and 350 μL of aqueous PdCl2 solution (7.12×10  5 M) was added dropwise to ensure the complete impregnation of the support with the aqueous PdCl2 solution. Then the mixture was reduced by 5 mL NaBH4 solution (0.1 M) for 30 min, during which the grey particles turned black. The resulting slurry was washed with ethanol aqueous solution (volume ratio 1:1) and dried overnight under air at 80°C to obtain Pd-supported UiO- 66 (Pd@UiO-66).
+
+prisn reaction,[46] dehydrogenation,[47] and ethanol upgrading reaction.[48]
+
+While selective hydrogenation has been successfully con- ducted in microreactors with controlled conversion and selectivity using homogeneous catalysts or heterogeneous catalysts in the form of beads, extrudates, or catalyst-coated channel walls, packed-bed powder catalyst testing in micro- reactors for multiphase flow remains least explored in the literature.[49–54]
+
+This study aims to address two main objectives. Firstly, to evaluate an approach for testing catalysts available only at gram scale or less for demanding multiphase gas-liquid-solid reactions in a flow reactor system. Secondly, to demonstrate the potential and capability of MOF-based catalysts for selective hydrogenation in a gas-liquid-solid reactor. Specifically, a packed-bed microreactor operated under a gas-liquid Taylor flow regime is employed for the selective hydrogenation of phenylacetylene to styrene, utilizing UiO-66 containing Pd NPs embedded in the pores as the catalyst. The study explores the operating window and requirements for packing MOF catalysts in the microreactor, with a focus on maintaining Taylor flow for reproducible results. The reaction performance is evaluated under various liquid flow rates, temperatures, and pressures, including long-time on-stream testing to check catalyst stabil- ity.
+
+2.3. Material Characterization
+
+The crystallinity of the synthesized Pd@UiO-66 was analyzed using X-ray Diffractometer, XRD (Rigaku Ultima IV Multipurpose) equipped with Cu  Ka radiation at 40 kV in the range of 5–70° with 0.02° step. The morphology and elemental composition of the synthesized particle were imaged using scanning electron microscopy, SEM (Thermo Fisher Scientific) coupled with an Energy-Dispersive Spectroscopy, EDS (Ultra Dry EDS) with Path- finder analysis software. The surface property and oxidation state of the catalyst were identified using X-Ray Photoelectron Spectroscopy, XPS (Kratos, AXIS Ultra DLD).
+
+2.4. Catalyst Packing
+
+The as-synthesized Pd@UiO-66 powder was converted to pellets using a hydraulic press with a load of 10 tons for 1 min. The large pellets were crushed and sieved to obtain the particle range between 0.015–0.03 cm by size. 48 mg of the sieved fraction was loaded in 1/8 inch capillary microreactor made of
+
+ChemistrySelect 2024, 9, e202400978 (2 of 12) © 2024 The Authors. ChemistrySelect published by Wiley-VCH GmbH
+
+the selectivity of styrene (SST, %) is calculated as shown in Equation (2), where n is the number of moles.
+
+polymeric visible tubing (Fluoroploymer) with an internal diameter of 2.1 mm and 16 cm long. The catalyst bed length was 1.3 cm loaded in between quartz wool on both sides.
+
+XPA; % ¼ nPAin   nPAout
+
+nPAin (1)
+
+2.5. Experimental Set-Up and Testing Conditions
+
+SST; % ¼ nST nPAin   nPAout (2)
+
+Figure 1 shows the loaded Pd@UiO-66 reactor connected in the experimental set-up. The H2 gas flow was controlled using a mass flow controller (Bronkhorst). The phenylacetylene solution flow was controlled by a syringe pump (KF Technology). Phenylacetylene 99.9% (Aldrich Chemical Company) was used and diluted with methanol solvent 99.9% (Aldrich Chemical Company) to reach the target concentration. The gas and liquid feed are mixed before feeding into the packed-bed micro- reactor. The microreactor was immersed in a water bath and placed over a hot plate heater to control the reaction temper- ature. The pressure was regulated with a back-pressure regulator connected to the gas outlet line. A gas-liquid gravity separator was used to separate the unreacted H2 from the liquid stream. The collected liquid was analyzed using GC-FID autosampler to identify the formation of concentration of phenylacetylene (PA), styrene (ST), and ethylbenzene (EB). The phenylacetylene conversion (XPA, %) is calculated as shown in Equation (1) and
+
+Table S1 (in supplementary file) shows the experimental conditions used in this work. In total 8 temperature and pressure set points were tested at different liquid flow rates (0.1 to 4 mL/min) which resulted in collecting 88 experimental data points. Phenylacetylene concentration at 0.2 mol/L, and H2 flow at 5 mL/min were kept fixed in this work. Before each reaction, H2 was passed over the catalyst for 15 min under the tested reaction conditions. No further pretreatment or catalyst activa- tion steps were required. The reaction started when feeding the phenylacetylene liquid solution.
+
+2.6. Taylor Flow Regime
+
+Figure 2(a) shows images of the Taylor flow that passes to the packed bed microreactor used in this work at different liquid
+
+Figure 1. Experimental set-up of a microreactor for the selective hydrogenation of phenylacetylene at a wide operating temperature and pressure.
+
+Figure 2. (a) Images of Ta8ylor flow regime upfront of the packed bed microreactor used in this work. (b) Flow regimes of gas-liquid flow in a microreactor channel modified from.[25]
+
+ChemistrySelect 2024, 9, e202400978 (3 of 12) © 2024 The Authors. ChemistrySelect published by Wiley-VCH GmbH
+
+synthesized Pd@UiO-66 using SEM. The surface is relatively smooth with some voids and channels between the particles. Figure 3(c–f) shows the EDX elemental mapping for the Pd@UiO-66 and line mapping profile in the selected region for Zr and Pd in Figure 3(g–h). It confirms the uniform distribution of Pd, Zr, and O on the microcrystal surface. Each particle is not visible due to some level of agglomeration. The presence of Pd(0) species was further confirmed by X- ray photoelectron spectroscopy (XPS) analysis as shown in Figure 4. The XPS deconvolution peak in Figure 4a shows two Pd peaks corresponding to Pd 3d3/2 and Pd 3d5/2 at 340.9 eV and 335.4 eV confirming the presence of metallic Pd species in Pd@UiO-66. The XPS spectrum of Zr 3d shows binding energy at around 182.6 and 185.1 eV, which was ascribed to the Zr-oxo cluster showing the stability of UiO-66 upon Pd being doped into the inner void of UiO-66 rather than making an alloy with the parent MOF.[58] The loading of Pd(0) NPs in Pd@UiO-66 was in line with the HR-TEM (High-resolution transmission electron microscopy) analysis. Figure 5(a and c) shows the presence of Pd NPs both on the surface and within MOF matrix. The NPs on the surface are bigger and more disordered with an average size of around 13 nm (standard deviation of 2.9 nm) while the trapped NPs are evenly distributed with an average size of around 5.1 nm (standard deviation 0.8 nm in Figure 5b). This illustrates the pore-confinement effect of MOFs
+
+flow rates with a fixed gas flow rate. Figure 2(b) shows a flow regime map for gas-liquid flow in a microchannel reactor with an emphasis on the Taylor flow regime. Before performing the catalytic experiments, a study was carried out to define the upper and lower flow rates to maintain the Taylor flow regime before the feed reaches the catalyst bed. Maintaining a stable flow regime was essential to get reproducible catalyst testing results.
+
+3. Result and Discussion
+
+3.1. Catalyst Characterization
+
+The X-ray diffraction (XRD) analysis confirmed the crystallinity of the synthesized particles (UiO-66 & Pd@UiO-66) as shown in Figure 3(a). The well-indexed diffraction peaks in the XRD pattern match the simulated peaks of UiO-66, indicating the successful synthesis of MOFs. The XRD pattern of Pd@UiO-66 shows a high level of crystallinity indicating the stability of the framework in UiO-66 even after impregnating it with Pd NPs. The characteristics of the diffraction peak of Pd NPs are not visible due to the low Pd loading, encapsulation of Pd NPs into the pores of UiO-66, and high dispersion on the metal-organic framework.[45] Figure 3b shows the morphology of the as-
+
+Figure 3. a) XRD profile of simulated, as-synthesized UiO-66, and as-synthesized Pd@UiO-66) SEM micrograph of Pd@UiO-66 along with c–f) EDX elemental mapping spectrum and (g–h) line mapping profile in the selected region for Zr and Pd.
+
+ChemistrySelect 2024, 9, e202400978 (4 of 12) © 2024 The Authors. ChemistrySelect published by Wiley-VCH GmbH
+
+Figure 4. XPS deconvolution spectrum of a) Pd 3d in Pd@UiO-66 and b) Zr 3d in UiO-66 and Pd@UiO-66.
+
+Figure 5. TEM images for the Pd@UiO-66 (a and c); HRTEM image (d); and (b) corresponding size distribution of Pd NPs.
+
+ChemistrySelect 2024, 9, e202400978 (5 of 12) © 2024 The Authors. ChemistrySelect published by Wiley-VCH GmbH
+
+to modulate the size and distribution of metal NPs. The encapsulated NPs showed vague lattice fringes, which is due to the charging of electron beam for small particles and low penetration distance.[59] In addition, it can be observed that most of the larger Pd particles dispersed on the surface of the Pd@UiO-66 have clear lattice fringes (Figure 5c and d). The average lattice fringes of d=0.221 nm can be ascribed to the (111) facet of Pd. N2 adsorption isotherm indicates hysteresis loop showing mesoporosity, and the BET surface area of 727 m2/g is measured (Figure S1a). From the pore size distribution we observe both microporosity less than 2 nm and mesoporosity around 5 nm and beyond as shown in Figure S1b.[60,61] This matches well with the size of Pd NPs above. After loading of Pd NPs, the BET surface area decreased to 300 m2/g, with decrease in meso- porosity, which is in line with the blocked pore by Pd. Shown in Figure S1c.
+
+The initial selectivity to ST is plotted versus the rate of PA and EB as shown in Figure 6. The ST selectivity to PA does not change much at different conditions, but it does for the ST selectivity to EB. This demonstrates the influence of the operating conditions to optimize the ST selectivity. Also, it proves that this testing system and approach can capture variation in reaction systems at different conditions. Doing this in a batch reactor system will be tedious and would require a larger amount of catalyst quantity. The highest obtained ST selectivity to EB is observed at lower temperatures and moderate pressures. This could indicate the balance that needs to be carried out on the available hydrogen concentration in the system as reported in the literature for a similar reaction system.[64] Further elaborating on the selectivity trends and their explanations will be given in section 3.4.
+
+3.3. Catalyst Performance
+
+3.2. Initial Rate of Reactions Analysis
+
+Figure 7 shows the concentration of PA, ST, and EB versus the liquid space-time (calculated as the mass of catalyst divided by the liquid flow rate, kgcat.min/L) at a fixed pressure of 0.28 bar in (a–c), fixed pressure of 3 in (d–f) and varying pressure from 3– 8 bar at 30°C in (g–i). The experimental results follow a similar trend as that observed in the literature for the three species. In all the experiments, the PA is first consumed to make ST and at a certain moment, EB starts to form. There is a specific space- time at which the maximum amount of ST is being formed which depends on the adopted experimental conditions. Ideally, these optimal conditions are best achieved when the PA conversion is high which is not the case here. More details on the selectivity-conversion performance will be analyzed in the next section.
+
+The initial rate of reaction for phenylacetylene is calculated and plotted for all tested operating conditions as shown in Figure 6. For all conditions, the rate of reaction was the highest for phenylacetylene, followed by styrene, and then ethylbenzene. Increasing the pressure and temperature, in the beginning, increases the initial rate of reaction in a linear way. However, it started to level off at higher pressures and temperatures, indicating that the rate of reaction started to reach a limit. At higher temperatures, this explained by the balance reached between increasing the rate of reaction with the reduced H2 solubility. The balance reached at higher pressures indicating that the rate of the reaction could be limited by another factor. Most probably this is caused by the rate of internal mass transfer which is dominant for larger catalyst particle sizes, larger than tenths of micrometers.[62] Using the trend for the initial increase in PA rate, a reaction order of one can be assumed for hydrogen and PA which matches the literature.[63]
+
+Figure 6. Influence of initial rate of reactions (r) and selectivity phenylacetylene styrene (SST) and ethylbenzene (SEB). (a) results at different pressures at T=30°C, and (b) results at different temperatures at P=0.28 bar (open symbols) and P=3 bar (filled symbols).
+
+ChemistrySelect 2024, 9, e202400978 (6 of 12) © 2024 The Authors. ChemistrySelect published by Wiley-VCH GmbH
+
+Figure 7. Parametric study at different operating conditions by varying temperature from 15–45°C at (a–c) 0.28 bar (d–f) 3 bar and (g–i) varying the relative pressure from 3–8 bar at 30°C.
+
+3.4. Selectivity-Conversion Performance
+
+lowest H2 pressure of 0.28 bar, it indicates that the best ST selectivity is reached with the lowest H2 concentration. This result is in agreement with a previously reported work which showed that controlling the H2 concentration is essential for maximizing the ST selectivity.[64]
+
+Figure 8 shows the styrene selectivity as a function of phenyl- acetylene conversion under various operating conditions. Initially, only the experimental data in Figure 7 were plotted. A general trend is observed in all tested conditions. Styrene selectivity initially increases with conversion, passes through a maximum then decreases. Styrene (ST) selectivity between 80– 92.3% is reached when the PA conversion was below 20%. The best-achieved results were reached with the lowest tested hydrogen pressure of 0.28 bar for all tested temperatures 15–45°C. Because of that, extra experimental testing was carried out at this pressure as initially only the experimental data in Figure 7 were plotted. The extra tests were conducted by increasing the space-time to reach higher PA conversion. The fully updated results are shown in Figure 9 and their selectivity is added to Figure 8. Indeed, this resulted in the best- achieved ST selectivity of 70% at a high PA conversion of 98.9%. This result is reached when using the highest tested temperature of 45°C. Since this was also reached with the
+
+To benchmark the Pd@UiO-66 catalyst as a selective hydro- genating catalyst, a similar Pd/Al2O3 catalyst from the literature is shown in Figure 8(d). In that test, different Pd NP sizes were tested at similar conditions for the same hydrogenation reaction.[30] The result from this work follows a similar trend as that from the literature. However, they have higher values for ST selectivity and better results at higher PA conversion. Their work was done at optimal conditions of Pd particle size and with no internal mass transfer limitation. The work of Vergunst et. al,[62] showed that internal mass transfer has a major influence on the yield and selectivity of ST and EB. This is also evidenced in the work Cherkasov et. al,[23] who showed a reduction in the performance of the same catalysts in the micro-packed bed reactor compared to the coated capillary. Evaluating the effect of mass transfer limitation requires testing
+
+ChemistrySelect 2024, 9, e202400978 (7 of 12) © 2024 The Authors. ChemistrySelect published by Wiley-VCH GmbH
+
+Figure 8. Conversion vs selectivity profile on Pd@UiO-66 by varying the reaction temperature from 15–45°C at (a) 3 bar (b) 0.28 bar, (c) varying the reaction pressure from 0.28–8 bar at 30°C, and (d) is a result from the literature for a Pd catalyst at similar conditions to be used as a reference case.[30]
+
+Figure 9. Concentrations vs space-time at different temperatures from 15–45°C for a fixed pressure of 0.28 bar.
+
+ing the well-accessible sites for selective hydrogenation.[65,66] Pd NP size and pore structure can also be robustly controlled. Also, recent work has reported that trapping chiral frustrated Lewis pairs in MOF is a way to go for achieving asymmetric hydrogenation.[67] All of these are promising approaches toward achieving an excellent MOF-based selective semi-hydrogena- tion catalyst.
+
+the catalyst at different particle sizes, velocities, and temper- atures which are outside the scope of this work. This is best carried out in the future using well-established catalyst systems. Within the tested conditions, the current Pd@UiO-66 catalyst is not the most selective semi-hydrogenation catalyst. However, the high chemical and topological tunability of MOF can be used to influence the catalyst activity and selectivity. For example, the microenvironment of encapsulated particles could be engineered by synthetic modification of the linker, optimiz-
+
+ChemistrySelect 2024, 9, e202400978 (8 of 12) © 2024 The Authors. ChemistrySelect published by Wiley-VCH GmbH
+
+3.5. Catalyst Long-Term Stability
+
+our work. Additionally, we highlight our reactor system and approach to do early-stage screening of catalytic materials. Clearly, the predominant choice of reactor for testing new catalysts in the literature is batch reactor, typically utilizing milligram quantities of catalyst. However, a common limitation across reported batch reactor studies can be clearly observed. Test conditions are often constrained to fixed values of temper- ature, pressure, and concentration, with only a single work presenting an extensive analysis across a broad spectrum of conditions (17 variations in temperature, pressure, and concen- tration). Furthermore, reaction times in batch reactors typically span from minutes to hours, with none achieving reaction times on the scale of seconds. Catalyst stability assessments in batch reactors typically involve multiple reuse experiments, ranging from 3 to 6 cycles. In contrast, flow reactor testing proofs valuable to address these raised limitations. In all reported studies, flow reactors offer distinct advantages by enabling testing across a broader range of temperature, pressure, and concentration conditions, while also facilitating extended time- on-stream stability testing, with residence times ranging from seconds to minutes, and in some instances, hours. However, flow reactor introduces additional complexity, particularly when processing gas-liquid-solid multiphases reaction system. Our study highlighted this critical factor that is why maintaining Taylor flow was essential to get reproducible results. Regarding the performance of the Pd@UiO-66 catalyst in this work, it exhibits satisfactory conversion, selectivity, and stability compared to other reported catalysts, even under milder reaction conditions. Notably, the entire reaction process occurs within seconds, a departure from the typical literature reports, and multiple conditions were evaluated smoothly, including effective time-on-stream stability testing, demonstrat- ing the efficiency of flow reactor-based approaches over tradi- tional batch methods.
+
+The stability of the Pd@UiO-66 MOF catalyst in the selective hydrogenation of phenylacetylene was assessed through a 20 h continuous time on stream run under optimized conditions, as shown in Figure 10. Performance analysis was conducted at 2 h intervals throughout the duration of the run, revealing no measurable decrease in phenylacetylene conversion or styrene selectivity. This observation demonstrates the promising stabil- ity and durability of the Pd@UiO-66 catalyst. Subsequent XRD analysis of the post-reaction sample exhibited peak profiles closely matching those of the fresh catalyst and simulated UiO-66 structure, as illustrated in Fig- ure S2. Furthermore, TEM analysis of the spent catalyst Fig- ure S3 revealed no evidence of Pd NP agglomeration or loss, further corroborating the catalyst's robust stability. The ease with which time-on-stream experiments were conducted in the microreactor system highlights yet another advantage over batch reactor systems. This capability is essential for comprehensive evaluation and development of catalytic MOF materials. Notably, the entire testing procedure for all 88 experimental datapoints and time on stream testing was executed using less than 50 mg of catalyst, showcasing the scalability and potential of this approach for efficient screening and testing of novel catalytic materials on a small scale.
+
+3.6. Comparative Analysis to Literature
+
+A recent benchmarking review table focusing on the semi- hydrogenation of phenylacetylene across various catalyst compositions has been published in the literature.[68] In this study, Table 1 presents a comprehensive comparative analysis that enriches existing data by elucidating the testing method- ologies and performance metrics of catalysts reported in the literature, with a specific emphasis on phenylacetylene, en- abling a benchmarking framework for the catalyst employed in
+
+4. Conclusions
+
+This study pursued two primary objectives. Firstly, to assess a methodology for testing catalysts available at gram scale or less for multiphase gas-liquid-solid reactions. Secondly, to showcase the potential and efficiency of MOF-based catalysts for selective hydrogenation within such a reactor. Specifically, we inves- tigated the performance of an immobilized Pd@UiO-66 MOF catalyst in the selective hydrogenation of phenylacetylene to styrene, serving as a model reaction. The experimental setup involved a capillary microreactor packed with the MOF catalyst powder. Maintaining the Taylor flow regime was crucial for achieving reproducible results. Through systematic optimiza- tion, it was determined that a sieved particle size ranging from 150 to 300 μm, packed within a 2.1 mm internal diameter tubing, minimized pressure drop and ensured smooth flow within the reactor. This system facilitated flow testing using less than 50 mg of catalyst across a wide range of conditions, demonstrating that it is highly efficient for early-stage explora- tion studies. Figure 10. Stability of Pd@UiO-66 for 20 h continuous test run at fixed conditions of Temperature: 30°C, relative Pressure: 0.28 bar, liquid flow rate: 0.08 ml/min, hydrogen flow rate: 5 ml/min.
+
+ChemistrySelect 2024, 9, e202400978 (9 of 12) © 2024 The Authors. ChemistrySelect published by Wiley-VCH GmbH
+
+Table 1. Recent work on the literature for testing new catalysts for semi-hydrogenation reactions with focus on phenylacetylene.
+
+Catalyst Name X% S% [a] No. cond T,P,C T°C P bar Wcat mg Residence Ƭime Reactor type Reactor phases Stability, Reuse Ref.
+
+Pd@Zn-MOF-74 10– 100– atm 0.5–48 h batch G  L-S 1 cycle [69]
+
+MOF-74@- (Pd@Fe2O3) 15–82 92.6 atm 0–60 min batch G  L-S 5 cycles [70]
+
+Ru3@ZIF-8 batch G  L-S 5 cycles [71]
+
+UiO-67@Pd@UiO- 91.1 2.5 25–500 min batch G  L-S 5 cycles [33]
+
+Pt/MIL-88(Fe) 99.9 80– atm 5 h batch G  L-S 3 cylces [72]
+
+PdO/Pd/CPYMO 60–90 >95 1.5 0–30 min batch G  L-S 3 cycles [73]
+
+Pd/C 40–90 >90 4.8 0–30 min batch G  L-S 3 cycles [73]
+
+PdRu@ZIF-8 40–98 2.5 2 h batch G  L-S 5 cycles [74]
+
+Pd1/SAPO-31 >90 >80 30– atm 0–40 min batch G  L-S 6 cycles [75]
+
+[76]
+
+Pt@X-zeolite 30–93 >80 40– 1– 6 h batch G  L-S cycles
+
+Pt@Y-SOD >90 na batch G  L-S na [77]
+
+Ni@C-300 40– >90 atm 1 h flow G  L-S 7 h TOS [78]
+
+[32]
+
+0–100 80– 40– atm 1–5 s flow G-S 12 h TOS
+
+PdZn-1.2@ZIF-8C [a]Actylene to ethylene
+
+[77]
+
+Pt@Y-SOD 40–50 >80 na flow G  L-S 70 h TOS
+
+UiO66(Hf) 60– 99.9 99– 60– atm 1–6 h flow G  L-S 5 h TOS [68]
+
+Pd@UiO-66 0– 98.8 88– 25– 0.2– 1–5s flow G-L-S 20 h TOS This work
+
+[a] Number of experimental conditions used in the reported work as temperature, pressure, and concentration.
+
+A notable advantage of this reactor system was demon- strated through obtaining 88 experimental data point efficiently at wide range of conditions, and a continuous 20 h test run on stream which cannot be done in a typical batch reactor testing system, with no discernible loss in conversion or selectivity observed. The performance of the Pd@UiO-66 MOF catalyst followed a conversion-selectivity trend like other Pd-based catalysts for selective hydrogenation. Notably, it displays high activity with short residence time at the scale of seconds even at lower value of operating temperature and pressure. The best result with high PA conversion of 98.9% was at 70% ST selectivity, while maximum selectivity was of 92.3% was reached for PA conversion less than 20%. The lowest H2 pressure bar and highest temperature demonstrating the importance of having low H2 concentration on ST selectivity as claimed in the literature. Although the tested MOF catalyst in this study was not optimized and exhibited lower selectivity-conversion perform-
+
+ance compared to similar reported Pd catalysts, future work can take full potential to optimize Pd NP size and leverage the chemical and topological tunability of MOFs to develop superior selective hydrogenation catalysts. This study demon- strates the potential of the proposed catalyst testing system as a rapid and efficient approach for early-stage exploration studies, particularly when limited quantities of catalyst, typically in the gram scale or less, within a flow reactor system. This will benefit not only MOF catalysts, but many other promising catalytic materials still at the laboratory stage with restricted quantities.
+
+Acknowledgements
+
+This work was made possible by the financial support of the NPRP award (NPRP13S-0213-200353) funded Qatar National Research Fund (QNRF), and startup funding from Texas A&M
+
+ChemistrySelect 2024, 9, e202400978 (10 of 12) © 2024 The Authors. ChemistrySelect published by Wiley-VCH GmbH
+
+University Qatar. Texas A&M University at Qatar Open Access publishing facilitated by the Qatar National Library, as part of the Wiley - Qatar National Library agreement.
+
+[28] T. Mitsudome, T. Urayama, K. Yamazaki, Y. Maehara, J. Yamasaki, K. Gohara, Z. Maeno, T. Mizugaki, K. Jitsukawa, K. Kaneda, ACS Catal. 2016, 6, 666–670. [29] Y. Kuwahara, H. Kango, H. Yamashita, ACS Catal. 2019, 9, 1993–2006. [30] P. V. Markov, I. S. Mashkovsky, G. O. Bragina, J. Wärnå, E. Y. Gerasimov, V. I. Bukhtiyarov, A. Y. Stakheev, D. Y. Murzin, Chem. Eng. J. 2019, 358, 520–530. [31] R. V. Maligal-Ganesh, Y. Pei, C. Xiao, M. Chen, T. W. Goh, W. Sun, J. Wu, W. Huang, ChemCatChem 2020, 12, 3022–3029. [32] M. Hu, S. Zhao, S. Liu, C. Chen, W. Chen, W. Zhu, C. Liang, W. C. Cheong, Y. Wang, Y. Yu, Q. Peng, K. Zhou, J. Li, Y. Li, Adv. Mater. 2018, 30, 1801878. [33] K. Choe, F. Zheng, H. Wang, Y. Yuan, W. Zhao, G. Xue, X. Qiu, M. Ri, X. Shi, Y. Wang, G. Li, Z. Tang, Angew. Chemie - Int. Ed. 2020, 59, 3650– 3657. [34] X. P. Yin, S. F. Tang, C. Zhang, H. J. Wang, R. Si, X. L. Lu, T. B. Lu, J. Mater. Chem. A 2020, 8, 20925–20930. [35] Y. Takahashi, N. Hashimoto, T. Hara, S. Shimazu, T. Mitsudome, T. Mizugaki, K. Jitsukawa, K. Kaneda, Chem. Lett. 2011, 40, 405–407. [36] A. Dhakshinamoorthy, A. M. Asiri, H. Garcia, ChemCatChem 2020, 12, 4732–4753. [37] M. Sabo, A. Henschel, H. Fröde, E. Klemm, S. Kaskel, J. Mater. Chem. 2007, 17, 3827–3832. [38] X. Zhang, F. Bi, Z. Zhao, Y. Yang, Y. Li, L. Song, N. Liu, J. Xu, L. Cui, J. Catal. 2022, 413, 59–75. [39] F. Bi, X. Zhang, J. Chen, Y. Yang, Y. Wang, Appl. Catal. B Environ. 2020, 269, 118767. [40] A. Dhakshinamoorthy, S. Navalón, A. Primo, H. García, Angew. Chemie - Int. Ed. 2024, 136, e202311241. [41] J. H. Cavka, S. Jakobsen, U. Olsbye, N. Guillou, C. Lamberti, S. Bordiga, K. P. Lillerud, J. Am. Chem. Soc. 2008, 130,13850–13851. [42] W. Dong, C. Feng, L. Zhang, N. Shang, S. Gao, C. Wang, Z. Wang, Catal. Lett. 2016, 146, 117–125. [43] W. Chen, P. Cai, P. Elumalai, P. Zhang, L. Feng, M. Al-Rawashdeh, S. T. Madrahimov, H. C. Zhou, ACS Appl. Mater. Interf. 2021, 13, 51849–51854. [44] X. Jiang, X. Nie, X. Guo, C. Song, J. G. Chen, Chem. Rev. 2020, 15, 7984– 8034. [45] H. Jiang, Q. Gao, S. Wang, Y. Chen, M. Zhang, J. CO2 Util. 2019, 31, 167– 172. [46] M. Opanasenko, A. Dhakshinamoorthy, Y. K. Hwang, J. S. Chang, H. Garcia, J. Čejka, ChemSusChem 2013, 6, 865–871. [47] M. Liu, J. Wu, H. Hou, Chem. - A Eur. J. 2019, 25, 2935–2948. [48] D. Jiang, G. Fang, Y. Tong, X. Wu, Y. Wang, D. Hong, W. Leng, Z. Liang, P. Tu, L. Liu, K. Xu, J. Ni, X. Li, ACS Catal. 2018, 8, 11973–11978. [49] A. Behr, M. Halama, L. Domke, Chem. Eng. Res. Des. 2017, 123, 23–34. [50] H. Tian, F. Huang, Y. Zhu, S. Liu, Y. Han, M. Jaroniec, Q. Yang, H. Liu, G. Q. M. Lu, J. Liu, Adv. Funct. Mater. 2018, 28, 1801737. [51] J. Li, R. Ma, S. Yao, D. Qin, Y. Lu, Y. Chen, Z. Jiang, D. Yang, Small Struct. 2023, 4, 2300137. [52] P. Elumalai, N. Elrefaei, W. Chen, M. Al-Rawashdeh, S. T. Madrahimov, Catalysts 2020, 10, 1159. [53] N. Cherkasov, M. Al-Rawashdeh, A. O. Ibhadon, E. V. Rebrov, Catal. Today 2016, 273, 205–212. [54] M. Al-Rawashdeh, J. Zalucky, C. Müller, T. A. Nijhuis, V. Hessel, J. C. Schouten, Ind. Eng. Chem. Res. 2013, 52, 11516–11526. [55] W. Morris, W. E. Briley, E. Auyeung, M. D. Cabezas, C. A. Mirkin, J. Am. Chem. Soc. 2014, 136, 7261–7264. [56] R. Lippi, S. C. Howard, H. Barron, C. D. Easton, I. C. Madsen, L. J. Waddington, C. Vogt, M. R. Hill, C. J. Sumby, C. J. Doonan, D. F. Kennedy, J. Mater. Chem. A 2017, 5, 12990–12997. [57] Y. Hu, Y. Mei, B. Lin, X. Du, F. Xu, H. Xie, K. Wang, Y. Zhou, RSC Adv. 2020, 11, 48–56. [58] J. Cui, X. Xu, L. Yang, C. Chen, J. Qian, X. Chen, D. Sun, Chem. Eng. J. 2020, 395, 125174. [59] L. Shen, W. Wu, R. Liang, R. Lin, L. Wu, Nanoscale 2013, 5, 9374–9382. [60] F. Bi, X. Feng, Z. Zhou, Y. Zhang, J. Wei, L. Yuan, B. Liu, Y. Huang, X. Zhang, Chem. Eng. J. 2024, 485, 149776. [61] F. Bi, S. Ma, B. Gao, B. Liu, Y. Huang, R. Qiao, X. Zhang, Fuel 2024, 357, 129833. [62] T. Vergunst, F. Kapteijn, J. A. Moulijn, Ind. Eng. Chem. Res. 2001, 40, 2801–2809. [63] B. A. Wilhite, M. J. McCready, A. Varma, Ind. Eng. Chem. Res. 2002, 41, 3345–3350. [64] V. R. Bakuru, D. Samanta, T. K. Maji, S. B. Kalidindi, Dalt. Trans. 2020, 49, 5024–5028.
+
+Conflict of Interests
+
+The authors declare no conflict of interest.
+
+Data Availability Statement
+
+The data that support the findings of this study are available from the corresponding author upon reasonable request.
+
+Keywords: Catalyst testing · Metal-organic-framework (MOF) · Microreactor · Selective hydrogenation · and Taylor flow
+
+[1] H. Li, M. Eddaoudi, M. O'Keeffe, O. M. Yaghi, Nature 1999, 402, 276–279. [2] H. C. Zhou, J. R. Long, O. M. Yaghi, Chem. Rev. 2012, 112, 673–674. [3] R. J. Kuppler, D. J. Timmons, Q. R. Fang, J. R. Li, T. A. Makal, M. D. Young, D. Yuan, D. Zhao, W. Zhuang, H. C. Zhou, Coord. Chem. Rev. 2009, 253, 3042–3066. [4] O. M. Yaghi, M. O'Keeffe, N. W. Ockwig, H. K. Chae, M. Eddaoudi, J. Kim, Nature 2003, 423, 705–714. [5] H. Daglar, S. Keskin, Coord. Chem. Rev. 2020, 422, 213470. [6] A. H. Chughtai, N. Ahmad, H. A. Younus, A. Laypkov, F. Verpoort, Chem. Soc. Rev. 2015, 44, 6804–6849. [7] A. Bavykina, N. Kolobov, I. S. Khan, J. A. Bau, A. Ramirez, J. Gascon, Chem. Rev. 2020, 16, 8468–8535. [8] Y. Wen, J. Zhang, Q. Xu, X. T. Wu, Q. L. Zhu, Coord. Chem. Rev. 2018, 376, 248–276. [9] S. Yuan, L. Feng, K. Wang, J. Pang, M. Bosch, C. Lollar, Y. Sun, J. Qin, X. Yang, P. Zhang, Q. Wang, L. Zou, Y. Zhang, L. Zhang, Y. Fang, J. Li, H. C. Zhou, Adv. Mater. 2018, 30, 1704303. [10] S. Ma, Z. Zhou, Y. Zhang, R. Rao, H. Han, J. Liang, Z. Zhao, F. Bi, N. Liu, X. Zhang, Sep. Purif. Technol. 2024, 339, 126636. [11] V. Pascanu, G. González Miera, A. K. Inge, B. Martín-Matute, J. Am. Chem. Soc. 2019, 141, 7223–7234. [12] L. Oar-Arteta, T. Wezendonk, X. Sun, F. Kapteijn, J. Gascon, Mater. Chem. Front. 2017, 1, 1709–1745. [13] Z. Lu, L. Guo, Q. Shen, F. Bi, C. Li, X. Zhang, Sep. Purif. Technol. 2024, 340, 126772. [14] A. Dhakshinamoorthy, A. M. Asiri, H. García, Trends Chem. 2020, 2, 454– 466. [15] X. Zhang, B. Gao, R. Rao, F. Bi, C. Li, K. Yue, Y. Wang, J. Xu, X. Feng, Y. Yang, J. Colloid Interf. Sci. 2024, 660, 423–439. [16] F. Kapteijn, J. A. Moulijn, Handb. Heterog. Catal. (eds G. Ertl, H. Knözinger, F. Schüth and J. Weitkamp). https://doi.org/10.1002/ 9783527610044.hetcat0108, 2008, 2019–2045. [17] C. Holtze, R. Boehling, Curr. Opin. Chem. Eng. 2022, 36, 100798. [18] A. Dhakshinamoorthy, S. Navalon, A. M. Asiri, H. Garcia, Chem. Commun. 2019, 56, 26–45. [19] J. P. McMullen, K. F. Jensen, Annu. Rev. Anal. Chem. 2010, 3, 19–42. [20] J. Keybl, K. F. Jensen, Ind. Eng. Chem. Res. 2011, 50, 11013–11022. [21] A. Tanimu, S. Jaenicke, K. Alhooshani, Chem. Eng. J. 2017, 327, 792–821. [22] J. A. Moulijn, M. Makkee, R. J. Berger, Catal. Today 2016, 259, 354–359. [23] N. Cherkasov, P. Denissenko, S. Deshmukh, E. V. Rebrov, Chem. Eng. J. 2020, 379, 122292. [24] B. H. Alsolami, R. J. Berger, M. Makkee, J. A. Moulijn, Ind. Eng. Chem. Res. 2013, 52, 9069–9085. [25] N. Shao, A. Gavriilidis, P. Angeli, Chem. Eng. Sci. 2009, 64, 2749–2761. [26] Y. Yabe, T. Yamada, S. Nagata, Y. Sawama, Y. Monguchi, H. Sajiki, Adv. Synth. Catal. 2012, 354, 1264–1268. [27] E. D. Slack, C. M. Gabriel, B. H. Lipshutz, Angew. Chemie 2014, 53, 14051– 14054.
+
+ChemistrySelect 2024, 9, e202400978 (11 of 12) © 2024 The Authors. ChemistrySelect published by Wiley-VCH GmbH
+
+[65] M. L. Gao, L. Li, Z. X. Sun, J. R. Li, H. L. Jiang, Angew. Chemie - Int. Ed. 2022, 61, e202211216. [66] L. Li, Z. Li, W. Yang, Y. Huang, G. Huang, Q. Guan, Y. Dong, J. Lu, S. H. Yu, H. L. Jiang, Chem 2021, 7, 686–698. [67] Y. Zhang, S. Chen, A. M. Al-Enizi, A. Nafady, Z. Tang, S. Ma, Angew. Chemie Int. Ed. 2022, 135, 202213399. [68] A. Swamy, K. S. Kanakikodi, V. R. Bakuru, B. B. Kulkarni, S. P. Maradur, S. B. Kalidindi, ChemistrySelect 2023, 8, e202203926. [69] H. Q. Wu, L. Huang, J. Q. Li, A. M. Zheng, Y. Tao, L. X. Yang, W. H. Yin, F. Luo, Inorg. Chem. 2018, 57, 12444–12447. [70] Y. Tao, H. Q. Wu, J. Q. Li, L. X. Yang, W. H. Yin, M. B. Luo, F. Luo, Dalt. Trans. 2018, 47, 14889–14892. [71] S. Ji, Y. Chen, S. Zhao, W. Chen, L. Shi, Y. Wang, J. Dong, Z. Li, F. Li, C. Chen, Q. Peng, J. Li, D. Wang, Y. Li, Angew. Chemie - Int. Ed. 2019, 58, 4271–4275. [72] Y. Shen, T. Pan, P. Wu, J. Huang, H. Li, I. E. Khalil, S. Li, B. Zheng, J. Wu, Q. Wang, W. Zhang, W. D. Wei, F. Huo, CCS Chem. 2021, 3, 1607–1614.
+
+[73] A. W. Augustyniak, A. M. Trzeciak, ChemCatChem 2021, 13, 2145–2151. [74] Z. Li, M. Hu, J. Liu, W. Wang, Y. Li, W. Fan, Y. Gong, J. Yao, P. Wang, M. He, Y. Li, Nano Res. 2022, 15, 1983–1992. [75] J. Wang, Q. Kuang, X. Su, X. Lu, L. Leng, M. Zhang, C. Guo, T. Li, Q. Xu, S. Sun, J. H. Horton, W. Wu, Z. Li, ACS Appl. Nano Mater. 2021, 4, 861–868. [76] Z. Zhang, G. Liu, L. Ding, M. Hu, J. Gu, W. Xu, Q. Xiao, Inorg. Chem. 2021, 60, 19120–19127. [77] Q. Chen, P. Peng, G. Yang, Y. Li, M. Han, Y. Tan, C. Zhang, J. Chen, K. Jiang, L. Liu, C. Ye, E. Xing, Angew. Chemie - Int. Ed. 2022, 61, e202205978. [78] V. R. Bakuru, K. Fazl-Ur-Rahman, G. Periyasamy, B. Velaga, N. R. Peela, M. E. DMello, K. S. Kanakikodi, S. P. Maradur, T. K. Maji, S. B. Kalidindi, Catal. Sci. Technol. 2022, 12, 5265–5273.
+
+Manuscript received: February 27, 2024
+
+ChemistrySelect 2024, 9, e202400978 (12 of 12) © 2024 The Authors. ChemistrySelect published by Wiley-VCH GmbH

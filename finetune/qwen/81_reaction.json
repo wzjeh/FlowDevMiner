@@ -1,0 +1,56 @@
+{
+  "reaction_type": "Michael addition",
+  "reactants": [
+    {
+      "name": "aromatic amines",
+      "role": "reactant"
+    },
+    {
+      "name": "acrylates",
+      "role": "reactant"
+    },
+    {
+      "name": "lipase TL IM",
+      "role": "catalyst"
+    },
+    {
+      "name": "methanol",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "β-amino acid esters",
+      "yield_optimal": 80.3,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "35 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "30 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microreactor",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 80.3,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

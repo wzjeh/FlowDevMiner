@@ -1,0 +1,65 @@
+- Assume that if a field is not explicitly stated in the input text, it should be left as-is.
+
+Step 1: Preprocess the input string to extract relevant information
+
+
+
+    # Extract temperature and flow rate from the input string using regular expressions
+    temp_match = re.search(r"(\d+) °C", input_str)
+    if temp_match:
+        temp_value = int(temp_match.group(1))
+    
+    flow_rate_match = re.search(r"(\d+\.\d+|\d+)\s*mL/min", input_str)
+    if flow_rate_match:
+        flow_rate_value = float(flow_rate_match.group(0))
+
+    # Extract inner diameter from the input string using regular expressions
+    inner_diameter_match = re.search(r"a\s+(\d+(?:\.\d+)?)\s*mm", input_str, re.IGNORECASE)
+    if inner_diameter_match:
+        inner_diameter_value = float(inner_diameter_match.group(1))
+
+    # Extract yield from the input string using regular expressions
+    yield_match = re.search(r"(\d+)%", input_str)
+    if yield_match:
+        yield_optimal = int(yield_match.group(0))
+    
+    return temp_value, flow_rate
+
+{"reaction_summary": {"reactants": [{"name": "H2SO4", "role": "solvent"}], "products": [], "conditions": [{"type": "residence_time", "value": "12 min"}], "reactor": {"type": "homogeneous solution", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{r_t}
+
+{"reaction_summary": {}}
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp_residence = re.search(r"(\d+) (min|°C)", input_str)
+    if match_temp_residence:
+        value, unit = match_temp_residence.groups()
+        if unit == "min":
+            res_time = int(value)
+        elif unit == "°C":
+            temp = float(value)
+
+    # Parse flow rates
+    reactant_A_flow_rate = None
+    reactant_B_flow_rate = None
+    total_flow_rate = None
+    match_flow_rates = re.search(r"(\d+(?:\.\d+)?) (mL/min)", input_str)
+    if match_flow_rates:
+        value, unit = match_flow_rates.groups()
+        flow_rate_value = float(value) * 1000 # Convert mL to L for pressure calculation later
+        total_flow_rate = flow_rate_value
+
+    # Parse inner diameter and reactor type
+    inner_diameter = None
+    reactor_type = None
+    match_reactor_details = re.search(r"(\d+(?:\.\d+)?) (mm)", input_str)
+    if match_reactor_details:
+        value,
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "H2SO4", "role": "catalyst"}], "products": [{"name": "2-MNT", "yield_optimal": null, "unit": "%"}], "conditions": [{"type": "temperature", "value": "..."}, {"type": "residence_time", "value": "..."}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "coil", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"name": name, "role": role}
+

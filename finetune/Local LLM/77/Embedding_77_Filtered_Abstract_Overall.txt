@@ -1,0 +1,132 @@
+{
+  "reaction_summary": {
+    "reaction_type": "peptide bond formation",
+    "reactants": ["amino acids", "solvent (water or organic solvent)"],
+    "products": ["dipeptides"],
+    "conditions": [
+      {"type":"flow_rate","value":1},
+      {"type":"residence_time","value":60},
+      {"type":"temperature","value":4}
+    ],
+    "reactor": {
+      "type": "microreactor",
+      "inner_diameter": 50-200
+    },
+    "metrics": {
+      "conversion": 95,
+      "yield": null,
+      "selectivity": null,
+      "unit":"%"
+    }
+  }
+} 
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "theanine synthesis",
+    "reactants": ["tea leaves", "enzymes (glucose oxidase and peroxidase)"],
+    "products": ["theanine"],
+    "conditions": [
+      {"type":"temperature","value":70},
+      {"type":"residence_time","value":null}
+    ],
+    "reactor": {
+      "type": "microreactor",
+      "inner_diameter": null
+    },
+    "metrics": {
+      "conversion": null,
+      "yield": null,
+      "selectivity": 100,
+      "unit":"%"
+    }
+  }
+} 
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "theanine synthesis",
+    "reactants": ["tea leaves", "enzymes (glucose oxidase and peroxidase)"],
+    "products": ["theanine"],
+    "conditions": [
+      {"type":"temperature","value":70},
+      {"type":"residence_time","value":null}
+    ],
+    "reactor": {
+      "type": "microreactor",
+      "inner_diameter": null
+    },
+    "metrics": {
+      "conversion": 100,
+      "yield": 90.5,
+      "selectivity": 99.9,
+      "unit":"%"
+    }
+  }
+} 
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "theanine synthesis",
+    "reactants": ["tea leaves", "enzymes (glucose oxidase and peroxidase)"],
+    "products": ["theanine"],
+    "conditions": [
+      {"type":"temperature","value":70},
+      {"type":"residence_time","value":null}
+    ],
+    "reactor": {
+      "type": "microreactor",
+      "inner_diameter": null
+    },
+    "metrics": {
+      "conversion": 100,
+      "yield": 90.5,
+      "selectivity": 99.9,
+      "unit":"%"
+    }
+  }
+} 
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "theanine synthesis",
+    "reactants": ["tea leaves", "enzymes (glucose oxidase and peroxidase)"],
+    "products": ["theanine"],
+    "conditions": [
+      {"type":"temperature","value":70},
+      {"type":"residence_time","value":null}
+    ],
+    "reactor": {
+      "type": "microreactor",
+      "inner_diameter": null
+    },
+    "metrics": {
+      "conversion": 100,
+      "yield": 90.5,
+      "selectivity": 99.9,
+      "unit":"%"
+    }
+  }
+} 
+JSON
+{
+  "reaction_summary": {
+    "reaction_type": "theanine synthesis",
+    "reactants": ["tea leaves", "enzymes (glucose oxidase and peroxidase)"],
+    "products": ["theanine"],
+    "conditions": [
+      {"type":"temperature","value":70},
+      {"type":"residence_time","value":null}
+    ],
+    "reactor": {
+      "type": "microreactor",
+      "inner_diameter": null
+    },
+    "metrics": {
+      "conversion": 100,
+      "yield": 90.5,
+      "selectivity": 99.9,
+      "unit":"%"
+    }
+  }
+}

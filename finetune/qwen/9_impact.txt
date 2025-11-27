@@ -1,0 +1,12 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of acrylamide | increase |
+| flow_rate | conversion of acrylamide | increase |
+| temperature | polymerization rate | increase |
+| temperature | Mn | decrease |
+| temperature | PDI | increase |
+| capillary_diameter | conversion of acrylamide | increase |
+| capillary_diameter | Mn | decrease |
+| capillary_diameter | PDI | increase |

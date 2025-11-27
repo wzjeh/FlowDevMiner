@@ -1,0 +1,15 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | p-DNB selectivity | decrease |
+| sulfuric_acid_mass_fraction | p-DNB selectivity | increase |
+| sulfuric_acid_mass_fraction | conversion of NB | increase |
+| molar_ratio_HNO3_to_NB | p-DNB selectivity | unchanged |
+| total_flow_rate | p-DNB selectivity | decrease |
+| catalyst_loading (SDS) | p-DNB selectivity | decrease |
+| catalyst_loading (PEG) | p-DNB selectivity | unchanged |
+| catalyst_loading (SDS) | m-DNB yield | increase |
+| residence_time | TNP formation | decrease |
+| sulfuric_acid_concentration | TNP formation | decrease |
+| sulfuric_acid_concentration | TNB formation | increase |

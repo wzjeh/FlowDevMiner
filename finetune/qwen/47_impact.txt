@@ -1,0 +1,8 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rate | particle size | decrease |
+| flow_ratio | particle size | decrease |
+| reactant_concentration | particle size | increase |
+| surfactant_concentration | particle size | decrease |

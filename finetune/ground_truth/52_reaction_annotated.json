@@ -1,0 +1,52 @@
+{
+  "reaction_type": "Gattermann reaction",
+  "reactants": [
+    {
+      "name": "2,4,5-trifluoroaniline",
+      "role": "reactant"
+    },
+    {
+      "name": "HBr",
+      "role": "reactant"
+    },
+    {
+      "name": "NaNO2",
+      "role": "reactant"
+    },
+    {
+      "name": "copper powder",
+      "role": "catalyst"
+    }
+  ],
+  "products": [
+    {
+      "name": "2,4,5-trifluorobromobenzene",
+      "yield_optimal": 86,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": null
+    },
+    {
+      "type": "residence_time",
+      "value": "40 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microchannel",
+    "inner_diameter": "2.0 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 86,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

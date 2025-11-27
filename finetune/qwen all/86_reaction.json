@@ -1,0 +1,56 @@
+{
+  "reaction_type": "氧化",
+  "reactants": [
+    {
+      "name": "benzyl alcohol",
+      "role": "reactant"
+    },
+    {
+      "name": "Au−Pd/TiO2",
+      "role": "catalyst"
+    },
+    {
+      "name": "oxygen",
+      "role": "reactant"
+    },
+    {
+      "name": null,
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "benzaldehyde",
+      "yield_optimal": 73.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "120 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "115 gcat·s/galcohol"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.01 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "6 bara"
+    }
+  ],
+  "reactor": {
+    "type": "tube-in-tube",
+    "inner_diameter": "0.8 mm"
+  },
+  "metrics": {
+    "conversion": 44.1,
+    "yield": null,
+    "selectivity": 73.0,
+    "unit": "%"
+  }
+}

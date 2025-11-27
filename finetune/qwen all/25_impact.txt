@@ -1,0 +1,9 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of 4-MNT | increase |
+| molar_ratio of HNO3 to 4-MNT | conversion of 4-MNT | increase |
+| temperature | conversion of 4-MNT | increase |
+| fluid_flow_rate | conversion of 4-MNT | increase |
+| fluid_flow_rate | conversion of 4-MNT | unchanged |

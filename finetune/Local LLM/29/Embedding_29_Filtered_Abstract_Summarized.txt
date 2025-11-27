@@ -1,0 +1,79 @@
+- Assume that if a field is not explicitly stated, it should be null.
+
+
+
+
+
+    # Parse reaction type and reactants/products
+    match = re.search(r"([A-Za-z]+) of (.*?)(?:and|with)?(?:the )?(.*)", input_str)
+    if match:
+        reaction_type, reactant_A, _ = match.groups()
+        
+        # Parse products
+        product_match = re.search(r"(yield\s\d+%)?", input_str)
+        if product_match:
+            yield_optimal = int(re.findall(r"\d+", product_match.group())[0])
+            
+            # Parse conditions (temperature and flow rate)
+            condition_match = re.search(r"([A-Za-z]+)\s(\d+(?:\.\d+)?)", input_str)
+            if condition_match:
+                unit, value = condition_match.groups()
+                
+                # Determine type of reaction
+                if "fluoroalkylation" in input_str.lower():
+                    reaction_type = "Fluorination"
+                    
+                # Parse reactor information (inner diameter and coil/coilless)
+                inner_diameter_match = re.search(r"\d+(?:\.\d+)? mm", input_str)
+                if inner_diameter
+
+{"name": None, "yield_optimal": value, "unit": unit}
+
+{"reaction_summary": {"reaction_type": "batch", "reactants": [{"name": "nEBFA", "role": "catalyst"}, {"name": "nCuI", "role": "catalyst"}, {"name": "DMSO", "role": "solvent"}], "products": [], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": null}], "reactor": {"type": "batch", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+{ "reaction_summary": {  "reaction_type":"difluoroalkylation",  "reactants":[{"name":"styrene","role":"reactant"}],  "products":[{"name":"...","yield_optimal":82,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":"10 min"},    {"type":"flow_rate_reactant_A","value":"0.2 mL/min"},    {"type":"flow_rate_reactant_B","value":"1.4 mL/min"}  ],  "reactor":{"type":"coil", "inner_diameter":"0.5 mm"}
+
+{"type":"flow_rate_reactant_A","value":f"{flow_rate_reactant_A} mL/min"}
+
+- Temperature is in °C; residence_time is in min; flow_rate is in mL/min; inner_diameter is in mm.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-reaction', input_str, flags=re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).capitalize()
+    
+    # Parse reactants and products
+    matches = re.findall(r"([A-Za-z0-9]+)\s*([\+\-\d\.]+)", input_str)
+    for name, role in matches:
+        if 'yield' not in role.lower():
+            reactant_name = name.capitalize() + " (reactant)"
+            product_name = None
+        else:
+            product_name = name.capitalize()
+            reactant_name = None
+        
+        # Parse yield value and unit
+        match_yield = re.search(r"(\d+(?:\.\d+)?)%?", role)
+        if match_yield:
+            yield_value, _ = map(float, match_yield.groups())
+        
+        # Append to lists
+        if product_name is not None:  # Product
+            products.append({"name": product_name, "yield_optimal": yield_value, "
+
+{}
+
+{
+    "conversion": None,
+    "yield": 95, # unknown yield value
+    "selectivity": None,
+    "unit": "%"}
+
+{"name":match.group("reactant1"),"role":"reactant"}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "reactant|catalyst|solvent"}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": 0.1}, {"type": "pressure", "value": null}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": 2, "yield": 95, "selectivity": null, "unit": "%"}}}
+

@@ -1,0 +1,29 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of TFMB | increase |
+| N/S | conversion | decrease |
+| M-ratio | side_reaction_rate | increase |
+| temperature | reaction_rate | increase |
+| channel_diameter | product_yield | increase |
+| N/S | side_reaction_rate | increase |
+| temperature | product_selectivity | decrease |
+| residence_time | conversion of TFMB | increase |
+| M-ratio | reaction rate | increase |
+| N/S | conversion | decrease |
+| channel_diameter | product yield | increase |
+| temperature | reaction_rate | increase |
+| N/S | side_reaction_rate | increase |
+| temperature | product_selectivity | decrease |
+| residence_time | conversion of TFMB | increase |
+| M-ratio | reaction rate | increase |
+| N/S | conversion | decrease |
+| channel_diameter | product yield | increase |
+| temperature | reaction_rate | increase |
+| N/S | side_reaction_rate | increase |
+| temperature | product_selectivity | decrease |
+| residence_time | conversion of TFMB | increase |
+| M-ratio | reaction rate | increase |
+| N/S | conversion | decrease |
+| channel_diameter | product yield | increase |

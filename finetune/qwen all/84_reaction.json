@@ -1,0 +1,56 @@
+{
+  "reaction_type": "diazotization",
+  "reactants": [
+    {
+      "name": "p-nitroaniline",
+      "role": "reactant"
+    },
+    {
+      "name": "sodium nitrite",
+      "role": "catalyst"
+    },
+    {
+      "name": "hydrochloric acid",
+      "role": "reagent"
+    },
+    {
+      "name": "water",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "diazonium salt",
+      "yield_optimal": 96.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "5 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "94 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "40 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "delay loop",
+    "inner_diameter": "3.0 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 96.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

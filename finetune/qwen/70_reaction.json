@@ -1,0 +1,56 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "toluene",
+      "role": "reactant"
+    },
+    {
+      "name": "nitric acid",
+      "role": "reactant"
+    },
+    {
+      "name": "sulfuric acid",
+      "role": "catalyst"
+    },
+    {
+      "name": "mixed acid",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "mononitrotoluene",
+      "yield_optimal": 75.08,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "40 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "60 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "3.00 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microreactor",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": 85.1,
+    "yield": 75.08,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

@@ -1,0 +1,48 @@
+{"name": name, "role": role}
+
+{ "reaction_summary": {  "reaction_type":"...",  "reactants":[{"name":"...","role":"reactant|catalyst|solvent"}],  "products":[{"name":"...","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"..."},    {"type":"residence_time","value":"..."},    {"type":"flow_rate_reactant_A","value":"..."}
+
+{ "reaction_summary": {  "reaction_type":"hydroformylation",  "reactants":[{"name":"hydrocarbons","role":"reactant"}, {"name":"water or alcohols","role":"solvent"}],  "products":[{"name":"aldehydes","yield_optimal":90,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"200 °C"}
+
+{ "reaction_summary": { 
+    "reaction_type":"hydrogenation", 
+    "reactants":[{"name":"p-nitro toluene","role":"reactant"}, {"name":"aluminum wire pieces","role":"catalyst"}], 
+    "products":[{"name":"toluene","yield_optimal":85,"unit":"%"}], 
+    "conditions":[
+        {"type":"temperature","value":"null °C"},
+        {"type":"residence_time","value":"null min"}
+
+{"name":matches[0].strip(), "role":"reactant"}
+
+{"name": name, "role": role}
+
+{"type": "flow_rate_reactant_A", "value": f"{flow_rate_A} mL/min"}
+
+# Parse input string into a dictionary of key-value pairs
+    match = re.search(r"Flow rate (\d+(?:\.\d+)?) mL/min, T=(\d+ °C) in a (.*)", input_string)
+    
+    if not match:
+        return None
+    
+    flow_rate_mL_min = float(match.group(1))
+    temperature_Celsius = int(match.group(2).split()[0])
+    reactor_type_inner_diameter = match.group(3)
+
+    # Parse reaction type
+    reaction_type = "multiphase"  # hardcoded for now
+
+    # Parse reactants, products and metrics (yield)
+    product_yield_optimal_percent = None
+    if re.search(r"(?P<product_name>.*?)\s*%?", input_string):
+        match_product = re.match(r"(?P<product_name>.*)\s*(\d+)%", input_string)
+        product_yield_optimal_percent = int(match_product.group(2))
+    
+    # Parse reactor details
+    inner_diameter_mm = None
+    if "mm" in reactor_type_inner_diameter:
+        match_id = re.search(r"\((?P<id>\d
+
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+{rate}
+

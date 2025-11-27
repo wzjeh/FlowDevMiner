@@ -1,0 +1,6 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| pattern = r"(\w+)\s+is\s+a\s+(key | important)\s+factors.*?(\d+\.\d+)?.*?(increase | decrease |
+| return f"{factor} | conversion of TFMB | - |

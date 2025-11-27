@@ -1,0 +1,20 @@
+type micromixer, 0.25 mm; packing size of the micropacked-bed reactor, 0.177–0.250 mm. c packing size, 0.177–0.250 mm; organic phase flow rate, 3 mL/min. d the ID of T-type micromixer, 0.25 mm; organic phase flow rate, 4 mL/min
+
+organic phase, 1: 2 = 1:3; the molar ratio of organic feed (1 + 2) and sulfuric acid, 1:4; nitration ratio, 1.1; flow rate ratio of the organic and mixed acid, 6:12.8; the ID of T-type micromixer, 0.25 mm; packing size of the micropacked-bed reactor, 0.177–0.250 mm
+
+The platforms of continuous nitration are illustrated in Fig. 1. On feed was the mixed acid of sulfuric acid and nitric acid. The other feed was 1 or the mixture of 1 and 2. Both of them were pumped into the preheating tube (ID, 0.80 mm; OD, 1.60 mm; 316 L) by two constant flux pumps (Beijing Xingda Science and Technology Development Co., Ltd.; flow rate, 0–30.00 mL/min; pressure range, 0–20 MPa),
+
+introduction of partial product circulation and micropacked- bed reactor.
+
+the micropacked-bed reactor, the T-type micromixer had lim- ited influence on the reaction conversion, and the reaction is mainly completed in the micropacked-bed. As shown in Fig. 4d, the smaller the packing particles are, the sooner a complete conversion platform appeared. To achieve 90% conversion, it took about 1 s for smaller packing size (0.177–0.250 mm) and about 3 s for larger packing size
+
+Fig. 3 Temperature distribution under different feed composition. Reaction conditions: the molar ratio of organic feed (1 + 2) and sulfuric acid, 1:4; nitration ratio, 1.1; flow rate ratio of the organic and mixed acid, 1:2.13; preheat temperature, 27.5 °C; type of reaction tube, a micropacked-bed reactor, filled with glass beads (φ, 0.177–0.250 mm); the ID of T-type micromixer, 0.25 mm
+
+Summary: Flow-chemistry process development is a powerful tool for optimizing chemical reactions in microreactors. The continuous flow of reactants through the microreactor allows for precise control over reaction conditions such as temperature, pressure, and residence time. This enables chemists to achieve high conversion rates, selectivity, and yields while minimizing waste production.
+
+11. Kulkarni AA (2014) Continuous flow nitration in miniaturized de- vices. Beilstein J. Org. Chem. 10:405–424. https://doi.org/10.3762/ bjoc.10.38 12. Li L, Yao C, Jiao F, Han M, Chen G (2017) Experimental and kinetic study of the nitration of 2-ethylhexanol in capillary microreactors. Chem. Eng. Process. 117:179–185. https://doi.org/ 10.1016/j.cep.2017.04.005 13. Lu YC, Zhu S, Wang K, Luo GS (20
+
+tube, due to its small inner diameter, the initial dispersion was relatively good, but the phase separation in sequence could not be avoided (as shown in Fig. S3(a)), corresponding to a quick- ly decreased conversion rate. In contrast, the micropacked-bed reactor can enable and keep a microdispersion state through- out the system. As shown in Fig. S3(b), well-dispersed organ- ic phase droplets can
+
+Summary: The paragraph discusses a flow-chemistry process development for the synthesis of an organic compound using a microreactor with a thin film catalyst. The reaction involves the conversion of reactants A and B into product C under controlled temperature conditions. The key parameters include mass flow rate, residence time, temperature, and pressure within the reactor. The desired outcome is high selectivity towards the target product, while maintaining optimal yield and conversion rates.
+

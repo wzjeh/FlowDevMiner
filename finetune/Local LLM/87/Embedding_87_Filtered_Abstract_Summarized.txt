@@ -1,0 +1,36 @@
+{"reaction_summary": {"reaction_type": "native", "reactants": [{"name": "pa", "role": "..."}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "flow_rate_reactant_A", "value": "8000 µL/min"}, {"type": "pH", "value": 2.8}], "reactor": {"type": "native", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"name": match.group("name"), "role": match.group("role") or null}
+
+{
+        "conversion": None,
+        "yield": None,
+        "selectivity": None,
+        "unit": "%"
+    }
+
+{"reaction_summary": {"reaction_type": "synthesis", "reactants": [{"name": "HAuCl4", "role": "reactant"}], "products": [{"name": "gold nanoparticles"}], "conditions": [{"type": "flow_rate_reactant_A", "value": "2000 µL/min"}, {"type": "pH influence on size distribution studied"}], "reactor": {"type": "native reactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null}}}
+
+{"type": "flow_rate_total", "value": 2}
+
+{"type": None, "value": str(value) + unit}
+
+{"name": name, "role": role}
+
+{ "reaction_summary": { 
+    "reaction_type":"synthesis", 
+    "reactants":[{"name":"HAuCl4","role":"reactant"}], 
+    "products":[{
+        "name":"gold nanoparticles",
+        "yield_optimal":null,
+        "unit":"%"},{
+        "name":"PVP",
+        "yield_optimal":95,
+        "unit":"%"},{"name":"ascorbic acid", "yield_optimal": null, "unit": "%"}], 
+    "conditions":[
+        {"type":"pH","value": 2.8},
+        {"type":"temperature","value":null},
+        {"type":"residence_time","value":null}
+
+{match.group(1)}
+

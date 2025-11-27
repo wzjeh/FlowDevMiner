@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "direct fluorination", "reactants": ["CO (carbon monoxide)", "F2 (elemental fluorine)"], "products": ["carbonyl difluoride"], "conditions": []}}

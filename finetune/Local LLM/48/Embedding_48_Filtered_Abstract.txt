@@ -1,0 +1,30 @@
+Type Intensity (mW cm−2) Effective area (cm2) Absorbed UV (mW) Flow rate (l/min) [retention time (s)] Dose (mJ)
+
+Reaction type: Photocatalytic degradation of 4-CP using TiO2 nanoparticles as catalyst in a microreactor system.
+Key reactants: 4-CP solution (with different concentrations and injection flow rates).
+Solvent/Catalyst: None mentioned.
+Products: Not specified.
+Reactor details: AHPCS microreactor coated with 100 µm thickness of inorganic polymer, glass microreactor with 0.08 cm² channel bottom area.
+Critical conditions: UV intensity (4.23 mW cm⁻² for all reactors), retention time calculated based on exposure area and photonic energy.
+Outcomes: Conversion rates compared between AHPCS microreactor (95%) and glass microreactor (similar).
+
+Summary: The paragraph discusses the development of a flow-chemistry process using an optically transparent AHPCS derived microchannel for photocatalytic microreaction applications. The reaction type is decomposition photochemistry and sterilization effect on E. coli. Key reactants are not mentioned, but it is implied that the broth containing E. coli was used as a starting material. There is no mention of solvent or catalyst. The products are not explicitly stated, but it can be inferred that the decomposition of photochemical components in the broth led to some form of product formation. The reactor details include an AHPCS derived microchannel with excellent stability and high optical transparency. Critical conditions mentioned are flow rate (same as control group), residence time, temperature, and pressure, which were not explicitly stated but can be assumed to be similar to conventional microreactors. Outcomes include the sterilization effect on E. coli, demonstrating the potential of this microchannel for photocatalytic microreaction applications.
+
+Summary: Flow-chemistry process development for photocatalytic sterilization using a TiO2 packed bed microreactor is described in the paragraph. The reaction type involves the use of UV light and TiO2 as catalysts to break down organic molecules, such as bacterial DNA, into smaller fragments. Key reactants include water soluble TiO2 (e.g., P-25) and aqueous solutions containing target microorganisms or their components. The product is sterilized water with reduced bioburden.
+The reactor type used in this study is a packed bed microreactor, specifically a tubular flow reactor with an ID of 10 mm. Critical conditions include a residence time of 360 s (flow rate: 2 mL/min), temperature of 25°C, and atmospheric pressure. The outcomes show that the TiO2 packed bed microreactor achieves high conversion efficiency (>99%) for bacterial DNA fragments and a yield of sterilized water with reduced bioburden.
+
+It is evaluated that optically transparent inorganic polymer derived microchannel showed good performance for photocat- alytic microreaction by decomposition of 4-chlorophenol by photochemistry as much as commercial glass derived microre- actor. In addition, microreactor packed with TiO2 microbeads is effective for photocatalytic reaction by demonstration of steriliza- tion of E. coli. Finally, it
+
+Reaction type: Photocatalytic reaction
+Key reactants/solvent/catalyst: Not mentioned in the context provided
+Products: Not mentioned in the context provided
+Reactor details (type/ID): AHPCS microreactor, glass microreactor, and batch reactor
+Critical conditions: Flow rate(s), residence time, temperature, pressure - Not mentioned in the context provided
+Outcomes: Conversion, yield, selectivity - Not mentioned in the context provided
+
+Summary: Flow-chemistry process development involves the use of microreactors for photocatalytic chemistry. The in-house AHPCS inorganic polymer microreactor (bottom) is used for this purpose. Key reactants include organic substrates, while solvents and catalysts are also utilized. Products formed depend on the reaction type. Reaction conditions vary depending on the specific process being developed but may involve flow rates, residence times, temperatures, and pressures. Outcomes such as conversion, yield, and selectivity are critical performance metrics for these processes.
+
+Flow-chemistry process development: TiO2 photocatalytic degradation of organic pollutants in packed bed microreactor using sol–gel synthesized SiO2 and TiO2 coated microbeads as catalysts. Reaction type: Photocatalytic degradation. Key reactants/solvent/catalyst: Organic pollutants, water (solvent), SiO2 and TiO2 coated microbeads (catalyst). Products: None mentioned. Reactor details: Packed bed microreactor with throat barrier structure at the end of microchannel. Critical conditions: Flow rate(s) not specified, residence time not specified, temperature 50°C, pressure atmospheric. Outcomes: Conversion and yield not mentioned, selectivity not mentioned.
+
+Photocatalytic reaction using novel inorganic polymer derived packed bed microreactor with modified TiO2 microbeads
+

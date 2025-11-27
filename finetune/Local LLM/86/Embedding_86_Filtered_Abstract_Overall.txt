@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "oxidation", "reactants": ["benzyl alcohol", "oxygen"], "products": ["benzaldehyde", "water"], "conditions": [{"type": "flow rate", "value": "10-30 mL/min"}, {"type": "", "value": ""}], "reactor": {"type": "packed tube-in-tube microreactor"}, "metrics": {"conversion": 46.9, "yield": null, "selectivity": null}}}

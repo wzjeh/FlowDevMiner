@@ -1,0 +1,18 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| Temperature | Wall temperature | increase |
+| Residence time | Conversion of isoamyl ether | increase |
+| Flow rate | Conversion of TFMB | increase |
+| Wall temperature | Temperature | decrease |
+| Residence time | Conversion of isoamyl ether | increase |
+| Wall temperature | Temperature | decrease |
+| Flow rate | Conversion of TFMB | increase |
+| Wall temperature | Temperature | decrease |
+| Residence time | Conversion of isoamyl ether | increase |
+| Wall temperature | Temperature | decrease |
+| Flow rate | Conversion of TFMB | increase |
+| Wall temperature | Temperature | decrease |
+| Residence time | Conversion of isoamyl ether | increase |
+| Wall temperature | Temperature | decrease |

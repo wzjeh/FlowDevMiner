@@ -1,0 +1,12 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rate | particle size distribution | increase |
+| flow_rate | average diameter of nanoparticles | decrease |
+| residence_time | particle size distribution | increase |
+| residence_time | average diameter of nanoparticles | decrease |
+| temperature | conversion of silver pentafluoropropionate | increase |
+| temperature | particle size distribution | increase |
+| catalyst_loading | particle size | unchanged |
+| catalyst_loading | particle size distribution | unchanged |

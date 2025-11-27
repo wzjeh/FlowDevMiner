@@ -1,0 +1,111 @@
+# Parse temperature and flow rate
+    match = re.search(r"(\d+) K", text)
+    if match:
+        temp_celsius = int(match.group(1)) - 273.15
+    
+    match = re.search(r"\b\d+\.\d+ μL min\-\-1\b", text)
+    if match:
+        flow_rate_milliliters_per_minute = float(match.group())
+    
+    # Parse inner diameter
+    match = re.search(r"(\d+) mm", text)
+    if match:
+        inner_diameter_mm = int(match.group(0))
+        
+    # Parse reaction type, reactants and products
+    match = re.search(r"A solution flow rate of (\d+\.\d+ μL min\-\-1)", text)
+    if match:
+        flow_rate_milliliters_per_minute = float(match.group(1).replace("μL", "").replace("min−1",""))
+        
+    # Parse reaction type
+    reaction_type = None
+    
+    # Parse products and yield optimal
+    match = re.search(r"(\d+)%", text)
+    if match:
+        yield_optimal_percent = int(match.group())
+    
+    # Parse conditions
+
+{"name": "N-methylbenzene", "yield_optimal": 95, "unit": "%"}
+
+{"name": None, "yield_optimal": yield_optimal, "unit": unit}
+
+{"name": "MBY", "yield_optimal": None, "unit": "%"}
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp = re.search(r"(\d+) °C", context)
+    if match_temp:
+        temp = int(match_temp.group(1))
+    
+    match_res_time = re.search(r"in (\d+ min)", context)
+    if match_res_time:
+        res_time = float(match_res_time.group(1))
+
+    # Parse flow rate
+    flow_rate = None
+    match_flow_rate = re.search(r"(\d+) mL/min", context)
+    if match_flow_rate:
+        flow_rate = int(match_flow_rate.group(1))
+    
+    # Parse inner diameter of reactor
+    inner_diameter = None
+    match_inner_diameter = re.search(r"a (\d+ mm) coil;", context)
+    if match_inner_diameter:
+        inner_diameter = float(match_inner_diameter.group(1))
+
+    # Parse yield and reaction type (if any)
+    yield_optimal = None
+    reaction_type = null
+    products = []
+    for word in re.split(r'\W+', context):
+        if word == "yield":
+            match_yield = re.search(r"(\d+)%", context
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": { 
+    "reaction_type":"metal-organic framework synthesis", 
+    "reactants":[{"name":"hydrogen","role":"solvent"}], 
+    "products":[{
+        "name":"MBE",
+        "yield_optimal":93,
+        "unit":"%"
+    }],
+    "conditions":[
+      {"type":"temperature","value":"..."},
+      {"type":"residence_time","value":"100 hours"},  # Normalize to min: 6000 minutes 
+      {"type":"flow_rate_reactant_A","value":"10 mL/min"}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "reactant|catalyst|solvent"}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": null}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": "30–50 μL min−1"}, {"type": "flow_rate_reactant_B", "value": "10 mL min−1"}, {"type": "pressure", "value": null}], "reactor": {"type": "...", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"name": null, "yield_optimal": yield_optimal, "unit":"%"}
+
+# Parse temperature and residence time
+    temp_match = re.search(r"(\d+) °C", input_str)
+    if temp_match:
+        temp_value = int(temp_match.group(1))
+    
+    res_time_match = re.search(r"in (\d+ min)", input_str)
+    if res_time_match:
+        res_time_value = float(res_time_match.group(1))
+
+    # Parse flow rates
+    flow_rate_reactant_A_match = re.search(r"(\d+) mL/min", input_str)
+    if flow_rate_reaction_B_match := re.search(r"(\d+) mL/min", input_str):
+        flow_rate_reactant_B_value = float(flow_rate_reaction_B_match.group(1))
+    
+    # Parse pressure
+    pressure_match = re.search(r"in (\d+ mbar)", input_str)
+    if pressure_match:
+        pressure_value = int(pressure_match.group(1))
+
+    # Parse reactor type and inner diameter
+    reactor_type_match = re.search(r"(\w+) coil", input_str)
+    if reactor_type_match:
+        reactor_type_value = reactor_type_match.group(1)
+
+    inner_diameter_match = re.search(r"in (\d+ mm
+

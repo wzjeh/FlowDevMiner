@@ -1,0 +1,67 @@
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+{ "reaction_summary": {  "reaction_type": null, "reactants": [],  "products": [{"name": null, "yield_optimal": 82, "unit": "%"}],  "conditions": [ {"type":"temperature","value":"80 °C"}, {"type":"flow_rate_total","value":"0.1 mL/min"}
+
+- Temperature is in °C; residence_time is in min; flow_rate is in mL/min; inner_diameter is in mm.
+
+Input
+The paragraph discusses the use of capillary microreactors in flow-chemistry process development for evaluating variations in mass transfer and polymerization processes with different Reynolds numbers. The total volumetric flow rate was changed while maintaining a specific ratio of the aqueous phase to the organic phase and a residence time constant (q = Qaq: Qorg = 2, t = 95 s) under 35 °C. The mean Reynolds number of the organic and aqueous phases was calculated based on the pseudo-homogeneous model.
+
+Output
+{ "reaction_summary": {  "reaction_type":"polymerization
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r'\b\w+\b(?!\s*of)', input_str)
+    reactant_names = [match for match in matches]
+    
+    # Parse products (yield optimal)
+    product_match = re.search(r'(\d+)%', input_str)
+    if product
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'([A-Za-z]+) polymerization', input_str, re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).capitalize()
+    
+    else:  # Default to null
+        reaction_type = None
+
+    # Parse reactants and products (if present)
+    words = re.findall(r'\b\w+\b', input_str)
+
+    reactant_names = []
+    for word in words:
+        if word.lower() == 'polyaniline':
+            product_name =
+
+paragraph = """
+The paragraph discusses a flow-chemistry process development for polymerization of aniline using capillary microreactors. The reaction involves the transport of aniline from the organic phase to the aqueous phase at the interface. Key reactants include aniline, and the solvent/catalyst is not mentioned. The products are not specified. The reactor type is a capillary microreactor with a fixed total volumetric flow rate of 0.5 ml/min and residence time of 95 s at 35 °C. The critical condition is the volumetric flow rate ratio of the aqueous phase to the organic phase (q). The outcome focuses on the eﬀect of q on mass transfer
+
+{"type": "flow_rate_reactant_A", "value": null}
+
+{"name": "gas A", "role":"catalyst"}
+
+{"name": "product", "yield_optimal": null, "unit": "%"}
+
+{ "reaction_summary": {  "reaction_type":"...",  "reactants":[{"name":"...","role":"reactant|catalyst|solvent"}],  "products":[{"name":"...","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"80 °C"}
+

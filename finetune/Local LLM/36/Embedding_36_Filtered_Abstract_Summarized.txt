@@ -1,0 +1,50 @@
+{"name": name, "yield_optimal": None, "unit": "%"}
+
+{"name":word, "role":role}
+
+{"name": name_role_pair[0], "role": name_role_pair[1]}
+
+{"reaction_summary": {"reaction_type": "hydrogenation", "reactants": [{"name": "substrate", "role": "reactant"}], "products": [{"name": "full hydrogenated product", "yield_optimal": 100, "unit": "%"}], "conditions": [{"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}, {"type": "flow_rate_reactant_B", "value": "2.5 mL/min"}], "reactor": {"type": "round pipe", "inner_diameter": null}, "metrics": {"conversion": 100, "yield": 100, "selectivity": null, "unit": "%"}}}
+
+- Normalize units when present; otherwise keep original.
+
+
+
+
+
+    # Parse reaction type and reactants/products
+    match = re.search(r"(\w+),0 х100;", input_str)
+    if match:
+        CMBY, _ = map(int, match.group(1).split(','))
+    
+    # Parse conditions (temperature, residence time, flow rate, inner diameter)
+    conditions = []
+    for line in input_str.split(';'):
+        m = re.search(r"(\d+(?:\.\d+)?)", line)
+        if m:
+            value = float(m.group(1))
+            unit = None
+            type_ = None
+            
+            # Temperature
+            match = re.search(r"T=(\d+°C)", line)
+            if match:
+                value, unit = map(float, match.group(1).split('°'))
+            
+            # Residence time
+            elif "min" in line and not any(t in line for t in ["T=", "°"]):
+                type_ = 'residence_time'
+                
+            # Flow rate (reactant A or B)
+            elif re.search(r"\d+(?:\.\d+)?\s*mL/min", line) and not any
+
+{"name": "Pd", "yield_optimal": 95, "unit": "%"}
+
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%"}
+
+{"reaction_summary": {"reactants": [{"name": "gas", "role": "..."}], "products": [], "conditions": [{"type": "flow_rate_reactant_A", "value": "1 mL/min"}, {"type": "residence_time", "value": null}], "reactor": {"type": "channel", "inner_diameter": null}, "metrics": {}}}
+
+{"reaction_summary": {"reaction_type": "continuous capillary reactor", "reactants": [{"name": "hydrogen", "role": "catalyst"}], "products": [{"name": "coatings on the inner surface of silica capillary", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "303 to 333 K"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "flow_rate_reactant_B", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "continuous capillary reactor", "inner_diameter": "250 μm"}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "MBY", "reactants": [{"name": "1.0 M MBY", "role": "catalyst"}], "products": [], "conditions": [{"type": "flow_rate_reactant_A", "value": "0.03 mL/min"}], "reactor": {"type": null, "inner_diameter": null}, "metrics": {"conversion": 99.4, "yield": null, "selectivity": null, "unit": "%"}}}
+

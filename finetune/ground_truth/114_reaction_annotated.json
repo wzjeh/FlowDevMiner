@@ -1,0 +1,48 @@
+{
+  "reaction_type": "Hydrogenation",
+  "reactants": [
+    {
+      "name": "Nitrobenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd",
+      "role": "catalyst"
+    }
+  ],
+  "products": [
+    {
+      "name": "aniline",
+      "yield_optimal": 90.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "25 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "5 ﾎｼL/min (liquid), 0.9 sccm (gas)"
+    },
+    {
+      "type": "pressure",
+      "value": "atmospheric pressure"
+    }
+  ],
+  "reactor": {
+    "type": "stacked catalytic membrane microreactor",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": 90.0,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

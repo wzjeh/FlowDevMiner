@@ -1,0 +1,52 @@
+{
+  "reaction_type": "photochemical oxidation",
+  "reactants": [
+    {
+      "name": "HTC process liquid",
+      "role": "reactant"
+    },
+    {
+      "name": "H2O2",
+      "role": "catalyst"
+    },
+    {
+      "name": "water",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "treated HTC liquid",
+      "yield_optimal": 31.6,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "20 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "10 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "100 µL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "tubular",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": 31.6,
+    "yield": 31.6,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

@@ -1,0 +1,9 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of toluene | increase |
+| residence_time | conversion of toluene | unchanged |
+| residence_time | selectivity of MNT | unchanged |
+| temperature | selectivity of MNT | increase |
+| sulfuric_acid_strength | logarithm_of_observed_kinetic_constant | increase |

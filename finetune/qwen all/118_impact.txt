@@ -1,0 +1,18 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of acetyl guaiacol | increase |
+| temperature | yield of 5-nitroguaiacol | increase |
+| temperature | selectivity to 5-nitroacetylguaiacol | increase |
+| residence_time | conversion of acetyl guaiacol | increase |
+| residence_time | yield of 5-nitroguaiacol | increase |
+| residence_time | selectivity to 5-nitroguaiacol | unchanged |
+| molar_ratio_of_nitric_acid_to_acetyl_guaiacol | conversion of acetyl guaiacol | increase |
+| molar_ratio_of_nitric_acid_to_acetyl_guaiacol | yield of 5-nitroguaiacol | increase |
+| molar_ratio_of_nitric_acid_to_acetyl_guaiacol | selectivity to 5-nitroguaiacol | unchanged |
+| nitric_acid_concentration | conversion of acetyl guaiacol | increase |
+| nitric_acid_concentration | conversion of acetyl guaiacol | decrease |
+| catalyst_loading | not mentioned | unchanged |
+| flow_rate | not mentioned | unchanged |
+| pressure | not mentioned | unchanged |

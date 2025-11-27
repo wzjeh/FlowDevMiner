@@ -1,0 +1,21 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| 1. Residence_time | conversion_of_TFMB | increase |
+| 2. flow_rate | yield | decrease |
+| 3. temperature | conversion_rates | increase |
+| 4. catalyst_loading | yield | increase |
+| 5. pressure | product_quality | decrease |
+| 6. residence_time | yield_of_TFMB | increase |
+| 1. Residence_time | conversion_of_TFMB | increase |
+| 2. flow_rate | yield, purity | decrease |
+| 3. temperature | conversion_rates, selectivity | increase |
+| 4. catalyst_loading | yield | increase |
+| 5. pressure | product_quality | decrease |
+| 6. residence_time | yield_of_TFMB | increase |
+| 1. Residence_time | conversion_of_TFMB | increase |
+| 2. flow_rate | yield, purity | decrease |
+| 3. temperature | conversion_rates, selectivity | increase |
+| 4. catalyst_loading | yield | increase |
+| 5. pressure | product_quality | decrease |

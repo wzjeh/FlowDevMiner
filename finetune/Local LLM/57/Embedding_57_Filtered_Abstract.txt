@@ -1,0 +1,21 @@
+Flow-chemistry process development: Microreactor with steady state achieved after 60 min for gas chromatography and/or 1H NMR analysis of liquid samples collected every 20 min from the microreactor outlet. Reaction type not mentioned; key reactants, solvent, catalyst unspecified; products also undisclosed; reactor details: type and ID unknown; critical conditions: flow rates, residence time, temperature, pressure unreported; outcomes: conversion, yield, selectivity unavailable from the given context.
+
+where mL is the liquid mass flow rate. The void fraction in the packed bed microreactor (ε) is determined by
+
+phase and 1,4-dioxane as the organic solvent. The eﬀect of various operating parameters in the packed bed microreactor (e.g., flow rate and ratio, temperature, pressure, catalyst particle size and concentra- tion) on the reaction performance (in terms of the LA conversion and GVL yield) was investigated. A microreactor model was subsequently developed to describe the experimental results and to fu
+
+Summary: The flow-chemistry process development involves a gas–liquid slug flow reactor for the oxidation of hydrocarbons using molecular oxygen as the oxidizing agent. The key reactants are hydrocarbon and oxygen, with water as the solvent. A heterogeneous catalyst is used to enhance the reaction rate. The desired products include carbon dioxide and water.
+The reactor type is a packed bed microreactor with an ID of 10 mm. Critical conditions are not mentioned in this context, but further details can be found in the original research article. The outcomes reported are conversion (X) and selectivity (S), which vary depending on the specific hydrocarbon being oxidized.
+
+Summary: The paragraph discusses flow-chemistry process development for a packed bed micro-reactor hydrogenation of LA over Ru/C catalyst. Key reactants are LA and H2; solvent is not mentioned. Products include GVL with selectivity around 40–60%. Reactor details: type - packed bed microreactor, ID - not specified. Critical conditions: flow rate (Qtot = 0.27–0.55 mL/min), gas to liquid volumetric flow ratio (QG,0/QL,0 = 4.5), residence time is not mentioned, temperature and pressure are not mentioned. Outcomes include increased LA conversion and GVL yield with increasing flow rate due to improved mass transfer at higher flow rates.
+
+Summary: The paragraph discusses the development of flow-chemistry processes in packed bed microreactors with low values of dC/dp (< 6.6), which are typically used for reactions involving solid catalysts and gaseous reactants. The focus is on optimizing reaction conditions to achieve high conversion, yield, and selectivity while minimizing side reactions and mass transfer limitations.
+
+To explain the observed reaction performance in the packed bed microreactor, the gas–liquid–solid contact behavior and the associated mass transfer characteristics, the intrinsic kinetics and their roles in determining the overall reaction rate need to be well understood. This eventually would lead to the establishment of a microreactor model that describes the LA hydrogenation results (especially
+
+Fig. 2. Influence of the inverse weight hourly space velocity (1/WHSV) on the measured LA conversion, GVL and HPA yields at the outlet of the packed bed microreactor. The values at 1/WHSV = 0 correspond with the microreactor inlet. Conditions: CLA,0 = 5 wt%, QG,0/QL,0 = 4.5, 12 bar H2, 130 °C, Lbed = 0.8 m, wc = 0.9 g, dp = 0.45 mm. Lines are solely for illustrative pur- poses. Error bars above an
+
+Summary: The paragraph discusses the influence of superficial gas and liquid velocities on the flow pattern in a packed bed microreactor used for flow-chemistry process development. It highlights that understanding these flow patterns is crucial for optimizing mass transfer and reaction rates, which are essential for achieving high conversion, yield, and selectivity of desired products.
+
+The measured microreactor performance is further compared with the literature results, where a weight hourly space velocity of the LA itself (WHSV(LA); in gLA/(gcat·h)) was recalculated in order to account for the LA concentration diﬀerence in all works (Table 1). The value of WHSV(LA) was estimated for packed bed reactors or microreactors from
+

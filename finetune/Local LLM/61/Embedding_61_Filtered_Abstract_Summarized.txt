@@ -1,0 +1,41 @@
+{"reaction_type": None, "reactants":[], "products":[],
+                        "conditions":[], "reactor":{"type":None,"inner_diameter":None},
+                        "metrics":{"conversion":None,"yield":None,"selectivity":None,"unit":"%"}}
+
+{"conversion": None, "yield": None, "selectivity": None}
+
+{ "reaction_summary": {  "reaction_type":"...",  "reactants":[{"name":"...","role":"..."}, {"name":"...","role":"..." }],  "products":[    {"name":"...","yield_optimal":null,"unit":"%"} ],  "conditions":[    {"type":"temperature","value":"..."},    {"type":"residence_time","value":null}   ],  "reactor":{"type":"coil", "inner_diameter":null}
+
+{value}
+
+{
+        "conversion": null,
+        "yield": 95, # Assuming the yield of PEO as 95% based on the text
+        "selectivity": null,
+        "unit": "%"
+    }
+
+{
+        "conversion": 0,
+        "yield": 0,
+        "selectivity": None, 
+        "unit": "%"
+    }
+
+{
+                "name": None,
+                "yield_optimal": int(value),
+                "unit": "%"
+            }
+
+{"type": "residence_time", "value": 5}
+
+{"reaction_type": None,
+                        "reactants": [],
+                        "products": [{"name": None, "yield_optimal": 0.0, "unit": "%"}],
+                        "conditions": [],
+                        "reactor": {"type": None, "inner_diameter": None},
+                        "metrics": {"conversion": None, "yield": 0.0, "selectivity": None, "unit": "%" }}
+
+{}
+

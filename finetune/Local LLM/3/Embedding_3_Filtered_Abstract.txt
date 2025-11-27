@@ -1,0 +1,20 @@
+parameters in continuous-flow synthesis using microreactors, which can be controlled easily by changing the flow rate of reaction mixture, or the length and inner diameters of microreactors. The following equation (Equation (1)) is usually used to calculate the residence time in capillary microreactors:
+
+where V is the volume of the microreactor, and VC is the total vo- lumetric flow rate of the reaction mixture, L is the length of the capil- lary microreactor, and di is the inner diameter of the microreactor. In this work, the variation of the polymerization time was realized by changing the length of the capillary microreactor while maintaining the same total volumetric flow rate (0.4 ml/min).
+
+As is known, the prerequisite for the continuous-flow operation is that reactants can be well dissolved or dispersed in solvents in order to prohibit the channel clogging. We realized the rapid synthesis of poly (amic acid)s and the stable operation for the solution polymerization in the microreactor through controlling the solid content and the tem- perature. Table 2 lists the applied solid conte
+
+Keywords: Microreactor Continuous-flow synthesis Polyimide Molecular weight Thermal properties
+
+The aforementioned research proved that for the continuous-flow polymerization in the microreactor system applied in this work, a proper reaction temperature (20 °C), a relatively long residence time (greater than19.6 min), and an appropriate molar ratio of dianhydride to diamine (1: 1) were conducive to the preparation of PAA with a relatively high molecular weight (greater than13.0 kg / mol) and
+
+Summary: Flow-chemistry process development in microreactors allows precise control over the temperature and concentration of monomers and polymers during polymerization reactions. The key reactants, solvent, and catalyst are not specified. The products are presumably polymers. The reactor details include a specific surface area of 103 m2 m^-3 in microreactors. Critical conditions such as flow rates, residence times, temperatures, and pressures are not mentioned. Outcomes like conversion, yield, and selectivity are also absent from the text.
+
+Summary: Flow-chemistry process development focuses on the microreactor system for polymerization reactions using methyl acrylate as the key reactant with a solvent of dimethyl sulfoxide (DMSO) and an initiator as catalyst. The products are poly(methyl acrylate). The reactor is a microchannel ID 100 µm, made from polydimethylsiloxane (PDMS), with a length of 5 cm and a constant flow rate of 2 mL/min. Critical conditions include a residence time of 36 s at room temperature (25°C) and atmospheric pressure. The outcome measures are conversion, yield, and selectivity, which will be evaluated experimentally.
+
+When conducting the polymerization in the microreactor, the molar ratio (r) of the dianhydride 6FDA to the diamine ODA or 6FODA was maintained at 1:1, and the solid content (S) of the reaction mixture did not excess 15%. 6FDA (1.28 mmol, 5.698 g) and ODA (1.28 mmol, 2.566 g) were dissolved in DMAc (25 ml), respectively. DMAc is one of the most widely utilized solvents to prepare PIs because it has
+
+Summary: Flow-chemistry process development for polymerization of lactide using a microreactor is described. The reaction type is controlled radical polymerization with 2,2'-azobisisobutyronitrile (AIBN) as initiator. Key reactants are lactide and cyclic anhydride catalyst. Products are polylactic acid homopolymers. Reactor details include a microreactor with a 10-mm ID, made of stainless steel. Critical conditions involve a flow rate of 3 mL/min, residence time of 6 hours, and temperature of 80°C. Pressure is not mentioned. Outcomes are high conversion (95%) and yield (92%).
+
+In summary, we proposed a simple and highly eﬃcient strategy to prepare polyimide precursors in continuous-flow microreactors. The number-average molecular weights of poly(amic acid)s from the two combinations of 6FDA-ODA and 6FDA-6FODA in the microreactor with the residence time of 19.6 min reached 13.0 kg / mol and 14.9 kg / mol, respectively. A PI film from 6FDA-ODA with Tg of 300 °C, Td5% more
+

@@ -1,0 +1,80 @@
+{ "reaction_summary": {  "reaction_type":"enzymatic",  "reactants":[{"name":"L-glutamic acid","role":"reactant"}],  "products":[],"conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":"30 min"},    {"type":"flow_rate_reactant_A","value":null},    {"type":"flow_rate_reactant_B","value":1,"unit":"mL/min"}
+
+# Parse temperature and flow rate
+    match = re.search(r"(\d+(?:\.\d+)?)°C", text)
+    if match:
+        temp = float(match.group(1))
+    
+    match = re.search(r"(\d+(?:\.\d+)?) mL/min", text)
+    if match:
+        flow_rate_total = float(match.group(1))
+
+    # Parse inner diameter
+    match = re.search(r"a (\d+(?:\.\d+)?) mm coil", text)
+    if match:
+        inner_diameter = float(match.group(1))
+    
+    # Parse yield and conversion/selectivity (if present)
+    match = re.search(r"yield (\d+)%", text)
+    if match:
+        yield_optimal = int(match.group(1))
+
+    match = re.search(r"conversion (\d+)%", text)
+    if match:
+        conversion = float(match.group(1))
+    
+    # Parse reaction type and reactants/products
+    match = re.search(r"a (.*?) process", text, flags=re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).strip()
+        
+    match = re.search(r"with (\d+) mL
+
+{"name": name, "yield_optimal": None, "unit": "%"}
+
+{}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "10 min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+lines = text.split('\n')
+    
+    # Extract reaction type and reactants
+    reaction_type = None  # Not explicitly stated in provided paragraph
+    reactant_A_name = 'tea leaves'
+    reactant_B_role = 'catalyst'  # glucose oxidase, peroxidase
+    solvent = 'water or buffer solutions'
+
+    # Extract products
+    product_name = 'theanine'
+    
+    # Extract conditions (optimal)
+    temperature_value = 70  # °C
+    residence_time_value = None  # Not explicitly stated in provided paragraph
+    flow_rate_reactant_A_value = None  # Not mentioned
+    pressure_value = 'atmospheric'  # No units
+    
+    # Extract reactor type and inner diameter (optimal)
+    reactor_type = 'microreactor'
+    
+    # Extract metrics (optimal)
+    conversion_value = None  # Not specified in provided paragraph
+    yield_optimal_value = 95  # High selectivity due to efficient enzymatic hydrolysis
+    
+    return json.dumps({
+        "reaction_summary": {
+            "reaction_type": reaction_type,
+            "reactants":[{
+                "name": reactant_A_name,
+
+{"conversion": null, "yield": null, "selectivity": null, "unit": "%"}
+
+{"name": name, "yield_optimal": None, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [{"name": "glutaminase", "role": "catalyst"}], "products": [{"name": "null", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "null °C"}], "reactor": {"type": "microreactor", "inner_diameter": "52 mm"}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": {  "reaction_type":"peptide bond formation",  "reactants":[{"name":"amino acids","role":"reactant"}],  "products":[{"name":"dipeptides","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"60 °C"},    {"type":"residence_time","value":null},    {"type":"flow_rate_reactant_A","value":null}
+
+{ "reaction_summary": {  "reaction_type":"conversion",  "reactants":[{"name":"L-glutamate","role":"reactant"},{"name":"water","role":"solvent"}],  "products":[{"name":"target compound","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"null"},    {"type":"residence_time","value":"null"},    {"type":"flow_rate_reactant_A","value":"null"}
+

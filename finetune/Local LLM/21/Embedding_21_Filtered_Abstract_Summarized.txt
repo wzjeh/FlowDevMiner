@@ -1,0 +1,33 @@
+{"reaction_type": None,
+                        "reactants": [],
+                        "products": [{"name": None, "yield_optimal": 0.95, "unit": "%"}],
+                        "conditions": [],
+                        "reactor": {"type": None, "inner_diameter": None},
+                        "metrics": {"conversion": None, "yield": None, "selectivity": None, "unit": "%" }}
+
+{"reaction_summary": {"reaction_type": "homogeneous", "reactants": [{"name": "PhCH2OH", "role": "solvent"}], "products": [], "conditions": [{"type": "temperature", "value": "room temperature"}, {"type": "flow_rate_reactant_A", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"type": "residence_time", "value": 15}
+
+{ "reaction_summary": { 
+"reaction_type":"homogeneous catalytic benzyl alcohol aerobic oxidation", 
+"reactants":[{"name":"benzyl alcohol","role":"reactant"}], 
+"products":[{"name":"...","yield_optimal":null,"unit":"%"}], 
+"conditions":[ {"type":"temperature","value":"25 °C"}, {"type":"residence_time","value":null}, {"type":"flow_rate_reactant_A","value":null}, {"type":"flow_rate_reactant_B","value":null} ], "reactor":{"type":"micro-packed bed reactor", "inner_diameter":"4.35 mm"}
+
+{"name": "benzaldehyde"}
+
+{"name": "oxygen", "yield_optimal": 95, "unit": "%"}
+
+{
+            "reaction_type": reaction_type,
+            "reactors": [],
+            "products": []
+        }
+
+{"reaction_summary": {"reaction_type": "aerobic oxidation", "reactants": [{"name": "organic substrates", "role": "reactant"}], "products": [], "conditions": [{"type": "pressure", "value": "atmospheric pressure"}, {"type": "temperature", "value": "null"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}], "reactor": {"type": "microreactor", "inner_diameter": "0.05-0.2 mm"}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "full conversion", "reactants": [{"name": "primary alcohols", "role": "reactant"}], "products": [], "conditions": [{"type": "residence_time", "value": "10 times shorter"}], "reactor": {"type": "micro-packed bed reactor"}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"type":"residence_time","value":match.group(1)}
+

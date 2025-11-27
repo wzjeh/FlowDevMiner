@@ -1,0 +1,52 @@
+{
+  "reaction_type": "thermal decomposition",
+  "reactants": [
+    {
+      "name": "titanium tetraisopropoxide",
+      "role": "reactant"
+    },
+    {
+      "name": "nitrogen",
+      "role": "carrier gas"
+    },
+    {
+      "name": "titanium tetraisopropoxide",
+      "role": "precursor"
+    }
+  ],
+  "products": [
+    {
+      "name": "TiO2",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "1000 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "1.4 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "34 cm3/min"
+    },
+    {
+      "type": "pressure",
+      "value": "101.3 kPa"
+    }
+  ],
+  "reactor": {
+    "type": "tubular",
+    "inner_diameter": "4 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

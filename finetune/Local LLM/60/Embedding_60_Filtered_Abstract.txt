@@ -1,0 +1,21 @@
+Compression-type fittings for 1/32″ capillaries are seamlessly inte­ grated into the top plate to introduce the reaction gas mixture and allow the outflow of products. Low-flow mass flow controllers (Bronkhorst High-Tech B.V.) are employed to control the gas flow rates into the microreactor. The products leave the microreactor through a 130 µm internal diameter stainless-steel capillary (Valco Ins
+
+Fluid flow: The fluid flow in the microreactor channel is modelled by solving the continuity equation and the steady state Navier-Stokes equation for incompressible fluids in the ‘Laminar Flow' interface. The governing equations are as follows:
+
+Summary: The paragraph discusses a flow-chemistry process development for CO oxidation at 240°C and 40 bar using a micro reactor with catalyst. The reaction involves CO as the reactant and an unspecified product is formed. Two different flow rates (0.04 and 0.32 sccm/µgcat) are considered, revealing that the product concentration increases from the inlet to the outlet of the reactor with a nearly constant profile along the width. The reactor type is not specified but it operates under plug flow conditions.
+
+The high sensitivity of the microreactor is achieved through an ac­ curate control of the low flow rates supplied to the 50 µL reactor channel through low dead volume capillaries and a sensitive product quantifi­ cation down to 1 ppm via a GC. In the current experiments, with a feed gas flow rate of 0.5 sccm, temperature of 240 ◦C, and pressure of 40 bar, the CO concentration measured at the react
+
+Summary: The paragraph discusses the development of flow-chemistry processes using a microreactor with a tube furnace for heating or cooling reactions. The focus is on optimizing reaction conditions and understanding mass transfer limitations in microchannels.
+
+As gas passes through the microreactor channel, which has a height of 70 µm, it establishes a parabolic velocity profile due to the no-slip condition at the walls. This results in a maximum velocity at the cen­ ter of the channel, which decreases to zero at the reactor walls, including the catalytic surfaces (Fig. 7a). Consequently, the reactants must diffuse from the bulk flow to the surface of t
+
+laboratory reactors. As a result, a specialized microreactor designed to handle these extremely small catalyst quantities on planar substrates is necessary to ensure sufficient contact time at lower feed gas flow rates, while minimizing product dilution. Additionally, the geometry of the reactor should be suitable for planar samples.
+
+Summary
+ The paragraph discusses the use of COMSOL Multiphysics package for simulating a microreactor's design and performance in reaction engineering and fluid dynamics. Governing equations were solved to validate the microreactor. The focus is on flow-chemistry process development, which involves solving complex reactions with multiple reactants/solvents/catalysts, optimizing reactor designs, and analyzing critical conditions such as flow rates, residence times, temperatures, and pressures.
+
+2.1. Design and fabrication of microreactor
+
+As detailed in Section 2.1 and illustrated in Fig. 3a, the placement of the planar catalyst sample in the microreactor creates a rectangular microchannel measuring 48 × 18 × 0.07 mm3 (green), with catalyst deposited surfaces at the bottom of the channel (highlighted by or­ ange dashed circles in Fig. 3b). The inlets and outlets are indicated by white-filled and dark-filled small circles in Fig. 3b
+

@@ -1,0 +1,73 @@
+{"reaction_summary": {"reaction_type": "continuous_flow", "reactants": [{"name": "reactants", "role": "reactant"}], "products": [], "conditions": [{"type": "temperature", "value": "null"}, {"type": "residence_time", "value": "null"}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "flow_rate_reactant_B", "value": null}, {"type": "pressure", "value": "null"}], "reactor": {"type": "microchannel_cavity", "inner_diameter": "1000 μm"}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"type": 'internal numbering-up type', "inner_diameter": 0.75}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [], "products": [{"name": "null", "yield_optimal": null, "unit": "%"}], "conditions": [{"type": "temperature", "value": "null"}, {"type": "residence_time", "value": "null"}, {"type": "flow_rate_reactant_A", "value": "null"}, {"type": "flow_rate_reactor_B", "value": "null"}, {"type": "pressure", "value": "null"}], "reactor": {"type": "heart-shaped", "inner_diameter": 270}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{ "reaction_summary": {  "reaction_type":"TOL nitrification",  "reactants":[{"name":"TOL","role":"reactant"}],  "products":[    {"name":"nitrite","yield_optimal":null,"unit":"%"},    {"yield_optimal":95,"unit":"%"}
+
+{ "reaction_summary": { 
+    "reaction_type":"TOL nitrification", 
+    "reactants":[{"name":"TOL","role":"reactant"}], 
+    "products":[{"name":"nitrated TOL","yield_optimal":95,"unit":"%"}
+
+{"name": None, "yield_optimal": 95, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [], "products": [{"name": "X", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "residence_time", "value": "60-70 s"}], "reactor": {"type": "microreactors", "inner_diameter": "null"}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+Table 1
+| Condition | Test Number |
+| --- | --- |
+| T=80 °C, RT=10 min, FR_A=0.5 mL/min, FR_B=2 mL/min | 1 |
+| T=100 °C, RT=20 min, FR_A=1 mL/min, FR_B=3 mL/min | 2 |
+
+Table 2
+| Condition | MNT Selectivity (%) | NCB Selectivity (%) |
+| --- | --- | --- |
+| T=80 °C, RT=10 min, FR_A=0.5 mL/min, FR_B=1 mL/min | 95% | 90% |
+| T=100 °C, RT=20 min, FR_A=2 mL/min, FR_B=3 mL/min | 85% | 80% |
+
+Input
+Flow rate of reactant A is 0.5 mL/min and flow rate of reactant B is 1 mL/min at temperature 80 °C in a microreactor with inner diameter 0.2 mm; yield 95%.
+
+Output
+{ "reaction_summary": {  "reaction_type":"
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse table 3: The optimum MNT/NCB preparation performance for three microreactors.
+    
+    reaction_summaries = []
+    
+    for line in table3.split('\n'):
+        if "Flow rate" not in line:
+            continue
+        
+        match = re.search(r'(\d+(?:\.\d+)?) (mL/min)', line)
+        
+        flow_rate_reactant_A = float(match.group(1))
+        
+        # Extract temperature
+        temp_match = re.search(r'T=(\d+° C)', line)
+        if temp_match:
+            temperature = int(temp_match.group(1).replace('°', ''))
+        else:
+            temperature = None
+        
+        # Extract residence time (in min) and inner diameter (in mm)
+        res_time_match = re.search(r'residence time (\d+(?:\.\d+)?) min in a (.+)', line)
+        
+        if res_time_match:
+            residence_time, reactor_type_inner_diameter = res_time_match.groups()
+            
+            # Extract inner diameter
+            inner_diameter_match =
+

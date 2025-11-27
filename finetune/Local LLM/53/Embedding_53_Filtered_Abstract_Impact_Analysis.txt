@@ -1,0 +1,5 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| direction = re.search(r'\b(hi | lo)\w*\b', word | - |

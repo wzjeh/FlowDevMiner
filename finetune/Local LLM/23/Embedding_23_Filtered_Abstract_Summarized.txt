@@ -1,0 +1,57 @@
+{"name": name, "yield_optimal": None, "unit": "%"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mm"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{
+        "conversion": None,
+        "yield": None,
+        "selectivity": None,
+        "unit": "%"
+    }
+
+{"reaction_summary": {"reaction_type": "catalytic gas-phase", "reactants": [{"name": "hydrogen", "role": "reactant"}], "products": [], "conditions": [{"type": "temperature", "value": "1000 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "flow_rate_reactant_B", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "quartz-glass-based microreactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+{"temperature": f"{temp}°C"}
+
+{"type": "coil", "inner_diameter": f"{match.group(2)} mm"}
+
+- Assume that if a field is not explicitly stated in the input paragraph, it should be included with default values.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r'\b\w+\b(?![a-z])', input_str)
+    reactant_names = [match for match in matches]
+    
+    # Parse products (if present)
+    product_match = re.search(r'yield (\d+)%', input_str)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+        
+    else: 
+        yield_optimal = None
+    
+    # Parse conditions
+    temperature_match = re.search(r'T=(\d+) \D+', input_str)
+    
+    residence_time_match = re.search(r'residence time (\d+)', input_str)
+    
+    flow_rate_reactant_A_match = re.search(r'(\d+\.\d) mL/min', input_str)
+    
+    if temperature_match:
+        conditions = [{"type":
+
+{ "reaction_summary": {  "reactants":[{"name":"...","role":"catalyst"}],  "products":[    {"name":"...", "yield_optimal":null,"unit":"%"},    {"name":"...", "yield_optimal":95.0,"unit":"%"},    {"name":"...", "yield_optimal":80.0,"unit":"%"}  ],  "conditions":[{"type":"residence_time","value":"10 min"}],  "reactor":{"type":"macroscopica", "inner_diameter":"1 m"}
+
+{"name": name, "yield_optimal": None, "unit": "%"}
+

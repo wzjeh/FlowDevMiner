@@ -1,0 +1,52 @@
+{
+  "reaction_type": "selective hydrogenation",
+  "reactants": [
+    {
+      "name": "2-methyl-3-butyn-2-ol",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd50Zn50/Ti0.95Ce0.05O2",
+      "role": "catalyst"
+    },
+    {
+      "name": "methanol",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "2-methyl-3-buten-2-ol",
+      "yield_optimal": 95.8,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "313 K"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": "1 atm"
+    }
+  ],
+  "reactor": {
+    "type": "capillary microreactor",
+    "inner_diameter": "530 μm"
+  },
+  "metrics": {
+    "conversion": 99.0,
+    "yield": 95.8,
+    "selectivity": 96.8,
+    "unit": "%"
+  }
+}

@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "", "reactants": ["BY28", "H2O2", "PI"], "products": [], "conditions": [{"type": "pH", "value": 5}, {"type": "flow_rate", "value": "565 µL/s"}, {"type": "concentration", "value": "1 mm"}], "reactor": {"length": 2, "material": ""}, "metrics": {"conversion": null, "yield": null, "selectivity": null}}}

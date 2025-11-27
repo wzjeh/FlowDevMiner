@@ -1,0 +1,8 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| zinc_concentration | average_particle_size | decrease |
+| temperature | average_particle_size | decrease |
+| temperature | average_particle_size | increase |
+| flow_rate | average_particle_size | increase |

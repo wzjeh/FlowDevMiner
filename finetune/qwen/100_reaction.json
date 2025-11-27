@@ -1,0 +1,60 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "o-dichlorobenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "nitric acid",
+      "role": "reactant"
+    },
+    {
+      "name": "sulfuric acid",
+      "role": "reactant"
+    },
+    {
+      "name": "mixed acid",
+      "role": "catalyst"
+    },
+    {
+      "name": "chlorobenzene",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "3,4-dichloronitrobenzene",
+      "yield_optimal": 89.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "adiabatic (initial room temperature to 40-200 °C depending on feed)"
+    },
+    {
+      "type": "residence_time",
+      "value": "5 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "micropacked-bed reactor",
+    "inner_diameter": "4 mm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": null,
+    "selectivity": 89.0,
+    "unit": "%"
+  }
+}

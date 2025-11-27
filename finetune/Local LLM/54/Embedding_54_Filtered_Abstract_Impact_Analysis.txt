@@ -1,0 +1,24 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| 1. residence_time | time | decrease |
+| 2. linear_rate | blockage_of_microchannels | increase |
+| 3. reaction_volumes | heat_and_mass_transfer_rates | increase |
+| 1. residence_time | time | decrease |
+| 2. linear_rate | blockage_of_microchannels | increase |
+| 3. reaction_volumes | heat_and_mass_transfer_rates | increase |
+| residence_time | time | decrease |
+| linear_rate | blockage_of_microchannels | increase |
+| reaction_volumes | heat_and_mass_transfer_rates | increase |
+| heat_and_mass_transfer_rates | reaction_times | decrease |
+| blockage_of_microchannels | linear_rate | decrease |
+| 1. residence_time | time | decrease |
+| 2. linear_rate | blockage_of_microchannels | increase |
+| 3. reaction_volumes | heat_and_mass_transfer_rates | increase |
+| residence_time | time | decrease |
+| linear_rate | blockage_of_microchannels | increase |
+| reaction_volumes | heat_and_mass_transfer_rates | increase |
+| heat_and_mass_transfer_rates | reaction_times | decrease |
+| blockage_of_microchannels | linear_rate | decrease |
+| product selectivity | unchanged | unchanged |

@@ -1,0 +1,78 @@
+{float(residence_time_match.group(1))}
+
+{temp_match.group(1)}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively. inner_diameter is mm.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-reaction', input_str, flags=re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"([A-Z][a-z]+)", input_str)
+    reactant_names = [match for match in matches]
+    
+    # Parse products (if present)
+    product_match = re.search(r'yield (\d+)%', input_str, flags=re.IGNORECASE)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+        
+    else: 
+        yield_optimal = None
+    
+    # Parse conditions
+    temperature_match = re.search(r'T=([0-9]+) °C', input_str, flags=re.IGNORECASE)
+    
+    residence_time_match = re.search(r'residence time ([0-9.]+)', input_str, flags=re.IGNORECASE)
+    
+    flow_rate_A_match = re.search(r
+
+{"name": name.lower(), "role": role}
+
+{ "reaction_summary": {  "reaction_type":"FUR hydrogenation to FA",  "reactants":[{"name":"FUR","role":"reactant"}],  "products":[{"name":"FA","yield_optimal":null,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"80 °C"},    {"type":"residence_time","value":"30 min"},    {"type":"flow_rate_reactant_A","value":"0.1 mL/min"},    {"type":"pressure","value":null}  ],  "reactor":{"type":"μPBR", "inner_diameter":"20 mm"}
+
+{"name": None, "yield_optimal": yield_value, "unit": "%"}
+
+{
+        "conversion": None,
+        "yield": None,
+        "selectivity": None,
+        "unit": "%"
+    }
+
+{"name": None, "yield_optimal": int(p), "unit": "%"}
+
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp_residence = re.search(r"(\d+) (°C|min)", text)
+    if match_temp_residence:
+        value, unit = match_temp_residence.groups()
+        if unit == "°C":
+            temp = int(value)
+        elif unit == "min":
+            res_time = float(value)
+
+    # Parse flow rate
+    flow_rate_A = None
+    flow_rate_B = None
+    total_flow_rate = None
+    match_flow_rates = re.search(r"(\d+(?:\.\d+)?)(mL/min|sccm)", text)
+    if match_flow_rates:
+        value, unit = match_flow_rates.groups()
+        if "mL/min" in unit:
+            flow_rate_A = float(value)  # Assume A is the first reactant
+        elif "sccm" in unit and not total_flow_rate:  # If no mL/min found yet
+            total_flow_rate = int(value)
+    match_total_flow_rates = re.search(r"\d+(?:\.\d+)? sccm", text)  # Check for second flow
+
+{"reaction_summary": {"reaction_type": "hydrogenation", "reactants": [{"name": "FUR", "role": "solvent"}], "products": [{"name": "FA", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "..."}, {"type": "residence_time", "value": "..."}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}, {"type": "pressure", "value": "..."}, {"type": "flow_rate_total", "value": null}], "reactor": {"type": "coil", "inner_diameter": "5 mm"}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+

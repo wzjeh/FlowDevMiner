@@ -1,0 +1,18 @@
+Table 1 Performance study of microfluidic reactor
+
+Under the optimized reaction conditions, various sub- strates could be carried out smoothly in the Pd-immobi- lized microchannels (Table 2). The microfluidic reactor exhibited high efficiency and good functional group com- patibility. Substituents such as chloro, nitro, acetyl and methoxy groups on the aryl halides and methoxy, methyl, chloro and formyl groups on arylboronic acids were all tolerat
+
+achieved in our open channel microreactor. This could be attributed to the advantages that offered by microfluidic channels, in which the smaller axial distances and laminar flow pattern might facilitate the substance exchange (reac- tant reaching and product leaving the active sites). In con- ventional flow-based heterogeneous systems, because quite lots of active sites of the catalysts locate de
+
+With the raw materials becoming more limited, it is essential that we strive to make synthetic organic chemistry more efficient and sustainable. Among new strategies developed, microchip-based microreactor technology has received a great deal of attention in recent years, due to its unique advantages (deMello 2006; Watts and Wiles 2007; Jones et al. 2009; Yamada et al. 2009; Bernhard et al. 2010; 
+
+The Suzuki cross-coupling reaction of aryl halides (X = I, Br) with aryl boronic acid was successfully carried out in COC-based open channel microreactors with reduced time and lower reactant consumption, which showed great potential for high-throughput screening of catalysts or reaction conditions. The good performance might be a result of the unique flow pattern and diffusion behavior of molecul
+
+Summary: Flow-chemistry process development using Pd-immobilized microchannel reactor R2 with continuous flow of reactants through the catalyst bed for selective oxidation of alcohols to aldehydes and ketones. Key reactants include alcohol, oxygen source (air or O2), solvent (water or other polar aprotic solvents). Palladium on carbon catalyst is used. Products are aldehydes and ketones with varying selectivity depending on reaction conditions. Reactor details: microchannel reactor R2, 10-50 micron channel ID, stainless steel construction. Critical conditions include flow rate (1-10 mL/min), residence time (1-60 s), temperature (40-80°C), pressure (atm). Outcomes: conversion and yield of products depend on reaction conditions and catalyst loading.
+
+Typically, a solution of 1-iodo-4-methoxybenzene (0.067 M), phenylboronic acid (0.10 M), biphenyl (0.04 M), DMF/ H2O (2/1, 1 mL) and Et3N (0.20 M) was prepared and then 200 ll of reactant mixture was introduced into the sample pool and flowed spontaneously in the channel from one side to the other at the desired reaction temperature by placing the microreactor on a pre-heated thermostat. The time 
+
+between the main stream and the channel surface takes only several seconds or less. Therefore, continuous supply of reactants and effective removal of products through the laminar flow could be beneficial to heterogeneous catalysis in which catalysts are immobilized on the surface of the microchannel. We anticipate that, with similar experi- mental protocols, it should be possible to immobilize ot
+
+Typically, a copper wire (about 120 lm in diameter, 20 cm in length) was placed on a COC plate (about 1.5 cm 9 6.5 cm) in a predefined shape with its two ends extruded out the COC plate, then the plate together with the wire were sandwiched between two glass micro slides using four small binder clips. The assembly was put in an oven at 150C for 20 min and allowed to cool down to room temperature.
+

@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "", "reactants": [], "products": [], "conditions": [{"type": "flow_rate", "value": "500 µL/min"}, {"type": "", "value": ""}, {"type": "", "value": ""}], "reactor": {}, "metrics": {}}}

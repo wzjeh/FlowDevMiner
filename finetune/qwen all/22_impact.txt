@@ -1,0 +1,14 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | monomer conversion | increase |
+| DVB dosage | reaction rate | decrease |
+| DVB dosage | viscosity of polymer solution | increase |
+| DDT dosage | viscosity of polymer solution | decrease |
+| DDT dosage | average molecular weight | decrease |
+| DDT dosage | chain entanglement effect | decrease |
+| DVB dosage | branching degree | increase |
+| DDT dosage | gelation tendency | decrease |
+| residence_time | viscosity of polymer solution | increase |
+| temperature | reaction rate | increase |

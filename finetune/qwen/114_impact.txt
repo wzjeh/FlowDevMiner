@@ -1,0 +1,9 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of nitrobenzene | increase |
+| flow_rate of hydrogen | conversion of nitrobenzene | increase |
+| flow_rate of nitrobenzene | conversion of nitrobenzene | decrease |
+| reactant_concentration of nitrobenzene | conversion of nitrobenzene | decrease |
+| number_of_stacked_layers | durability | increase |

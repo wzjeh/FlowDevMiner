@@ -1,0 +1,115 @@
+{
+  "reaction_summary": {
+    "reaction_type": "hydrogenation",
+    "reactants": ["furfural", "H2"],
+    "products": ["furfuryl alcohol"],
+    "conditions": [
+      {"type":"temperature","value":80},
+      {"type":"residence_time","value":3.5},
+      {"type":"pressure","value":1}
+    ],
+    "reactor":{"type":"micropacked bed"},
+    "metrics":{
+        "conversion": 97,
+        "yield": null,
+        "selectivity": null
+    }
+  },
+  {
+    "reaction_summary": {
+      "reaction_type": "hydrogenolysis",
+      "reactants": ["N-diphenylmethylazetidin-3-ol", "H2"],
+      "products": ["3-azetidinol","phenols","diphenylmethane derivatives"],
+      "conditions": [
+        {"type":"temperature","value":80},
+        {"type":"residence_time","value":5.0}
+      ],
+      "reactor":{"type":"micropacked bed"},
+      "metrics":{
+          "conversion": null,
+          "yield": 97,
+          "selectivity": null
+      }
+    },
+    {
+      "reaction_summary": {
+        "reaction_type": "hydrogenolysis",
+        "reactants": ["N-diphenylmethylazetidin-3-ol", "H2"],
+        "products": ["phenols","diphenylmethane derivatives"],
+        "conditions": [
+          {"type":"temperature","value":80},
+          {"type":"residence_time","value":6.0}
+        ],
+        "reactor":{"type":"micropacked bed"},
+        "metrics":{
+            "conversion": null,
+            "yield": 97
+        }
+      },
+    {
+      "reaction_summary": {
+        "reaction_type": "hydrogenation",
+        "reactants": ["alkene", "H2"],
+        "products": ["alcohol","aldehyde"],
+        "conditions": [
+          {"type":"temperature","value":null},
+          {"type":"residence_time","value":1.9}
+        ],
+        "reactor":{"type":"micropacked bed"},
+        "metrics":{
+            "conversion": 63,
+            "yield": null
+        }
+      },
+    {
+      "reaction_summary": {
+        "reaction_type": "hydrogenolysis",
+        "reactants": ["N-diphenylmethylazetidin-3-ol", "H2"],
+        "products": ["phenols","diphenylmethane derivatives"],
+        "conditions": [
+          {"type":"temperature","value":80},
+          {"type":"residence_time","value":5.0}
+        ],
+        "reactor":{"type":"micropacked bed"},
+        "metrics":{
+            "conversion": null,
+            "yield": 97
+        }
+      },
+    {
+      "reaction_summary": {
+        "reaction_type": "hydrogenation",
+        "reactants": ["furfural", "H2"],
+        "products": ["furfuryl alcohol","phenol"],
+        "conditions": [
+          {"type":"temperature","value":80},
+          {"type":"residence_time","value":5.0}
+        ],
+        "reactor":{"type":"packed bed"},
+        "metrics":{
+            "conversion": 95,
+            "yield": null
+        }
+      },
+    {
+      "reaction_summary": {
+        "reaction_type": "hydrogenation",
+        "reactants": ["alkene", "H2"],
+        "products": ["alcohol","aldehyde"],
+        "conditions": [
+          {"type":"temperature","value":null},
+          {"type":"residence_time","value":3.0}
+        ],
+        "reactor":{"type":"batch reactor"},
+        "metrics":{
+            "conversion": 38,
+            "yield": null
+        }
+      },
+    {
+      "reaction_summary": {
+        "reaction_type": "hydrogenation",
+        "reactants": ["alkene", "H2"],
+        "products": ["alcohol","aldehyde"],
+        "conditions": [
+          {"type":"temperature","value":null}

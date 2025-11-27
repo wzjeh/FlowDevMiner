@@ -1,0 +1,10 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rate | yield | increase |
+| flow_rate | yield | decrease |
+| temperature | yield | unchanged |
+| temperature | yield | decrease |
+| pH | yield | increase |
+| pH | yield | decrease |

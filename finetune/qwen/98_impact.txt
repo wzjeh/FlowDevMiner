@@ -1,0 +1,13 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion | increase |
+| temperature | yield | increase |
+| residence_time | conversion | increase |
+| residence_time | yield | increase |
+| mixing_performance | selectivity | increase |
+| heat_transfer_efficiency | yield | increase |
+| flow_rate | residence_time | decrease |
+| channel_diameter | heat_transfer_efficiency | decrease |
+| channel_diameter | mixing_performance | decrease |

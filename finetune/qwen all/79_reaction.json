@@ -1,0 +1,52 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "nitrobenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "palladium nanocatalysts",
+      "role": "catalyst"
+    },
+    {
+      "name": "ethanol aqueous solution (C2H5OH : H2O = 7 : 3, v/v)",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "aniline",
+      "yield_optimal": 97.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "473 K"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "15 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "tubular",
+    "inner_diameter": "0.6 mm"
+  },
+  "metrics": {
+    "conversion": 97.0,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

@@ -1,0 +1,14 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of ε-caprolactone | increase |
+| temperature | conversion of ε-caprolactone | increase |
+| residence_time | number-average molecular mass (Mn) | increase |
+| water_content | number-average molecular mass (Mn) in batch reactor | decrease |
+| reactor_type (microreactor vs batch) | apparent monomer conversion rate constant (kapp) | increase |
+| reactor_type (microreactor vs batch) | end-group functionalization efficiency | increase |
+| number_of_cycles | CALB leaching | increase |
+| water_content | CALB leaching | unchanged |
+| reactor_type (microreactor vs batch) | fraction of benzyl ester terminal groups over multiple cycles | unchanged |
+| flow_rate | residence_time | decrease |

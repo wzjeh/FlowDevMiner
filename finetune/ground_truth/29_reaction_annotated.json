@@ -1,0 +1,52 @@
+{
+  "reaction_type": "difluoroalkylation",
+  "reactants": [
+    {
+      "name": "styrene",
+      "role": "reactant"
+    },
+    {
+      "name": "CuI",
+      "role": "catalyst"
+    },
+    {
+      "name": "DMSO",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "EDPB",
+      "yield_optimal": 80.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "85 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": "15 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.3 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "275.8 kPa"
+    }
+  ],
+  "reactor": {
+    "type": "capillary microreactor",
+    "inner_diameter": "1.587 mm"
+  },
+  "metrics": {
+    "conversion": 95.0,
+    "yield": 80,
+    "selectivity": 99,
+    "unit": "%"
+  }
+}

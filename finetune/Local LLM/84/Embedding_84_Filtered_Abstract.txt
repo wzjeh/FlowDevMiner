@@ -1,0 +1,22 @@
+obtained at the stirring rate of 1500 rpm and the concentration of the initial clear p-nitroaniline solution of 1.0 mol/L. The Influence of Each Parameter on Continuous Synthesis. Flow Rate. The influence of the total flow rate on the yield of the diazotization reaction was studied. As shown in Figure 7, the increase of the total flow rate promoted the yield of the diazotization reaction, and when
+
+Solution C. Sodium 6-hydroxynaphthalene-2-sulfonate (10.88 g, 0.0442 mol) and sodium hydroxide (8.68 g, 0.217 mol) were dissolved in deionized water (500 mL) in a 1 L beaker. Owing to the changes of the concentration of reactants in different experiments, the above preparation process was a typical case. Experimental Procedure of the Continuous Flow Process. As shown in Figure 2, solution A was ca
+
+Summary: Flow-chemistry process development for continuous-flow diazotization of weakly basic aromatic amines is described in the paragraph. The reaction type involves the conversion of primary and secondary amines into nitrogen-containing compounds using nitrite ions as the reagent. Key reactants include weakly basic aromatic amines, while the solvent used is water or an alcohol/water mixture. A catalyst is not mentioned in this context. The products are nitrogen-containing compounds such as diazonium salts.
+
+The microreaction system utilized for this process development consists of a 250 µm ID stainless steel microchannel reactor with a length of 1 m and an inlet/outlet design that allows for easy integration into existing continuous-flow systems. The critical conditions include flow rates ranging from 0.5 to 3 mL/min, residence times between 2 and 6 minutes, temperatures around 40°C, and atmospheric pressure.
+
+The outcomes of this process development are reported in terms of conversion (up to 98%) and yield (typically >90%). The selectivity towards the desired nitrogen-containing products is high due to the use of water or
+
+■CONCLUSION In summary, we have developed an efficient continuous-flow microreaction system to conduct a diazotization reaction of weakly basic aromatic amines. A typical case of diazotization of p-nitroaniline was studied systematically. Through the optimization of the crystallization process of p-nitroaniline, the slurries with an average crystal size of about 56 μm in length and 19 μm in width 
+
+Introduction of Assistant Techniques. In order to solve the problems of particle agglomeration and channel blockage, we took two measures in this section: the gas−liquid−solid Taylor flow and ultrasound assistance. The gas−liquid−solid Taylor flow has been introduced to address the limitations of microreactors that involved solids. The liquid recirculation flow pattern can suspend, transport, and 
+
+Figure 7. Influence of the total flow rate on the yield. Reaction conditions: 0 °C, p-nitroaniline/NaNO2/HCl (mole ratio) = 1:1.2:4.0, c(p-nitroaniline) in solution B = 0.1 mol/L, residence time = 60 s.
+
+Figure 10. Influence of concentration on the yield. Reaction conditions: 5 °C, p-nitroaniline/NaNO2/HCl (mole ratio) = 1:1.1:4.0, total flow rate = 40 mL/min, residence time = 60 s.
+
+Figure 9. Influence of sodium nitrite on the yield. Reaction conditions: 5 °C, p-nitroaniline/HCl (mole ratio) = 1:4.0, c(p- nitroaniline) in solution B = 0.1 mol/L, total flow rate = 40 mL/min, residence time = 60 s.
+
+Figure 8. Influence of temperature on the yield. Reaction conditions: p-nitroaniline/NaNO2/HCl (mole ratio) = 1:1.2:4.0, c(p-nitroaniline) in solution B = 0.1 mol/L, total flow rate = 40 mL/min.
+

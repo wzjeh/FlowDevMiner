@@ -1,0 +1,33 @@
+Reaction type: Nitration of naphthalene
+Key reactants/solvent/catalyst: Sulfuric acid (74%), nitric acid (HNO3) as catalyst
+Products: Naphthalene-1-nitrate, naphthalene-2-nitrate
+Reactor details: Submillimeter microreactor (0.8 mm ID), pilot continuous flow platform (4 mm ID)
+Critical conditions: Volumetric flow rate - 16 mL·min−1, 32 mL·min−1, 48 mL·min−1, and 64 mL·min−1; residence time - 2 min; temperature profile monitored
+Outcomes: Temperature fluctuations affecting conversion/yield/selectivity due to mass and heat transfer performance decreasing with increased volumetric flow rate.
+
+Flow-chemistry process development: Reaction type - not mentioned; Key reactants/solvent/catalyst - not mentioned; Products - not mentioned; Reactor details (type/ID) - Microreactor and Mesoscale Flow Reactor; Critical conditions (flow rate(s), residence time, temperature, pressure) - Not mentioned in the context of flow-chemistry process development. Outcomes (conversion/yield/selectivity) - not mentioned.
+
+Response: The paragraph discusses the calculation of convective heat transfer coefficient h in a microreactor using eq 6 with given values for thermal conductivity coefficient λ and wall thickness b. It also provides information about the material used for the channel (PTFE) and its thermal conductivity (0.26 W·m−1·K−1). The average diameter of the pipe, dm, is considered in the calculation.
+
+Flow-chemistry process development: 
+Reaction type: Semibatch reaction of nitration of naphthalene with nitric acid as the key reactant.
+Key reactants/solvent/catalyst: Naphthalene, nitric acid (sulfuric acid co-reactant), no catalyst mentioned.
+Products: 1-nitronaphthalene, 2-nitronaphthalene, dinitronaphthalene (dinitration product).
+Reactor details (type/ID): Microreactor (not specified) and batch reactor (traditional tank reactor).
+Critical conditions: For the microreactor, mass transfer coefficient in the range of 0.05-15 s^-1; for the batch reactor, not mentioned.
+Temperature: Reaction setting temperature was low, sulfuric acid strength was also low.
+Pressure: Not mentioned.
+Outcomes (conversion/yield/selectivity): For the microreactor under the same conditions as continuous flow mode at 50 °C, selectivity of 2-nitronaphthalene was close to that in continuous flow mode and dinitration products' selectivity was much greater than that in continuous
+
+Figure 11. Influence of volumetric flow rates on reaction (a) conversion and selectivity of main product and (b) selectivity of byproduct.
+
+Summary: Flow-chemistry process development for nitration of aromatic compounds using microreactors is described. The reaction involves mixed acid nitration of organic substrates like naphthalene. Key reactants include mixed acids (e.g., HNO3, H2SO4) and solvents (e.g., water). Products are intermediates such as 1-nitronaphthalene. The microreactor is a continuous flow type with smaller liquid holdup for enhanced mixing and heat transfer capacity. Critical conditions include precise control of residence time, temperature, pressure, and flow rate(s) depending on the specific reaction requirements. Outcomes may involve improved conversion/yield/selectivity compared to batch processes due to process enhancement through microreactors.
+
+ABSTRACT: In this work, the continuous flow nitration of naphthalene to 1-nitronaphthalene was systematically studied from the microreactor to mesoscale flow reactor and the safety issues during the reaction process were investigated. The effect of the molar ratio of nitric acid to naphthalene, residence time, reaction temperature, and sulfuric acid strength on the reaction process was comprehensi
+
+Summary: The study focuses on flow-chemistry process development for a specific reaction type involving key reactants, solvent, and catalyst. The products formed are the result of this reaction under critical conditions such as volumetric flow rates, residence time, temperature, and pressure in a reactor with an ID of 250 micrometers. The outcomes include conversion, yield, and selectivity at a volume flow rate of 64 mL·min−1.
+
+benzene, showing that slug flow within the microreactor can provide enough effective interfacial area for fast liquid−liquid heterogeneous reaction. Su et al.15 performed nitration of o- nitrotoluene in the packed microreactor. Due to the out- standing dispersion and mass transfer capacity of the packed microreactor, the conversion of nitrotoluene reached up to 94% even when the reaction was less 
+
+2.2. Experimental Setup. The experimental setup is demonstrated in Figure 1a. The organic phase was formed by dissolving 0.1 mol of naphthalene in 0.4 mol of dichloroethane. And the aqueous phase was a mixture of water, sulfuric acid, and nitric acid. The organic phase and the aqueous phase were injected through two syringe pumps, respectively. First, the two phases were reacted in a T-shaped mixe
+

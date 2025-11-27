@@ -1,0 +1,6 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | yield | unchanged |
+| residence_time | yield | increase |

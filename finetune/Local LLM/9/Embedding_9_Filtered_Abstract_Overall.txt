@@ -1,0 +1,112 @@
+{
+  "reaction_summary": {
+    "reaction_type": "polymerization",
+    "reactants": ["methyl acrylate", "cyclohexane"],
+    "products": ["poly(methyl acrylate)"],
+    "conditions": [
+      {"type": "temperature", "value": "50-80 °C"},
+      {"type": "pressure", "value": "atmospheric pressure"}
+    ],
+    "reactor": {
+      "type": "capillary microreactor",
+      "inner_diameter": 1.016 mm
+    },
+    "metrics": {
+      "conversion": null,
+      "yield": null,
+      "selectivity": null
+    }
+  }
+}
+{
+  "reaction_summary": {
+    "reaction_type": "polymerization",
+    "reactants": ["monomers"],
+    "products": ["polymers"],
+    "conditions": [
+      {"type": "temperature", "value": "508C"},
+      {"type": "volumetric flow rate", "value": 1.00 mL/min},
+      {"type": "polymerization time", "value": 7 min}
+    ],
+    "reactor": {
+      "type": "capillary microreactor",
+      "inner_diameter": 1.016 mm
+    },
+    "metrics": {
+      "conversion": null,
+      "yield": null,
+      "selectivity": null
+    }
+  }
+}
+{
+  "reaction_summary": {
+    "reaction_type": "polymerization",
+    "reactants": ["methyl acrylate"],
+    "products": ["poly(methyl acrylate)"],
+    "conditions": [
+      {"type": "temperature", "value": "50-80°C"},
+      {"type": "volumetric flow rate", "value": 1.00 mL/min},
+      {"type": "residence time", "value": 12 min}
+    ],
+    "reactor": {
+      "type": "capillary microreactor",
+      "inner_diameter": 1.016 mm
+    },
+    "metrics": {
+      "conversion": null,
+      "yield": null,
+      "selectivity": null
+    }
+  }
+}
+{
+  "reaction_summary": {
+    "reaction_type": "polymerization",
+    "reactants": ["monomers"],
+    "products": ["polymers"],
+    "conditions": [
+      {"type": "temperature", "value": "508C"},
+      {"type": "volumetric flow rate", "value": 1.00 mL/min},
+      {"type": "polymerization time", "value": 7 min}
+    ],
+    "reactor": {
+      "type": "capillary microreactor",
+      "inner_diameter": 1.016 mm
+    },
+    "metrics": {
+      "conversion": null,
+      "yield": null,
+      "selectivity": null
+    }
+  }
+}
+{
+  "reaction_summary": {
+    "reaction_type": "polymerization",
+    "reactants": ["methyl acrylate"],
+    "products": ["poly(methyl acrylate)"],
+    "conditions": [
+      {"type": "temperature", "value": "50-80°C"},
+      {"type": "volumetric flow rate", "value": 1.00 mL/min},
+      {"type": "residence time", "value": 12 min}
+    ],
+    "reactor": {
+      "type": "capillary microreactor",
+      "inner_diameter": 1.016 mm
+    },
+    "metrics": {
+      "conversion": null,
+      "yield": null,
+      "selectivity": null
+    }
+  }
+}
+{
+  "reaction_summary": {
+    "reaction_type": "polymerization",
+    "reactants": ["monomers"],
+    "products": ["polymers"],
+    "conditions": [
+      {"type": "temperature", "value": "508C"},
+      {"type": "volumetric flow rate", "value": 1.00 mL/min}

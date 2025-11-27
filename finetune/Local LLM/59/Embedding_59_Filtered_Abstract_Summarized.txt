@@ -1,0 +1,70 @@
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{
+            "reaction_summary": { 
+                "reaction_type": reaction_type,  
+                "reactants":[{"name": name,"role":".".join(role)}
+
+{"reaction_summary": {"reaction_type": "continuous flow", "reactants": [{"name": "N-ethylcarbazole", "role": "reactant"}], "products": [{"name": "liquid organic hydrogen carrier", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "flow_rate_reactant_B", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "micro-packed bed reactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": 82, "selectivity": 90.0, "unit": "%"}}}
+
+{"name": null, "yield_optimal": yield_optimal_percent, "unit": "%"}
+
+{ "reaction_summary": {"reaction_type": reaction_type, "reactants": reactants, "products": products, "conditions": conditions, "reactor":{"type": reactor_type,"inner_diameter":"{0} mm".format(inner_diameter)}, "metrics": metrics}}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+Step 1: Preprocess input string
+
+
+
+
+    # Remove punctuation and convert to lowercase
+    input_str = re.sub(r'[^\w\s]', '', input_str).lower()
+    
+    return input_str
+Step 2: Extract reaction type, reactants, products, conditions, reactor, metrics from the preprocessed string
+
+
+
+    # Reaction Type
+    reaction_type = None
+    
+    # Reactants
+    reactants = []
+    
+    # Products
+    product_name = None
+    yield_optimal = 0.0
+    unit = "%"
+    
+    # Conditions
+    conditions = []
+    
+    # Reactor
+    reactor_type = None
+    inner_diameter = None
+    
+    # Metrics
+    conversion = None
+    selectivity = None
+    
+    for word in input_str.split():
+        if "reaction" in word:
+            reaction_type = word.replace("reaction", "").strip()
+        
+        elif "reactant" in word or "catalyst" in word or "solvent" in word:
+            reactants.append({"name":
+
+{
+        "conversion": None,
+        "yield": 82, # Example input has yield of 82%
+        "selectivity": None,
+        "unit": "%"
+    }
+
+{"conversion": None, "yield": None, "selectivity": None, "unit": "%" }
+
+{"name": name, "role": role}
+
+{"name":null,"yield_optimal":float(yield_match.group(0).strip("%")) if yield_match else null}
+

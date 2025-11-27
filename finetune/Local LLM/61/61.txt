@@ -1,0 +1,555 @@
+Contents lists available at ScienceDirect
+
+Chemical Engineering Journal
+
+journal homepage: www.elsevier.com/locate/cej
+
+Efficient synthesis and reaction kinetic study of gem-Dibromoenones in continuous-flow microreactor
+
+Hui Yang a, Daofan Ma b,*, Chunying Zhu a, Taotao Fu a, Guangwei Wang b, Youguang Ma a,*
+
+a State Key Laboratory of Chemical Engineering and Low-Carbon Technology, School of Chemical Engineering and Technology, Tianjin University, Tianjin, 300072, PR China b Tianjin Key Laboratory of Molecular Optoelectronic Science, Department of Chemistry, School of Science, Tianjin University, Tianjin, 300072, PR China
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords: gem-Dibromoenones Free radical reaction Microreactor Continuous flow Reaction kinetics
+
+gem-Dibromoenones are key precursor for the synthesis of heterocyclic compounds, which have extensive ap­ plications in drug development, pesticide synthesis and materials science. In this study, the continuous synthesis of gem-dibromoenone was successfully implemented in a microreactor system. The electron paramagnetic resonance (EPR) technique was utilized to detect free radical species during the reaction and validate the re­ action mechanism proposed. Subsequently, the influences of reactant ratio, oxidant (K₂S₂O₈) dosage, reaction temperature and residence time on reaction performance were systematically studied. Furthermore, response surface methodology (RSM) with multi-response optimization was applied to enhance continuous flow synthesis. Under optimized conditions, the system achieved a space-time yield of 1.09 mol⋅L−1⋅h−1, which is hundreds of times higher than that of the batch reactor, while maintaining a yield of 76.15 %. Moreover, the reaction kinetic model for gem-dibromoenone synthesis was obtained, the activation energies of both the main and side reactions were determined, and the dependence of the rate constant on the K₂S₂O₈ concentration was also clarified. This research not only enhances the fundamental understanding on the gem-dibromoenone synthesis process and parameter optimization, but also establishes a theoretical foundation for its efficient and continuous production, thereby offering great potential for practical application.
+
+1. Introduction
+
+alkenyl compound 1,1-dichloroethene in the presence of AlCl3 [9]. However, these approaches often suffer from limitations including limited substrate compatibility, harsh reaction condition and compli­ cated operational steps. Currently, Wang et al. [10] developed a visible light-promoted strategy for the synthesis of dibromoenones from al­ kynes and polyhalomethanes. Although this method does not require a photocatalyst, it is generally plagued by long reaction times (24–48 h) and low yields for substrates such as alkyl acetylenes and heterocyclic thiophene acetylenes, significantly limiting its synthetic efficiency and practicality. In contrast, the previously advanced by Zeng et al. [11], which employs potassium persulfate (K₂S₂O₈) to mediate the addition of carbon-centered radicals to terminal alkynes in a water/ethanol solution for the one-step synthesis of gem-dibromoenone, offers advantages such as mild reaction conditions, operational simplicity, environmentally benign solvents, and readily available starting materials, rendering it well-suited for the preparation of small batches of high-value drug in­ termediates. Although this represents a notable improvement, the requirement for an excess of oxidant still restricts the economic
+
+gem-Dihaloalkenes organic compounds have become the synthetic intermediates extensively studied due to their diverse functionality and broad utility [1]. Gem-dibromoenones are useful intermediates for the synthesis of various heterocyclic compounds, such as thiazines, iso­ xazoles, and pyrazoles, particularly in reactions that require the simul­ taneous presence of two bromine atoms to drive the cyclization process [2]. Moreover, they are also important structural units and versatile intermediates in the synthesis of fine chemicals, drug molecules, agri­ cultural chemicals, and bioactive natural substances [3,4].
+
+Over the past decades, the synthesis of gem-dibromoenones has attracted increasing attention of researchers. Murai et al. [5] pioneered to utilize the CuCl-catalyzed conversion of trimethylsilyl alkene ethers to gem-dihaloenones in 1972. Subsequently, a variety of synthetic methodologies emerged successively, including Ru [6] or Fe [7] -cata­ lyzed approaches, free radical addition pathways, reactions with tri­ methylsilyl enol ethers [8], and the reaction of acetyl chloride with the
+
+* Corresponding authors.
+
+E-mail addresses: daofanma@tju.edu.cn (D. Ma), ygma@tju.edu.cn (Y. Ma).
+
+https://doi.org/10.1016/j.cej.2025.168957 Received 27 July 2025; Received in revised form 11 September 2025; Accepted 25 September 2025
+
+Available online 26 September 2025 1385-8947/© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+efficiency and selectivity of the reaction. Especially, all these reactions are typically conducted in batch reactors at present, the inherent limi­ tations of batch reactors, such as insufficient internal mixing, low mass and heat transfer efficiencies, considerably negatively inhabiting overall production performance. Consequently, developing a synthetic process with high efficiency and selectivity and systematically understanding its reaction kinetics characteristics are the key foundation and necessary prerequisite for improving the synthetic efficiency and practicality in the production of such drug intermediates.
+
+simplicity and controllable reactivity, aiding mechanistic analysis. Acetonitrile (MeCN) was used instead of ethanol to dissolve K₂S₂O₈, and carbon tetrabromide (CBr₄) was chosen for its mild conditions and sta­ bility. The formation of gem-dibromoenone (3,3-dibromo-1-phenyl-2 propen-1-one, gem-DBE) was systematically studied in a continuous flow microreactor (Scheme 1), along with the by-product dibromo­ methyl phenyl ketone (DPK) [4,27]. Reaction parameters such as the molar ratio of reactants, K2S2O8 concentration, temperature, and resi­ dence time were optimized using response surface methodology (RSM), and a kinetic model was developed and validated with experimental data. The obtained parameters and strategy offer a general framework for the continuous synthesis of gem-dihaloenones from terminal alkynes and various halogen sources.
+
+In recent years, flow chemistry technique has gradually developed into an effective approach to deal with these challenges [12]. Contin­ uous flow microreactor, characterized by short diffusion distances and high specific surface areas, could significantly expand the interfacial contact between liquid phases, improve mass and heat transfer perfor­ mance, according achieving enhanced product quality, reaction effi­ ciency and safety [13], which has gained widespread application in fine chemical fields, including pharmaceuticals, pesticides, and dyes/pig­ ments. For instance, reactions such as hydrogenation [14], oxidation [15], nitrification [16] and polymerization [17] have implemented effective, green and safe production processes through micro-reaction continuous flow technology. In addition, the continuous flow micro reaction system could precisely control the reaction temperature and residence time, realize uniform mixture of the reactants, thereby establishing a reliable platform for kinetic studies [18,19]. In particular, recent advancement in microreactor technology has facilitated the highly selective, efficient and continuous synthesis of free radical re­ actions, as well as effective measurement of the reaction kinetics. Zhang et al. [20] tackled the issues of low mass and heat transfer efficiency and poor safety for the oxidative radical reaction of cyclohexane in tradi­ tional reactors, they constructed a high-temperature and high-pressure gas-liquid micro-reaction platform, measured the reaction kinetics pa­ rameters, and achieved 85 % selectivity of the target product within a residence time of 370 s, greatly improving the reaction efficiency. Similarly, Ma et al. [21] conducted the photobromination radical reac­ tion of oximes in a photomicroreactor. Compared to the conventional batch system, the flow process significantly suppresses by-product for­ mation through enhanced mass transfer and precise reaction control. Experimental results were employed to establish a kinetic model that could guide the process scale-up in industry. Moreover, for liquid-liquid heterogeneous reaction, micro-reaction technology could also greatly reduce the impact of mass transfer limitations on heterogeneous rapid reaction [22]. Yan et al. [23] investigated the dehydrochlorination re­ action of β -chloroalcohol (CHPDA) in a microreactor. By increasing the concentration of NaOH (to 40 wt%) to enhance the concentration gradient and reducing simultaneously the interfacial tension, the effi­ ciency of liquid-liquid heterogeneous mass transfer was improved, the reaction time was shortened to 2.7 min (1/20 of that in a traditional reactor), and the hydrolysis of by-products was inhibited markedly, thereby improving the process safety and scalability. Moreover, an ac­ curate kinetic model was obtained by dissolving CHPDA into ethanol to construct a homogeneous system. As be well known, the reaction kinetic model is of irreplaceable importance for reactor design, industrial scale up and the understanding of reaction mechanism [24–26]. However, the study on the gem-dibromoenones reaction kinetics remains still scarce up to now.
+
+2. Experiment
+
+2.1. Materials
+
+Phenylacetylene (PA, 97 %) and CBr4 (>97 %) were purchased from Kaimate Tianjin Chemical Technology Co., Ltd. Acetonitrile (MeCN, 99.9 %) was supplied by Anhui Senrise Technologies Co., Ltd. K2S2O8 (>97 %) was obtained from Tianjin wind boat chemical reagent Tech­ nologies Co., Ltd. 1,3,5-trimethoxybenzene (1,3,5-TMB, 99 %) was purchased from Heowns Biochem Technologies (Tianjin). 5,5-Dimethyl 1-pyrroline N-oxide (DMPO, ≥97 %) was purchased from Shanghai Aladdin Biochemical Technology Co., Ltd. Deionized water was pur­ chased from Hangzhou Wahaha Group Co., LTD. The purities of reagents could satisfy the demands of the experiment without further require­ ment of purification.
+
+According to the solubility of the substances, the reactants are fed in two phases.
+
+Solution A (PA þ CBr₄₄): A fixed volume of PA (1.53 g) and a varying amount of CBr₄ (according to the desired NCBr4 /NPA) were dissolved in MeCN and replenished to a volume of 60 mL, resulting in a fixed PA concentration of 0.25 mol/L.
+
+Solution B (K₂₂S₂₂O₈₈): A varying amount of K₂S₂O₈ (according to the desired NK₂S₂O₈ /NPA) was dissolved in deionized water and replenished to a volume of 60 mL.
+
+2.2. Continuous flow reaction system
+
+The microreaction system setup is shown in Fig. 1, it consists of two plunger pumps and pre-treatment coiled capillaries, a microreactor, a T type micromixer and a back pressure valve. Using plunger pumps (JJRZ 02004F, Hangzhou Jingjin Technology Co., Ltd.), both solutions were delivered independently and preheated to the desired reaction temper­ ature in the preheated capillary coil (poly tetrafluoroethylene PTFE, inner diameter of 1 mm, length of 2 m). Subsequently, the two streams were then combined via a T-type micromixer (PTFE) and flowed into a capillary coil (PTFE, the inner diameter of 1 mm) for reaction. The residence time was controlled by adjusting the coil length. To maintain isothermal condition, all capillaries were spirally wound and submerged in a constant-temperature oil bath. For all experiments, the temperature of the liquid at both the inlet and outlet of the reaction channel was monitored with a thermocouple thermometer (YET-640, Kaipusen). The readings indicated that the temperatures matched the oil bath setting and remained stable, with all fluctuations confined to within ±1.0 ◦C,
+
+Therefore, this study focuses on the synthesis of gem-dihaloenones. Phenylacetylene (PA) was selected as a model substrate due to its
+
+Scheme 1. Reaction for the synthesis of gem-Dibromoenone.
+
+Fig. 1. Schematic diagram of the experimental set-up.
+
+consequently, it could be considered that the reactions were kept under the isothermal operation condition. The end of the capillary micro­ reactor is connected to a back pressure valve (40 psi) to prevent the evaporation of the solution. The reaction was quenched by directly immersing the microreactor outlet into an ice bath within a sampling tube. Ethyl acetate (EA) served as the extraction solvent, and the ob­ tained organic phase was analyzed by gas chromatography (GC).
+
+The conversion of PA (XPA), an essential parameter in the kinetic analysis, is determined by Eq. (3).
+
+XPA = 1 − CPA CPA,0
+
+(3)
+
+where CPA and CPA,0 (mol/L) are the concentrations of PA at the end of the reaction and the initial concentration, respectively.
+
+The yields of the main product gem-DBE and the by-product DPK were calculated by Eq. (4) and Eq. (5), respectively.
+
+2.3. Sample analysis
+
+YDBE = CDBE
+
+Following multiple rounds of extraction with EA, the composition of the organic phase was analyzed via GC analysis. 1,3,5-TMB was employed as the internal standard to quantify the concentrations of PA, gem-DBE and DPK, and the relative correction factors were 0.833, 0.810 and 1.030 respectively. Each standard curve demonstrated a correlation coefficient beyond 0.999 (as shown in Fig.S1 in the supplementary material). The GC test conditions were provided in Table 1, while the calculation process of the content of each substance is detailed in Part1 of the supplementary material. Furthermore, to further verify the structure of product, nuclear magnetic resonance (NMR) and Fourier transform infrared (FTIR) spectroscopy were employed. The corre­ sponding GC, NMR, and FTIR spectra were presented in Figs. S2, S3, and S4 of the supplementary material.
+
+(4)
+
+CPA,0
+
+YDPK = CDPK
+
+(5)
+
+CPA,0
+
+where CDBE and CDPK (mol/L) are the concentrations of the main product gem-DBE and the by-product DPK at the end of the reaction, respectively.
+
+The main product selectivity calculated by the Eq. (6).
+
+SDBE = YDBE
+
+(6)
+
+XPA
+
+The total volume flow rate of the reaction tube QT (mL/min) is calculated by Eq. (1):
+
+2.4. EPR tests
+
+To determine the types of free radicals during the reaction process and the variation regulations of free radical concentrations under different reaction conditions, this experiment employed an electron spin resonance spectrometer (EPR 200-Plus, CIQTEK Company) for the detection of free radicals. The EPR spectrometer was operated at an X band frequency of 9.84GHz. Spectrometer parameters were as follows: sweep width of 100G, center field 3518.955G, sweep time of 3 min 15 s, modulation amplitude of 2G, modulation frequency of 100kHZ, receiver gain of 40 dB, microwave attention of 23 dB, conventional time 100 ms and time constant of 100 ms. After the reaction in the microreactor device shown in Fig. 1 is completed, 2 μL LDMPO is added for free radical capture.
+
+QT = QA + QB (1)
+
+where QA (mL/min) and QB (mL/min) are the volume flow rate of the A and B phase, respectively.
+
+The residence time was obtained by applying Eq. (2):
+
+τ = V QT
+
+(2)
+
+where τ is the residence time and V is the volume of the microchannel.
+
+Table 1 GC testing conditions.
+
+2.5. Box-Behnken experimental design for optimization
+
+Device: Agilent GC-7890A Detector: FID Injection temperature: 280 ◦C Detection temperature: 280 ◦C Column: HP-5/30 m × 0.32 mm × 0.25 μm Sample: 3 μL
+
+Owing to its effectiveness in reducing experimental duration and yielding precise regression models [28,29]，Response Surface Meth­ odology (RSM) was combined with the Box-Behnken design (BBD) to optimize the reaction process by examining the impact of independent variable. The experimental data were analyzed with Design-Expert 13 (State-Ease Inc., Minneapolis, MN) software to identify the most suit­ able regression equations describing the relationships between process parameters and the response [22,30].
+
+Carrier gas: N2, 3 mL/min; Split ratio: 40.794:1 Quantitative method: internal standard Column temperature: start at 60 ◦C, maintain for 3 min; 15 ◦C/min to 200 ◦C, maintain for 3 min; 40 ◦C/min to 300 ◦C, maintain for 3 min
+
+Internal standard substance: 1,3,5-TMB
+
+3. Results and discussion
+
+hypobromous acid (HBrO) under the presence of an oxidant [36], which is then converted to dibromine monoxide (Br2O), ultimately, the byproduct DPK is formed by a nucleophilic addition reaction with PA [37,38].
+
+A systematic methodology was developed to optimize the continuous-flow synthesis of gem-dibromoenone and elucidate its re­ action kinetics. EPR spectroscopy firstly confirmed the radical mecha­ nism, providing essential validation before process optimization. Multi response RSM was then employed to simultaneously maximize product yield and space-time yield while suppressing byproduct formation through coordinated adjustment of reactant ratio, oxidant dosage, temperature, and residence time. A kinetic model derived from the data provided fundamental parameter. This integrated experimental and modeling strategy could not only identify the optimal conditions for this specific system but also establish a transferable methodological frame­ work for the continuous-flow synthesis of analogous gem-dihaloenones from diverse terminal alkynes.
+
+3.2. Optimization of synthesis conditions
+
+3.2.1. Effect of QB/QA on mixing performance
+
+The reaction was conducted in a mixed solvent system of H2O and MeCN. According to the research of Yan et al. [23], when the two sol­ vents are miscible, a homogeneous system would be formed in a microreactor. As H2O and MeCN are miscible in any proportion, hence, a homogeneous reaction system could be formed under an appropriate two-phase flow rate ratio, thereby mitigating the influence of the mass transfer process on the reaction, and enabling the accurate determina­ tion of intrinsic kinetic parameters, which is crucial for process intensification.
+
+3.1. The possible reaction mechanism
+
+The influence of the two-phase flow rate ratio on both reaction performance and flow characteristics inside the microreactor was investigated by fixing the total flow rate at 1.5 mL/min and varying the proportion of the aqueous (Phase B) to the organic (Phase A) phase. The corresponding results are shown in Fig. 3, it could be seen that PA conversion and gem-DBE yield are comparatively lower at the flow rate ratio of 2:1 (QB/QA). This is because when the proportion of the aqueous phase is too high, MeCN, as a co-solvent, is insufficient to simulta­ neously stabilize the hydrophobic CBr4, PA and the strongly polar aqueous phase, accordingly bringing about the fluid stratification within the microreactor and forming a heterogeneous system, which thereby results in a lower reaction rate. Conversely, as the flow rate of the organic phase increases (the flow rate ratio reaches 1:1), the proportion of MeCN in the solution increases, and its ability to act as a co-solvent enhances. Through hydrogen bonding, the fluids could mix rapidly and form a homogeneous system [39]. Concurrently, the PA conversion and gem-DBE yield would be increased. However, when the proportion of the organic phase is further increased to 1:2 ratio, although a ho­ mogeneity system could be still maintained, the DBE yield would decrease slightly. This slight decrease is likely because the high con­ centration of K₂S₂O₈ approaches its solubility limit, potentially reducing the effective oxidant concentration and thus the reaction efficiency. Consequently, the subsequent experiments were performed at a 1:1 aqueous-to-organic phase flow rate ratio to ensure reaction system to be homogeneous.
+
+Under no addition of PA, the types of free radicals during the reaction process at N K₂S₂O₈ /NPA of 0.38 and 0.54 were tested respectively, as shown in Fig. 2. The main free radicals detected were tribromomethyl (•CBr₃) and hydroperoxyl (•OOH) radicals. Although Wang et al. [31] reported the pyrolytic generation of sulfate radical (SO₄•−) from K2S2O8, these radicals were not detected in our EPR analysis. This discrepancy could be attributed to the mixed solvent of acetonitrile and water used in this study, wherein the SO₄•− radical signal is susceptible to trans­ formation, thus making it difficult to be identified [32] . Furthermore, the •OOH radicals were detected as illustrated in Fig. 2, the might be because SO₄•−reacts with water to form hydroxyl radicals (•OH), which are further oxidized to •OOH in the presence of dissolved oxygen [33,34].
+
+According to our experiments and previous studies [10,11], the re­ action mechanism for the synthesis of the gem-DBE could be inferred as shown illustrated in Scheme 2. Under heating condition, K2S2O8 could decomposes to generate sulfate radicals, which could further catalyze CBr4 to generate •CBr3 radicals. Subsequently, •CBr3 is added into the PA to produce a new vinyl radical A• through chain transfer, which is then oxidized to form the vinyl cation B. Then, intermediate C is pro­ duced through a nucleophilic attacking on H2O and β -bromine elimi­ nation. Finally, the target product gem-DBE was obtained through deprotonation. The possible mechanism for the formation of side prod­ ucts is as follows: sulfate radicals catalyze CBr4 to generate both •CBr3 radicals and Br−ions [11]. According to the research of Li et al. [35], the active halogenating species reacting with PA should be a bromine cation rather than a bromine radical. Br− ions react with water to form
+
+In addition, to quantitatively confirm that a homogeneous system is achieved under this condition, the characteristic length required for the complete homogenization of the two miscible streams was estimated based on the Aris-Taylor theory for convective diffusion in laminar flow [40]. The analysis is based on the diffusion of PA (the limiting species) in the water/ MeCN (QB/ QA = 1:1) mixture, the key parameters and the calculated convective diffusion term are summarized in Table 2.
+
+Based on the Aris–Taylor theory for convective diffusion in laminar flow, the characteristic diffusion length accounts for the coupled effects of convection and transverse diffusion. The effective axial dispersion coefficient, which embodies this coupling, can be used to quantify the resulting mixing enhancement. The diffusion coefficient of the solute in the solvent, Dm, was estimated using the semi-empirical Wilke–Chang equation and has a value of approximately 2.5 × 10−9 m2/s [41]. The characteristic diffusion length, Lmix, is then given by Eq. (7) [42]:
+
+Lmix = ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ 13.1 × tmix × Deff √ (7)
+
+where tmix (s) is the diffusion time, Deff (m2/s) is the effective axial diffusivity.
+
+The diffusion time can be calculated by Eq. (8) [43]:
+
+Fig. 2. EPR spectra of free radical types without adding PA. Operating conditions: τ = 2 min, T = 70 ◦C, NCBr4/NPA = 1.2.
+
+Scheme 2. The possible mechanism of the reaction
+
+Table 2 Parameters for homogenization length calculation via Aris-Taylor Theory.
+
+Parameter Symbol Value
+
+Tube inner diameter d 1 mm Average velocity ν 0.0318 m/s Reynolds number Re 63.6 Molecular diffusivity Dm [41] 2.5 × 10−9 m2/s Effective axial diffusivity Deff [40] 0.0020 m2/s
+
+influence of inter-phase mass transfer resistance on chemical reaction is less important, inadequate mixing may still have a significant impact on the reaction rate. Therefore, to be more effective for ideal mixing, more fully understanding on the reaction kinetics and more accurate reaction kinetics model, the conversion rate variation of PA with different flow rates was investigated, as shown in Fig. 4. The conversion profiles under the three tested flow rates were nearly identical, indicating that increasing the flow rate beyond 1.5 mL/min did not lead to significant
+
+Fig. 3. Mixing effect of the capillary microreactor at various QB/QA. Operating conditions: NCBr4/NPA = 1.2, T = 70 ◦C, N K₂S₂O₈ /NPA = 0.54, τ = 5 min, CPA,0 = 0.125 mol⋅L−1.
+
+(
+
+)2
+
+d
+
+tmix =
+
+(8)
+
+2Dm
+
+where d (m) the inner diameter of the reactor.
+
+The effective axial diffusivity can be calculated by Eq. (9) [40]:
+
+(
+
+)2
+
+ν2
+
+d
+
+Deff = Dm +
+
+(9)
+
+48Dm
+
+From Eq. (7), The length of 1.1 m, which is shorter than the char­ acteristic dimensions of our microreactor, thereby unequivocally ensuring that the reaction proceeds within a perfectly homogeneous phase throughout the entire process.
+
+Fig. 4. Time profiles of PA conversion at different total flow rate in micro­ reactor. Operating conditions: NCBr4/NPA = 1.2, T = 70 ◦C, NK₂S₂O₈ /NPA = 0.54, CPA,0 = 0.125 mol⋅L−1.
+
+3.2.2. Effect of flow rate on mixing performance
+
+Although the homogeneous system could be achieved and the
+
+improvements in mixing efficiency. Within the given reaction time, if the conversion increases with increasing flow rate, it indicates that mass transfer controls the reaction kinetics. Conversely, if the conversion no longer continues to increase, it suggests that mass transfer effects are eliminated [20]. As shown in the Fig. 4, with increasing flow rate, the conversion of PA remained relatively stable, indicating that mass transfer had very little influence on the conversion, which implies that an ideal mixing state was achieved and the reaction outcome was solely controlled by reaction kinetics. Therefore, the total flow rate of 1.5 mL/ min was adopted for all subsequent experiments to ensure the reaction remained under kinetic control. The corresponding residence times of 2.5 min, 5 min, and 7.5 min,10 min and 15 min were achieved in the capillary microreactors with lengths of 5 m, 10 m, 15 m, 20 m and 30 m, respectively.
+
+radicals participating in the reaction. As K₂S₂O₈ facilitates the formation of •CBr3 free radicals, which accelerates the combination of •CBr3 with PA, and accordingly causes an increase in the yield of gem-DBE (Fig. 5 (a)). However, the selectivity of the main product decreases with the increase of K₂S₂O₈ concentration. This could be attributed to that the higher concentration of K₂S₂O₈ is more conducive to the oxidation of Br−, thereby accelerating the formation of DPK. In this study, the N K₂S₂O₈ /NPA of 0.54 was selected as the optimal reaction condition by a trade off consideration between yield and selectivity, as it could achieve a relatively high yield of gem-DBE without significant increase in DPK formation.
+
+3.2.4. Effect of temperature on reaction performance
+
+Since the thermal activation of persulfate requires at least 60 ◦C [44], thus the minimum reaction temperature is set at 60 ◦C. In other reaction condition remaining unchanged, when the reaction temperature is gradually elevated, the variation of the yield and selectivity of gem-DBE is shown in Fig. 6(a). With the temperature rising from 60 ◦C to 75 ◦C, the yield of gem-DBE increases significantly, and then the growth slows down. When the temperature is increased to 85 ◦C, the yield of gem-DBE begins attenuation. According to the EPR test results of different tem­ peratures (Fig. 6(b)), it could be seen that the concentration of accu­ mulated •CBr3 free radicals in the system decreases with the increase of the temperature, indicating that more •CBr3 free radicals were involved in the reaction and more gem-DBEs were formed. This phenomenon could be attributed to the temperature-dependence of K2S2O8 activation, the higher temperatures could cause more SO₄•− radicals, which accordingly facilitates the more formation of •CBr3 radicals [45] . When PA is added, more •CBr3 radicals would react with PA, consequently, the yield of gem-DBE increases with the temperature. However, when the temperature reaches 85 ◦C, the yield of gem-DBE begins to drop off, meanwhile, the selectivity of gem-DBE would also continuously decline with temperature as shown in Fig. 6 (a). This is stemming from the higher activation energy requirement for side reactions compared to the main reaction. Consequently, the higher temperatures could accelerate the occurrence of side reactions, thereby leading to a reduction in both the selectivity and yield of gem-DBE. Since the yield of gem-DBE would not increase significantly when the reaction temperature rises from 75 ◦C to 80 ◦C, but the selectivity decreases remarkably, comprehen­ sively, 75 ◦C is chosen for proper reaction condition.
+
+3.2.3. Effect of N K₂S₂O₈ /NPA ratio on reaction performance
+
+According to the possible mechanism in Scheme 2, the oxidant K₂S₂O₈ plays a vital role in this reaction. Fig. 5(a) illustrates the impact of N K₂S₂O₈ /NPA on both the yield and selectivity of gem-DBE. It could be seen that in the absence of K₂S₂O₈, the reaction would not take place. As the concentration of K₂S₂O₈ is increased, the yield of gem-DBE would also gradually increase, but its selectivity would decrease. When the molar of N K₂S₂O₈ /NPA reaches 0.54, the growth rate of the yield of gem DBE slows down, and the N K₂S₂O₈ /NPA is further increased to exceed 0.70, the yield would gradually decline. Furthermore, EPR experiments were conducted to delve into the variation of the radical concentration. After the substrate PA reaction proceeds for 2 min under different K₂S₂O₈ concentrations, the same volume of the reaction solution was taken and mixed with the certain amount of DMPO for EPR analysis. It could been found from the EPR spectra (Fig. 5(b)) that the only •CBr3 free radicals appear in the reaction system, which is because •CBr3 free radicals are generated in the initial stage of the reaction with high concentration and relative stability, besides, the •CBr3 as a carbon-centered free radical is apt to combine with DMPO to form a stable adduct and be detected [32]. However, the vinyl free radical A•, as an intermediate, was not detected by EPR, which is probably due to its transient existence and rapid oxidation to the vinyl cation B, indicating that the oxidation step is extremely rapid. The greater is the intensity of DMPO-⋅CBr₃, the con­ centration of ⋅CBr₃ radicals in the system is higher. Moreover, it could be seen from Fig. 5(b) that as the concentration of K₂S₂O₈ rises, the intensity of DMPO-CBr₃ decreases, the concentration of the remaining •CBr3 free radicals in the system reduces, implying that there are more •CBr3 free
+
+Fig. 5. Effect of NK₂S₂O₈ /NPA on the synthesis of gem-DBE. (a) the yeild and selectivity of gem-DBE; (b) EPR spectra of the intensity changes of DMPO-•CBr3. Operating conditions: (a) NCBr4/NPA = 1.2, τ = 5 min, T = 70 ◦C, CPA,0 = 0.125 mol⋅L−1; (b) NCBr4/NPA = 1.2, τ = 2 min, T = 70 ◦C.
+
+Fig. 6. Effect of temperature on the synthesis of gem-DBE. (a) the yeild and selectivity of gem-DBE; (b) EPR spectra of the intensity changes of DMPO-•CBr3. Operating conditions: (a) NCBr4/NPA = 1.2, τ = 5 min, N K₂S₂O₈ /NPA = 0.54, CPA,0 = 0.125 mol⋅L−1; (b) NCBr4/NPA = 1.2, τ = 5 min, N K₂S₂O₈ /NPA = 0.54.
+
+3.2.5. Effect of NCBr4 /NPA on reaction performance
+
+1.2 is adopted as optimal reaction condition.
+
+Under 70 ◦C of temperature, NK₂S₂O₈ /NPA of 0.54 and 0.125 mol/L of PA concentration, the reaction was carried out for 5 min by varying the addition amount of CBr₄. The influence of the reactant ratio on the re­ action performance was investigated as shown in Fig. 7. Obviously, the molar ratio of PA to CBr₄ is also a key factor affecting the reaction performance. When the amount of CBr₄ is small, the reaction is incom­ plete, both the conversion rate of PA and the gem-DBE yield are low relatively. This could be attributed to the increase of •CBr3 free radicals as the molar ratio NCBr4/NPA increases, which facilitates the collision between PA and •CBr3 free radicals [46]. Moreover, since the •CBr3 free radicals are continuously consumed in the reaction process, the higher molar ratio NCBr4/NPA is conducive to providing sufficient •CBr3 free radicals and accordingly promoting the conversion of PA. However, when the NCBr4/NPA is increased from 1.2 to 1.5, the increase in the yield of gem-DBE is slight while the selectivity becomes decreased. This is because higher molar ratio NCBr4/NPA could cause excessive Br−gen­ eration in the system, thereby inducing the formation of by-products DPK [35]. As a compromise of yield and selectivity, NCBr4/NPA ratio of
+
+3.2.6. Effect of residence time on reaction performance
+
+Fig. 8 illustrates the influence of residence time on gem-DBE yield and selectivity. It could be found that at a given temperature of 70 ◦C, the yield of gem-DBE increases with the residence time. The yield of gem-DBE increases significantly in the early reaction stage, particularly when the residence time is less than 5 min. Once the residence time exceeds 5 min, the increase of gem-DBE yield would become slowed down. This is owing to that the concentration of the PA gradually de­ creases with reaction proceeding, which results in a reduction in effec­ tive collisions between reaction molecules and free radicals [21]. Therefore, the reaction rate exhibits a declining trend as the residence time is extended. However, when the residence time is further increased to 15 min, the increase of gem-DBE yield is unobvious while the selec­ tivity becomes decreased. This means that prolonging residence time would increase the formation of undesirable by-products, thus reducing the overall selectivity of the reaction. Consequently, the residence time of 10 min is chosen to optimize the yield and selectivity.
+
+3.3. Response surface test
+
+Based on the analysis of experimental conditions, the K2S2O8 con­ centration, temperature, reactant ratio and residence time are recog­ nized to be the most important factors influencing the synthesis of gem DBE. Table 3 shows the independent variables of the experiment and their levels in BBD design.
+
+In addition, the space–time yield (STY) is an important indicator for evaluating the production capacity in a flow chemistry system. Gener­ ally, the space-time yield could be calculated:
+
+STY = nproduct Vreactor × t (10)
+
+where nproduct is the quantity of products generated during the reaction process, t is the reaction time. For continuous-flow microreactors, the STY of the gem-DBE of the reaction could be rewritten as follows [47]:
+
+STY = QT × CPA,0 × Ygem-BED
+
+(11)
+
+Vreactor
+
+A total of 29 randomized experimental runs were conducted, including five replicates at the central point to estimate the pure error [48]. The coded values, along with the experimental and predicted
+
+Fig. 7. Effect of NCBr4/NPA on the synthesis of gem-DBE. Operating conditions: T = 70 ◦C, τ = 5 min, N K₂S₂O₈/NPA = 0.54, CPA,0 = 0.125 mol⋅L−1.
+
+Fig. 8. Effect of residence time on the synthesis of gem-DBE. (a) the yeild and selectivity of gem-DBE; (b) the concentrations of gem-DBE and DPK as a function of time. Operating conditions: NCBr4/NPA = 1.2, T = 70 ◦C, N K₂S₂O₈ /NPA = 0.54, CPA,0 = 0.125 mol⋅L−1.
+
+excess of each independent variable is represented by A2, B2, C2 and D2.
+
+Table 3 Range of experimental and coded values used in BBD design.
+
+The statistical significance of the two response surface models (Y₁: yield and Y₂: STY) was evaluated using analysis of variance (ANOVA). The detailed ANOVA results are provided in Table S2 and Table S3 of the Supplementary Information.
+
+Code Factor Units Level
+
+-1
+
+Quadratic models were successfully fitted for both responses. ANOVA confirmed that both models were highly significant (P < 0.0001) and possessed excellent predictive capability, as indicated by their high coefficients of determination (R2) and close agreement be­ tween Adjusted and Predicted R2 values (Table 4). Although the Lack of Fit for the STY model is significant, this is still an acceptable result for calculated responses. STY is determined from multiple primary mea­ surements (e.g., flow rate, product yield), each of which is associated with experimental error. The propagation and amplification of these individual errors during the STY calculation could introduce non
+
+A Time min B N K₂S₂O₈ /NPA – 0.38 0.54 0.70 C Temperature oC D NCBr4/NPA – 1.2 1.4
+
+responses for both yield and STY, are summarized in Table S1 of the Supplementary Material.
+
+Quadratic models were fitted to express the correlations between the independent variables and the two responses: Yield (Y₁) and STY(Y2).
+
+Y1 = 78.42 + 4.52A + 0.2880B + 4.20C + 2.87D −4.35AB −8.06AC −1.26AD −3.66BC + 0.1881BD −2.33CD −4.65A2 −1.60B2 −5.80C2 −3.64D2 (12)
+
+random variation that is quite difficult to fully capture by a second
+
+Y2 = 0.5617 −0.2991A + 0.0066B + 0.0437C + 0.0110D −0.0418AB −0.1032AC −0.0033AD −0.0262BC + 0.0049BD −0.0042CD + 0.1171A2 −0.0085B2 −0.0470C2 −0.0174D2 (13)
+
+order polynomial model, thus leading to an apparent significant Lack of Fit test [49]. Nevertheless, the high predicted R2 value of 0.9342 demonstrates that the model retains strong predictive power and is reliable for identifying optimal conditions [50]. Diagnostic plots such as
+
+where A, B, C and D represent the independent variables residence time, NK₂S₂O₈ /NPA, temperature, and NCBr4/NPA molar ratio, respectively. AB, AC, AD, BC, BD and CD show how independent variables interact. The
+
+Table 4 Summary of Analysis of Variance (ANOVA) for the Fitted Quadratic Models.
+
+Response Model F-value P-value R2 Adjusted R2 Predicted R2 Lack of Fit
+
+Yield (Y₁) 56.90 < 0.0001 0.9827 0.9655 0.9092 Not Significant STY (Y₂) 85.95 < 0.0001 0.9885 0.9770 0.9342 Significant
+
+Fig. 9. The 3D response surface plots for gem-DBE yield and STY: (a) effect of time and NK₂S₂O₈ /NPA; (b) effect of time and temperature; (c) effect of time and NCBr4/ NPA; (d) effect of NK₂S₂O₈ /NPA and temperature; (e) effect of NK₂S₂O₈ /NPA and NCBr4/NPA; (f) effect of temperature and NCBr4/NPA.
+
+predicted versus actual values, normal probability plots and internally studentized residuals, provided in Supplementary Material Fig. S5, confirmed the adequacy of the model and the validity of the statistical analysis.
+
+optimization was conducted using the Desirability Function approach with equal weighting assigned to both objectives [51]. The resulting optimal conditions for maximizing yield, maximizing STY, and their balanced compromise are summarized in Table 5. The multi-objective optimum successfully mitigates the conflict between the optimal oper­ ating conditions for gem-DBE yield and STY as shown in Fig. 9. To assess the accuracy of the predicted condition, three repeated experiments were conducted under the condition, the average yield of 76.15 % and a STY of 1.09 mol⋅L−1⋅h−1, which validates the predicted optimal condi­ tion. This integrated strategy provides a viable pathway toward indus­ trial implementation by effectively balancing the inherent conflict between reaction efficiency and production yield, offering a systematic framework for optimizing continuous-flow processes where multiple performance metrics need to be considered.
+
+The 3D response surface plots for yield and space-time yield (STY) are illustrated in Fig. 9. A detailed analysis of these plots reveals a remarkable discrepancy between the optimal conditions for maximizing yield and STY. Especially, the highest yield is attained at residence times exceeding 10 min, whereas the maximum STY is predominantly observed at shorter residence times, approximately 5 min. Additionally, compared to the molar ratios of NK₂S₂O₈/NPA and NCBr₄/NPA, both tem­ perature and residence time demonstrate a more substantial impact on the yield and STY of gem-DBE.
+
+To resolve the trade-off between yield and STY, a multi-response
+
+Fig. 9. (continued).
+
+3.4. Kinetic research of the synthesis of gem-DBE in microreactors
+
+Table 5 Comparison of optimal conditions and predicted responses from single-objective and multi-objective optimizations.
+
+The study on the reaction kinetics could not only get insight into the reaction mechanism, but it also is an important foundation for reactor design and industrial scale-up [52]. The reaction rate equation could be expressed as follows:
+
+Factor / Response
+
+Goal Maximize Yield
+
+Maximize STY
+
+Multi-Objective Optimum
+
+Time(min) – 13.64 5.00 5.00 NK₂S₂O₈ /NPA – 0.40 0.70 0.63 Temperature (◦C) – 75.75 80.00 79.74
+
+S2O8 2→
+
+△2SO-
+
+4⋅ (14)
+
+SO-
+
+k1 ⋅CBr3 + Br+ SO2− (15)
+
+4⋅+ CBr4 →
+
+NCBr4/NPA – 1.22 1.29 1.26 Yield (%) Maximize 80.77 75.26 76.10 STY (mol⋅L−1⋅h−1) Maximize 0.42 1.10 1.09
+
+k2
+
+⋅CBr3 + PA ̅̅→
+
+H2O gem-DBE (16)
+
+Desirability Maximize 1.00 0.99 0.91
+
+k3
+
+Br−̅̅→
+
+H2O HBrO (17)
+
+between Br₂O and alkenes follows second-order kinetics. Fang et al. [36] demonstrated that the SO₄•−driven initial step proceeds considerably more slowly than the later reaction steps. Thus, it could be reasonably assumed that the other steps are sufficiently fast, the intermediates HBrO and Br2O could be stably formed. The concentration of water is considered to be constant, thus their equilibrium equations could be written:
+
+k4
+
+2HBrO ⇄
+
+Br2O + H2O (18)
+
+k−4
+
+k5 DPK (19)
+
+Br2O + PA →
+
+The radical chain reaction process consists of a series of elementary steps, whose kinetics could be described by applying the mass action to each step [53,54]. According to the EPR test results in Figs. 5(b) and 6 (b), it could be concluded that the reaction residence time is less sen­ sitive to the concentration of the •CBr3 radical. Based on the assumption of a steady-state equilibrium, Eq. (20) could be obtained:
+
+d[HBrO] dτ = k3[Br-] + 2k-4[Br2O] −2k4[HBrO]2 = 0 (25)
+
+d[Br2O] dτ = k4[HBrO]2 −k−4[Br2O] −k5[Br2O][PA] = 0 (26)
+
+d[⋅CBr3] dτ = k1
+
+[ SO-
+
+4⋅ ] [CBr4] −k2[⋅CBr3][PA] = 0 (20)
+
+where k3, k4, k−4 and k5 represent the corresponding reaction rate constants; [HBrO], [Br−], and Br2O] respectively denote the concen­ trations of the substances (HBrO, Br−, and Br2O) during the reaction process.
+
+where k1, k2 are the corresponding reaction rate constants. [SO4•−], [•CBr3], [CBr4], [PA] represent the concentrations of each substance (SO₄•−⋅, •CBr3, CBr4, PA) during the reaction process, respectively.
+
+The concentration of Br2O could be obtained by transforming Eq. (27).
+
+Eq. (21) could be obtained by transforming Eq. (20):
+
+[ SO-
+
+4⋅ ] [CBr4] k2[PA] (21)
+
+[⋅CBr3] = k1
+
+[Br2O] = k4[HBrO]2
+
+k−4 + k5[PA] (27)
+
+It could be clearly seen from Eq. (15) that [•CBr3] should always be proportional to [CBr4] [20]. Furthermore, according to the simplified method for acid-catalyzed deprotection kinetics proposed by Xue et al. [55], based on the rapid equilibrium relationship between the inter­ mediate and the substrate, it could be assumed that the concentration of the short-lived free radical intermediate •CBr3 is proportional to the concentration of the reactant CBr4.
+
+Substituting Eq. (27) into Eq. (25):
+
+[HBrO]2 = k3[Br-](k-4 + k5[PA] ) 2k4k5[PA] (28)
+
+Substituting Eq. (28) into Eq. (27):
+
+[Br2O] = k3[Br-] 2k5[PA] (29)
+
+[⋅CBr3] = a[CBr4] (22)
+
+Consequently, the kinetic equation for the formation of the by product DPK could be described as follows:
+
+where a is the ratio of the concentration of •CBr3 radical to that of CBr4.
+
+Although direct detection of CBr4 concentrations in collected sam­ ples via GC is challenging, its concentration could be inferred from the concentrations of other compounds. In the experiment, DPK is the pri­ mary by-product, regardless of •CBr3. Although some trace impurity peaks are also detected by GC in the reaction solution under high temperature condition, their contents are extremely low (< 1 %). Be­ sides, the measurement error is also inevitable. Consequently, the gen­ eration effects of other by-products on the kinetic parameters are considered to be negligible in the calculation, in this case, all •CBr3 could be assumed to participate in the main reaction to generate gem DBE. The concentration of CBr4 can be expressed by Eq. (23).
+
+d[DPK] dτ = k5[Br2O][PA] = k3[Br-] (30)
+
+where [DPK] is the concentration of DPK.
+
+It could be seen from Eq. (15) that when CB4 is converted into •CBr3, Br−is also generated simultaneously. Br−then participates in the gen­ eration process of the subsequent by-product DPK. Thus, the concen­ tration of Br−could be expressed by Eq. (31).
+
+[Br-] = [CBr4]0 −[CBr4] −2[DPK] (31)
+
+Then, Eq. (32) could be obtained by substituting Eq. (23) into Eq. (31):
+
+[CBr4] = [CBr4]0 −[gem-DBE] (23)
+
+[Br-] = [CBr4]0 − ( [CBr4]0 −[gem-DBE] ) −2[DPK] = [gem-DBE] −2[DPK]
+
+where [CBr4]0 is the initial concentration of CBr4; [gem-DBE] is the concentration of gem-DBE.
+
+(32)
+
+In this study, although H2O serves as the source of oxygen atoms and participates in the reaction, it also acts as a solvent with extremely excessive concentration, which could be regarded as constant. The oxidant K2S2O8 mainly functions as a free radical initiator and oxidant during the reaction process, its action on reaction is considerably com­ plex, and its concentration is difficult to measure in real. To simplify the kinetic model, the relationship between the reaction rate and the sub­ strate concentration is mainly considered. The influence of K2S2O8 concentration on the reaction rate is incorporated into the rate constant [56,57]. Therefore, the kinetic equation for the formation of the main product gem-DBE could be described as follows:
+
+Substituting Eq. (32) into Eq. (30):
+
+d[DPK] dτ = k3[Br-] = ks([gem-DBE] −2[DPK] ) (33)
+
+where ks is the apparent reaction rate constant of the side reaction.
+
+From the previous single-factor analysis, it could be found that the different concentrations of K2S2O8 would also remarkably affect the kinetics of the reaction. In this experiment, the kinetic equations under three different concentrations of K2S2O8 were investigated. The kinetics of the reaction were investigated by analyzing the conversion of PA and the yields of gem-DBE and DPK under different temperatures and resi­ dence times in the microreactor (Fig. 10).
+
+d[gem-DBE] dτ = k2[⋅CBr3][PA] = k2a[CBr4][PA]
+
+The ode45 solver in MATLAB was used to analyze the reaction ki­ netics data in Fig. 10 by solving the ordinary differential equations and the values of apparent rate constants kp and ks are obtained, as listed in Table 6. The experimental uncertainties of kp and ks were derived from the variance-covariance matrix of the nonlinear least-squares fit and represent the standard errors of the parameter estimates. Moreover,
+
+( [CBr4]0 −[gem-DBE] ) [PA] (24)
+
+= kp
+
+where kp represents the apparent reaction rate constant of the main reaction.
+
+For the side reactions, Li et al. [58] have confirmed that the reaction
+
+Fig. 10. Effect of the residence time, temperature and the mass concentration of K2S2O8 on the reaction performance. (a) NK₂S₂O₈ /NPA = 0.38; (b) NK₂S₂O₈ /NPA = 0.54; (c) NK₂S₂O₈ /NPA = 0.70.
+
+Table 6 Values of kp and ks at different temperatures and K2S2O8 concentrations.
+
+kp (L⋅mol−1⋅s−1) ks (s−1)
+
+Temperature (k)
+
+NK₂S₂O₈ /NPA
+
+0.38 (1.059 ± 0.002) × 10−2 (1.12 ± 0.12) × 10−4
+
+0.54 (1.457 ± 0.002) × 10−2 (2.03 ± 0.07) × 10−4
+
+338.15
+
+0.70 (1.826 ± 0.004) × 10−2 (3.08 ± 0.11) × 10−4
+
+0.38 (1.618 ± 0.003) × 10−2 (1.90 ± 0.09) × 10−4
+
+0.54 (2.111 ± 0.003) × 10−2 (4.18 ± 0.07) × 10−4
+
+343.15
+
+0.70 (2.650 ± 0.035) × 10−2 (6.38 ± 0.06) × 10−4
+
+0.38 (3.100 ± 0.009) × 10−2 (3.66 ± 0.11) × 10−4
+
+0.54 (3.981 ± 0.013) × 10−2 (6.31 ± 0.12) × 10−4
+
+348.15
+
+0.70 (4.632 ± 0.014) × 10−2 (8.70 ± 0.12) × 10−4
+
+Fig. 11. Correlations between the rate constant (kp and ks) and the tempera­ ture. Operating conditions: NCBr4/NPA = 1.2.
+
+0.38 (5.441 ± 0.020) × 10−2 (6.49 ± 0.11) × 10−4
+
+0.54 (6.613 ± 0.011) × 10−2
+
+(10.90 ± 0.06) × 10−4
+
+353.15
+
+both the linear correlation coefficients from the fitting and the results of comparisons with other kinetic models based on different reaction or­ ders have been compiled in Part5 of the Supplementary Material to strengthen the validity of the selected kinetic model.
+
+(16.71 ± 0.15) × 10−4
+
+0.70 (8.978 ± 0.039) × 10−2
+
+Furthermore, the Arrhenius equation is used to quantitatively analyze the relationship between reaction rate and temperature:
+
+Table 7 Values of the pre-exponential factors and activation energies.
+
+NK₂S₂O₈ /NPA Eap (kJ/mol) lnAp Eas (kJ/mol) lnAs
+
+0.38 0.54 0.70
+
+lnk = lnA − Ea RT (34)
+
+where Eap and Eas are the activation energies of the main reaction and the side reaction, Ap and As are the corresponding exponential pre factors. According to this equation, the relation between ln(k) and 1/ RT is fitted as shown in Fig. 11. The exponential pre-factors (Ap and As) and the activation energies (Eap and Eas) are listed in Table 7.
+
+It could be observed from Table 6 that both apparent reaction rate constants kp and ks increase with K₂S₂O₈ concentration. At low temper­ atures, the corresponding ks values for different K₂S₂O₈ concentrations are all at a relatively low level. When the temperature rises, the ks values increase significantly. Especially, it is worth noting that the higher is the K₂S₂O₈ concentration, the greater is ks increasing rate. This indicates that the higher temperature and greater K₂S₂O₈ concentration are more in­ clined to the occurrence of the side reaction.
+
+Fig. 12. Kinetic model validation: comparison between the simulated and the experimental values for the reaction.
+
+4. Conclusion
+
+The continuous flow synthesis, process optimization and reaction kinetic of gem-DBE were investigated systematically. A homogeneous reaction system was established by adjusting the two-phase flow rate ratio, and EPR was employed to identify and quantify the free radicals during the reaction process, the plausible reaction pathway was pro­ posed accordingly. Subsequently, the influences of NK₂S₂O₈ /NPA, reaction temperature, reactant ratio (NCBr4/NPA) and residence time on the yield and selectivity of the target product gem-DBE were studied. Multi response RSM was employed to simultaneously maximize both prod­ uct yield and space-time yield. Under the optimized reaction conditions, an average yield of 76.15 % and an STY of 1.09 mol⋅L−1⋅h−1 were achieved. This integrated strategy offers a viable pathway toward in­ dustrial implementation by effectively balancing the inherent trade-off between reaction efficiency and production yield. Furthermore, a ki­ netic study of the reaction was performed, and the kinetic parameters were obtained for various K₂S₂O₈ concentrations. The results indicated that the activation energy of the side reaction was higher than that of the main reaction, indicating that lower reaction temperatures favor enhancing selectivity toward the main product. The apparent reaction rate constants for both main and side reactions increased with the in­ crease of K₂S₂O₈ concentration. Compared to batch reactor, the micro­ channel reactor dramatically increases space-time yield through enhanced mass transfer and precise control. The reaction mechanism was found to follow a free radical pathway, and the attained kinetic model exhibits considerably good agreement with the experimental data.
+
+The apparent activation energies, derived from the Arrhenius equa­ tion and summarized in Table 7, reflect the energy barriers of the multi step mechanism. The side reaction exhibits a higher apparent activation energy compared to that of the main reaction, suggesting that it involves a more energetically demanding step, possibly related to the oxidation of Br−[36]. Thus, the main pathway is favored due to its lower energy barrier. However, with increasing NK₂S₂O₈/NPA ratio, the activation en­ ergies for both the main and side reactions decrease, with the reduction being more significant for the side reaction. This narrowing of the en­ ergy difference between the two pathways at higher oxidant concen­ trations explains the observed loss in selectivity, as the side reaction becomes increasingly competitive. Furthermore, the increased domi­ nance of the side reaction at elevated temperatures and K₂S₂O₈ con­ centrations implies a shift in reaction preference toward less selective pathways.
+
+To validate the accuracy of the obtained reaction kinetics model, a set of experiments was performed utilizing three different K₂S₂O₈ molar ratios while maintaining a constant NCBr4/NPA molar ratio of 1.2 and various residence times and reaction temperatures. As shown in Fig. 12, the simulated values for concentrations of PA, gem-DBE, and DPK show a close match with the experimental data, with relative deviations generally below 15 %, validating the reliability of the kinetic model.
+
+3.5. Comparison of the reaction in the microreactor and the batch reactor
+
+In this study, the microreactor achieved 76.15 % yield within 5 min using only one-third of the K₂S₂O₈, comparable to the 78 % yield ob­ tained after 4 h in batch [11]. In the study of batch conducted by Wang et al. [10], although the yield was improved, the reaction time was as long as 24 or even 48 h, resulting in a quite low space-time yield. Comparatively, the microreactor enhances process efficiency through superior transport properties and precise control of residence time, thereby providing optimal conditions for the rapid inherent kinetics.
+
+CRediT authorship contribution statement
+
+Hui Yang: Writing – original draft, Visualization, Validation, Methodology, Investigation, Formal analysis, Data curation. Daofan Ma: Writing – review & editing, Writing – original draft, Supervision, Software, Methodology, Funding acquisition, Data curation, Conceptu­ alization. Chunying Zhu: Writing – review & editing, Methodology, Investigation. Taotao Fu: Writing – review & editing, Conceptualiza­ tion. Guangwei Wang: Writing – review & editing, Methodology, Conceptualization. Youguang Ma: Writing – review & editing, Super­ vision, Resources, Project administration, Funding acquisition, Conceptualization.
+
+Consequently, the hundreds of times enhancement in space-time yield stems from a fundamental transformation by microreactor: replacing the unpredictable, physically constrained temporal processes of batch systems with a spatially defined, precisely controlled contin­ uous process. Although the microreactor could not accelerate the intrinsic reaction kinetics, it provides an optimized environment that allows rapid reactions to proceed at their most efficient inherent rate [59].
+
+Declaration of competing interest
+
+[16] S. Guo, L.-w. Zhan, B.-d. Li, Nitration of o-xylene in the microreactor: reaction kinetics and process intensification, Chem. Eng. J. 468 (2023) 143468, https://doi. org/10.1016/j.cej.2023.143468. [17] F. Li, Y. Gao, C. Yu, H. Yang, G.G. Liu, W. Cao, J. Guo, Efficient synthesis of high vinyl polybutadiene based on continuous flow microchannel reactor, J. Appl. Polym. Sci. 141 (26) (2024) e55556, https://doi.org/10.1002/app.55556. [18] Y. Cui, J. Song, C. Du, J. Deng, G. Luo, Determination of the kinetics of chlorobenzene nitration using a homogeneously continuous microflow, AlChE J. 68 (4) (2022) e17564, https://doi.org/10.1002/aic.17564. [19] L. Li, C. Yao, F. Jiao, M. Han, G. Chen, Experimental and kinetic study of the nitration of 2-ethylhexanol in capillary microreactors, Chem. Eng. Process. 117 (2017) 179–185, https://doi.org/10.1016/j.cep.2017.04.005. [20] X. Zhang, Z. Chen, J. Chen, J. Xu, Liquid-phase oxidation of cyclohexane with air in a microreactor: kinetics and process intensification, Chem. Eng. Sci. 288 (2024) 119777, https://doi.org/10.1016/j.ces.2024.119777. [21] Y. Ma, G. Qian, M. Pasha, Y. Wang, J. Li, Y. Liu, S. Liu, X. Xue, M. Qiu, Z. Zhong, M. Shang, J. Zheng, Z. Lin, Y. Su, Oxime ether photobromination in a photomicroreactor: process parameters and kinetic modeling, AlChE J. 71 (3) (2025) e18693, https://doi.org/10.1002/aic.18693. [22] H. Ma, L. Yang, C. Yao, S. Zhao, F. Jiao, G. Luo, G. Chen, Liquid-liquid addition reaction of ethylene oxide with hydrazine hydrate in microreactors: kinetics and process optimization, Chem. Eng. J. 497 (2024) 154511, https://doi.org/10.1016/ j.cej.2024.154511. [23] Z. Yan, C. Du, Y. Wang, J. Deng, G. Luo, Dehydrochlorination of β-chlorohydrin in continuous microflow system: reaction kinetics and process intensification, Chem. Eng. J. 444 (2022) 136498, https://doi.org/10.1016/j.cej.2022.136498. [24] S. Qian, Z. Li, X. Sun, Y. Chen, K. Feng, K. Nie, B. Yan, Y. Cheng, Revealing the reaction mechanism of ammonia synthesis over bimetallic nitride catalyst from a kinetic perspective, Cat. Sci. Technol. 15 (5) (2025) 1644–1652, https://doi.org/ 10.1039/D4CY01359J. [25] H.-L. Wei, X.-B. Zhang, Z.-H. Luo, Continuous synthesis of 5-Oxohexanenitrile in a microreactor: from kinetic study to reactor modeling, Ind. Eng. Chem. Res. 61 (41) (2022) 15215–15224, https://doi.org/10.1021/acs.iecr.2c02917. [26] R. Font, Potential kinetic model for thermal decomposition of complex organic compounds: significance of parameters and engineering application, Thermochim. Acta 591 (2014) 81–95, https://doi.org/10.1016/j.tca.2014.07.017. [27] X. Zhang, Y. Wu, Y. Zhang, H. Liu, Z. Xie, S. Fu, F. Liu, Ultrasound-assisted tandem reaction of alkynes and trihaloisocyanuric acids by thiourea as catalyst in water, Tetrahedron 73 (31) (2017) 4513–4518, https://doi.org/10.1016/j. tet.2017.05.075. [28] H. Huang, D. Yu, F. Hu, S.-C. Huang, J. Song, H.-Y. Chen, L.L. Li, S. Peng, Clusters induced electron redistribution to tune oxygen reduction activity of transition metal single-atom for metal–air batteries, Angew. Chem. Int. Ed. 61 (12) (2022) e202116068, https://doi.org/10.1002/anie.202116068. [29] J. Xu, X. Zhu, J. Zhang, Z. Li, W. Kang, H. He, Z. Wu, Z. Dong, Nanoemulsification of soybean oil using ultrasonic microreactor: process optimization, scale-up and numbering-up in series, Ultrason. Sonochem. 97 (2023) 106451, https://doi.org/ 10.1016/j.ultsonch.2023.106451. [30] V. Onyenkeadi, O. Aboelazayem, B. Saha, Systematic multivariate optimisation of butylene carbonate synthesis via CO2 utilisation using graphene-inorganic nanocomposite catalysts, Catal. Today 346 (2020) 10–22, https://doi.org/ 10.1016/j.cattod.2019.03.027. [31] J. Wang, S. Wang, Activation of persulfate (PS) and peroxymonosulfate (PMS) and application for the degradation of emerging contaminants, Chem. Eng. J. 334 (2018) 1502–1517, https://doi.org/10.1016/j.cej.2017.11.059. [32] L. Chen, J. Duan, P. Du, W. Sun, B. Lai, W. Liu, Accurate identification of radicals by in-situ electron paramagnetic resonance in ultraviolet-based homogenous advanced oxidation processes, Water Res. 221 (2022) 118747, https://doi.org/ 10.1016/j.watres.2022.118747. [33] L. Wojn´arovits, E. Tak´acs, Rate constants of sulfate radical anion reactions with organic molecules: a review, Chemosphere 220 (2019) 1014–1032, https://doi. org/10.1016/j.chemosphere.2018.12.156. [34] A.F. Fischer, T. Bahry, Z. Xie, R.B. da Silva Junior, K. Qian, R. Li, J. Kwan, F. Jerome, S. Valange, W. Liu, P.N. Amaniampong, T.S. Choksi, The roles of hydroxyl radicals and superoxide in oxidizing aqueous benzyl alcohol under ultrasound irradiation, ChemSusChem 18 (11) (2025) e202500097, https://doi. org/10.1002/cssc.202500097. [35] Y. Li, T. Mou, L. Lu, X. Jiang, Visible-light-promoted oxidative halogenation of alkynes, Chem. Commun. 55 (95) (2019) 14299–14302, https://doi.org/10.1039/ C9CC07655G. [36] J.-Y. Fang, C. Shang, Bromate formation from bromide oxidation by the UV/ persulfate process, Environ. Sci. Technol. 46 (16) (2012) 8976–8983, https://doi. org/10.1021/es300658u. [37] S. Madabhushi, R. Jillella, K.K.R. Mallu, K.R. Godala, V.S. Vangipuram, A new and efficient method for the synthesis of α,α-dihaloketones by oxyhalogenation of alkynes using oxone®–KX (X=Cl, Br, or I), Tetrahedron Lett. 54 (30) (2013) 3993–3996, https://doi.org/10.1016/j.tetlet.2013.05.072. [38] P. Wu, S. Xu, H. Xu, H. Hu, W. Zhang, One-pot syntheses of
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+Acknowledgments
+
+This work is financially supported by the National Natural Science Foundation of China (No. 22308249, 21978197), China Postdoctoral Science Foundation (No. 2023M732587, 2024T170644), and the Key Project of State Key Laboratory of Chemical Engineering (No. SKL-ChE 23Z03).
+
+Appendix A. Supplementary data
+
+Supplementary data to this article can be found online at https://doi. org/10.1016/j.cej.2025.168957.
+
+Data availability
+
+Data will be made available on request.

@@ -1,0 +1,16 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | yield of 3,4-DCAN | increase |
+| pressure | selectivity of 3,4-DCAN | increase |
+| pressure | azoxy compounds | decrease |
+| pressure | dehalogenation | decrease |
+| pressure | yield of 3,4-DCAN | increase |
+| liquid_flow_rate | residence_time | decrease |
+| liquid_flow_rate | conversion of 3,4-DCNB | decrease |
+| liquid_flow_rate | formation of AZO | increase |
+| gas_flow_rate | mass transfer efficiency | increase |
+| gas_flow_rate | selectivity of 3,4-DCAN | unchanged |
+| catalyst_loading | conversion of 3,4-DCNB | increase |
+| catalyst_loading | yield of 3,4-DCAN | increase |

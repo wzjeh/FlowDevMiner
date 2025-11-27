@@ -1,0 +1,12 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of phenylacetylene | increase |
+| pressure | initial reaction rate | increase |
+| pressure | conversion of phenylacetylene | unchanged |
+| catalyst_loading | initial reaction rate | increase |
+| catalyst_loading | conversion of phenylacetylene | increase |
+| reactant_concentration | initial reaction rate | increase |
+| residence_time | conversion of phenylacetylene | increase |
+| flow_rate | conversion of phenylacetylene | decrease |

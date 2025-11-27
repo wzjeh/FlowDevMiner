@@ -1,0 +1,20 @@
+Summary: The flow patterns in the capillary microreactor were studied for a chiral hydroformylation reaction using cyclohexane as the solvent and a chiral catalyst. The key reactants were CHCl (2.63 mol/L) and CO, with the desired product being CHCOOH. The reactor was a 50-cm capillary microreactor with an ID of 100 µm. Critical conditions included a flow rate of 2 mL/min, residence time of 95 s, temperature of 35 °C, and pressure of 4 bar. The conversion, yield, and selectivity were not mentioned in the given context.
+
+Currently, the application of microreactor technology on chemistry
+
+Summary: The paragraph discusses the use of capillary microreactors in flow-chemistry process development for evaluating variations in mass transfer and polymerization processes with different Reynolds numbers. The total volumetric flow rate was changed while maintaining a specific ratio of the aqueous phase to the organic phase and a residence time constant (q = Qaq: Qorg = 2, t = 95 s) under 35 °C. The mean Reynolds number of the organic and aqueous phases was calculated based on the pseudo-homogeneous model.
+
+and chemical industry has gained increasing attention [1–7]. Micro- reactors have numerous advantages, such as larger specific surface area, higher mixing eﬃciency, faster heat and mass transfer rates, enhanced
+
+Keywords: Slug flow Mass transfer Microreactor Liquid-liquid heterogeneous process Polyaniline Polymerization
+
+Summary: The paragraph discusses a flow-chemistry process development for polymerization of aniline using capillary microreactors. The reaction involves the transport of aniline from the organic phase to the aqueous phase at the interface. Key reactants include aniline, and the solvent/catalyst is not mentioned. The products are not specified. The reactor type is a capillary microreactor with a fixed total volumetric flow rate of 0.5 ml/min and residence time of 95 s at 35 °C. The critical condition is the volumetric flow rate ratio of the aqueous phase to the organic phase (q). The outcome focuses on the eﬀect of q on mass transfer and polymerization process, with no mention of conversion, yield or selectivity.
+
+Fig. 5. The internal recirculation in the dispersed phase slugs in the capillary microreactor (CHCl,0 = 2.63 mol/L, Qaq = 0.333 ml/min, Qorg = 0.167 ml/min, T = 30 °C, and the capturing position corresponded to the residence time of 58.4 s).
+
+where (Ka)phy and (Ka)phy are the overall physical volumetric mass transfer coeﬃcient and the overall chemical volumetric mass transfer coeﬃcient, respectively. Assuming that the flow pattern in the capillary microreactor with the polymerization was the same as that without the polymerization, Eq. (20) can be transformed as follows:
+
+[2] D. Parida, C.A. Serra, F. Bally, D.K. Garg, A. Hoarau, Intensifying the ATRP synthesis of statistical copolymers by continuous micromixing flow techniques, Green Process Synth. 1 (2012) 525–532. [3] Y. Su, Y. Zhao, F. Jiao, G. Chen, Q. Yuan, The intensification of rapid reactions for multiphase systems in a microchannel reactor by packing microparticles, AIChE J. 57 (2011) 1409–1418. [4] J.R. 
+
+Fig. 11. The photos of slug flow captured at the front part of the capillary microreactor with the variation of the volumetric flow rate ratio of the aqueous phase to the organic phase (Qtotal = 0.5 ml/min).
+

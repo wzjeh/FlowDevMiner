@@ -1,0 +1,55 @@
+{"reaction_summary": {"reaction_type": "null", "reactants": [], "products": [{"name": "null", "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"type": "temperature", "value": temperature_value}
+
+{"reaction_summary": {"reaction_type": "decomposition", "reactants": [{"name": "TEG", "role": "solvent"}], "products": [{"name": "SPIONs", "yield_optimal": null, "unit": null}], "conditions": [{"type": "temperature", "value": "280 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "micro-reactor", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": null}}}
+
+# Extract key information using regular expressions and string manipulation
+    flow_rate_A = float(re.search(r"Flow rate (\d+(?:\.\d+)?) mL/min", paragraph).group(1))
+    temperature_1st_reactor = int(re.search(r"T=(\d+)", paragraph).group(1))  # °C
+    residence_time = re.search(r"residence time (tm) of (\d+(?:\.\d+)?) min", paragraph)
+    if residence_time:
+        residence_time = float(residence_time.group(1))
+    else:
+        residence_time = None
+
+    inner_diameter_2nd_reactor = int(re.search(r"a 0\.5 mm coil; yield \d+%", paragraph).group(0)) #mm
+    temperature_2nd_reactor = int(re.search(r"T=(\d+) °C", paragraph).group(1))
+    
+    conversion, yield_optimal, selectivity = re.findall(r"(\d+(?:\.\d+)?)% (conversion|yield \d+%) (\d+(?:\.\d+)?)%", paragraph)
+    if len(conversion) == 0:
+        conversion = None
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [{"name": "null", "role": "null"}], "products": [{"name": "null", "yield_optimal": null, "unit": "%"}], "conditions": [{"type": "temperature", "value": "null"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": null}, {"type": "flow_rate_reactant_B", "value": null}, {"type": "pressure", "value": null}], "reactor": {"type": "null", "inner_diameter": null}, "metrics": {"conversion": null, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"name": "magnetite nanoparticles (SPIONs)", "yield_optimal": 95, "unit": "%"}
+
+text = """
+Fig. 4 depicts the TEM images of SPIONs produced with two stacked plates per microreactor. It can be observed that the morphology of re-sulted SPIONs is similar to those produced with single-plate units. The mean particle size and standard deviation could be considered similar at tm = 27.4 s whether obtained with 1 or 2 plates, with mean particle sizes of 3.5 ± 0.8 and 3.8 ± 0.8 nm, respectively.
+"""
+
+
+
+
+
+    # Temperature in °C
+    temp = None
+    
+    # Residence time in min
+    residence_time = float(re.search(r"tm\s*=\s*(\d+\.\d+)",text).group(1)) / 60.0  # Convert to minutes
+    
+    # Flow rate in mL/min (not present)
+    
+    # Inner diameter in mm (not present)
+    
+    return temp, residence_time
+
+
+
+    conditions = []
+    
+    if "temperature" in text:
+        match = re.search(r"(?<=T=)\s*(\d+)\s*°C",
+

@@ -1,0 +1,56 @@
+{
+  "reaction_type": "coupling reaction",
+  "reactants": [
+    {
+      "name": "aniline",
+      "role": "reactant"
+    },
+    {
+      "name": "1-(4-sulfonicphenyl)-3-methyl-5-pyrazolone",
+      "role": "reactant"
+    },
+    {
+      "name": "null",
+      "role": "catalyst"
+    },
+    {
+      "name": "null",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "No. 1 azo dye",
+      "yield_optimal": 96.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "21 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "null"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "120 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "null"
+    }
+  ],
+  "reactor": {
+    "type": "coil",
+    "inner_diameter": "2.0 mm"
+  },
+  "metrics": {
+    "conversion": 96.0,
+    "yield": 96.0,
+    "selectivity": 96.0,
+    "unit": "%"
+  }
+}

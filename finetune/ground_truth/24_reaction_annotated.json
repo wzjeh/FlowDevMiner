@@ -1,0 +1,52 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "o-nitroanisole",
+      "role": "reactant"
+    },
+    {
+      "name": "2% Pd/zeolite",
+      "role": "catalyst"
+    },
+    {
+      "name": "methanol",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "o-anisidine",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "45 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": "null"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.05 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "null"
+    }
+  ],
+  "reactor": {
+    "type": "packed bed",
+    "inner_diameter": "0.775 mm"
+  },
+  "metrics": {
+    "conversion": 95.0,
+    "yield": null,
+    "selectivity": 100.0,
+    "unit": "%"
+  }
+}

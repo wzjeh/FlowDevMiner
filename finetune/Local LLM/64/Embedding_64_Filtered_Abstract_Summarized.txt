@@ -1,0 +1,120 @@
+{"name": word, "role": "catalyst"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": 90, "yield": null, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', paragraph)
+    if match:
+        reaction_type = match.group(1).capitalize()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"([A-Z][a-z]+)", paragraph)
+    reactant_names = [match for match in matches]
+    
+    # Parse products (if present)
+    product_match = re.search(r'yield (\d+)%', paragraph)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+        
+    else: 
+        yield_optimal = None
+    
+    # Parse conditions
+    condition_matches = re.findall(r"(\w+)=(\D*)", paragraph)
+    
+    optimal_conditions = []
+    for match in condition_matches:
+        if 'T=' in match[0]:
+            value = match[1].strip()
+            
+        elif 'residence_time' in match[0] or 'time' in match[0]: 
+            residence_time = float(match[1])
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', paragraph)
+    if match:
+        reaction_type = match.group(1).capitalize()
+    
+    else: 
+        reaction_type = None
+    
+    # Parse reactants
+    matches = re.findall(r"([A-Za-z0-9_]+)", paragraph)
+    reactant_names = [match for match in matches if not any(word in match.lower() for word in ["yield", "rate", "t", "temperature"])]
+    
+    # Parse products (if present)
+    product_match = re.search(r'(\d+)%', paragraph)
+    yield_optimal = None
+    unit = "%"
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+        
+    else: 
+        yield_optimal = None
+    
+    # Parse conditions
+    temperature_match = re.search(r'T=([0-9]+) °C', paragraph)
+    residence_time_match = re.search(r'residence time ([0-9.]+)', paragraph)
+    
+    flow_rate_react
+
+{
+        "conversion": None,
+        "yield": None,
+        "selectivity": None,
+        "unit": "%"
+    }
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+# Parse flow rates and temperatures
+    match = re.search(r"Flow rate (\d+(?:\.\d+)?) mL/min", input_str)
+    if match:
+        flow_rate_A = float(match.group(1))
+    
+    match = re.search(r"T=(\d+°C)", input_str)
+    if match:
+        temperature = int(match.group(1))
+
+    # Parse residence time
+    match = re.search(r"in a (\d+(?:\.\d+)?) mm coil", input_str)
+    if match:
+        inner_diameter = float(match.group(1))
+    
+    # Parse yield and reaction type (if any)
+    match = re.search(r"yield (\d+)%", input_str)
+    if match:
+        yield_optimal = int(match.group(1))
+
+    match = re.search(r"Amine — flow rate of HCl\+(?:[a-z]+) solution|Nitrite — flow rate of sodium nitrite solution|Coupler — flow rate of coupler \(diphenylamine\) solution", input_str)
+    if match:
+        reaction_type = "coupling"
+    
+    # Parse products
+    product_name = None
+    for line in
+
+{
+        "conversion": 98,
+        "yield": null, 
+        "selectivity": ">95%",
+        "unit": "%"
+    }
+

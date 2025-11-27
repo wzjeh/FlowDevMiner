@@ -1,0 +1,9 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion | increase |
+| temperature | selectivity | decrease |
+| residence_time | conversion | increase |
+| residence_time | selectivity | unchanged |
+| reactant_concentration | selectivity | decrease |

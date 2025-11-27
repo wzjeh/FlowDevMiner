@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "2-ethyl-1-hexanol",
+      "role": "reactant"
+    },
+    {
+      "name": "HNO3/H2SO4 mixed acid",
+      "role": "catalyst"
+    },
+    {
+      "name": "dichloromethane",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "2-ethylhexyl nitrate",
+      "yield_optimal": 99,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "15 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": "20 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "50 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microreactor",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": 100,
+    "yield": 99.6,
+    "selectivity": 99.6,
+    "unit": "%"
+  }
+}

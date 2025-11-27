@@ -1,0 +1,20 @@
+home-made connector was adopted in this experiment, as shown in Fig. 1b. During the operation, the liquid reactant prepared by dissolving nitrobenzene (Analytical Reagent) in ethanol with the ethanol: water = 7:3 in volume and high-purity hydrogen were simultaneously fed into the microreactor using a syringe pump (LSP01-1BH, Longer-Pump, China) and a mass flow controller (FMA-2602A-I, Omega, USA), respectively (see Fig. 1c). A gas- liquid Taylor flow was then formed inside the microreactor. Since the PTFE capillary tube had the inner diameter of 0.6 mm and the outer diameter of 1.0 mm, the corresponding wall thickness was about 200 lm. Such a thin thickness made the PTFE capillary tube semi-transparent, which allows us to capture the images of the flow pattern inside the microreactor by a CMOS camera (GS3-U3-41C6M-C, PointGray, Canada). The effluent was collected
+
+In this experiment, hydrogen and nitrobenzene were simulta- neously fed into the microreactor, forming a typical gas-liquid Tay- lor flow. Both the gas and liquid flow rates will play a significant role in influencing the flow pattern and thereby the performance of the microreactor. For this reason, the effects of both the gas and liquid flow rates were investigated and the results are dis- cussed in the following. Fig. 2. XPS spectra of (a) PTFE, (b) PDA/PTFE and (c) Pd-PDA/PTFE.
+
+Fig. 7. Image of the slug flow characteristics in the microreactor at ug = 0.05 sccm, ul = 20 lL/min and the inlet nitrobenzene concentration ranging from 30 mM to 90 mM.
+
+ Parametric study was performed to optimize the microreactor operation.
+
+To evaluate the performance of the developed microreactor, the long-term operation for 40 h was carried out. In this measurement, the gas flow rate was kept at 0.05 sccm and the liquid flow rate was maintained at 5 lL/min. The inlet nitrobenzene ranged from 30 mM to 90 mM. The effluents from the outlet were collected every two hour. Fig. 5a shows the variation of the nitrobenzene conversion under different inlet nitrobenzene concentrations. As shown, over the entire operation period, the average aniline con- centrations at the outlet were 29.36 mM, 58.31 mM and 87.93 mM with respect to the inlet nitrobenzene concentration of 30 mM, 60 mM and 90 mM, respectively. The corresponding aver- age nitrobenzene conversions were 97.4%, 97.2% and 97.5%, as shown in Fig. 5b. Such high nitrobenzene conversions under differ- ent inlet nitrobenzene concentrations can be attributed to enhanced mass transfer in the microreactor and excellent catalytic activity of the prepared catalyst layer, both of which facilitated hydrogenation of nitrobenzene to yield good performance. More- over, it can be seen that the nitrobenzene conversion was rather stable, as shown in Fig. 5a. It is indicated that the catalysts have been strongly adhered to the PDA layer to enhance the operation stability. On the other hand, because of enhanced mass transport, the products including the intermediates can be efficiently removed, avoiding the catalyst poison and thereby further improv- ing the stability. In summary, the microreactor with the coated Pd- PDA layer can yield good and stable performance.
+
+Fig. 1 shows the schematic diagram of the microreactor and the experimental system. Taking into consideration that a spiral chan- nel pattern can not only enhance the heat and mass transfer and reduce pressure drop but also decrease the space requirement, the PTFE capillary tube coated with a Pd-PDA catalyst layer was wrapped around a stainless steel tube with the external diameter of 0.5 in. to form the microreactor (see Fig. 1a). Meanwhile, to simultaneously supply the gaseous and liquid reactants stably, a
+
+ The developed microreactor yielded high and stable performance.
+
+where ul represents the liquid flow rate, Mg = 2 g/mol and qg,
+
+ A high-performance gas-liquid-solid microreactor was developed by electroless deposition.
+
+where ul,max is the maximum liquid flow rate corresponding to 100% nitrobenzene conversion, which could be determined by
+

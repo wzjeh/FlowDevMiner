@@ -1,0 +1,7 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rate | conversion of toluene | increase |
+| temperature | conversion of toluene | unchanged |
+| molar_ratio | conversion of toluene | unchanged |

@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "acetyl guaiacol",
+      "role": "reactant"
+    },
+    {
+      "name": "nitric acid",
+      "role": "reactant"
+    },
+    {
+      "name": "acetic acid",
+      "role": "reactant"
+    }
+  ],
+  "products": [
+    {
+      "name": "5-nitroguaiacol",
+      "yield_optimal": 90.7,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "120 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": "2 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "10 ml/min"
+    },
+    {
+      "type": "pressure",
+      "value": "0.7 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "microreactor",
+    "inner_diameter": "2 mm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": 90.7,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

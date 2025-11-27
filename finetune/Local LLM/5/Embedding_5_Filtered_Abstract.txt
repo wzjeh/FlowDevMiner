@@ -1,0 +1,22 @@
+Flow rate (ml/min)
+
+Flow rate (ml/min)
+
+concentrations; solution pH; and feed flow rates on the decolorization efficiency under contin- uous conditions, has been studied. The results showed that at pH values between 3 and 4, more DR16 vanished from feed stream. Moreover, higher decolorization efficiencies were obtained at higher Fe2+ and H2O2 concentrations as well as lower dye concentration and feed flow rate. The results indicated tha
+
+diverted to the reactor. After the feed streams passed through the microreactor, the treated effluent was ana- lyzed using an UV/V. The influences of different parameters, including H2O2, Fe2+, and DR16 concen- trations; solution pH; and flow rates of feed streams in DR16 oxidation, were investigated.
+
+that the decolorization efficiency reduced when the concentration of dye and/or flow rate of reactants increased. In general, it can be concluded that the Fenton process in microchannel is quite useful to promote decolorization of DR16. High decolorization efficiency, about 86%, was obtained in the studied microreactor, which promises a new technique with high decolor- ization efficiency for waste
+
+A schematic diagram of the experimental setup illustrated in Fig. 3. A peristaltic pump (QIS, DSP100) diverted the feeds through the Y-shaped microchannel. The required amount of FeSO4·7H2O was added into the dye solution and then the solution pH was adjusted. Both feeds flow rates were measured using two separate flow meters. Samples were collected from the microreactor output stream. A UV spect
+
+Summary: The paragraph describes an unsteady decolorization process in a microreactor using flow chemistry. The reaction type is not mentioned explicitly but it seems to be related to the removal of color from a solution. Key reactants include DR16 (30 mg/l), H2O2 (150 mg/l), Fe2+ (0.5 mg/l), and an unspecified solvent. The product is not mentioned, but it can be assumed that the goal of the process is to remove color from a solution.
+The microreactor used in this study has a pH of 3.5 and temperature of 25°C. The flow rate, residence time, pressure, and other critical conditions are not specified in the given context. However, it can be inferred that these parameters were optimized to achieve the desired conversion, yield, and selectivity for the decolorization process.
+Overall, this paragraph provides a brief overview of an unsteady decolorization process using flow chemistry in a microreactor but does not include detailed information about the reaction type or critical conditions.
+
+The microchannel was fabricated from Plexiglas with a depth, width, and length of 0.9, 1 and 70 mm, respectively. The cover plate of microreactor was made from quartz plate. The fabricated microchannel is shown in Fig. 2.
+
+Fig. 2. The microreactor used in the experimental study.
+
+3.5. Effect of flow rate
+

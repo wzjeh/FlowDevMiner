@@ -1,0 +1,20 @@
+Continuous flow technology is one of the most valuable advances in the chemical industry that oﬀers several advantages including smaller reactor volume, lower operating cost, and improved mixing performance compared with batch reac- tors.27−31 As a promising tool for heterogeneous reactions, the micropacked bed reactor has shown several advantages such as intensified mass transfer, uniform tempera
+
+trend increasing from 0 to 1.4%, which indicates that a longer residence time is demanded for the hydrogenation of the pyridine ring in 5-AIN. However, it is found that the selectivity of 5-ATHIN increases slightly from 98.7 to 99.3% when the liquid flow rate increases from 0.2 to 0.25 mL/min, indicating that the formation of 5-APHIN is accelerated for a liquid flow rate lower than 0.25 mL/min. Th
+
+Figure 1. Schematic view of the continuous flow system based on the micropacked bed reactor for the hydrogenation of 5-NTIN.
+
+Summary: The paragraph discusses the development of a flow-chemistry process using a micropacked bed reactor for hydrogenation reactions. The model reaction is the hydrogenation of 5-nitroisoquinoline (5-NTIN) in a continuous flow system. Key reactants include 5-NTIN, while hydrogen serves as the hydrogenating agent. A micropacked bed reactor is used for this process. Critical conditions include an unreported flow rate and residence time at an unspecified temperature and pressure. The outcome of the reaction is not mentioned in the given context.
+
+continuous flow system and the scaling up of this continuous system is out of scope in this study. Applications in Relevant Substrates. The synthesis of 5-AIN and 5-ATHIN in the continuous flow system exhibited remarkable performance, and optimized reaction parameters (gas flow rate, hydrogen pressure, temperature, and liquid flow rate) were obtained successfully. Besides, the continuous flow
+
+adopted continuous flow technology with prepassivated Raney Ni as the catalyst for the synthesis of a crizotinib intermediate in the micropacked bed reactor and diﬀerent reaction parameters were screened to improve reaction performance. Compared with the batch reactor, the reaction yield increased from 95 to 99%, while the reaction time decreased significantly from 90 min to 6 s, validating the su
+
+The continuous flow system based on a micropacked bed reactor has been successfully employed for the synthesis of 5- AIN and 5-ATHIN. The eﬀects of the gas flow rate, hydrogen pressure, temperature, and liquid flow rate were determined for the optimization of reaction performance, and maximal yields of 5-AIN and 5-ATHIN were determined to be 99.9 and 99.3%, respectively. Additionally, the continuo
+
+However, the H-cube system is basically packed with powder catalysts, and a pseudo homogeneous liquid is transported through the reactor with a relatively large pressure drop.44 To reduce the pressure drop, the micropacked bed reactor packed with the larger particle catalysts (the diameter around 500 μm) was adopted here.41
+
+Figure 2a illustrates that the conversion of 5-NTIN constantly increases to beyond 99% as the gas flow rate increases beyond 30 sccm, and no byproduct is detected by GC. The results could be attributed to the intensified gas− liquid mass transfer at a higher gas flow rate, accelerating the hydrogenation of 5-NTIN. Therefore, a gas flow rate of 30
+
+The reactant (5-NTIN) was dissolved in the solvent at a specific concentration and the reactor was fully packed with catalysts. The micropacked bed reactor was prewetted by the solution and H2 was transported into the reactor at the required flow rate. Then, the liquid flow rate was set to the required value and system pressure was gradually increased, while simultaneously increasing the system te
+

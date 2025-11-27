@@ -1,0 +1,6 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | reaction performance | increase |
+| pressure | reaction performance | unchanged |

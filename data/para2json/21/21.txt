@@ -1,0 +1,185 @@
+Linking fundamental chemistry and engineering to create scalable, efficient processes Reaction Chemistry & Engineering
+
+<image: ICCBased(CMYK,U.S. Web Coated (SWOP) v2), width: 1660, height: 1252, bpc: 8>
+
+PAPER Jisong Zhang et al. Copper/TEMPO-catalyzed continuous aerobic alcohol oxidation in a micro-packed bed reactor
+
+Copper/TEMPO-catalyzed continuous aerobic alcohol oxidation in a micro-packed bed reactor†
+
+Published on 30 March 2022. Downloaded by Hokkaido Daigaku on 10/20/2025 8:35:01 AM.
+
+Chenghao Zhang, Xiaonan Duan, Jiabin Yin, Fengyan Lou and Jisong Zhang *
+
+Aerobic oxidation of alcohols to aldehydes and ketones provides a green and sustainable method for the pharmaceutical and fragrance industries. For the industrial application of aerobic oxidations, safety and
+
+mass transfer limitations are two significant concerns. With the prominent features of a small inventory
+
+of hazardous chemicals and the short diffusion distance, micro-reactors provide an approach to address safety issues and accelerate gas–liquid mass transfer for the aerobic oxidation process. In this work, a
+
+highly-efficient micro-packed bed reactor is demonstrated for Cu/TEMPO-catalyzed aerobic alcohol
+
+oxidation. A dilute oxygen source (9% O2 in N2) is used to ensure that the oxygen/organic mixture never enters the explosive regime. Under the optimized process conditions, the space–time yield for the
+
+aerobic oxidation of benzyl alcohol is 7318.4 mol m−3 h−1, which is about one order of magnitude higher
+
+than that of batch reactors. The kinetic parameters are also determined with this flow system, and a pivotal kinetic model is established to provide guidance for the enhancement of this oxidation process.
+
+In addition, with the implementation of the micro-packed bed, several alcohols, including allylic,
+
+aromatic, and aliphatic derivatives, can achieve higher oxidation rates compared to slug flow micro- reactors. This continuous flow technology provides a new option for aerobic alcohol oxidation in a more
+
+tolerance.11–13 However, both process safety and efficiency of copper/TEMPO-catalyzed aerobic oxidation are still concerns for industrial applications.14
+
+Aldehydes and ketones, prepared through alcohol oxidation, are prevalent intermediates in the synthesis of pharmaceuticals and fine chemicals.1–3 Compared to the usage of costly sacrificial oxidants such as chromic trioxide (CrO3) or phosphorus pentoxide (P2O5),4,5 molecular oxygen (O2) has captivated the attention of chemical engineers and enterprisers due to the reduced capital cost, atom economy, and harmlessness to the environment.6 In addition, various homogeneous and heterogeneous catalysts for aerobic oxidation have been explored to extend fundamental research, like Pd-catalysts and Fe-catalysts.7–9 Nonetheless, the low catalytic turnover rate and reaction selectivity are still the common obstacles. Recently, TEMPO (2,2,6,6- tetramethylpiperidine-n-oxyl) has been extensively used as an effective catalyst for aerobic alcohol oxidation.10 Especially, TEMPO combined with copper is the most well-known system in transition-metal-based catalysts owing to mild operating conditions, high selectivity to aldehydes, and wide substrate
+
+Over the past decade, continuous flow microreactors for aerobic oxidation have attracted attention because of their high production efficiency, controllability, and environmental sustainability over batch or semi-batch reactors.15,16 Much shorter residence time and consequently shrank equipment size are further advantages of the novel reactors.17 Jensen et al.18 demonstrated homogeneously catalysed alcohol oxidations in a thin-layer membrane reactor and the residence time required to reach full conversion was around 1 min with optimized conditions. Vanoye et al.19 evaluated the Cu/TEMPO catalytic system in a gas–liquid segmented flow PFA tubing and indicated that benzyl alcohol was selectively converted to benzaldehyde (conversion >98%) with the residence time of about 12 min. By contrast, aerobic alcohol oxidations in the conventional batch reactors often take several hours to achieve similar yields as in the continuous flow reactors.11 Therefore, these studies revealed that continuous flow microreactors provide excellent gas– liquid mass transfer to accelerate the rate of mass-transfer limited reactions. Additionally, microreactors represent an attractive tool for kinetics measurements,20–22 owing to their excellent mixing performance and improved process control. According to the published works,11,23,24 the kinetics of Cu/
+
+The State Key Laboratory of Chemical Engineering, Department of Chemical Engineering, Tsinghua University, Beijing 100084, China. E-mail: jiszhang@tsinghua.edu.cn † Electronic supplementary information (ESI) available. See DOI: https://doi.org/ 10.1039/d2re00041e
+
+Bide Pharmaceutical Technology Co., Ltd. (Shanghai, China). Nine percent oxygen with a balance of nitrogen (exact concentration 8.99% with a certified analysis) was supplied by Beiwen Gas (Beijing, China). Glass beads in this study were obtained from Sigma-Aldrich.
+
+TEMPO-catalyzed aerobic alcohol oxidation is very complicated. Kumpulainen et al.25 investigated the effects of catalyst components in the Cu/TEMPO system, and some kinetics parameters have been published. However, these results were mostly obtained in stirred batch reactors, in which the lack of efficient mixing may lead to deviation from the kinetic model. Therefore, it is essential to develop an efficient microreactor-based platform to carry out the kinetics study of Cu/TEMPO-catalyzed aerobic alcohol oxidation. Micro-packed bed reactors, a new type of reactor for gas– liquid–solid processes, have been used for reactions such as hydrogenation,25,26 ozonolysis,27 and Fisher–Tropsch synthesis.28,29 With the increased surface-to-volume ratios in micro-packed beds, these heterogeneous reactions were accelerated by intensified gas–liquid mass transfer. Zhang et al.30 indicated that kLa values (volumetric gas–liquid mass- transfer coefficients) in micro-packed bed reactors are about one to two orders of magnitude larger than those of conventional trickle beds. For safety concerns, micro-packed bed reactors can greatly reduce the reactor volume and improve the process safety in which dangerous chemistry can also be performed. Inoue et al.31 performed the direct synthesis of hydrogen peroxide by passing the explosive gas mixture of hydrogen and oxygen over a micro-packed bed of palladium catalyst. Therefore, the implementation of Cu/ TEMPO-catalyzed continuous aerobic alcohol oxidation in a micro-packed bed reactor has potential since green and sustainable oxidation processes rely not only on effective catalysts but also on the exploitation of reactor technologies that enhance mass-transfer performance and improve overall safety.32
+
+The homogeneous solution of PhCH2OH and the Cu/TEMPO catalyst system were dissolved in acetonitrile at room temperature and then protected by nitrogen. The schematic overview of this microreactor system is shown in Fig. 1. The liquid was delivered by a metering pump (Eldex Laboratories, USA) at the flow rate range of 0.01–10 mL min−1. The O2–N2 gas mixture from the regulated cylinder was fed via a thermal mass flow controller (Bronkhorst Ltd., UK) at the flow rate range of 0–200 sccm, where sccm denotes mL min−1 at the standard condition of 0 °C and 1 atm. The outlet of the mass flow controller was connected to a safety valve to automatically release the gas from the tubing when the pressure exceeded 150 bar. The gas and liquid were premixed in a T-mixer and then entered the micro-packed bed (the inner diameter 4.35 mm and outer diameter 6.35 mm) packed with the inert glass beads. Glass beads with a size of 300–350 μm were loaded (void fraction of 37%) in order to reduce the gas molecular diffusion length and improve the mass transfer performance. The outlet of the packed bed was connected to a back-pressure regulator to control the system pressure.
+
+The concentrations of benzyl alcohol, benzaldehyde, and benzoic acid in the samples were analysed using a gas chromatograph (GC) by an internal standard calibration method reported in the literature.34 The detailed GC conditions and standard curves are listed in the ESI† (Fig. S2). Generally, benzaldehyde formed in the oxidation reaction is sensitive to over-oxidation to benzoic acid, but the GC- spectrum of the product does not show any information of benzoic acid (Fig. 2), indicating the great selectivity of the Cu/TEMPO catalyst system. The benzyl alcohol conversion (X) and the yield of benzaldehyde (Y) are calculated as
+
+In this work, a flow system based on the micro-packed bed reactor was developed to realize the homogeneous Cu/ TEMPO alcohol oxidation. Aerobic oxidation of benzyl alcohol (PhCH2OH) was used as a model reaction, and a dilute oxygen source (9% O2 in N2)33 was used to avoid the flammability envelope of the solution. The reaction operating variables, including temperature, reagent concentration, and reaction time, were screened to determine the optimum conditions. Subsequently, the kinetic parameters of Cu/ TEMPO benzyl alcohol oxidation were determined. Furthermore, several primary and secondary alcohols, including allylic, benzylic, and aliphatic derivatives, were demonstrated to assess the potential scope.
+
+<image: ICCBased(CMYK,U.S. Web Coated (SWOP) v2), width: 955, height: 426, bpc: 8>
+
+Benzyl alcohol (99.9%) and acetonitrile (99.9%) were supplied by Titan (Beijing, China). 1-Octanol, 3-methyl-2-butenol, cyclohexane methanol, and 3-phenyl-1-propanol were purchased from Myrell Chemical Technology Co., Ltd. (Beijing, China) and used without further purification. Tetrakisacetonitrile copperĲI) triflate CuĲMeCN)4ĲOTf), 2,2- bipyridine (Bpy), 1-methylimidazole (NMI), and 2,2,6,6- tetramethylpiperidine-n-oxyl (TEMPO) were purchased from
+
+Fig. 1 Experimental setup of the microreactor system for aerobic oxidation.
+
+<image: ICCBased(CMYK,U.S. Web Coated (SWOP) v2), width: 821, height: 1295, bpc: 8>
+
+<image: ICCBased(CMYK,U.S. Web Coated (SWOP) v2), width: 812, height: 643, bpc: 8>
+
+where CA0 is the initial concentration of benzyl alcohol, CA, CB, and CC are the concentrations of benzyl alcohol, benzaldehyde, and benzoic acid in the product, respectively. In a micro-packed bed reactor, the residence times were calculated according to the definition of liquid holdup in the previous work.35 The residence time τ is obtained through eqn (3):
+
+Fig. 3 (A) Yield versus residence time at different temperatures. Experimental conditions: 35 bar, 0.4 M benzyl alcohol. (B) Effect of total gas pressure on the benzaldehyde yield. Experimental conditions: 40 °C, O2/substrate molar ratio = 0.65 : 1, 5 mol% of CuĲMeCN)4ĲOTf), 4 mol% of TEMPO, 5 mol% of Bpy, 10 mol% of NMI, 0.4 M benzyl alcohol in CH3CN.
+
+where ε is the bed porosity, h is the liquid holdup, d and L are the inner diameter and the length of the packed bed, and FL is the liquid phase flow rate.
+
+in the micro-packed bed reactor, which is one order of magnitude higher than that of batch systems (234.57 mol m−3 h−1) and about 2–5 times higher than those of flowing tube reactors (734.56–3789.5 mol m−3 h−1) at a milder temperature. The remarkable improvement in space–time yields and reaction rate results from the greatly increased gas–liquid mass transfer in the micro-packed bed.30
+
+Effect of the operating temperature and total gas pressure. Temperature is one of the important factors that greatly affect the conversion and selectivity of the reactants. Fig. 3A shows the trend of benzaldehyde yield versus residence time at the temperature range of 20–45 °C. The results indicate that the reaction rate increases as the temperature increases. It is noted that nearly 100% yield can be reached with the residence time of 30 s at 45 °C. Even at the temperature of 20 °C, the residence time required to full conversion was less than 1 min. This is in agreement with the experimental phenomenon that the colour of the reaction solution changed from red-brown to green (ESI† Fig. S1). Additionally, the space–time yields (Table 1) were calculated to quantitatively compare the performance of the micro-packed bed to reactors previously used for the aerobic oxidation of benzyl alcohol according to the data in Fig. 3A. As shown in Table 1, the measured space–time yield is 7318.4 mol m−3 h−1
+
+According to Henry's law, the total gas pressure could affect the oxygen concentration in the reaction system when the constant gas oxygen concentration (9% O2 in N2) is used. Fig. 3B shows the trend in the yield of benzaldehyde for different total gas pressure in the micro-packed bed reactor with a residence time of 10 and 20 s. In general, the yield increases with increasing total pressure. Since pressurization can speed up the dissolution of oxygen into the solution, high total gas pressure is more favourable to aerobic oxidation. Effect of reagent concentration. The effect of the molar ratio of O2 to benzyl alcohol was investigated at 40 °C and 35 bar (9% O2 in N2). As shown in Fig. 4, with an increasing molar ratio, the conversion of benzyl alcohol remained nearly unchanged, which indicated that the influence of gas–liquid mass transfer can be ignored during the reaction process. It
+
+Table 1 Space–time yields for the aerobic oxidation of benzyl alcohol in different reactors
+
+Ref. Reactor type pO2/bar [PhCH2OH]/M T/°C Space–time yielda/mol h−1 m−3 Relative space–time yield
+
+Batch 1.0 0.1 r.t. 234.57b,c 1.0 Bubble column 1.0 0.5 332.90 1.4 Tube reactor (coil) 5.0 0.4 r.t. 734.56c 3.1 Tube reactor (vertical) 3.2 4.0 3789.5 16.2 This work Micro-packed bed 3.2 0.4 7318.4 31.2
+
+a Space–time yields were calculated at maximum conversion as mol substrate converted per reactor volume, per hour, and the amount of
+
+TEMPO was 5% (molar ratio to benzyl alcohol). Space–time yield ¼ mol PhCH2OH ð Þ·X τ·V . b Only the liquid volume was used for the reactor
+
+In order to reduce the use of TEMPO while ensuring the reaction efficiency, 16 mM TEMPO (4% molar ratio to benzyl alcohol) was selected for further research, which is less consumption than the relevant work.24
+
+is revealed that the micro-packed bed reactor can provide excellent gas–liquid mixing for performing kinetics measurements, which will be discussed later. Therefore, considering the economy and efficiency, the molar ratio of O2 to the substrate was determined to be 0.65 : 1 mol/mol for the next step of the research. The effect of the initial concentration of PhCH2OH was investigated at the residence time from 10 to 25 s. The results are shown in Fig. 5A, indicating that a longer residence time yielded a higher concentration of benzaldehyde. Furthermore, at the residence time of 25 s, as the initial concentration of PhCH2OH increases from 0.15 to 0.4 mol L−1, due to the increase of reaction rate (the slope of the fitting line represents the reaction rate), the benzaldehyde concentration is significantly increased. Therefore, a high initial concentration of PhCH2OH is more favourable to aerobic alcohol oxidation. When the PhCH2OH concentration was set to be 0.4 M based on economic consideration, a positive correlation between the productive yield and the amount of TEMPO was observed, as illustrated in Fig. 5B. It is acceptable that the oxidation rate, especially at the early stage, increases when more TEMPO is used. To be more detailed, as the TEMPO concentration increased to 10 mM, the benzaldehyde yields basically did not change with a further increase of TEMPO.
+
+Effect of gas and liquid flow rate. The process of homogeneous catalytic benzyl alcohol aerobic oxidation is carried out by contacting gas and liquid in the micro-packed bed reactor. The gas and liquid flow rate have a substantial influence on the hydrodynamics in the reactor.35 In the present study, four micro-packed beds with the same internal diameter (4.35 mm) and different lengths (5; 10; 15; 20 cm) were designed to achieve the same flow rate in different
+
+<image: ICCBased(CMYK,U.S. Web Coated (SWOP) v2), width: 754, height: 1298, bpc: 8>
+
+<image: ICCBased(CMYK,U.S. Web Coated (SWOP) v2), width: 696, height: 573, bpc: 8>
+
+Fig. 4 Effect of the molar ratio of O2 to benzyl alcohol on the conversion of benzyl alcohol at various residence times. Experimental conditions: 40 °C, 35 bar, 5 mol% of CuĲMeCN)4ĲOTf), 4 mol% of TEMPO, 5 mol% of Bpy, 10 mol% of NMI, 0.4 M benzyl alcohol in CH3CN.
+
+Fig. 5 Effect of benzyl alcohol (A) and TEMPO (B) concentrations on aerobic oxidation performance. Experimental conditions: 35 bar, 40 °C, O2/substrate molar ratio = 0.65 : 1.
+
+<image: ICCBased(Gray,Gray Gamma 2.2), width: 713, height: 595, bpc: 8>
+
+<image: ICCBased(CMYK,U.S. Web Coated (SWOP) v2), width: 737, height: 594, bpc: 8>
+
+Fig. 6 Effect of gas and liquid flow rates on the aerobic oxidation rate (pressure: 5 bar, temperature: 40 °C, [PhCH2OH] = 0.4 M, the gas– liquid volume flow rate ratio was fixed at 64.7 : 1).
+
+Fig. 7 Effect of gas superficial velocity on the aerobic oxidation performance (pressure: 35 bar, temperature: 40 °C, liquid flow rate: 1 ml min−1).
+
+Reaction orders of reagents. According to previous studies,23,24 the rate equation of aerobic oxidation can be written as follows:
+
+residence times. The effect of gas and liquid flow rates on the product concentration was investigated at a fixed gas– liquid volume flow rate ratio (64.7 : 1). As shown in Fig. 6, with increasing residence time, the concentration of benzaldehyde increases. Furthermore, as the liquid flow rate increased from 1 to 1.6 ml min−1, the reaction rate remained nearly unchanged. This suggests that the impact of liquid and gas flow rates (constant gas–liquid flow rate ratio) can be negligible within the scope of the experiments. The same phenomenon is also found under higher pressure (ESI† Fig. S3), where the increased benzaldehyde yield can be obtained. In addition to accelerating gas–liquid mass transfer, another major advantage of the micro-packed bed reactor is that individual sets of reaction conditions can be screened rapidly, not only for process optimization, but also for kinetics investigation. Furthermore, all the subsequent kinetics experiments were studied efficiently under optimized experimental conditions.
+
+where PO2 is the oxygen partial pressure. α, β, and γ are the reaction orders of [(bpy)Cu], PO2 and [PhCH2OH], respectively. CCu and CPhCH2OH are the concentrations of (bpy)Cu and benzyl alcohol. Firstly, to determine the kinetic order for [(bpy)Cu], the initial concentration of benzyl alcohol and O2 is 20 times the initial concentration of copper salt in the reacting system. Then, the rate law can be written as:
+
+r ¼ − dCPhCH2OH dt ¼ k·Cα Cu·Pβ O2·Cγ PhCH2OH· ¼ K1·Cα Cu (5)
+
+After integrating eqn (5) and considering the boundary conditions [t = 0, CPhCH2OH = C0; t = τ, CBzOH = C0(1 − X)], eqn
+
+Elimination of gas–liquid mass transfer limitation. As stated above, the diluted gas (9% O2 in N2) was used to decrease the partial pressure of O2 due to safety concerns, leading to the oxidation reaction more likely to be mass- transfer limited. However, the elimination of gas–liquid mass transfer limitation is important to determine the intrinsic kinetics. In this work, exploring the effect of gas superficial velocity on the reaction performance at the same residence time and a fixed O2/substrate molar ratio (0.65 : 1) was used to demonstrate whether the gas–liquid mass transfer can be ignored. Fig. 7 shows the trend of benzyl alcohol conversion at various gas superficial velocities at the residence time of 25 s. The reaction rate increases when gas superficial velocity is increased at the early stage. However, the conversion does not change significantly as superficial gas velocities exceed 13 cm min−1, indicating the influence of gas–liquid mass transfer is eliminated.
+
+<image: ICCBased(CMYK,U.S. Web Coated (SWOP) v2), width: 865, height: 701, bpc: 8>
+
+Fig. 8 Kinetic data from the oxidation of benzyl alcohol by (bpy)Cu (OTf)/TEMPO assessing the kinetic dependence on (A) [(bpy)Cu], (B) PO2. (C) First-order plot (ln(1 − X) versus time). (D) Second-order plot (1/ (1 − X) versus time).
+
+where X is the conversion of benzyl alcohol and C0 is the initial concentration of benzyl alcohol. The rate of benzyl alcohol oxidation exhibits a 2.25-order dependence on the [(bpy)Cu] (Fig. 8A), which means that the reaction rate is sensitive to the [(bpy)Cu] and is similar to the literature value of 2.24 It is found that the reaction was completely inactive at low (bpy)Cu concentration, so the reaction did not follow second-order correlation. With the O2 concentration excessive in the gas phase and excellent mixing performance in micro-packed, the O2 concentration in the liquid phase can be considered unchanged. Eqn (4) can be simplified as follows:
+
+where, CCu,0 is the initial concentration of (bpy)Cu and PO2,0 is the initial partial pressure of O2. The experiments were performed at the temperature range of 25–100 °C at a constant O2 to benzyl alcohol molar ratio of 0.65 and pressure of 35 bar. At each temperature, reaction rates were calculated according to eqn (1) and the rate constants were extracted and plotted versus the various temperatures (ESI† Fig. S4). The data showed strong agreement with the Arrhenius relationship (Fig. 9), demonstrating the activation energy Ea = 37.1 (±1.3) kJ mol−1. The value seems reasonable in this work, compared with the typical Ea for benzyl alcohol Ru or Au/TEMPO-catalyzed oxidation (Ea = 30–60 mol−1).37–39 Additionally, It should be noticed that to the best of our knowledge, the reported Ea values for benzyl alcohol Cu/TEMPO-catalyzed oxidation were <10 kJ mol−1 as the apparent activation energy at room temperature.19 The higher Ea means the benzyl alcohol oxidation is closer to intrinsic kinetics, which demonstrates that more accurate kinetic parameters can be obtained in this micro-packed bed.
+
+r ¼ − dCPhCH2OH dt ¼ k·Cα Cu·Pβ O2·Cγ PhCH2OH· ¼ K2·Pβ O2 (7)
+
+The benzyl alcohol conversion increased linearly with an increase in oxygen partial pressure at the same residence time (Fig. 8B). Similarly, with the other reactants excessed, the fitting shows the reaction is first-order to the oxygen partial pressure, which agrees well with the literature value.23
+
+Scope of diverse alcohols and comparison with other continuous-flow reactors
+
+The kinetic dependency for benzyl alcohol was investigated at a fixed initial benzyl alcohol concentration. If the order of benzyl alcohol is first, the rate law is
+
+Diverse types of alcohols were assessed to establish the scope of the system (Table 2). The data highlights the efficiency and broad substrate compatibility of the Cu/TEMPO catalytic system in the micro-packed bed. Primary alcohols, including aromatic (entry 1 and 3), aliphatic (entry 5 and 9), and allylic (entry 11) derivatives, undergo efficient oxidation in excellent yields. Overoxidation of the aldehydes to the corresponding benzoic acids was hardly observed under the experimental conditions here. As expected, aliphatic alcohols are less reactive than aromatic and allylic substrates. It can be understood from the unifying electronic structure viewpoint
+
+Similarly, when the order of benzyl alcohol is presumed to be second, the reaction rate r can be expressed as shown in eqn (8).
+
+<image: ICCBased(CMYK,U.S. Web Coated (SWOP) v2), width: 772, height: 668, bpc: 8>
+
+As shown in Fig. 8C and D, the fitting curve assuming that the order is first (R2 = 0.995) fits better with the experimental results while the correlation coefficient R2 is 0.971 when the order of benzyl alcohol is second. The fact is substantiated by the results in the literature.24 Consequently, the kinetic model was determined with a 2.25-order dependence on [(bpy)Cu], a first-order dependence on PO2 and [PhCH2OH]. The reaction rate equation for benzyl alcohol aerobic oxidation can be expressed as:
+
+Fig. 9 Arrhenius plotting of the rate constant for the reaction.
+
+Table 2 Comparison for TEMPO-catalyzed aerobic oxidation performance of different alcohols to aldehydes in flow
+
+Entry Substrate Product Substrate concentration/M TEMPO/mol% T/°C P/bar τ/min Yielda Ref.
+
+<image: ICCBased(Gray,Gray Gamma 2.2), width: 150, height: 83, bpc: 8>
+
+<image: ICCBased(Gray,Gray Gamma 2.2), width: 139, height: 83, bpc: 8>
+
+<image: ICCBased(Gray,Gray Gamma 2.2), width: 173, height: 68, bpc: 8>
+
+<image: ICCBased(Gray,Gray Gamma 2.2), width: 166, height: 69, bpc: 8>
+
+<image: ICCBased(Gray,Gray Gamma 2.2), width: 175, height: 24, bpc: 8>
+
+<image: ICCBased(Gray,Gray Gamma 2.2), width: 178, height: 24, bpc: 8>
+
+<image: ICCBased(Gray,Gray Gamma 2.2), width: 177, height: 55, bpc: 8>
+
+<image: ICCBased(Gray,Gray Gamma 2.2), width: 178, height: 55, bpc: 8>
+
+<image: ICCBased(Gray,Gray Gamma 2.2), width: 160, height: 89, bpc: 8>
+
+<image: ICCBased(Gray,Gray Gamma 2.2), width: 149, height: 89, bpc: 8>
+
+<image: ICCBased(Gray,Gray Gamma 2.2), width: 145, height: 73, bpc: 8>
+
+<image: ICCBased(Gray,Gray Gamma 2.2), width: 156, height: 71, bpc: 8>
+
+a Entry 1–7, 9–11 performed at 35 bar 9% O2 in N2. Yield determined by GC. The samples were collected when the system reached a steady state. b Pure oxygen pressure. c Aerobic oxidation by RuCl2ĲPPh3)3/TEMPO. d Residence time was not optimized for full conversion. e Silica- supported TEMPO catalysts (0.7 mmol g−1 active site).
+
+of electrophilic activation of the C–H bond.40 Relative to aromatic alcohols, the reactivity of aliphatic alcohols is hindered by the stronger α C–H bond. When it comes to secondary alcohols, it is difficult to make the 2-octanol yield higher than 30% with a limited residence time (entry 7). However, the near-quantitative 2-octanone yield was obtained in a NaNO2/TEMPO catalyst system41 because it has been proved that the chemo-selectivity in the oxidation of secondary alcohols changes as a function of the pH value of the reaction medium and the oxidation of secondary alcohols is favoured at low pH values.42 Most encouragingly, 3-methyl- 2-butenol (entry 11) was fully converted to 3-methyl-2-butenal in 0.53 min, while the CC moiety remained intact, i.e. no epoxidation products were detected. More examples in the previous studies were provided by investigating the same substrates with different types of continuous-flow reactors, like vertical tube reactors,19,43
+
+liquid mixing, the flow system based on the micro-packed bed reactor described above enables efficient and selective aerobic oxidation of various primary alcohols to the corresponding aldehydes at milder conditions.
+
+In this study, a micro-packed bed reactor was developed to demonstrate continuous Cu/TEMPO-catalyzed aerobic alcohol oxidations. The safety hazards typically associated with aerobic oxidations are alleviated by using dilute oxygen (9% O2 in N2). Based on the micro-reactor platform, some essential operating conditions, including temperature, pressure, reagent concentration, TEMPO amount, and gas/ liquid flow rate ratio, were optimized. Near-quantitative benzaldehyde yield can be achieved with the residence time as low as 35 s and the space–time yield (7318.4 mol m−3 h−1) for the aerobic oxidation of benzyl alcohol, which is one order of magnitude higher than that of batch systems. Additionally, a kinetic model was established to provide guidance for the oxidation reaction enhancement. The activation energy of the rate constant is 37.1 (±1.3) kJ mol−1, which provides information much closer to intrinsic kinetics compared to earlier reports. To gain further insights, different types of alcohols containing allylic, aromatic, and aliphatic derivatives were performed in the micro-packed bed to extend the substrate scope, in which primary alcohols undergo full conversion to the corresponding aldehyde with the residence times less than 4 min. The developed strategy in this study provided a more efficient and safer way for aerobic alcohol oxidation and may accelerate the adoption of oxygen as a sustainable, cheap oxidant in pharmaceuticals and fragrance industries. Further challenges to be addressed will be scale-up. It has long been suggested that the way to transform microfluidic chemistry into an industrial process is to apply parallel reactor systems (numbering up) rather than to increase in geometry (size).
+
+membrane reactors.18 These data demonstrate that the reaction times for full conversion of primary alcohols in the micro-packed bed are even more than 10 times shorter than those in the slug flow reactors, such as phenyl propanol (entry 3 and 4), 1-octanol (entry 5 and 6), and cyclohexane methanol (entry 9 and 10). The results indicate that the micro-packed bed reactor provides better mass transfer relative to the previous tubing reactors with a gas–liquid segmented (Taylor or slug) flow regime. However, one limitation of this catalytic system was found in the study. The complete conversion of 2-octanol (entry 7) was not achieved within 4 min at 65 °C. However, 90% conversion of 2-octanol was achieved at a residence time of 7 h (entry 8), where the catalyst system of RuCl2ĲPPh3)3/TEMPO was used in a semi- batch reactor. The mildness of reaction conditions is evident by oxidation of aromatic (entry 1 and 3) and aliphatic (entry 5) derivatives. Moreover, pure O2, which represents a significant safety hazard, was replaced with a diluted oxygen source (9% O2 in N2). By alleviating safety issues and enhancing gas–
+
+20 X. Duan, J. Tu, A. R. Teixeira, L. Sang, K. F. Jensen and J. Zhang, React. Chem. Eng., 2020, 5, 1751–1758. 21 C. Zhang, J. Zhang and G. Luo, J. Flow Chem., 2020, 10, 219–226. 22 Y. Li, B. Demir, L. M. Vázquez Ramos, M. Chen, J. A. Dumesic and J. Ralph, Green Chem., 2019, 21, 3561–3572. 23 J. M. Hoover, B. L. Ryland and S. S. Stahl, J. Am. Chem. Soc., 2013, 135, 2357–2367. 24 J. M. Hoover, B. L. Ryland and S. S. Stahl, ACS Catal., 2013, 3, 2599–2605. 25 E. T. T. Kumpulainen and A. M. P. Koskinen, Chem. – Eur. J., 2009, 15, 10901–10911. 26 J. Tu, L. Sang, H. Cheng, N. Ai and J. Zhang, Org. Process Res. Dev., 2020, 24, 59–66. 27 Q. Cao, L. Sang, J. Tu, Y. Xiao, N. Liu, L. Wu and J. Zhang, Chemosphere, 2021, 270, 128621. 28 R. Guettel and T. Turek, Chem. Eng. Sci., 2010, 65, 1644–1654. 29 C. Knobloch, R. Güttel and T. Turek, Chem. Ing. Tech., 2013, 85, 455–460. 30 J. Zhang, A. R. Teixeira and K. F. Jensen, AIChE J., 2018, 64, 564–570. 31 T. Inoue, M. A. Schmidt and K. F. Jensen, Ind. Eng. Chem. Res., 2007, 46, 1153–1160. 32 M. C. Bryan, P. J. Dunn, D. Entwistle, F. Gallou, S. G. Koenig, J. D. Hayler, M. R. Hickey, S. Hughes, M. E. Kopach, G. Moine, P. Richardson, F. Roschangar, A. Steven and F. J. Weiberth, Green Chem., 2018, 20, 5082–5103. 33 M. R. Brooks and D. A. Crowl, J. Loss Prev. Process Ind., 2007, 20, 144–150. 34 J. F. Greene, J. M. Hoover, D. S. Mannel, T. W. Root and S. S. Stahl, Org. Process Res. Dev., 2013, 17, 1247–1251. 35 J. Zhang, A. R. Teixeira, L. T. Kögl, L. Yang and K. F. Jensen, AIChE J., 2017, 63, 4694–4704. 36 C. Aellig, C. Girard and I. Hermans, Angew. Chem., Int. Ed., 2011, 50, 12355–12360. 37 A. Dijksman, A. Marino-González, A. Mairata i Payeras, I. W. C. E. Arends and R. A. Sheldon, J. Am. Chem. Soc., 2001, 123, 6826–6833. 38 A. Abad, A. Corma and H. García, Chem. – Eur. J., 2008, 14, 212–222. 39 G. Vernet, M.-S. Salehi, P. Lopatka, S. K. Wilkinson, S. K. Bermingham, R. Munday, A. O'Kearney-McMullan, K. Leslie, C. A. Hone and C. Oliver Kappe, Chem. Eng. J., 2021, 416, 129045. 40 C. Michel, P. Belanzoni, P. Gamez, J. Reedijk and E. J. Baerends, Inorg. Chem., 2009, 48, 11909–11920. 41 R. Liu, C. Dong, X. Liang, X. Wang and X. Hu, J. Org. Chem., 2005, 70, 729–731. 42 L. Tebben and A. Studer, Angew. Chem., Int. Ed., 2011, 50, 5034–5068. 43 J. F. Greene, Y. Preger, S. S. Stahl and T. W. Root, Org. Process Res. Dev., 2015, 19, 858–864. 44 C. Aellig, D. Scholz, S. Conrad and I. Hermans, Green Chem., 2013, 15, 1975–1980.
+
+However, the numbering up strategy presents new challenges, such as flow distribution monitoring, which is worth further investigation.
+
+We gratefully acknowledge the support of the National Natural Science Foundation of China (22022809, 21978146, 21991103) on this work.
+
+1 T. Punniyamurthy, S. Velusamy and J. Iqbal, Chem. Rev., 2005, 105, 2329–2364. 2 S. Caron, R. W. Dugger, S. G. Ruggeri, J. A. Ragan and D. H. B. Ripin, Chem. Rev., 2006, 106, 2943–2989. 3 A. Gavriilidis, A. Constantinou, K. Hellgardt, K. K. Hii, G. J. Hutchings, G. L. Brett, S. Kuhn and S. P. Marsden, React. Chem. Eng., 2016, 1, 595–612. 4 D. F. Taber, J. C. Amedio and K. Y. Jung, J. Org. Chem., 1987, 52, 5621–5622. 5 M. Zhao, J. Li, Z. Song, R. Desmond, D. M. Tschaen, E. J. J. Grabowski and P. J. Reider, Tetrahedron Lett., 1998, 39, 5323–5326. 6 C. A. Hone, D. M. Roberge and C. O. Kappe, ChemSusChem, 2017, 10, 32–41. 7 C. A. Hone and C. O. Kappe, Top. Curr. Chem., 2018, 377, 2. 8 C. Parmeggiani and F. Cardona, Green Chem., 2012, 14, 547–564. 9 C. Parmeggiani, C. Matassini and F. Cardona, Green Chem., 2017, 19, 2030–2050. 10 H. A. Beejapur, Q. Zhang, K. Hu, L. Zhu, J. Wang and Z. Ye, ACS Catal., 2019, 9, 2777–2830. 11 J. M. Hoover and S. S. Stahl, J. Am. Chem. Soc., 2011, 133, 16901–16910. 12 B. L. Ryland and S. S. Stahl, Angew. Chem., Int. Ed., 2014, 53, 8824–8838. 13 Z. Luo, Y. Liu, C. Wang, D. Fang, J. Zhou and H. Hu, Green Chem., 2019, 21, 4609–4613. 14 P. M. Osterberg, J. K. Niemeier, C. J. Welch, J. M. Hawkins, J. R. Martinelli, T. E. Johnson, T. W. Root and S. S. Stahl, Org. Process Res. Dev., 2015, 19, 1537–1543. 15 D. K. B. Mohamed, X. Yu, J. Li and J. Wu, Tetrahedron Lett., 2016, 57, 3965–3977. 16 F. M. Akwi and P. Watts, Chem. Commun., 2018, 54, 13894–13928. 17 K. S. Elvira, X. C. i Solvas, R. C. R. Wootton and A. J. deMello, Nat. Chem., 2013, 5, 905–915. 18 Y. Mo, J. Imbrogno, H. Zhang and K. F. Jensen, Green Chem., 2018, 20, 3867–3874. 19 L. Vanoye, M. Pablos, C. de Bellefon and A. Favre-Réguillon, Adv. Synth. Catal., 2015, 357, 739–746.

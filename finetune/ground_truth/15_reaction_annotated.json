@@ -1,0 +1,52 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "1-methyl-4-(methylsulfonyl)benzene",
+      "role": "reactant"
+    },
+    {
+      "name": "nitric acid",
+      "role": "reactant"
+    },
+    {
+      "name": "sulfuric acid",
+      "role": "catalyst"
+    }
+  ],
+  "products": [
+    {
+      "name": "1-methyl-4-(methylsulfonyl)-2-nitrobenzene",
+      "yield_optimal": 98.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "adiabatic"
+    },
+    {
+      "type": "residence_time",
+      "value": "5 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "395.3 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "tubular",
+    "inner_diameter": "3 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 98.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

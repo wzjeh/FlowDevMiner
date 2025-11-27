@@ -1,0 +1,379 @@
+Contents lists available at ScienceDirect
+
+Chemical Engineering and Processing - Process Intensification
+
+journal homepage: www.elsevier.com/locate/cep
+
+Process optimization and scale-up of toluene nitration in a microchannel reactor using HNO3-AC2O as nitrating agent
+
+Jianchao Wang a, Yong Pan a,*, Yanjun Wang a, Lei Ni a, S´ebastien Leveneur b
+
+a College of Safety Science and Engineering, Nanjing Tech University, Nanjing 211816, Jiangsu, PR China b INSA Rouen Normandie, University Rouen Normandie, Normandie Universit´e, LSPC, UR 4704, F-76000 Rouen, France
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords: Inherent safety Microchannel reactor Response surface methodology Calorimetry Scale-up
+
+Aromatic nitro compounds are an important class of basic chemical raw materials, while traditional nitration methods may cause safety accidents and environmental pollution due to strong exothermicity and presence of sulfuric acid. In this work, aiming to alleviate these issues, the nitration of toluene was conducted in a micro­ channel reactor with nitric acid and acetic anhydride. The effect of temperature, molar ratio of nitric acid to toluene, mass fraction of acetic anhydride, and residence time on the conversion and selectivity of reaction were systematically investigated, and response surface methodology was used to optimize the process. A mono­ nitrotoluene yield of 99.21 % can be achieved under optimum condition. Meanwhile, in order to better un­ derstand the exothermic behavior, toluene nitration by HNO3-AC2O was investigated in the semi-batch calorimeter. Finally, the optimized process was scaled up and effect of volumetric flow rate was investigated. At the selected maximum volumetric flow rate, the overtemperature of the system was 10.9 ◦C with a 98.3 % yield of mononitrotoluene. Continuous flow mode had a space-time yield nearly two orders of magnitude greater than semi-batch mode. This work can provide guidance for safe, efficient and green synthesis of mononitrotoluene.
+
+1. Introduction
+
+environmental pollution [6].
+
+Based on the importance of nitration and the limitations of tradi­ tional methods, exploring inherently safe reactors and environmentally friendly nitration systems is of great significance. In recent decades, microchannel reactors have been greatly developed and widely used in nitration, oxidation, hydrogenation and other reactions due to their significant advantages such as fast mass and heat transfer, precise pro­ cess control, and inherently safe [7-10]. The application of micro­ channel reactors to enhance process safety control and process intensification of highly exothermic reactions has become a hotspot technology for researchers [11]. Ducry et al. [12] studied the nitration of phenol and observed that the overtemperature during the reaction in the microreactor (5 ◦C) was much lower than that in the semi-batch reactor (55 ◦C). Russo et al. [13] compared the benzaldehyde nitration perfor­ mance in a batch reactor and a commercial microreactor. In comparison with batch reactor, the microreactor performed significantly better. Kyprianou et al. [14] successfully realized the safe and efficient syn­ thesis of 2,4,6-trinitrotoluene in a flow reactor, and optimized the pro­ cess through experimental design methods, with a conversion of up to 99 %. Song et al. [15] assembled a homogeneous nitration equipment based
+
+Nitration of aromatic compounds is a crucial type of chemical reac­ tion, and its nitration products, such as mononitrotoluene (MNT), are important intermediates in the synthesis of plastics, dyes, medicines and explosives [1,2].
+
+Most nitration of aromatic compounds is carried out in traditional tank reactors with mixed acid (HNO3–H2SO4). This approach faces two challenges: (i) Safety production hazards. In batch or semi-batch pro­ cesses, the tank reactor has poor mass and heat transfer performance owing to limitation in heat exchange area and mixing effect. Nitration is typically a strongly exothermic reaction with the reaction heat between −73 and −253 kJ⋅mol-1 [3,4]. During the reaction process, problems such as uneven concentration and temperature of reactants in localized region or cooling failure will occur in the traditional reactor, which may lead to side reactions or thermal runaway [5]. (ii) Environmental pollution issues. During the nitration of toluene into mononitrotoluene by mixed acid of HNO3 and H2SO4, the mass ratio of the latter to the former reaches 5:1 [1]. The large amount of waste acid and waste water produced will inevitably cause serious equipment corrosion and
+
+* Corresponding author.
+
+E-mail address: yongpan@njtech.edu.cn (Y. Pan).
+
+https://doi.org/10.1016/j.cep.2024.109934 Received 11 April 2024; Received in revised form 24 June 2024; Accepted 4 August 2024
+
+Available online 10 August 2024 0255-2701/© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+on the continuous microflow, studied the kinetics of homogeneous nitration of o-nitrotoluene and determined each kinetic parameter. Fu et al. [16], while considering process safety, carried out the scale-up of nitration reaction in a mesoscale continuous flow reactor, and the annual yield of MNT could reach 2572 kg.
+
+gradually disappear with the scale-up of the channel size. In order to balance the conflicting issues of process safety and production scale under sizing-up strategy, the exothermic behavior of the reaction was tested using a semi-batch method before the scale up.
+
+Furthermore, exploring suitable nitrating agents and catalysts to enhance the greenness and selectivity of nitration reactions has always been a research hotspot for researchers. For example, nitrogen oxides [17], nitric acid-acetic anhydride [18-20], etc. are used as nitrating agents, and solid acids [21], modified metal oxides [22], and ionic liq­ uids [23], etc. are used as catalysts. However, some of the nitrating agents have problems such as high toxicity and low utilization, and some catalysts limit their application due to deactivation, blockage of chan­ nels, and high cost. Kuba et al. [24] used acetyl nitrate (produced by nitric acid reaction with acetic anhydride) to nitrate toluene in a continuous flow. The effects of catalyst and temperature on the reaction were investigated. Toluene was nitrated at a lower temperature in a shorter time, but a rapid deactivation of the catalyst was caused by excess acetic anhydride adsorption on the zeolite. As the nitration pro­ ceeds, water is produced and leads to a decrease in the concentration of NO2 +. For the nitric acid-acetic anhydride nitration system, acetic an­ hydride can react with nitric acid to generate the active substance acetyl nitrate. It also can combine with the water generated during the nitra­ tion process to keep the concentration of NO2 + at a high level. Nitric acid-acetic anhydride as a nitrating agent not only reacts quickly and under mild conditions, but also avoids the use of large amounts of sul­ furic acid as a catalyst and dehydrating agent. Research has shown that when using nitric acid-sulfuric acid for production, each ton of nitration product will produce 1 ton of waste acid and 1 ton of alkaline waste­ water. Among them, the main component of waste acid is sulfuric acid [25]. Compared with the 5:1 mass ratio of H2SO4 to HNO3, the acetic anhydride-nitric acid system can be reduced to 2:1 or even lower, and acetic acid is weakly acidic, so the waste acid and wastewater produced will be greatly reduced. The corrosion hazards caused to the equipment will also be reduced accordingly. In summary, the safe, green and effi­ cient synthesis of aromatic nitro compounds can be achieved to a certain extent through the combination of microchannel reactor and green nitration system.
+
+2. Experimental section
+
+2.1. Reagents
+
+Toluene (AR≥99.5 %), fuming nitric acid (AR≥95 %) and acetoni­ trile (GC≥99.5 %) were obtained from Sinopharm Chemical Reagent Co., Ltd. Acetic anhydride (AR≥99.5 %) was purchased from Yonghua Chemical Co., Ltd.
+
+2.2. Experimental setup
+
+2.2.1. Toluene nitration in the microchannel reactor
+
+The experimental system is shown in Fig. 1. Toluene and nitrating agent (mixed acid of HNO3 and Ac2O) were pumped into a T-shaped micromixer by two high-precision syringe pumps (Longer LSP01-3A, China) for mixing. Before mixing, the two reactants were first pre­ heated to the reaction temperature in a PTFE (polytetrafluoroethylene) tube with a length of 2 m (ID, 0.80 mm; OD, 1.60 mm). The inner and outer diameter of reaction channel is the same as that of the preheating channel, and the material is 316 L. Ice water was used to quench the final reaction product at the outlet of the channel, and the organic phase was washed with 5 % NaHCO3 and deionized water until neutral. A gas chromatographic analysis was performed on the organic phase after drying with anhydrous calcium chloride and diluting with acetonitrile.
+
+2.2.2. Reaction calorimetry in semi-batch mode
+
+The microchannel reactor system will no longer be inherently safe when scaling up using the sizing-up strategy. Therefore, scaling up while considering process safety needs to reveal the exothermic behavior of the process [16]. The automatic reaction calorimeter EasyMax102 (Mettler-Toledo) is shown in Fig. 2. It was used to record various real-time parameters of the reaction and screen the thermal risks of the reaction [27]. The reaction was tested using isothermal and isoperibolic mode respectively. In the isothermal mode, the calorimeter keeps the temperature of reactants (Tr) constant by dynamically adjusting the temperature of cooling oil in the solid jacket (Tj). This mode is better equipped to carry out the reaction at the desired temperature. In the isoperibolic mode, the temperature of cooling oil remains constant, and the heat released by the reaction will cause the temperature of reactants to rise sharply. As the heat release rate decreases, the heat transfer ef­ ficiency is able to meet the system requirements and the temperature of the reaction solution begins to decrease until it reaches stabilization. This mode can better reflect the dangerous situation that the reaction can achieve, and is also more in line with the temperature control method of the microchannel reactor system.
+
+Compared with traditional nitration method, the continuous nitra­ tion process using microchannel reactors has series of advantages. However, the channel size of microchannel reactors is generally concentrated in the range of micron to submillimeter, which generates shortcomings such as small reaction flux and channel blockage. When blockage occurs, the pressure in the microchannel reactor will increase rapidly, which may lead to safety issues. These problems can be solved by scaling up the microchannel reactor to a certain extent. Researchers generally mention that microchannel reactors have two scaling strate­ gies, numbering-up and sizing-up [26]. When increasing the number of channels, that is, the numbering-up strategy, is used to expand pro­ duction capacity, the cost of equipment manufacturing and control is high. It greatly limits the potential application of this strategy in in­ dustry. If the channel size is expanded to the millimeter level while ensuring the fluid flow characteristics, micro-scale mixing performance and safety performance as much as possible, the size can be enlarged like the traditional tank reactor, thereby promoting the industrialization of the microreactor. Furthermore, the exothermic behavior of the process is necessary to be studied as a reference for production and scale-up.
+
+In the experimental operation process, the following steps were taken. Firstly, the prepared nitrating agent was added into a glass reactor. 300 rpm was used for stirring. The temperature of the reactants and cooling oil in solid jacket were set at 20 ◦C. When the temperature stabilized, a high-precision syringe pump was used to add toluene to the reactor within 40 min. Upon completion of dosing stage, the tempera­ ture was maintained for another 1 h to complete the reaction, and then the product was separated for characterization.
+
+In this study, two different microchannel reactors were assembled and toluene nitration was investigated in the microchannel reactor using HNO3-AC2O. The effects of temperature (T), molar ratio of nitric acid to toluene (molar ratio, MR), mass fraction of acetic anhydride in the mixed acid (ω), and residence time (τ) on the nitration were investi­ gated. And response surface methodology was used to optimize the process. Subsequently, the optimized process was scaled up through the sizing-up strategy and the effect of volumetric flow rate was studied. It is considered that the inherent safety of the microchannel reactor will
+
+2.2.3. Scale-up in the microchannel reactor
+
+Similar to the experimental setup shown in Fig. 1, this microchannel reactor system consisted of three parts: feed, reaction and temperature control. The feeding part was composed of a high-precision piston pump (Xingda, 2ZB-2L20A, China) and an advection pump (Xingda, 2PB 10005IV, China), which were responsible for transporting reaction liq­ uids to the reaction part. The reaction part consisted of a coiled channel
+
+Fig. 1. Schematic overview of the experimental setup.
+
+Fig. 2. Schematic diagram of calorimeter in semi-batch mode.
+
+made of 316 L (ID, 2 mm; OD, 3 mm; length of 2 m-12 m). The tem­ perature control part was a water bath (Yuhua DF-101 s, China). In addition, thermocouples were assembled at partial nodes of the channel
+
+and changes in temperature during the reaction were monitored by a multi-channel temperature recorder (MIK R6000C, China).
+
+Fig. 3. The reaction mechanism.
+
+2.3. Sample analysis
+
+lower temperature, and the low temperature could help to reduce the thermal risk of the reaction. As the demand for p-MNT on the market is much larger than o-MNT, the optimum process temperature was selected to be 40 ◦C for the subsequent experiments by comprehensive consideration of conversion and selectivity.
+
+Product analysis was performed using gas chromatography (GC 7890B, Agilent). The temperature of injector and detector were set at 290 ◦C and 250 ◦C; The temperature in the column chamber changed as follows: initially 60 ◦C held for 2 min, rose at 10 ◦C⋅min-1 to 120 ◦C and held for 2 min, finally rose at 30 ◦C⋅min-1 to 260 ◦C.
+
+3.1.2. Effect of molar ratio
+
+In order to complete the nitration, an excess of nitric acid is usually required. From Fig. 5, there was a significant increase in conversion with an increase in molar ratio, and the conversion finally leveled off when the molar ratio was greater than 1.5. The selectivity of mono­ nitrotoluene was essentially unchanged. It is worthy to notice that although an increase in the molar ratio can significantly increase the reaction performance, the amount of waste acid produced will also in­ crease significantly, leading to more serious environmental pollution. Aiming to minimize the use of nitric acid while keep high conversion, MR=1.2 was selected for the subsequent experiments and interval 1.2–1.8 was used for further optimization by RSM.
+
+The equations involved in the nitration reaction in this work and the abbreviations of the products and by-products are shown in Fig. 3. The calculation equations for the conversion (C), selectivity (S) and yield (Y) were as follows:
+
+C = 1 −ωtol⋅mor
+
+(1)
+
+mtol,0
+
+S = ωMNT⋅mor/MMNT
+
+(2)
+
+/ Mtol
+
+C⋅mtol,0
+
+Y = ωMNT⋅mor/MMNT
+
+(3)
+
+/ Mtol
+
+mtol,0
+
+3.1.3. Effect of mass fraction of acetic anhydride
+
+Among them, ωtol and ωMNT represent the mass fraction of toluene and mononitrotoluene in the organic phase, mor represents the total mass of the organic phase, mtol,0 represents the feed mass of toluene, MMNT and Mtol represent the molar mass of mononitrotoluene and toluene.
+
+Fig. 6 illustrates the effect of mass fraction. Without adding acetic anhydride, the conversion was only about 40 %. As the mass fraction of acetic anhydride increased, the conversion of toluene increased signif­ icantly. However, the conversion began to decrease when mass fraction was greater than 70 %. It can be ascribed to the excess addition of acetic anhydride reduces the concentration of the electrophilic reagent NO2 +
+
+3. Results and discussion
+
+and also reduces the chance of its contact with toluene [31,32]. In addition, as the mass fraction of acetic anhydride increased, the selec­ tivity of orthoand para-isomers showed an upward and downward trend respectively. This may be due to the polarity of acetic anhydride, because Shi et al. [33] investigated the toluene nitration in different solvents, where the weakest polar solvent provided the highest p-nitrotoluene selectivity. Excessive addition of acetic anhydride will lead to a decrease in the nitration performance of the nitrating agent, that is, a decrease in the conversion of toluene and the selectivity of p-nitrotoluene. At the same time, excessive acetic anhydride will obvi­ ously significantly exacerbate the complexity of sample post-processing and increase the amount of waste acid. The optimum mass fraction was probably between 60 % and 80 %. Therefore, ω = 70 % was selected for the subsequent process optimization.
+
+3.1. Toluene nitration in the microchannel reactor
+
+3.1.1. Effect of temperature
+
+Firstly, the effect of temperature on the toluene nitration was stud­ ied. As shown in Fig. 4, when the temperature was below 40 ◦C, the conversion of toluene was basically maintained at about 96 %. It was observed that there was a decline in the conversion when the temper­ ature exceeded 40 ◦C. It can be ascribed to the acetyl nitrate generated decomposes at higher temperatures [28]. The concentration of nitration active substances decreases, which in turn leads to changes in the con­ version. The selectivity of m-MNT in the product was kept stable. Nevertheless, the selectivity of o-MNT and p-MNT showed a downward and upward trend respectively due to the activation energies [29]. Re­ actions with higher activation energies are more sensitive to tempera­ ture and parallel reactions that produce orthoand para-isomers have higher activation energies, so the change in selectivity of the two isomer becomes more obvious as the temperature increases [30]. The experi­ ment results showed that this nitration method can nitrate toluene at a
+
+3.1.4. Effect of residence time
+
+As shown in Fig. 7, the residence time was screened with an interval of 30 s from 60 s to 180 s. As the residence time increased, the
+
+Fig. 5. Effect of the molar ratio of nitric acid to toluene (conditions: T = 40 ◦C, ω=70 %, τ=90 s).
+
+Fig. 4. Effect of the temperature (conditions: MR=1.5, ω=70 %, τ=90 s).
+
+Table 1 Experimental variable, symbol and level of CCD.
+
+Factors Symbol Level
+
+−1
+
+Temperature (◦C) T Molar ratio of nitric acid to toluene MR 1.2 1.5 1.8 Mass fraction of acetic anhydride (%) ω Residence time (s) τ
+
+Table 2 Experimental design and results.
+
+Std. T (◦C) MR ω (%) τ (s) C-actual (%) C-predicted (%)
+
+1.2 83.59 85.40 1.2 84.2 84.69 1.8 95.87 92.20 1.8 95.82 98.93 1.2 66.62 65.68 1.2 49.8 52.64 1.8 84.87 85.42 1.8 81.14 79.81 1.2 88.97 89.21 1.2 83.06 83.49 1.8 95.72 93.87 1.8 95.73 95.58 1.2 78.24 76.12 1.2 55.49 58.07 1.8 95.29 93.71 1.8 83.93 83.10 1.5 94.51 98.23 1.5 90.53 86.91 0.9 69.14 66.42 2.1 95.44 98.26 1.5 79.03 78.77 1.5 46.21 46.57 1.5 89.84 88.35 1.5 93.86 95.45 1.5 94.51 93.96 1.5 89.15 93.96 1.5 96.46 93.96 1.5 92.81 93.96 1.5 95.3 93.96 1.5 95.54 93.96
+
+Fig. 6. Effect of the mass fraction of acetic anhydride (conditions: T = 40 ◦C, MR=1.2, τ=90 s).
+
+C = 93.962 −2.832T + 7.958MR −8.051ω + 1.773τ + 1.859TMR
+
+Fig. 7. Effect of the residence time (conditions: T = 40 ◦C, MR=1.2, ω=70 %).
+
+−3.083Tω −1.251Tτ + 3.235MRω −0.536MRτ + 1.658ωτ
+
+conversion gradually increased and then leveled off after τ=90 s, while the selectivity of the three isomers had almost no change. This is because the reactions that generate ortho-, metaand para-isomers are parallel reactions, and the relative reaction rates will not be affected by extending residence time [30]. An increase in residence time means a decrease in total volumetric flow rate, leading to lower production ef­ ficiency. Therefore, considering the changing trend of the curve and production efficiency, the optimum residence time may be between 60 s and 120 s.
+
+−0.348T2 −2.905MR2 −7.823ω2 −0.515τ2 (4)
+
+The variance and significance analysis are shown in Table 3. The degree of model fitting can be determined by analysis of variance. It is generally accepted that highly significant terms in the model have a p value of <0.0001, and p-value less than or greater than 0.05 corresponds to significant or not significant [35]. As shown in Table 3, this proposed model has a F-value of 43.45 and a p-value <0.0001, indicating it is highly significant. Lack of fit has a p-value larger than 0.05, which in­ dicates that reliability of the model is relatively high.
+
+Another parameter that should be considered in evaluating the model's fit is its correlation coefficient (R2). The larger the R2-value is, the better the model fit [36]. In general, the value of R2 for a good-fitting model is usually no <0.9. The statistical results of the model are listed in Table 4. The model's R2 is 0.9759, not much different from the R2adj. This indicates that the actual values of conversion correlate well with the regression model's predictions. Fig. 8 demonstrates the relationship between predicted and actual conversion, which also shows a good fitting [37]. An illustration of the normal probability of studentized residuals is shown in Fig. 9. The experimental values are basically distributed near a straight line, which indicates that the obtained re­ siduals follow a normal distribution and the model is reasonable [36].
+
+3.1.5. Process optimization
+
+The response surface methodology (RSM) uses polynomial fitting to obtain the relationship between factors and responses in multi-factor experiments [14,31,34]. Based on the previous experiment, a four-factor three-level design was conducted using RSM based on central composite design (CCD). The selected factors and levels are summarized in Table 1. As shown in Table 2, the design of experiment and the cor­ responding results are presented.
+
+Based on the Design-Expert software, the model of toluene conver­ sion can be presented as Eq. (4):
+
+An increase in the molar ratio is beneficial for the generation of NO2 +,
+
+Table 3 ANOVA and significance analysis of the model.
+
+Source Sum of Squares
+
+Df Mean Squares
+
+F value
+
+p-value DS
+
+Model 5602.67 400.19 43.45 <0.0001 Highly significant T 192.44 192.44 20.89 0.0004 Significant MR 1520.04 1520.04 165.02 <0.0001 Highly significant ω 1555.58 1555.58 168.88 <0.0001 Highly significant τ 75.47 75.47 8.19 0.0119 Significant TMR 55.28 55.28 6.00 0.0271 Significant Tω 152.03 152.03 16.50 0.0010 Significant Tτ 25.05 25.05 2.72 0.1199 Not significant MRω 167.44 167.44 18.18 0.0007 Significant MRτ 4.60 4.60 0.50 0.4906 Not significant ωτ 43.96 43.96 4.77 0.0452 significant T2 3.32 3.32 0.36 0.5575 Not significant MR2 231.50 231.50 25.13 0.0002 Significant ω2 1678.49 1678.49 182.22 <0.0001 Highly significant τ2 7.28 7.28 0.79 0.3880 Not significant Residual 138.17 9.21 Lack of Fit
+
+102.86 10.29 1.46 0.3553 Not significant Pure Error
+
+Fig. 9. Normal probability of the studentized residuals.
+
+35.30 7.06
+
+generated during the nitration process to keep NO2 + at a high level [38, 39]. As reported, the procedure of NO2 + attacking the benzene ring is the rate-determining step in the nitration of aromatic compounds [40]. This may be the reason why molar ratio and mass fraction of acetic anhydride are highly significant in the analysis of significance.
+
+Cor Total
+
+5740.84
+
+Table 4 Summary of model statistical results.
+
+From the diagram of response surface, it is intuitively apparent how different factors affect the response value. The response surface of the model is shown in Fig. 10. Based on this figure, the effect of temperature, molar ratio, mass fraction, and residence time are discussed. In the analysis of any two factors, the remaining factors are held at zero level.
+
+Parameter Value Parameter Value
+
+Std. Dev 3.03 R2 0.9759 Mean 84.69 Adj R2 0.9535 C.V.% 3.58 Pred R2 0.8879 Adeq Precision 24.3968
+
+As shown in Fig. 10(b), as the mass fraction of acetic anhydride increased, the conversion increased at first and then decreased. This is because that an appropriate amount of acetic anhydride helps to in­ crease the concentration of NO2 +, while an excess of acetic anhydride reduces the chance of contact between toluene and NO2 +. Fig. 10(f) also showed the same trend. When the mass fraction of acetic anhydride increases from 60 % to 80 %, the total mass of the nitrating agent required for the reaction increases by more than two times, which will result in the generation of a large amount of waste. Therefore, deter­ mining the appropriate mass fraction of acetic anhydride can not only significantly improve the conversion, but also reduce the generation of waste acid and wastewater.
+
+For the nitration reaction, a suitable molar ratio can improve the conversion and save the production cost [41]. From Figs. 10(a), (d), and (e), a significant increase in conversion was observed with an increase in molar ratio. The steepness of the surface can also reflect the effect of different factors on the conversion [35]. As shown in Figs. 10(a) and (e), the slopes of molar ratios are significantly larger than the slopes of temperature and residence time, which also suggests that the effect of the molar ratio is more significant than that of the temperature and residence time. These findings can also be confirmed by significance analysis.
+
+The reaction conditions for toluene nitration in a microchannel reactor were numerically optimized using a desirability method. As shown in Eq. (5), the objective function D(X) is defined as the geometric mean of each response.
+
+Fig. 8. The parity plot between predicted and actual conversion.
+
+thus accelerating the reaction. After acetic anhydride is added, it will react with nitric acid to generate acetyl nitrate which has a strong nitration capacity. Acetic anhydride can also remove the water
+
+Fig. 10. Response surface diagrams for the conversion.
+
+Taking into account the optimum condition predicted by the Design Expert software and minimizing the amount of nitric acid and acetic anhydride used, experiments (conditions: T = 30 ◦C, MR=1.5, ω=65 %, τ=120 s) were conducted to validate the process, and the conversion of toluene could reach 99.21 %. Under the condition, the mass ratio of AC2O to HNO3 can be reduced to <2. Compared with the traditional nitration system, the nitric acid-acetic anhydride system can substan­ tially reduce the generation of waste acid and wastewater while ensuring excellent conversion.
+
+)1 n
+
+( ∏ n
+
+n =
+
+D(X) = (d1⋅d2⋅⋯⋅dn⋅)
+
+di
+
+(5)
+
+i=1
+
+Where di and n represent the desirability of the ith response and the number of responses. In the Design-Expert software, all factors were set to "in range" and the response was set to "maximize".
+
+As shown in Fig. 11, the optimum conditions for toluene nitration were as follows: T = 31.61 ◦C, MR=1.51, ω=66.72 %, τ=116.83 s.
+
+Fig. 11. Desirability ramp for numerical optimization.
+
+3.2. Reaction calorimetry in semi-batch mode
+
+system, resulting in the formation of exothermic peaks. In this stage, thermal runaway will occur when the reactor cannot provide sufficient cooling capacity and the risk can be reduced by applying measures such as inherently safe microchannel reactor [42]. By Eq. (6), the reaction enthalpy was calculated in this study for isoperibolic mode and isothermal mode. The average enthalpy of reaction in both modes was −173.63 kJ⋅mol−1. After comparing with experiments in nitric acid-sulfuric acid system under the same conditions (isothermal mode), this work revealed a higher enthalpy of reaction in the nitric acid-acetic anhydride system. This may be due to the extra heat release of hydro­ lysis of acetic anhydride with water in the system. Yao et al. [2,31] studied the exothermic behavior of m-xylene in the above two systems and found that the enthalpy of reaction was indeed higher in the nitric acid-acetic anhydride system. They also used Stoessel criticality diagram to quantify the hazards during the process and concluded that the grade of nitric acid-acetic anhydride system is lower than the nitric acid-sulfuric acid system. Therefore, they mentioned that the combi­ nation of nitric acid and acetic anhydride was a relatively safer and efficient nitration method. In addition, the adiabatic temperature rise (ΔTad) and maximum temperature of the synthesis reaction (MTSR) in isothermal mode were calculated by Eqs. (7)-(9). The values of these two thermal risk parameters were 221.94 K and 303.71 K, respectively.
+
+The scale-up of the channel will lead to an increase in the internal overtemperature [16], while the nitric acid-acetic anhydride system shows excellent nitration performance at low temperature. Therefore, 20 ◦C was chosen as the reaction temperature for semi-batch mode and scale-up of the optimized process.
+
+The curves of key parameters in both modes are shown in Fig. 12. In the isoperibolic mode, the system temperature and heat release rate increased sharply after the dosing of toluene. The system temperature reached 34 ◦C in 500 s and stayed above 34 ◦C for the next 1400s (peaked at 35 ◦C at 1300s). The heat release rate was maintained above 11 w for nearly 2000s (peaked at 13 w at 1060s). In the subsequent dosing of toluene, the system temperature fluctuated between 33 and 35 ◦C and the heat release rate fluctuated in the range of 10–13 w. In the later stages of dosing, both parameters started to slowly decrease due to the consumption of NO2 + and the generation of water. In the isothermal mode, the temperature and heat release rate of the system rose slowly, with peaks of 23 ◦C and 12 w for the two parameters, respectively. This is mainly due to the fact that the jacket provides sufficient cooling to the reaction system, thus slowing down the reaction. From the trend of the heat release rate curves, it could be noticed that there was a more rapid decrease after completion of the toluene dosing.
+
+∫tend
+
+t0 qrdt
+
+ΔHm = ΔH ntol
+
+The heat release rate rose sharply and peaked with the dosing of toluene in both isothermal and isoperibolic modes, which is consistent with the fact that the nitration reaction is fast and strongly exothermic. A jagged curve could be seen in the figure during the dosing stage because toluene reacted and released heat rapidly when added to the
+
+(6)
+
+=
+
+ntol
+
+∫tend
+
+t0 qrdt
+
+ΔTad =
+
+(7)
+
+mr⋅Cp
+
+Fig. 12. Curves of Tr, Tj, qr and dosing mass of toluene in different modes (a-isoperibolic mode; b-isothermal mode, conditions: MR= 1.5, ω= 65 %).
+
+mr − ∫t t0 qrdt
+
+ΔH⋅mr,t
+
+Tcf = Tp +
+
+(8)
+
+mr⋅Cp
+
+MTSR = max ( Tcf
+
+) (9)
+
+Where, t0 and tend is the initial and end time of the nitration, qr is the heat release rate, ntol is the amount of substance of toluene added, mr and Cp represent the mass and heat capacity of reactant mixture. Tcf is the temperature at time t after cooling failure, Tp is the process temperature and mr,t represent the mass of dosing.
+
+The color of the reactants remained yellow throughout the reaction and deepened slightly as the reaction completed. Due to the high solu­ bility of acetic anhydride and acetic acid in organic substances, the product mixture was not stratified. The analysis of conversion and selectivity are shown in Table 5. In both isothermal and isoperibolic modes, the conversion was essentially the same, but the selectivity of mononitrotoluene compounds in isoperibolic mode is lower than 100 %. This may be due to the nitration of mononitrotoluene at high over­ temperature of the reaction system in the isoperibolic mode as a certain amount of 2,6-DNT and 2,4-DNT was produced. NO2 + is an electron withdrawing group, and upon its attack on the benzene ring of toluene it leads to a decrease in the electron cloud density of the benzene ring, which in turn passivates the benzene ring [30]. Thus, dinitration requires higher temperature than mononitration, which is provided by the higher overtemperature in the isoperibolic mode. In addition, the poor mass transfer performance of tank reactor may also contribute to this result.
+
+Fig. 13. Effect of volumetric flow rates on the temperature.
+
+3.3. Scale-up in the microchannel reactor
+
+When the sizing-up strategy is used, a larger channel diameter will result in a poor mass transfer performance. Accordingly, the volumetric flow rate will have a larger impact [43,44]. In order to investigate its effect on the nitration reaction, therefore experiments were conducted using different volumetric flow rates (3–18 mL⋅min-1). The reaction channel length was controlled to keep residence time constant.
+
+Based on the temperature data measured by the thermocouples, it showed that the maximum temperature in reaction channel occurred at the T-shaped micromixer. The temperature of the reactants gradually decreased with the flow and heat transfer, and eventually basically reached stability. Fig. 13 illustrates the maximum temperature at the micromixer at different volumetric flow rates. There was a positive correlation between the temperature and the volumetric flow rate. The maximum temperature reached 30.9 ◦C at a volumetric flow rate of 18 mL⋅min-1. Compared to the semi-batch mode, the continuous flow mode exhibits lower overtemperature even at larger dosing rate. At the selected volumetric flow rate, the lower overtemperature is not suffi­ cient to achieve the temperature requirement for dinitration. Therefore, dinitration did not occur in the reactor. Although the overtemperature measured in this work is relatively low, it is still possible to reduce the overtemperature during the reaction process by adopting methods such as multi-stage temperature control and changing the reactor structure, thereby reducing possible safety issues.
+
+Fig. 14. Effect of volumetric flow rates on conversion and selectivity.
+
+favorable to improve the mixing of the two phases at the T-shaped micromixer. A smaller droplet size facilitates an increase in the inter­ facial area between the two phases [30], which in turn improves the mass transfer performance and conversion. The method used in this work to enhance mass transfer is to increase the volumetric flow rate. In addition, the mass transfer performance can be enhanced by using S-shaped channel, static mixer, ultrasonic, microwave, etc.
+
+The calculation equations for the space-time yield and annual pro­ duction under the continuous flow mode are shown in Eqs. (10) and (11).
+
+Fig. 14 shows the results of the product analysis. As can be seen, the conversion increased with an increase in volumetric flow rate, rising from 89.8 % to 98.3 %. In general, a large volumetric flow rate is
+
+space −time yield = Qv⋅ρ⋅Y⋅MMNT
+
+(10)
+
+60⋅VR⋅Mtol
+
+annual production = 3600⋅Tw⋅Qv⋅ρ⋅Y⋅MMNT
+
+(11)
+
+Table 5 Product analysis of the semi-batch mode.
+
+60⋅VR⋅Mtol
+
+where Qv is the volumetric flow rate of toluene, ρ is the density of toluene, Y is the yield of MNT, VR is the total inventory in the reactor, MMNT and Mtol are the molar mass of mononitrotoluene and toluene. Tw is the number of hours of reactor operation per year, h/a.
+
+Mode Conversion (%)
+
+Selectivity (%)
+
+o MNT
+
+m MNT
+
+p MNT
+
+2,6 DNT
+
+2,4 DNT
+
+isothermal 98.66 58.78 4.53 36.69 – – isoperibolic 98.87 56.97 4.75 37.38 0.27 0.63
+
+The parameters of several different reactors are illustrated in Table 6.
+
+administration. Yanjun Wang: Writing – review & editing, Methodol­ ogy. Lei Ni: Writing – review & editing, Methodology. S´ebastien Lev­ eneur: Writing – review & editing.
+
+Table 6 Comparison between the three reactors.
+
+microchannel reactor 1 a
+
+semi-batch reactor b
+
+microchannel reactor 2 c
+
+Total inventory in the reactor (mL)
+
+Declaration of competing interest
+
+Reaction time (s) Yield (%) 99.21 97.98 98.32 Space-time yield (g⋅L−1⋅s−1)
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+3.877 0.038 2.884
+
+Annual production (kg⋅a−1) d
+
+125.6 63.2 1121.3
+
+Data availability
+
+a Data from optimized process. b Isoperibolic mode. c Volumetric flow rate= 18 mL⋅min−1. d A working year of 3000 h.
+
+Data will be made available on request.
+
+Acknowledgements
+
+According to the data, compared to the semi-batch reactor, the space time yield of microchannel reactor has improved by almost two orders of magnitude. The annual production also increased significantly as the microchannel reactor was scaled up. Compared to the space-time yield of 1.36 g⋅L−1⋅s−1 obtained by Fu et al. in a mesoscale flow reactor with a quarter-inch internal diameter [16], the space-time yield in this work is nearly two to three times as high. Also, the space-time yield obtained in this work are substantially improved compared to the study of Chen and Xu et al. [43,45]. However, compared to the above literature, there is still room for improvement in the annual production obtained in this work, so that subsequent process scale-up on a larger scale can be carried out while ensuring process safety.
+
+The authors are grateful for the support of National Natural Science Foundation of China (No. 52274211), National Foreign Experts Project (No. G2023014044L) and Natural Science Foundation of the Jiangsu Higher Education Institutions of China (22KJB620001).

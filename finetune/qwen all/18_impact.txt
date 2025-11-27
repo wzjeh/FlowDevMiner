@@ -1,0 +1,14 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of salicylic acid | decrease |
+| temperature | byproduct formation | increase |
+| residence_time | conversion of salicylic acid | increase |
+| catalyst_loading | not mentioned | unchanged |
+| flow_rate | residence_time | decrease |
+| reactant_concentration | precipitation of 5-nitrosalicylic acid | increase |
+| residence_time | yield of 5-nitrosalicylic acid | increase |
+| temperature | selectivity of 5-nitrosalicylic acid | decrease |
+| reactant_concentration | conversion of salicylic acid | decrease |
+| acetic_acid_concentration | precipitation of 5-nitrosalicylic acid | decrease |

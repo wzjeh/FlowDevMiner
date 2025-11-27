@@ -1,0 +1,21 @@
+Summary: The paragraph discusses a flow-chemistry process development for hydrogen peroxide production using a Pd catalyst in a 2-mm ID capillary microreactor. The liquid feed rate is varied from 0.2 to 1.0 mL/h, resulting in increased productivity (from 0.24 to 0.46 mol/h gPd) but decreased hydrogen peroxide concentration due to dilution by a larger volume of liquid. The reaction type is not mentioned, and the key reactants are also unknown.
+
+Summary: The paragraph discusses the development of flow-chemistry processes using microreactors with diameters between 100 and 500 micrometers. These reactors are used for a wide range of reaction types involving various key reactants, solvents, and catalysts. The products formed depend on the specific reaction type being studied. Microreactor details such as type and ID are also important factors to consider when developing flow-chemistry processes. Critical conditions like flow rates, residence times, temperatures, and pressures must be carefully controlled to achieve optimal conversion, yield, and selectivity outcomes.
+
+3.4. Flow rate of the liquid phase
+
+Summary: The paragraph discusses flow-chemistry process development for a microreactor system. The reaction type is not mentioned explicitly, but it involves liquid plugs passing through the microreactor. Key reactants and solvent are also not specified. However, the presence of gas plugs suggests that there might be a catalyst involved in the reaction. The products formed are not mentioned.
+The reactor details indicate that the microreactor is used for this process development. No specific type or ID of the microreactor is provided. 
+Critical conditions such as flow rate(s), residence time, temperature, and pressure are also not explicitly stated in the paragraph. It only mentions that due to the slow pumping speed used in the experiment, only one liquid plug was observed at a time, and subsequent plugs appeared after the first liquid plug passed through the microreactor.
+The outcome of the process development is not mentioned in the given context.
+
+The long-term behavior of the microreactor for the continuous production of hydrogen peroxide was investigated (Fig. 4). A
+
+Table 4 Effect of liquid pumping speed in a 2-mm ID capillary reactor.
+
+3.7. Lifetime of the catalyst in the microreactor
+
+A wall-coated catalytic capillary microreactor for the direct formation of hydrogen peroxide
+
+In this equation a, b, and c are constants, and LUC is the length of one ‘‘unit cell", i.e., of one gas bubble and the liquid plug separating it from the next gas bubble, eg is the volume fraction of the gas bubbles, and u is the flow velocity of the unit cell. Inspection of this equation shows that an increase of the flow velocity u or a decrease of the unit cell length LUC will have the stronges
+

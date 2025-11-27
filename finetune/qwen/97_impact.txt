@@ -1,0 +1,11 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | yield of 4-NBDT | decrease |
+| temperature | yield of 4-NBDT | decrease |
+| molar ratio of HBF4 to PNA | yield of 4-NBDT | increase |
+| molar ratio of NaNO2 to PNA | yield of 4-NBDT | increase |
+| catalyst_loading (molar percentage of Pd(OAc)2 to 4-NBDT) | yield of 4-NBP | increase |
+| residence_time | yield of 4-NBP | increase |
+| temperature | yield of 4-NBP | increase |

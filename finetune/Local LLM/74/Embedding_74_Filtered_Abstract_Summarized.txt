@@ -1,0 +1,79 @@
+{ "reaction_summary": {  "reaction_type":"...",  "reactants":[{"name":"...","role":"..."}, {"name":"...","role":"..." }],  "products":[{"name":"...","yield_optimal":95,"unit":"%"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mm"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+from typing import List
+
+
+    # Parse reaction type (if present)
+    match = re.search(r"microreactor process based on a microstructured mixer/ tubular-reactor setup", input_str, flags=re.IGNORECASE)
+    if match:
+        reaction_type = "tubular"
+    else:
+        reaction_type = None
+
+    # Parse reactants
+    reactant_names = []
+    for word in re.findall(r"\b\w+\b", input_str):
+        if word.lower() not in ["microreactor", "process", "based", "on", "a", "microstructured", "mixer/", "tubular-reactor", "setup"]:
+            reactant_names.append(word)
+
+    # Parse products
+    product_name = re.search(r"yields\s*([0-9.]+)%", input_str)
+    if product_name:
+        yield_optimal = float(product_name.group(1))
+    else:
+        yield_optimal = None
+
+    # Parse conditions (temperature, residence_time, flow_rate, inner_diameter)
+    temperature_match = re.search(r
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.5 mm"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"name": word.capitalize(), "role": 'reactant' if re.search('A', word) else ('catalyst' if re.search('B', word) else 'solvent')}
+
+{letter}
+
+{ "reaction_summary": {  "reactants":[{"name":"...","role":"..."}, {"name":"...", "role":"solvent"}],  "products":[    {"name":"...", "yield_optimal":95, "unit":"%"},    {"name":"...", "yield_optimal":null, "unit":"%"}
+
+- Temperature is in °C; residence_time is in min; flow_rate is in mL/min; inner_diameter is in mm.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r"(\w+)-", text, flags=re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    # Parse reactants and products
+    matches = re.findall(r"([A-Za-z0-9\s]+)", text)
+    for i in range(len(matches)):
+        name = matches[i]
+        
+        # Determine role (reactant, catalyst or solvent) based on position
+        if i == 0:
+            role = "catalyst"
+        elif i < len(matches)-1 and re.search(r"amine|unsaturated", text):
+            role = "solvent"
+        else:
+            role = "reactant"
+
+        # Add to reactants or products list
+        if name in ["R,â-unsaturated compound 2"]:
+            product_name = name
+        elif i == len(matches)-1 and re.search(r"amine", text):
+            continue
+        else:
+            product_name = None
+        
+        yield_optimal = None
+
+{"name":product_name, "yield_optimal":value,"unit":"%"}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+

@@ -1,0 +1,11 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| liquid_flow_rate | conversion of nitrobenzene | decrease |
+| liquid_flow_rate | concentration of aniline | decrease |
+| gas_flow_rate | pressure of gas phase | increase |
+| gas_flow_rate | conversion of nitrobenzene | increase |
+| gas_flow_rate | concentration of aniline | increase |
+| inlet_nitrobenzene_concentration | reaction_rate | increase |
+| inward_nitrobenzene_concentration | catalyst_poisoning | increase |

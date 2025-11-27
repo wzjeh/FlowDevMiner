@@ -1,0 +1,56 @@
+{
+  "reaction_type": "Michael addition",
+  "reactants": [
+    {
+      "name": "catechol",
+      "role": "reactant"
+    },
+    {
+      "name": "4-isopropylbenzenethiol",
+      "role": "reactant"
+    },
+    {
+      "name": "graphite",
+      "role": "catalyst"
+    },
+    {
+      "name": "acetonitrile",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "4-(4-Isopropyl-phenylsulfanyl)-benzene-1,2-diol",
+      "yield_optimal": 88.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "room temperature"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.1 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microflow reactor",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 88.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

@@ -1,0 +1,17 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion | increase |
+| reaction_temperature | conversion | increase |
+| reaction_temperature | selectivity | decrease |
+| reaction_temperature | selectivity | increase |
+| sulfuric_acid_strength | conversion | increase |
+| sulfuric_acid_strength | selectivity | unchanged |
+| molar_ratio_HNO3_TFMB | conversion | increase |
+| molar_ratio_HNO3_TFMB | selectivity | unchanged |
+| flow_rate | conversion | decrease |
+| flow_rate | selectivity | unchanged |
+| flow_rate | selectivity | decrease |
+| reactor_structure | conversion | increase |
+| reactor_structure | selectivity | - |

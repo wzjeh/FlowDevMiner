@@ -1,0 +1,19 @@
+In ‘‘Effect of flow rates on conversion'' to ‘‘Effect of reaction temperature on conversion'' sections, the effect of flow rates, the addition of N2, H2 partial pressure, EAQ con- centration and reaction temperature on EAQ conversion as well as the overall volume mass transfer coefficient are pre- sented. The results show that KLa in this microdispersion process ranges in
+
+EAQ and thus the reduction of reactor volume. Thus, the enhancement of mass transfer will possibly lead to a reaction process with higher safety, lower cost and higher environ- mental friendship, which is an expected direction. Since the 21st century, microreactors have caught the attention of many researchers for its intensification of mixing and mass transfer rates9,10 and have been used to real
+
+Results and Discussion Effect of flow rates on conversion
+
+The experimental set-up is shown in Figure 2. The mem- brane dispersion module was fabricated by stainless steel. A stainless steel microfiltration membrane (Figure 3) with 5 lm average pore size and 0.3 mm thickness was used as the dispersion medium. The active membrane area was 10 mm2. The size of the flow channel was 15 mm  2 mm  3 mm. The size of the gas buffer reservoir was 10 mm  5 mm  1
+
+In this article, a gas-liquid microdispersion device with a 5 lm pore size microfiltration membrane as the dispersion me- dium has been developed to generate gas-liquid microdisper- sion systems for process intensification of catalytic hydrogena- tion of ethylanthraquinone. Using the device microbubbles in the size of 10–100 lm were successfully generated with ethyl- anthraquinone solution as the 
+
+Summary
+ The paragraph discusses a flow-chemistry process development for the conversion of ethyl acetate quinone (EAQ) to its corresponding anhydride using hydrogen gas as the reducing agent. The reaction is carried out in a microreactor under continuous flow conditions with varying molar ratios of H2 to EAQ and different liquid flow rates. The study focuses on optimizing the conversion of EAQ while maintaining a constant phase ratio. The results show that increasing the H2 volume flow rate leads to higher conversions, while the effect of liquid flow rate on overall mass transfer coefficient is also investigated.
+
+In this article, to miniaturize the hydrogenation reactor and make the H2O2 produc- tion with more safety a gas-liquid microdispersion system was generated to intensify the process of catalytic hydrogenation of ethylanthraquinone by passing the gas-liquid microdispersion system through a generally packed bed reactor. A microdispersion de- vice with a 5 lm pore size microfiltration membrane as the 
+
+lution of 0.1C) were used to maintain all the temperature of feed pipes, membrane dispersion module, packed bed reactor and phase separator to the required temperature. A back pressure valve [(0 to 1.0) MPa range] was used to control the outlet pressure of the phase separator to the required pressure. A pressure sensor (0–0.5 MPa, with the accuracy of 0.5%) was installed before the back pressur
+
+27. Tan J, Du L, Xu JH, Wang K, Luo GS. Surfactant free microdisper- sion process of gas in organic solvents in microfluidic devices. AIChE J. In press. 28. Solvay SA. Making hydrogen peroxide by the anthraquinone pro- cess. Patent: GB 2334028A, 1998. 29. AlDahhan MH, Larachi F, Dudukovic MP, Laurent A. High-pressure trickle-bed reactors: a review. Ind Eng Chem Res. 1997;36:3292– 3314. 30. Ranz WE
+

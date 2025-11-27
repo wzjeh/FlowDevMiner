@@ -1,0 +1,52 @@
+{
+  "reaction_type": "dinitration",
+  "reactants": [
+    {
+      "name": "N-(1-ethylpropyl)-3,4-xylidine",
+      "role": "reactant"
+    },
+    {
+      "name": "nitric acid",
+      "role": "reactant/catalyst"
+    },
+    {
+      "name": "1,2-dichloroethane",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "pendimethalin",
+      "yield_optimal": 97.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "60 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "6.0 + 7.8 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microreactor",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": 97.0,
+    "selectivity": 97.0,
+    "unit": "%"
+  }
+}

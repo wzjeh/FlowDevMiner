@@ -1,0 +1,11 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of substrate | decrease |
+| residence_time | product selectivity | decrease |
+| liquid_flow_rate | residence_time | decrease |
+| gas_flow_rate | product selectivity | increase |
+| reactant_concentration | conversion | decrease |
+| reactant_concentration | selectivity | decrease |
+| reactant_concentration | STY | increase |

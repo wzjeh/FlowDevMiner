@@ -1,0 +1,15 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| WHSV | Selectivity of Methanol | increase |
+| WHSV | Conversion of CO2 | decrease |
+| Adhesion test | Weight loss | decrease |
+| Specific surface area and Cu dispersion | CH3OH selectivity and yield | increase |
+| Residence time | conversion of TFMB | increase |
+| Residence time | product selectivity | unchanged |
+| WHSV | Selectivity of Methanol | increase |
+| WHSV | Conversion of CO2 | decrease |
+| Adhesion test | Weight loss | decrease |
+| Specific surface area and Cu dispersion | CH3OH selectivity and yield | increase |
+| Residence time | conversion of TF | - |

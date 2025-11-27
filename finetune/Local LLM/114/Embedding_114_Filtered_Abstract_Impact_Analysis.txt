@@ -1,0 +1,7 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| 1. Liquid_flow_rate | NB_conversion | decrease |
+| 2. Flow_rate | Aniline_production_rate | increase |
+| 3. Residence_time | Conversion | decrease |

@@ -1,0 +1,20 @@
+microreactor was composed of a syringe pump (Harvard Apparatus PHD 2000), reactant injectors, Y-shaped mixer (Φ = 1.8 mm; M), microchannel reactor and product collector. Syringe pump was used to deliver reagents from reactant injectors to the Y-shaped mixer and then to the microchannel reactor. Reagent feed A (10 mL) with aromatic amines in methanol solution and reagent feed B (10 mL) with acrylates in methanol solution were fully mixed in the Y-shaped mixer. The microchannel reactor consists of a PFA reactor coil (inner diameter ID = 2.0 mm, length = 100 cm) filled with lipozyme TL IM (catalyst reactivity: 250 IUN g−1). The microchannel reactor was immersed into a thermostatic apparatus (water bath) to control the temperature. The final solution was collected in a product collector connected to the microchannel reactor. The residence time was controlled by setting the flow rates of feed A and feed B.
+
+3.2.2. General Procedure for β-Amino Acid Ester Synthesis in Continuous Flow Microreactor
+
+Entry n1a:n2a Time/Min Flow Rate/µL min−1 Yield b (%)
+
+Figure 5. The eﬀect of residence time on enzymatic synthesis of β-amino acid esters in continuous-flow microreactors.
+
+Figure 2. The eﬀect of reaction temperature on enzymatic synthesis of β-amino acid esters in continuous- flow microreactors.
+
+Due to high surface-to-volume ratio, better heat exchange and eﬃcient mixing, continuous-flow microreactor technology has become increasingly popular as an alternative to conventional batch chemistry synthesis. In order to investigate the eﬀects of enzymatic reactions in diﬀerent reactors, we performed the enzymatic Michael addition of aniline to synthesize β-amino acid ester in the continuous-flow microreactor and in a batch bioreactor (Table 1). We detected the reaction process in the batch bioreactor and found that it took about 24 h to achieve the ideal yield (method B). However, in the continuous-flow microreactor, we could get better yield in 30 min (method A). Experiments showed that the continuous-flow microreactor can improve the eﬃciency of enzymatic synthesis of β-amino acid esters.
+
+Figure 1. The eﬀect of reaction media on enzymatic synthesis of β-amino acid esters in continuous-flow microreactors.
+
+Figure 4. The eﬀect of substrate ratio on enzymatic synthesis of β-amino acid esters in continuous-flow microreactors.
+
+2.7. Enzymatic Synthesis of β-Amino Acid Ester in Continuous-Flow Microreactor and Batch Bioreactor
+
+Figure 6. The eﬀect of aromatic amine structure on enzymatic synthesis of β-amino acid esters in continuous-flow microreactors.
+

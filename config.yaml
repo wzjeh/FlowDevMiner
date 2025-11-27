@@ -1,0 +1,33 @@
+engine: local
+
+qwen_api:
+  api_key_env_var: QWEN_API_KEY
+  model_name: qwen-plus-2025-07-28  #qwen-plus-2025-07-14 qwen-plus-2025-09-11 qwen-turbo(快), qwen-plus(好), qwen-max(最好)
+
+gemini_api:
+  api_key_env_var: GOOGLE_API_KEY  # 从环境变量读取，不要硬编码！
+  model_name: gemini-2.5-flash
+
+local_model:
+  filter: nous-hermes-llama2-13b.Q4_0.gguf
+  abstract: nous-hermes-llama2-13b.Q4_0.gguf
+  summarize: My_Finetuned_Model_Q4_K_M_Mixed.gguf
+  # summarize: meta-llama-3.1-8b-instruct-q4_k_m-2.gguf
+
+  # impact 阶段：使用原始大模型来抽取影响因素
+  impact: meta-llama-3.1-8b-instruct-q4_k_m-2.gguf
+  # 新增：用于“多段JSON汇总为1个最佳JSON”的专用模型（llama3.1微调的json2json）
+  overall: My_Finetuned_Model_Q4_K_M_Mixed.gguf
+  # overall: meta-llama-3.1-8b-instruct-q4_k_m-2.gguf
+  finetuned_trigger_name: 'My_Finetuned_Model' # <-- 明确告诉它触发器
+  path: models/
+
+paths:
+  papers_dir: data/papers
+  output_dir: data
+  ground_truth_dir: data/ground_truth
+
+evaluation:
+  metrics: [precision, recall, f1]
+
+

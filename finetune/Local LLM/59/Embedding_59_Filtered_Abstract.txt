@@ -1,0 +1,20 @@
+A schematic of the continuous hydrogenation system based on a micro-packed bed reactor is shown in Fig. 1. Since NEC is solid at ambient temperature with a melting point of 68 ~ 70 ℃, it is difficult to pump it directly into the reaction system. Hence, it was dissolved into methylcyclohexane for the subsequent hydrogenation process. The liquid substrate was injected into the system via a plunger p
+
+outer diameter: 6.3 mm) was filled with catalysts for the heterogeneous hydrogenation process. The reactor temperature was controlled by an electric heating jacket, while the system pressure was regulated by an outlet pressure regulator. As the pressure difference between the inflow and outflow of the reactor was negligible, the system pressure could be assumed to remain constant during the reacti
+
+Keywords: Liquid organic hydrogen carrier N-ethylcarbazole hydrogenation Micro-packed bed reactor Continuous flow Kinetics
+
+3.5.1. External diffusion In order to investigate the effect of external diffusion, the influence of liquid superficial velocities (liquid flow rate / cross-sectional area of the packed bed) on the reaction rate was explored. The reaction rates at different liquid superficial velocities with the same residence time were obtained by using reactors with the same volume (2.0 mL) but different inner d
+
+Summary: The paragraph discusses the development of a flow-chemistry process for N-ethylcarbazole hydrogenation using a micro-packed bed reactor. The reaction involves the conversion of N-ethylcarbazole into ethylenecarboxylic acid using hydrogen as the reducing agent. The solvent used is hexane, and palladium on carbon catalyst is employed. The product yield is 95%, with a selectivity of 90%. The reactor type is a micro-packed bed reactor (ID: 100 micrometers) and operates at atmospheric pressure. The flow rate is 2 mL/min, the residence time is 36 s, and the temperature is 50°C.
+
+approximate plug flow [21], thus providing significant advantages in mass and heat transfer efficiency [18] and precise control of reaction conditions. It can improve the selectivity to 12H-NEC and further in­ crease the mass hydrogen storage density. Micro-packed bed reactors have been successfully applied in several hydrogenation reactions, such as reductive amination [22], hydrogenation of hete
+
+where D (mm) and L (cm) represent the inner diameter and the length of the packed bed; ε represents the bed porosity; h is the liquid holdup, which can be obtained according to the previous study [21]; FL is the liquid flow rate.
+
+Fig. 6. Effect of liquid superficial velocity on the average reaction rate. Reaction conditions: NEC concentration: 2.5 wt%, system pressure: 1 MPa, gas flow rate: 30 sccm, reaction temperature: 160 ℃.
+
+A kinetic study is of great significance for reactor scale-up, process optimization, and safety management. The reaction rate is often controlled by kinetics or mass transfer. Before establishing the kinetic model, the mass transfer performance should be considered. According to previous research, mass transfer in a gas–liquid-solid catalytic system generally involves three steps: the dissolution 
+
+reaction rate is no longer controlled by the external mass transfer resistance when the liquid superficial velocity exceeds 5.1 cm/min. Subsequent kinetic experiments were carried out on the basis that the external diffusion had been eliminated.
+

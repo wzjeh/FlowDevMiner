@@ -1,0 +1,18 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| flow_rate | conversion of EAQ | increase |
+| flow_rate | overall volume mass transfer coefficient | increase |
+| residence_time | conversion of EAQ | decrease |
+| catalyst_loading | not mentioned | - |
+| reactant_concentration | conversion of EAQ | decrease |
+| reactant_concentration | concentration of H2O2 in product | increase |
+| reactant_concentration | overall volume mass transfer coefficient | increase |
+| pressure | not directly mentioned | - |
+| N2 addition (inert gas) | conversion of EAQ | unchanged |
+| N2 addition (inert gas) | overall volume mass transfer coefficient | unchanged |
+| partial_pressure_of_H2 | conversion of EAQ | increase |
+| partial_pressure_of_H2 | overall volume mass transfer coefficient | decrease |
+| temperature | conversion of EAQ | increase |
+| temperature | overall volume mass transfer coefficient | increase |

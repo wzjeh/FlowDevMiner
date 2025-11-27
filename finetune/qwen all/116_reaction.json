@@ -1,0 +1,52 @@
+{
+  "reaction_type": "ionic gelation",
+  "reactants": [
+    {
+      "name": "chitosan",
+      "role": "reactant"
+    },
+    {
+      "name": "sodium tripolyphosphate (TPP)",
+      "role": "cross-linker"
+    },
+    {
+      "name": "acetic acid",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "chitosan nanoparticles",
+      "yield_optimal": 80.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "room temperature"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "400 μL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microreactor with magnetic microneedles",
+    "inner_diameter": "500 μm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 80.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

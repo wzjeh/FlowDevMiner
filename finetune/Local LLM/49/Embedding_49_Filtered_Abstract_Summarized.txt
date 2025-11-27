@@ -1,0 +1,83 @@
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {}}}
+
+{ "reaction_summary": { 
+    "reaction_type":"unknown", 
+    "reactants":[{"name":"1,3-DPC","role":"reactant"}, {"name":"2,3-DCP","role":"reactant"}], 
+    "products":[],"optimal_product_yields":{"1,3-DPC":85,"2,3-DCP":14}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+from typing import List
+
+
+    # Parse reaction type (if present)
+    if "dehydrochlorination" in input_str or "DCP" in input_str:
+        reaction_type = "second order"
+    else:
+        reaction_type = None
+    
+    # Parse reactants
+    reactant_names = re.findall(r'\b\w+\b', input_str)
+    
+    # Parse products and yield (if present)
+    product_name, *yield_optimal = re.findall(r'(\d+(?:\.\d+)?)%', input_str)
+    if not yield_optimal:
+        yield_optimal = [None]
+        
+    # Parse conditions
+    temperature_match = re.search(r'T=([0-9]+) °C', input_str)
+    residence_time_match = re.search(r'residence_(time|time_)?=[^ ]+', input_str)
+    flow_rate_reactant_A_match = re.search(r'flow_rate_[a-zA-Z_][^ ]+=[^ ]+', input_str)
+    flow_rate_reactant_B_match = re.search(r'[0
+
+{ "reaction_summary": { 
+    "reaction_type":"null", 
+    "reactants":[{"name":"dichloropropanol","role":"solvent"}], 
+    "products":[],"yield_optimal":0,"unit":"%"}, 
+    "conditions":[{
+        {"type":"temperature","value":"220 °C"}
+    ]}, 
+    "reactor":{"type":"null", "inner_diameter":"null"}, 
+    "metrics":{
+        "conversion":null, "yield":0, "selectivity":null, "unit":"%"}}
+
+{"name": "DCP", "yield_optimal": 95, "unit": "%"}
+
+{"name": "1,2-dichloroethene","yield_optimal": yield_optimal,"unit": unit}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-dehydrochlorination', input_str, flags=re.IGNORECASE)
+    if match:
+        reaction_type = match.group(1).capitalize()
+    
+    else:  # No explicit reaction type
+        reaction_type = None
+
+    # Parse reactants (if present)
+    matches = re.findall(r'(\w+)-solution|sodium hydroxide', input_str, flags=re.IGNORECASE | re.MULTILINE)
+    if len(matches) > 0:
+        reactant_A_name = 'dichloropropanol'
+        reactant_B_name = 'sodium hydroxide solution'
+
+    else:  # No explicit reactants
+        reactant_A_name = None
+        reactant_B_name = None
+
+    # Parse products (if present)
+    match = re.search(r'yield (\d+)%', input_str, flags=re.IGNORECASE | re.MULTILINE)
+    if match:
+        yield_optimal = int(match.group(1))
+    
+    else:  # No explicit product
+
+{"reaction_summary": {"reaction_type": "dehydrochlorination", "reactants": [{"name": "dichloropropanol", "role": "reactant"}], "products": [], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}], "reactor": {"type": "microreactor", "inner_diameter": "2 mm"}, "metrics": {"conversion": 90, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "...", "role": "..."}, {"name": "...", "role": "..."}, {"name": "...", "role": "..."}], "products": [], "conditions": [{"type": "temperature", "value": "50–80 °C"}, {"type": "residence_time", "value": null}], "reactor": {"type": "tube", "inner_diameter": null}, "metrics": {}}}
+

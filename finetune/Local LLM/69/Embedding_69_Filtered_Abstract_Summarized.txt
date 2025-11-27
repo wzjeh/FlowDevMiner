@@ -1,0 +1,52 @@
+{"reaction_summary": {"reaction_type": null, "reactants": [{"name": "Ta8ylor", "role": "catalyst"}], "products": [{"name": "", "yield_optimal": null}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": "null", "reactants": [], "products": [{"name": "null", "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [{"name": "phenylacetylene", "role": "reactant"}], "products": [{"name": null, "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "flow_rate_reactant_A", "value": "0.1 mL/min"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{
+        "conversion": None,
+        "yield": None,
+        "selectivity": None
+    }
+
+{"name": name, "role": "reactant"}
+
+- Assume that if a field is not explicitly stated in the input text, it should be included with its default value.
+
+Step 1: Preprocess the input string to extract relevant information
+
+
+
+
+    # Extract reaction type (if any)
+    match = re.search(r'for (.*) reactions', input_str)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else:  # If no explicit reaction type, use null
+        reaction_type = None
+
+    return reaction_type
+Step 2: Extract reactants and products information from the text
+
+
+    # Initialize lists to store reactant/product names and roles
+    reactants = []
+    products = []
+
+    # Split input string into sentences (assuming each sentence contains one piece of info)
+    sentences = re.split(r'[.!?]', input_str)
+
+    for sentence in sentences:
+        match = re.search(r'(\w+) (\(reactant|catalyst|solvent\))', sentence)
+        
+        if match:  # If a reactant/product is found
+            name, role = match.groups()
+            
+            if 'product' not in [r
+
+{"type":"residence_time","value":str(residence_time_value/60)+" min"}
+

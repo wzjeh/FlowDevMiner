@@ -1,0 +1,25 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| height_of_microreactor | 70 µm | - |
+| temperature | 240°C | - |
+| pressure | 40 bar | - |
+| velocity_at_center_of_channel | increase | - |
+| velocity_at_reactor_walls | decrease | - |
+| feed_gas_flow_rate | increase | - |
+| flow_rates_supplied_to_reactor_channel | decrease | - |
+| height_of_microreactor | 70 µm | - |
+| temperature | 240°C | - |
+| pressure | 40 bar | - |
+| velocity_at_center_of_channel | increase | - |
+| velocity_at_reactor_walls | decrease | - |
+| feed_gas_flow_rate | increase | - |
+| flow_rates_supplied_to_reactor_channel | decrease | - |
+| height_of_microreactor | 70 µm | - |
+| temperature | 240°C | - |
+| pressure | 40 bar | - |
+| velocity_at_center_of_channel | increase | - |
+| velocity_at_reactor_walls | decrease | - |
+| feed_gas_flow_rate | increase | - |
+| flow_rates_supplied_to_reactor_channel | decrease | - |

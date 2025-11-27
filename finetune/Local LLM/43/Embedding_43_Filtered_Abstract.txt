@@ -1,0 +1,20 @@
+our experimental conditions, since had mass transfer affected the reaction rates, the actual conversions would have been much lower than conversions predicted by kinetics. The differences between the experimental and predicted conversions could be due to several assumptions made in developing the rate equation which might not be very accurate. In the batch reactor at 22 8C kinetics might have more
+
+5.1. Prediction of the experimentally obtained conversions in the microreactor
+
+Figs. 6–9 show the comparison of the conversion and the average reaction rates for the batch reactor and the microreactor at two temperatures of 60 8C and 22 8C. The average reaction rates reported in these figures are based on whole reactor volume and not on the acid phase only. Based on the acid phase volume
+
+Fig. 12. Comparison of experimental and predicted conversion in microreactor at 22 8C.
+
+Fig. 7. Average reaction rate in microreactor and batch reactor at 60 8C.
+
+To compare the reaction rates of the microreactor and a batch reactor, we conducted the nitration reaction in a batch reactor made by PARR Instrument Company, model 5511 having a volume of 25 ml. It is made of stainless steel 316 and equipped with a magnetic drive stirrer. It has an electrical heating system and also a jacketed heating/cooling system. The reactor comes with, among other devices, a
+
+Summary: The paragraph discusses a flow-chemistry process development for nitration of toluene using mixed acid in a microreactor. Key reactants include toluene and mixed acid (HNO3 + H2SO4). Products are not mentioned. A 120 cm long, 775 mm inner diameter empty microreactor is used. Critical conditions include temperature at 60°C and 80°C, with no mention of pressure or flow rate(s) and residence time. The outcome focuses on the comparison of reaction rates between a batch reactor and the microreactor, suggesting that mass transfer rates influence the rate in the batch reactor while intrinsic kinetics probably influences the reaction rate under their operating conditions. No mention is made about conversion, yield or selectivity.
+
+Fig. 9. Average reaction rate in microreactor and batch reactor at 22 8C.
+
+4.1. Comparison of the batch reactor and microreactor data
+
+5. Kinetic studies from microreactor data
+

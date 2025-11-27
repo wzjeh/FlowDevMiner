@@ -1,0 +1,20 @@
+Figure 8. BY28 conversion with the PI/H2O2 system in the flowing microreactor as a function of H2O2 and dye–PI inlet flow rate (Qdye = 278–1100 µL/s with Cdye,in = 25 µM and [PI]in = 1 mM, pHin 5, reactor length L = 2 m).
+
+Figure 6. BY28 conversion with the PI/H2O2 system in the flowing microreactor as a function of H2O2 flow rate at three initial PI inlet concentrations (Qdye = 565 µL/s with Cdye,in = 25 µM and [PI]in = 0.5–2 mM, pHin 5, reactor length L = 2 m).
+
+Figure 11. TOC conversion with the PI/H2O2 system in the flowing microreactor as a function of H2O2 and dye (BY28) flow rates for two PI inlet concentration (1 and 2 mM) and [H2O2]0 = 50 mM, pH inlet 5 and bath temperature of 25 ◦C (Reactor length L = 2 m).
+
+The influence of reactor length (2 m vs. 6 m) on dye conversion in the flowing microreactor was assessed under different scenarios: (i) varying the dye–periodate stream
+
+Figure 3. BY28 conversion with the PI/H2O2 system in the flowing microreactor as a function of H2O2 flow rate and pH of the inlet solution streams (Qfeed = 565 µL/s with Cdye,in = 25 µM and [PI]in = 1 mM, Reactor length L = 2 m).
+
+Dehane, A. Flowing Microreactors for
+
+Figure 7. BY28 conversion with the PI/H2O2 system in the flowing microreactor as a function of H2O2 flow rate at three initial dye concentrations (Qdye = 565 µL/s with Cdye,in = 12.5–50 µM and [PI]in = 1 mM, pHin 5, reactor length L = 2 m).
+
+Figure 9. BY28 conversion with the PI/H2O2 system in the flowing microreactor as a function of H2O2 and bath temperature (Qdye = 278–1100 µL/s with Cdye,in = 25 µM and [PI]in = 1 mM, reactor length L = 2 m).
+
+Figure 12. BY28 conversion with the PI/H2O2 system in the flowing microreactor as a function of H2O2 in the presence of different salts in the dye inlet stream (Qdye = 565 µL/s with Cdye,in = 25 µM, [PI]in = 1 mM, and [Salts]in = 0.1–10 mM, pH 5 (except for the (f) case where pH is 7), reactor length L = 2 m).
+
+Figure 14. Impact of different water matrices on BY28 conversion by PI/H2O2 system in the flowing microreactor as a function of H2O2 flow rate (Qdye = 565 µL/s with Cdye,in = 25 µM, [PI]in = 1 mM, pH 5, reactor length L = 2 m).
+

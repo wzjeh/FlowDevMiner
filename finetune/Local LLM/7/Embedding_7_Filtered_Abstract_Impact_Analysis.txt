@@ -1,0 +1,18 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| Temperature | Reaction Rate | increase |
+| residence_time | Microreactor Yields | increase |
+| Pressure | Yield and STY | decrease |
+| Pressure | Yield and STY | decrease |
+| residence_time | Microreactor STY | increase |
+| residence_time | Yield of PC | decrease |
+| reaction_temperature | Microreactor Performance | increase |
+| operating_pressure | Microreactor Performance | decrease |
+| residence_time | Microreactor Performance | increase |
+| molar_ratio_CO2_PO | Microreactor Performance | unchanged |
+| catalyst_concentration | Microreactor Performance | increase |
+| residence_time | Yield of PC | decrease |
+| liquid_flow_rate | Reaction Rate | increase |
+| gas_flow_rate | Reaction Rate | unchanged |

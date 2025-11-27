@@ -1,0 +1,20 @@
+Table 2 shows the comparison between batch and continu­ ous flow reactions. Hence, the space-time yield of the micro­ reactor was two orders of magnitude higher than the batch reactor. Reaction temperatures in microreactors are lower than in batch reactors, and the duration in flow systems is much shorter. Moreover, the total inventory of reactants in the microreactor was smaller than that in the 
+
+In this context, using small volume reactors and con­ tinuous reaction processes is an attractive and safe way to perform nitration experiments. Compared with the batch reactors, the advantages of the microreactor are the high surface to volume ratio, small online liquid holding capac­ ity, and small dimensions of pathways. The specific sur­ face area in microreactors can achieve 103 to 104 m2·m− 
+
+Continuous flow nitration of m-xylene is illustrated in Fig­ ure 1 and Figure 2. The experimental setup consisted of three metering pumps. Solution 1 contains m-xylene and dichloromethane (DCM) (1:1, w/w), solution B (nitric acid, 98 wt%), solution 3 (sulfuric acid, 80 wt%). Solutions 1 and 2 were introduced to the microreactor (a) via metering pumps a and b. Solution 3 and the solution of microre
+
+Compared with the nitration method of m-xylene reported in the literature, the conversion rate and mono-nitro prod­ ucts selectivity have good advantages, providing a new pathway for industrial production. A comparison between batch and continuous flow reaction modes was also pre­ sented. The results show that the microreactor has apparent advantages in reaction time, temperature, and space-time y
+
+for industrial production. Entry 6 in Table 1 shows the reac­ tion with m-xylene in a microreactor using a mixed acid as a nitrating agent. Compared with the entry 6 this work has four advantages. First, the throughput is 1 kg/h, higher than 16.6 g/h. Second, the residence time is 104 s, lower than 6 min. Third, the selectivity is also higher than entry 6. Four, the conversion of this work was 99.
+
+Comparison of batch and continuous flow reaction
+
+Several reviews have demonstrated that microreactor technology can successfully perform nitration reactions [40–42]. However, there are still bad cases of process design and scale-up of highly exothermic reactions in a microreac­ tor. Here we focus on design. Process safety should draw more attention as the enlarged reactor may not be inherently safe anymore. We first used the process parameters f
+
+Summary: Flow-chemistry process development for m-xylene nitration using mixed acid solution in a microreactor. Key reactants: m-xylene, mixed acid (nitric acid and another acid). Reaction type: electrophilic aromatic substitution. Products: Nitrobenzene derivatives. Reactor details: Microreactor with microchannel plates for residence time control. Critical conditions: Molar ratio of nitric acid to m-xylene adjusted by changing volume flow rate and increasing residence time. Temperature, pressure not mentioned. Outcomes: Conversion/yield/selectivity not reported.
+
+Where V, Qaq, and Qor are the microchannel volume, aque­ ous volumetric flow rate, and organic volumetric flow rate.
+
+Journal of Flow Chemistry (2022) 12:327–336
+

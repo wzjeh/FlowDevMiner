@@ -1,0 +1,20 @@
+aCFMMR: continuous flow micromixing reactor.
+
+*CFMMR: continuous flow micromixing reactor.
+
+Figure 3. Schematic diagram of continuous flow micromixing reactor.
+
+entry micromixings flow rate (mL/min) 6c 1c 7c
+
+Hence, the number of micromixers was further increased from three to five (M4, M5), and the conversion was improved to 95.2%. Certainly, the extended micromixing collisions allowed the substrate 6c and oxidant NaOCl to react eﬃciently and aﬀord the maximum conversion of 1c. Hence, the five micromixers were employed in further flow rate optimization studies (Table 4 and Figure 5).
+
+micromixing reactor made up of SS-316 consists of two inlets and one outlet. This type of micromixer reactor is based on the principle of high-shear axial collision. For that purpose each micromixing reactor contains two slit angles at 180° with diameters varying from 0.35−1.5 mm and an aperture at 90° above both slits with diameter varying from 0.35−1.5 mm and having a mixing volume of 0.2−1 mL. 
+
+entry flow rate (mL/min) 6c 1c 7c
+
+entry flow rate (mL/min) 6a 1a 7a
+
+To evaluate the performance of continuous processing technologies we investigated the application of continuous flow micromixing reactor technology for synthesis of benzimidazole drugs, which are a group of drugs that elicit pronounced and long-lasting pharmacological eﬀect by reducing the gastric acid production. These drugs are among
+
+entry flow rate (mL/min) 6b 1b 7b
+

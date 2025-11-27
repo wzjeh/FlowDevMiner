@@ -1,0 +1,60 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "1,5-cyclooctadiene",
+      "role": "reactant"
+    },
+    {
+      "name": "3-hexyn-1-ol",
+      "role": "reactant"
+    },
+    {
+      "name": "H2",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd nanoparticles",
+      "role": "catalyst"
+    },
+    {
+      "name": "methanol",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "monohydrogenated product",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "25 C"
+    },
+    {
+      "type": "residence_time",
+      "value": null
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.12 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "packed bed",
+    "inner_diameter": "4 mm"
+  },
+  "metrics": {
+    "conversion": 95.0,
+    "yield": null,
+    "selectivity": 90.0,
+    "unit": "%"
+  }
+}

@@ -1,0 +1,124 @@
+# Parse temperature and residence time
+    temp = None
+    res_time = None
+    match_temp_residence = re.search(r"(\d+) (°C|min)", input_str)
+    if match_temp_residence:
+        value, unit = match_temp_residence.groups()
+        if unit == "°C":
+            temp = int(value)
+        elif unit == "min":
+            res_time = float(value)
+
+    # Parse flow rate
+    flow_rate_A = None
+    flow_rate_B = None
+    total_flow_rate = None
+    match_flow_rates = re.search(r"(\d+(?:\.\d+)?) (mL/min)", input_str)
+    if match_flow_rates:
+        value, unit = match_flow_rates.groups()
+        total_flow_rate = float(value)
+
+    # Parse pressure and inner diameter
+    pressure = None
+    inner_diameter = None
+    match_pressure_inner_diameter = re.search(r"(\d+(?:\.\d+)?) (mm)", input_str)
+    if match_pressure_inner_diameter:
+        value, unit = match_pressure_inner_diameter.groups()
+        inner_diameter = float(value)
+
+    # Parse yield and conversion
+    yield_opt
+
+{ "reaction_summary": {  "reaction_type":"null",  "reactants":[],  "products":[{"name":"null","yield_optimal":null,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"null"},    {"type":"residence_time","value":"null"},    {"type":"flow_rate_reactant_A","value":"null"},    {"type":"flow_rate_reactant_B","value":"null"},    {"type":"pressure","value":"null"}  ],  "reactor":{"type":"microchannel", "inner_diameter":500}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+
+
+
+
+    # Parse reaction type (if present)
+    match = re.search(r'(\w+)-', input_str, flags=re.IGNORECASE | re.MULTILINE)
+    if match:
+        reaction_type = match.group(1).lower()
+    
+    else: 
+        reaction_type = None
+
+    # Parse reactants
+    matches = re.findall(r"([A-Z][a-z]+)", input_str)
+    reactant_names = [match for match in matches]
+    roles = ['reactant'] * len(matches)
+
+    # Parse products (if present)
+    product_match = re.search(r'yield (\d+)%', input_str, flags=re.IGNORECASE | re.MULTILINE)
+    if product_match:
+        yield_optimal = int(product_match.group(1))
+        
+    else: 
+        yield_optimal = None
+
+    # Parse conditions
+    condition_matches = re.findall(r"(\w+)=(\D*)(\d+)", input_str, flags=re.IGNORECASE | re.MULTILINE)
+    
+    optimal_conditions = []
+    for match in condition_matches:
+        if 'T' == match[0
+
+{"reaction_summary": { "reaction_type": None,  "reactants":[],  "products":[],  "conditions":[],  "reactor":{"type":"unknown","inner_diameter":None},  "metrics":{"conversion":None,"yield":None,"selectivity":None,"unit":"%"}}}
+
+{}
+
+{"reaction_summary": {"reaction_type": null, "reactants": [], "products": [{"name": null, "yield_optimal": 82, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}, {"type": "residence_time", "value": "20 min"}, {"type": "flow_rate_total", "value": "0.1 mL/min"}, {"type": "pressure", "value": "10 bar"}], "reactor": {"type": "coil", "inner_diameter": "0.5 mm"}, "metrics": {"conversion": null, "yield": 82, "selectivity": null, "unit": "%"}}}
+
+{"name": name, "role": role}
+
+{
+    "reaction_summary": {
+        "reaction_type": null,
+        "reactants": [],
+        "products": [{"name": null, "yield_optimal": 95, "unit": "%"}],
+        "conditions": [
+            {"type":"temperature","value":"80 °C"},
+            {"type":"flow_rate_reactant_A","value":"0.1 mL/min"}
+        ],
+        "reactor":{"type":"fixed bed", "inner_diameter":"11.5 mm"}, 
+        "metrics":{
+          "conversion": null,
+          "yield": 95, 
+          "selectivity": null, 
+          "unit": "%"
+    }
+}
+
+{"name": name, "role": role}
+
+- Temperature is in °C; residence_time and flow_rate are normalized to min and mL/min respectively.
+
+a. Catalyst preparation: An IKA mill was used for the reduc-
+tion of the catalysts particle size. Once powdered the
+catalysts were sieved with a 75-mm sieve.
+b. Microreactor preparation: The microreactors were intro-
+duced in an ultrasonic bath with isopropanol during 10 min
+for channel cleaning. After drying, they were calcined at
+1273 K during 4 h.
+c. Catalyst impregnation: A liquid phase suspension of the
+catalyst was prepared by dissolving a certain amount of it
+in water and then adding an organic solvent (e.g., ethanol)
+to form a homogeneous solution.
+
+d. Reaction conditions:
+The reaction mixture consisted of reactant A, reactant B,
+and catalyst C in a 1:2:0.5 molar ratio.
+Flow rate was set to 10 mL/min for both reactants and
+catalyst.
+Temperature was maintained at 80 °C during the reac-
+tion.
+
+e. Reaction products:
+The reaction produced product P with an optimal yield of
+95%.
+
+f. Residence time:
+Residence time was varied
+

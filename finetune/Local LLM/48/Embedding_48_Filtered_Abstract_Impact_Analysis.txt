@@ -1,0 +1,23 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| Residence Time | Conversion of TFMB | increase |
+| Flow Rate | Conversion of TFMB | - |
+| Residence Time | Yield | - |
+| Temperature | Selectivity | - |
+| UV Light Intensity | Conversion Rate | - |
+| TiO2 Concentration | Yield of Fragments | - |
+| Flow Rate | Product Formation | - |
+| Residence Time | Conversion Efficiency | - |
+| Temperature | Optical Transparency | - |
+| Pressure | Yield of Fragments | - |
+| UV Light Intensity | Selectivity | - |
+| Residence Time | Conversion Rate | increase |
+| Temperature | Conversion Efficiency | decrease |
+| Pressure | Yield of Fragments | - |
+| Residence Time | Bioburden Reduction | - |
+| Temperature | Sterilization Efficiency | - |
+| Flow Rate | Conversion of TFMB | - |
+| Residence Time | Yield | - |
+| Temperature | Selectivity | - |

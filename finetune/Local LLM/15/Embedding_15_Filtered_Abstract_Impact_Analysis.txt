@@ -1,0 +1,19 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| sulfuric_acid_flow_rate | acceleration_of_reaction | increase |
+| residence_time | conversion | decrease |
+| FN | removal_by_external_cooling | increase |
+| FS_F1_ratio | acceleration_of_reaction | increase |
+| residence_time | conversion | decrease |
+| FN | removal_by_external_cooling | increase |
+| FS_F1_ratio | acceleration_of_reaction | increase |
+| residence_time | conversion | decrease |
+| FN | removal_by_external_cooling | increase |
+| FS_F1_ratio | acceleration_of_reaction | increase |
+| residence_time | conversion | decrease |
+| FN | removal_by_external_cooling | increase |
+| FS_F1_ratio | acceleration_of_reaction | increase |
+| conversion | decrease | decrease |
+| Factor | removal_by_external_cooling | - |

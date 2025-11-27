@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "hydrogenation", "reactants": ["4-nitrophenol", "H2"], "products": ["4-aminophenol"], "conditions": [{"type": "flow_rate", "value": 30}, {"type": "inlet_concentration", "value": 1}], "reactor": {"type": "microreactor", "inner_diameter": 50, "material": "UiO-66-NH2"}, "metrics": {"conversion": 99.4, "yield": null, "selectivity": null}}}

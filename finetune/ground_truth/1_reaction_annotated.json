@@ -1,0 +1,64 @@
+{
+  "reaction_type": "RAFT polymerization",
+  "reactants": [
+    {
+      "name": "4-Acryloylmorpholine",
+      "role": "reactant"
+    },
+    {
+      "name": "Butyl acrylate",
+      "role": "reactant"
+    },
+    {
+      "name": "1,6-hexanediol diacrylate",
+      "role": "reactant"
+    },
+    {
+      "name": "DoPAT",
+      "role": "catalyst"
+    },
+    {
+      "name": "ABVN",
+      "role": "initiator"
+    },
+    {
+      "name": "DMF",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "PACMO-PBA miktoarm star polymer",
+      "yield_optimal": 92,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "80 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": "2 h"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "2.04 mL/h"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "capillary microreactor",
+    "inner_diameter": "1.00 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 92,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

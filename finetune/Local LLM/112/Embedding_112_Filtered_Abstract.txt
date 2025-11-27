@@ -1,0 +1,14 @@
+Reaction medium Conversion (%) Selectivity (%)
+
+Summary: Flow-chemistry process development involves hydrogenation of a-Pinene in an F127 micelle using nanoparticle catalysts within a microreactor. Key reactants include a-Pinene and H2. The product is the corresponding alcohol, with high selectivity. Reaction conditions involve a continuous flow setup at 5 mL/min flow rate, residence time of 10 minutes, temperature of 80°C, and atmospheric pressure. Conversion and yield are not mentioned in this paragraph.
+
+Metal precursor Average diameter (nm)a Conversion (%) Selectivity (%)
+
+In a typical experiment, 0.2730 g (2 mmol) of a-pinene was added to the catalytic system as described in Sect. 2.1. The reactor was sealed and purged with 1 MPa H2 to remove air. Then the reactor was pressurized to 0.3 MPa H2 and placed in a 40 C water bath. The mixture was stirred for 3 h at a stirring rate of 500 r/min. After the reaction, the remaining products were isolated by liquid– liquid 
+
+In a typical experiment, 2 mL of water and 20 mg of F127 were placed in a stainless steel reactor. The mixture was stirred for 2 h at 25 C, and then 2.1 mg (0.01 mmol Ru) of RuCl3 (vacuum drying before use) was added to the reactor. Stirring was continued for 0.5 h. The reactor was then sealed, and purged with 1 MPa H2 to remove air. Subsequently, the reactor was pressurized to 0.2 MPa H2, and pl
+
+Reaction conditions: a-pinene: 0.2730 g; metal precursor: 0.01 mmol; F127: 20 mg; water: 2 mL; stirring rate: 500 r/min; 40 C; 0.3 MPa H2; 2.0 h
+
+conversion selectivity
+

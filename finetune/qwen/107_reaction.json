@@ -1,0 +1,52 @@
+{
+  "reaction_type": "氢化",
+  "reactants": [
+    {
+      "name": "nitroaromatics",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd@SBA-15",
+      "role": "catalyst"
+    },
+    {
+      "name": "溶剂未明确",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "aromatic amines",
+      "yield_optimal": 99.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "80 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "1 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "packed bed",
+    "inner_diameter": "5 mm"
+  },
+  "metrics": {
+    "conversion": 99.0,
+    "yield": 99.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

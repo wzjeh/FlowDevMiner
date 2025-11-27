@@ -1,0 +1,11 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| 1. Temperature | reaction rate | increase |
+| 2. residence_time | conversion of TFMB | increase |
+| 4. surface-to-volume ratio | multi-phase mixing | increase |
+| 6. temperature, pressure | apparent rate of reaction | increase |
+| 7. | product selectivity | unchanged |
+| 8. | mass transfer limited regime | increase |
+| 9. residence time, liquid flow rate | critical conditions | - |

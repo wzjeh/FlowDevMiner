@@ -1,0 +1,20 @@
+Flow rate (ml/min)
+
+Flow rate (ml/min)
+
+concentrations; solution pH; and feed flow rates on the decolorization efficiency under contin- uous conditions, has been studied. The results showed that at pH values between 3 and 4, more DR16 vanished from feed stream. Moreover, higher decolorization efficiencies were obtained at higher Fe2+ and H2O2 concentrations as well as lower dye concentration and feed flow rate. The results indicated that it is possible to reach an efficiency of 86% for DR16 dye decolorization in just 4.2 s, as residence time, using this microreactor. This was obtained due to efficient reactants mixing in the microreactor mixing point. This study illustrates the advan- tage of using microreactors for continuous flow decolorization process in the comparison with conventional use of batch stirred tank reactors.
+
+diverted to the reactor. After the feed streams passed through the microreactor, the treated effluent was ana- lyzed using an UV/V. The influences of different parameters, including H2O2, Fe2+, and DR16 concen- trations; solution pH; and flow rates of feed streams in DR16 oxidation, were investigated.
+
+that the decolorization efficiency reduced when the concentration of dye and/or flow rate of reactants increased. In general, it can be concluded that the Fenton process in microchannel is quite useful to promote decolorization of DR16. High decolorization efficiency, about 86%, was obtained in the studied microreactor, which promises a new technique with high decolor- ization efficiency for wastewater treatment. One of the main advantages of the proposed system is reputabil- ity in scale-up for industrial purposes. For higher treatment load, the proposed microreactor can be used in a parallel cascade layout.
+
+A schematic diagram of the experimental setup illustrated in Fig. 3. A peristaltic pump (QIS, DSP100) diverted the feeds through the Y-shaped microchannel. The required amount of FeSO4·7H2O was added into the dye solution and then the solution pH was adjusted. Both feeds flow rates were measured using two separate flow meters. Samples were collected from the microreactor output stream. A UV spectrophotometer from UNIC Company was used to analyze the samples. The absorption spectrum of DR16 solution was examined to determine the wave-
+
+Fig. 5. An example of unsteady decolorization progress in the studied microreactor (pH = 3.5; [DR16]= 30 mg/l; [H2O2] = 150 mg/l; [Fe2+] = 0.5 mg/l; and temperature = 25˚C).
+
+The microchannel was fabricated from Plexiglas with a depth, width, and length of 0.9, 1 and 70 mm, respectively. The cover plate of microreactor was made from quartz plate. The fabricated microchannel is shown in Fig. 2.
+
+Fig. 2. The microreactor used in the experimental study.
+
+3.5. Effect of flow rate
+

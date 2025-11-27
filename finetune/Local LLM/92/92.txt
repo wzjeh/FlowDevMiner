@@ -1,0 +1,303 @@
+View Article Online
+
+PAPER
+
+View Journal | View Issue
+
+Process intensification of 2-amylanthraquinone hydrogenation in a micro-packed-bed reactor for H2O2 synthesis†
+
+Published on 04 April 2025. Downloaded by Hokkaido Daigaku on 10/25/2025 6:36:39 AM.
+
+Cite this: React. Chem. Eng., 2025, 10, 1473
+
+Junjie Wang, Lin Sheng, Qichen Shang, Jian Deng * and Guangsheng Luo *
+
+In the synthesis of hydrogen peroxide, the hydrogenation reaction in the Riedl–Pfleiderer process faces
+
+operational risks and inefficiency challenges. This work pioneers the application of micro-packed-bed reactors (μPBRs) in 2-amylanthraquinone (AAQ) hydrogenation, establishing a transformative strategy for
+
+enhancing the Riedl–Pfleiderer process. By utilizing microscale effects, we achieved a record space–time
+
+yield of 336.8 gH2O2 gPd −1 h−1 — 25× and 21× higher than those of conventional slurry reactors and trickle- bed reactors, respectively. For the first time, AAQ demonstrated superior performance over
+
+2-ethylanthraquinone (EAQ) in μPBRs, addressing the critical challenge of balancing hydrogenation
+
+efficiency (10.13 g L−1) with 99.9% effective anthraquinone retention, which could not be achieved in prior systems. Additionally, systematic optimization of solvent composition (3: 1 TMB/TOP), reaction parameters
+
+(50 °C, 300 kPa), and catalyst utilization revealed μPBRs' intrinsic advantages: ultra-short apparent
+
+Received 17th February 2025, Accepted 24th March 2025
+
+residence time (9 s), minimized over-hydrogenation risk, and exceptional stability (99.1% effective anthraquinone retention after 10 cycles). Furthermore, a validated mass transfer model (prediction error
+
+<20%) was established for understanding the intrinsic mechanisms within gas–liquid–solid interactions,
+
+DOI: 10.1039/d5re00079c
+
+offering a predictive tool for reactor design. This study provides a safety-enhanced paradigm for H2O2 synthesis, overcoming long-standing limitations in industrial process intensification.
+
+rsc.li/reaction-engineering
+
+1 Introduction
+
+fundamental to intensifying the hydrogenation reaction of anthraquinone.14 Wang et al.15 explored rotating packed beds (RBRs) to achieve hydrogenation intensification of anthraquinone through active equipment, and Ma et al.16
+
+Hydrogen peroxide (H2O2) is a widely applied green oxidant for its environmental benefits.1,2 Despite advancements in technologies such as photocatalysis,3 electrochemical synthesis,4,5 and direct synthesis from hydrogen and oxygen,6
+
+reported a gas agitation method to enhance gas–liquid mass transfer via gas disturbance. Besides, fluidized beds17 have been used to achieve high reaction rates and efficient catalyst utilization in industry. Despite these advancements, these methods often result in increased risks due to the high excessive use of hydrogen and the addition of active equipment. These challenges necessitate the development of new hydrogenation reactors that combine high catalytic efficiency and selectivity with enhanced safety. Thus, developing new, green, safe, and reliable hydrogenation equipment and reaction system is critical. In the pursuit of higher efficiency, chemical engineering has increasingly embraced micro-scale processes.18–22 Microchemical systems, characterized by microscale effect and high surface-to- volume ratios,23–27 have shown high promise in various reactions, including oxidation,28–30 hydrogenation,31–33 and catalyst screening.34 Among these, micro-packed-bed reactors (μPBRs) with particle diameters less than 500 μm have become essential tools in microchemical engineering for gas–liquid–solid three- phase reactions.24,35,36 Losey et al.37 first introduced μPBRs and reported distinct flow patterns compared to traditional trickle-
+
+the Riedl–Pfleiderer process remains the most extensively industrialized method due to its stability, efficiency, and high degree of automation. The Riedl–Pfleiderer process mainly comprises three main parts: hydrogenation,7,8 oxidation,9,10 and extraction.11 However, the hydrogenation of anthraquinone, a critical step in this process,12 faces significant challenges including high operational risks, low catalytic efficiency, and issues with reaction control. Santacesaria et al.13 reported that the hydrogenation of anthraquinone at catalytic sites is a very fast reaction. Therefore, it is well known that the entire hydrogenation process is controlled by mass transfer. Consequently, enhancing gas–liquid mass transfer is
+
+State Key Laboratory of Chemical Engineering, Department of Chemical Engineering, Tsinghua University, Beijing 100084, China. E-mail: gsluo@tsinghua.edu.cn; Tel: +86 10 62783870 † Electronic supplementary information (ESI) available. See DOI: https://doi.org/ 10.1039/d5re00079c
+
+Table 1 Physical properties of the organic solutions (25 °C)
+
+bed reactors (TBRs), which exhibit different reaction performance due to the smaller flow channels in μPBRs. The miniaturization in μPBRs enhances mass and heat transfer,38 reduces reaction times,39 and improves control over reaction conditions.40,41 These features lead to higher yields, selectivity, and efficiency compared to conventional systems.42–44
+
+Fluids TMB : TOP AAQ (g L−1) Density (kg m−3) Viscosity (mPa s) Interface tension (mN m−1)
+
+3 : 1 1.51 29.32 3 : 2 2.41 28.73 3 : 3 3.12 28.35 3 : 1 1.53 29.44 3 : 1 1.56 28.25
+
+Micro-packed-bed reactors have been successfully applied in such hydrogenation reaction systems. For instance, Liu et al.45
+
+achieved high conversion and selectivity in the long-term hydrogenation of anthraquinone using a miniaturized trickle- bed reactor compared to traditional trickle-bed reactors. However, the miniaturized trickle-bed reactor, with a catalyst particle size of 1.9 mm, failed to achieve process intensification based on microscale effects. Moreover, Halder et al.14
+
+Published on 04 April 2025. Downloaded by Hokkaido Daigaku on 10/25/2025 6:36:39 AM.
+
+Scientific Co., Ltd., A.R.) and trioctyl phosphate (TOP, Shanghai Titan Scientific Co., Ltd., A.R.). The viscosity and surface tension of the organic solution with different volume ratios of TMB and TOP were measured using an electronic viscometer (DV-IIa + P, Brookfield, WI, USA) and an interface tensiometer (OCAH200, DataPhysics Instruments, Germany), respectively. The physical properties of the organic solutions are listed in Table 1. H2 and N2 (Beijing Praxair lnc., 99.995%) were used as the gas phase. All chemicals were used without any further purification. In this experiment, the commercial catalyst particles were purchased from Shanxi Kaida Chemical Co., Ltd. The catalyst's morphology was observed using scanning electron microscopy (SEM), as shown in Fig. 1. The SEM images revealed that the catalyst particles exhibited good sphericity and good particle size uniformity. Additionally, the physical properties of the catalyst are summarized in Table 2. The catalyst comprised Pd/γ-Al2O3, with palladium primarily in the reduced state. The active palladium content was 3.4 wt%, the specific surface area of the catalyst was 165.3 m2 g−1, and the average particle size of the catalyst was 45.3 μm.
+
+demonstrated the advantages of μPBRs in the hydrogenation of 2-ethylanthraquinone (EAQ), citing improved space–time yields (STYs) and enhanced mass transfer rates. Unfortunately, due to the solubility limitations of EAQ in the working solution, the hydrogen efficiency (B) of hydrogen peroxide production at a reaction conversion rate of 40–50% was only 3–5 g L−1, far below industrial requirements. Pursuing high hydrogen efficiency to improve reaction conversion significantly reduces effective anthraquinone retention rate. Therefore, it is urgent to address the issues of hydrogen efficiency and effective anthraquinone retention rate in μPBRs. Notably, 2-amylanthraquinone (AAQ) offers significant engineering advantages over the industrially used EAQ, including higher solubility and greater reaction effective anthraquinone retention rate.17 However, there has been no systematic study on the hydrogenation of AAQ in μPBRs. Therefore, utilizing AAQ for hydrogenation in μPBRs presents a highly promising approach for the intensification of the Riedl–Pfleiderer process, potentially resolving the issues of reaction effective anthraquinone retention rate and conversion rate in anthraquinone hydrogenation within μPBRs. In this work, we investigated the intensification of the 2-amylanthraquinone hydrogenation process by using μPBRs. We examined the effects of reaction apparent residence time, catalyst stability, reaction temperature, reactor working pressure, anthraquinone concentration, and working solution ratio on reaction conversion and mass transfer. The advantages of the μPBR were systematically compared with those of traditional hydrogenation equipment, emphasizing the superior efficiency and safety of μPBRs. The superior performance of AAQ over EAQ in μPBRs has been reported for the first time. A mass transfer model was established to optimize the hydrogenation process, effectively describing the complex mass transfer process involved in the hydrogenation of 2-amylanthraquinone.
+
+2.2 Experimental setup and procedure
+
+Fig. 2 illustrates the experimental procedure. Hydrogen gas and the working solution were fed into a stainless steel T-junction (Tee 1/16″, SS, VICI Valco, USA) by a gas mass
+
+2 Experimental sections
+
+2.1 Reagents and materials
+
+The liquid phase used in this experiment was an anthraquinone organic solution. The solute, 2-amylanthraquinone (AAQ), was purchased from Beijing Honghu Scientific Co., Ltd. The solvent consisted of 1,2,4-trimethylbenzene (TMB, Shanghai Titan
+
+Fig. 1 SEM images of catalyst particles.
+
+(Applied Porous Technologies) with a pore size of 100 μm and a thickness of 1.0 mm was fixed at the front and rear of the μPBR to support the fixation of bed particles. The catalyst particles, boasting an average diameter of 45.3 μm, were employed as the packing material within the μPBR. These particles uniformly filled the entirety of the micro-packed- bed column, with a total filling mass of 1.32 g. If not specifically indicated, the gas–liquid molar ratio is 1.
+
+Table 2 Physical properties of the catalyst
+
+Items Values
+
+Catalyst component Pd/γ-Al2O3 Active component (Pd) content 3.4 wt% Specific surface area 165.3 (m2 g−1) Average diameter of the catalyst particle 45.3 (μm)
+
+flowmeter (HORIBA Precision Instruments Beijing Co., Ltd) and a high-pressure syringe pump (Fusion 6000, Chemyx, USA), respectively. After mixing, the two phases flow into the micro-packed- bed reactor which is packed with palladium metal catalyst particles. At the rear end of the μPBR, a gas–liquid separation tank is connected to separate the gas and liquid phases. The upper part of the separation tank serves as the gas pathway, with a back-pressure valve and pressure sensor at the end of the gas line to control the system's working pressure. The lower part of the separation tank serves as the liquid pathway to discharge the hydrogenated liquid, thereby controlling the liquid level in the separation tank. The hydrogenated liquid was collected for subsequent titration analysis. At the end of each experiment, N2 was used to purge the micro-packed bed to ensure consistent initial flow conditions for every experimental point. All experiments were conducted in triplicate, and results are reported as mean ± standard deviation to ensure reproducibility. The experimental setup utilizes a stainless steel μPBR, as shown in Fig. 3. The μPBR has an inner diameter of 4.6 mm and a length of 10 cm, connected to tubes at the front and rear ends, each with an outer diameter of 1.6 mm and an inner diameter of 1.0 mm. Commercially available frit
+
+Published on 04 April 2025. Downloaded by Hokkaido Daigaku on 10/25/2025 6:36:39 AM.
+
+2.3 Analysis and calculation
+
+The conversion pathway of 2-amylanthraquinone (AAQ) in this hydrogenation reaction is illustrated in Fig. 4. Initially, AAQ undergoes hydrogenation to form the primary product, 2-amyl- dihydroanthraquinone (AAQH2). Under controlled catalytic conditions, AAQH2 can further hydrogenate to form tetrahydro- 2-amyl-dihydroanthraquinone (H4AAQH2), which is still an effective anthraquinone capable of generating hydrogen peroxide in subsequent oxidation steps. Both AAQH2 and H4- AAQH2 can obtain equimolar amounts of H2O2 after oxidation, and AAQ and H4AAQ are collectively called effective anthraquinones. However, if hydrogenation continues beyond H4AAQH2, over-hydrogenation leads to the formation of 8-hydro-2-amyl-dihydroanthraquinone (H8AAQH2), an ineffective anthraquinone for hydrogen peroxide production. This over-hydrogenation represents a degradation pathway, as H8AAQH2 cannot participate in the desired oxidation process to produce H2O2. Additionally, AAQ can degrade into by-products such as anthrone (AAN) and naphthalene (AANT) derivatives during hydrogenation. These degradation products are considered ineffective anthraquinones as they do not contribute to hydrogen peroxide production and reduce the efficiency of
+
+Fig. 2 Schematic of the experiment setup.
+
+Fig. 3 Schematic of the micro-packed-bed reactor.
+
+Published on 04 April 2025. Downloaded by Hokkaido Daigaku on 10/25/2025 6:36:39 AM.
+
+Fig. 4 Reaction scheme of AAQ hydrogenation/oxidation processes to produce H2O2.
+
+For this experiment, the KMnO4 concentration is denoted as CKMnO4, the titration volume of calibrated KMnO4 solution
+
+the working solution. Therefore, the primary goal in optimizing the hydrogenation process of AAQ is to maximize the production of AAQH2 and H4AAQH2 while minimizing the formation of H8AAQH2 and other degradation products. Maintaining precise control over reaction conditions—such as hydrogen pressure, temperature, and apparent residence time— is critical to achieve high effective anthraquinone retention rate and efficiency in the Riedl–Pfleiderer process. In the experiment, the working solution, after passing through the μPBR for hydrogenation, was collected at the downstream end of the setup. When processing the hydrogenated solution, a 3 mL sample was taken once the equipment conditions stabilized. This sample was bubbled with atmospheric oxygen for 20 minutes until the working solution completely changed color, as illustrated in Fig. 5. The color change before and after hydrogenation and oxidation is significant, indicating the reaction progress. The oxidized solution was then subjected to multiple extractions with 10 mL of deionized water to ensure complete extraction of the generated H2O2. The concentration of H2O2 was determined by titration with calibrated KMnO4 solution.
+
+Fig. 5 Different color states of the working solution during the experiment. (a) Original working solution. (b) Hydrogenated working solution. (c) Oxidized working solution. (d) Working solution after multiple extractions with water.
+
+is VKMnO4, and the volume of the "hydrogenated–oxidized– extracted" working solution sample used for titration is V. The hydrogen efficiency B is a measure of the reactor's hydrogenation performance and is indicative of the reactor's overall reaction efficiency. The relative molecular mass is represented by M and the mass concentration of AAQ by W. The hydrogen efficiency B and conversion rate X for the reactor are calculated by eqn (1) and (2), respectively. B represents the mass of H2O2 that can be obtained per liter of working solution after hydrogenation and oxidation, while X refers to the ratio of the amount of AAQ participating in the reaction in the working solution to the total amount of AAQ. Since AAQ (or H4AAQ) will yield an equimolar amount of H2O2 after hydrogenation and oxidation, X represents the conversion rate.
+
+C*H2is the H2 concentration at the gas–liquid interface. The value of C*H2 can be predicted as eqn (6).13 In the equation, the unit of T is K, and the unit of PH2 is atm. The equation indicates the hydrogen concentration at the interface of organic compounds under different partial pressure conditions. For the rapid hydrogenation reaction of anthraquinone,13 it can be assumed that the hydrogen content in the liquid phase is rapidly consumed, resulting in a hydrogen concentration of zero.46 Therefore, C*H2can be considered as the magnitude of the concentration gradient for mass transfer.
+
+Published on 04 April 2025. Downloaded by Hokkaido Daigaku on 10/25/2025 6:36:39 AM.
+
+C*H2 ¼ −3:407 þ 0:019T ð Þ pH2=0:987   (6)
+
+The parameters of NH2 can be calculated by eqn (7) from which the overall volumetric mass transfer coefficient in μPBRs can be calculated.
+
+CKMnO4 × V KMnO4 × MH2O2 V (1)
+
+B ¼ 5
+
+NH2 ¼ ΔCH2 FL V R (7)
+
+X ¼ B=MH2O2 W=MAAQ (2)
+
+where ΔCH2 is the liquid H2 concentration difference between the micro-packed-bed inlet and outlet; the liquid phase concentration can be predicted from the pressure at the front and rear ends of the μPBR through eqn (6). FL is the liquid flow rate in the μPBR. VR is the pore volume in the μPBR.
+
+The apparent residence time (t) in the micro-packed-bed reactor is calculated as the ratio of the total volumetric flow rate of the gas–liquid mixture (Qmix) to the reactor's pore volume (VR), as shown in eqn (3):
+
+3 Results and discussion
+
+t ¼ Qmix V R (3)
+
+3.1 Factors influencing the hydrogenation reaction
+
+3.1.1 Influence of working solution composition. The working solution utilizes a mixture of trimethylbenzene (TMB) and trioctyl phosphate (TOP) as solvents. It is important to determine a reasonable composition ratio for the working solution. The common industrial ratio of TMB to TOP is 3 : 1, 3 : 2, or 3 : 3. As shown in Fig. 6(a), increasing the proportion of TOP enhances anthraquinone conversion rates due to its ability to more effectively transport 2-amyl- dihydroanthraquinone (AAQH2) away from the catalytic sites, thereby improving the reaction performance. Consequently, a higher TOP content slightly improves the overall volumetric mass transfer coefficient, as shown in Fig. 6(b). However, a higher TOP content also results in a significant increase in pressure drop and is less favorable for the dissolution of AAQ.47 In industrial applications, insufficient solubility of anthraquinone can lead to precipitation, which may clog the flow channels. The minimal benefits of increasing the TOP content to improve reaction performance are outweighed by the significant engineering risks it introduces. Thus, it is preferable to maintain a lower TOP content. Therefore, selecting a TMB : TOP ratio of 3 : 1 for the composition of the working solution is more reasonable. 3.1.2 Influence of anthraquinone concentration in the liquid phase. The anthraquinone concentration, a direct parameter for the working solution formulation, significantly influences the reaction. This study examined three different concentrations of 2-amylanthraquinone (AAQ). Fig. 7(a) shows that lower anthraquinone concentrations yield higher
+
+Here, VR is calculated by multiplying the bed porosity (ε) by the bed volume (Vbed). In this study, the bed porosity was experimentally determined as ε = 0.37. These calculations provide critical insights into the efficiency and performance of μPBRs in the hydrogenation process. After the reaction, the extracted working solution is sampled and analyzed using high-performance liquid chromatography (HPLC) (Waters 2695). By comparing the effective concentrations of anthraquinone (c(AAQ)) and tetrahydro-2- amylanthraquinone (c(H4AAQ)) with the initial concentration of anthraquinone (c0(AAQ)), the effective anthraquinone retention rate (S) of the hydrogenation reaction per cycle can be determined by eqn (4). For the hydrogen peroxide production process, the retention rate of one cycle represents the amount of effective anthraquinone retained in the working solution after a single hydrogenation step.
+
+R ¼ c AAQ ð Þ þ c H4AAQ ð Þ c0 AAQ ð Þ × 100% (4)
+
+The method for calculating the volumetric mass transfer coefficient is as follows: the liquid-phase volumetric mass transfer coefficient can be expressed as the overall gas–liquid volumetric mass transfer coefficient.38 The calculation of the gas–liquid volumetric mass transfer coefficient can be referenced from eqn (5).
+
+NH2 ¼ kLaC*H2 (5)
+
+Published on 04 April 2025. Downloaded by Hokkaido Daigaku on 10/25/2025 6:36:39 AM.
+
+Fig. 6 Relationship between solvent ratio in the working solution and conversion and mass transfer (molar ratio of anthraquinone to hydrogen is 1:1). uL = 3.09 mm s−1, C0 = 300 g L−1, P0 = 300 kPa, T = 50 °C. (a) Evolution of conversion with gas velocity under different solvent ratio; (b) overall volumetric mass transfer coefficient under the same conditions.
+
+conversion rate is lower when passing through the same hydrogenation reactor under identical conditions. Consequently, the probability of deep hydrogenation producing degradation products is reduced, thereby offering a higher advantage in effective anthraquinone retention rate. This optimization in effective anthraquinone retention rate is achieved due to the high solubility of AAQ in the working solution. Therefore, setting the concentration of AAQ at 300 g L−1 is more advantageous. The hydrogen conversion rates under each condition can correspond to the situation with uG = 10.8 mm s−1 in Fig. 7(a). 3.1.3 Influence of apparent residence time and two-phase flow rate. The apparent residence time in the reactor is critical for substance conversion, directly affecting the reaction conversion rate and effective anthraquinone retention rate. Fig. 9(a) illustrates the relationship between apparent residence
+
+conversion rates due to similar apparent residence times and reaction material amounts. Higher anthraquinone concentrations enhance mass transfer performance, increasing the overall volumetric mass transfer coefficient, as depicted in Fig. 7(b). This is likely because higher concentrations provide a greater driving force for mass transfer, facilitating more efficient utilization of the catalyst surface. A higher anthraquinone concentration can accelerate the replacement rate of anthraquinone on the catalyst surface, ensuring that the hydrogen in the liquid phase is consumed more quickly, thereby increasing the apparent reaction rate. This is reflected in a significant improvement in the volumetric mass transfer coefficient of hydrogen between the gas and the liquid phases. Fig. 8 shows that different AAQ concentrations significantly impact the effective anthraquinone retention rate. This is because at higher anthraquinone concentrations, the
+
+Fig. 7 Relationship between anthraquinone concentration in the working solution and conversion and mass transfer (molar ratio of anthraquinone to hydrogen is 1 : 1). uL = 3.09 mm s−1, TMB : TOP = 3 : 1, P0 = 300 kPa, T = 50 °C. (a) Evolution of conversion with gas velocity under different anthraquinone concentrations; (b) overall volumetric mass transfer coefficient under the same conditions.
+
+particles, increasing the surface area available for reaction. Although higher two-phase flow rates can achieve shorter reaction apparent residence times and higher mass transfer efficiency, they also result in lower hydrogen efficiency (B) of the working solution. Moreover, the 9-second reaction apparent residence time is two orders of magnitude shorter than that typically used in industrial processes, offering a significant advantage. Subsequent studies have shown that at a 9 s apparent residence time, the effective anthraquinone retention rate remains as high as 99.9%. In this part of the experiment, when the hydrogen flow rate is 10.8 mm s−1, 9 s represents the apparent residence time, the effect of hydrogen consumption on the gas flow rate is more obvious. This results in a lower gas content and a higher liquid content, leading to a longer actual apparent residence time of the liquid phase compared to the apparent residence time. 3.1.4 Influence of temperature. Temperature, as a crucial operational parameter, significantly influences the reaction process. The study considered three industrially relevant temperature gradients: 30 °C, 50 °C, and 70 °C. Fig. 10(a) shows that the conversion rate within the reactor's working solution increases significantly with temperature. An increase from 30 °C to 70 °C almost doubles the conversion rate. The elevated temperature enhances mass transfer due to increased molecular motion, accelerating the mass transfer rate and thus increasing the overall volumetric mass transfer coefficient, as shown in Fig. 10(b). Therefore, the most direct reason for the increased conversion rate with temperature is the enhanced volumetric mass transfer coefficient. Additionally, higher temperatures can decrease the viscosity of the liquid phase, further enhancing the mass transfer rates and improving reaction kinetics. Fig. 11 reveals that although the conversion rate and mass transfer performance significantly increase when the temperature is set to 70 °C, the effective anthraquinone retention rate significantly decreases with the rise in
+
+Published on 04 April 2025. Downloaded by Hokkaido Daigaku on 10/25/2025 6:36:39 AM.
+
+Fig. 8 Effective anthraquinone retention rate of the reaction at different AAQ concentrations (molar ratio of anthraquinone to hydrogen is 1 : 1). uG = 10.8 mm s−1, uL = 3.09 mm s−1, TMB : TOP = 3 : 1, P0 = 300 kPa, T = 50 °C.
+
+time and anthraquinone conversion under a molar ratio of anthraquinone to hydrogen of 1 :1 and the liquid flow ranges from 0.6–3.1 mm s−1. As a result of the fixed anthraquinone-to- hydrogen molar ratio, the gas–liquid flow rates exhibit proportional variations in the plots. It is evident that with increasing two-phase flow rates, the apparent residence time decreases, leading to a reduction in conversion rate. However, due to the enhanced gas–liquid mass transfer capability of the micro-packed bed, a 27% anthraquinone conversion rate is achieved with an apparent residence time of only 9 seconds, corresponding to a hydrogen efficiency of 10.13 g L−1. Although the conversion rate decreases with increasing biphasic flow rates, the enhanced disturbance in gas–liquid phases increases the overall volumetric mass transfer coefficient, as shown in Fig. 9(b). This enhancement in mass transfer is due to the reduction in boundary layer thickness around the catalyst
+
+Fig. 9 Relationship between apparent residence time and conversion and mass transfer (molar ratio of anthraquinone to hydrogen is 1 : 1). TMB : TOP = 3 : 1, C0 = 300 g L−1, P0 = 300 kPa, T = 50 °C. (a) Evolution of conversion with gas velocity; (b) overall volumetric mass transfer coefficient under the same conditions.
+
+Published on 04 April 2025. Downloaded by Hokkaido Daigaku on 10/25/2025 6:36:39 AM.
+
+Fig. 10 Relationship between temperature and conversion and mass transfer (molar ratio of anthraquinone to hydrogen is 1 : 1). TMB : TOP = 3 : 1, C0 = 300 g L−1, P0 = 300 kPa. (a) Evolution of conversion with gas velocity under different temperatures; (b) overall volumetric mass transfer coefficient under the same conditions.
+
+temperature. At 50 °C, the effective anthraquinone retention rate remains high. At this temperature, AAQ shows good reactivity at the catalytic sites and can promptly detach after hydrogenation to AAQH2, reducing the likelihood of over- hydrogenation. Compared to 30 °C, 50 °C maintains higher mass transfer and reaction performance, making it a more suitable reaction temperature for this process. 3.1.5 Influence of reactor working pressure. The working pressure is a crucial parameter for gas–liquid reactions. This study explored the impact of varying working pressures on reaction performance, an area not extensively studied.48 As shown in Fig. 12(a), the working pressure changes have a minimal impact on overall conversion rates. However, in the range of 200–400 kPa, increasing the working pressure reduces the volumetric flow rate of the gas phase and slows
+
+down the gas phase flow, which affects the contact efficiency between the gas and the liquid phases. The increase in working pressure reduces the flowability of the gas phase, slowing down the gas flow rate and decreasing the opportunities for gas molecules to contact the liquid phase. As a result, the mass transfer process at the gas–liquid interface becomes less efficient, thereby reducing the overall volumetric mass transfer coefficient, as shown in Fig. 12(b). The total mass transfer rate is governed by two competing factors: the volumetric mass transfer coefficient and the mass transfer driving force. At 200 kPa, the lower hydrogen partial pressure reduces the driving force. However, the higher gas volumetric flow rate increases turbulence and interfacial contact, leading to a larger volumetric mass transfer coefficient. Conversely, at 400 kPa, the elevated hydrogen partial pressure enhances the driving force, but the reduced gas flow rate (due to lower volumetric expansion) diminishes gas–liquid contact efficiency, decreasing the volumetric mass transfer coefficient. Furthermore, the increased liquid-phase hydrogen solubility at higher pressures elevates system resistance and energy consumption. Therefore, 300 kPa optimally balances these competing effects: sufficient hydrogen partial pressure to maintain a robust driving force, while retaining adequate gas flow rates to sustain a high volumetric mass transfer coefficient. This equilibrium minimizes over-hydrogenation risks and maximizes reactor stability. 3.1.6 Influence of gas–liquid molar ratio. The feed ratio of gas to liquid is critical for the reaction. This section discusses the effects of different feed molar ratios on the reaction and mass transfer. The study considered three feed states with gas–liquid molar ratios of 3 : 1, 2 : 1, and 1 : 1. By fixing the hydrogen flow rate and adjusting the liquid flow rate to alter the molar ratio, Fig. 13(a) demonstrates that higher gas– liquid ratios yield higher conversion rates under identical reaction conditions. Increased gas flow rates thin the liquid
+
+Fig. 11 Effective anthraquinone retention rate of the reaction at different system temperatures (molar ratio of anthraquinone to hydrogen is 1 : 1). uG = 10.8 mm s−1, uL = 3.09 mm s−1, TMB : TOP = 3 : 1, C0 = 300 g L−1, P0 = 300 kPa.
+
+Published on 04 April 2025. Downloaded by Hokkaido Daigaku on 10/25/2025 6:36:39 AM.
+
+Fig. 12 Relationship between working pressure in the bed and conversion and mass transfer (molar ratio of anthraquinone to hydrogen is 1 : 1). TMB : TOP = 3 : 1, C0 = 300 g L−1, T = 50 °C. (a) Relationship between reaction working pressure and conversion; (b) overall volumetric mass transfer coefficient under the same conditions.
+
+3.2 Stability and effective anthraquinone retention rate of the reaction in long cycles
+
+film on the catalyst particles, reducing mass transfer distance and enhancing volumetric mass transfer coefficients. This conclusion is reflected in Fig. 13(b), where the overall volumetric mass transfer coefficient increases with higher gas–liquid molar ratios and increased biphasic flow rates. The thinner liquid film reduces the diffusion path length for reactants, facilitating quicker access to the catalyst surface and enhancing the reaction rate. However, as the gas–liquid molar ratio increases, the concentration of hydrogen in the hydrogenation reaction significantly rises, leading to a higher probability of over- hydrogenation. As shown in Fig. 14, under the same liquid phase conditions, a larger gas–liquid molar ratio results in lower effective anthraquinone retention rate. Therefore, selecting a gas–liquid molar ratio of 1 : 1 is more suitable for the reaction.
+
+In order to address the long operational cycles of industrial equipment for hydrogen peroxide production, it is necessary to understand whether the effective anthraquinone retention rate and conversion rate of the working liquid in the reactor will change during extended cycles of operation. At the same time, it is necessary to verify whether the μPBR in the microchemical system is capable of experimentally simulating the industrial anthraquinone cycle operation. To observe the stability of the working solution in the hydrogenation process within μPBRs, long-cycle recycling experiments were conducted to verify the process stability. We chose to conduct the cycling experiments under optimal conditions with a hydrogen efficiency of 10.13 g L−1. The
+
+Fig. 13 Relationship between gas–liquid molar ratio and conversion and mass transfer. TMB : TOP = 3 : 1, C0 = 300 g L−1, P0 = 300 kPa, T = 50 °C. (a) Relationship between gas–liquid molar ratio and conversion; (b) overall volumetric mass transfer coefficient under the same conditions.
+
+stability can be attributed to the uniform distribution of reactants and catalysts within the micro-packed bed, minimizing hotspots and side reactions.
+
+3.3 Advantages of μPBRs and superior performance of AAQ over EAQ
+
+The hydrogenation reactor is pivotal in the anthraquinone hydrogenation process, significantly impacting the overall efficiency of hydrogen peroxide production.50 Table summarizes the comparison of various hydrogenation reactors applied to the anthraquinone hydrogenation system. Among traditional hydrogenation reactors such as slurry reactors, trickle-bed reactors (TBRs), and fluidized bed reactors, micro- packed-bed reactors (μPBRs) stand out due to several key advantages. These include higher effective anthraquinone retention rate, superior mass transfer efficiency, simpler reactor structure, and high hydrogenation efficiency. Additionally, μPBRs have a low material hold-up, which significantly reduces the risk of explosions and enhances operational safety. Fig. 16(a) compares the effective anthraquinone retention rate and reaction time between μPBRs (this work) and TBRs.45 The results demonstrate that μPBRs exhibit a significantly higher effective anthraquinone retention rate compared to TBRs. This enhanced retention rate eliminates the need for post-treatment processes in cyclic reactions, thereby simplifying the overall process. Moreover, μPBRs achieve remarkably short apparent residence times, on the order of seconds, which is 1–2 orders of magnitude shorter than those in TBRs. This not only ensures a high effective anthraquinone retention rate but also significantly reduces the reaction risk associated with prolonged exposure to reactive conditions. Fig. 16(b) provides a comparison between the use of 2-amylanthraquinone (AAQ) in this study and 2-ethylanthraquinone (EAQ) as reported by Halder et al.14 It
+
+Published on 04 April 2025. Downloaded by Hokkaido Daigaku on 10/25/2025 6:36:39 AM.
+
+Fig. 14 Effective anthraquinone retention rate of the reaction at different gas–liquid molar ratios. uG = 10.8 mm s−1, uL = 3.09 mm s−1, TMB : TOP = 3 : 1, C0 = 300 g L−1, P0 = 300 kPa, T = 50 °C.
+
+experiment effective anthraquinone retention rate results are shown in Fig. 15(a); the effective anthraquinone retention rate in the working solution remained above 99.1% after 10 cycles. The losses of AAQ occurred due to local over- hydrogenation leading to degradation products, and the total losses of AAQ in the 10 cycles was controlled within 1%. From Fig. 15(a), it can be seen that after the sixth cycle of the working solution, the effective anthraquinone content stabilizes. This is because the H4AAQ content and AAQ content in the working solution reach equilibrium, significantly reducing the probability of over- hydrogenation.49 Additionally, the reaction effectiveness of the working solution is crucial. Post multiple cycles, the conversion rate of AAQ remained highly stable as shown in Fig. 15(b), indicating that the hydrogenation process of anthraquinone offers excellent reaction advantages in μPBRs. The consistent effective anthraquinone retention rate and
+
+Fig. 15 Recycling experiments of the working solution under conditions of uG = 10.8 mm s−1 and uL = 3.09 mm s−1, C0 = 300 g L−1, P0 = 300 kPa, T = 50 °C, gas–liquid molar ratio = 1. (a) Effective anthraquinone retention rate after multiple cycles; (b) reaction conversion after multiple cycles.
+
+Table 3 Performance comparison of various hydrogenation reactors
+
+Item Slurry stirring tank51 Trickle bed45 μPBR
+
+Catalyst (1–2)%Pd/Al2O3–SiO2; powder, expensive 0.3 ± 0.02%Pd/Al2O3; extrudate; 3 mm in diameter
+
+3.4%Pd/ Al2O3; sphere; 30–70 μm in diameter
+
+Hydrogenation activity (B) (gH2O2 L−1) ≥9 6–7 9–12
+
+Volumetric mass transfer coefficient (s−1) 3 × 10−5–8 × 10−4 0.004–0.07 0.2–0.8
+
+Effective anthraquinone retention rate (%) 85–90 95–98 >99.5
+
+STY (gH2O2 gPd −1 h−1) 13.4–16.2 13.5 238.2–336.8 Structure Complicated structure; carefully designed; mechanical stirrer and seal
+
+Published on 04 April 2025. Downloaded by Hokkaido Daigaku on 10/25/2025 6:36:39 AM.
+
+Simple structure; gas and liquid distributors Simple structure; gas and liquid distributed by T-junction
+
+Operation Continuous; high cost; difficult to operate Continuous; low cost; easy to operate Continuous; very low cost; easy to operate; equipment easy on or off
+
+Fig. 16 (a) Comparison of effective anthraquinone retention rate and reaction time between μPBRs and TBRs. (b) Comparison of reaction performance between AAQ (α: this work) and EAQ (β: Halder et al.14).
+
+STY ¼ mH2O2 mPd·t (8)
+
+clearly shows that AAQ exhibits a significantly higher effective anthraquinone retention rate compared to EAQ. Since the solubility of AAQ is significantly higher than that of EAQ, when the operating conditions require achieving a certain hydrogen efficiency (B), AAQ can reach the target with a lower conversion rate, thus ensuring higher effective anthraquinone retention rate. For example, when using a 300 g L−1 AAQ working solution and a 100 g L−1 EAQ working solution, to achieve an industrial hydrogen efficiency of 8 g L−1, the EAQ working solution needs to reach a conversion rate of 58%, while AAQ needs to achieve only a 20% conversion rate. A lower conversion rate means a lower possibility of degradation product formation. This superior performance of AAQ over EAQ offers significant guidance for the development and optimization of microreactor equipment and processes for hydrogen peroxide production. Furthermore, the space–time yield (STY) of different reactors is crucial for reactor selection. The STY calculation formula is shown in eqn (8).
+
+where mH2O2 is the mass of H2O2 formed per unit volume of working solution after reaction (g), mPd is the mass of the active component (Pd) of the catalyst added to the working solution per unit volume (g), and t is the reaction time (h). This parameter can effectively help us understand the utilization efficiency of palladium metal catalysts within the reactor. Given the high cost of palladium, its effective utilization is of great importance. The calculated STY results are presented in Table 3. Under the same temperature and pressure conditions (P = 0.2 MPa, T = 50 °C), the STY value of μPBRs is approximately 25 times that of slurry reactors and nearly 21 times that of TBRs compared to the values reported in the literature.51 This comparison clearly demonstrates the significant enhancement of the anthraquinone hydrogenation process by μPBRs.
+
+4 Conclusions
+
+3.4 Mass transfer prediction model in μPBRs
+
+This study demonstrates the successful application of μPBRs for the hydrogenation of 2-amylanthraquinone (AAQ), significantly enhancing the process efficiency of the Riedl–Pfleiderer method for hydrogen peroxide production. μPBRs exhibited a space– time yield (STY) approximately 25 times higher than that of slurry reactors and nearly 21 times higher than that of trickle- bed reactors (TBRs) under identical conditions. Under optimal conditions, the hydrogenation efficiency reaches 10.13 g L−1, with an effective anthraquinone retention rate of up to 99.9%, and the process performance significantly exceeds that of EAQ. This overcomes the issue in the Riedl–Pfleiderer process where effective anthraquinone retention rate and hydrogenation efficiency cannot be simultaneously achieved. Furthermore, after completing a long-cycle test, the effective anthraquinone content remains at 99.1% after 10 cycles. This improvement is attributed to the higher surface area-to-volume ratio, improved mass and heat transfer rates, and better catalyst utilization in μPBRs. Besides, a mass transfer prediction model was developed and validated with an error margin within 20%. This model enhances our understanding of mass transfer phenomena and offers a predictive tool for optimizing reaction conditions. The study also demonstrated superior catalyst efficiency and operational stability in μPBRs, maintaining high conversion rates and effective anthraquinone retention rates while minimizing AAQ degradation. In addition, the micro-scale design of μPBRs minimizes hydrogen accumulation risks, enhancing both operational safety and reliability. In summary, the integration of μPBRs in AAQ hydrogenation marks a significant advancement, offering improved efficiency, safety, and sustainability. The innovative mass transfer model and the compelling performance benefits underscore μPBRs as a promising choice for future industrial applications, paving the way for the next generation of high-performance hydrogenation reactors. Additionally, several areas still require further research and improvement. For instance, the specific apparent reaction kinetics of AAQ hydrogenation within μPBRs need to be further investigated to deepen our understanding of the reaction process. Additionally, while μPBRs have demonstrated excellent performance at the laboratory scale, scaling up these reactors for industrial applications presents significant challenges, including issues related to parallel scaling method.
+
+The establishment of a mass transfer model is crucial for understanding the intrinsic mechanisms within μPBRs and for the effective design of such reactors.38,48 By developing the mass transfer prediction model, we aim to accurately describe the behavior of gas–liquid phases during the hydrogenation reaction. The mass transfer model allows us to predict the reactor's performance under various operating conditions, thereby optimizing the reaction parameters to enhance efficiency and effective anthraquinone retention rate. The mass transfer model development is based on a comprehensive understanding of the hydrogenation process in μPBRs, which is based on the experiment data. We have incorporated dimensionless parameters such as the liquid- phase Reynolds number (ReL), the gas-phase Weber number (WeG), and the Schmidt number (Sc) to effectively characterize the behavior of gas–liquid two-phase flow and mass transfer. The choice of these parameters is grounded in their ability to represent the dynamic interactions within μPBRs. ReL describes the flow inertia force of the liquid phase, WeG indicates the interfacial disturbances between gas and liquid phases, and Sc relates to the diffusion properties of the phases. By fitting the data, a mass transfer prediction model for the micro-packed bed was obtained, as shown in eqn (9). The mass transfer prediction results are illustrated in Fig. 17.
+
+Published on 04 April 2025. Downloaded by Hokkaido Daigaku on 10/25/2025 6:36:39 AM.
+
+Sh = 0.035Re0.22 L We0.15 G Sc0.52 (9)
+
+Prediction of the model has shown that the predicted results have an error margin within 20%, demonstrating the model's reliability and applicability. It provides a theoretical foundation for the design and optimization of μPBRs. Eqn (9) is valid for ReL = 0.01–0.15, WeG = 0.00001–0.0005, and Sc = 500–2000, reflecting the experimental conditions studied.
+
+Nomenclature
+
+a Specific surface area B Hydrogen efficiency (mass of H2O2 that can be obtained per liter of working solution after hydrogenation and oxidation), g L−1
+
+C Liquid phase concentration, mol L−1
+
+Co Anthraquinone concentration in the working solution, mol L−1
+
+dp Average diameter of packed particles, μm d Inner diameter of the μPBRs, μm Fig. 17 Hydrogenation mass transfer model in μPBRs.
+
+D Gaseous-diffusion coefficient, m2 s−1
+
+Freakley, C. J. Kiely, Y. Yamamoto and G. J. Hutchings, Science, 2022, 376, 615–620. 3 D. Zhang, G. Xu, T. Chen and F. Chen, RSC Adv., 2014, 4, 52199–52202. 4 D. Pangotra, L.-I. Csepei, A. Roth, C. Ponce de León, V. Sieber and L. Vieira, Appl. Catal., B, 2022, 303, 120848. 5 S. Mavrikis, S. C. Perry, P. K. Leung, L. Wang and C. Ponce de León, ACS Sustainable Chem. Eng., 2020, 9, 76–91. 6 S. Ranganathan and V. Sieber, Catalysts, 2018, 8, 379. 7 G. Bombi, S. Lora, M. Zancato, A. A. D'Archivio, K. Jerabek and B. Corain, J. Mol. Catal. A: Chem., 2003, 194, 273–281. 8 Y. Guo, C. Dai and Z. Lei, Chem. Eng. Sci., 2017, 172, 370–384. 9 H. Bai, X. Fang and C. Peng, Ind. Eng. Chem. Res., 2019, 58, 6948–6956. 10 Y. Cheng, L. Wang, S. Lü, Y. Wang and Z. Mi, Ind. Eng. Chem. Res., 2008, 47, 7414–7418. 11 B.-J. Wang, Z.-Y. Tang, D. Wang, Y. Luo, Z.-H. Liu, H.-K. Zou and G.-W. Chu, Chem. Eng. J., 2022, 428, 132066. 12 G. Gao, Y. Tian, X. Gong, Z. Pan, K. Yang and B. Zong, Chin. J. Catal., 2020, 41, 1039–1047. 13 E. Santacesaria, M. Di Serio, A. Russo, U. Leone and R. Velotti, Chem. Eng. Sci., 1999, 54, 2799–2806. 14 R. Halder and A. Lawal, Catal. Today, 2007, 125, 48–55. 15 D. Wang, Y.-Z. Liu, B.-J. Wang, G.-W. Chu, B.-C. Sun and Y. Luo, Ind. Eng. Chem. Res., 2019, 59, 1383–1392. 16 Z. Ma, T. Yan, L. I. Wang, Y. Wang, Z. Mi and F. Buciuman, Chem. Eng. Commun., 2004, 191, 1554–1563. 17 G. Chen, T. Zhou and H. Li, Can. J. Chem. Eng., 2008, 86, 288–292. 18 K. Wang and G. Luo, Chem. Eng. Sci., 2017, 169, 18–33. 19 L. Sheng, Y. Chang, J. Wang, J. Deng and G. Luo, Chem. Eng. Sci., 2024, 285, 119563. 20 S. Haase, D. Y. Murzin and T. Salmi, Chem. Eng. Res. Des., 2016, 113, 304–329. 21 I. Mohammed, T. Bauer, M. Schubert and R. Lange, Chem. Eng. J., 2013, 231, 334–344. 22 J. Song, C. Du, J. Wang, Y. Cui, Y. Wang, J. Deng and G. Luo, React. Chem. Eng., 2022, 2322–2333, DOI: 10.1039/ D2RE00224H. 23 J. Wang, J. Song, L. Sheng, J. Deng and G. Luo, Ind. Eng. Chem. Res., 2023, 62, 1695–1705. 24 D. Van Herk, M. T. Kreutzer, M. Makkee and J. A. Moulijn, Catal. Today, 2005, 106, 227–232. 25 Y. Cui, Y. Li, K. Wang, J. Deng and G. Luo, Langmuir, 2020, 36, 13633–13641. 26 Y. Chen, L. Sheng, J. Deng and G. Luo, Ind. Eng. Chem. Res., 2021, 60, 4735–4744. 27 Y. Cui, J. Song, C. Du, J. Deng and G. Luo, AIChE J., 2022, 68, e17564. 28 M. Shang, T. Noël, Q. Wang, Y. Su, K. Miyabayashi, V. Hessel and S. Hasebe, Chem. Eng. J., 2015, 260, 454–462. 29 M. Shang, T. Noël, Q. Wang and V. Hessel, Chem. Eng. Technol., 2013, 36, 1001–1009. 30 C. Zhang, X. Duan, J. Yin, F. Lou and J. Zhang, React. Chem. Eng., 2022, 7, 1289–1296.
+
+k′ Volumetric mass transfer coefficient, m s−1
+
+MAAQ Relative molecular mass of AAQ MH2O2 Relative molecular mass of H2O2 mH2O2 Mass of H2O2 formed per unit volume of working solution after reaction, g mPd Mass of active component (Pd) of the catalyst to working solution per unit volume, g L Micro-packed bed length, cm Q Rate of flow, mL min−1
+
+Published on 04 April 2025. Downloaded by Hokkaido Daigaku on 10/25/2025 6:36:39 AM.
+
+Qmix Total volumetric flow rate of the gas–liquid mixture, mL min−1
+
+Re Reynolds number, Re ¼ ρud μ R Effective anthraquinone retention rate of the reaction per cycle, % Sc Schmidt number, Sc ¼ μ ρD Sh Sherwood number, Sh ¼ k′L D STY Space–time yield, gH2O2 gPd −1 h−1
+
+X AAQ hydrogenation reaction conversion ratio, % T Temperature, °C t Apparent residence time of the reaction, s u Liquid or gas velocity in the channel, m s−1
+
+Vbed Bed volume, m3
+
+VR Pore volume in the μPBR, m3
+
+We Weber number, We ¼ ρu2d σ W Mass concentration of anthraquinone, g L−1
+
+ρ Density, kg m−3
+
+μ Viscosity of liquid, mPa s σ Surface tension, mN m−1
+
+ε Bed porosity,
+
+Subscript
+
+G Gas (hydrogen) L Liquid (solution)
+
+Data availability
+
+The data supporting this article have been included as part of the ESI.†
+
+Conflicts of interest
+
+There are no conflicts to declare.
+
+Acknowledgements
+
+We gratefully acknowledge financial support from the National Natural Science Foundation of China (No. 21991104) and Tsinghua-Toyota Joint Research Fund.

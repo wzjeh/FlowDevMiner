@@ -1,0 +1,21 @@
+Summary: The paragraph discusses the polymerization process in a capillary microreactor using aniline as the reactant. The transport of aniline from the organic phase to the aqueous phase is crucial for the reaction. To investigate the effect of volumetric flow rate ratio on mass transfer and polymerization, total volumetric flow rate (Qtotal) was fixed at 0.5 ml/min with residence time of 95 s at 35 °C. The photos in Fig. 11 show slug flow variations due to changes in q. The dispersed phase slug length (Ls) increased with increasing q, and a modified capillary number (Ca*) was introduced to account for viscosity and interfacial tension effects on slug generation.
+
+Flow-chemistry process development: Organic phase polymerization of methyl acrylate with aqueous phase initiator; Capillary microreactors used as reactors; Residence time constant (95 s); Temperature (35 °C); Flow rates maintained for volumetric flow rate ratio (Qaq: Qorg = 2); Reynolds number varied by adjusting reactor length.
+
+ReM the mean Reynolds number of the organic and aqueous phases, 1 T the polymerization temperature, °C t residence time, s uM the superficial velocity of the liquid phase, m/s x the conversion of aniline, 1
+
+Ca* the modified capillary number, 1 CAN the concentration of aniline in the organic phase, mol/L Coxi the concentration of oxidant in the organic phase, mol/L Cp the concentration of PANI in the aqueous phase, mol/L CHCl,0 the initial concentration of hydrochloric acid in the aqu- eous phase, mol/L Corg,0 the concentration of aniline in the organic phase at the microreactor inlet, mol/L Corg,1 th
+
+The reaction rate is usually strongly dependent on the temperature that should be well controlled for highly exothermic polymerization processes. The eﬀect of the temperature on the PANI synthesis in mi- croreactors was investigated with the residence time of 95 s at constant volumetric flow rates of the aqueous phase and the organic phase. As shown in Fig. 3, the increase of the polymerization te
+
+and chemical industry has gained increasing attention [1–7]. Micro- reactors have numerous advantages, such as larger specific surface area, higher mixing eﬃciency, faster heat and mass transfer rates, enhanced
+
+where di is the inner diameter of the capillary microreactor, uM is the superficial velocity, μM is the mean viscosity of the two immiscible li- quid phases.
+
+The continuous synthesis of polyaniline was realized in capillary microreactors within liquid-liquid slug flow through the chemical oxi- dative polymerization method. The eﬀects of various factors on the polymerization process in microreactors were investigated, and the hydrodynamics and the mass transfer associated with the polymeriza- tion were characterized. The high-speed CCD camera facilitate
+
+The hydrodynamics and mass transfer performance in the chemical oxidative polymerization of aniline in ca- pillary microreactors within the liquid-liquid slug flow regime were investigated. Higher reaction temperature, higher HCl concentration and larger volumetric flow rate ratio of the aqueous phase to the organic phase im- proved the mass transfer performance and thus led to higher yield of pol
+
+Summary
+ The paragraph discusses the development of a flow-chemistry process for polymerization reactions using aqueous phase and organic phase with different volumetric flow rate ratios. The focus is on optimizing the reaction conditions to achieve high conversion, yield, and selectivity while maintaining residence time and temperature control within desired limits.
+

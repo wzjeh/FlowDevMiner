@@ -1,0 +1,1 @@
+{"reaction_summary": {"reaction_type": "oxidation", "reactants": ["MeOH"], "products": ["formaldehyde", "carbon dioxide"], "conditions": [{"type": "temperature", "value": 50}, {"type": "residence_time", "value": null}], "catalyst": {"name": "AuPd", "support": "CeO2"}, "reactor": {"type": "trickle bed reactor", "inner_diameter": 0.5}}}

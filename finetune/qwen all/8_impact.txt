@@ -1,0 +1,18 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of TFMB | increase |
+| temperature | selectivity of p-NB | decrease |
+| temperature | selectivity of o-NB | increase |
+| temperature | selectivity of m-NB | increase |
+| temperature | selectivity of DNB | increase |
+| residence_time | conversion of TFMB | increase |
+| residence_time | product selectivity | unchanged |
+| sulfuric_acid_strength | conversion of TFMB | increase |
+| sulfuric_acid_strength | product selectivity | unchanged |
+| reactant_concentration | conversion of TFMB | increase |
+| reactant_concentration | product selectivity | unchanged |
+| flow_rate | conversion of TFMB | decrease |
+| flow_rate | selectivity of mononitration products | unchanged |
+| flow_rate | selectivity of DNB | decrease |

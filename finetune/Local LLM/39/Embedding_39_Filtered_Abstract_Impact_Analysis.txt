@@ -1,0 +1,16 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| residence_time | conversion of EC | increase |
+| residence_time | mass_transfer_efficiency | decrease |
+| residence_time | molar_ratio_EC_Cl2 | unchanged |
+| temperature | EC_conversion | - |
+| product_purity | increase | increase |
+| target_product_yield | increase | increase |
+| chlorination_kinetics | accelerate | - |
+| temperature_control_module | no relation | - |
+| LED_illumination_unit | no relation | - |
+| residence_time | conversion of EC | increase |
+| residence_time | mass_transfer_efficiency | decrease |
+| product_purity | increase | increase |

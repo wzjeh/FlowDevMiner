@@ -1,0 +1,25 @@
+{inner_diameter_match.group(1)}
+
+{"name": "5-APHIN", "yield_optimal": 99.3, "unit": "%"}
+
+{"name": name, "yield_optimal": None, "unit": "%"}
+
+{"name": None, "yield_optimal": yield_optimal, "unit":"%"}
+
+{"name": "5-ATHIN", ...}
+
+{ "reaction_summary": {  "reaction_type":"continuous flow",  "reactants":[{"name":"Raney Ni","role":"catalyst"}],  "products":[{"name":"crizotinib intermediate","yield_optimal":99,"unit":"%"}],  "conditions":[    {"type":"temperature","value":null},    {"type":"residence_time","value":6},    {"type":"flow_rate_reactant_A","value":null},    {"type":"pressure","value":null}  ],  "reactor":{"type":"micropacked bed", "inner_diameter":null}
+
+{"name": f"{name1}-{name2}", "role": "reactant"}
+
+{
+        "conversion": None,
+        "yield": None,
+        "selectivity": None,
+        "unit": "%"
+    }
+
+{"reaction_summary": {"reaction_type": "hydrogenation", "reactants": [{"name": "5-NTIN", "role": "reactant"}], "products": [{"name": "...", "yield_optimal": 95, "unit": "%"}], "conditions": [{"type": "temperature", "value": "25 °C"}, {"type": "residence_time", "value": null}, {"type": "flow_rate_reactant_A", "value": 30}], "reactor": {"type": "coil", "inner_diameter": null}, "metrics": {"conversion": 99, "yield": 95, "selectivity": null, "unit": "%"}}}
+
+{"type":"temperature","value":match.group(1)+" °C"}
+

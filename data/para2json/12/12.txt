@@ -1,0 +1,223 @@
+Selective Liquid-Phase Hydrogenation of a Nitro Group in Substituted Nitrobenzenes over Au/Al2O3 Catalyst in a Packed-Bed Flow Reactor
+
+Alexey L. Nuzhdin,[a] Boris L. Moroz,[a, b] Galina A. Bukhtiyarova,*[a] Sergey I. Reshetnikov,[a] Pavel A. Pyrjaev,[a] Pavel V. Aleksandrov,[a] and Valerii I. Bukhtiyarov[a, b]
+
+A series of substituted nitrobenzenes with the general formula XC6H4NO2 (X=Cl, CH=CH2, or C(O)CH3) dissolved in toluene were reduced with hydrogen over the 1.9% Au/Al2O3 catalyst at 60–1108C and 10–20 bar in a three-phase packed-bed reac- tor operating in up-flow mode. Under these conditions, hydro- genation of isomeric ClC6H4NO2 gives exclusively chloroani- lines. Hydrogenation of 3-CH2CHC6H4NO2 and 4-
+
+catalyst deactivation was observed regardless of which substi- tuted nitrobenzene was taken for hydrogenation. According to the results obtained by temperature-programmed oxidation of the spent catalyst, a carbonaceous deposit formed that might block the catalyst surface. Almost complete regeneration of the supported gold catalyst with retention of its high selectivi- ty to hydrogenation of a nitro group was achieved in a flow of air at temperatures up to 4008C to eliminate carbonaceous de- posits.
+
+CH3C(O)C6H4NO2 leads to the formation of 3-CH2CHC6H4NH2 and 4-CH3C(O)C6H4NH2 with selectivities of up to 93 and 97% at substrate conversions of 98 and 100%, respectively. Smooth
+
+Functionalized anilines are commercially valuable products that are intermediates in the manufacture of variety of agro- chemicals, herbicides, polymers, pharmaceuticals, and dyes.[1,2]
+
+ganic modifiers, allow success to be attained in certain cases. During the last decade, it was found that functionalized ani- lines could be obtained with very high selectivity by hydroge- nation of the corresponding nitroaromatic compounds over supported gold catalysts; these delivered lower reaction rates than those of palladium and platinum catalysts, but were much more chemoselective and did not require modifiers.[2,4–11]
+
+Conventional techniques for producing anilines are based on the reduction of a nitro group with stoichiometric amounts of reducing agents, such as iron in acid media (Bechamp process), H2S, or NaHS, but these processes are accompanied by the for- mation of a large amount of harmful waste products and dem- onstrate low selectivity when used for the reduction of substi- tuted nitrobenzenes.[2] Catalytic hydrogenation is undoubtedly a more economical and environmentally friendly alternative for the production of functionalized anilines. Many excellent mon- ographs and reviews have described catalysts, reaction media, and conditions required to achieve selective reduction of the nitro group with hydrogen in the presence of other reducible groups (C�Cl, C=O, or C=C bonds).[2,3] The authors unanimous state that catalytic metals (e.g., Pd, Pt, and Ni), which are most widely used for the hydrogenation of organic compounds, barely provide the selective reduction of nitro groups when other reducible groups are present in the same substrate, al- though adjustment of the solvent, catalyst support, and noble- metal particle size, as well as the addition of organic or inor-
+
+The superiority of gold catalysts in this respect was clearly con- firmed by the fact that the introduction of a very small amount of palladium or platinum (100–2000 ppm) into gold nanoparticles resulted in a sharp drop in selectivity for the hy- drogenation of a nitro group in the presence of C�Cl or C=C bonds.[7c,9d] It was also demonstrated that hydrogenation of ni- troaromatics over gold catalysts was a structure-sensitive reac- tion that demanded a coordinatively unsaturated gold site for the activation/dissociation of H2, and therefore, control of gold dispersion was essential to attain active catalysts.[2,4,7,11] Gold particles with diameters of less than 3 nm exhibit the highest catalytic activity expressed in terms of turnover frequency (TOF; as reaction rate per surface Au atom) or turnover number (TON; as reaction rate per Au concentration).[8,9,11] Vis- wanathan et al. also noted that the catalytic performance of supported gold strongly depended on the porous nature of the support because it might play an important role in stabiliz- ing the efficient dispersion of gold nanoparticles or vice versa in facilitating metal particle agglomeration.[12]
+
+[a] Dr. A. L. Nuzhdin, B. L. Moroz, Dr. G. A. Bukhtiyarova, Prof. S. I. Reshetnikov,
+
+P. A. Pyrjaev, P. V. Aleksandrov, Prof. V. I. Bukhtiyarov Boreskov Institute of Catalysis 5 Prospect Akademika Lavrentieva 5 630090 Novosibirsk (Russia) E-mail: gab@catalysis.ru
+
+performed in either liquid-phase batch reactors[5–8] or gas- phase flow reactors[4,9,10] and, to the best of our knowledge, has never been examined under continuous liquid-phase flow conditions. Meanwhile, the last decade has witnessed rapid
+
+Novosibirsk State University 2 Pirogova Street, 630090 Novosibirsk (Russia)
+
+growth in interest, both practical and academic, in performing the reactions for organic synthesis (including chemoand enantioselective hydrogenation reactions) over solid catalysts in automated three-phase flow reactors.[13] Their use allows im- proved gas–liquid–solid interactions owing to large interfacial areas to reduce accumulation of side products through better control of process variables to limit contact of employees with toxic chemicals to which they may be exposed during cleaning of equipment. Herein, we describe the first examples of highly selective hydrogenation of several substituted nitrobenzenes, such as 2-, 3-, and 4-chloronitrobenzenes (2-, 3-, and 4-CNBs); 4-acetylnitrobenzene (4-ANB); and 3-vinylnitrobenzene (3-VNB), to give the corresponding anilines over 1.9% Au/g-Al2O3 cata- lyst in a three-phase packed-bed reactor operating in up-flow mode at elevated temperatures and pressure.
+
+The Au/Al2O3 catalyst used herein was prepared through the adsorption of anionic gold(III) hydroxychloride complexes from an alkalized aqueous solution of H[AuCl4] (the so-called deposi- tion–precipitation (DP) method).[14] Treatment of alumina with a solution of H[AuCl4]+NaOH at 708C, followed by washing and drying, produced a pale-yellow material that turned to dark violet upon calcination in air at 3008C to indicate the for- mation of gold(0) nanoparticles. The as-prepared catalyst con- tained 1.9 wt% gold, as measured by X-ray fluorescence (XRF).
+
+prepared by DP comprises mainly Au particles of 1.3–2.5 nm in diameter; there are also a few smaller (di=1.0–1.2 nm) and larger (di=2.6–3.1 nm) particles. The particle size distribution (shown in the inset in Figure 1a) is rather narrow with a maxi- mum at approximately 2 nm with a standard deviation (s) equal to 0.3.
+
+Figure 1. TEM images of the 1.9% Au/Al2O3 catalyst: a) as-prepared catalyst; b) the catalyst after testing for the hydrogenation of 3-VNB in toluene under continuous-flow conditions at 808C, [3-VNB]inlet=0.05m, p(H2)=10 bar, and inlet H2/3-VNB molar ratio=107. The insets show gold particle size distribu- tions in the samples (dl and ds stand for the mean linear and surface diame- ters, respectively).
+
+Hydrogenation of a nitro group in nitroaromatic compounds over supported gold catalysts may be limited by the external transfer of reactants to the catalyst surface and not by reaction kinetics. Studying the liquid-phase hydrogenation of benzene and a-methylstyrene over solid catalysts under continuous- flow conditions, which in many ways are similar to those exam- ined herein, shows that external mass transfer is enhanced if the hydrogen flow rate at the reactor inlet is enlarged.[15] By taking this into account, a set of experiments was performed to examine the effect of hydrogen flow rate on the conversion of substituted nitrobenzene (3-VNB) over the Au/Al2O3 catalyst by increasing the H2 flow rate from 8 to 60 mLmin�1 at a con- stant liquid velocity of 0.5 mLmin�1. Figure 2 illustrates the typ- ical dependence of conversion and reaction selectivity on the flow rate of H2 and reflects the existence of two regions. At low flow rates of H2 from 8 to 30 mLmin�1, the conversion in- creases with increasing gas velocity. In this case, external mass transfer (most probably, dissolution of H2 into the solution of
+
+Figure 2. Effect of H2 flow rate on the conversion of 3-VNB and selectivity to 3-vinylaniline (3-VAN) during hydrogenation of 3-VNB in toluene over the 1.9% Au/Al2O3 catalyst. Reaction conditions: a packed-bed flow reactor, T=708C, [3-VNB]inlet=0.05m, p(H2)=10 bar, the mass of catalyst=0.185 g, flow rate of the liquid phase=0.5 mLmin�1, reaction time=30 min.
+
+ChemPlusChem 2015, 80, 1741 – 1749 www.chempluschem.org � 2015 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+nitroaromatic compound in toluene) seems to be the rate-de- termining step of the process. At higher flow rates of H2 (�30 mLmin�1), the conversion of nitroaromatic compound and selectivity for hydrogenation of a nitro group are inde- pendent of the gas velocity, which indicates that, under these conditions, external mass-transfer limitations are absent. Sub- sequently, all catalytic tests were performed at a high hydro- gen flow rate of 60 mLmin�1. As a result of special tests, we found that an enlargement of the catalyst grain sizes from 125–250 to 350–500 mm had no considerable effect on the conversion measured at a hydrogen flow rate of 60 mLmin�1, which implied negligible influence of internal mass transfer under the conditions used.
+
+Table 1 presents the results obtained with the 1.9%Au/Al2O3 catalyst for the liquid-phase hydrogenation of isomeric CNBs in a packed-bed flow reactor at 70–1108C, with a H2 flow rate of 60 mLmin�1 (p(H2)=10 bar) and flow rate of a solution of CNB
+
+Scheme 1. Generally accepted reaction scheme for the hydrogenation of iso- meric monochloronitrobenzenes into the corresponding CANs.
+
+for nitroso intermediates and its condensation products de- creases, whereas selectivity to CANs increases accordingly. The 2-CAN product is formed from 2-CNB over the Au/Al2O3 cata- lyst in quantitative yield at a H2 pressure of 10 bar and temper- ature as low as 908C, whereas obtaining the target product (3- CAN) through the hydrogenation of 3-CNB in 100% yield at the same pressure requires temperatures of not less than 1108C (Table 1, entries 3 and 7). Finally, quantitative production of 4-CAN from 4-CNB requires not only to increasing the reac- tion temperature to 1108C, but also increasing the hydrogen pressure to 40 bar (Table 1, entry 10). The difference observed in the product distributions of the hydrogenation of different isomeric CNBs under identical conditions may be related to the fact that the rate of interconversions of CNSB and its con- densation products, as well as the rate of their transformation to CAN, depend on the mutual positions of the Cl atom and nitro group in the benzene ring.
+
+Table 1. Liquid-phase hydrogenation of isomeric CNBs over the 1.9% Au/ Al2O3 catalyst in a packed-bed flow reactor.[a]
+
+[a] Reaction conditions: [CNB]inlet=0.05m; solvent: toluene; p(H2)=
+
+10 bar; mass of the catalyst: 0.185 g; flow rates of the liquid phase and H2: 0.5 and 60 mLmin�1, respectively (inlet H2/CNB molar ratio=107); re- action time=30–38 min. [b] Tested at p(H2)=40 bar. CAN=chloroaniline, CNSB=chloronitrosobenzene, n.d.=not detected.
+
+in toluene ([CNB]inlet=0.05m) equal to 0.5 mLmin�1 (inlet H2/ CNB molar ratio of 107). Under these conditions, CNB conver- sion was independent of the position of the Cl atom to the NO2 group in the benzene ring and even at 708C reached about 97% with selectivities to 2-, 3-, or 4-CAN of 96.4, 95.5, or 97.3%, respectively (Table 1, entries 1, 4, and 8). In addition, 2-, 3-, or 4-CNSB and products of condensation with the corre- sponding chlorophenylhydroxylamine (CPHA), such as 1,2-bis(- chlorophenyl)diazene N-oxide, 1,2-bis(chlorophenyl)diazene,
+
+Table 2 shows the results of liquid-phase 4-ANB hydrogenation over the Au/Al2O3 catalyst at 70–908C under continuous-flow conditions similar to those used for the hydrogenation of CNBs. The target product, 4-AAN, was formed with high selec- tivity (�94%) at any of the temperatures tested. In addition to 4-AAN, 4-VAN, 4-EAN, and a product of carbonyl–amine con- densation of two 4-AAN molecules were detected in the reac- tion mixture at the outlet of reactor. It is likely that 4-VAN ap- pears owing to hydrogenation of the carbonyl group in 4-AAN followed by dehydration of the intermediate 1-(4-aminopheny- l)ethanol, whereas 4-EAN is formed by hydrogenation of 4-VAN (Scheme 2). The yield of the condensation product decreased as the reaction temperature increased (Table 2, entries 1 and 2), and at 908C it was not detected among the reaction prod- ucts (Table 2, entry 3). On the contrary, the yield of the prod- ucts of carbonyl group reduction (4-VAN and 4-EAN) increased
+
+and 1,2-bis(chlorophenyl)hydrazine, were found in the reaction mixtures at the reactor outlet. All are key intermediates in the classical reaction mechanism for the hydrogenation of CNBs to CANs[2,16,17] (Scheme 1). No dechlorination products nor inter- mediate CPHA were detected by GC during the catalytic tests performed in this study, which indicated that, if they were pro- duced in the reaction, it was only in negligible amounts.
+
+calculated as the amount of 3-VAN formed with time relative to the amount of catalyst (moles of Au), is 0.73 min�1. Increas- ing the temperature to 808C led to an increase in the 3-VNB conversion up to approximately 98%. Simultaneously, the share of 3-VNSB, which was not further hydrogenated into 3- VAN, decreased, whereas the yield of 3-EAN, which was the product of the hydrogenation of the vinyl group in 3-VAN, in- creased almost equally (Table 3, entries 2 and 3). As a result, the selectivity to 3-VAN remained practically unchanged with reaction temperature.
+
+Table 2. Liquid-phase hydrogenation of 4-ANB over the 1.9% Au/Al2O3 catalyst in a packed-bed flow reactor.[a]
+
+[a] Reaction conditions: [4-ANB]inlet=0.05m; solvent: toluene; p(H2)= 10 bar; mass of the catalyst: 0.185 g; flow rates of the liquid phase and H2: 0.5 and 60 mLmin�1, respectively (inlet H2/4-ANB molar ratio=107); reaction time=30–38 min. 4-AAN=4-acetylaniline, 4-VAN=4-vinylaniline, 4–EAN=4-ethylaniline, n.d.=not detected.
+
+conversion over the Au/Al2O3 catalyst was further studied at different reaction temperatures. The residence time (t) was fixed at a constant H2 flow rate of 60 mLmin�1. Thus, during all experiments, a large excess of H2 was maintained in the reac- tion media (inlet H2/3-VNB molar ratio>35) to avoid external mass-transfer limitations. Figure 3a displays the 3-VNB conver- sion measured 30–38 min after the start of the experiment versus t for three different reaction temperatures. The experi- mental data are described by Equation (1):
+
+Scheme 2. Stepwise reaction pathway for the hydrogenation of 4-ANB.
+
+with temperature, leading to a drop in selectivity to 4-AAN from 97% at 70–808C to 93.6% at 908C.
+
+in which X is conversion of 3-VNB and k is the rate constant. This indicates that the values of k can be determined by fitting the experimental data to Equation (1). Plotting the graph of lnk versus 1/T results in a straight line, as shown in Figure 3b. The apparent activation energy, Ea, for 3-VNB hydrogenation over the Au/Al2O3 catalyst (within the temperature range from 60 to 808C) estimated from the slope of the Arrhenius plot is about 64 kJmol�1.
+
+In Table 3, we report on the results obtained when the Au/ Al2O3 catalyst was employed for the liquid-phase hydrogena- tion of 3-VNB under continuous-flow conditions. At tempera- tures as low as 608C (Table 3, entry 1), the conversion of 3-VNB reached approximately 57% with fairly good selectivity to the target product, 3-VAN, equal to 93.3%; the rest of the products were 3-VNSB and 3-EAN (Scheme 3). The TON value (at 608C),
+
+Table 3. Liquid-phase hydrogenation of 3-VNB over the 1.9% Au/Al2O3 catalyst in a packed-bed flow reactor.[a]
+
+[a] Reaction conditions: [3-VNB]inlet=0.05m; solvent: toluene; p(H2)= 10 bar, mass of the catalyst: 0.185 g; flow rates of the liquid phase and H2: 0.5 and 60 mLmin�1, respectively (inlet H2/3-VNB molar ratio=107); reaction time=30–38 min. 3-VNSB=3-vinylnitrosobenzene, 3-EAN=3-
+
+Figure 3. a) Conversion of 3-VNB over the 1.9% Au/Al2O3 catalyst as a func- tion of residence time for different temperatures. The symbols represent the experimental data, whereas the lines represent the model fit to the experi- mental data. b) Arrhenius plot of the rate constant (k, s�1) of 3-VNB hydroge- nation. Reaction conditions: a packed-bed flow reactor; [3-VNB]inlet=0.05m; solvent: toluene; p(H2)=10 bar; mass of the catalyst: 0.185 g; flow rates of the liquid phase and H2: 0.5–1.5 and 60 mLmin�1, respectively; reaction time=30–38 min.
+
+Scheme 3. Stepwise reaction pathway for the hydrogenation of 3-VNB.
+
+osition of carbonaceous species occluding the active sites was a cause of temporal deactivation of the Au/Al2O3 catalyst in the continuous gas-phase hydrogenation of 4-CNB at 1508C and lower inlet H2/4-CNB molar ratios (H2/4-CNB�39).[9d]
+
+The time-on stream performance of the Au/Al2O3 catalyst under the conditions of liquid-phase hydrogenation of substi- tuted nitrobenzenes in a packed-bed flow reactor was studied at 808C and the hydrogen pressure of 10 bar for up to 2 h of continuous operation. During this period, liquid samples of the reaction flow were taken every 20 min at the reactor outlet and analyzed by GC. As a result, smooth deactivation of the catalyst with time on-stream was observed, regardless of the substrate used for hydrogenation. As an example, Figure 4a
+
+To get an idea of the reasons for gold catalyst deactivation
+
+in the continuous liquid-phase hydrogenation of substituted nitrobenzenes, we conducted the following series of experi- ments. Approximately 2 h after starting the test with the Au/ Al2O3 catalyst in 3-VNB hydrogenation at 808C and p(H2)= 10 bar, a flow of pure toluene (1.5 mLmin�1) was fed into the reactor instead of a mixture of H2 and the solution of 3-VNB in toluene, and the catalyst sample was washed at 808C for 10 min, then completely dumped out from the reactor and dried in vacuum (200 mbar) at 508C overnight. The spent cata- lyst was analyzed by XRF for gold content, as well as by tem- perature-programmed oxidation (TPO) and TEM techniques.
+
+Figure 5 displays the results of a TPO study of the Au/Al2O3
+
+catalyst taken before and after use in the liquid-phase 3-VNB hydrogenation under flow conditions. Each sample was stud- ied in the equipment for thermogravimetric analysis (TGA) and DTA at the same time. The DTG curve of the fresh catalyst (Fig- ure 5a) exhibits a broad peak with a maximum at approxi- mately 958C, which is related, most likely, to removal of physi- cally adsorbed water (the loss of the sample weight in the 25– 2508C range was 2.5%). Additionally, a weight loss of 1% was observed in the 250–5008C range, probably owing to elimina-
+
+Figure 4. Time dependence of 3-VNB conversion and selectivity to 3-VAN during hydrogenation of 3-VNB over the 1.9% Au/Al2O3 catalyst taken a) as- prepared and b) after regeneration in a flow of air at 4008C. Reaction condi- tions: a packed-bed flow reactor; T=808C; [3-VNB]inlet=0.05m; solvent: tol- uene; p(H2)=10 bar; mass of the catalyst: 0.185 g; flow rates of the liquid phase and H2: 0.5 and 60 mLmin�1, respectively (inlet H2/CNB molar ratio=107); reaction time=30–38 min.
+
+demonstrates the time dependence of 3-VNB conversion and selectivity to 3-VAN over the Au/Al2O3 catalyst. A reduction in the conversion level from 98.5 to 79.5% occurred after 2 h on stream, whereas the selectivity remained practically unchanged during this period.
+
+The loss of activity of supported gold catalysts was observed
+
+previously by conducting the hydrogenation of aromatic nitro compounds in both liquid-phase batch reactors[6,7a,11] and gas- phase flow reactors.[9c,e,10b] This loss was explained by various reasons, including "irreversible" leaching of gold by the reac- tion medium;[18] aggregation of the smallest gold nanoparticles through both a dissolution–redeposition mechanism (Ostwald ripening of gold) and an on-surface sintering process aided by formed aromatic amines;[6,11] and catalyst poisoning by strong- ly coordinated reaction intermediates, such as nitroso spe- cies.[16] In addition, coke formation seems to be a probable cause of catalyst deactivation because it has been observed during nitrobenzene hydrogenation over conventional palladi- um,[19] nickel,[20] and copper[21] catalysts supported on various carriers, such as Al2O3,[19a,b] MgO and hydrotalcite,[19b] activated carbon,[20] SiO2,[21] and kieselghur.[21b] Carbonaceous deposits that might block the surface of catalytically active gold parti- cles were found in the deactivated Au/g-Al2O3 catalyst after it was used for gas-phase a-pinene isomerization at 190– 2108C.[22] Recently, C�rdenas-Lizana et al. established that dep-
+
+Figure 5. The differential thermogravimetric analysis (DTG)/differential ther- mal analysis (DTA) curves of a) as-prepared and b) spent Au/Al2O3 catalyst during TPO in a flow of air at a heating rate 108Cmin�1.
+
+nation[9d] reactions. When studying the Au/Al2O3 catalyst deac- tivated during a-pinene isomerization,[22] it was found that oxi- dative treatment under a flow of air conducted up to 6508C, which allows carbonaceous deposit accumulated on the cata- lyst surface to be burned off, has no considerable effect on the mean gold particle size and size distribution. This is in agree- ment with previous observations of the very high resistance of alumina-supported gold nanoparticles to sintering,[24] which is probably caused by epitaxial interactions between gold crystal- lites and the alumina surface.[24b]
+
+tion of OH groups from the alumina surface. The DTA curve of the fresh sample contains an endothermic peak coinciding with weight loss owing to removal of adsorbed water and shows no signs of any exothermic reactions.
+
+conditions (Figure 5b) exhibits a two-stage weight loss over the 25–2508C range with maxima at approximately 65 and 958C, which can be assigned to removal of the mixture of tolu- ene and water adsorbed on the catalyst surface (the weight loss in this temperature range is 5.4%). In addition, upon heat- ing to higher temperatures, the broad peak at 4058C that cor- responds to loss of 3.4% of the sample weight is observed. The DTA curve of the spent catalyst shows an endothermic peak in the temperature range from 50 to 1008C related to re- moval of adsorbed toluene and water from the catalyst sample, and overlapping exothermic peaks at 350, 405, and 4628C, which can be attributed to the combustion of carbona- ceous species deposited onto the catalyst surface. The most distinct peak coincides well with the maximum weight loss at 4058C. The positions of the exothermic peaks and ratio of their intensities closely resemble what was observed in the DTA pro- file generated in the TPO study of the Au/Al2O3 catalyst, which was preliminary deactivated during gas-phase a-pinene iso- merization.[22] Assignment of these peaks was achieved based on the results of quantitative mass spectrometry analysis of the oxidation products evolved over different temperature ranges.[22] The formation of CO2 as the main product during TPO of the spent Au/Al2O3 catalyst was observed starting from 3508C up to approximately 5008C with a maximum at 425– 4308C. Along with CO2, traces of H2O appeared with a maxi- mum yield at 4098C. Taking this into account, the exothermic peaks at 350–360 and 405–4108C may be attributed to oxida- tion of hydrogen-enriched carbonaceous species deposited onto the catalyst surface, whereas the exothermic peak at 460–4708C can be assigned to combustion of surface amor- phous carbonaceous deposits with a low hydrogen content. C�rdenas-Lizana et al.[9d] reported maximum heat release at 5008C (i.e., at a temperature approximately 1008C higher than that used in our study) during a TPO study of the Au/Al2O3 cat- alyst used in the continuous gas-phase hydrogenation of 4- CNB. This discrepancy may be explained by the fact that amor- phous carbon lacking hydrogen ("coke") was mainly deposited on the catalyst surface instead of hydrogen-enriched carbona- ceous species owing to the higher reaction temperature (1508C) and lower inlet H2/substrate molar ratios (H2/4-CNB< 40) than those used in our study. Nevertheless, one can sug- gest that carbonaceous species are formed on the catalyst sur- face owing to adsorption of organic substrate, reaction inter- mediates, and products followed by their condensation and secondary transformations of the condensation products cata- lyzed, most probably, by Brønsted and Lewis acidic sites of alu- mina. Deposition of carbonaceous species appears to block the active sites of the Au/Al2O3 catalyst and be the reason for catalyst deactivation.
+
+the Au/Al2O3 catalyst, provides the possibility of restoring its activity in 3-VNB hydrogenation by burning-off surface carbo- naceous species at temperatures of approximately 4008C, which are sufficient for burning-off the main portion of these species, as observed in TPO experiments. For this purpose, the deactivated catalyst was heated in a fixed-bed Pyrex reactor with an air flow (500 h�1) to 4008C (ramping 48C min�1) and then maintained at this temperature for 2 h. Figure 4b demon- strates that such a treatment restores 3-VNB conversion over the gold catalyst at 808C, [3-VNB]inlet=0.05m, H2/3-VNB molar ratio of approximately 100, and t=0.67 s up to 93% (which is 94% of the initial X value), although the selectivity to 3-VAN re- mains at the same level as that before regeneration.
+
+use, we found that it was only 100 ppm less than the content in the as-prepared catalyst (1.87 wt% vs. 1.88 wt%), which was within the accuracy of XRF analysis. These results implied that irreversible gold leaching was negligible or absent, at least for the time that the catalytic run lasted. At the same time, a TEM study of the spent Au/Al2O3 catalyst (Figure 1b) demonstrated that the mean surface diameter (ds) of the metal particles in- creased nearly twofold during 3-VNB hydrogenation at 808C (ds=3.0 nm vs. 1.8 nm in the as-prepared catalyst) owing to the appearance of numerous larger gold particles with sizes between 2.5 and 5 nm at the expense of the smallest metal particles of 1–2 nm in diameter. It seems unlikely that the growth of gold nanoparticles, which we have registered, was a result of their thermal sintering because the temperatures at which the catalytic reaction was performed (70–1008C), were considerably lower than the calcination temperature during catalyst preparation (3008C). One can assume that in the given case aggregation of the smallest gold nanoparticles proceeds through a dissolution–redeposition mechanism (the so-called Ostwald ripening of gold) and/or as an on-surface particle mi- gration–coalescence process. Both can be aided by aromatic amine formed, which is present in the reaction stream in a high concentration and may interact with gold nanoparticles to promote their reversible dissolution in an organic solvent.[12]
+
+An increase in the ds value for gold particles registered after two successive catalytic runs means a decrease in the total sur- face of supported gold nanoparticles by a factor of 1.8 (assum- ing a simple model of gold nanospheres[25]) and the corre- sponding reduction in the observed activity of the catalyst if it is in direct proportion to the amount of surface gold atoms. Thus, the agglomeration of Au particles is probably another factor that causes the deactivation of the Au/Al2O3 catalyst
+
+carbon deposited on the catalyst surface has been applied for catalytic gas-phase oxidation,[23] isomerization,[22] and hydroge-
+
+during the liquid-phase hydrogenation of substituted nitroben- zenes under flow conditions. At the same time, because the re- action selectivity to 3-VAN was maintained with time on- stream and did not change as a result of catalyst recycling sug- gests a lack of influence of the formation of carbonaceous spe- cies and gold particle aggregation on the selectivity of hydro- genation of a nitro group in nitroaromatic compounds with other reducible functionalities.
+
+An aqueous solution of H[AuCl4]·(49.47 wt% Au) from Aurat (Russia) was used as the source of gold to prepare the gold cata- lyst. 3-VNB and 4-ANB (both 97% pure) and 2and 4-CNBs (both 99% pure) from Acros Organics, as well as 3-CNB (98% pure) from Aldrich, were used as reagents for catalyst testing without further purification. Toluene of 99.5% purity from ECOS closed joint-stock company (Russia) and n-decane (>99% pure) from Acros Organics were employed as the solvent and internal GC standard, respec- tively, for catalytic experiments.
+
+This study demonstrated the possibility of highly selective hy- drogenation of a nitro group in a series of substituted nitro- benzenes with the general formula XC6H4NO2, containing other reactive functionalities (X=Cl, CH=CH2, or C(O)CH3), in a contin- uous-flow three-phase reactor by using a nanodispersed Au/ Al2O3 catalyst at lower temperatures than those usually used in batch reactors. The overall feed stream, which comprised of hydrogen and a solution of a substituted nitrobenzene in tolu- ene, was passed through a packed catalyst bed at 60–1108C and 10 bar in up-flow mode; hydrogen was fed to the reactor at a high flow rate (�30 mLmin�1) to avoid external mass- transfer limitations. One important result found was that hy- drogenation of isomeric CNBs over the Au/Al2O3 catalyst under the above conditions gave the targeted CANs with almost 100% yield (100% selectivity at nearly 100% conversion); no formation of dechlorination products was detected. Increasing the reaction temperature and hydrogen pressure promoted the complete hydrogenation of nitroso intermediates, and thus, avoided the formation of products of their condensation with CPHA. Hydrogenation of 4-ANB and 3-VNB led to the for- mation of 3-VAN and 4-AAN with selectivities of up to 93 and 97% at substrate conversions as high as 98 and 100%, respec- tively. In these cases, increasing the reaction temperature fa- vored C=C and C=O hydrogenation and resulted in minor det- rimental changes in selectivity to the target anilines. A smooth deactivation of the catalyst with time on-stream was observed, regardless of which substituted nitrobenzene was used in hy- drogenation. TEM and TPO studies of the Au/Al2O3 catalyst after testing for 3-VNB hydrogenation at 808C showed a nearly twofold increase in the mean surface diameter of gold particles during the reaction and the appearance of carbonaceous de- posit on the catalyst surface which might block catalytically active sites. Oxidative regeneration of the spent catalyst sample in a flow of air at 4008C restored its activity almost to the starting level with retention of high selectivity to 3-VAN. Taking this into consideration, we can suggest that the forma- tion of carbonaceous deposit, which was probably promoted by Brønsted and Lewis acidic sites of the alumina support, was the main reason for catalyst deactivation. Thus, research efforts should be directed toward preventing this by modification of the support surface and optimization of reaction parameters. Aggregation of gold nanoparticles during the reaction seems to be less important, although understanding the reasons for and preventing this phenomenon are also an essential goal.
+
+As the catalyst support, we used g-Al2O3 (BET specific surface area: 215 m2g�1, total pore volume: 0.61 cm3g�1, mean pore diameter: 9.6 nm) prepared by extrusion of a paste consisting of aluminum oxide of Puralox TH 100/150 grade and aluminum hydroxide of Pural SB grade (both produced by Sasolchemie GmbH, Germany) mixed in a ratio of 30:70 by weight and added with an aqueous solution of nitric acid as a peptizing agent. The cylindrical Al2O3 granules of 1.5 mm in diameter thus obtained were dried at 1108C overnight and calcined in a flow of air at 5508C for 4 h. Then they were crushed and sieved to obtain support grains of 250–500 mm in diameter. The support was dried at 1108C in a drying oven for 8 h immediately before gold deposition. The method for preparing the Au/Al2O3 catalyst was similar to those described previously:[14]
+
+A weighed amount of alumina support was shaken with an aque- ous solution of H[AuCl4]+NaOH (2.5 g Au per L) at 708C and pH 7 for 1 h in a constant-volume glass reactor, washed several times with large portions of warm distilled water (200 mLg�1), dried in vacuo at room temperature for 14 h, and calcined in air at 3008C for 4 h.
+
+The Au contents of fresh and spent catalyst samples were mea- sured in vacuo by using the XRF technique on an ARL instrument equipped with a Rh anode (X-ray tube voltage: 50 kV, tube current: 40 mA, exposure time: 10 s). TEM studies were performed by using a JEM-2010 (JEOL, Japan) electron microscope with a lattice resolu- tion of 0.14 nm and a 200 kV accelerating voltage. The number- weighted (dl) and surface-weighted (ds) mean diameters of gold particles for each catalyst sample were determined by counting over 350 particles in TEM images taken with medium magnification and calculated according to Equations (2) and (3) derived by as- suming a simple model of metal nanospheres:[25]
+
+in which di is the measured diameter of a metal particle and N is the total number of particles. A TPO study of the fresh and used catalysts was performed on a NETZSCH STA 449C Jupiter instru- ment. The sample (30 mg) in a corundum crucible was placed on a thermobalance was heated from to 5008C (ramping
+
+108Cmin�1) under a slow of air. As a reference sample, calcined silica was used.
+
+General procedure for the hydrogenation of substituted ni- trobenzenes
+
+Russian Federation for government support of Leading Scientific Schools (grant SS-5340.2014.3) is gratefully acknowledged.
+
+Hydrogenation of substituted nitrobenzenes in organic medium (toluene) to the corresponding anilines was performed under con- tinuous-flow conditions in a H-Cube Pro setup (Thalesnano, Hun- gary) equipped with an electrolytic cell for the generation of high- purity hydrogen by in situ water electrolysis, a conventional HPLC pump for delivering a liquid reactant, and a touch-screen module for automatic control of operational parameters (reaction tempera- ture and pressure, flow rates of hydrogen and liquid substrate, etc.). A more detailed description of the H-Cube Pro setup has been published elsewhere.[13a,26] A stainless-steel packed-bed Cat- Cart30 reactor (catalyst cartridge) of 30 mm in length and 4.0 mm in inner diameter (volume 0.38 cm3) preloaded with a catalyst sample (0.185 g) was installed in a stainless-steel heater controlled by using the Peltier unit. Immediately prior to the catalytic run, pure toluene solvent was passed through the connecting lines and reactor at a flow rate of 0.5 mLmin�1 to remove air. After air was removed from the connecting line and reactor, the desired reaction parameters were selected and the mixture of hydrogen and sol- vent was fed to the reactor in up-flow mode with a rate of 60 and 0.5 mLmin�1, respectively, until the required temperature and pres- sure were reached. The inlet was then switched to the flask filled with a 0.05m solution of an organic substrate in toluene contain- ing n-decane as an internal standard. This moment was chosen as the starting point of the reaction. The liquid flow was mixed with hydrogen in a gas/liquid mixer and fed to the reactor at a rate of 0.5 mLmin�1. The catalytic tests were usually performed at 60– 1108C, with a hydrogen pressure and flow rate of 10 bar and 60 mLmin�1, respectively. Typically, collection of the first sample of liquid product for analysis started 30 min after feeding of the sub- strate and continued for 4 min; immediately thereafter, the second sample was taken for another 4 min. The conversion of substituted nitrobenzene, selectivity to the determined product, and yield were calculated based on mean analysis results for these samples. Because the catalytic activity was reduced gradually under the ex- perimental conditions, a fresh catalyst sample was taken for each catalytic run. The inlet and outlet concentrations of substrate and products were analyzed by means of a gas chromatograph (Agilent 6890N) equipped with a flame-ionization detector (FID) and a capil- lary HP 5-MS column (60 m�0.32 mm�0.25 mm). Reaction prod- ucts were identified by GC/MS by using an Agilent 7000B Triple Quad System equipped with an HP 5-MS column. The conversion of substituted nitrobenzene, X (%), and the selectivity, S (%), to the determined product were calculated by using Equations (4) and (5), respectively:
+
+Keywords: gold · hydrogenation · nitrobenzenes · supported catalysts · three-phase flow reactor
+
+[1] R. S. Downing, P. J. Kunkeler, H. Van Bekkum, Catal. Today 1997, 37,
+
+[2] a) H.-U. Blaser, Science 2006, 313, 312–313; b) H.-UBlaser, H. Steiner, M.
+
+[3] a) P. N. Rylander, Hydrogenation Methods, Academic Press, London,
+
+1985; b) R. L. Augustine, Heterogeneous Catalysis for the Synthetic Chem- ist, Marcel Dekker, New York, 1995; c) S. Nishimura, Handbook of Hetero- genous Catalytic Hydrogenation for Organic Synthesis, Wiley, New York, 2001; d) H.-U. Blaser, A. Schnyder, H. Steiner, F. Rossler, P. Baumeister in Handbook of Heterogeneous Catalysis, 2nd ed.,(Eds.: G. Ertl, H. Knozinger, F. Schuth, J. Weitkamp), Wiley-VCH, Weinheim, 2008, p. 3284; e) A. Kul- karni, B. Torok, Curr. Org. Synth. 2011, 8, 187–207.
+
+[4] F. C�rdenas-Lizana, M. A. Keane, J. Mater. Sci. 2013, 48, 543–564. [5] Y. Chen, J. Qiu, X. Wang, J. Xiu, J. Catal. 2006, 242, 227–230. [6] D. He, H. Shi, Y. Wu, B.-Q. Xu, Green Chem. 2007, 9, 849–851. [7] a) A. Corma, P. Serna, Science 2006, 313, 332–334; b) M. Boronat, P. Con-
+
+cepcion, A. Corma, S. Gonzalez, F. Illas, P. Serna, J. Am. Chem. Soc. 2007, 129, 16230–16237; c) P. Serna, P. Concepcion, A. Corma, J. Catal. 2009, 265, 19–25; <lit d>P. Serna, M. Boronat, A. Corma, Top. Catal. 2011, 54, 439–446.
+
+[8] K. Shimizu, Y. Miyamoto, T. Kawasaki, T. Tanji, Y. Tai, A. Satsuma, J. Phys.
+
+[9] a) F. C�rdenas-Lizana, S. G�mez-Quero, M. A. Keane, Catal. Commun.
+
+2008, 9, 475–481; b) F. C�rdenas-Lizana, S. G�mez-Quero, M. A. Keane, ChemSusChem 2008, 1, 215–221; c) F. C�rdenas-Lizana, S. G�mez- Quero, N. Perret, M. A. Keane, Gold Bull. 2009, 42, 124–132; d) F. C�rde- nas-Lizana, S. G�mez-Quero, A. Hugon, L. Dellanoy, C. Louis, M. A.
+
+Keane, J. Catal. 2009, 262, 235–243; e) F. C�rdenas-Lizana, D. Lamey, M. Li, M. A. Keane, L. Kiwi-Minsker, Chem. Eng. J. 2014, 255, 695–704.
+
+[10] a) X. D. Wang, N. Perret, M. A. Keane, Chem. Eng. J. 2012, 210, 103–113;
+
+b) N. Perret, X. D. Wang, T. Onfroy, C. Calers, M. A. Keane, J. Catal. 2014, 309, 333–342.
+
+[11] U. Hartfelder, C. Kartusch, M. Makosch, M. Rovezzi, J. Sa, J. A. van Bok-
+
+[12] S. Viswanathan, B. Narayanan, Z. Yaakob, P. Periyat, S. Padikkaparambii,
+
+[13] a) G. Szollosi, S. Cser�nyi, F. F�lçp, M. Bart�k, J. Catal. 2008, 260, 245–
+
+253; b) V. Hessel, Chem. Eng. Technol. 2009, 32, 1655–1681; c) S. Cser�- nyi, G. Szçllo˝si, K. Szo˝ri, F. F�lçp, M. Bart�k, Catal. Commun. 2010, 12, 14–19; d) M. Irfan, T. N. Glasnov, C. O. Kappe, ChemSusChem 2011, 4, 300–316; e) G. Szo˝llo˝si, Z. Makra, F. F�lçp, M. Bart�k, Catal. Lett. 2011, 141, 1616–1620; f) I. R. Baxendale, L. Brocken, C. J. Mallia, Green Process Synth. 2013, 2, 211–230; g) I. R. Baxendale, J. Chem. Technol. Biotechnol. 2013, 88, 519–552; h) C. Wiles, P. Watts, Green Chem. 2014, 16, 55–62.
+
+[14] a) S. Tsubota, M. Haruta, T. Kobayashi, A. Ueda, Y. Nakahara, Stud. Surf.
+
+Xð%Þ ¼ fð½substrate�in�½substrate�outÞ=½substrate�ing � 100 ð4Þ
+
+Sci. Catal. 1991, 63, 695–704; b) B. L. Moroz, P. A. Pyrjaev, V. I. Zaikovskii, V. I. Bukhtiyarov, Catal. Today 2009, 144, 292–305.
+
+[15] a) K. C. Metaxas, N. G. Papayannakos, Ind. Eng. Chem. Res. 2006, 45,
+
+7110–7119; b) S. Haase, M. Weiss, R. Langsch, T. Bauer, R. Lange, Chem. Eng. Sci. 2013, 94, 224–236; c) R. Langsch, J. Zalucky, T. S. Haase, R. Lange, Chem. Eng. Process. 2014, 75, 8–18.
+
+During all tests, the carbon balance between the inlet and outlet streams was within (95�2)%.
+
+[16] G. Richner, J. A. van Bokhoven, Y.-M. Neuhold, M. Makosch, K. Hunger-
+
+[17] A. Corma, P. Concepcion, P. Serna, Angew. Chem. Int. Ed. 2007, 46,
+
+[18] C. Kartusch, F. Krumeich, O. Safonova, U. Hartfelder, M. Makosch, J. Sa,
+
+[19] a) E. Klemm, B. Amon, H. Redlingshofer, E. Dieterich, G. Emig, Chem.
+
+We thank Dr. E. Yu. Gerasimov, Dr. M. V. Shashkov, I. L. Kraev- skaya, and G. S. Litvak for their help in performing this study. Fi- nancial support of the study by the Russian Foundation for Basic Research (grant no. 13-03-12178) and the Grant of President of
+
+Eng. Sci. 2001, 56, 1347–1353; b) P. Sangeetha, K. Shanthi, K. S. R. Rao, B. Viswanathan, P. Selvam, Appl. Catal. A 2009, 353, 160–165.
+
+[20] A. Nieto-M�rquez, S. Gil, A. Romero, J. L. Valverde, S. G�mez-Quero,
+
+[21] a) L. Petrov, K. Kumbilieva, N. Kirkov, Appl. Catal. 1990, 59, 31–43; b) S.
+
+[25] J. R. Anderson, Structure of Metallic Catalysts, Academic Press, London,
+
+Diao, W. Qian, G. Luo, F. Wei, Y. Wang, Appl. Catal. 2005, 286, 30–35.
+
+[22] I. L. Simakova, Yu. S. Solkina, B. L. Moroz, O. A. Simakova, S. I. Reshetni-
+
+[26] a) R. V. Jones, L. Godorhazy, N. Varga, D. Szalay, L. Urge, F. Darvas, J.
+
+Comb. Chem. 2006, 8, 110–116; b) J. Chen, K. Przyuski, R. Roemmele, R. P. Bakale, Org. Process Res. Dev. 2014, 18, 1427–1433.
+
+kov, I. P. Prosvirin, V. I. Bukhtiyarov, V. N. Parmon, D. Yu. Murzin, Appl. Catal. A 2010, 385, 136–143.
+
+[23] P. Konova, A. Naydenov, T. Tabakova, D. Mehandjiev, Catal. Commun.
+
+[24] a) S. Ivanova, C. Petit, V. Pitchon, Gold Bull. 2006, 39, 3–8; b) B. L.
+
+Moroz, D. A. Zyuzin, V. I. Zaikovskii, A. N. Shmakov, P. A. Pyrjaev, E. M. Moroz, V. I. Bukhtiyarov, Extended Abstr. of the 9th European Conference on Catalysis "Catalysis for a Sustainable World", EuropaCat IX, Salamanca, Spain, 2009, p. P10–108.
+
+Manuscript received: July 9, 2015 Accepted Article published: August 5, 2015 Final Article published: August 28, 2015

@@ -1,0 +1,241 @@
+Journal of Fluorine Chemistry 105 (2000) 117±128
+
+Direct ¯uorination of toluene using elemental ¯uorine in gas/liquid microreactors
+
+K. JaÈhnischa,*, M. Baernsa, V. Hesselb,*, W. Ehrfeldb, V. Haverkampb, H. LoÈweb, Ch. Willeb, A. Guberc
+
+aInstitut fuÈr Angewandte Chemie Berlin-Adlershof e.V., Richard-WillstaÈtter-Str. 12, D-12489 Berlin, Germany bInstitut fuÈr Mikrotechnik Mainz GmbH, Carl-Zeiss-Str. 18-20, D-55129 Mainz, Germany cForschungszentrum Karlsruhe GmbH, Institut fuÈr Mikrostrukturtechnik, Postfach 3640, D-76021 Karlsruhe, Germany
+
+Received 7 February 2000; accepted 2 May 2000
+
+Dedicated to late Professor Schiemann on the occasion of the 100th anniversary of his birth
+
+Abstract
+
+Direct ¯uorination of toluene, pure or dissolved in either acetonitrile or methanol, using elemental ¯uorine was investigated in gas/liquid microreactors, namely a falling ®lm microreactor and a micro bubble column. The experiments included measurements at high substrate concentrations and at high ¯uorine contents diluted in a nitrogen carrier gas, e.g. up to 50 vol.% ¯uorine. Results obtained were compared to the performance of a laboratory bubble column which served as a technological benchmark. Due to the formation of liquid layers of only a few tens of micrometers thickness, the microreactors provide very large interfacial areas, e.g. up to 40,000 m2/m3. These values exceed by far those of the laboratory bubble column as well as all other devices applied in practice. The potential for enhancing mass and heat transfer was veri®ed by several experiments resulting in an increase in conversion and selectivity for the microreactors compared to the laboratory benchmark. For the falling ®lm microreactor, yields of up to 28% of mono¯uorinated ortho and para products for a degree of toluene conversion of 76% were obtained. These values are of the same order as described for the industrially applied Schiemann process. Space-time yields of the microreactors, when referred to the reaction channel volume, were orders of magnitude higher than those of the laboratory bubble column. Taking into account the construction material needed, the corresponding ®gures of merit, for an idealized geometry as well as the existing total reactor geometry, still indicate technological and economic bene®ts. A variation of operating conditions for the direct ¯uorination revealed that conversion can be increased in the microreactors by using higher ¯uorine-to-toluene ratios and reaction temperatures. The choice of solvent is also essential, with acetonitrile yielding much better results than methanol. # 2000 Elsevier Science S.A. All rights reserved.
+
+Keywords: Fluorination; Toluene; Elemental ¯uorine; Falling ®lm microreactor; Micro bubble column
+
+by a gas phase process as described by Schiemann et al. in 1968 [2]. However, selectivities turned out to be very low. Other authors investigated direct ¯uorination of aromatic compounds in the liquid phase. In the very early attempts using conventional reactors, direct ¯uorination experiments were characterized by the formation of unde®ned products and often led to explosions [3] due to too large heat release. In the last 30 years, substantial efforts have been focused on the development of more advanced processing routes, e.g. improved heat transfer characteristics, allowing the desired electrophilic substitution path to proceed. By operation at extremely low temperatures, e.g. ÿ708C, and reactant con- centrations, e.g. down to 0.01 mol/l, the proof of feasibility for performing direct ¯uorination was given for aromatic substrates like benzene, toluene and phenol [4±7].
+
+1. Introduction
+
+The direct ¯uorination of aromatics with pure ¯uorine on a technical scale is a problem still unsolved to date. For the synthesis of the vast majority of ¯uorinated compounds multi-step processes such as the Schiemann reaction are employed. In this process, aromatic amines are converted into diazonium tetra¯uoroborates, which thermally decom- pose with formation of mono¯uorinated aromatic com- pounds in reasonable yields [1]. On the laboratory scale, a number of experiments using elemental ¯uorine as a ¯uorination agent have been carried out. For instance, the ¯uorination of toluene was performed
+
+* Corresponding authors. Fax: 49-61-31-990-201.
+
+0022-1139/00/$ ± see front matter # 2000 Elsevier Science S.A. All rights reserved. PII: S 0 0 2 2 - 1 1 3 9 ( 0 0 ) 0 0 3 0 0 - 6
+
+K. JaÈhnisch et al. / Journal of Fluorine Chemistry 105 (2000) 117±128
+
+Fig. 1. Schematic diagram of a falling film microreactor, a micro bubble column and a laboratory bubble column. (a) Vertically oriented falling film microreactor, a thin liquid film is fed through orifices into the reaction channels, generating a relatively large surface for contact to the gas. (b) Micro bubble column the liquid and gaseous reactants are contacted through a static micromixer, and, subsequently, fed into the reaction channels. (c) In the laboratory bubble column the gas is dispersed through a porous frit into the liquid.
+
+®rst proof of feasibility using existing contacting compo- nents, originally designed for liquid/liquid extraction. Based on this knowledge, the ®rst integrated gas/liquid microreac- tion systems were built, termed a falling ®lm microreactor (FFMR) and a micro bubble column (MBC) [11,13] (see Fig. 1a and b) made of stainless steel. In the meantime Chambers et al. [14] have successfully tested a simple microreactor for the direct ¯uorination of 1,3-dicarbonyl compounds, but no yield or selectivity data have been reported. The FFMR, developed for this study, generates a thin falling ®lm of several 10 mm thickness ¯owing by means of gravity forces. This is performed on a platelet comprising a large number of microchannels of 100 mm300 mm cross- section. By changing volume ¯ow, control can be exerted over ®lm thickness. The micro bubble column consists of a mixing and a reaction unit. Various mixers containing interdigital channel arrays of dimensions from a few micro- meters to a few tens of micrometers were tested. For the experiments described in this article, only one device was used equipped with 20 mm deep gas and liquid feeding channels 7 and 20 mm wide, respectively. For the reaction
+
+Even greater control over reaction temperature and, in addition, reactant mixing should be achievable by using microfabricated reaction devices, so-called microreactors, since high gradients for heat and mass transfer can be utilized, due to small diffusion distances within the micro- channels [8]. These transport enhancements, in general, allow improvement in the performance of reactions which are not carried out under a kinetically controlled regime, e.g. fast reactions coupled to fast side reactions. If the reaction is run in a multiphase system, the potential bene®t of using microreactors may even be ampli®ed. This scenario ideally holds for gas phase reactions on solid catalysts and the resulting improvements have been demonstrated recently by many authors and for a large variety of applications [9,10]. The criteria sketched above obviously are also met by gas/ liquid reactions. Two approaches paved the way for further investigations in this ®eld. In the ®rst reference, a selection of possible microreactor designs for ef®cient gas/liquid contacting was presented and their potential applications were outlined [11]. The second paper aimed at giving a sound theoretical basis for this ®eld by analyzing various cases of diffusion hindrance [12]. This was completed by a
+
+K. JaÈhnisch et al. / Journal of Fluorine Chemistry 105 (2000) 117±128
+
+Conversion, yield and selectivity were not referred to the non-stoichiometric component, i.e. ¯uorine, although in most experiments ¯uorine-to-toluene ratios below one were used. This was caused by a lack of experimental instrumen- tation for a quantitative determination of excess ¯uorine remaining in the gas phase after reaction. Therefore, the corresponding de®nitions had to be based on toluene:
+
+unit comprising an array of parallel microchannels, two types were utilized, namely platelets of 50 mm50 mm and 300 mm100 mm channel cross-section, in the follow- ing referred to as `narrow' and `wide' channels. More details on design criteria and microreactor assembly are given in reference [13]. It is the aim of the following discussion to give a detailed analysis of the reaction performance of the microreactors with regard to direct ¯uorination of toluene and to compare the respective results to technical benchmarks. In addition, it is aimed to gather ®rst hints for a performance optimization of the microreactors by means of variation of operating conditions. In this context, considerable efforts were made in order to get precise analytical data on conversion, yield, and selectivity.
+
+X  nToluene;0 ÿ nToluene;R nToluene;0  100 %;
+
+Y  nmono-F-toluene nToluene;0  100 %;
+
+S  nmono-F-toluene nToluene;0 ÿ nToluene;R  100 %
+
+where X the is conversion (%); S is the selectivity (%); Y is the yield (%); nToluene, 0 is the amount of toluene before reaction (mol); nToluene, R is the amount of toluene after reaction (mol); and nmono-F-toluene is the amount of mono- fluorinated products (ortho, meta, para) (mol). The majority of data presented were based on single experiments. For control of accuracy, two consecutive mea- surements were performed for selected experiments. These measurements con®rmed a reproducibility of the experi- ments within a range of about 5%. During the experimental investigations, considerable efforts had to be made to establish suitable analytical methods for gathering reliable data. For series A, it turned out that by using high performance liquid chromatography (HPLC) and gas chromatography (GC) most of the reaction products could be identi®ed. Moreover, quantitative data on toluene consumption and generation of mono¯uorinated products were obtained. In case of series B, fourier trans- form infrared spectroscopy (FTIR) analysis based on a
+
+2. Experimental
+
+Fluorinations were performed at two sites, namely the Institut fuÈr Angewandte Chemie at Berlin-Adlershof (ACA) and the Institut fuÈr Mikrostrukturtechnik in Karlsruhe. Using the equipment at the former site, only ¯uorinations with ¯uorine contents up to 10 vol.% could be carried out, whilst at Karlsruhe much higher contents could be utilized. Due to this difference in operating parameters, the corresponding measurements have been split in two groups, named series A and B. A complete list of all experimental parameters in both experimental series is given in Tables 1±4. In all experiments, the liquid volume ¯ow in the micro- reactors was controlled using a HPLC pump (L-6200A). Temperature was monitored by resistance thermometers and the gas ¯ow was set by mass ¯ow controllers.
+
+Table 1 Series A: FFMR
+
+Experimental no. Molar ratio mol F2/mol C7H8 (%)
+
+Temperature (8C) Conversion X (%) Yield Y (%) Selectivity S (%)
+
+Liquid volume flow (1.1 mmol C7H8 in 1 ml solvent) (ml/h)
+
+Acetonitrile 3D2 11.6 ÿ16 3D3 11.6 ÿ16 3D4 92.5 11.6 ÿ16 3G1 11.6 ÿ21 3G2 11.6 ÿ42 3C1 19.6 ÿ15 3C2 19.6 ÿ15 3C3 19.6 ÿ15
+
+Methanol 4D1 19.6 ÿ17 4D3 19.6 ÿ17 4D2 19.6 ÿ17 4D4 19.6 ÿ17 4E2 11.1 ÿ17 4E3 11.1 ÿ17 4E4 92.5 11.1 ÿ17
+
+K. JaÈhnisch et al. / Journal of Fluorine Chemistry 105 (2000) 117±128
+
+Table 2 Series A: MBCa
+
+Experimental no. Molar ratio mol F2/mol C7H8 (%)
+
+Conversion X (%) Yield Y (%) Selectivity S (%)
+
+Liquid volume flow (1.1 mmol C7H8 in 1 ml CH3CN) (ml/h)
+
+Gas volume flow (10% F2 in N2) (ml/min)
+
+Version I 3L4, 304 12.1 3M4, 3P4 24.2 3N4, 3Q4 32.7 3R4 50.0
+
+Version II 3R2/3T3/3V3 12.1 3R5/3T4/3V5 24.2 3R7/3T6/3V7 32.7 3U3/3V9 50.0
+
+a LM: acetonitrile; temperature: ÿ158C.
+
+Table 3 Series A: LBCa
+
+Experimental no. Molar ratio mol F2/mol C7H8 (%)
+
+Conversion X (%) Yield Y (%) Selectivity S (%)
+
+Liquid batch (1.1 mmol C7H8 in 1 ml CH3CN or CH3OH) (ml)
+
+Gas volume flow (10% F2 in N2) (ml/min)
+
+Acetonitrile 3E1 3E2 3H2 3H3 3J2/3K2 3J3/3K3 3J4/3K4 3J5/3K5
+
+Methanol 4K1 4K2
+
+a Temperature: ÿ178C.
+
+Table 4 Series B: FFMR
+
+Molar ratio mol F2/mol C7H8 (%)
+
+Liquid volume flow (ml/h) Temperature (8C) Conversion X (%) Yield Y (%) Selectivity S (%)
+
+Molar ratio mol C7H8/mol CH3C (%)
+
+19.6 ÿ16 19.6 ÿ16 19.6 ÿ16 19.6 ÿ16
+
+with a spectrometer IFS 88 (Bruker, Karlsruhe) including a ATR-circular cell with a ZnSe crystal.
+
+attenuated total re¯ection (ATR) technique was applied to quantify the product composition. This was used for mea- surements performed at ¯uorine contents higher than 10 vol.% and substrate concentrations exceeding 1.1 mol/l. For GC analysis, a HP 5890 instrument (Series II plus, Hewlett Packard, Palo Alto, USA) was employed, using a separation capillary coated with Stabilwax DA of 0.25 mm ®lm thickness. HPLC analysis was made using an instru- ment equipped with a UV-detector L-4000A (Merck/Hita- chi, Darmstadt, Germany). FTIR analysis was carried out
+
+3. Discussion
+
+3.1. Hydrodynamics: falling film and segmented flow
+
+For a precise interpretation of data for direct ¯uorination, some information with respect to the hydrodynamics of the
+
+K. JaÈhnisch et al. / Journal of Fluorine Chemistry 105 (2000) 117±128
+
+Table 5
+
+Reactor type FFMR MBC (I) MBC (II) Bubble columns [15,16] Impinging jets [15,16]
+
+Specific interfacial area (m2/m3 reactor) 27,000 14,800 50±600 90±2050
+
+Increasing the gas super®cial velocity, the ¯ow pattern changes to a gaseous core surrounded by a thin liquid ®lm referred to as so-called annular ¯ow. Both regimes are sepa- rated by a relatively large transition region comprising zones of both segmented and annular ¯ow in different channels.
+
+microreactors was already obtained prior to this publication [13] and has been completed during the present study. Speci®c interfacial areas were calculated using assumptions from ®lm theory [15] and from measurements performed in millimeter wide capillaries [16]. Experimental data were gathered by means of an optical analysis technique [13] and a chemical method, sul®te oxidation [17]. As a technical benchmark, published data from conventional gas/liquid contacting reactors, e.g. bubble or spray columns, were used [18,19]. Table 5 lists data of interfacial areas measured for the microreactors investigated and compared to the technical benchmarks. It was shown in previous experiments that ®lms down to 25 mm thickness can be generated in the falling ®lm micro- reactor, using isopropanol as liquid. As shown in Table 5, the corresponding speci®c interfacial area amounts to 40,000 m2/m3 which is far larger than for conventional gas/liquid contacting equipment [18,19]. In the experiments described here, acetonitrile ®lms of about 30±37 mm were utilized corresponding to a speci®c interfacial area of about 33,000 and 27,000 m2/m3, respectively. Investigations concerning the micro bubble column focused on the determination of the ¯ow pattern. From measurements in capillaries, it was likely that a segmented ¯ow pattern (referred to as Taylor ¯ow or bubble train ¯ow) is established, i.e. bubbles of a cross-section close to that of the channels separated by liquid plugs and surrounded by thin liquid ®lms. First measurements using the micro bubble column with wide channels (300 mm100 mm) show that this ¯ow pattern is found at low gas super®cial velocities (see Fig. 2).
+
+4. Fluorination of toluene
+
+One series of experiments (A) was aimed at proving the feasibility of the ¯uorination of toluene (1.1 mol toluene/1 l solvent) using elemental ¯uorine (10% F2 in N2) in micro- reactors. In addition, the impact of the variation of selected process conditions on target values was investigated. In this context, selectivity and conversion were monitored as a function of ¯uorine-to-toluene ratio, volume ¯ow rate, temperature, and solvent. These data were utilized to gather selectivity-conversion diagrams and space-time yields for comparison of reactor performance and economics. In addi- tion to the variation of process conditions, geometric para- meters, such as the width and depth of the microchannels of the micro bubble column, were changed. In all these experi- ments, data from a laboratory bubble column served as a benchmark for standard laboratory equipment. In another series of experiments (B), ¯uorination with signi®cantly increased toluene and ¯uorine concentrations was carried out. The corresponding measurements were only performed in the falling ®lm microreactor. Tables 1±4 lists all data from both series of experiments. The results of toluene ¯uorination in microreactors were compared to ¯uorination data achieved by using a macro-
+
+Fig. 2. Drawing of a measured segmented flow pattern in the micro bubble column (MBC I) at a gas velocity of 10 ml/min. The contrast of the real photographic image is too low for representation within this article.
+
+K. JaÈhnisch et al. / Journal of Fluorine Chemistry 105 (2000) 117±128
+
+Table 6
+
+scopic gas/liquid contactor, i.e. a laboratory bubble column. This column consists of a U-tube with a ®ne porous quartz glass frit, and a reaction volume of 25 ml cooled by a thermostatic bath (see Fig. 1c). Similar devices have been used in the vast majority of relevant scienti®c investigations described in this ®eld [4±7]. Much more elaborate conven- tional gas/liquid devices exist which are used both on an industrial and laboratory scale, however, the fact is that there is no example of using such a device for direct ¯uorination. Most likely, this is strongly prohibited for reasons of process safety.
+
+Compound Wave number (cmÿ1)
+
+Acetonitrile 1038, 918 Toluene 1378, 736 o-Fluorinated toluene 1232, 1186, 838, 703 p-Fluorinated toluene 1220, 1156, 813
+
+in accordance with an electrophilic substitution mechanism [20,21]. By increasing the ¯uorine content in the gaseous phase from 10 to 50 vol.%, para products are predominantly formed. By FTIR analysis, it could be shown that the corresponding ratio of ortho to para products amounts to approximately 1:4. The wave numbers of the detected compounds are given for the FTIR in Table 6. On the basis of this information, maximum yields of about 7% of the ortho isomer and 21% of the para isomer were achieved, when applying the optimum set of process para- meters for the falling ®lm microreactor (see series B, Table 4). These values have to be compared to yields for various mono¯uorinated products, including orthoand para-¯uoro toluene, achieved using the Schiemann reaction, the technologically applied process [22]. Whilst the direct ¯uorination results in the predominant formation of two isomers and non-negligible amounts of impurities of by-products, the large-scale route via diazoti- zation of aromatic amines yields only one isomer that alone has to be separated from the crude product. For the latter process, yields of this one isomer typically range from 20 to 27% which equals the sum of the yields, referring to the three isomers, achieved in the microreactor. Thus, the expenditure for product separation is, at present, higher for the microreactors which, on the other hand, seem to
+
+4.1. Product composition and substitution pattern
+
+According to the reaction mechanisms expected, being either radical or electrophilic [4,5], four isomers may con- tribute, in principle, to the product composition. Radical substitution may result in side chain or ring ¯uorination, whereas both mechanisms lead to ortho, meta and para isomers, usually of de®ned distribution, the so-called sub- stitution pattern. Moreover, dior poly¯uorinated side chain or ring products could potentially be synthesized. In Fig. 3, a typical GC plot corresponding to a product mixture of the falling ®lm microreactor obtained at ¯uorine contents of 10 vol.% is shown. Apart from the three mono- ¯uorinated isomers, peaks corresponding to a di¯uorinated product, 2,4-di¯uoro toluene, by-products, toluene, and acetonitrile were found. As to be expected from results performed previously [3±7], a number of by-products were detected, most likely generated by radical addition and polymerisation mechanisms [4,5]. A quantitative analysis of the three well-resolved mono- ¯uorinated isomers yields a substitution pattern of 5:1:3, with respect to the ortho, meta and para product. This ratio is
+
+Fig. 3. A typical gas chromatography plot of a product mixture, obtained by direct fluorination of toluene in the falling film microreactor.
+
+K. JaÈhnisch et al. / Journal of Fluorine Chemistry 105 (2000) 117±128
+
+bene®t from simpler processing and less waste generation compared to the multi-step technical process.
+
+4.2. Conversion and selectivity
+
+For various operating conditions, conversions, yields and selectivities were determined for the micro bubble column using two types of reaction platelets (`narrow/wide'), the falling ®lm microreactor, and the laboratory bubble column. In more than 20 experiments performed in these micro- reactors, the feasibility of toluene ¯uorination could be demonstrated by high yields of mono¯uorinated products. Moreover, the yields of the falling ®lm microreactor exceed for a wide range of operating conditions, with the exception of one experiment, those of the laboratory bubble column. The maximum yields of mono¯uorinated products deter- mined in the two series, amounting to 20 and 28%, are more than two to three times larger than the benchmark. The yields obtained using the two types of platelets of the micro bubble column do exceed this standard, but to a minor extent. Selectivities achieved by performing the ¯uorination in the microreactors range from approximately 30 to 50%, i.e. the content of by-products in the product mixture is equal to or double that of the target products. Although such a ratio would be unacceptable for the majority of organic syntheses, product selectivities measured are comparable to the best values reported for toluene ¯uorination in the literature [4±7]. Referring to these investigations, differences of operating conditions with respect to the present study must be men- tioned. Only in case of using the microreactors, was proces- sing performed at high toluene concentrations and high molar ratios of toluene to ¯uorine as well as using high ¯uorine contents in the inert gas and with elevated reaction temperatures. In earlier experiments, at least one of these parameters was set to a notably lower value [4±7] or a more complex experimental protocol was applied, e.g. by addition of protic or Lewis acids. Hence, the results of the micro- reactors indicate that ef®cient temperature control and mass transfer was exerted, thereby, avoiding hot spots. Any local increase in temperature would ultimately result in the for- mation of ¯uorine radicals [4] which will induce side reactions such as addition or polymerization.
+
+Fig. 4. Selectivity-conversion diagram of direct fluorination of toluene for the falling film microreactor (FFMR), micro bubble column (MBC (I) and (II)) and laboratory bubble column (LBC) based on the experiments listed in Tables 1±3, series A.
+
+the narrow (50 mm50 mm) and wide (100 mm300 mm) microchannels, and the laboratory bubble column (series A, Tables 1±3). Nearly constant selectivities are found for the ®rst two microreactors, whereas the corresponding data decrease with conversion for the micro bubble column using wide channels and the laboratory bubble column. Remark- ably, the performance of the falling ®lm microreactor is clearly superior to that of the laboratory benchmark. In contrast, the micro bubble column using narrow channels exceeds the selectivities of the laboratory bubble column only at high conversion. The diagram for the micro bubble column equipped with wide channels is not well understood currently for the following reasons. Since the corresponding diffusion dis- tances for mass and heat transport increase when using larger channels, it was expected that measurements with this device should result in lower conversions and selectiv- ities. Surprisingly, the selectivities are higher than for the micro bubble column with narrow channels when comparing values obtained at ®xed conversions. For conversion, the smaller bubble column gives superior performance, even though the residence times applied were shorter. However, the origin of the low selectivities remains unclear and requires more detailed information on hydrodynamics and transport phenomena. The same holds for one data point, referring to the highest conversion, of the micro bubble column using the wide channels. The corresponding selectivity seems to be unu- sually low and might be caused by a change of the ¯ow pattern. Although this information can, for experimental reasons, not be easily obtained for the ¯uorine/acetonitrile system, a ¯ow pattern map determined using isopropanol as liquid indicates a transition between segmented and annular ¯ow for a corresponding set of operating conditions. For these reasons, it was decided to omit the data record of this microreactor from the following plots. However, it has to be emphasized that, concerning the conclusions drawn below,
+
+4.3. Selectivity-conversion diagram
+
+For a detailed analysis of the performance of the reactors, the representation of the experimental data as a selectivity- conversion diagram or space-time yield is recommended [22]. The ®rst type of analysis solely re¯ects the in¯uence of reaction engineering on the underlying chemistry, whereas an economic evaluation, in terms of reactor throughput, can be given in the second case. In Fig. 4, a selectivity-conversion diagram is given for the falling ®lm microreactor, the micro bubble column utilizing
+
+K. JaÈhnisch et al. / Journal of Fluorine Chemistry 105 (2000) 117±128
+
+micromixing unit into account, giving an idealized reactor geometry, space-time yield data corrected for the reactor construction material result (see Fig. 5b). This idealized reactor geometry, however, represents not the current state- of-the-art design, but corresponds to a miniaturized proto- type of future fabrication generation. Data corrected accord- ing to the overall volume of the current design will be discussed as well, but are not shown in Fig. 5. Space-time yields, based on the real reaction volume (see Fig. 5a) of both microreactors are orders of magnitude higher than those of the laboratory benchmark. This increase is mainly caused by much lower residence times achievable by using these microreactors, the volume corrected yields of both types of devices being in the same range. While for completion of the reaction about 3 h are needed in case of the laboratory bubble column, enhancement of heat and mass transfer by miniaturization enables ¯uorination to proceed in a few seconds. Even when correcting the data with respect to the idealized reactor geometry, a signi®cant improvement of
+
+this device gave qualitatively similar results as the other microreactors when compared to the laboratory benchmark.
+
+4.4. Space-time yields
+
+To date, a large part of the microreactor volume has to be designated to achieve ¯uid tightness. In a ®rst step, a practicable solution was provided by applying ¯at sealing techniques which inevitably need large areas for build-up of sealing pressure. The resulting large contribution of parts, not related to chemical reaction, to the overall reactor volume is typical for present microreactors, whereas for conventional reactors this can be neglected. Therefore, different de®nitions of space-time yields are used in Fig. 5, based on experiments of series A. The ®rst approach solely refers to the channel volume, i.e. the volume where reaction takes place (see Fig. 5a). Due to the principle of yielding small ¯uid thicknesses, inherent to microreactors, the reaction channels are separated from each other by channel walls. Taking this volume and that of the
+
+Fig. 5. Comparison of space-time yields of direct fluorination of toluene for the falling film microreactor (FFMR), micro bubble column (MBC (II)) and laboratory bubble column (LBC) (a) referred to the reaction volume, (b) referred to an idealized reactor geometry.
+
+K. JaÈhnisch et al. / Journal of Fluorine Chemistry 105 (2000) 117±128
+
+performance by using microreactors remains (see Fig. 5b). Moreover, the current state-of-the-art microreactor design, far from being optimized regarding system size miniatur- ization, still has space-time yields, comparable to those of the laboratory bubble column, when referred to the overall reactor volume. Concerning safety issues, the use of micro- reactors allows reduction of the technical expenditure for laboratory experiments, which handle only small sample volumes, e.g. for gathering analytical data. The space-time yield of the microreactors is dependent on the set of operating conditions chosen. The most important parameters for an optimization of this ®gure are the ratio of gaseous to liquid reactant, temperature, solvent, residence time as well as ¯uorine and substrate concentration. The in¯uence of the variation of these parameters on target values such as conversion or selectivity, being proportional to the space-time yield, is discussed below.
+
+4.5. Variation of fluorine-to-toluene ratio
+
+In Fig. 6a, toluene conversions are given as a function of the ¯uorine-to-toluene ratio, achieved by variation of ¯uor- ine volume ¯ow at a ®xed liquid ¯ow rate (series A, Tables 1± 3). The measurements show an increase in conversion both for the microreactors and the laboratory bubble column. This indicates that transport hindrances, if present at high ¯uorine concentrations, do not play a dominant role when using either devices, e.g. by prohibiting further performance improvements. However, there seems to be a small, but distinct difference between the three types of reactors investigated. This refers to the amount of ¯uorine contributing to conversion relative to that introduced in the gas. This ®gure, yet another measure of reactor ef®ciency, is small at low ¯uorine-to- toluene ratios for the laboratory benchmark (see Fig. 6b). For instance, only 6% of the ¯uorine molecules react if a 40% stoichiometric ratio is applied yielding an ef®ciency of about 15%. In contrast, about 50±75% ef®ciency results for the two microreactors. For all operating conditions investi- gated, the ef®ciencies of the microreactors exceed those of the laboratory bubble column, mostly because of the huge differences in interfacial areas. In the case of the miniaturized and macroscopic bubble columns, ef®ciency slightly increases when ¯uorine volume ¯ow is enhanced. For the falling ®lm microreactor, however, performance decreases. This indicates that mass transport limitations exist at high ¯uorine-to-toluene ratios, i.e. at high ¯uorine volume ¯ows. Film thickness and interfacial area being constant, this can only be caused by the de- crease in residence time of the gas molecules. The time scale of gas transport to the interface seems to be high compared to that of transport phenomena in the liquid ®lm. By reduction of the height of the gas chamber of the falling ®lm microreactor, a simple optimization strategy for reactor ef®ciency at high ¯uorine-to-toluene ratios is pos- sible.
+
+Fig. 6. (a) Conversion of direct fluorination of toluene in the three reactor types (FFM, MBC (II) and LBC) as a function of the molar ratio of fluorine-to-toluene. (b) Efficiency of the reactors, defined as conversion normalized by the molar ratio of fluorine-to-toluene, as a function of the molar ratio of fluorine-to-toluene.
+
+4.6. Variation of temperature
+
+The effect of increasing temperature on conversion and selectivity was investigated for several ¯uorination reactions [4±7]. As a common result for different aromatic com- pounds, it was found that, due to increased radical forma- tion, conversion increases, whereas selectivity decreases. In the framework of the feasibility experiments presented here (series A, Tables 1±3), the dependence of these parameters were analyzed in the temperature range of about ÿ40 to ÿ158C using the falling ®lm microreactor at a ¯uorine-to- toluene ratio of 40% (see Fig. 7). It turned out that for the conversions measured the expected relationship was detected, conversion increased from 15 to 30%. The tem- perature dependency on selectivity is less clear, showing scattered data in the range from 33 to 52%. The origin of this
+
+K. JaÈhnisch et al. / Journal of Fluorine Chemistry 105 (2000) 117±128
+
+effect is presently not well understood, and further experi- mental data are needed.
+
+4.7. Variation of solvent
+
+The choice of solvent mainly affects ¯uorine solubility, thereby increasing conversion, while its in¯uence on selec- tivity is more dif®cult to predict. In this context, several authors described an increase in product yield by increasing solvent polarity as well as the use of ingredients such as acids or bases via polarization of the ¯uorine molecule [5,6,23]. In order to investigate this, ¯uorinations of toluene were performed in the falling ®lm microreactor and laboratory bubble column using the protic, polar solvent methanol in
+
+Fig. 7. Conversion (*) and selectivity (~) of direct fluorination of toluene in the falling film microreactor as a function of temperature.
+
+Fig. 8. Yield as a function of fluorine content in educt gas.
+
+K. JaÈhnisch et al. / Journal of Fluorine Chemistry 105 (2000) 117±128
+
+bubble column was demonstrated. Moreover, the reactor performance, expressed as space-time yield and selectivity- conversion diagram, is by far superior compared to the laboratory benchmark. The yields obtained are in the same order compared to the technically performed Schiemann process. A further optimization of reactor ef®ciency was indicated by monitoring the dependence of target quantities, e.g. conversion and selectivity, as a function of various operating conditions. It is expected that future experiments utilizing still higher ¯uorine contents, e.g. up to 100% ¯uorine without any inert gas, at ambient temperatures may be even superior to technical benchmarks. The experiments performed for the direct ¯uorination of toluene in this microreactors are not an entirely systematic study. To completely survey the ®eld of direct ¯uorination the following studies have to be performed in future.
+
+addition to the aprotic, polar acetonitrile (series A, Tables 1± 3). The results in terms of yields and selectivities for methanol were worse for both types of reactors. In particular, the range of selectivities measured in the microreactor is large and the dependency on the molar ratio of ¯uorine-to- toluene is not clear. At least, for one set of operating conditions a relatively high yield of about 14% was found which also notably exceeds the nearly negligible formation of mono¯uorinated isomers of only 1% in case of the laboratory benchmark.
+
+4.8. Variation of residence time
+
+Variation of the liquid volume ¯ow for the falling ®lm microreactor affects the residence time of the ¯owing liquid. Since the measurements in series Awere limited to only two values, no general conclusions but only tentative hints can be given. Increasing the volume ¯ow from 11.6 to 19.6 ml/h has no effect on toluene conversion, thereby, possibly indicating that gas diffusion is not limiting for this parameter range (see Tables 1±4). Selectivity increases slightly which might be caused by allowing the reaction and, correspondingly, the heat release to proceed more slowly.
+
+ The influence of substrate on the performance of direct fluorination.  The solvent used, e.g. polar and non-polar solvents.  The substrate concentration, e.g. up to 100%.  The fluorine concentration in the gas phase, e.g. up to 100%.  The reaction temperature, especially use of room tem- perature.  The use of Lewis acids as a catalyst in direct fluorination.
+
+4.9. Fluorine and substrate concentration
+
+Fluorinations were performed at ¯uorine contents of 10, 25 and 50 vol.% (series B, Table 4). This increase in ¯uorine concentrations has a remarkable in¯uence on the substitu- tion pattern which has already been discussed. Moreover, a nearly linear increase in yield with the ¯uorine content is found (see Fig. 8). This increase is mainly due to an enhancement of con- version, the selectivities being relatively constant (see Tables 1±4). In addition to an increase of the concentration of the gaseous reactant, one experiment was run at a toluene concentration of 100%, i.e. without any solvent (see Tables 1±4). Although the yields and conversions obtained were relatively small, amounting to only a few percentage, the corresponding selectivities did not decrease compared to the values obtained at diluted toluene concentrations. Apart from this quantitative analysis of reactor perfor- mance, this experiment as well as the ¯uorinations using high ¯uorine contents demonstrated that in microreactors even very explosive mixtures can be safely handled. At no time were explosions or clogging recorded, e.g. prohibiting a further analysis. In this context, the microreactors proved to be a useful and precise measuring tool for process regimes, which are not accessible for conventional laboratory reactors.
+
+In order to return this technological potential into real economic bene®t, numbering-up concepts, e.g. a number of microreactors in parallel for scale-up, have to be developed, in particular, referring to more compact systems, i.e. devices with an improved ratio of reaction to construction volume. Especially, for a signi®cant minimization of the areas needed for interconnection, the use of irreversible connec- tion techniques, e.g. laser welding, is a promising approach for microreactors of the next generation. Special attention has to be paid for the development of suitable micro¯uidic structures for manifolding and microstructuring techniques capable of mass fabrication. At present, the reaction volume ®lls only a small part of the overall reactor size, since the residual volume is needed to guarantee ¯uid tight interconnection. Thus, the current systems are restricted to laboratory purposes, e.g. for process development and optimization. Due to the precise setting of operating conditions and hydrodynamics, e.g. interfacial areas, accurate data concerning reaction kinetics as well as mass and heat transport are obtainable, thereby, providing an excellent basis for simulation and reactor modeling. First experiments for this purpose are underway.
+
+Acknowledgements
+
+5. Conclusions
+
+The authors thank the German Federal Ministry for Education and Research (BMBF), the Acordis AG, AXIVA AG, BASF AG, DuPont GmbH Germany, Merck KGaA and
+
+The feasibility of performing direct ¯uorination using elemental ¯uorine in the falling ®lm microreactor and micro
+
+K. JaÈhnisch et al. / Journal of Fluorine Chemistry 105 (2000) 117±128
+
+[12] J. Shaw, C. Turner, B. Miller, I. Robins, J. Kingston, M. Harper, in Proceedings of 2nd International Conference on Microreaction Technology, Topical Conference Preprints, March 9±12, New Orleans, 1998, p. 267. [13] V. Hessel, W. Ehrfeld, K. Golbig, V. Haverkamp, H. LoÈwe, M. Storz, Ch. Wille, Microreaction Technology: Industrial Prospects, in: Proceedings of 3rd International Conference on Microreaction Technology, Frankfurt, 18±21 April 1999, Springer, Berlin, 2000, p. 526. [14] R.D. Chambers, J. Hutchinson, G. Sandford, J. Fluorine Chem. 100 (1999) 63. [15] R.H. Perry, D.W. Green, Perry's Chemical Engineers' Handbook, McGraw-Hill, New York, 1997 (Chapters 6±43). [16] T.C. Thulasidas, M.A. Abraham, R.L. Cerro, Chem. Eng. Sci. 50 (1995) 183. [17] W.-D. Deckwer, Reaktionstechnik in BlasensaÈulen, Otto Salle Verlag, Frankfurt/M., Germany, 1984. [18] D. Herskowits, V. Herskowits, K. Stephan, Chem. Eng. Sci. 45 (1990) 1281. [19] O. Levenspiel, Chemical Reaction Engineering, 3rd Edition, 1998, p. 542. [20] T.H. Lowry, K. Schueller Richardson, Mechanismen und Theorie in der Organischen Chemie, Verlag Chemie, Weinheim Germany, 400, 1980, p. 552. [21] F. Cacace, P. Giacomello, A.P. Wolf, J. Am. Chem. Soc. 102 (1980) 3511. [22] U.B. McKusick, Ullmann's Encyclopedia of Industrial Chemistry, 5th Edition, Vol. A11, 1998, p. 349. [23] R.D. Chambers, C.J. Skinner, J. Hutchinson, J. Thomson, J. Chem. Soc., Perkin Trans 1 (1996) 605.
+
+the Fonds of the Chemical Industry Germany for ®nancial support.

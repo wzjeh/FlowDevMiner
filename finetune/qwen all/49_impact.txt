@@ -1,0 +1,8 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of 2,3-DCP | increase |
+| residence_time | conversion of 2,3-DCP | increase |
+| reactant_concentration | conversion of 2,3-DCP | increase |
+| temperature | rate constant | increase |

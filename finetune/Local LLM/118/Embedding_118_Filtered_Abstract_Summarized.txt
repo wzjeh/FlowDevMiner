@@ -1,0 +1,35 @@
+{ "reaction_summary": {  "reaction_type":"...",  "reactants":[{"name":"...","role":"..." }],  "products":[{"name":"...","yield_optimal":90.7,"unit":"%"}],  "conditions":[    {"type":"residence_time","value":"2 min"},    {"type":"flow_rate_total","null" },    {"type":"temperature","value":" null"},    {"type":"pressure","value":" null"}
+
+{"name": name, "yield_optimal": yield_optimal, "unit": "%"}
+
+{ "reaction_summary": {  "reaction_type":"nitration",  "reactants":[{"name":"nitric acid","role":"solvent"}],  "products":[    {"name":"null","yield_optimal":null,"unit":"%"},    {"unknown product name","yield_optimal":null,"unit":"%"},    {"product name unknown","yield_optimal":null,"unit":"%"}  ],  "conditions":[    {"type":"temperature","value":"high temperature"},    {"type":"residence_time","value":"10 min"},    {"type":"flow_rate_reactant_A","value":"0.1 mL/min"}
+
+{"reaction_summary": {"reaction_type": "Michael addition", "reactants": [{"name": "A", "role": "reactant"}], "products": [], "conditions": [], "reactor": {"type": "microreactor"}, "metrics": {"conversion": null, "yield": null, "selectivity": null}}}
+
+{"reaction_summary": {"reaction_type": "...", "reactants": [{"name": "acetyl guaiacol", "role": "..."}], "products": [{"name": "...", "yield_optimal": 6, "unit": "%"}], "conditions": [{"type": "temperature", "value": "80 °C"}], "reactor": {"type": "...", "inner_diameter": "..."}, "metrics": {"conversion": null, "yield": 6, "selectivity": null, "unit": "%"}}}
+
+{reactant_match.group('reactant_name')}
+
+{ "reaction_summary": {  "reaction_type":"flow-chemistry",  "reactants":[{"name":"nitric acid","role":"reactant"}, {"name":"acetic acid","role":"reactant"}],  "products":[{"name":"acetyl nitrate","yield_optimal":95,"unit":"%"}],  "conditions":[    {"type":"temperature","value":"45 °C"},    {"type":"residence_time","value":2},    {"type":"flow_rate_reactant_A","value":null},    {"type":"flow_rate_reactant_B","value":3, "unit":"mL/min"}
+
+{
+        "conversion": 98,
+        "yield": None, 
+        "selectivity": ">95%",
+        "unit": "%"
+    }
+
+{
+        "conversion": 98,
+        "yield": None, 
+        "selectivity": ">95%",
+        "unit": "%"
+    }
+
+{
+        "conversion": 98,
+        "yield": None, 
+        "selectivity": ">95%",
+        "unit": "%"
+    }
+

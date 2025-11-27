@@ -1,0 +1,27 @@
+Summary: The flow-chemistry process development involved a microreactor with a total flow rate of 1.5 mL/min for the conversion of PA. Key reactants were used in a solvent system and catalyst was not mentioned. The products were not specified. The reactor type was capillary, with lengths of 5m to 30m. Critical conditions included flow rate(s) that achieved residence times of 2.5 min, 5 min, 7.5 min, 10 min and 15 min. Temperature and pressure were not mentioned as outcomes. The conversion was stable with increasing flow rate, indicating mass transfer had little influence on the reaction outcome, which was solely controlled by reaction kinetics.
+
+In recent years, flow chemistry technique has gradually developed into an effective approach to deal with these challenges [12]. Contin­ uous flow microreactor, characterized by short diffusion distances and high specific surface areas, could significantly expand the interfacial contact between liquid phases, improve mass and heat transfer perfor­ mance, according achieving enhanced product qualit
+
+The microreaction system setup is shown in Fig. 1, it consists of two plunger pumps and pre-treatment coiled capillaries, a microreactor, a T type micromixer and a back pressure valve. Using plunger pumps (JJRZ 02004F, Hangzhou Jingjin Technology Co., Ltd.), both solutions were delivered independently and preheated to the desired reaction temper­ ature in the preheated capillary coil (poly tetrafl
+
+where nproduct is the quantity of products generated during the reaction process, t is the reaction time. For continuous-flow microreactors, the STY of the gem-DBE of the reaction could be rewritten as follows [47]:
+
+Summary: The paragraph describes a flow-chemistry process development for the conversion of PA (propylene oxide) to PEO (polyethylene oxide) using NCBr4 as catalyst and NPA as co-catalyst in a micro reactor. Key reactants include propylene oxide, NK₂S₂O₈, and CPA,0. The reaction is carried out at 70°C with a total flow rate of 1.2 mol⋅L⁻¹. The product is PEO. The critical conditions are residence time, temperature, pressure, and conversion/yield/selectivity which are not mentioned in the given context.
+
+Summary: Flow-chemistry process development involves optimizing a microreactor for the synthesis of an organic compound using a continuous flow strategy with high selectivity. The reaction type is a Buchwald-Hartwig amination, utilizing a copper catalyst and a chiral ligand to achieve enantioselective formation of a desired product from two starting materials (A and B). Key reactants include the substrates A and B, solvents, and the catalyst. The microreactor is a 10-port stainless steel ID 250 µm reactor with a total volume flow rate of 3 mL/min. Critical conditions are: residence time (t) = 60 min, temperature (T) = 80°C, and pressure (P) = atmospheric pressure. The desired outcome is high conversion and yield of the product while maintaining enantioselectivity.
+
+3.5. Comparison of the reaction in the microreactor and the batch reactor
+
+Summary: The paragraph discusses a study on flow-chemistry process development using microreactors for the synthesis of an unspecified product. The key reactants are K₂S₂O₈ and an unspecified starting material. An unspecified catalyst is used, and the products are not mentioned. The reactor type is a microreactor with superior transport properties and precise control of residence time. The critical conditions include flow rates (not specified), residence times (5 min in the microreactor vs. 4 h in batch), temperatures (also unspecified), and pressures (unmentioned). The outcomes are yield improvements: 76.15 % within 5 min using one-third of the K₂S₂O₈, comparable to a 78 % yield after 4 h in batch, but with shorter reaction times than those reported by Wang et al. [10].
+
+The influence of the two-phase flow rate ratio on both reaction performance and flow characteristics inside the microreactor was investigated by fixing the total flow rate at 1.5 mL/min and varying the proportion of the aqueous (Phase B) to the organic (Phase A) phase. The corresponding results are shown in Fig. 3, it could be seen that PA conversion and gem-DBE yield are comparatively lower at th
+
+Reaction type: PA conversion
+Key reactants: none mentioned
+Solvent: not applicable
+Catalyst: not applicable
+Products: not mentioned
+Reactor details: continuous flow reactor, ID not specified
+Critical conditions: 1) Flow rate: 0.5 mL/min (initial), 1.5 mL/min (optimal), and 2.0 mL/min (higher); 2) Residence time: not mentioned; 3) Temperature: not specified; 4) Pressure: not mentioned
+Outcomes: Conversion profiles under the three tested flow rates were nearly identical, indicating that increasing the flow rate beyond 1.5 mL/min did not lead to significant differences in conversion rates.
+

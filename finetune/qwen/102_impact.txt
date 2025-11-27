@@ -1,0 +1,7 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | conversion of chlorophenols | unchanged |
+| pressure | conversion of chlorophenols | unchanged |
+| catalyst_loading | conversion of chlorophenols | increase |

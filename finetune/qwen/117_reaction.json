@@ -1,0 +1,52 @@
+{
+  "reaction_type": "thermal reduction",
+  "reactants": [
+    {
+      "name": "silver pentafluoropropionate",
+      "role": "reactant"
+    },
+    {
+      "name": "trioctylamine",
+      "role": "catalyst"
+    },
+    {
+      "name": "isoamyl ether",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "silver nanoparticles",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "100 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "79 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.08 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "tubular",
+    "inner_diameter": "0.84 mm"
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

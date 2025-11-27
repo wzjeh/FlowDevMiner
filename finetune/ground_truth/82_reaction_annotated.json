@@ -1,0 +1,52 @@
+{
+  "reaction_type": "hydrogenation",
+  "reactants": [
+    {
+      "name": "4-(Trifluoromethoxy)nitrobenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "Pt/BAC",
+      "role": "catalyst"
+    },
+    {
+      "name": "methanol",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "4-(Trifluoromethoxy)aniline",
+      "yield_optimal": 98.2,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "60 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "4.6 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "1.0 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": "2 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "micropacked-bed",
+    "inner_diameter": null
+  },
+  "metrics": {
+    "conversion": null,
+    "yield": 98.2,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

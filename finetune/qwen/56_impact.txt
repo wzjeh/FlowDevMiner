@@ -1,0 +1,6 @@
+# Influence Factor Analysis
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | ratio of ortho to meta isomer | increase |
+| nitric_acid_to_sulfuric_acid_ratio | ratio of ortho to meta isomer | increase |

@@ -1,0 +1,52 @@
+{
+  "reaction_type": "deacetalization",
+  "reactants": [
+    {
+      "name": "benzaldehyde dimethyl acetal",
+      "role": "reactant"
+    },
+    {
+      "name": "perfluorosulfonic acid monolayer",
+      "role": "catalyst"
+    },
+    {
+      "name": "acetonitrile",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "benzaldehyde",
+      "yield_optimal": 100.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "25 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "60 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.250 μL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "microreactor",
+    "inner_diameter": "150 μm"
+  },
+  "metrics": {
+    "conversion": 100.0,
+    "yield": 100.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

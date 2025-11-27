@@ -1,0 +1,52 @@
+{
+  "reaction_type": "oxidation",
+  "reactants": [
+    {
+      "name": "benzyl alcohol",
+      "role": "reactant"
+    },
+    {
+      "name": "Cu/TEMPO catalyst system",
+      "role": "catalyst"
+    },
+    {
+      "name": "acetonitrile",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "benzaldehyde",
+      "yield_optimal": 100.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "45 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": "30 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": "35 bar"
+    }
+  ],
+  "reactor": {
+    "type": "packed bed",
+    "inner_diameter": "4.35 mm"
+  },
+  "metrics": {
+    "conversion": 100,
+    "yield": 100.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

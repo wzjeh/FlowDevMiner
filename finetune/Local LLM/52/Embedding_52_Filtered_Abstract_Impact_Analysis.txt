@@ -1,0 +1,9 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| Reaction temperature | Yield of TFMB | decrease |
+| Residence time | Conversion of TFMB | increase |
+| Total flow rate | Yield | increase |
+| Length of tubular microreactor | Diffusion coefficient | unchanged |
+| Reynolds number | Total flow rate | increase |

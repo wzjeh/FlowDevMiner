@@ -1,0 +1,56 @@
+{
+  "reaction_type": "Suzuki cross-coupling",
+  "reactants": [
+    {
+      "name": "1-iodo-4-methoxybenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "phenylboronic acid",
+      "role": "reactant"
+    },
+    {
+      "name": "Pd(OAc)2",
+      "role": "catalyst"
+    },
+    {
+      "name": "DMF/H2O",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "4-methoxybiphenyl",
+      "yield_optimal": 95.0,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "50 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "1 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": null
+    },
+    {
+      "type": "pressure",
+      "value": "0.05 MPa"
+    }
+  ],
+  "reactor": {
+    "type": "open channel",
+    "inner_diameter": "120 μm"
+  },
+  "metrics": {
+    "conversion": 95.0,
+    "yield": 95.0,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

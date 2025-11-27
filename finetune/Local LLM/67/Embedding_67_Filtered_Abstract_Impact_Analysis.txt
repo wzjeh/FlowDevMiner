@@ -1,0 +1,11 @@
+# Influence Factor Summary
+
+| Factor | Metric | Direction |
+|--------|--------|-----------|
+| temperature | EAQ_conversion | increase |
+| H2_volume_flow_rate | conversion | increase |
+| residence_time | TFMB_conversion | increase |
+| N2_addition | overall_mass_transfer_coefficient | unchanged |
+| EAQ_concentration | conversion | decrease |
+| reaction_temperature | product_selectivity | increase |
+| pattern = r"(\w+)\s*\ | \s*(\w+)(?:\s* | - |

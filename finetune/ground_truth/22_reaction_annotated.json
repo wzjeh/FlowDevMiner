@@ -1,0 +1,60 @@
+{
+  "reaction_type": "polymerization",
+  "reactants": [
+    {
+      "name": "butyl acrylate",
+      "role": "reactant"
+    },
+    {
+      "name": "divinylbenzene",
+      "role": "reactant"
+    },
+    {
+      "name": "null",
+      "role": "catalyst"
+    },
+    {
+      "name": "null",
+      "role": "catalyst"
+    },
+    {
+      "name": "toluene",
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "poly(butyl acrylate)",
+      "yield_optimal": null,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "80 ﾂｰC"
+    },
+    {
+      "type": "residence_time",
+      "value": "30 min"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "null"
+    },
+    {
+      "type": "pressure",
+      "value": "null"
+    }
+  ],
+  "reactor": {
+    "type": "capillary",
+    "inner_diameter": "1 mm"
+  },
+  "metrics": {
+    "conversion": 99,
+    "yield": null,
+    "selectivity": null,
+    "unit": "%"
+  }
+}

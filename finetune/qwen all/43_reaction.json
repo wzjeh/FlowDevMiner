@@ -1,0 +1,56 @@
+{
+  "reaction_type": "nitration",
+  "reactants": [
+    {
+      "name": "toluene",
+      "role": "reactant"
+    },
+    {
+      "name": "concentrated nitric acid",
+      "role": "reactant"
+    },
+    {
+      "name": null,
+      "role": "catalyst"
+    },
+    {
+      "name": null,
+      "role": "solvent"
+    }
+  ],
+  "products": [
+    {
+      "name": "nitrotoluene",
+      "yield_optimal": 89.5,
+      "unit": "%"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "temperature",
+      "value": "22 °C"
+    },
+    {
+      "type": "residence_time",
+      "value": "160 s"
+    },
+    {
+      "type": "flow_rate_total",
+      "value": "0.2 mL/min"
+    },
+    {
+      "type": "pressure",
+      "value": null
+    }
+  ],
+  "reactor": {
+    "type": "tubular",
+    "inner_diameter": "0.775 mm"
+  },
+  "metrics": {
+    "conversion": 95.0,
+    "yield": 89.5,
+    "selectivity": 94.0,
+    "unit": "%"
+  }
+}
