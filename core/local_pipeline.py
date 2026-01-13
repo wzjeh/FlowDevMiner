@@ -256,6 +256,21 @@ class LocalPipeline:
                     results.append('Yes')
                     continue
             
+            # --- NEW: Enhanced Filter for Reactor & Conditions ---
+            # 捕获反应器特定信息 (inner diameter, microreactor, etc.)
+            if any(k in content_lower for k in ["inner diameter", "internal diameter", "microreactor", "micro-reactor", "flow rate", "residence time", "back pressure"]):
+                results.append('Yes')
+                continue
+            
+            # 捕获带有单位的实验条件 (temp, pressure, flow)
+            # e.g. "100 °C", "5 bar", "1.0 mL/min"
+            # 这是一个强信号，表明包含具体实验参数
+            import re
+            if re.search(r"(?:\d+\s*(?:°C|°F|K|bar|MPa|psi|mL/min|µL/min|ul/min))", content, re.IGNORECASE):
+                results.append('Yes')
+                continue
+            # -----------------------------------------------------
+            
             # 3) 其它情况交给 LLM 判断
             prompt = self._create_prompt(system_prompt, user_question, content)
             model = self._get_stage_model('filter')
@@ -533,6 +548,7 @@ class LocalPipeline:
                 "Do NOT output non-types such as conversion, batch synthesis, microfluidic regime, gas-liquid system, Bayesian optimization, synthesis, process, purge.\n\n"
                 "Rules:\n"
                 "- Extract values exactly as they appear; if not present, use null.\n"
+                "- SPECIAL ATTENTION: For reactor 'inner_diameter', ONLY extract if a specific number with unit (mm/microns) is explicitly stated. DO NOT assume 0.5 mm or 'coil' unless written.\n"
                 "- Prefer full chemical names with abbreviations (e.g. \"3-methyl-2-nitrobenzoic acid (MNA)\") if available in text.\n"
                 "- No guessing or inventions; use null/empty arrays when unknown.\n"
                 "- Output ONLY valid JSON without extra text.\n"
@@ -688,7 +704,31 @@ class LocalPipeline:
                         c["value"] = None
                     fixed_conds.append(c)
                 obj["conditions"] = fixed_conds
-                # 4) 反应类型归一化与最终 schema/顺序
+                
+                # 5) Reactor 原文对齐校验: 避免幻觉 (如 0.5 mm)
+                # 必须在原文中找到对应的数值 (0.5) 或者完整短语
+                rea = obj.get("reactor") or {}
+                if isinstance(rea, dict):
+                    dia = rea.get("inner_diameter")
+                    if isinstance(dia, (int, float)):
+                        if not _num_in_text(dia):
+                            rea["inner_diameter"] = None
+                    elif isinstance(dia, str) and dia:
+                        # 尝试提取数字部分进行校验
+                        import re
+                        m = re.search(r"(\d+\.?\d*)", dia)
+                        if m:
+                            num_val = m.group(1)
+                            # 如果原文里连这个数字都没出现，那肯定是幻觉
+                            if num_val not in para:
+                                rea["inner_diameter"] = None
+                        else:
+                            # 纯文本描述，如果原文没出现该短语，也置空
+                            if dia not in para:
+                                rea["inner_diameter"] = None
+                    obj["reactor"] = rea
+
+                # 6) 反应类型归一化与最终 schema/顺序
                 obj = self._ensure_schema_and_order(obj)
                 try:
                     return _json.dumps(obj, ensure_ascii=False)

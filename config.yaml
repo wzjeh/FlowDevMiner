@@ -20,7 +20,7 @@ local_model:
   overall: My_Finetuned_Model_Q4_K_M_Mixed.gguf
   # overall: meta-llama-3.1-8b-instruct-q4_k_m-2.gguf
   finetuned_trigger_name: 'My_Finetuned_Model' # <-- 明确告诉它触发器
-  path: models/
+  path: /Users/zhaowenyuan/Projects/FCPDExtractor/models
 
 paths:
   papers_dir: data/papers

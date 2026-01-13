@@ -222,7 +222,7 @@ def normalize_prediction(obj: Dict[str, Any]) -> Dict[str, Any]:
     reactor_src = src.get("reactor", obj.get("reactor", {}))
     if isinstance(reactor_src, dict):
         result["reactor"]["type"] = _norm_str(reactor_src.get("type"))
-        result["reactor"]["inner_diameter"] = _norm_str(reactor_src.get("inner_diameter"))
+        result["reactor"]["inner_diameter"] = _norm_val(reactor_src.get("inner_diameter"))
     # metrics: 预测可能在 reaction_summary 或根级
     metrics_src = src.get("metrics", obj.get("metrics", {}))
     if isinstance(metrics_src, dict):
@@ -274,7 +274,7 @@ def normalize_ground_truth(obj: Dict[str, Any]) -> Dict[str, Any]:
     reactor = src.get("reactor", obj.get("reactor", {}))
     if isinstance(reactor, dict):
         result["reactor"]["type"] = _norm_str(reactor.get("type"))
-        result["reactor"]["inner_diameter"] = _norm_str(reactor.get("inner_diameter"))
+        result["reactor"]["inner_diameter"] = _norm_val(reactor.get("inner_diameter"))
     metrics = src.get("metrics", obj.get("metrics", {}))
     if isinstance(metrics, dict):
         result["metrics"]["conversion"] = _norm_val(metrics.get("conversion"))
